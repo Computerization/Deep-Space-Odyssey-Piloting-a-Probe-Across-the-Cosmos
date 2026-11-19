@@ -1,0 +1,19 @@
+{
+  "acousticSample": true,
+  "sampleSeconds": 3.1995,
+  "acoustic": {
+    "peak": 0.005679259542375803,
+    "rms": 0.002212715404792758
+  },
+  "quiet": {
+    "peak": 0,
+    "rms": 0
+  },
+  "voicesAfter": 0,
+  "cruise": 0.9578551054000854,
+  "observing": 0.7458608150482178,
+  "warningDebounced": true,
+  "ducked": 0.04891718924045563,
+  "muted": 0,
+  "errors": []
+}

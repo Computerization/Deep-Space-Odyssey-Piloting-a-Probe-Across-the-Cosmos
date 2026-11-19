@@ -1,0 +1,941 @@
+{
+  "version": "0.28.0",
+  "results": [
+    {
+      "name": "Chrome",
+      "engineVersion": "158.0.8127.37",
+      "passages": [
+        {
+          "chapter": 0,
+          "progress": 0.1,
+          "date": "30 Oct 1977 · UTC · historical passage",
+          "flightDate": "30 Oct 1977 · UTC",
+          "expectedDate": "30 Oct 1977 · UTC · historical passage",
+          "values": [
+            "1.30 AU",
+            "0.33 AU",
+            "2.7 min",
+            "0.020 AU"
+          ],
+          "expectedSolarDistance": "1.30 AU",
+          "expectedEarthDistance": "0.33 AU",
+          "expectedLightTime": "2.7 min",
+          "trail": true,
+          "markerVisible": true,
+          "jd": 2443446.825377315,
+          "selectedExtent": 12
+        },
+        {
+          "chapter": 0,
+          "progress": 0.5,
+          "date": "05 Jun 1978 · UTC · historical passage",
+          "flightDate": "05 Jun 1978 · UTC",
+          "expectedDate": "05 Jun 1978 · UTC · historical passage",
+          "values": [
+            "3.37 AU",
+            "4.25 AU",
+            "35.4 min",
+            "0.050 AU"
+          ],
+          "expectedSolarDistance": "3.37 AU",
+          "expectedEarthDistance": "4.25 AU",
+          "expectedLightTime": "35.4 min",
+          "trail": true,
+          "markerVisible": true,
+          "jd": 2443665.126886574,
+          "selectedExtent": 12
+        },
+        {
+          "chapter": 0,
+          "progress": 0.9,
+          "date": "09 Jan 1979 · UTC · historical passage",
+          "flightDate": "09 Jan 1979 · UTC",
+          "expectedDate": "09 Jan 1979 · UTC · historical passage",
+          "values": [
+            "4.94 AU",
+            "4.00 AU",
+            "33.3 min",
+            "0.055 AU"
+          ],
+          "expectedSolarDistance": "4.94 AU",
+          "expectedEarthDistance": "4.00 AU",
+          "expectedLightTime": "33.3 min",
+          "trail": true,
+          "markerVisible": true,
+          "jd": 2443883.4283958334,
+          "selectedExtent": 12
+        },
+        {
+          "chapter": 1,
+          "progress": 0.1,
+          "date": "06 May 1979 · UTC · historical passage",
+          "flightDate": "06 May 1979 · UTC",
+          "expectedDate": "06 May 1979 · UTC · historical passage",
+          "values": [
+            "5.50 AU",
+            "5.58 AU",
+            "46.4 min",
+            "0.092 AU"
+          ],
+          "expectedSolarDistance": "5.50 AU",
+          "expectedEarthDistance": "5.58 AU",
+          "expectedLightTime": "46.4 min",
+          "trail": true,
+          "markerVisible": true,
+          "jd": 2443999.8524583336,
+          "selectedExtent": 12
+        },
+        {
+          "chapter": 1,
+          "progress": 0.5,
+          "date": "08 Jan 1980 · UTC · historical passage",
+          "flightDate": "08 Jan 1980 · UTC",
+          "expectedDate": "08 Jan 1980 · UTC · historical passage",
+          "values": [
+            "6.95 AU",
+            "6.44 AU",
+            "53.6 min",
+            "0.228 AU"
+          ],
+          "expectedSolarDistance": "6.95 AU",
+          "expectedEarthDistance": "6.44 AU",
+          "expectedLightTime": "53.6 min",
+          "trail": true,
+          "markerVisible": true,
+          "jd": 2444247.2471990744,
+          "selectedExtent": 12
+        },
+        {
+          "chapter": 1,
+          "progress": 0.9,
+          "date": "12 Sept 1980 · UTC · historical passage",
+          "flightDate": "12 Sept 1980 · UTC",
+          "expectedDate": "12 Sept 1980 · UTC · historical passage",
+          "values": [
+            "8.97 AU",
+            "9.96 AU",
+            "1.4 h",
+            "0.352 AU"
+          ],
+          "expectedSolarDistance": "8.97 AU",
+          "expectedEarthDistance": "9.96 AU",
+          "expectedLightTime": "1.4 h",
+          "trail": true,
+          "markerVisible": true,
+          "jd": 2444494.641939815,
+          "selectedExtent": 12
+        },
+        {
+          "chapter": 2,
+          "progress": 0.1,
+          "date": "17 Oct 1981 · UTC · historical passage",
+          "flightDate": "17 Oct 1981 · UTC",
+          "expectedDate": "17 Oct 1981 · UTC · historical passage",
+          "values": [
+            "11.5 AU",
+            "12.5 AU",
+            "1.7 h",
+            "2.725 AU"
+          ],
+          "expectedSolarDistance": "11.5 AU",
+          "expectedEarthDistance": "12.5 AU",
+          "expectedLightTime": "1.7 h",
+          "trail": true,
+          "markerVisible": true,
+          "jd": 2444894.5115625,
+          "selectedExtent": 12
+        },
+        {
+          "chapter": 2,
+          "progress": 0.5,
+          "date": "30 Jun 1985 · UTC · historical passage",
+          "flightDate": "30 Jun 1985 · UTC",
+          "expectedDate": "30 Jun 1985 · UTC · historical passage",
+          "values": [
+            "23.6 AU",
+            "23.1 AU",
+            "3.2 h",
+            "11.532 AU"
+          ],
+          "expectedSolarDistance": "23.6 AU",
+          "expectedEarthDistance": "23.1 AU",
+          "expectedLightTime": "3.2 h",
+          "trail": true,
+          "markerVisible": true,
+          "jd": 2446246.5953125004,
+          "selectedExtent": 35
+        },
+        {
+          "chapter": 2,
+          "progress": 0.9,
+          "date": "13 Mar 1989 · UTC · historical passage",
+          "flightDate": "13 Mar 1989 · UTC",
+          "expectedDate": "13 Mar 1989 · UTC · historical passage",
+          "values": [
+            "37.0 AU",
+            "36.7 AU",
+            "5.1 h",
+            "19.825 AU"
+          ],
+          "expectedSolarDistance": "37.0 AU",
+          "expectedEarthDistance": "36.7 AU",
+          "expectedLightTime": "5.1 h",
+          "trail": true,
+          "markerVisible": true,
+          "jd": 2447598.6790625,
+          "selectedExtent": 35
+        },
+        {
+          "chapter": 3,
+          "progress": 0.1,
+          "date": "16 May 1992 · UTC · historical passage",
+          "flightDate": "16 May 1992 · UTC",
+          "expectedDate": "16 May 1992 · UTC · historical passage",
+          "values": [
+            "48.6 AU",
+            "47.7 AU",
+            "6.6 h",
+            "26.760 AU"
+          ],
+          "expectedSolarDistance": "48.6 AU",
+          "expectedEarthDistance": "47.7 AU",
+          "expectedLightTime": "6.6 h",
+          "trail": true,
+          "markerVisible": true,
+          "jd": 2448759.48,
+          "selectedExtent": 100
+        },
+        {
+          "chapter": 3,
+          "progress": 0.5,
+          "date": "21 May 2001 · UTC · historical passage",
+          "flightDate": "21 May 2001 · UTC",
+          "expectedDate": "21 May 2001 · UTC · historical passage",
+          "values": [
+            "81.2 AU",
+            "80.3 AU",
+            "11.1 h",
+            "46.003 AU"
+          ],
+          "expectedSolarDistance": "81.2 AU",
+          "expectedEarthDistance": "80.3 AU",
+          "expectedLightTime": "11.1 h",
+          "trail": true,
+          "markerVisible": true,
+          "jd": 2452050.6,
+          "selectedExtent": 100
+        },
+        {
+          "chapter": 3,
+          "progress": 0.9,
+          "date": "25 May 2010 · UTC · historical passage",
+          "flightDate": "25 May 2010 · UTC",
+          "expectedDate": "25 May 2010 · UTC · historical passage",
+          "values": [
+            "113.5 AU",
+            "112.7 AU",
+            "15.6 h",
+            "64.948 AU"
+          ],
+          "expectedSolarDistance": "113.5 AU",
+          "expectedEarthDistance": "112.7 AU",
+          "expectedLightTime": "15.6 h",
+          "trail": true,
+          "markerVisible": true,
+          "jd": 2455341.72,
+          "selectedExtent": 100
+        },
+        {
+          "chapter": 4,
+          "progress": 0.1,
+          "date": "26 Jan 2014 · UTC · projected passage",
+          "flightDate": "26 Jan 2014 · UTC · projected passage",
+          "expectedDate": "26 Jan 2014 · UTC · projected passage",
+          "values": [
+            "126.7 AU",
+            "127.2 AU",
+            "17.6 h",
+            "72.630 AU"
+          ],
+          "expectedSolarDistance": "126.7 AU",
+          "expectedEarthDistance": "127.2 AU",
+          "expectedLightTime": "17.6 h",
+          "trail": true,
+          "markerVisible": true,
+          "jd": 2456684.3427858795,
+          "selectedExtent": 200
+        },
+        {
+          "chapter": 4,
+          "progress": 0.5,
+          "date": "07 Oct 2019 · UTC · projected passage",
+          "flightDate": "07 Oct 2019 · UTC · projected passage",
+          "expectedDate": "07 Oct 2019 · UTC · projected passage",
+          "values": [
+            "147.0 AU",
+            "147.4 AU",
+            "20.4 h",
+            "84.491 AU"
+          ],
+          "expectedSolarDistance": "147.0 AU",
+          "expectedEarthDistance": "147.4 AU",
+          "expectedLightTime": "20.4 h",
+          "trail": true,
+          "markerVisible": true,
+          "jd": 2458763.713929398,
+          "selectedExtent": 200
+        },
+        {
+          "chapter": 4,
+          "progress": 0.9,
+          "date": "16 Jun 2025 · UTC · projected passage",
+          "flightDate": "16 Jun 2025 · UTC · projected passage",
+          "expectedDate": "16 Jun 2025 · UTC · projected passage",
+          "values": [
+            "167.3 AU",
+            "166.5 AU",
+            "23.1 h",
+            "96.318 AU"
+          ],
+          "expectedSolarDistance": "167.3 AU",
+          "expectedEarthDistance": "166.5 AU",
+          "expectedLightTime": "23.1 h",
+          "trail": true,
+          "markerVisible": true,
+          "jd": 2460843.0850729165,
+          "selectedExtent": 200
+        }
+      ],
+      "selectionFits": true,
+      "manualScaleRetained": true,
+      "titleSnapshotCorrect": true,
+      "flightStatePreserved": true,
+      "errors": [],
+      "passed": true
+    },
+    {
+      "name": "Firefox",
+      "engineVersion": "153.0",
+      "passages": [
+        {
+          "chapter": 0,
+          "progress": 0.1,
+          "date": "30 Oct 1977 · UTC · historical passage",
+          "flightDate": "30 Oct 1977 · UTC",
+          "expectedDate": "30 Oct 1977 · UTC · historical passage",
+          "values": [
+            "1.30 AU",
+            "0.33 AU",
+            "2.7 min",
+            "0.020 AU"
+          ],
+          "expectedSolarDistance": "1.30 AU",
+          "expectedEarthDistance": "0.33 AU",
+          "expectedLightTime": "2.7 min",
+          "trail": true,
+          "markerVisible": true,
+          "jd": 2443446.825377315,
+          "selectedExtent": 12
+        },
+        {
+          "chapter": 0,
+          "progress": 0.5,
+          "date": "05 Jun 1978 · UTC · historical passage",
+          "flightDate": "05 Jun 1978 · UTC",
+          "expectedDate": "05 Jun 1978 · UTC · historical passage",
+          "values": [
+            "3.37 AU",
+            "4.25 AU",
+            "35.4 min",
+            "0.050 AU"
+          ],
+          "expectedSolarDistance": "3.37 AU",
+          "expectedEarthDistance": "4.25 AU",
+          "expectedLightTime": "35.4 min",
+          "trail": true,
+          "markerVisible": true,
+          "jd": 2443665.126886574,
+          "selectedExtent": 12
+        },
+        {
+          "chapter": 0,
+          "progress": 0.9,
+          "date": "09 Jan 1979 · UTC · historical passage",
+          "flightDate": "09 Jan 1979 · UTC",
+          "expectedDate": "09 Jan 1979 · UTC · historical passage",
+          "values": [
+            "4.94 AU",
+            "4.00 AU",
+            "33.3 min",
+            "0.055 AU"
+          ],
+          "expectedSolarDistance": "4.94 AU",
+          "expectedEarthDistance": "4.00 AU",
+          "expectedLightTime": "33.3 min",
+          "trail": true,
+          "markerVisible": true,
+          "jd": 2443883.4283958334,
+          "selectedExtent": 12
+        },
+        {
+          "chapter": 1,
+          "progress": 0.1,
+          "date": "06 May 1979 · UTC · historical passage",
+          "flightDate": "06 May 1979 · UTC",
+          "expectedDate": "06 May 1979 · UTC · historical passage",
+          "values": [
+            "5.50 AU",
+            "5.58 AU",
+            "46.4 min",
+            "0.092 AU"
+          ],
+          "expectedSolarDistance": "5.50 AU",
+          "expectedEarthDistance": "5.58 AU",
+          "expectedLightTime": "46.4 min",
+          "trail": true,
+          "markerVisible": true,
+          "jd": 2443999.8524583336,
+          "selectedExtent": 12
+        },
+        {
+          "chapter": 1,
+          "progress": 0.5,
+          "date": "08 Jan 1980 · UTC · historical passage",
+          "flightDate": "08 Jan 1980 · UTC",
+          "expectedDate": "08 Jan 1980 · UTC · historical passage",
+          "values": [
+            "6.95 AU",
+            "6.44 AU",
+            "53.6 min",
+            "0.228 AU"
+          ],
+          "expectedSolarDistance": "6.95 AU",
+          "expectedEarthDistance": "6.44 AU",
+          "expectedLightTime": "53.6 min",
+          "trail": true,
+          "markerVisible": true,
+          "jd": 2444247.2471990744,
+          "selectedExtent": 12
+        },
+        {
+          "chapter": 1,
+          "progress": 0.9,
+          "date": "12 Sept 1980 · UTC · historical passage",
+          "flightDate": "12 Sept 1980 · UTC",
+          "expectedDate": "12 Sept 1980 · UTC · historical passage",
+          "values": [
+            "8.97 AU",
+            "9.96 AU",
+            "1.4 h",
+            "0.352 AU"
+          ],
+          "expectedSolarDistance": "8.97 AU",
+          "expectedEarthDistance": "9.96 AU",
+          "expectedLightTime": "1.4 h",
+          "trail": true,
+          "markerVisible": true,
+          "jd": 2444494.641939815,
+          "selectedExtent": 12
+        },
+        {
+          "chapter": 2,
+          "progress": 0.1,
+          "date": "17 Oct 1981 · UTC · historical passage",
+          "flightDate": "17 Oct 1981 · UTC",
+          "expectedDate": "17 Oct 1981 · UTC · historical passage",
+          "values": [
+            "11.5 AU",
+            "12.5 AU",
+            "1.7 h",
+            "2.725 AU"
+          ],
+          "expectedSolarDistance": "11.5 AU",
+          "expectedEarthDistance": "12.5 AU",
+          "expectedLightTime": "1.7 h",
+          "trail": true,
+          "markerVisible": true,
+          "jd": 2444894.5115625,
+          "selectedExtent": 12
+        },
+        {
+          "chapter": 2,
+          "progress": 0.5,
+          "date": "30 Jun 1985 · UTC · historical passage",
+          "flightDate": "30 Jun 1985 · UTC",
+          "expectedDate": "30 Jun 1985 · UTC · historical passage",
+          "values": [
+            "23.6 AU",
+            "23.1 AU",
+            "3.2 h",
+            "11.532 AU"
+          ],
+          "expectedSolarDistance": "23.6 AU",
+          "expectedEarthDistance": "23.1 AU",
+          "expectedLightTime": "3.2 h",
+          "trail": true,
+          "markerVisible": true,
+          "jd": 2446246.5953125004,
+          "selectedExtent": 35
+        },
+        {
+          "chapter": 2,
+          "progress": 0.9,
+          "date": "13 Mar 1989 · UTC · historical passage",
+          "flightDate": "13 Mar 1989 · UTC",
+          "expectedDate": "13 Mar 1989 · UTC · historical passage",
+          "values": [
+            "37.0 AU",
+            "36.7 AU",
+            "5.1 h",
+            "19.825 AU"
+          ],
+          "expectedSolarDistance": "37.0 AU",
+          "expectedEarthDistance": "36.7 AU",
+          "expectedLightTime": "5.1 h",
+          "trail": true,
+          "markerVisible": true,
+          "jd": 2447598.6790625,
+          "selectedExtent": 35
+        },
+        {
+          "chapter": 3,
+          "progress": 0.1,
+          "date": "16 May 1992 · UTC · historical passage",
+          "flightDate": "16 May 1992 · UTC",
+          "expectedDate": "16 May 1992 · UTC · historical passage",
+          "values": [
+            "48.6 AU",
+            "47.7 AU",
+            "6.6 h",
+            "26.760 AU"
+          ],
+          "expectedSolarDistance": "48.6 AU",
+          "expectedEarthDistance": "47.7 AU",
+          "expectedLightTime": "6.6 h",
+          "trail": true,
+          "markerVisible": true,
+          "jd": 2448759.48,
+          "selectedExtent": 100
+        },
+        {
+          "chapter": 3,
+          "progress": 0.5,
+          "date": "21 May 2001 · UTC · historical passage",
+          "flightDate": "21 May 2001 · UTC",
+          "expectedDate": "21 May 2001 · UTC · historical passage",
+          "values": [
+            "81.2 AU",
+            "80.3 AU",
+            "11.1 h",
+            "46.003 AU"
+          ],
+          "expectedSolarDistance": "81.2 AU",
+          "expectedEarthDistance": "80.3 AU",
+          "expectedLightTime": "11.1 h",
+          "trail": true,
+          "markerVisible": true,
+          "jd": 2452050.6,
+          "selectedExtent": 100
+        },
+        {
+          "chapter": 3,
+          "progress": 0.9,
+          "date": "25 May 2010 · UTC · historical passage",
+          "flightDate": "25 May 2010 · UTC",
+          "expectedDate": "25 May 2010 · UTC · historical passage",
+          "values": [
+            "113.5 AU",
+            "112.7 AU",
+            "15.6 h",
+            "64.948 AU"
+          ],
+          "expectedSolarDistance": "113.5 AU",
+          "expectedEarthDistance": "112.7 AU",
+          "expectedLightTime": "15.6 h",
+          "trail": true,
+          "markerVisible": true,
+          "jd": 2455341.72,
+          "selectedExtent": 100
+        },
+        {
+          "chapter": 4,
+          "progress": 0.1,
+          "date": "26 Jan 2014 · UTC · projected passage",
+          "flightDate": "26 Jan 2014 · UTC · projected passage",
+          "expectedDate": "26 Jan 2014 · UTC · projected passage",
+          "values": [
+            "126.7 AU",
+            "127.2 AU",
+            "17.6 h",
+            "72.630 AU"
+          ],
+          "expectedSolarDistance": "126.7 AU",
+          "expectedEarthDistance": "127.2 AU",
+          "expectedLightTime": "17.6 h",
+          "trail": true,
+          "markerVisible": true,
+          "jd": 2456684.3427858795,
+          "selectedExtent": 200
+        },
+        {
+          "chapter": 4,
+          "progress": 0.5,
+          "date": "07 Oct 2019 · UTC · projected passage",
+          "flightDate": "07 Oct 2019 · UTC · projected passage",
+          "expectedDate": "07 Oct 2019 · UTC · projected passage",
+          "values": [
+            "147.0 AU",
+            "147.4 AU",
+            "20.4 h",
+            "84.491 AU"
+          ],
+          "expectedSolarDistance": "147.0 AU",
+          "expectedEarthDistance": "147.4 AU",
+          "expectedLightTime": "20.4 h",
+          "trail": true,
+          "markerVisible": true,
+          "jd": 2458763.713929398,
+          "selectedExtent": 200
+        },
+        {
+          "chapter": 4,
+          "progress": 0.9,
+          "date": "16 Jun 2025 · UTC · projected passage",
+          "flightDate": "16 Jun 2025 · UTC · projected passage",
+          "expectedDate": "16 Jun 2025 · UTC · projected passage",
+          "values": [
+            "167.3 AU",
+            "166.5 AU",
+            "23.1 h",
+            "96.318 AU"
+          ],
+          "expectedSolarDistance": "167.3 AU",
+          "expectedEarthDistance": "166.5 AU",
+          "expectedLightTime": "23.1 h",
+          "trail": true,
+          "markerVisible": true,
+          "jd": 2460843.0850729165,
+          "selectedExtent": 200
+        }
+      ],
+      "selectionFits": true,
+      "manualScaleRetained": true,
+      "titleSnapshotCorrect": true,
+      "flightStatePreserved": true,
+      "errors": [],
+      "passed": true
+    },
+    {
+      "name": "WebKit",
+      "engineVersion": "26.5",
+      "passages": [
+        {
+          "chapter": 0,
+          "progress": 0.1,
+          "date": "30 Oct 1977 · UTC · historical passage",
+          "flightDate": "30 Oct 1977 · UTC",
+          "expectedDate": "30 Oct 1977 · UTC · historical passage",
+          "values": [
+            "1.30 AU",
+            "0.33 AU",
+            "2.7 min",
+            "0.020 AU"
+          ],
+          "expectedSolarDistance": "1.30 AU",
+          "expectedEarthDistance": "0.33 AU",
+          "expectedLightTime": "2.7 min",
+          "trail": true,
+          "markerVisible": true,
+          "jd": 2443446.825377315,
+          "selectedExtent": 12
+        },
+        {
+          "chapter": 0,
+          "progress": 0.5,
+          "date": "05 Jun 1978 · UTC · historical passage",
+          "flightDate": "05 Jun 1978 · UTC",
+          "expectedDate": "05 Jun 1978 · UTC · historical passage",
+          "values": [
+            "3.37 AU",
+            "4.25 AU",
+            "35.4 min",
+            "0.050 AU"
+          ],
+          "expectedSolarDistance": "3.37 AU",
+          "expectedEarthDistance": "4.25 AU",
+          "expectedLightTime": "35.4 min",
+          "trail": true,
+          "markerVisible": true,
+          "jd": 2443665.126886574,
+          "selectedExtent": 12
+        },
+        {
+          "chapter": 0,
+          "progress": 0.9,
+          "date": "09 Jan 1979 · UTC · historical passage",
+          "flightDate": "09 Jan 1979 · UTC",
+          "expectedDate": "09 Jan 1979 · UTC · historical passage",
+          "values": [
+            "4.94 AU",
+            "4.00 AU",
+            "33.3 min",
+            "0.055 AU"
+          ],
+          "expectedSolarDistance": "4.94 AU",
+          "expectedEarthDistance": "4.00 AU",
+          "expectedLightTime": "33.3 min",
+          "trail": true,
+          "markerVisible": true,
+          "jd": 2443883.4283958334,
+          "selectedExtent": 12
+        },
+        {
+          "chapter": 1,
+          "progress": 0.1,
+          "date": "06 May 1979 · UTC · historical passage",
+          "flightDate": "06 May 1979 · UTC",
+          "expectedDate": "06 May 1979 · UTC · historical passage",
+          "values": [
+            "5.50 AU",
+            "5.58 AU",
+            "46.4 min",
+            "0.092 AU"
+          ],
+          "expectedSolarDistance": "5.50 AU",
+          "expectedEarthDistance": "5.58 AU",
+          "expectedLightTime": "46.4 min",
+          "trail": true,
+          "markerVisible": true,
+          "jd": 2443999.8524583336,
+          "selectedExtent": 12
+        },
+        {
+          "chapter": 1,
+          "progress": 0.5,
+          "date": "08 Jan 1980 · UTC · historical passage",
+          "flightDate": "08 Jan 1980 · UTC",
+          "expectedDate": "08 Jan 1980 · UTC · historical passage",
+          "values": [
+            "6.95 AU",
+            "6.44 AU",
+            "53.6 min",
+            "0.228 AU"
+          ],
+          "expectedSolarDistance": "6.95 AU",
+          "expectedEarthDistance": "6.44 AU",
+          "expectedLightTime": "53.6 min",
+          "trail": true,
+          "markerVisible": true,
+          "jd": 2444247.2471990744,
+          "selectedExtent": 12
+        },
+        {
+          "chapter": 1,
+          "progress": 0.9,
+          "date": "12 Sep 1980 · UTC · historical passage",
+          "flightDate": "12 Sep 1980 · UTC",
+          "expectedDate": "12 Sep 1980 · UTC · historical passage",
+          "values": [
+            "8.97 AU",
+            "9.96 AU",
+            "1.4 h",
+            "0.352 AU"
+          ],
+          "expectedSolarDistance": "8.97 AU",
+          "expectedEarthDistance": "9.96 AU",
+          "expectedLightTime": "1.4 h",
+          "trail": true,
+          "markerVisible": true,
+          "jd": 2444494.641939815,
+          "selectedExtent": 12
+        },
+        {
+          "chapter": 2,
+          "progress": 0.1,
+          "date": "17 Oct 1981 · UTC · historical passage",
+          "flightDate": "17 Oct 1981 · UTC",
+          "expectedDate": "17 Oct 1981 · UTC · historical passage",
+          "values": [
+            "11.5 AU",
+            "12.5 AU",
+            "1.7 h",
+            "2.725 AU"
+          ],
+          "expectedSolarDistance": "11.5 AU",
+          "expectedEarthDistance": "12.5 AU",
+          "expectedLightTime": "1.7 h",
+          "trail": true,
+          "markerVisible": true,
+          "jd": 2444894.5115625,
+          "selectedExtent": 12
+        },
+        {
+          "chapter": 2,
+          "progress": 0.5,
+          "date": "30 Jun 1985 · UTC · historical passage",
+          "flightDate": "30 Jun 1985 · UTC",
+          "expectedDate": "30 Jun 1985 · UTC · historical passage",
+          "values": [
+            "23.6 AU",
+            "23.1 AU",
+            "3.2 h",
+            "11.532 AU"
+          ],
+          "expectedSolarDistance": "23.6 AU",
+          "expectedEarthDistance": "23.1 AU",
+          "expectedLightTime": "3.2 h",
+          "trail": true,
+          "markerVisible": true,
+          "jd": 2446246.5953125004,
+          "selectedExtent": 35
+        },
+        {
+          "chapter": 2,
+          "progress": 0.9,
+          "date": "13 Mar 1989 · UTC · historical passage",
+          "flightDate": "13 Mar 1989 · UTC",
+          "expectedDate": "13 Mar 1989 · UTC · historical passage",
+          "values": [
+            "37.0 AU",
+            "36.7 AU",
+            "5.1 h",
+            "19.825 AU"
+          ],
+          "expectedSolarDistance": "37.0 AU",
+          "expectedEarthDistance": "36.7 AU",
+          "expectedLightTime": "5.1 h",
+          "trail": true,
+          "markerVisible": true,
+          "jd": 2447598.6790625,
+          "selectedExtent": 35
+        },
+        {
+          "chapter": 3,
+          "progress": 0.1,
+          "date": "16 May 1992 · UTC · historical passage",
+          "flightDate": "16 May 1992 · UTC",
+          "expectedDate": "16 May 1992 · UTC · historical passage",
+          "values": [
+            "48.6 AU",
+            "47.7 AU",
+            "6.6 h",
+            "26.760 AU"
+          ],
+          "expectedSolarDistance": "48.6 AU",
+          "expectedEarthDistance": "47.7 AU",
+          "expectedLightTime": "6.6 h",
+          "trail": true,
+          "markerVisible": true,
+          "jd": 2448759.48,
+          "selectedExtent": 100
+        },
+        {
+          "chapter": 3,
+          "progress": 0.5,
+          "date": "21 May 2001 · UTC · historical passage",
+          "flightDate": "21 May 2001 · UTC",
+          "expectedDate": "21 May 2001 · UTC · historical passage",
+          "values": [
+            "81.2 AU",
+            "80.3 AU",
+            "11.1 h",
+            "46.003 AU"
+          ],
+          "expectedSolarDistance": "81.2 AU",
+          "expectedEarthDistance": "80.3 AU",
+          "expectedLightTime": "11.1 h",
+          "trail": true,
+          "markerVisible": true,
+          "jd": 2452050.6,
+          "selectedExtent": 100
+        },
+        {
+          "chapter": 3,
+          "progress": 0.9,
+          "date": "25 May 2010 · UTC · historical passage",
+          "flightDate": "25 May 2010 · UTC",
+          "expectedDate": "25 May 2010 · UTC · historical passage",
+          "values": [
+            "113.5 AU",
+            "112.7 AU",
+            "15.6 h",
+            "64.948 AU"
+          ],
+          "expectedSolarDistance": "113.5 AU",
+          "expectedEarthDistance": "112.7 AU",
+          "expectedLightTime": "15.6 h",
+          "trail": true,
+          "markerVisible": true,
+          "jd": 2455341.72,
+          "selectedExtent": 100
+        },
+        {
+          "chapter": 4,
+          "progress": 0.1,
+          "date": "26 Jan 2014 · UTC · projected passage",
+          "flightDate": "26 Jan 2014 · UTC · projected passage",
+          "expectedDate": "26 Jan 2014 · UTC · projected passage",
+          "values": [
+            "126.7 AU",
+            "127.2 AU",
+            "17.6 h",
+            "72.630 AU"
+          ],
+          "expectedSolarDistance": "126.7 AU",
+          "expectedEarthDistance": "127.2 AU",
+          "expectedLightTime": "17.6 h",
+          "trail": true,
+          "markerVisible": true,
+          "jd": 2456684.3427858795,
+          "selectedExtent": 200
+        },
+        {
+          "chapter": 4,
+          "progress": 0.5,
+          "date": "07 Oct 2019 · UTC · projected passage",
+          "flightDate": "07 Oct 2019 · UTC · projected passage",
+          "expectedDate": "07 Oct 2019 · UTC · projected passage",
+          "values": [
+            "147.0 AU",
+            "147.4 AU",
+            "20.4 h",
+            "84.491 AU"
+          ],
+          "expectedSolarDistance": "147.0 AU",
+          "expectedEarthDistance": "147.4 AU",
+          "expectedLightTime": "20.4 h",
+          "trail": true,
+          "markerVisible": true,
+          "jd": 2458763.713929398,
+          "selectedExtent": 200
+        },
+        {
+          "chapter": 4,
+          "progress": 0.9,
+          "date": "16 Jun 2025 · UTC · projected passage",
+          "flightDate": "16 Jun 2025 · UTC · projected passage",
+          "expectedDate": "16 Jun 2025 · UTC · projected passage",
+          "values": [
+            "167.3 AU",
+            "166.5 AU",
+            "23.1 h",
+            "96.318 AU"
+          ],
+          "expectedSolarDistance": "167.3 AU",
+          "expectedEarthDistance": "166.5 AU",
+          "expectedLightTime": "23.1 h",
+          "trail": true,
+          "markerVisible": true,
+          "jd": 2460843.0850729165,
+          "selectedExtent": 200
+        }
+      ],
+      "selectionFits": true,
+      "manualScaleRetained": true,
+      "titleSnapshotCorrect": true,
+      "flightStatePreserved": true,
+      "errors": [],
+      "passed": true
+    }
+  ]
+}

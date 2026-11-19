@@ -1,0 +1,119 @@
+{
+  "voyagerGeometryBuffersUnchanged": 19,
+  "voyagerMeshesAndNodesUnchanged": true,
+  "voyagerBytesBefore": 3128204,
+  "voyagerBytesAfter": 1228208,
+  "cloudDimensionsBefore": [
+    8192,
+    4096
+  ],
+  "cloudDimensionsAfter": [
+    8192,
+    4096
+  ],
+  "cloudMaskPSNRAt2048px": 48.93929709011162,
+  "JupiterSource": "NASA/JPL/Space Science Institute PIA07782, 3601 \u00d7 1801",
+  "errors": [],
+  "historicalVideoSSIM": 0.996911,
+  "historicalAudioStreamUnchanged": true,
+  "historicalAudioStreamSHA256": "610a3dfdbb1b631c5178b1356434ef4d9b88497506c50f44909a953d8426cbf0",
+  "obsoleteIntermediatesRemovedBytes": 104019655,
+  "runtimeMaps": {
+    "jupiter.avif": {
+      "dimensions": [
+        3601,
+        1801
+      ],
+      "bytes": 516468
+    },
+    "moon.avif": {
+      "dimensions": [
+        2048,
+        1024
+      ],
+      "bytes": 689267
+    },
+    "earth.avif": {
+      "dimensions": [
+        8192,
+        4096
+      ],
+      "bytes": 2454000
+    },
+    "io.avif": {
+      "dimensions": [
+        4096,
+        2048
+      ],
+      "bytes": 933427
+    },
+    "saturn.avif": {
+      "dimensions": [
+        4096,
+        2048
+      ],
+      "bytes": 165609
+    },
+    "earth-clouds.avif": {
+      "dimensions": [
+        8192,
+        4096
+      ],
+      "bytes": 4447745
+    }
+  },
+  "music": [
+    {
+      "track": "departure",
+      "codec": "Opus",
+      "bytes": 999772,
+      "duration": 96.0,
+      "peak": 0.5202983617782593,
+      "rms": 0.11716651171445847,
+      "loop_step": 0.0017377604963257909
+    },
+    {
+      "track": "encounter",
+      "codec": "Opus",
+      "bytes": 999790,
+      "duration": 96.0,
+      "peak": 0.4795643091201782,
+      "rms": 0.11721093207597733,
+      "loop_step": 0.0009168904507532716
+    },
+    {
+      "track": "rings",
+      "codec": "Opus",
+      "bytes": 999771,
+      "duration": 96.0,
+      "peak": 0.45916762948036194,
+      "rms": 0.11716895550489426,
+      "loop_step": 0.001010008854791522
+    },
+    {
+      "track": "distance",
+      "codec": "Opus",
+      "bytes": 999762,
+      "duration": 96.0,
+      "peak": 0.5021387934684753,
+      "rms": 0.11695366352796555,
+      "loop_step": 0.0026287364307790995
+    }
+  ],
+  "SaturnNorthernStructure": "Hubble OPAL Cycle 26 rotation A, June 2019; observed longitudinal contrast with existing latitude colour palette and southern coverage",
+  "ringProfile": {
+    "previousDimensions": [
+      8192,
+      500
+    ],
+    "dimensions": [
+      8192,
+      1
+    ],
+    "bytesBefore": 64790,
+    "bytesAfter": 9002,
+    "radialSamplesRetained": 8192,
+    "method": "Linear-light average of the two central rows sampled at v=0.5; encoded to 8-bit RGBA.",
+    "baseTextureBytesSaved": 16351232
+  }
+}

@@ -1,0 +1,659 @@
+{
+  "version": "0.82.0",
+  "previous": "/private/tmp/cosmos-v82-previous/Cosmos",
+  "hashes": {
+    "src/rendering/shaders.js": "b84bc54566f3341746f92721e3b3a1b33eafa0e6a60b66840d6a1c0dc6761a91",
+    "src/rendering/scene-factory.js": "cdbcbbedf6afacb3cc48446cca425b883eaa231c7b086f33cbf5c2866f06f8d3",
+    "src/world.js": "d5ea35516001875c1d4ee9ee2169299474e923694124582eea2fe233a090b1f6",
+    "assets/textures/moon-polar-color.avif": "436352504b04a94722f278b66a846a10a024029efc51d2ab0e77c11a6cdfe1ce",
+    "assets/textures/moon-polar-normal.avif": "4e1df67a21b2b9a629b6c133d75d1c1545e95a66946a3dc2e270f3a479f43fec",
+    "/private/tmp/cosmos-polar-reference/normal-reference.png": "53bb2e4a6547d2c17337a386f2ef246da3386ca60f72cee6d7d9b64d4fe4b588",
+    "/private/tmp/cosmos-polar-reference/colour.png": "fe6d78f2a157471d1473fa654a1884e583ce3313e97adff4d2fdd5dfbac94e65"
+  },
+  "reference": "Lossless colour and XYZ normals from source-derived stereographic reprojection; 4x display supersampling and 2x convergence control. This isolates runtime encoding and filtering, not independent terrain reconstruction.",
+  "outcomes": [
+    {
+      "name": "Chrome",
+      "engineVersion": "158.0.8127.37",
+      "views": [
+        {
+          "label": "north",
+          "metrics": {
+            "previous": {
+              "rmse": 8.372088720079615,
+              "max": 109,
+              "pixels": 91561
+            },
+            "candidate": {
+              "rmse": 6.981802931094898,
+              "max": 102,
+              "pixels": 91561
+            },
+            "convergence": {
+              "rmse": 2.0633429104840344,
+              "max": 46,
+              "pixels": 91561
+            }
+          }
+        },
+        {
+          "label": "south",
+          "metrics": {
+            "previous": {
+              "rmse": 3.4079305160109943,
+              "max": 69,
+              "pixels": 91477
+            },
+            "candidate": {
+              "rmse": 3.3409476820887076,
+              "max": 74,
+              "pixels": 91477
+            },
+            "convergence": {
+              "rmse": 0.8756947011545219,
+              "max": 36,
+              "pixels": 91477
+            }
+          }
+        },
+        {
+          "label": "north-detail",
+          "metrics": {
+            "previous": {
+              "rmse": 10.560772356244437,
+              "max": 144,
+              "pixels": 256000
+            },
+            "candidate": {
+              "rmse": 4.560925384676155,
+              "max": 113,
+              "pixels": 256000
+            },
+            "convergence": {
+              "rmse": 0.8263640869294034,
+              "max": 52,
+              "pixels": 256000
+            }
+          }
+        },
+        {
+          "label": "south-detail",
+          "metrics": {
+            "previous": {
+              "rmse": 2.664553443277754,
+              "max": 67,
+              "pixels": 256000
+            },
+            "candidate": {
+              "rmse": 2.4070988762408576,
+              "max": 57,
+              "pixels": 256000
+            },
+            "convergence": {
+              "rmse": 0.22910321091158892,
+              "max": 24,
+              "pixels": 256000
+            }
+          }
+        },
+        {
+          "label": "north-blend",
+          "metrics": {
+            "previous": {
+              "rmse": 7.900847311114706,
+              "max": 130,
+              "pixels": 179720
+            },
+            "candidate": {
+              "rmse": 7.2828616249098905,
+              "max": 130,
+              "pixels": 179720
+            },
+            "convergence": {
+              "rmse": 7.185881604115814,
+              "max": 128,
+              "pixels": 179720
+            }
+          }
+        },
+        {
+          "label": "south-blend",
+          "metrics": {
+            "previous": {
+              "rmse": 8.034998061412843,
+              "max": 86,
+              "pixels": 179487
+            },
+            "candidate": {
+              "rmse": 7.825768147587172,
+              "max": 86,
+              "pixels": 179487
+            },
+            "convergence": {
+              "rmse": 7.301420616909338,
+              "max": 78,
+              "pixels": 179487
+            }
+          }
+        }
+      ],
+      "motion": [
+        {
+          "hemisphere": 1,
+          "latitude": 72,
+          "candidate": {
+            "meanDelta": 0.21403164628623184,
+            "maxDelta": 0.21546875,
+            "repeatedFrames": 0
+          },
+          "reference": {
+            "meanDelta": 0.21347107110507252,
+            "maxDelta": 0.21468619791666665,
+            "repeatedFrames": 0
+          }
+        },
+        {
+          "hemisphere": 1,
+          "latitude": 78,
+          "candidate": {
+            "meanDelta": 0.29730468749999994,
+            "maxDelta": 0.29970703125,
+            "repeatedFrames": 0
+          },
+          "reference": {
+            "meanDelta": 0.28815511775362324,
+            "maxDelta": 0.29223307291666667,
+            "repeatedFrames": 0
+          }
+        },
+        {
+          "hemisphere": 1,
+          "latitude": 88,
+          "candidate": {
+            "meanDelta": 0.9297235620471014,
+            "maxDelta": 0.93572265625,
+            "repeatedFrames": 0
+          },
+          "reference": {
+            "meanDelta": 0.9409974524456521,
+            "maxDelta": 0.9471328125,
+            "repeatedFrames": 0
+          }
+        },
+        {
+          "hemisphere": -1,
+          "latitude": 72,
+          "candidate": {
+            "meanDelta": 0.3219443500905797,
+            "maxDelta": 0.32381640625,
+            "repeatedFrames": 0
+          },
+          "reference": {
+            "meanDelta": 0.32040381567028986,
+            "maxDelta": 0.32200651041666667,
+            "repeatedFrames": 0
+          }
+        },
+        {
+          "hemisphere": -1,
+          "latitude": 78,
+          "candidate": {
+            "meanDelta": 0.45973295969202904,
+            "maxDelta": 0.4617395833333333,
+            "repeatedFrames": 0
+          },
+          "reference": {
+            "meanDelta": 0.4316510416666668,
+            "maxDelta": 0.43434114583333333,
+            "repeatedFrames": 0
+          }
+        },
+        {
+          "hemisphere": -1,
+          "latitude": 88,
+          "candidate": {
+            "meanDelta": 0.018115998641304344,
+            "maxDelta": 0.0195703125,
+            "repeatedFrames": 0
+          },
+          "reference": {
+            "meanDelta": 0.017203125,
+            "maxDelta": 0.01881640625,
+            "repeatedFrames": 0
+          }
+        }
+      ],
+      "errors": [],
+      "passed": true
+    },
+    {
+      "name": "Firefox",
+      "engineVersion": "153.0",
+      "views": [
+        {
+          "label": "north",
+          "metrics": {
+            "previous": {
+              "rmse": 8.34687366298039,
+              "max": 109,
+              "pixels": 91561
+            },
+            "candidate": {
+              "rmse": 6.976766915381502,
+              "max": 102,
+              "pixels": 91561
+            },
+            "convergence": {
+              "rmse": 2.062206324472654,
+              "max": 46,
+              "pixels": 91561
+            }
+          }
+        },
+        {
+          "label": "south",
+          "metrics": {
+            "previous": {
+              "rmse": 3.4203527860041962,
+              "max": 69,
+              "pixels": 91477
+            },
+            "candidate": {
+              "rmse": 3.3432520385538522,
+              "max": 74,
+              "pixels": 91477
+            },
+            "convergence": {
+              "rmse": 0.8748828992389774,
+              "max": 36,
+              "pixels": 91477
+            }
+          }
+        },
+        {
+          "label": "north-detail",
+          "metrics": {
+            "previous": {
+              "rmse": 10.556903164616191,
+              "max": 145,
+              "pixels": 256000
+            },
+            "candidate": {
+              "rmse": 4.560431894294662,
+              "max": 113,
+              "pixels": 256000
+            },
+            "convergence": {
+              "rmse": 0.8269838836095901,
+              "max": 54,
+              "pixels": 256000
+            }
+          }
+        },
+        {
+          "label": "south-detail",
+          "metrics": {
+            "previous": {
+              "rmse": 2.6783689357984275,
+              "max": 66,
+              "pixels": 256000
+            },
+            "candidate": {
+              "rmse": 2.4075699842718317,
+              "max": 57,
+              "pixels": 256000
+            },
+            "convergence": {
+              "rmse": 0.22875341527505114,
+              "max": 24,
+              "pixels": 256000
+            }
+          }
+        },
+        {
+          "label": "north-blend",
+          "metrics": {
+            "previous": {
+              "rmse": 7.895061263757461,
+              "max": 129,
+              "pixels": 179720
+            },
+            "candidate": {
+              "rmse": 7.280495597391075,
+              "max": 129,
+              "pixels": 179720
+            },
+            "convergence": {
+              "rmse": 7.183825346794717,
+              "max": 127,
+              "pixels": 179720
+            }
+          }
+        },
+        {
+          "label": "south-blend",
+          "metrics": {
+            "previous": {
+              "rmse": 8.055727626605533,
+              "max": 85,
+              "pixels": 179486
+            },
+            "candidate": {
+              "rmse": 7.834750826858721,
+              "max": 85,
+              "pixels": 179486
+            },
+            "convergence": {
+              "rmse": 7.31074262946618,
+              "max": 78,
+              "pixels": 179486
+            }
+          }
+        }
+      ],
+      "motion": [
+        {
+          "hemisphere": 1,
+          "latitude": 72,
+          "candidate": {
+            "meanDelta": 0.21444248188405798,
+            "maxDelta": 0.2154921875,
+            "repeatedFrames": 0
+          },
+          "reference": {
+            "meanDelta": 0.21384703351449275,
+            "maxDelta": 0.21473307291666666,
+            "repeatedFrames": 0
+          }
+        },
+        {
+          "hemisphere": 1,
+          "latitude": 78,
+          "candidate": {
+            "meanDelta": 0.29735875226449276,
+            "maxDelta": 0.29982161458333334,
+            "repeatedFrames": 0
+          },
+          "reference": {
+            "meanDelta": 0.2881453238224637,
+            "maxDelta": 0.29193619791666664,
+            "repeatedFrames": 0
+          }
+        },
+        {
+          "hemisphere": 1,
+          "latitude": 88,
+          "candidate": {
+            "meanDelta": 0.9297406023550723,
+            "maxDelta": 0.9354166666666667,
+            "repeatedFrames": 0
+          },
+          "reference": {
+            "meanDelta": 0.9409897531702901,
+            "maxDelta": 0.9470234375,
+            "repeatedFrames": 0
+          }
+        },
+        {
+          "hemisphere": -1,
+          "latitude": 72,
+          "candidate": {
+            "meanDelta": 0.32258706974637685,
+            "maxDelta": 0.32494401041666665,
+            "repeatedFrames": 0
+          },
+          "reference": {
+            "meanDelta": 0.3210794270833333,
+            "maxDelta": 0.32323567708333334,
+            "repeatedFrames": 0
+          }
+        },
+        {
+          "hemisphere": -1,
+          "latitude": 78,
+          "candidate": {
+            "meanDelta": 0.4598415421195651,
+            "maxDelta": 0.4621809895833333,
+            "repeatedFrames": 0
+          },
+          "reference": {
+            "meanDelta": 0.4317887794384059,
+            "maxDelta": 0.43455078125,
+            "repeatedFrames": 0
+          }
+        },
+        {
+          "hemisphere": -1,
+          "latitude": 88,
+          "candidate": {
+            "meanDelta": 0.018115715579710142,
+            "maxDelta": 0.01955859375,
+            "repeatedFrames": 0
+          },
+          "reference": {
+            "meanDelta": 0.017204427083333328,
+            "maxDelta": 0.01879296875,
+            "repeatedFrames": 0
+          }
+        }
+      ],
+      "errors": [],
+      "passed": true
+    },
+    {
+      "name": "WebKit",
+      "engineVersion": "26.5",
+      "views": [
+        {
+          "label": "north",
+          "metrics": {
+            "previous": {
+              "rmse": 8.54776214484791,
+              "max": 107,
+              "pixels": 91561
+            },
+            "candidate": {
+              "rmse": 7.422395631487812,
+              "max": 102,
+              "pixels": 91561
+            },
+            "convergence": {
+              "rmse": 2.063156757990178,
+              "max": 46,
+              "pixels": 91561
+            }
+          }
+        },
+        {
+          "label": "south",
+          "metrics": {
+            "previous": {
+              "rmse": 3.3385991689874155,
+              "max": 67,
+              "pixels": 91477
+            },
+            "candidate": {
+              "rmse": 3.5312404392758734,
+              "max": 75,
+              "pixels": 91477
+            },
+            "convergence": {
+              "rmse": 0.8714525291227759,
+              "max": 36,
+              "pixels": 91477
+            }
+          }
+        },
+        {
+          "label": "north-detail",
+          "metrics": {
+            "previous": {
+              "rmse": 10.610510095144656,
+              "max": 148,
+              "pixels": 256000
+            },
+            "candidate": {
+              "rmse": 4.931896081461301,
+              "max": 113,
+              "pixels": 256000
+            },
+            "convergence": {
+              "rmse": 0.8263640869294034,
+              "max": 52,
+              "pixels": 256000
+            }
+          }
+        },
+        {
+          "label": "south-detail",
+          "metrics": {
+            "previous": {
+              "rmse": 2.5199340682512577,
+              "max": 68,
+              "pixels": 256000
+            },
+            "candidate": {
+              "rmse": 2.833561648276482,
+              "max": 56,
+              "pixels": 256000
+            },
+            "convergence": {
+              "rmse": 0.22910321091158892,
+              "max": 24,
+              "pixels": 256000
+            }
+          }
+        },
+        {
+          "label": "north-blend",
+          "metrics": {
+            "previous": {
+              "rmse": 7.5981808465882965,
+              "max": 130,
+              "pixels": 179720
+            },
+            "candidate": {
+              "rmse": 7.021808074432943,
+              "max": 130,
+              "pixels": 179720
+            },
+            "convergence": {
+              "rmse": 6.994768614219226,
+              "max": 126,
+              "pixels": 179720
+            }
+          }
+        },
+        {
+          "label": "south-blend",
+          "metrics": {
+            "previous": {
+              "rmse": 8.254149414661331,
+              "max": 90,
+              "pixels": 179487
+            },
+            "candidate": {
+              "rmse": 8.010273396006255,
+              "max": 90,
+              "pixels": 179487
+            },
+            "convergence": {
+              "rmse": 7.503302978373583,
+              "max": 82,
+              "pixels": 179487
+            }
+          }
+        }
+      ],
+      "motion": [
+        {
+          "hemisphere": 1,
+          "latitude": 72,
+          "candidate": {
+            "meanDelta": 0.2115191349637681,
+            "maxDelta": 0.212734375,
+            "repeatedFrames": 0
+          },
+          "reference": {
+            "meanDelta": 0.21127043704710147,
+            "maxDelta": 0.21219921875,
+            "repeatedFrames": 0
+          }
+        },
+        {
+          "hemisphere": 1,
+          "latitude": 78,
+          "candidate": {
+            "meanDelta": 0.2932235054347826,
+            "maxDelta": 0.2962838541666667,
+            "repeatedFrames": 0
+          },
+          "reference": {
+            "meanDelta": 0.2874931499094204,
+            "maxDelta": 0.29115625,
+            "repeatedFrames": 0
+          }
+        },
+        {
+          "hemisphere": 1,
+          "latitude": 88,
+          "candidate": {
+            "meanDelta": 0.9213509397644929,
+            "maxDelta": 0.9277005208333333,
+            "repeatedFrames": 0
+          },
+          "reference": {
+            "meanDelta": 0.9409974524456521,
+            "maxDelta": 0.9471328125,
+            "repeatedFrames": 0
+          }
+        },
+        {
+          "hemisphere": -1,
+          "latitude": 72,
+          "candidate": {
+            "meanDelta": 0.3241009397644928,
+            "maxDelta": 0.32590625,
+            "repeatedFrames": 0
+          },
+          "reference": {
+            "meanDelta": 0.32340868432971015,
+            "maxDelta": 0.3254752604166667,
+            "repeatedFrames": 0
+          }
+        },
+        {
+          "hemisphere": -1,
+          "latitude": 78,
+          "candidate": {
+            "meanDelta": 0.461002830615942,
+            "maxDelta": 0.46313802083333333,
+            "repeatedFrames": 0
+          },
+          "reference": {
+            "meanDelta": 0.43221812726449277,
+            "maxDelta": 0.43489453125,
+            "repeatedFrames": 0
+          }
+        },
+        {
+          "hemisphere": -1,
+          "latitude": 88,
+          "candidate": {
+            "meanDelta": 0.019065726902173917,
+            "maxDelta": 0.020578125,
+            "repeatedFrames": 0
+          },
+          "reference": {
+            "meanDelta": 0.017203125,
+            "maxDelta": 0.01881640625,
+            "repeatedFrames": 0
+          }
+        }
+      ],
+      "errors": [],
+      "passed": true
+    }
+  ],
+  "verificationSourceSha256": "6b5aa54ae724beb4368acbdca786767c13a5dde597f47454acf17749e25ecad2"
+}

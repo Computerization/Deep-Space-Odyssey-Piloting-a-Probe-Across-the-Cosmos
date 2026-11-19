@@ -1,0 +1,825 @@
+{
+  "version": "0.90.0",
+  "files": {
+    "control": "/private/tmp/cosmos-cloud-release-source/hybrid-8192.png",
+    "reference": "/private/tmp/cosmos-cloud-release-source/reference-r8.bin",
+    "candidate": "assets/textures/earth-clouds.avif"
+  },
+  "hashes": {
+    "/private/tmp/cosmos-cloud-release-source/hybrid-8192.png": "fb9530aa94ac7e2818babf9fc7eb5f415b0ca8544d0ce4915be2ca20494e2228",
+    "/private/tmp/cosmos-cloud-release-source/reference-r8.bin": "3d409156891d4add85a2c374a2ab06ce60c0acac02c92cd1a7f5f09523f664e6",
+    "assets/textures/earth-clouds.avif": "52c8504370bc943b07f743083125ee4eca883524d770ab80757ba43ef4927d47",
+    "assets/textures/earth-cloud-height.png": "e459fde568e5666da55abfaeffb18dc88ae13fc29d91d442d7f0318fd16d19bb",
+    "src/world.js": "726b300f85d32142b490f6dcdab3838bb4ea0e7cb6d040c2093176e7dbcb2614",
+    "src/rendering/scene-factory.js": "ae8294bfe8611a4623fce5a72a319789350f4c09ed7c4bac76586f482e395711",
+    "src/rendering/earth-shaders.js": "22eb1230a69fb88287bf39649a2260ba96a6baf91c7f6cd884c093e619e7efd1"
+  },
+  "textureLimit": 4096,
+  "reference": "Exact bottom-first R8 source; lossless same-source 8K control. Shared 2K inferred-height field and production shaders. Native source retention, not measured 3D weather or photographic equivalence. Polar gradient and broad-view tradeoffs are retained in the metrics.",
+  "outcomes": [
+    {
+      "name": "Chrome",
+      "engineVersion": "158.0.8127.37",
+      "runnerSha256": "68ca7f99e0af1c39ead02f396e0f6fe50b33608df7add51bb17de9aca5abbe1d",
+      "maxTextureSize": 16384,
+      "constrained": true,
+      "views": {
+        "ultra-day": {
+          "candidate": {
+            "label": "day",
+            "quality": "ultra",
+            "physicalStatePreserved": true,
+            "physical": "[[144474457.83116025,-17171778.480158877,39596214.79159133],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[0.01577675287351146,0.9401668523387668,0.043949052387549814,-0.33749942907569486],0,104]",
+            "maps": [
+              {
+                "size": [
+                  4096,
+                  2048
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -1,
+            "resources": {
+              "calls": 7,
+              "triangles": 292866,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "metrics": {
+            "errors": null,
+            "repeats": {
+              "candidate": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              }
+            }
+          }
+        },
+        "ultra-close": {
+          "candidate": {
+            "label": "close",
+            "quality": "ultra",
+            "physicalStatePreserved": true,
+            "physical": "[[144479587.10025,-17172534.136202186,39602438.405753665],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[0.015776752873507754,0.9401668523386231,0.04394905238747942,-0.33749942907610453],0,104]",
+            "maps": [
+              {
+                "size": [
+                  4096,
+                  2048
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -1,
+            "resources": {
+              "calls": 7,
+              "triangles": 292866,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "metrics": {
+            "errors": null,
+            "repeats": {
+              "candidate": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              }
+            }
+          }
+        },
+        "ultra-transition": {
+          "candidate": {
+            "label": "transition",
+            "quality": "ultra",
+            "physicalStatePreserved": true,
+            "physical": "[[144481068.83092085,-17167534.104262087,39605026.2707681],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[0.18338248775004473,0.814058295180937,0.4237719256995131,-0.35227448136735307],0,104]",
+            "maps": [
+              {
+                "size": [
+                  4096,
+                  2048
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -1,
+            "resources": {
+              "calls": 7,
+              "triangles": 292866,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "metrics": {
+            "errors": null,
+            "repeats": {
+              "candidate": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              }
+            }
+          }
+        },
+        "high-day": {
+          "candidate": {
+            "label": "day",
+            "quality": "high",
+            "physicalStatePreserved": true,
+            "physical": "[[144474457.83116025,-17171778.480158877,39596214.79159133],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[0.01577675287351146,0.9401668523387668,0.043949052387549814,-0.33749942907569486],0,104]",
+            "maps": [
+              {
+                "size": [
+                  4096,
+                  2048
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -1,
+            "resources": {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "metrics": {
+            "errors": null,
+            "repeats": {
+              "candidate": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              }
+            }
+          }
+        },
+        "high-close": {
+          "candidate": {
+            "label": "close",
+            "quality": "high",
+            "physicalStatePreserved": true,
+            "physical": "[[144479587.10025,-17172534.136202186,39602438.405753665],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[0.015776752873507754,0.9401668523386231,0.04394905238747942,-0.33749942907610453],0,104]",
+            "maps": [
+              {
+                "size": [
+                  4096,
+                  2048
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -1,
+            "resources": {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "metrics": {
+            "errors": null,
+            "repeats": {
+              "candidate": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              }
+            }
+          }
+        },
+        "high-transition": {
+          "candidate": {
+            "label": "transition",
+            "quality": "high",
+            "physicalStatePreserved": true,
+            "physical": "[[144481068.83092085,-17167534.104262087,39605026.2707681],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[0.18338248775004473,0.814058295180937,0.4237719256995131,-0.35227448136735307],0,104]",
+            "maps": [
+              {
+                "size": [
+                  4096,
+                  2048
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -1,
+            "resources": {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "metrics": {
+            "errors": null,
+            "repeats": {
+              "candidate": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              }
+            }
+          }
+        }
+      },
+      "errors": []
+    },
+    {
+      "name": "Firefox",
+      "engineVersion": "153.0",
+      "runnerSha256": "68ca7f99e0af1c39ead02f396e0f6fe50b33608df7add51bb17de9aca5abbe1d",
+      "maxTextureSize": 8192,
+      "constrained": true,
+      "views": {
+        "ultra-day": {
+          "candidate": {
+            "label": "day",
+            "quality": "ultra",
+            "physicalStatePreserved": true,
+            "physical": "[[144474457.83116025,-17171778.480158877,39596214.79159133],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[0.01577675287351146,0.9401668523387668,0.043949052387549814,-0.33749942907569486],0,104]",
+            "maps": [
+              {
+                "size": [
+                  4096,
+                  2048
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -1,
+            "resources": {
+              "calls": 7,
+              "triangles": 292866,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "metrics": {
+            "errors": null,
+            "repeats": {
+              "candidate": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              }
+            }
+          }
+        },
+        "ultra-close": {
+          "candidate": {
+            "label": "close",
+            "quality": "ultra",
+            "physicalStatePreserved": true,
+            "physical": "[[144479587.10025,-17172534.136202186,39602438.405753665],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[0.015776752873507754,0.9401668523386231,0.04394905238747942,-0.33749942907610453],0,104]",
+            "maps": [
+              {
+                "size": [
+                  4096,
+                  2048
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -1,
+            "resources": {
+              "calls": 7,
+              "triangles": 292866,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "metrics": {
+            "errors": null,
+            "repeats": {
+              "candidate": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              }
+            }
+          }
+        },
+        "ultra-transition": {
+          "candidate": {
+            "label": "transition",
+            "quality": "ultra",
+            "physicalStatePreserved": true,
+            "physical": "[[144481068.83092085,-17167534.104262087,39605026.2707681],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[0.18338248775004473,0.814058295180937,0.4237719256995131,-0.35227448136735307],0,104]",
+            "maps": [
+              {
+                "size": [
+                  4096,
+                  2048
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -1,
+            "resources": {
+              "calls": 7,
+              "triangles": 292866,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "metrics": {
+            "errors": null,
+            "repeats": {
+              "candidate": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              }
+            }
+          }
+        },
+        "high-day": {
+          "candidate": {
+            "label": "day",
+            "quality": "high",
+            "physicalStatePreserved": true,
+            "physical": "[[144474457.83116025,-17171778.480158877,39596214.79159133],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[0.01577675287351146,0.9401668523387668,0.043949052387549814,-0.33749942907569486],0,104]",
+            "maps": [
+              {
+                "size": [
+                  4096,
+                  2048
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -1,
+            "resources": {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "metrics": {
+            "errors": null,
+            "repeats": {
+              "candidate": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              }
+            }
+          }
+        },
+        "high-close": {
+          "candidate": {
+            "label": "close",
+            "quality": "high",
+            "physicalStatePreserved": true,
+            "physical": "[[144479587.10025,-17172534.136202186,39602438.405753665],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[0.015776752873507754,0.9401668523386231,0.04394905238747942,-0.33749942907610453],0,104]",
+            "maps": [
+              {
+                "size": [
+                  4096,
+                  2048
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -1,
+            "resources": {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "metrics": {
+            "errors": null,
+            "repeats": {
+              "candidate": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              }
+            }
+          }
+        },
+        "high-transition": {
+          "candidate": {
+            "label": "transition",
+            "quality": "high",
+            "physicalStatePreserved": true,
+            "physical": "[[144481068.83092085,-17167534.104262087,39605026.2707681],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[0.18338248775004473,0.814058295180937,0.4237719256995131,-0.35227448136735307],0,104]",
+            "maps": [
+              {
+                "size": [
+                  4096,
+                  2048
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -1,
+            "resources": {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "metrics": {
+            "errors": null,
+            "repeats": {
+              "candidate": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              }
+            }
+          }
+        }
+      },
+      "errors": []
+    },
+    {
+      "name": "WebKit",
+      "engineVersion": "26.5",
+      "runnerSha256": "68ca7f99e0af1c39ead02f396e0f6fe50b33608df7add51bb17de9aca5abbe1d",
+      "maxTextureSize": 16384,
+      "constrained": true,
+      "views": {
+        "ultra-day": {
+          "candidate": {
+            "label": "day",
+            "quality": "ultra",
+            "physicalStatePreserved": true,
+            "physical": "[[144474457.83116025,-17171778.480158877,39596214.79159133],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[0.01577675287351146,0.9401668523387668,0.043949052387549814,-0.33749942907569486],0,104]",
+            "maps": [
+              {
+                "size": [
+                  4096,
+                  2048
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -1,
+            "resources": {
+              "calls": 7,
+              "triangles": 292866,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "metrics": {
+            "errors": null,
+            "repeats": {
+              "candidate": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              }
+            }
+          }
+        },
+        "ultra-close": {
+          "candidate": {
+            "label": "close",
+            "quality": "ultra",
+            "physicalStatePreserved": true,
+            "physical": "[[144479587.10025,-17172534.136202186,39602438.405753665],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[0.015776752873507754,0.9401668523386231,0.04394905238747942,-0.33749942907610453],0,104]",
+            "maps": [
+              {
+                "size": [
+                  4096,
+                  2048
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -1,
+            "resources": {
+              "calls": 7,
+              "triangles": 292866,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "metrics": {
+            "errors": null,
+            "repeats": {
+              "candidate": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              }
+            }
+          }
+        },
+        "ultra-transition": {
+          "candidate": {
+            "label": "transition",
+            "quality": "ultra",
+            "physicalStatePreserved": true,
+            "physical": "[[144481068.83092085,-17167534.104262087,39605026.2707681],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[0.18338248775004473,0.814058295180937,0.4237719256995131,-0.35227448136735307],0,104]",
+            "maps": [
+              {
+                "size": [
+                  4096,
+                  2048
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -1,
+            "resources": {
+              "calls": 7,
+              "triangles": 292866,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "metrics": {
+            "errors": null,
+            "repeats": {
+              "candidate": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              }
+            }
+          }
+        },
+        "high-day": {
+          "candidate": {
+            "label": "day",
+            "quality": "high",
+            "physicalStatePreserved": true,
+            "physical": "[[144474457.83116025,-17171778.480158877,39596214.79159133],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[0.01577675287351146,0.9401668523387668,0.043949052387549814,-0.33749942907569486],0,104]",
+            "maps": [
+              {
+                "size": [
+                  4096,
+                  2048
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -1,
+            "resources": {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "metrics": {
+            "errors": null,
+            "repeats": {
+              "candidate": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              }
+            }
+          }
+        },
+        "high-close": {
+          "candidate": {
+            "label": "close",
+            "quality": "high",
+            "physicalStatePreserved": true,
+            "physical": "[[144479587.10025,-17172534.136202186,39602438.405753665],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[0.015776752873507754,0.9401668523386231,0.04394905238747942,-0.33749942907610453],0,104]",
+            "maps": [
+              {
+                "size": [
+                  4096,
+                  2048
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -1,
+            "resources": {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "metrics": {
+            "errors": null,
+            "repeats": {
+              "candidate": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              }
+            }
+          }
+        },
+        "high-transition": {
+          "candidate": {
+            "label": "transition",
+            "quality": "high",
+            "physicalStatePreserved": true,
+            "physical": "[[144481068.83092085,-17167534.104262087,39605026.2707681],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[0.18338248775004473,0.814058295180937,0.4237719256995131,-0.35227448136735307],0,104]",
+            "maps": [
+              {
+                "size": [
+                  4096,
+                  2048
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -1,
+            "resources": {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "metrics": {
+            "errors": null,
+            "repeats": {
+              "candidate": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              }
+            }
+          }
+        }
+      },
+      "errors": []
+    }
+  ]
+}

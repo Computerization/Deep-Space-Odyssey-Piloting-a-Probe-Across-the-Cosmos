@@ -1,0 +1,45 @@
+{
+  "log": [
+    {
+      "chapter": 0,
+      "observations": 3,
+      "simulatedFlightSeconds": 202.46666666665774
+    },
+    {
+      "chapter": 1,
+      "observations": 7,
+      "simulatedFlightSeconds": 183.73333333332548
+    },
+    {
+      "chapter": 2,
+      "observations": 10,
+      "simulatedFlightSeconds": 182.0666666666589
+    },
+    {
+      "chapter": 3,
+      "observations": 11,
+      "simulatedFlightSeconds": 0
+    },
+    {
+      "chapter": 4,
+      "observations": 13,
+      "simulatedFlightSeconds": 0
+    }
+  ],
+  "errors": [],
+  "audio": {
+    "started": true,
+    "state": "running",
+    "track": "distance",
+    "muted": false,
+    "feedbackVoices": 8,
+    "acousticFeedback": true,
+    "adaptiveGain": 0.8696396946907043,
+    "playing": [
+      "departure",
+      "encounter",
+      "rings",
+      "distance"
+    ]
+  }
+}

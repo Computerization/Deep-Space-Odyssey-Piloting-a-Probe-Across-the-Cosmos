@@ -1,0 +1,183 @@
+{
+  "results": [
+    {
+      "mode": "baseline",
+      "label": "day",
+      "frameMedian": 16.700000000000728,
+      "gpuMedian": 44.897249,
+      "gpuSamples": 40,
+      "weight": 0,
+      "graphicsError": 0
+    },
+    {
+      "mode": "branchless",
+      "label": "day",
+      "frameMedian": 16.700000000000728,
+      "gpuMedian": 45.239875,
+      "gpuSamples": 40,
+      "weight": 0,
+      "graphicsError": 0
+    },
+    {
+      "mode": "interior",
+      "label": "day",
+      "frameMedian": 16.700000000000728,
+      "gpuMedian": 46.90575,
+      "gpuSamples": 40,
+      "weight": 0,
+      "graphicsError": 0
+    },
+    {
+      "mode": "constant",
+      "label": "day",
+      "frameMedian": 16.700000000000728,
+      "gpuMedian": 45.046041,
+      "gpuSamples": 40,
+      "weight": 0,
+      "graphicsError": 0
+    },
+    {
+      "mode": "constant",
+      "label": "day",
+      "frameMedian": 16.700000000000728,
+      "gpuMedian": 46.81875,
+      "gpuSamples": 40,
+      "weight": 0,
+      "graphicsError": 0
+    },
+    {
+      "mode": "interior",
+      "label": "day",
+      "frameMedian": 16.700000000000728,
+      "gpuMedian": 46.356124,
+      "gpuSamples": 40,
+      "weight": 0,
+      "graphicsError": 0
+    },
+    {
+      "mode": "branchless",
+      "label": "day",
+      "frameMedian": 16.700000000000728,
+      "gpuMedian": 44.258041,
+      "gpuSamples": 40,
+      "weight": 0,
+      "graphicsError": 0
+    },
+    {
+      "mode": "baseline",
+      "label": "day",
+      "frameMedian": 16.700000000000728,
+      "gpuMedian": 45.743999,
+      "gpuSamples": 40,
+      "weight": 0,
+      "graphicsError": 0
+    },
+    {
+      "mode": "baseline",
+      "label": "close",
+      "frameMedian": 33.29999999999927,
+      "gpuMedian": 73.390375,
+      "gpuSamples": 40,
+      "weight": 1,
+      "graphicsError": 0
+    },
+    {
+      "mode": "branchless",
+      "label": "close",
+      "frameMedian": 33.30000000000291,
+      "gpuMedian": 69.589749,
+      "gpuSamples": 40,
+      "weight": 1,
+      "graphicsError": 0
+    },
+    {
+      "mode": "interior",
+      "label": "close",
+      "frameMedian": 33.29999999999927,
+      "gpuMedian": 71.996958,
+      "gpuSamples": 40,
+      "weight": 1,
+      "graphicsError": 0
+    },
+    {
+      "mode": "constant",
+      "label": "close",
+      "frameMedian": 33.30000000000291,
+      "gpuMedian": 71.2495,
+      "gpuSamples": 40,
+      "weight": 1,
+      "graphicsError": 0
+    },
+    {
+      "mode": "constant",
+      "label": "close",
+      "frameMedian": 33.30000000000291,
+      "gpuMedian": 70.826291,
+      "gpuSamples": 40,
+      "weight": 1,
+      "graphicsError": 0
+    },
+    {
+      "mode": "interior",
+      "label": "close",
+      "frameMedian": 33.30000000000291,
+      "gpuMedian": 71.484041,
+      "gpuSamples": 40,
+      "weight": 1,
+      "graphicsError": 0
+    },
+    {
+      "mode": "branchless",
+      "label": "close",
+      "frameMedian": 33.30000000000291,
+      "gpuMedian": 72.373916,
+      "gpuSamples": 40,
+      "weight": 1,
+      "graphicsError": 0
+    },
+    {
+      "mode": "baseline",
+      "label": "close",
+      "frameMedian": 33.30000000000291,
+      "gpuMedian": 70.987374,
+      "gpuSamples": 40,
+      "weight": 1,
+      "graphicsError": 0
+    }
+  ],
+  "errors": [],
+  "helpers": {
+    "baseline": " float cloudCoverage(vec2 uv,float lod){\n  float weight=cloudPatchWeight*(1.-smoothstep(0.,1.,lod));\n  if(weight>0.){\n   vec2 p=vec2(fract(uv.x-cloudPatchRegion.x),uv.y-cloudPatchRegion.y)/cloudPatchRegion.zw;\n   float edge=min(min(p.x,p.y),min(1.-p.x,1.-p.y))*float(textureSize(cloudPatchMap,0).x);\n   weight*=smoothstep(0.,32.,edge);\n   if(weight>0.){\n    float fine=texture2DLodEXT(cloudPatchMap,p,max(0.,lod+cloudPatchBias)).r;\n    if(weight>=1.)return fine;\n    return mix(texture2DLodEXT(cloudMap,uv,max(0.,lod)).r,fine,weight);\n   }\n  }\n  return texture2DLodEXT(cloudMap,uv,max(0.,lod)).r;\n }\n",
+    "branchless": " float cloudCoverage(vec2 uv,float lod){\n float base=texture2DLodEXT(cloudMap,uv,max(0.,lod)).r;\n if(cloudPatchWeight<=0.||lod>=1.)return base;\n vec2 p=vec2(fract(uv.x-cloudPatchRegion.x),uv.y-cloudPatchRegion.y)/cloudPatchRegion.zw;\n float edge=min(min(p.x,p.y),min(1.-p.x,1.-p.y))*float(textureSize(cloudPatchMap,0).x);\n float weight=cloudPatchWeight*(1.-smoothstep(0.,1.,lod))*smoothstep(0.,32.,edge);\n return mix(base,texture2DLodEXT(cloudPatchMap,p,max(0.,lod+cloudPatchBias)).r,weight);\n }\n",
+    "interior": " float cloudCoverage(vec2 uv,float lod){\n if(cloudPatchWeight<=0.||lod>=1.)return texture2DLodEXT(cloudMap,uv,max(0.,lod)).r;\n vec2 p=vec2(fract(uv.x-cloudPatchRegion.x),uv.y-cloudPatchRegion.y)/cloudPatchRegion.zw;\n float edge=min(min(p.x,p.y),min(1.-p.x,1.-p.y))*float(textureSize(cloudPatchMap,0).x);\n if(cloudPatchWeight>=1.&&lod<=0.&&edge>=32.)return texture2DLodEXT(cloudPatchMap,p,max(0.,lod+cloudPatchBias)).r;\n float weight=cloudPatchWeight*(1.-smoothstep(0.,1.,lod))*smoothstep(0.,32.,edge);\n float base=texture2DLodEXT(cloudMap,uv,max(0.,lod)).r;\n if(weight<=0.)return base;\n return mix(base,texture2DLodEXT(cloudPatchMap,p,max(0.,lod+cloudPatchBias)).r,weight);\n }\n",
+    "constant": " float cloudCoverage(vec2 uv,float lod){\n float weight=cloudPatchWeight*(1.-smoothstep(0.,1.,lod));\n if(weight>0.){\n vec2 p=vec2(fract(uv.x-cloudPatchRegion.x),uv.y-cloudPatchRegion.y)*vec2(8.,4.);\n float edge=min(min(p.x,p.y),min(1.-p.x,1.-p.y));\n weight*=smoothstep(0.,.0078125,edge);\n if(weight>0.){\n float fine=texture2DLodEXT(cloudPatchMap,p,max(0.,lod+cloudPatchBias)).r;\n if(weight>=1.)return fine;\n return mix(texture2DLodEXT(cloudMap,uv,max(0.,lod)).r,fine,weight);\n }}return texture2DLodEXT(cloudMap,uv,max(0.,lod)).r;\n }\n"
+  },
+  "method": "High at fixed 0.75 cloud scale, 1000 x 625 DPR2. Shared helper replaced in view, illumination and ground shadow materials. Two mirrored runs, 24 warm / 40 timed frames. Local exploratory timing, not endurance.",
+  "displayComparisons": {
+    "day-branchless": {
+      "rmse": 0.0,
+      "maximum": 0.0
+    },
+    "day-interior": {
+      "rmse": 0.0,
+      "maximum": 0.0
+    },
+    "day-constant": {
+      "rmse": 0.0,
+      "maximum": 0.0
+    },
+    "close-branchless": {
+      "rmse": 0.0,
+      "maximum": 0.0
+    },
+    "close-interior": {
+      "rmse": 0.0,
+      "maximum": 0.0
+    },
+    "close-constant": {
+      "rmse": 0.0,
+      "maximum": 0.0
+    }
+  },
+  "disposition": "Rejected for production: all tested displayed frames match, but short local GPU timings show no stable improvement beyond run variation. Runtime shader remains unchanged."
+}

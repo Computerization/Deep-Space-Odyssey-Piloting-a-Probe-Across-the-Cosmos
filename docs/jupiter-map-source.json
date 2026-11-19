@@ -1,0 +1,46 @@
+{
+  "reference": "https://science.nasa.gov/photojournal/cassinis-best-maps-of-jupiter-cylindrical-map/",
+  "sourceUrl": "https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia07/pia07782/PIA07782.tif",
+  "sourceSha256": "f92ffc7a2fa0235c47ec8f1f168dd36bffeb6acc318292b237878a00a48cf7d9",
+  "dimensions": [
+    3601,
+    1801
+  ],
+  "sourcePixelsChanged": 1,
+  "coordinate": [
+    1328,
+    1024
+  ],
+  "before": [
+    162,
+    212,
+    253
+  ],
+  "replacement": [
+    162,
+    144,
+    125
+  ],
+  "method": "Median of the eight immediate neighbouring source pixels; no global sharpening or added detail.",
+  "encoding": {
+    "quality": 85,
+    "subsampling": "4:4:4",
+    "speed": 4,
+    "maxThreads": 4
+  },
+  "limitation": "An isolated image outlier is corrected; the source remains a synthesized-colour 2000 mosaic, not a calibrated 1979 reflectance field.",
+  "metrics": {
+    "previous": {
+      "bytes": 516468,
+      "sha256": "e229639f90e331d014ccc7ad632919f38999184e0c07277ced7b7d2bf5971cd4",
+      "meanAbsoluteChannelError": 1.0858746693792205,
+      "rootMeanSquareChannelError": 1.4665376920775637
+    },
+    "candidate": {
+      "bytes": 478456,
+      "sha256": "2910a6c9f15c817b20ce96e1cb733758034a76a0718532159dbe0a676a5908a8",
+      "meanAbsoluteChannelError": 1.066815606313318,
+      "rootMeanSquareChannelError": 1.438698349546391
+    }
+  }
+}

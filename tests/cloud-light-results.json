@@ -1,0 +1,5333 @@
+{
+  "version": "0.52.0",
+  "candidateOverride": false,
+  "reference": "64 quadratic analytic-profile sunlight segments; 128 segments check convergence. Same imagery and view integration, with sky light isolated for the historical Sun-path comparison. Complete illuminated frames and independently integrated sky irradiance are checked separately. Numerical accuracy within the reconstruction, not photographic equivalence.",
+  "viewport": [
+    800,
+    500
+  ],
+  "outcomes": [
+    {
+      "name": "Chrome",
+      "engineVersion": "158.0.8127.37",
+      "views": [
+        {
+          "label": "day",
+          "radius": 2.35,
+          "phase": 35,
+          "yaw": 0,
+          "fov": 58,
+          "metrics": {
+            "previous": {
+              "channels": 282462,
+              "mae": 0.03287521861347721,
+              "rmse": 0.2053066062888249,
+              "max": 21,
+              "fullMean": 0.0077775,
+              "fullMax": 21
+            },
+            "candidate": {
+              "channels": 282462,
+              "mae": 0.03275838873901622,
+              "rmse": 0.20417400272124922,
+              "max": 21,
+              "fullMean": 0.00773,
+              "fullMax": 21
+            },
+            "dense": {
+              "channels": 282462,
+              "mae": 0.0005876896715310378,
+              "rmse": 0.02424231159627806,
+              "max": 1,
+              "fullMean": 0.00013833333333333333,
+              "fullMax": 1
+            }
+          },
+          "linear": {
+            "previous": {
+              "mean": 0.00018032451785605642,
+              "rmse": 0.0007379525248579903,
+              "max": 0.078369140625,
+              "count": 249084
+            },
+            "candidate": {
+              "mean": 0.0001800406188013482,
+              "rmse": 0.0007344860832579256,
+              "max": 0.078369140625,
+              "count": 249084
+            },
+            "dense": {
+              "mean": 0.0000037017747437009594,
+              "rmse": 0.00003738899012151172,
+              "max": 0.001953125,
+              "count": 249084
+            }
+          },
+          "draws": {
+            "off": {
+              "calls": 6,
+              "triangles": 219650
+            },
+            "previous": {
+              "calls": 7,
+              "triangles": 292866
+            },
+            "candidate": {
+              "calls": 7,
+              "triangles": 292866
+            },
+            "reference": {
+              "calls": 7,
+              "triangles": 292866
+            },
+            "dense": {
+              "calls": 7,
+              "triangles": 292866
+            },
+            "illuminated": {
+              "calls": 7,
+              "triangles": 292866
+            }
+          },
+          "skyEffect": {
+            "max": 0.04296875,
+            "mean": 0.0015877959895630677,
+            "changed": 325385
+          }
+        },
+        {
+          "label": "terminator",
+          "radius": 2.35,
+          "phase": 90,
+          "yaw": 0,
+          "fov": 58,
+          "metrics": {
+            "previous": {
+              "channels": 135933,
+              "mae": 0.2924381864595058,
+              "rmse": 1.2455979885102368,
+              "max": 41,
+              "fullMean": 0.03432,
+              "fullMax": 41
+            },
+            "candidate": {
+              "channels": 135933,
+              "mae": 0.18649628861277248,
+              "rmse": 0.7591869511455452,
+              "max": 34,
+              "fullMean": 0.021750833333333334,
+              "fullMax": 34
+            },
+            "dense": {
+              "channels": 135933,
+              "mae": 0.002354100917363701,
+              "rmse": 0.04882138034540551,
+              "max": 2,
+              "fullMean": 0.0002691666666666667,
+              "fullMax": 2
+            }
+          },
+          "linear": {
+            "previous": {
+              "mean": 0.00028214284500199143,
+              "rmse": 0.0015574128276819746,
+              "max": 0.0953369140625,
+              "count": 275592
+            },
+            "candidate": {
+              "mean": 0.0002097423452815939,
+              "rmse": 0.001067947394843704,
+              "max": 0.084716796875,
+              "count": 275592
+            },
+            "dense": {
+              "mean": 0.000002980052294995934,
+              "rmse": 0.000027588805413489355,
+              "max": 0.00445556640625,
+              "count": 275592
+            }
+          },
+          "draws": {
+            "off": {
+              "calls": 6,
+              "triangles": 219650
+            },
+            "previous": {
+              "calls": 7,
+              "triangles": 292866
+            },
+            "candidate": {
+              "calls": 7,
+              "triangles": 292866
+            },
+            "reference": {
+              "calls": 7,
+              "triangles": 292866
+            },
+            "dense": {
+              "calls": 7,
+              "triangles": 292866
+            },
+            "illuminated": {
+              "calls": 7,
+              "triangles": 292866
+            }
+          },
+          "skyEffect": {
+            "max": 0.03857421875,
+            "mean": 0.0007068045715987682,
+            "changed": 151869
+          }
+        },
+        {
+          "label": "crescent",
+          "radius": 2.35,
+          "phase": 150,
+          "yaw": 0,
+          "fov": 58,
+          "metrics": {
+            "previous": {
+              "channels": 579,
+              "mae": 0.16234887737478412,
+              "rmse": 0.47018167950738665,
+              "max": 3,
+              "fullMean": 0.00009166666666666667,
+              "fullMax": 3
+            },
+            "candidate": {
+              "channels": 579,
+              "mae": 0.16580310880829016,
+              "rmse": 0.47384073608955674,
+              "max": 3,
+              "fullMean": 0.000095,
+              "fullMax": 3
+            },
+            "dense": {
+              "channels": 579,
+              "mae": 0,
+              "rmse": 0,
+              "max": 0,
+              "fullMean": 0,
+              "fullMax": 0
+            }
+          },
+          "linear": {
+            "previous": {
+              "mean": 0.0000011226968746989167,
+              "rmse": 0.00005297962811219361,
+              "max": 0.0054931640625,
+              "count": 269352
+            },
+            "candidate": {
+              "mean": 0.0000011159272004697712,
+              "rmse": 0.000052944920693978115,
+              "max": 0.0054931640625,
+              "count": 269352
+            },
+            "dense": {
+              "mean": 1.0236830865594354e-8,
+              "rmse": 0.0000014744767208887725,
+              "max": 0.00048828125,
+              "count": 269352
+            }
+          },
+          "draws": {
+            "off": {
+              "calls": 7,
+              "triangles": 292866
+            },
+            "previous": {
+              "calls": 8,
+              "triangles": 366082
+            },
+            "candidate": {
+              "calls": 8,
+              "triangles": 366082
+            },
+            "reference": {
+              "calls": 8,
+              "triangles": 366082
+            },
+            "dense": {
+              "calls": 8,
+              "triangles": 366082
+            },
+            "illuminated": {
+              "calls": 8,
+              "triangles": 366082
+            }
+          },
+          "skyEffect": {
+            "max": 0.005859375,
+            "mean": 4.712286591529846e-7,
+            "changed": 355
+          }
+        },
+        {
+          "label": "night",
+          "radius": 2.35,
+          "phase": 175,
+          "yaw": 0,
+          "fov": 58,
+          "metrics": {
+            "previous": {
+              "channels": 0,
+              "mae": 0,
+              "rmse": 0,
+              "max": 0,
+              "fullMean": 0,
+              "fullMax": 0
+            },
+            "candidate": {
+              "channels": 0,
+              "mae": 0,
+              "rmse": 0,
+              "max": 0,
+              "fullMean": 0,
+              "fullMax": 0
+            },
+            "dense": {
+              "channels": 0,
+              "mae": 0,
+              "rmse": 0,
+              "max": 0,
+              "fullMean": 0,
+              "fullMax": 0
+            }
+          },
+          "linear": {
+            "previous": {
+              "mean": 0,
+              "rmse": 0,
+              "max": 0,
+              "count": 242931
+            },
+            "candidate": {
+              "mean": 0,
+              "rmse": 0,
+              "max": 0,
+              "count": 242931
+            },
+            "dense": {
+              "mean": 0,
+              "rmse": 0,
+              "max": 0,
+              "count": 242931
+            }
+          },
+          "draws": {
+            "off": {
+              "calls": 10,
+              "triangles": 516610
+            },
+            "previous": {
+              "calls": 11,
+              "triangles": 589826
+            },
+            "candidate": {
+              "calls": 11,
+              "triangles": 589826
+            },
+            "reference": {
+              "calls": 11,
+              "triangles": 589826
+            },
+            "dense": {
+              "calls": 11,
+              "triangles": 589826
+            },
+            "illuminated": {
+              "calls": 11,
+              "triangles": 589826
+            }
+          },
+          "skyEffect": {
+            "max": 0,
+            "mean": 0,
+            "changed": 0
+          }
+        },
+        {
+          "label": "close",
+          "radius": 1.05,
+          "phase": 50,
+          "yaw": 0,
+          "fov": 58,
+          "metrics": {
+            "previous": {
+              "channels": 806436,
+              "mae": 0.1777859619362231,
+              "rmse": 0.5588392310431507,
+              "max": 23,
+              "fullMean": 0.119485,
+              "fullMax": 23
+            },
+            "candidate": {
+              "channels": 806436,
+              "mae": 0.17771528056783178,
+              "rmse": 0.55877598801712,
+              "max": 23,
+              "fullMean": 0.1194375,
+              "fullMax": 23
+            },
+            "dense": {
+              "channels": 806436,
+              "mae": 0.001583510656766315,
+              "rmse": 0.039793349403717135,
+              "max": 1,
+              "fullMean": 0.0010641666666666666,
+              "fullMax": 1
+            }
+          },
+          "linear": {
+            "previous": {
+              "mean": 0.0009551581373983284,
+              "rmse": 0.0024780598737441967,
+              "max": 0.08251953125,
+              "count": 727749
+            },
+            "candidate": {
+              "mean": 0.0009549968951258033,
+              "rmse": 0.0024780313428489254,
+              "max": 0.08251953125,
+              "count": 727749
+            },
+            "dense": {
+              "mean": 0.00000863031690636609,
+              "rmse": 0.000051782010936184636,
+              "max": 0.00048828125,
+              "count": 727749
+            }
+          },
+          "draws": {
+            "off": {
+              "calls": 6,
+              "triangles": 219650
+            },
+            "previous": {
+              "calls": 7,
+              "triangles": 292866
+            },
+            "candidate": {
+              "calls": 7,
+              "triangles": 292866
+            },
+            "reference": {
+              "calls": 7,
+              "triangles": 292866
+            },
+            "dense": {
+              "calls": 7,
+              "triangles": 292866
+            },
+            "illuminated": {
+              "calls": 7,
+              "triangles": 292866
+            }
+          },
+          "skyEffect": {
+            "max": 0.0419921875,
+            "mean": 0.006352349885304769,
+            "changed": 946365
+          }
+        },
+        {
+          "label": "grazing",
+          "radius": 1.08,
+          "phase": 90,
+          "yaw": 0,
+          "fov": 58,
+          "metrics": {
+            "previous": {
+              "channels": 544116,
+              "mae": 2.7001393085297987,
+              "rmse": 6.474743921261123,
+              "max": 120,
+              "fullMean": 1.35143,
+              "fullMax": 120
+            },
+            "candidate": {
+              "channels": 544116,
+              "mae": 1.5915466554925788,
+              "rmse": 3.9285876445224632,
+              "max": 86,
+              "fullMean": 0.7964083333333334,
+              "fullMax": 86
+            },
+            "dense": {
+              "channels": 544116,
+              "mae": 0.023739423211227018,
+              "rmse": 0.18345687832086338,
+              "max": 18,
+              "fullMean": 0.013518333333333334,
+              "fullMax": 18
+            }
+          },
+          "linear": {
+            "previous": {
+              "mean": 0.0017015155067711656,
+              "rmse": 0.008377025575521653,
+              "max": 0.3251953125,
+              "count": 1144515
+            },
+            "candidate": {
+              "mean": 0.0008850269587227024,
+              "rmse": 0.0038394141570979754,
+              "max": 0.2510986328125,
+              "count": 1144515
+            },
+            "dense": {
+              "mean": 0.000010347687865776577,
+              "rmse": 0.00008155278389840903,
+              "max": 0.013427734375,
+              "count": 1144515
+            }
+          },
+          "draws": {
+            "off": {
+              "calls": 6,
+              "triangles": 219650
+            },
+            "previous": {
+              "calls": 7,
+              "triangles": 292866
+            },
+            "candidate": {
+              "calls": 7,
+              "triangles": 292866
+            },
+            "reference": {
+              "calls": 7,
+              "triangles": 292866
+            },
+            "dense": {
+              "calls": 7,
+              "triangles": 292866
+            },
+            "illuminated": {
+              "calls": 7,
+              "triangles": 292866
+            }
+          },
+          "skyEffect": {
+            "max": 0.0169677734375,
+            "mean": 0.001592021433810393,
+            "changed": 572264
+          }
+        },
+        {
+          "label": "turn-left",
+          "radius": 1.08,
+          "phase": 90,
+          "yaw": -0.001,
+          "fov": 58,
+          "metrics": {
+            "previous": {
+              "channels": 544926,
+              "mae": 2.6999354040732135,
+              "rmse": 6.474645419991368,
+              "max": 120,
+              "fullMean": 1.353295,
+              "fullMax": 120
+            },
+            "candidate": {
+              "channels": 544926,
+              "mae": 1.5900250676238608,
+              "rmse": 3.9259925626083403,
+              "max": 87,
+              "fullMean": 0.796795,
+              "fullMax": 87
+            },
+            "dense": {
+              "channels": 544926,
+              "mae": 0.023617885731273606,
+              "rmse": 0.1826234306615292,
+              "max": 20,
+              "fullMean": 0.013489166666666667,
+              "fullMax": 20
+            }
+          },
+          "linear": {
+            "previous": {
+              "mean": 0.0017051538263847723,
+              "rmse": 0.008388709175017314,
+              "max": 0.380859375,
+              "count": 1144590
+            },
+            "candidate": {
+              "mean": 0.0008858618992143327,
+              "rmse": 0.0038360942371933825,
+              "max": 0.26885986328125,
+              "count": 1144590
+            },
+            "dense": {
+              "mean": 0.000010365216168926617,
+              "rmse": 0.00008000157068337325,
+              "max": 0.0135955810546875,
+              "count": 1144590
+            }
+          },
+          "draws": {
+            "off": {
+              "calls": 6,
+              "triangles": 219650
+            },
+            "previous": {
+              "calls": 7,
+              "triangles": 292866
+            },
+            "candidate": {
+              "calls": 7,
+              "triangles": 292866
+            },
+            "reference": {
+              "calls": 7,
+              "triangles": 292866
+            },
+            "dense": {
+              "calls": 7,
+              "triangles": 292866
+            },
+            "illuminated": {
+              "calls": 7,
+              "triangles": 292866
+            }
+          },
+          "skyEffect": {
+            "max": 0.01708984375,
+            "mean": 0.001596732850521803,
+            "changed": 572925
+          }
+        },
+        {
+          "label": "turn-right",
+          "radius": 1.08,
+          "phase": 90,
+          "yaw": 0.001,
+          "fov": 58,
+          "metrics": {
+            "previous": {
+              "channels": 543336,
+              "mae": 2.7008738607417877,
+              "rmse": 6.478717219930139,
+              "max": 119,
+              "fullMean": 1.35019,
+              "fullMax": 119
+            },
+            "candidate": {
+              "channels": 543336,
+              "mae": 1.5907872844795854,
+              "rmse": 3.9289100339409893,
+              "max": 87,
+              "fullMean": 0.7950958333333333,
+              "fullMax": 87
+            },
+            "dense": {
+              "channels": 543336,
+              "mae": 0.02364466922861728,
+              "rmse": 0.18316697869755952,
+              "max": 21,
+              "fullMean": 0.013461666666666667,
+              "fullMax": 21
+            }
+          },
+          "linear": {
+            "previous": {
+              "mean": 0.0016980821530324416,
+              "rmse": 0.008368142431945065,
+              "max": 0.3597412109375,
+              "count": 1144419
+            },
+            "candidate": {
+              "mean": 0.0008825809773521403,
+              "rmse": 0.0038325085499997555,
+              "max": 0.27008056640625,
+              "count": 1144419
+            },
+            "dense": {
+              "mean": 0.000010320054359041805,
+              "rmse": 0.00008065799080434146,
+              "max": 0.0139007568359375,
+              "count": 1144419
+            }
+          },
+          "draws": {
+            "off": {
+              "calls": 6,
+              "triangles": 219650
+            },
+            "previous": {
+              "calls": 7,
+              "triangles": 292866
+            },
+            "candidate": {
+              "calls": 7,
+              "triangles": 292866
+            },
+            "reference": {
+              "calls": 7,
+              "triangles": 292866
+            },
+            "dense": {
+              "calls": 7,
+              "triangles": 292866
+            },
+            "illuminated": {
+              "calls": 7,
+              "triangles": 292866
+            }
+          },
+          "skyEffect": {
+            "max": 0.01666259765625,
+            "mean": 0.0015872989177703857,
+            "changed": 571501
+          }
+        },
+        {
+          "label": "resolved-cloud",
+          "radius": 1.05,
+          "phase": 50,
+          "yaw": 0,
+          "fov": 20,
+          "metrics": {
+            "previous": {
+              "channels": 1154850,
+              "mae": 0.2157293154955189,
+              "rmse": 0.7252740359030108,
+              "max": 20,
+              "fullMean": 0.20761416666666666,
+              "fullMax": 20
+            },
+            "candidate": {
+              "channels": 1154850,
+              "mae": 0.2157293154955189,
+              "rmse": 0.7252740359030108,
+              "max": 20,
+              "fullMean": 0.20761416666666666,
+              "fullMax": 20
+            },
+            "dense": {
+              "channels": 1154850,
+              "mae": 0.0016867991514049445,
+              "rmse": 0.04107066046954863,
+              "max": 1,
+              "fullMean": 0.0016233333333333334,
+              "fullMax": 1
+            }
+          },
+          "linear": {
+            "previous": {
+              "mean": 0.0011126596800396546,
+              "rmse": 0.0032820332314980214,
+              "max": 0.0849609375,
+              "count": 1040847
+            },
+            "candidate": {
+              "mean": 0.0011126596800396546,
+              "rmse": 0.0032820332314980214,
+              "max": 0.0849609375,
+              "count": 1040847
+            },
+            "dense": {
+              "mean": 0.000009146038387420669,
+              "rmse": 0.00005065124433279266,
+              "max": 0.000732421875,
+              "count": 1040847
+            }
+          },
+          "draws": {
+            "off": {
+              "calls": 6,
+              "triangles": 219650
+            },
+            "previous": {
+              "calls": 7,
+              "triangles": 292866
+            },
+            "candidate": {
+              "calls": 7,
+              "triangles": 292866
+            },
+            "reference": {
+              "calls": 7,
+              "triangles": 292866
+            },
+            "dense": {
+              "calls": 7,
+              "triangles": 292866
+            },
+            "illuminated": {
+              "calls": 7,
+              "triangles": 292866
+            }
+          },
+          "skyEffect": {
+            "max": 0.03857421875,
+            "mean": 0.008177409927050273,
+            "changed": 1200000
+          }
+        },
+        {
+          "label": "resolved-limb",
+          "radius": 1.05,
+          "phase": 35,
+          "yaw": 1.2645,
+          "fov": 4,
+          "metrics": {
+            "previous": {
+              "channels": 555999,
+              "mae": 0.16017474851573474,
+              "rmse": 0.5142244009967418,
+              "max": 10,
+              "fullMean": 0.07421416666666666,
+              "fullMax": 10
+            },
+            "candidate": {
+              "channels": 555999,
+              "mae": 0.16015136717871795,
+              "rmse": 0.514201665928302,
+              "max": 10,
+              "fullMean": 0.07420333333333333,
+              "fullMax": 10
+            },
+            "dense": {
+              "channels": 555999,
+              "mae": 0.0028381346009615127,
+              "rmse": 0.05327414570841575,
+              "max": 1,
+              "fullMean": 0.001315,
+              "fullMax": 1
+            }
+          },
+          "linear": {
+            "previous": {
+              "mean": 0.001171373767087455,
+              "rmse": 0.003066607232707352,
+              "max": 0.06884765625,
+              "count": 557031
+            },
+            "candidate": {
+              "mean": 0.0011712583189947925,
+              "rmse": 0.0030665915455026426,
+              "max": 0.06884765625,
+              "count": 557031
+            },
+            "dense": {
+              "mean": 0.000018070598649760262,
+              "rmse": 0.00009106865703971538,
+              "max": 0.00146484375,
+              "count": 557031
+            }
+          },
+          "draws": {
+            "off": {
+              "calls": 6,
+              "triangles": 219650
+            },
+            "previous": {
+              "calls": 7,
+              "triangles": 292866
+            },
+            "candidate": {
+              "calls": 7,
+              "triangles": 292866
+            },
+            "reference": {
+              "calls": 7,
+              "triangles": 292866
+            },
+            "dense": {
+              "calls": 7,
+              "triangles": 292866
+            },
+            "illuminated": {
+              "calls": 7,
+              "triangles": 292866
+            }
+          },
+          "skyEffect": {
+            "max": 0.0244140625,
+            "mean": 0.005277067401806513,
+            "changed": 563520
+          }
+        },
+        {
+          "label": "pole",
+          "radius": 2.35,
+          "phase": 35,
+          "yaw": 0,
+          "fov": 58,
+          "metrics": {
+            "previous": {
+              "channels": 227865,
+              "mae": 0.20269018936651087,
+              "rmse": 0.977063444382629,
+              "max": 54,
+              "fullMean": 0.040189166666666665,
+              "fullMax": 54
+            },
+            "candidate": {
+              "channels": 227865,
+              "mae": 0.13518530708972418,
+              "rmse": 0.6084708398893356,
+              "max": 79,
+              "fullMean": 0.026509166666666667,
+              "fullMax": 79
+            },
+            "dense": {
+              "channels": 227865,
+              "mae": 0.0019616878414850897,
+              "rmse": 0.044290945366802566,
+              "max": 1,
+              "fullMean": 0.00037916666666666665,
+              "fullMax": 1
+            }
+          },
+          "linear": {
+            "previous": {
+              "mean": 0.000309326664693714,
+              "rmse": 0.0014353122089529003,
+              "max": 0.119415283203125,
+              "count": 345360
+            },
+            "candidate": {
+              "mean": 0.00024569775854820506,
+              "rmse": 0.0009791149218623975,
+              "max": 0.09462356567382812,
+              "count": 345360
+            },
+            "dense": {
+              "mean": 0.000004457998032754346,
+              "rmse": 0.0000343730658520547,
+              "max": 0.0009765625,
+              "count": 345360
+            }
+          },
+          "draws": {
+            "off": {
+              "calls": 6,
+              "triangles": 219650
+            },
+            "previous": {
+              "calls": 7,
+              "triangles": 292866
+            },
+            "candidate": {
+              "calls": 7,
+              "triangles": 292866
+            },
+            "reference": {
+              "calls": 7,
+              "triangles": 292866
+            },
+            "dense": {
+              "calls": 7,
+              "triangles": 292866
+            },
+            "illuminated": {
+              "calls": 7,
+              "triangles": 292866
+            }
+          },
+          "skyEffect": {
+            "max": 0.03857421875,
+            "mean": 0.0016332335171103478,
+            "changed": 234922
+          }
+        },
+        {
+          "label": "seam",
+          "radius": 2.35,
+          "phase": 35,
+          "yaw": 0,
+          "fov": 58,
+          "metrics": {
+            "previous": {
+              "channels": 257877,
+              "mae": 0.007934015053688386,
+              "rmse": 0.08907308826850222,
+              "max": 1,
+              "fullMean": 0.001705,
+              "fullMax": 1
+            },
+            "candidate": {
+              "channels": 257877,
+              "mae": 0.007934015053688386,
+              "rmse": 0.08907308826850222,
+              "max": 1,
+              "fullMean": 0.001705,
+              "fullMax": 1
+            },
+            "dense": {
+              "channels": 257877,
+              "mae": 0.0003645148656142269,
+              "rmse": 0.01909227240572025,
+              "max": 1,
+              "fullMean": 0.00007833333333333333,
+              "fullMax": 1
+            }
+          },
+          "linear": {
+            "previous": {
+              "mean": 0.000052125089843979024,
+              "rmse": 0.00017557777455067433,
+              "max": 0.00439453125,
+              "count": 238782
+            },
+            "candidate": {
+              "mean": 0.000052125089843979024,
+              "rmse": 0.00017557777455067433,
+              "max": 0.00439453125,
+              "count": 238782
+            },
+            "dense": {
+              "mean": 0.000002330335874321295,
+              "rmse": 0.00003112032198106118,
+              "max": 0.0009765625,
+              "count": 238782
+            }
+          },
+          "draws": {
+            "off": {
+              "calls": 10,
+              "triangles": 443394
+            },
+            "previous": {
+              "calls": 11,
+              "triangles": 516610
+            },
+            "candidate": {
+              "calls": 11,
+              "triangles": 516610
+            },
+            "reference": {
+              "calls": 11,
+              "triangles": 516610
+            },
+            "dense": {
+              "calls": 11,
+              "triangles": 516610
+            },
+            "illuminated": {
+              "calls": 11,
+              "triangles": 516610
+            }
+          },
+          "skyEffect": {
+            "max": 0.04150390625,
+            "mean": 0.0017480449778338274,
+            "changed": 284894
+          }
+        }
+      ],
+      "temporal": [
+        {
+          "label": "turn-left",
+          "metrics": {
+            "previous": 0.00041254310851295787,
+            "candidate": 0.00025697406490643817
+          }
+        },
+        {
+          "label": "turn-right",
+          "metrics": {
+            "previous": 0.00040873029132684074,
+            "candidate": 0.00025631297066807746
+          }
+        }
+      ],
+      "sunColumns": [
+        {
+          "altitude": 1.5,
+          "mu": 0.7,
+          "expected": 5.266242793047176,
+          "measured": 5.265625,
+          "relativeError": 0.00011731191884867265
+        },
+        {
+          "altitude": 1.5,
+          "mu": 0.1,
+          "expected": 35.18560487290232,
+          "measured": 35.125,
+          "relativeError": 0.0017224337373547005
+        },
+        {
+          "altitude": 1.5,
+          "mu": 0.02,
+          "expected": 104.14815586830402,
+          "measured": 103.375,
+          "relativeError": 0.007423615539402073
+        },
+        {
+          "altitude": 4,
+          "mu": 0.7,
+          "expected": 3.3045419283655146,
+          "measured": 3.302734375,
+          "relativeError": 0.0005469905980005629
+        },
+        {
+          "altitude": 4,
+          "mu": 0.1,
+          "expected": 22.524920669117794,
+          "measured": 22.5,
+          "relativeError": 0.0011063599061621465
+        },
+        {
+          "altitude": 4,
+          "mu": 0.02,
+          "expected": 78.53239549562318,
+          "measured": 78,
+          "relativeError": 0.0067793105286447775
+        },
+        {
+          "altitude": 7,
+          "mu": 0.7,
+          "expected": 0.5517222235019603,
+          "measured": 0.55126953125,
+          "relativeError": 0.0008205075537593975
+        },
+        {
+          "altitude": 7,
+          "mu": 0.1,
+          "expected": 3.8301252174085887,
+          "measured": 3.828125,
+          "relativeError": 0.0005222329023336636
+        },
+        {
+          "altitude": 7,
+          "mu": 0.02,
+          "expected": 16.42993047085888,
+          "measured": 16.34375,
+          "relativeError": 0.00524533387476811
+        }
+      ],
+      "skyIrradiance": [
+        {
+          "altitude": 0,
+          "sunMu": -0.1,
+          "expected": [
+            0,
+            0,
+            0
+          ],
+          "measured": [
+            0,
+            0,
+            0
+          ],
+          "maxError": 0
+        },
+        {
+          "altitude": 0,
+          "sunMu": 0,
+          "expected": [
+            0,
+            0,
+            0
+          ],
+          "measured": [
+            0,
+            0,
+            0
+          ],
+          "maxError": 0
+        },
+        {
+          "altitude": 0,
+          "sunMu": 0.001,
+          "expected": [
+            0.0003763487385126529,
+            0.0003302763044110232,
+            0.00023500977679971643
+          ],
+          "measured": [
+            0.0003752708435058594,
+            0.0003292560577392578,
+            0.00023543834686279297
+          ],
+          "maxError": 0.000001077895006793548
+        },
+        {
+          "altitude": 0,
+          "sunMu": 0.02,
+          "expected": [
+            0.0072911605148370685,
+            0.006939240474468453,
+            0.004899734899602221
+          ],
+          "measured": [
+            0.007293701171875,
+            0.006916046142578125,
+            0.00490570068359375
+          ],
+          "maxError": 0.000023194331890328407
+        },
+        {
+          "altitude": 0,
+          "sunMu": 0.1,
+          "expected": [
+            0.016153227716696684,
+            0.025513159708439183,
+            0.026676683430495257
+          ],
+          "measured": [
+            0.01617431640625,
+            0.0254669189453125,
+            0.0266876220703125
+          ],
+          "maxError": 0.00004624076312668285
+        },
+        {
+          "altitude": 0,
+          "sunMu": 0.380690406958,
+          "expected": [
+            0.019444971428439397,
+            0.0378830525900277,
+            0.061834036237170105
+          ],
+          "measured": [
+            0.01947021484375,
+            0.037811279296875,
+            0.061798095703125
+          ],
+          "maxError": 0.0000717732931527007
+        },
+        {
+          "altitude": 0,
+          "sunMu": 0.5,
+          "expected": [
+            0.01981303903632689,
+            0.0394486665099609,
+            0.06791496773679685
+          ],
+          "measured": [
+            0.01983642578125,
+            0.039398193359375,
+            0.06787109375
+          ],
+          "maxError": 0.000050473150585900184
+        },
+        {
+          "altitude": 0,
+          "sunMu": 0.966234757102,
+          "expected": [
+            0.02067297847560071,
+            0.043000648676870826,
+            0.08199901812796535
+          ],
+          "measured": [
+            0.02069091796875,
+            0.042938232421875,
+            0.0819091796875
+          ],
+          "maxError": 0.0000898384404653535
+        },
+        {
+          "altitude": 0,
+          "sunMu": 1,
+          "expected": [
+            0.02072682914792189,
+            0.04321350065181111,
+            0.08281835675068186
+          ],
+          "measured": [
+            0.0207366943359375,
+            0.04315185546875,
+            0.082763671875
+          ],
+          "maxError": 0.000061645183061107
+        },
+        {
+          "altitude": 1.4,
+          "sunMu": -0.1,
+          "expected": [
+            0,
+            0,
+            0
+          ],
+          "measured": [
+            0,
+            0,
+            0
+          ],
+          "maxError": 0
+        },
+        {
+          "altitude": 1.4,
+          "sunMu": 0,
+          "expected": [
+            0,
+            0,
+            0
+          ],
+          "measured": [
+            0,
+            0,
+            0
+          ],
+          "maxError": 0
+        },
+        {
+          "altitude": 1.4,
+          "sunMu": 0.001,
+          "expected": [
+            0.00040943351197296864,
+            0.0003564738896670306,
+            0.00026129745492355094
+          ],
+          "measured": [
+            0.0004088878631591797,
+            0.00035500526428222656,
+            0.00026154518127441406
+          ],
+          "maxError": 0.0000014686253848040219
+        },
+        {
+          "altitude": 1.4,
+          "sunMu": 0.02,
+          "expected": [
+            0.007442805762947353,
+            0.007454078331993942,
+            0.005460168155366851
+          ],
+          "measured": [
+            0.00745391845703125,
+            0.007427215576171875,
+            0.005466461181640625
+          ],
+          "maxError": 0.000026862755822067153
+        },
+        {
+          "altitude": 1.4,
+          "sunMu": 0.1,
+          "expected": [
+            0.014515335421366475,
+            0.024203797924623148,
+            0.028150255808957848
+          ],
+          "measured": [
+            0.014556884765625,
+            0.024169921875,
+            0.02813720703125
+          ],
+          "maxError": 0.000041549344258524565
+        },
+        {
+          "altitude": 1.4,
+          "sunMu": 0.380690406958,
+          "expected": [
+            0.016847235994141604,
+            0.033635781732047926,
+            0.058132488264933786
+          ],
+          "measured": [
+            0.0168914794921875,
+            0.033599853515625,
+            0.058074951171875
+          ],
+          "maxError": 0.00005753709305878624
+        },
+        {
+          "altitude": 1.4,
+          "sunMu": 0.5,
+          "expected": [
+            0.017103380606519513,
+            0.03478087647900026,
+            0.06289134713836557
+          ],
+          "measured": [
+            0.01715087890625,
+            0.034759521484375,
+            0.06280517578125
+          ],
+          "maxError": 0.00008617135711556922
+        },
+        {
+          "altitude": 1.4,
+          "sunMu": 0.966234757102,
+          "expected": [
+            0.017709168958864784,
+            0.037390555706256934,
+            0.07378453365493814
+          ],
+          "measured": [
+            0.017730712890625,
+            0.037353515625,
+            0.07373046875
+          ],
+          "maxError": 0.00005406490493814475
+        },
+        {
+          "altitude": 1.4,
+          "sunMu": 1,
+          "expected": [
+            0.01774759859415423,
+            0.03754854962967981,
+            0.07442014016216816
+          ],
+          "measured": [
+            0.0177764892578125,
+            0.03753662109375,
+            0.0743408203125
+          ],
+          "maxError": 0.00007931984966816352
+        },
+        {
+          "altitude": 4,
+          "sunMu": -0.1,
+          "expected": [
+            0,
+            0,
+            0
+          ],
+          "measured": [
+            0,
+            0,
+            0
+          ],
+          "maxError": 0
+        },
+        {
+          "altitude": 4,
+          "sunMu": 0,
+          "expected": [
+            0,
+            0,
+            0
+          ],
+          "measured": [
+            0,
+            0,
+            0
+          ],
+          "maxError": 0
+        },
+        {
+          "altitude": 4,
+          "sunMu": 0.001,
+          "expected": [
+            0.0004383312272970651,
+            0.0003887378970362437,
+            0.0003029197189851129
+          ],
+          "measured": [
+            0.00043892860412597656,
+            0.0003871917724609375,
+            0.0003027915954589844
+          ],
+          "maxError": 0.0000015461245753061814
+        },
+        {
+          "altitude": 4,
+          "sunMu": 0.02,
+          "expected": [
+            0.0069128768354854205,
+            0.007904536633796621,
+            0.006356285688237417
+          ],
+          "measured": [
+            0.006938934326171875,
+            0.0078887939453125,
+            0.00634765625
+          ],
+          "maxError": 0.00002605749068645448
+        },
+        {
+          "altitude": 4,
+          "sunMu": 0.1,
+          "expected": [
+            0.011379856731314343,
+            0.020637887957524033,
+            0.028566938081645905
+          ],
+          "measured": [
+            0.01142120361328125,
+            0.0206298828125,
+            0.0285186767578125
+          ],
+          "maxError": 0.00004826132383340537
+        },
+        {
+          "altitude": 4,
+          "sunMu": 0.380690406958,
+          "expected": [
+            0.01264840145611949,
+            0.026218331869151148,
+            0.04939398022841304
+          ],
+          "measured": [
+            0.0126953125,
+            0.0262298583984375,
+            0.04931640625
+          ],
+          "maxError": 0.00007757397841304248
+        },
+        {
+          "altitude": 4,
+          "sunMu": 0.5,
+          "expected": [
+            0.01278530294745859,
+            0.026860755094241448,
+            0.05231013713947745
+          ],
+          "measured": [
+            0.0128326416015625,
+            0.0268707275390625,
+            0.05224609375
+          ],
+          "maxError": 0.00006404338947745003
+        },
+        {
+          "altitude": 4,
+          "sunMu": 0.966234757102,
+          "expected": [
+            0.013115871818539697,
+            0.02834287432395687,
+            0.05891876250163056
+          ],
+          "measured": [
+            0.013153076171875,
+            0.028350830078125,
+            0.058868408203125
+          ],
+          "maxError": 0.000050354298505563
+        },
+        {
+          "altitude": 4,
+          "sunMu": 1,
+          "expected": [
+            0.013137262129841985,
+            0.028434290466600492,
+            0.05930838164773294
+          ],
+          "measured": [
+            0.0131683349609375,
+            0.0284423828125,
+            0.05926513671875
+          ],
+          "maxError": 0.000043244928982937025
+        },
+        {
+          "altitude": 9,
+          "sunMu": -0.1,
+          "expected": [
+            0,
+            0,
+            0
+          ],
+          "measured": [
+            0,
+            0,
+            0
+          ],
+          "maxError": 0
+        },
+        {
+          "altitude": 9,
+          "sunMu": 0,
+          "expected": [
+            0,
+            0,
+            0
+          ],
+          "measured": [
+            0,
+            0,
+            0
+          ],
+          "maxError": 0
+        },
+        {
+          "altitude": 9,
+          "sunMu": 0.001,
+          "expected": [
+            0.00046411575103050935,
+            0.000429890346711003,
+            0.0003673067736762926
+          ],
+          "measured": [
+            0.0004665851593017578,
+            0.0004298686981201172,
+            0.0003657341003417969
+          ],
+          "maxError": 0.0000024694082712484666
+        },
+        {
+          "altitude": 9,
+          "sunMu": 0.02,
+          "expected": [
+            0.005045061187617409,
+            0.0074412186232938856,
+            0.007656075647265248
+          ],
+          "measured": [
+            0.005069732666015625,
+            0.007457733154296875,
+            0.007633209228515625
+          ],
+          "maxError": 0.000024671478398216422
+        },
+        {
+          "altitude": 9,
+          "sunMu": 0.1,
+          "expected": [
+            0.006692571127646579,
+            0.013529384301063619,
+            0.023811096838354067
+          ],
+          "measured": [
+            0.00672149658203125,
+            0.0135650634765625,
+            0.023773193359375
+          ],
+          "maxError": 0.00003790347897906707
+        },
+        {
+          "altitude": 9,
+          "sunMu": 0.380690406958,
+          "expected": [
+            0.007083832859221076,
+            0.015414384413976058,
+            0.032436407150066675
+          ],
+          "measured": [
+            0.007114410400390625,
+            0.0154571533203125,
+            0.03240966796875
+          ],
+          "maxError": 0.00004276890633644198
+        },
+        {
+          "altitude": 9,
+          "sunMu": 0.5,
+          "expected": [
+            0.0071256199699366715,
+            0.015619759590225546,
+            0.03347088087164698
+          ],
+          "measured": [
+            0.0071563720703125,
+            0.015655517578125,
+            0.033447265625
+          ],
+          "maxError": 0.00003575798789945406
+        },
+        {
+          "altitude": 9,
+          "sunMu": 0.966234757102,
+          "expected": [
+            0.0072306465004117505,
+            0.016109302010033664,
+            0.03583320811302342
+          ],
+          "measured": [
+            0.007251739501953125,
+            0.0161285400390625,
+            0.035797119140625
+          ],
+          "maxError": 0.00003608897239842229
+        },
+        {
+          "altitude": 9,
+          "sunMu": 1,
+          "expected": [
+            0.007237674737736123,
+            0.0161405991604956,
+            0.03597674206289541
+          ],
+          "measured": [
+            0.00725555419921875,
+            0.0161590576171875,
+            0.03594970703125
+          ],
+          "maxError": 0.000027035031645410157
+        },
+        {
+          "altitude": 20,
+          "sunMu": -0.1,
+          "expected": [
+            0,
+            0,
+            0
+          ],
+          "measured": [
+            0,
+            0,
+            0
+          ],
+          "maxError": 0
+        },
+        {
+          "altitude": 20,
+          "sunMu": 0,
+          "expected": [
+            0,
+            0,
+            0
+          ],
+          "measured": [
+            0,
+            0,
+            0
+          ],
+          "maxError": 0
+        },
+        {
+          "altitude": 20,
+          "sunMu": 0.001,
+          "expected": [
+            0.000479271094905252,
+            0.00047737621211718314,
+            0.0004516584434753625
+          ],
+          "measured": [
+            0.0004813671112060547,
+            0.0004801750183105469,
+            0.0004532337188720703
+          ],
+          "maxError": 0.0000027988061933637313
+        },
+        {
+          "altitude": 20,
+          "sunMu": 0.02,
+          "expected": [
+            0.0017098502732612367,
+            0.0034763392146407507,
+            0.006198858221439543
+          ],
+          "measured": [
+            0.0017156600952148438,
+            0.0034942626953125,
+            0.006229400634765625
+          ],
+          "maxError": 0.000030542413326082284
+        },
+        {
+          "altitude": 20,
+          "sunMu": 0.1,
+          "expected": [
+            0.0018431517057469256,
+            0.00412454803337686,
+            0.009203697395491723
+          ],
+          "measured": [
+            0.0018491744995117188,
+            0.00414276123046875,
+            0.009246826171875
+          ],
+          "maxError": 0.00004312877638327703
+        },
+        {
+          "altitude": 20,
+          "sunMu": 0.380690406958,
+          "expected": [
+            0.0018701305064008542,
+            0.0042655205922159075,
+            0.009985995517649636
+          ],
+          "measured": [
+            0.0018768310546875,
+            0.004283905029296875,
+            0.01003265380859375
+          ],
+          "maxError": 0.000046658290944114056
+        },
+        {
+          "altitude": 20,
+          "sunMu": 0.5,
+          "expected": [
+            0.0018730820140422447,
+            0.004280642252737132,
+            0.010069826877507963
+          ],
+          "measured": [
+            0.0018787384033203125,
+            0.004299163818359375,
+            0.0101165771484375
+          ],
+          "maxError": 0.0000467502709295374
+        },
+        {
+          "altitude": 20,
+          "sunMu": 0.966234757102,
+          "expected": [
+            0.0018811778029951928,
+            0.004319978092659451,
+            0.010275614038569046
+          ],
+          "measured": [
+            0.0018854141235351562,
+            0.00433349609375,
+            0.01030731201171875
+          ],
+          "maxError": 0.00003169797314970385
+        },
+        {
+          "altitude": 20,
+          "sunMu": 1,
+          "expected": [
+            0.0018817539837111257,
+            0.004322679007803163,
+            0.010289123291458653
+          ],
+          "measured": [
+            0.0018863677978515625,
+            0.004337310791015625,
+            0.01032257080078125
+          ],
+          "maxError": 0.000033447509322596936
+        }
+      ],
+      "errors": [],
+      "passed": true
+    },
+    {
+      "name": "Firefox",
+      "engineVersion": "153.0",
+      "views": [
+        {
+          "label": "day",
+          "radius": 2.35,
+          "phase": 35,
+          "yaw": 0,
+          "fov": 58,
+          "metrics": {
+            "previous": {
+              "channels": 282462,
+              "mae": 0.032623857368424776,
+              "rmse": 0.20469353028560067,
+              "max": 21,
+              "fullMean": 0.007719166666666667,
+              "fullMax": 21
+            },
+            "candidate": {
+              "channels": 282462,
+              "mae": 0.032503487194737696,
+              "rmse": 0.20354881931108854,
+              "max": 21,
+              "fullMean": 0.007671666666666667,
+              "fullMax": 21
+            },
+            "dense": {
+              "channels": 282462,
+              "mae": 0.0005699881754005849,
+              "rmse": 0.02387442513235837,
+              "max": 1,
+              "fullMean": 0.00013416666666666666,
+              "fullMax": 1
+            }
+          },
+          "linear": {
+            "previous": {
+              "mean": 0.00018028969805505038,
+              "rmse": 0.0007386836110621467,
+              "max": 0.07763671875,
+              "count": 249081
+            },
+            "candidate": {
+              "mean": 0.00018000915437107256,
+              "rmse": 0.0007353855240746173,
+              "max": 0.07763671875,
+              "count": 249081
+            },
+            "dense": {
+              "mean": 0.000003731624403210499,
+              "rmse": 0.00003758444162908366,
+              "max": 0.002197265625,
+              "count": 249081
+            }
+          },
+          "draws": {
+            "off": {
+              "calls": 6,
+              "triangles": 219650
+            },
+            "previous": {
+              "calls": 7,
+              "triangles": 292866
+            },
+            "candidate": {
+              "calls": 7,
+              "triangles": 292866
+            },
+            "reference": {
+              "calls": 7,
+              "triangles": 292866
+            },
+            "dense": {
+              "calls": 7,
+              "triangles": 292866
+            },
+            "illuminated": {
+              "calls": 7,
+              "triangles": 292866
+            }
+          },
+          "skyEffect": {
+            "max": 0.04248046875,
+            "mean": 0.0015878295278549195,
+            "changed": 325381
+          }
+        },
+        {
+          "label": "terminator",
+          "radius": 2.35,
+          "phase": 90,
+          "yaw": 0,
+          "fov": 58,
+          "metrics": {
+            "previous": {
+              "channels": 135933,
+              "mae": 0.29251910867854014,
+              "rmse": 1.2460024873313833,
+              "max": 41,
+              "fullMean": 0.034326666666666665,
+              "fullMax": 41
+            },
+            "candidate": {
+              "channels": 135933,
+              "mae": 0.18653307143960626,
+              "rmse": 0.7588040973305918,
+              "max": 34,
+              "fullMean": 0.021749166666666667,
+              "fullMax": 34
+            },
+            "dense": {
+              "channels": 135933,
+              "mae": 0.00234674435199694,
+              "rmse": 0.04904688445692582,
+              "max": 3,
+              "fullMean": 0.0002691666666666667,
+              "fullMax": 3
+            }
+          },
+          "linear": {
+            "previous": {
+              "mean": 0.0002823304857660973,
+              "rmse": 0.0015576369071908733,
+              "max": 0.0950927734375,
+              "count": 275586
+            },
+            "candidate": {
+              "mean": 0.0002099931169573437,
+              "rmse": 0.0010687222887429428,
+              "max": 0.0848388671875,
+              "count": 275586
+            },
+            "dense": {
+              "mean": 0.000003094225208105596,
+              "rmse": 0.000028394616688305083,
+              "max": 0.00469970703125,
+              "count": 275586
+            }
+          },
+          "draws": {
+            "off": {
+              "calls": 6,
+              "triangles": 219650
+            },
+            "previous": {
+              "calls": 7,
+              "triangles": 292866
+            },
+            "candidate": {
+              "calls": 7,
+              "triangles": 292866
+            },
+            "reference": {
+              "calls": 7,
+              "triangles": 292866
+            },
+            "dense": {
+              "calls": 7,
+              "triangles": 292866
+            },
+            "illuminated": {
+              "calls": 7,
+              "triangles": 292866
+            }
+          },
+          "skyEffect": {
+            "max": 0.03857421875,
+            "mean": 0.0007068152254323164,
+            "changed": 151864
+          }
+        },
+        {
+          "label": "crescent",
+          "radius": 2.35,
+          "phase": 150,
+          "yaw": 0,
+          "fov": 58,
+          "metrics": {
+            "previous": {
+              "channels": 579,
+              "mae": 0.16062176165803108,
+              "rmse": 0.4683414310389738,
+              "max": 3,
+              "fullMean": 0.00009083333333333334,
+              "fullMax": 3
+            },
+            "candidate": {
+              "channels": 579,
+              "mae": 0.16407599309153714,
+              "rmse": 0.4720147534358856,
+              "max": 3,
+              "fullMean": 0.00009416666666666666,
+              "fullMax": 3
+            },
+            "dense": {
+              "channels": 579,
+              "mae": 0.0017271157167530224,
+              "rmse": 0.04155858174616914,
+              "max": 1,
+              "fullMean": 8.333333333333333e-7,
+              "fullMax": 1
+            }
+          },
+          "linear": {
+            "previous": {
+              "mean": 0.0000011180582348891602,
+              "rmse": 0.00005265067939501551,
+              "max": 0.005615234375,
+              "count": 269340
+            },
+            "candidate": {
+              "mean": 0.0000011115670956578846,
+              "rmse": 0.00005261624054504401,
+              "max": 0.005615234375,
+              "count": 269340
+            },
+            "dense": {
+              "mean": 1.4071069033186446e-8,
+              "rmse": 0.000001975578929875318,
+              "max": 0.00048828125,
+              "count": 269340
+            }
+          },
+          "draws": {
+            "off": {
+              "calls": 7,
+              "triangles": 292866
+            },
+            "previous": {
+              "calls": 8,
+              "triangles": 366082
+            },
+            "candidate": {
+              "calls": 8,
+              "triangles": 366082
+            },
+            "reference": {
+              "calls": 8,
+              "triangles": 366082
+            },
+            "dense": {
+              "calls": 8,
+              "triangles": 366082
+            },
+            "illuminated": {
+              "calls": 8,
+              "triangles": 366082
+            }
+          },
+          "skyEffect": {
+            "max": 0.005859375,
+            "mean": 4.722049832344055e-7,
+            "changed": 359
+          }
+        },
+        {
+          "label": "night",
+          "radius": 2.35,
+          "phase": 175,
+          "yaw": 0,
+          "fov": 58,
+          "metrics": {
+            "previous": {
+              "channels": 0,
+              "mae": 0,
+              "rmse": 0,
+              "max": 0,
+              "fullMean": 0,
+              "fullMax": 0
+            },
+            "candidate": {
+              "channels": 0,
+              "mae": 0,
+              "rmse": 0,
+              "max": 0,
+              "fullMean": 0,
+              "fullMax": 0
+            },
+            "dense": {
+              "channels": 0,
+              "mae": 0,
+              "rmse": 0,
+              "max": 0,
+              "fullMean": 0,
+              "fullMax": 0
+            }
+          },
+          "linear": {
+            "previous": {
+              "mean": 0,
+              "rmse": 0,
+              "max": 0,
+              "count": 242934
+            },
+            "candidate": {
+              "mean": 0,
+              "rmse": 0,
+              "max": 0,
+              "count": 242934
+            },
+            "dense": {
+              "mean": 0,
+              "rmse": 0,
+              "max": 0,
+              "count": 242934
+            }
+          },
+          "draws": {
+            "off": {
+              "calls": 10,
+              "triangles": 516610
+            },
+            "previous": {
+              "calls": 11,
+              "triangles": 589826
+            },
+            "candidate": {
+              "calls": 11,
+              "triangles": 589826
+            },
+            "reference": {
+              "calls": 11,
+              "triangles": 589826
+            },
+            "dense": {
+              "calls": 11,
+              "triangles": 589826
+            },
+            "illuminated": {
+              "calls": 11,
+              "triangles": 589826
+            }
+          },
+          "skyEffect": {
+            "max": 0,
+            "mean": 0,
+            "changed": 0
+          }
+        },
+        {
+          "label": "close",
+          "radius": 1.05,
+          "phase": 50,
+          "yaw": 0,
+          "fov": 58,
+          "metrics": {
+            "previous": {
+              "channels": 806439,
+              "mae": 0.177975023529368,
+              "rmse": 0.5590012586970167,
+              "max": 23,
+              "fullMean": 0.11960916666666667,
+              "fullMax": 23
+            },
+            "candidate": {
+              "channels": 806439,
+              "mae": 0.17789194222997648,
+              "rmse": 0.558926941491871,
+              "max": 23,
+              "fullMean": 0.11955333333333333,
+              "fullMax": 23
+            },
+            "dense": {
+              "channels": 806439,
+              "mae": 0.001589704862984057,
+              "rmse": 0.039871103107188506,
+              "max": 1,
+              "fullMean": 0.0010691666666666666,
+              "fullMax": 1
+            }
+          },
+          "linear": {
+            "previous": {
+              "mean": 0.000954953330571677,
+              "rmse": 0.0024781866188280247,
+              "max": 0.08251953125,
+              "count": 727764
+            },
+            "candidate": {
+              "mean": 0.0009547882285132177,
+              "rmse": 0.0024781563437512345,
+              "max": 0.08251953125,
+              "count": 727764
+            },
+            "dense": {
+              "mean": 0.000008743233254865781,
+              "rmse": 0.00005205951896211642,
+              "max": 0.00048828125,
+              "count": 727764
+            }
+          },
+          "draws": {
+            "off": {
+              "calls": 6,
+              "triangles": 219650
+            },
+            "previous": {
+              "calls": 7,
+              "triangles": 292866
+            },
+            "candidate": {
+              "calls": 7,
+              "triangles": 292866
+            },
+            "reference": {
+              "calls": 7,
+              "triangles": 292866
+            },
+            "dense": {
+              "calls": 7,
+              "triangles": 292866
+            },
+            "illuminated": {
+              "calls": 7,
+              "triangles": 292866
+            }
+          },
+          "skyEffect": {
+            "max": 0.0419921875,
+            "mean": 0.0063524247748156385,
+            "changed": 946371
+          }
+        },
+        {
+          "label": "grazing",
+          "radius": 1.08,
+          "phase": 90,
+          "yaw": 0,
+          "fov": 58,
+          "metrics": {
+            "previous": {
+              "channels": 544083,
+              "mae": 2.7002093430597904,
+              "rmse": 6.4747984850711235,
+              "max": 120,
+              "fullMean": 1.3514125,
+              "fullMax": 120
+            },
+            "candidate": {
+              "channels": 544083,
+              "mae": 1.5915053401778774,
+              "rmse": 3.92862093488677,
+              "max": 86,
+              "fullMean": 0.79636,
+              "fullMax": 86
+            },
+            "dense": {
+              "channels": 544083,
+              "mae": 0.02363058577459689,
+              "rmse": 0.1829206615555917,
+              "max": 18,
+              "fullMean": 0.013475,
+              "fullMax": 18
+            }
+          },
+          "linear": {
+            "previous": {
+              "mean": 0.0017014646257468248,
+              "rmse": 0.008376967597127758,
+              "max": 0.3251953125,
+              "count": 1144515
+            },
+            "candidate": {
+              "mean": 0.0008849438742698724,
+              "rmse": 0.0038392866242794774,
+              "max": 0.2510986328125,
+              "count": 1144515
+            },
+            "dense": {
+              "mean": 0.000010358293187215533,
+              "rmse": 0.00008157097448599879,
+              "max": 0.013427734375,
+              "count": 1144515
+            }
+          },
+          "draws": {
+            "off": {
+              "calls": 6,
+              "triangles": 219650
+            },
+            "previous": {
+              "calls": 7,
+              "triangles": 292866
+            },
+            "candidate": {
+              "calls": 7,
+              "triangles": 292866
+            },
+            "reference": {
+              "calls": 7,
+              "triangles": 292866
+            },
+            "dense": {
+              "calls": 7,
+              "triangles": 292866
+            },
+            "illuminated": {
+              "calls": 7,
+              "triangles": 292866
+            }
+          },
+          "skyEffect": {
+            "max": 0.0169677734375,
+            "mean": 0.0015920174489418666,
+            "changed": 572248
+          }
+        },
+        {
+          "label": "turn-left",
+          "radius": 1.08,
+          "phase": 90,
+          "yaw": -0.001,
+          "fov": 58,
+          "metrics": {
+            "previous": {
+              "channels": 544902,
+              "mae": 2.69984143937809,
+              "rmse": 6.474674345956614,
+              "max": 120,
+              "fullMean": 1.353175,
+              "fullMax": 120
+            },
+            "candidate": {
+              "channels": 544902,
+              "mae": 1.589882217352845,
+              "rmse": 3.9261622238800062,
+              "max": 87,
+              "fullMean": 0.7966966666666667,
+              "fullMax": 87
+            },
+            "dense": {
+              "channels": 544902,
+              "mae": 0.02361709077962643,
+              "rmse": 0.18263247675311928,
+              "max": 20,
+              "fullMean": 0.013471666666666667,
+              "fullMax": 20
+            }
+          },
+          "linear": {
+            "previous": {
+              "mean": 0.0017050470427271182,
+              "rmse": 0.008388303529846116,
+              "max": 0.380859375,
+              "count": 1144587
+            },
+            "candidate": {
+              "mean": 0.0008857929558586064,
+              "rmse": 0.003835882842376223,
+              "max": 0.26885986328125,
+              "count": 1144587
+            },
+            "dense": {
+              "mean": 0.000010374099095890733,
+              "rmse": 0.00008003727647597512,
+              "max": 0.0135955810546875,
+              "count": 1144587
+            }
+          },
+          "draws": {
+            "off": {
+              "calls": 6,
+              "triangles": 219650
+            },
+            "previous": {
+              "calls": 7,
+              "triangles": 292866
+            },
+            "candidate": {
+              "calls": 7,
+              "triangles": 292866
+            },
+            "reference": {
+              "calls": 7,
+              "triangles": 292866
+            },
+            "dense": {
+              "calls": 7,
+              "triangles": 292866
+            },
+            "illuminated": {
+              "calls": 7,
+              "triangles": 292866
+            }
+          },
+          "skyEffect": {
+            "max": 0.01708984375,
+            "mean": 0.0015967371697227161,
+            "changed": 572931
+          }
+        },
+        {
+          "label": "turn-right",
+          "radius": 1.08,
+          "phase": 90,
+          "yaw": 0.001,
+          "fov": 58,
+          "metrics": {
+            "previous": {
+              "channels": 543339,
+              "mae": 2.7007227531982796,
+              "rmse": 6.478634279320956,
+              "max": 119,
+              "fullMean": 1.3501233333333333,
+              "fullMax": 119
+            },
+            "candidate": {
+              "channels": 543339,
+              "mae": 1.590651508542549,
+              "rmse": 3.928883494429607,
+              "max": 87,
+              "fullMean": 0.7950391666666666,
+              "fullMax": 87
+            },
+            "dense": {
+              "channels": 543339,
+              "mae": 0.023747605086327322,
+              "rmse": 0.18341750303900414,
+              "max": 21,
+              "fullMean": 0.013513333333333334,
+              "fullMax": 21
+            }
+          },
+          "linear": {
+            "previous": {
+              "mean": 0.001698079437892379,
+              "rmse": 0.008367982624773307,
+              "max": 0.35986328125,
+              "count": 1144422
+            },
+            "candidate": {
+              "mean": 0.0008825305551693372,
+              "rmse": 0.003832388100129051,
+              "max": 0.27008056640625,
+              "count": 1144422
+            },
+            "dense": {
+              "mean": 0.000010307130158755969,
+              "rmse": 0.00008065839510230076,
+              "max": 0.01403045654296875,
+              "count": 1144422
+            }
+          },
+          "draws": {
+            "off": {
+              "calls": 6,
+              "triangles": 219650
+            },
+            "previous": {
+              "calls": 7,
+              "triangles": 292866
+            },
+            "candidate": {
+              "calls": 7,
+              "triangles": 292866
+            },
+            "reference": {
+              "calls": 7,
+              "triangles": 292866
+            },
+            "dense": {
+              "calls": 7,
+              "triangles": 292866
+            },
+            "illuminated": {
+              "calls": 7,
+              "triangles": 292866
+            }
+          },
+          "skyEffect": {
+            "max": 0.0167236328125,
+            "mean": 0.0015873066246509552,
+            "changed": 571507
+          }
+        },
+        {
+          "label": "resolved-cloud",
+          "radius": 1.05,
+          "phase": 50,
+          "yaw": 0,
+          "fov": 20,
+          "metrics": {
+            "previous": {
+              "channels": 1154835,
+              "mae": 0.21560309481441073,
+              "rmse": 0.7253700752376689,
+              "max": 20,
+              "fullMean": 0.20749083333333335,
+              "fullMax": 20
+            },
+            "candidate": {
+              "channels": 1154835,
+              "mae": 0.21560309481441073,
+              "rmse": 0.7253700752376689,
+              "max": 20,
+              "fullMean": 0.20749083333333335,
+              "fullMax": 20
+            },
+            "dense": {
+              "channels": 1154835,
+              "mae": 0.0016911506838639286,
+              "rmse": 0.04112360251563484,
+              "max": 1,
+              "fullMean": 0.0016283333333333334,
+              "fullMax": 1
+            }
+          },
+          "linear": {
+            "previous": {
+              "mean": 0.0011127098286603863,
+              "rmse": 0.0032818278388411725,
+              "max": 0.0849609375,
+              "count": 1040841
+            },
+            "candidate": {
+              "mean": 0.0011127098286603863,
+              "rmse": 0.0032818278388411725,
+              "max": 0.0849609375,
+              "count": 1040841
+            },
+            "dense": {
+              "mean": 0.00000925886360385008,
+              "rmse": 0.00005107702876592667,
+              "max": 0.000732421875,
+              "count": 1040841
+            }
+          },
+          "draws": {
+            "off": {
+              "calls": 6,
+              "triangles": 219650
+            },
+            "previous": {
+              "calls": 7,
+              "triangles": 292866
+            },
+            "candidate": {
+              "calls": 7,
+              "triangles": 292866
+            },
+            "reference": {
+              "calls": 7,
+              "triangles": 292866
+            },
+            "dense": {
+              "calls": 7,
+              "triangles": 292866
+            },
+            "illuminated": {
+              "calls": 7,
+              "triangles": 292866
+            }
+          },
+          "skyEffect": {
+            "max": 0.03857421875,
+            "mean": 0.008177485600113868,
+            "changed": 1200000
+          }
+        },
+        {
+          "label": "resolved-limb",
+          "radius": 1.05,
+          "phase": 35,
+          "yaw": 1.2645,
+          "fov": 4,
+          "metrics": {
+            "previous": {
+              "channels": 555993,
+              "mae": 0.15980237161259225,
+              "rmse": 0.5136952585615137,
+              "max": 10,
+              "fullMean": 0.07404083333333333,
+              "fullMax": 10
+            },
+            "candidate": {
+              "channels": 555993,
+              "mae": 0.15977899002325568,
+              "rmse": 0.5136724998277052,
+              "max": 10,
+              "fullMean": 0.07403,
+              "fullMax": 10
+            },
+            "dense": {
+              "channels": 555993,
+              "mae": 0.0027932006338209294,
+              "rmse": 0.05285073919843439,
+              "max": 1,
+              "fullMean": 0.0012941666666666668,
+              "fullMax": 1
+            }
+          },
+          "linear": {
+            "previous": {
+              "mean": 0.0011711867991136844,
+              "rmse": 0.003066040890604485,
+              "max": 0.06884765625,
+              "count": 557031
+            },
+            "candidate": {
+              "mean": 0.0011710722618405926,
+              "rmse": 0.003066025407051796,
+              "max": 0.06884765625,
+              "count": 557031
+            },
+            "dense": {
+              "mean": 0.00001823545014380301,
+              "rmse": 0.00009151310814419427,
+              "max": 0.00146484375,
+              "count": 557031
+            }
+          },
+          "draws": {
+            "off": {
+              "calls": 6,
+              "triangles": 219650
+            },
+            "previous": {
+              "calls": 7,
+              "triangles": 292866
+            },
+            "candidate": {
+              "calls": 7,
+              "triangles": 292866
+            },
+            "reference": {
+              "calls": 7,
+              "triangles": 292866
+            },
+            "dense": {
+              "calls": 7,
+              "triangles": 292866
+            },
+            "illuminated": {
+              "calls": 7,
+              "triangles": 292866
+            }
+          },
+          "skyEffect": {
+            "max": 0.0244140625,
+            "mean": 0.005277085906018814,
+            "changed": 563547
+          }
+        },
+        {
+          "label": "pole",
+          "radius": 2.35,
+          "phase": 35,
+          "yaw": 0,
+          "fov": 58,
+          "metrics": {
+            "previous": {
+              "channels": 227880,
+              "mae": 0.20275144813059506,
+              "rmse": 0.9769032723410336,
+              "max": 54,
+              "fullMean": 0.04020166666666666,
+              "fullMax": 54
+            },
+            "candidate": {
+              "channels": 227880,
+              "mae": 0.1352115148323679,
+              "rmse": 0.608558987053176,
+              "max": 79,
+              "fullMean": 0.0265125,
+              "fullMax": 79
+            },
+            "dense": {
+              "channels": 227880,
+              "mae": 0.0020449359311918553,
+              "rmse": 0.045220967826793086,
+              "max": 1,
+              "fullMean": 0.0003975,
+              "fullMax": 1
+            }
+          },
+          "linear": {
+            "previous": {
+              "mean": 0.00030928823232652137,
+              "rmse": 0.0014350327365767698,
+              "max": 0.1192626953125,
+              "count": 345354
+            },
+            "candidate": {
+              "mean": 0.0002456607653925047,
+              "rmse": 0.0009790072650370633,
+              "max": 0.09450531005859375,
+              "count": 345354
+            },
+            "dense": {
+              "mean": 0.000004406622954683026,
+              "rmse": 0.00003381891134278038,
+              "max": 0.0008544921875,
+              "count": 345354
+            }
+          },
+          "draws": {
+            "off": {
+              "calls": 6,
+              "triangles": 219650
+            },
+            "previous": {
+              "calls": 7,
+              "triangles": 292866
+            },
+            "candidate": {
+              "calls": 7,
+              "triangles": 292866
+            },
+            "reference": {
+              "calls": 7,
+              "triangles": 292866
+            },
+            "dense": {
+              "calls": 7,
+              "triangles": 292866
+            },
+            "illuminated": {
+              "calls": 7,
+              "triangles": 292866
+            }
+          },
+          "skyEffect": {
+            "max": 0.03857421875,
+            "mean": 0.0016332157310843469,
+            "changed": 234926
+          }
+        },
+        {
+          "label": "seam",
+          "radius": 2.35,
+          "phase": 35,
+          "yaw": 0,
+          "fov": 58,
+          "metrics": {
+            "previous": {
+              "channels": 257889,
+              "mae": 0.007906502409951568,
+              "rmse": 0.08891851556313549,
+              "max": 1,
+              "fullMean": 0.0016991666666666668,
+              "fullMax": 1
+            },
+            "candidate": {
+              "channels": 257889,
+              "mae": 0.007906502409951568,
+              "rmse": 0.08891851556313549,
+              "max": 1,
+              "fullMean": 0.0016991666666666668,
+              "fullMax": 1
+            },
+            "dense": {
+              "channels": 257889,
+              "mae": 0.00030245570768819144,
+              "rmse": 0.017391253769875003,
+              "max": 1,
+              "fullMean": 0.000065,
+              "fullMax": 1
+            }
+          },
+          "linear": {
+            "previous": {
+              "mean": 0.00005212485020925369,
+              "rmse": 0.00017579884786200626,
+              "max": 0.00439453125,
+              "count": 238782
+            },
+            "candidate": {
+              "mean": 0.00005212485020925369,
+              "rmse": 0.00017579884786200626,
+              "max": 0.00439453125,
+              "count": 238782
+            },
+            "dense": {
+              "mean": 0.0000023407679726974422,
+              "rmse": 0.0000311413477700798,
+              "max": 0.0009765625,
+              "count": 238782
+            }
+          },
+          "draws": {
+            "off": {
+              "calls": 10,
+              "triangles": 443394
+            },
+            "previous": {
+              "calls": 11,
+              "triangles": 516610
+            },
+            "candidate": {
+              "calls": 11,
+              "triangles": 516610
+            },
+            "reference": {
+              "calls": 11,
+              "triangles": 516610
+            },
+            "dense": {
+              "calls": 11,
+              "triangles": 516610
+            },
+            "illuminated": {
+              "calls": 11,
+              "triangles": 516610
+            }
+          },
+          "skyEffect": {
+            "max": 0.04150390625,
+            "mean": 0.0017479916059970856,
+            "changed": 284890
+          }
+        }
+      ],
+      "temporal": [
+        {
+          "label": "turn-left",
+          "metrics": {
+            "previous": 0.00041257910932103795,
+            "candidate": 0.00025698960041006406
+          }
+        },
+        {
+          "label": "turn-right",
+          "metrics": {
+            "previous": 0.00040877871056397755,
+            "candidate": 0.00025635310451189677
+          }
+        }
+      ],
+      "sunColumns": [
+        {
+          "altitude": 1.5,
+          "mu": 0.7,
+          "expected": 5.266242793047176,
+          "measured": 5.265625,
+          "relativeError": 0.00011731191884867265
+        },
+        {
+          "altitude": 1.5,
+          "mu": 0.1,
+          "expected": 35.18560487290232,
+          "measured": 35.125,
+          "relativeError": 0.0017224337373547005
+        },
+        {
+          "altitude": 1.5,
+          "mu": 0.02,
+          "expected": 104.14815586830402,
+          "measured": 103.375,
+          "relativeError": 0.007423615539402073
+        },
+        {
+          "altitude": 4,
+          "mu": 0.7,
+          "expected": 3.3045419283655146,
+          "measured": 3.302734375,
+          "relativeError": 0.0005469905980005629
+        },
+        {
+          "altitude": 4,
+          "mu": 0.1,
+          "expected": 22.524920669117794,
+          "measured": 22.5,
+          "relativeError": 0.0011063599061621465
+        },
+        {
+          "altitude": 4,
+          "mu": 0.02,
+          "expected": 78.53239549562318,
+          "measured": 78,
+          "relativeError": 0.0067793105286447775
+        },
+        {
+          "altitude": 7,
+          "mu": 0.7,
+          "expected": 0.5517222235019603,
+          "measured": 0.55126953125,
+          "relativeError": 0.0008205075537593975
+        },
+        {
+          "altitude": 7,
+          "mu": 0.1,
+          "expected": 3.8301252174085887,
+          "measured": 3.828125,
+          "relativeError": 0.0005222329023336636
+        },
+        {
+          "altitude": 7,
+          "mu": 0.02,
+          "expected": 16.42993047085888,
+          "measured": 16.34375,
+          "relativeError": 0.00524533387476811
+        }
+      ],
+      "skyIrradiance": [
+        {
+          "altitude": 0,
+          "sunMu": -0.1,
+          "expected": [
+            0,
+            0,
+            0
+          ],
+          "measured": [
+            0,
+            0,
+            0
+          ],
+          "maxError": 0
+        },
+        {
+          "altitude": 0,
+          "sunMu": 0,
+          "expected": [
+            0,
+            0,
+            0
+          ],
+          "measured": [
+            0,
+            0,
+            0
+          ],
+          "maxError": 0
+        },
+        {
+          "altitude": 0,
+          "sunMu": 0.001,
+          "expected": [
+            0.0003763487385126529,
+            0.0003302763044110232,
+            0.00023500977679971643
+          ],
+          "measured": [
+            0.0003752708435058594,
+            0.0003292560577392578,
+            0.00023543834686279297
+          ],
+          "maxError": 0.000001077895006793548
+        },
+        {
+          "altitude": 0,
+          "sunMu": 0.02,
+          "expected": [
+            0.0072911605148370685,
+            0.006939240474468453,
+            0.004899734899602221
+          ],
+          "measured": [
+            0.007293701171875,
+            0.006916046142578125,
+            0.00490570068359375
+          ],
+          "maxError": 0.000023194331890328407
+        },
+        {
+          "altitude": 0,
+          "sunMu": 0.1,
+          "expected": [
+            0.016153227716696677,
+            0.025513159708439183,
+            0.026676683430495257
+          ],
+          "measured": [
+            0.01617431640625,
+            0.0254669189453125,
+            0.0266876220703125
+          ],
+          "maxError": 0.00004624076312668285
+        },
+        {
+          "altitude": 0,
+          "sunMu": 0.380690406958,
+          "expected": [
+            0.019444971428439404,
+            0.03788305259002775,
+            0.061834036237170105
+          ],
+          "measured": [
+            0.01947021484375,
+            0.037811279296875,
+            0.061798095703125
+          ],
+          "maxError": 0.00007177329315274927
+        },
+        {
+          "altitude": 0,
+          "sunMu": 0.5,
+          "expected": [
+            0.01981303903632692,
+            0.03944866650996088,
+            0.06791496773679685
+          ],
+          "measured": [
+            0.01983642578125,
+            0.039398193359375,
+            0.06787109375
+          ],
+          "maxError": 0.00005047315058587937
+        },
+        {
+          "altitude": 0,
+          "sunMu": 0.966234757102,
+          "expected": [
+            0.020672978475600713,
+            0.043000648676870735,
+            0.08199901812796595
+          ],
+          "measured": [
+            0.02069091796875,
+            0.042938232421875,
+            0.0819091796875
+          ],
+          "maxError": 0.00008983844046595024
+        },
+        {
+          "altitude": 0,
+          "sunMu": 1,
+          "expected": [
+            0.02072682914792189,
+            0.04321350065181107,
+            0.08281835675068262
+          ],
+          "measured": [
+            0.0207366943359375,
+            0.04315185546875,
+            0.082763671875
+          ],
+          "maxError": 0.0000616451830610723
+        },
+        {
+          "altitude": 1.4,
+          "sunMu": -0.1,
+          "expected": [
+            0,
+            0,
+            0
+          ],
+          "measured": [
+            0,
+            0,
+            0
+          ],
+          "maxError": 0
+        },
+        {
+          "altitude": 1.4,
+          "sunMu": 0,
+          "expected": [
+            0,
+            0,
+            0
+          ],
+          "measured": [
+            0,
+            0,
+            0
+          ],
+          "maxError": 0
+        },
+        {
+          "altitude": 1.4,
+          "sunMu": 0.001,
+          "expected": [
+            0.00040943351197296864,
+            0.0003564738896670306,
+            0.00026129745492355094
+          ],
+          "measured": [
+            0.0004088878631591797,
+            0.00035500526428222656,
+            0.00026154518127441406
+          ],
+          "maxError": 0.0000014686253848040219
+        },
+        {
+          "altitude": 1.4,
+          "sunMu": 0.02,
+          "expected": [
+            0.007442805762947353,
+            0.007454078331993942,
+            0.005460168155366851
+          ],
+          "measured": [
+            0.00745391845703125,
+            0.007427215576171875,
+            0.005466461181640625
+          ],
+          "maxError": 0.000026862755822067153
+        },
+        {
+          "altitude": 1.4,
+          "sunMu": 0.1,
+          "expected": [
+            0.014515335421366475,
+            0.024203797924623148,
+            0.028150255808957844
+          ],
+          "measured": [
+            0.014556884765625,
+            0.024169921875,
+            0.02813720703125
+          ],
+          "maxError": 0.000041549344258524565
+        },
+        {
+          "altitude": 1.4,
+          "sunMu": 0.380690406958,
+          "expected": [
+            0.016847235994141604,
+            0.03363578173204792,
+            0.05813248826493377
+          ],
+          "measured": [
+            0.0168914794921875,
+            0.033599853515625,
+            0.058074951171875
+          ],
+          "maxError": 0.00005753709305877236
+        },
+        {
+          "altitude": 1.4,
+          "sunMu": 0.5,
+          "expected": [
+            0.017103380606519506,
+            0.03478087647900026,
+            0.06289134713836558
+          ],
+          "measured": [
+            0.01715087890625,
+            0.034759521484375,
+            0.06280517578125
+          ],
+          "maxError": 0.0000861713571155831
+        },
+        {
+          "altitude": 1.4,
+          "sunMu": 0.966234757102,
+          "expected": [
+            0.017709168958864777,
+            0.03739055570625734,
+            0.07378453365493812
+          ],
+          "measured": [
+            0.017730712890625,
+            0.037353515625,
+            0.07373046875
+          ],
+          "maxError": 0.000054064904938117
+        },
+        {
+          "altitude": 1.4,
+          "sunMu": 1,
+          "expected": [
+            0.017747598594154222,
+            0.03754854962967981,
+            0.07442014016216819
+          ],
+          "measured": [
+            0.0177764892578125,
+            0.03753662109375,
+            0.0743408203125
+          ],
+          "maxError": 0.00007931984966819128
+        },
+        {
+          "altitude": 4,
+          "sunMu": -0.1,
+          "expected": [
+            0,
+            0,
+            0
+          ],
+          "measured": [
+            0,
+            0,
+            0
+          ],
+          "maxError": 0
+        },
+        {
+          "altitude": 4,
+          "sunMu": 0,
+          "expected": [
+            0,
+            0,
+            0
+          ],
+          "measured": [
+            0,
+            0,
+            0
+          ],
+          "maxError": 0
+        },
+        {
+          "altitude": 4,
+          "sunMu": 0.001,
+          "expected": [
+            0.0004383312272970651,
+            0.0003887378970362437,
+            0.0003029197189851129
+          ],
+          "measured": [
+            0.00043892860412597656,
+            0.0003871917724609375,
+            0.0003027915954589844
+          ],
+          "maxError": 0.0000015461245753061814
+        },
+        {
+          "altitude": 4,
+          "sunMu": 0.02,
+          "expected": [
+            0.0069128768354854205,
+            0.007904536633796623,
+            0.006356285688237417
+          ],
+          "measured": [
+            0.006938934326171875,
+            0.0078887939453125,
+            0.00634765625
+          ],
+          "maxError": 0.00002605749068645448
+        },
+        {
+          "altitude": 4,
+          "sunMu": 0.1,
+          "expected": [
+            0.011379856731314345,
+            0.020637887957524033,
+            0.028566938081645905
+          ],
+          "measured": [
+            0.01142120361328125,
+            0.0206298828125,
+            0.0285186767578125
+          ],
+          "maxError": 0.00004826132383340537
+        },
+        {
+          "altitude": 4,
+          "sunMu": 0.380690406958,
+          "expected": [
+            0.01264840145611949,
+            0.026218331869151155,
+            0.04939398022841302
+          ],
+          "measured": [
+            0.0126953125,
+            0.0262298583984375,
+            0.04931640625
+          ],
+          "maxError": 0.00007757397841302166
+        },
+        {
+          "altitude": 4,
+          "sunMu": 0.5,
+          "expected": [
+            0.012785302947458587,
+            0.02686075509424144,
+            0.052310137139477464
+          ],
+          "measured": [
+            0.0128326416015625,
+            0.0268707275390625,
+            0.05224609375
+          ],
+          "maxError": 0.00006404338947746391
+        },
+        {
+          "altitude": 4,
+          "sunMu": 0.966234757102,
+          "expected": [
+            0.013115871818539692,
+            0.028342874323956838,
+            0.05891876250163124
+          ],
+          "measured": [
+            0.013153076171875,
+            0.028350830078125,
+            0.058868408203125
+          ],
+          "maxError": 0.00005035429850624301
+        },
+        {
+          "altitude": 4,
+          "sunMu": 1,
+          "expected": [
+            0.01313726212984198,
+            0.028434290466599687,
+            0.05930838164773295
+          ],
+          "measured": [
+            0.0131683349609375,
+            0.0284423828125,
+            0.05926513671875
+          ],
+          "maxError": 0.0000432449289829509
+        },
+        {
+          "altitude": 9,
+          "sunMu": -0.1,
+          "expected": [
+            0,
+            0,
+            0
+          ],
+          "measured": [
+            0,
+            0,
+            0
+          ],
+          "maxError": 0
+        },
+        {
+          "altitude": 9,
+          "sunMu": 0,
+          "expected": [
+            0,
+            0,
+            0
+          ],
+          "measured": [
+            0,
+            0,
+            0
+          ],
+          "maxError": 0
+        },
+        {
+          "altitude": 9,
+          "sunMu": 0.001,
+          "expected": [
+            0.00046411575103050935,
+            0.000429890346711003,
+            0.0003673067736762926
+          ],
+          "measured": [
+            0.0004665851593017578,
+            0.0004298686981201172,
+            0.0003657341003417969
+          ],
+          "maxError": 0.0000024694082712484666
+        },
+        {
+          "altitude": 9,
+          "sunMu": 0.02,
+          "expected": [
+            0.005045061187617409,
+            0.0074412186232938856,
+            0.007656075647265248
+          ],
+          "measured": [
+            0.005069732666015625,
+            0.007457733154296875,
+            0.007633209228515625
+          ],
+          "maxError": 0.000024671478398216422
+        },
+        {
+          "altitude": 9,
+          "sunMu": 0.1,
+          "expected": [
+            0.0066925711276465865,
+            0.013529384301063619,
+            0.023811096838354067
+          ],
+          "measured": [
+            0.00672149658203125,
+            0.0135650634765625,
+            0.023773193359375
+          ],
+          "maxError": 0.00003790347897906707
+        },
+        {
+          "altitude": 9,
+          "sunMu": 0.380690406958,
+          "expected": [
+            0.007083832859221075,
+            0.015414384413976058,
+            0.032436407150066744
+          ],
+          "measured": [
+            0.007114410400390625,
+            0.0154571533203125,
+            0.03240966796875
+          ],
+          "maxError": 0.00004276890633644198
+        },
+        {
+          "altitude": 9,
+          "sunMu": 0.5,
+          "expected": [
+            0.00712561996993667,
+            0.015619759590225555,
+            0.03347088087164699
+          ],
+          "measured": [
+            0.0071563720703125,
+            0.015655517578125,
+            0.033447265625
+          ],
+          "maxError": 0.000035757987899445384
+        },
+        {
+          "altitude": 9,
+          "sunMu": 0.966234757102,
+          "expected": [
+            0.00723064650041175,
+            0.016109302010033667,
+            0.03583320811302345
+          ],
+          "measured": [
+            0.007251739501953125,
+            0.0161285400390625,
+            0.035797119140625
+          ],
+          "maxError": 0.00003608897239845005
+        },
+        {
+          "altitude": 9,
+          "sunMu": 1,
+          "expected": [
+            0.007237674737736123,
+            0.01614059916049558,
+            0.03597674206289521
+          ],
+          "measured": [
+            0.00725555419921875,
+            0.0161590576171875,
+            0.03594970703125
+          ],
+          "maxError": 0.00002703503164520893
+        },
+        {
+          "altitude": 20,
+          "sunMu": -0.1,
+          "expected": [
+            0,
+            0,
+            0
+          ],
+          "measured": [
+            0,
+            0,
+            0
+          ],
+          "maxError": 0
+        },
+        {
+          "altitude": 20,
+          "sunMu": 0,
+          "expected": [
+            0,
+            0,
+            0
+          ],
+          "measured": [
+            0,
+            0,
+            0
+          ],
+          "maxError": 0
+        },
+        {
+          "altitude": 20,
+          "sunMu": 0.001,
+          "expected": [
+            0.000479271094905252,
+            0.00047737621211718314,
+            0.0004516584434753625
+          ],
+          "measured": [
+            0.0004813671112060547,
+            0.0004801750183105469,
+            0.0004532337188720703
+          ],
+          "maxError": 0.0000027988061933637313
+        },
+        {
+          "altitude": 20,
+          "sunMu": 0.02,
+          "expected": [
+            0.0017098502732612367,
+            0.0034763392146407507,
+            0.006198858221439543
+          ],
+          "measured": [
+            0.0017156600952148438,
+            0.0034942626953125,
+            0.006229400634765625
+          ],
+          "maxError": 0.000030542413326082284
+        },
+        {
+          "altitude": 20,
+          "sunMu": 0.1,
+          "expected": [
+            0.0018431517057469254,
+            0.00412454803337686,
+            0.009203697395491723
+          ],
+          "measured": [
+            0.0018491744995117188,
+            0.00414276123046875,
+            0.009246826171875
+          ],
+          "maxError": 0.00004312877638327703
+        },
+        {
+          "altitude": 20,
+          "sunMu": 0.380690406958,
+          "expected": [
+            0.0018701305064008544,
+            0.004265520592215908,
+            0.009985995517649636
+          ],
+          "measured": [
+            0.0018768310546875,
+            0.004283905029296875,
+            0.01003265380859375
+          ],
+          "maxError": 0.000046658290944114056
+        },
+        {
+          "altitude": 20,
+          "sunMu": 0.5,
+          "expected": [
+            0.0018730820140422449,
+            0.00428064225273716,
+            0.010069826877507963
+          ],
+          "measured": [
+            0.0018787384033203125,
+            0.004299163818359375,
+            0.0101165771484375
+          ],
+          "maxError": 0.0000467502709295374
+        },
+        {
+          "altitude": 20,
+          "sunMu": 0.966234757102,
+          "expected": [
+            0.0018811778029951924,
+            0.0043199780926594525,
+            0.010275614038569043
+          ],
+          "measured": [
+            0.0018854141235351562,
+            0.00433349609375,
+            0.01030731201171875
+          ],
+          "maxError": 0.00003169797314970732
+        },
+        {
+          "altitude": 20,
+          "sunMu": 1,
+          "expected": [
+            0.0018817539837111274,
+            0.0043226790078031594,
+            0.010289123291458655
+          ],
+          "measured": [
+            0.0018863677978515625,
+            0.004337310791015625,
+            0.01032257080078125
+          ],
+          "maxError": 0.0000334475093225952
+        }
+      ],
+      "errors": [],
+      "passed": true
+    },
+    {
+      "name": "WebKit",
+      "engineVersion": "26.5",
+      "views": [
+        {
+          "label": "day",
+          "radius": 2.35,
+          "phase": 35,
+          "yaw": 0,
+          "fov": 58,
+          "metrics": {
+            "previous": {
+              "channels": 282474,
+              "mae": 0.03282780008071539,
+              "rmse": 0.20519013136527792,
+              "max": 21,
+              "fullMean": 0.0077666666666666665,
+              "fullMax": 21
+            },
+            "candidate": {
+              "channels": 282474,
+              "mae": 0.03271097516939612,
+              "rmse": 0.20405692958890362,
+              "max": 21,
+              "fullMean": 0.007719166666666667,
+              "fullMax": 21
+            },
+            "dense": {
+              "channels": 282474,
+              "mae": 0.000587664705424216,
+              "rmse": 0.024241796662463285,
+              "max": 1,
+              "fullMean": 0.00013833333333333333,
+              "fullMax": 1
+            }
+          },
+          "linear": {
+            "previous": {
+              "mean": 0.00018032451785605642,
+              "rmse": 0.0007379525248579903,
+              "max": 0.078369140625,
+              "count": 249084
+            },
+            "candidate": {
+              "mean": 0.0001800406188013482,
+              "rmse": 0.0007344860832579256,
+              "max": 0.078369140625,
+              "count": 249084
+            },
+            "dense": {
+              "mean": 0.0000037017747437009594,
+              "rmse": 0.00003738899012151172,
+              "max": 0.001953125,
+              "count": 249084
+            }
+          },
+          "draws": {
+            "off": {
+              "calls": 6,
+              "triangles": 219650
+            },
+            "previous": {
+              "calls": 7,
+              "triangles": 292866
+            },
+            "candidate": {
+              "calls": 7,
+              "triangles": 292866
+            },
+            "reference": {
+              "calls": 7,
+              "triangles": 292866
+            },
+            "dense": {
+              "calls": 7,
+              "triangles": 292866
+            },
+            "illuminated": {
+              "calls": 7,
+              "triangles": 292866
+            }
+          },
+          "skyEffect": {
+            "max": 0.04296875,
+            "mean": 0.0015877959895630677,
+            "changed": 325385
+          }
+        },
+        {
+          "label": "terminator",
+          "radius": 2.35,
+          "phase": 90,
+          "yaw": 0,
+          "fov": 58,
+          "metrics": {
+            "previous": {
+              "channels": 135933,
+              "mae": 0.2924161167634055,
+              "rmse": 1.2455891294020864,
+              "max": 41,
+              "fullMean": 0.03431583333333333,
+              "fullMax": 41
+            },
+            "candidate": {
+              "channels": 135933,
+              "mae": 0.18640065326300456,
+              "rmse": 0.7591142722338758,
+              "max": 34,
+              "fullMean": 0.02174,
+              "fullMax": 34
+            },
+            "dense": {
+              "channels": 135933,
+              "mae": 0.0023835271788307474,
+              "rmse": 0.049121822444793246,
+              "max": 2,
+              "fullMean": 0.0002725,
+              "fullMax": 2
+            }
+          },
+          "linear": {
+            "previous": {
+              "mean": 0.00028214284500199143,
+              "rmse": 0.0015574128276819746,
+              "max": 0.0953369140625,
+              "count": 275592
+            },
+            "candidate": {
+              "mean": 0.0002097423452815939,
+              "rmse": 0.001067947394843704,
+              "max": 0.084716796875,
+              "count": 275592
+            },
+            "dense": {
+              "mean": 0.000002980052294995934,
+              "rmse": 0.000027588805413489355,
+              "max": 0.00445556640625,
+              "count": 275592
+            }
+          },
+          "draws": {
+            "off": {
+              "calls": 6,
+              "triangles": 219650
+            },
+            "previous": {
+              "calls": 7,
+              "triangles": 292866
+            },
+            "candidate": {
+              "calls": 7,
+              "triangles": 292866
+            },
+            "reference": {
+              "calls": 7,
+              "triangles": 292866
+            },
+            "dense": {
+              "calls": 7,
+              "triangles": 292866
+            },
+            "illuminated": {
+              "calls": 7,
+              "triangles": 292866
+            }
+          },
+          "skyEffect": {
+            "max": 0.03857421875,
+            "mean": 0.0007068045715987682,
+            "changed": 151869
+          }
+        },
+        {
+          "label": "crescent",
+          "radius": 2.35,
+          "phase": 150,
+          "yaw": 0,
+          "fov": 58,
+          "metrics": {
+            "previous": {
+              "channels": 579,
+              "mae": 0.16234887737478412,
+              "rmse": 0.47018167950738665,
+              "max": 3,
+              "fullMean": 0.00009166666666666667,
+              "fullMax": 3
+            },
+            "candidate": {
+              "channels": 579,
+              "mae": 0.16580310880829016,
+              "rmse": 0.47384073608955674,
+              "max": 3,
+              "fullMean": 0.000095,
+              "fullMax": 3
+            },
+            "dense": {
+              "channels": 579,
+              "mae": 0,
+              "rmse": 0,
+              "max": 0,
+              "fullMean": 0,
+              "fullMax": 0
+            }
+          },
+          "linear": {
+            "previous": {
+              "mean": 0.0000011226968746989167,
+              "rmse": 0.00005297962811219361,
+              "max": 0.0054931640625,
+              "count": 269352
+            },
+            "candidate": {
+              "mean": 0.0000011159272004697712,
+              "rmse": 0.000052944920693978115,
+              "max": 0.0054931640625,
+              "count": 269352
+            },
+            "dense": {
+              "mean": 1.0236830865594354e-8,
+              "rmse": 0.0000014744767208887725,
+              "max": 0.00048828125,
+              "count": 269352
+            }
+          },
+          "draws": {
+            "off": {
+              "calls": 7,
+              "triangles": 292866
+            },
+            "previous": {
+              "calls": 8,
+              "triangles": 366082
+            },
+            "candidate": {
+              "calls": 8,
+              "triangles": 366082
+            },
+            "reference": {
+              "calls": 8,
+              "triangles": 366082
+            },
+            "dense": {
+              "calls": 8,
+              "triangles": 366082
+            },
+            "illuminated": {
+              "calls": 8,
+              "triangles": 366082
+            }
+          },
+          "skyEffect": {
+            "max": 0.005859375,
+            "mean": 4.712286591529846e-7,
+            "changed": 355
+          }
+        },
+        {
+          "label": "night",
+          "radius": 2.35,
+          "phase": 175,
+          "yaw": 0,
+          "fov": 58,
+          "metrics": {
+            "previous": {
+              "channels": 0,
+              "mae": 0,
+              "rmse": 0,
+              "max": 0,
+              "fullMean": 0,
+              "fullMax": 0
+            },
+            "candidate": {
+              "channels": 0,
+              "mae": 0,
+              "rmse": 0,
+              "max": 0,
+              "fullMean": 0,
+              "fullMax": 0
+            },
+            "dense": {
+              "channels": 0,
+              "mae": 0,
+              "rmse": 0,
+              "max": 0,
+              "fullMean": 0,
+              "fullMax": 0
+            }
+          },
+          "linear": {
+            "previous": {
+              "mean": 0,
+              "rmse": 0,
+              "max": 0,
+              "count": 242931
+            },
+            "candidate": {
+              "mean": 0,
+              "rmse": 0,
+              "max": 0,
+              "count": 242931
+            },
+            "dense": {
+              "mean": 0,
+              "rmse": 0,
+              "max": 0,
+              "count": 242931
+            }
+          },
+          "draws": {
+            "off": {
+              "calls": 10,
+              "triangles": 516610
+            },
+            "previous": {
+              "calls": 11,
+              "triangles": 589826
+            },
+            "candidate": {
+              "calls": 11,
+              "triangles": 589826
+            },
+            "reference": {
+              "calls": 11,
+              "triangles": 589826
+            },
+            "dense": {
+              "calls": 11,
+              "triangles": 589826
+            },
+            "illuminated": {
+              "calls": 11,
+              "triangles": 589826
+            }
+          },
+          "skyEffect": {
+            "max": 0,
+            "mean": 0,
+            "changed": 0
+          }
+        },
+        {
+          "label": "close",
+          "radius": 1.05,
+          "phase": 50,
+          "yaw": 0,
+          "fov": 58,
+          "metrics": {
+            "previous": {
+              "channels": 806436,
+              "mae": 0.1777859619362231,
+              "rmse": 0.5588392310431507,
+              "max": 23,
+              "fullMean": 0.119485,
+              "fullMax": 23
+            },
+            "candidate": {
+              "channels": 806436,
+              "mae": 0.17771528056783178,
+              "rmse": 0.55877598801712,
+              "max": 23,
+              "fullMean": 0.1194375,
+              "fullMax": 23
+            },
+            "dense": {
+              "channels": 806436,
+              "mae": 0.001583510656766315,
+              "rmse": 0.039793349403717135,
+              "max": 1,
+              "fullMean": 0.0010641666666666666,
+              "fullMax": 1
+            }
+          },
+          "linear": {
+            "previous": {
+              "mean": 0.0009551581373983284,
+              "rmse": 0.0024780598737441967,
+              "max": 0.08251953125,
+              "count": 727749
+            },
+            "candidate": {
+              "mean": 0.0009549968951258033,
+              "rmse": 0.0024780313428489254,
+              "max": 0.08251953125,
+              "count": 727749
+            },
+            "dense": {
+              "mean": 0.00000863031690636609,
+              "rmse": 0.000051782010936184636,
+              "max": 0.00048828125,
+              "count": 727749
+            }
+          },
+          "draws": {
+            "off": {
+              "calls": 6,
+              "triangles": 219650
+            },
+            "previous": {
+              "calls": 7,
+              "triangles": 292866
+            },
+            "candidate": {
+              "calls": 7,
+              "triangles": 292866
+            },
+            "reference": {
+              "calls": 7,
+              "triangles": 292866
+            },
+            "dense": {
+              "calls": 7,
+              "triangles": 292866
+            },
+            "illuminated": {
+              "calls": 7,
+              "triangles": 292866
+            }
+          },
+          "skyEffect": {
+            "max": 0.0419921875,
+            "mean": 0.006352349885304769,
+            "changed": 946365
+          }
+        },
+        {
+          "label": "grazing",
+          "radius": 1.08,
+          "phase": 90,
+          "yaw": 0,
+          "fov": 58,
+          "metrics": {
+            "previous": {
+              "channels": 544119,
+              "mae": 2.700107880812837,
+              "rmse": 6.474719685420302,
+              "max": 120,
+              "fullMean": 1.3514325,
+              "fullMax": 120
+            },
+            "candidate": {
+              "channels": 544119,
+              "mae": 1.5915433940002095,
+              "rmse": 3.9285892113581475,
+              "max": 86,
+              "fullMean": 0.7964041666666667,
+              "fullMax": 86
+            },
+            "dense": {
+              "channels": 544119,
+              "mae": 0.02375950848987078,
+              "rmse": 0.18353149086071888,
+              "max": 18,
+              "fullMean": 0.013529166666666667,
+              "fullMax": 18
+            }
+          },
+          "linear": {
+            "previous": {
+              "mean": 0.0017015155067711656,
+              "rmse": 0.008377025575521653,
+              "max": 0.3251953125,
+              "count": 1144515
+            },
+            "candidate": {
+              "mean": 0.0008850269587227024,
+              "rmse": 0.0038394141570979754,
+              "max": 0.2510986328125,
+              "count": 1144515
+            },
+            "dense": {
+              "mean": 0.000010347687865776577,
+              "rmse": 0.00008155278389840903,
+              "max": 0.013427734375,
+              "count": 1144515
+            }
+          },
+          "draws": {
+            "off": {
+              "calls": 6,
+              "triangles": 219650
+            },
+            "previous": {
+              "calls": 7,
+              "triangles": 292866
+            },
+            "candidate": {
+              "calls": 7,
+              "triangles": 292866
+            },
+            "reference": {
+              "calls": 7,
+              "triangles": 292866
+            },
+            "dense": {
+              "calls": 7,
+              "triangles": 292866
+            },
+            "illuminated": {
+              "calls": 7,
+              "triangles": 292866
+            }
+          },
+          "skyEffect": {
+            "max": 0.0169677734375,
+            "mean": 0.001592021433810393,
+            "changed": 572264
+          }
+        },
+        {
+          "label": "turn-left",
+          "radius": 1.08,
+          "phase": 90,
+          "yaw": -0.001,
+          "fov": 58,
+          "metrics": {
+            "previous": {
+              "channels": 544920,
+              "mae": 2.6999816486823756,
+              "rmse": 6.474705582196662,
+              "max": 120,
+              "fullMean": 1.3533016666666666,
+              "fullMax": 120
+            },
+            "candidate": {
+              "channels": 544920,
+              "mae": 1.5900333993980769,
+              "rmse": 3.926027965812679,
+              "max": 87,
+              "fullMean": 0.7967933333333334,
+              "fullMax": 87
+            },
+            "dense": {
+              "channels": 544920,
+              "mae": 0.02360897012405491,
+              "rmse": 0.18259931268256635,
+              "max": 20,
+              "fullMean": 0.013495,
+              "fullMax": 20
+            }
+          },
+          "linear": {
+            "previous": {
+              "mean": 0.0017051538263847723,
+              "rmse": 0.008388709175017314,
+              "max": 0.380859375,
+              "count": 1144590
+            },
+            "candidate": {
+              "mean": 0.0008858618992143327,
+              "rmse": 0.0038360942371933825,
+              "max": 0.26885986328125,
+              "count": 1144590
+            },
+            "dense": {
+              "mean": 0.000010365216168926617,
+              "rmse": 0.00008000157068337325,
+              "max": 0.0135955810546875,
+              "count": 1144590
+            }
+          },
+          "draws": {
+            "off": {
+              "calls": 6,
+              "triangles": 219650
+            },
+            "previous": {
+              "calls": 7,
+              "triangles": 292866
+            },
+            "candidate": {
+              "calls": 7,
+              "triangles": 292866
+            },
+            "reference": {
+              "calls": 7,
+              "triangles": 292866
+            },
+            "dense": {
+              "calls": 7,
+              "triangles": 292866
+            },
+            "illuminated": {
+              "calls": 7,
+              "triangles": 292866
+            }
+          },
+          "skyEffect": {
+            "max": 0.01708984375,
+            "mean": 0.001596732850521803,
+            "changed": 572925
+          }
+        },
+        {
+          "label": "turn-right",
+          "radius": 1.08,
+          "phase": 90,
+          "yaw": 0.001,
+          "fov": 58,
+          "metrics": {
+            "previous": {
+              "channels": 543339,
+              "mae": 2.7008497457388483,
+              "rmse": 6.478687260633921,
+              "max": 119,
+              "fullMean": 1.3501808333333334,
+              "fullMax": 119
+            },
+            "candidate": {
+              "channels": 543339,
+              "mae": 1.5908245128731786,
+              "rmse": 3.9289331494416033,
+              "max": 87,
+              "fullMean": 0.7951241666666666,
+              "fullMax": 87
+            },
+            "dense": {
+              "channels": 543339,
+              "mae": 0.023664783864217366,
+              "rmse": 0.18326190493768024,
+              "max": 21,
+              "fullMean": 0.013466666666666667,
+              "fullMax": 21
+            }
+          },
+          "linear": {
+            "previous": {
+              "mean": 0.0016980821530324416,
+              "rmse": 0.008368142431945065,
+              "max": 0.3597412109375,
+              "count": 1144419
+            },
+            "candidate": {
+              "mean": 0.0008825809773521403,
+              "rmse": 0.0038325085499997555,
+              "max": 0.27008056640625,
+              "count": 1144419
+            },
+            "dense": {
+              "mean": 0.000010320054359041805,
+              "rmse": 0.00008065799080434146,
+              "max": 0.0139007568359375,
+              "count": 1144419
+            }
+          },
+          "draws": {
+            "off": {
+              "calls": 6,
+              "triangles": 219650
+            },
+            "previous": {
+              "calls": 7,
+              "triangles": 292866
+            },
+            "candidate": {
+              "calls": 7,
+              "triangles": 292866
+            },
+            "reference": {
+              "calls": 7,
+              "triangles": 292866
+            },
+            "dense": {
+              "calls": 7,
+              "triangles": 292866
+            },
+            "illuminated": {
+              "calls": 7,
+              "triangles": 292866
+            }
+          },
+          "skyEffect": {
+            "max": 0.01666259765625,
+            "mean": 0.0015872989177703857,
+            "changed": 571501
+          }
+        },
+        {
+          "label": "resolved-cloud",
+          "radius": 1.05,
+          "phase": 50,
+          "yaw": 0,
+          "fov": 20,
+          "metrics": {
+            "previous": {
+              "channels": 1154850,
+              "mae": 0.2157293154955189,
+              "rmse": 0.7252740359030108,
+              "max": 20,
+              "fullMean": 0.20761416666666666,
+              "fullMax": 20
+            },
+            "candidate": {
+              "channels": 1154850,
+              "mae": 0.2157293154955189,
+              "rmse": 0.7252740359030108,
+              "max": 20,
+              "fullMean": 0.20761416666666666,
+              "fullMax": 20
+            },
+            "dense": {
+              "channels": 1154850,
+              "mae": 0.0016867991514049445,
+              "rmse": 0.04107066046954863,
+              "max": 1,
+              "fullMean": 0.0016233333333333334,
+              "fullMax": 1
+            }
+          },
+          "linear": {
+            "previous": {
+              "mean": 0.0011126596800396546,
+              "rmse": 0.0032820332314980214,
+              "max": 0.0849609375,
+              "count": 1040847
+            },
+            "candidate": {
+              "mean": 0.0011126596800396546,
+              "rmse": 0.0032820332314980214,
+              "max": 0.0849609375,
+              "count": 1040847
+            },
+            "dense": {
+              "mean": 0.000009146038387420669,
+              "rmse": 0.00005065124433279266,
+              "max": 0.000732421875,
+              "count": 1040847
+            }
+          },
+          "draws": {
+            "off": {
+              "calls": 6,
+              "triangles": 219650
+            },
+            "previous": {
+              "calls": 7,
+              "triangles": 292866
+            },
+            "candidate": {
+              "calls": 7,
+              "triangles": 292866
+            },
+            "reference": {
+              "calls": 7,
+              "triangles": 292866
+            },
+            "dense": {
+              "calls": 7,
+              "triangles": 292866
+            },
+            "illuminated": {
+              "calls": 7,
+              "triangles": 292866
+            }
+          },
+          "skyEffect": {
+            "max": 0.03857421875,
+            "mean": 0.008177409927050273,
+            "changed": 1200000
+          }
+        },
+        {
+          "label": "resolved-limb",
+          "radius": 1.05,
+          "phase": 35,
+          "yaw": 1.2645,
+          "fov": 4,
+          "metrics": {
+            "previous": {
+              "channels": 555999,
+              "mae": 0.16017474851573474,
+              "rmse": 0.5142244009967418,
+              "max": 10,
+              "fullMean": 0.07421416666666666,
+              "fullMax": 10
+            },
+            "candidate": {
+              "channels": 555999,
+              "mae": 0.16015136717871795,
+              "rmse": 0.514201665928302,
+              "max": 10,
+              "fullMean": 0.07420333333333333,
+              "fullMax": 10
+            },
+            "dense": {
+              "channels": 555999,
+              "mae": 0.0028381346009615127,
+              "rmse": 0.05327414570841575,
+              "max": 1,
+              "fullMean": 0.001315,
+              "fullMax": 1
+            }
+          },
+          "linear": {
+            "previous": {
+              "mean": 0.001171373767087455,
+              "rmse": 0.003066607232707352,
+              "max": 0.06884765625,
+              "count": 557031
+            },
+            "candidate": {
+              "mean": 0.0011712583189947925,
+              "rmse": 0.0030665915455026426,
+              "max": 0.06884765625,
+              "count": 557031
+            },
+            "dense": {
+              "mean": 0.000018070598649760262,
+              "rmse": 0.00009106865703971538,
+              "max": 0.00146484375,
+              "count": 557031
+            }
+          },
+          "draws": {
+            "off": {
+              "calls": 6,
+              "triangles": 219650
+            },
+            "previous": {
+              "calls": 7,
+              "triangles": 292866
+            },
+            "candidate": {
+              "calls": 7,
+              "triangles": 292866
+            },
+            "reference": {
+              "calls": 7,
+              "triangles": 292866
+            },
+            "dense": {
+              "calls": 7,
+              "triangles": 292866
+            },
+            "illuminated": {
+              "calls": 7,
+              "triangles": 292866
+            }
+          },
+          "skyEffect": {
+            "max": 0.0244140625,
+            "mean": 0.005277067401806513,
+            "changed": 563520
+          }
+        },
+        {
+          "label": "pole",
+          "radius": 2.35,
+          "phase": 35,
+          "yaw": 0,
+          "fov": 58,
+          "metrics": {
+            "previous": {
+              "channels": 227874,
+              "mae": 0.2027216795246496,
+              "rmse": 0.9770688522990246,
+              "max": 54,
+              "fullMean": 0.040196666666666665,
+              "fullMax": 54
+            },
+            "candidate": {
+              "channels": 227874,
+              "mae": 0.13517996787698464,
+              "rmse": 0.6084588238374126,
+              "max": 79,
+              "fullMean": 0.026509166666666667,
+              "fullMax": 79
+            },
+            "dense": {
+              "channels": 227874,
+              "mae": 0.0019703871437724355,
+              "rmse": 0.044389043059886245,
+              "max": 1,
+              "fullMean": 0.00038083333333333334,
+              "fullMax": 1
+            }
+          },
+          "linear": {
+            "previous": {
+              "mean": 0.000309326664693714,
+              "rmse": 0.0014353122089529003,
+              "max": 0.119415283203125,
+              "count": 345360
+            },
+            "candidate": {
+              "mean": 0.00024569775854820506,
+              "rmse": 0.0009791149218623975,
+              "max": 0.09462356567382812,
+              "count": 345360
+            },
+            "dense": {
+              "mean": 0.000004457998032754346,
+              "rmse": 0.0000343730658520547,
+              "max": 0.0009765625,
+              "count": 345360
+            }
+          },
+          "draws": {
+            "off": {
+              "calls": 6,
+              "triangles": 219650
+            },
+            "previous": {
+              "calls": 7,
+              "triangles": 292866
+            },
+            "candidate": {
+              "calls": 7,
+              "triangles": 292866
+            },
+            "reference": {
+              "calls": 7,
+              "triangles": 292866
+            },
+            "dense": {
+              "calls": 7,
+              "triangles": 292866
+            },
+            "illuminated": {
+              "calls": 7,
+              "triangles": 292866
+            }
+          },
+          "skyEffect": {
+            "max": 0.03857421875,
+            "mean": 0.0016332335171103478,
+            "changed": 234922
+          }
+        },
+        {
+          "label": "seam",
+          "radius": 2.35,
+          "phase": 35,
+          "yaw": 0,
+          "fov": 58,
+          "metrics": {
+            "previous": {
+              "channels": 257907,
+              "mae": 0.007855544828174497,
+              "rmse": 0.08863151148533177,
+              "max": 1,
+              "fullMean": 0.0016883333333333334,
+              "fullMax": 1
+            },
+            "candidate": {
+              "channels": 257907,
+              "mae": 0.007855544828174497,
+              "rmse": 0.08863151148533177,
+              "max": 1,
+              "fullMean": 0.0016883333333333334,
+              "fullMax": 1
+            },
+            "dense": {
+              "channels": 257907,
+              "mae": 0.00037998193147142185,
+              "rmse": 0.01949312523612932,
+              "max": 1,
+              "fullMean": 0.00008166666666666667,
+              "fullMax": 1
+            }
+          },
+          "linear": {
+            "previous": {
+              "mean": 0.000052125089843979024,
+              "rmse": 0.00017557777455067433,
+              "max": 0.00439453125,
+              "count": 238782
+            },
+            "candidate": {
+              "mean": 0.000052125089843979024,
+              "rmse": 0.00017557777455067433,
+              "max": 0.00439453125,
+              "count": 238782
+            },
+            "dense": {
+              "mean": 0.000002330335874321295,
+              "rmse": 0.00003112032198106118,
+              "max": 0.0009765625,
+              "count": 238782
+            }
+          },
+          "draws": {
+            "off": {
+              "calls": 10,
+              "triangles": 443394
+            },
+            "previous": {
+              "calls": 11,
+              "triangles": 516610
+            },
+            "candidate": {
+              "calls": 11,
+              "triangles": 516610
+            },
+            "reference": {
+              "calls": 11,
+              "triangles": 516610
+            },
+            "dense": {
+              "calls": 11,
+              "triangles": 516610
+            },
+            "illuminated": {
+              "calls": 11,
+              "triangles": 516610
+            }
+          },
+          "skyEffect": {
+            "max": 0.04150390625,
+            "mean": 0.0017480449778338274,
+            "changed": 284894
+          }
+        }
+      ],
+      "temporal": [
+        {
+          "label": "turn-left",
+          "metrics": {
+            "previous": 0.00041254310851295787,
+            "candidate": 0.00025697406490643817
+          }
+        },
+        {
+          "label": "turn-right",
+          "metrics": {
+            "previous": 0.00040873029132684074,
+            "candidate": 0.00025631297066807746
+          }
+        }
+      ],
+      "sunColumns": [
+        {
+          "altitude": 1.5,
+          "mu": 0.7,
+          "expected": 5.266242793047176,
+          "measured": 5.265625,
+          "relativeError": 0.00011731191884867265
+        },
+        {
+          "altitude": 1.5,
+          "mu": 0.1,
+          "expected": 35.18560487290232,
+          "measured": 35.125,
+          "relativeError": 0.0017224337373547005
+        },
+        {
+          "altitude": 1.5,
+          "mu": 0.02,
+          "expected": 104.14815586830402,
+          "measured": 103.375,
+          "relativeError": 0.007423615539402073
+        },
+        {
+          "altitude": 4,
+          "mu": 0.7,
+          "expected": 3.3045419283655146,
+          "measured": 3.302734375,
+          "relativeError": 0.0005469905980005629
+        },
+        {
+          "altitude": 4,
+          "mu": 0.1,
+          "expected": 22.524920669117794,
+          "measured": 22.5,
+          "relativeError": 0.0011063599061621465
+        },
+        {
+          "altitude": 4,
+          "mu": 0.02,
+          "expected": 78.53239549562318,
+          "measured": 78,
+          "relativeError": 0.0067793105286447775
+        },
+        {
+          "altitude": 7,
+          "mu": 0.7,
+          "expected": 0.5517222235019603,
+          "measured": 0.55126953125,
+          "relativeError": 0.0008205075537593975
+        },
+        {
+          "altitude": 7,
+          "mu": 0.1,
+          "expected": 3.8301252174085887,
+          "measured": 3.828125,
+          "relativeError": 0.0005222329023336636
+        },
+        {
+          "altitude": 7,
+          "mu": 0.02,
+          "expected": 16.42993047085888,
+          "measured": 16.34375,
+          "relativeError": 0.00524533387476811
+        }
+      ],
+      "skyIrradiance": [
+        {
+          "altitude": 0,
+          "sunMu": -0.1,
+          "expected": [
+            0,
+            0,
+            0
+          ],
+          "measured": [
+            0,
+            0,
+            0
+          ],
+          "maxError": 0
+        },
+        {
+          "altitude": 0,
+          "sunMu": 0,
+          "expected": [
+            0,
+            0,
+            0
+          ],
+          "measured": [
+            0,
+            0,
+            0
+          ],
+          "maxError": 0
+        },
+        {
+          "altitude": 0,
+          "sunMu": 0.001,
+          "expected": [
+            0.0003763487385126529,
+            0.0003302763044110232,
+            0.00023500977679971643
+          ],
+          "measured": [
+            0.0003752708435058594,
+            0.0003292560577392578,
+            0.00023543834686279297
+          ],
+          "maxError": 0.000001077895006793548
+        },
+        {
+          "altitude": 0,
+          "sunMu": 0.02,
+          "expected": [
+            0.0072911605148370685,
+            0.006939240474468453,
+            0.004899734899602221
+          ],
+          "measured": [
+            0.007293701171875,
+            0.006916046142578125,
+            0.00490570068359375
+          ],
+          "maxError": 0.000023194331890328407
+        },
+        {
+          "altitude": 0,
+          "sunMu": 0.1,
+          "expected": [
+            0.016153227716696684,
+            0.025513159708439183,
+            0.026676683430495257
+          ],
+          "measured": [
+            0.01617431640625,
+            0.0254669189453125,
+            0.0266876220703125
+          ],
+          "maxError": 0.00004624076312668285
+        },
+        {
+          "altitude": 0,
+          "sunMu": 0.380690406958,
+          "expected": [
+            0.019444971428439397,
+            0.0378830525900277,
+            0.061834036237170105
+          ],
+          "measured": [
+            0.01947021484375,
+            0.037811279296875,
+            0.061798095703125
+          ],
+          "maxError": 0.0000717732931527007
+        },
+        {
+          "altitude": 0,
+          "sunMu": 0.5,
+          "expected": [
+            0.01981303903632689,
+            0.0394486665099609,
+            0.06791496773679685
+          ],
+          "measured": [
+            0.01983642578125,
+            0.039398193359375,
+            0.06787109375
+          ],
+          "maxError": 0.000050473150585900184
+        },
+        {
+          "altitude": 0,
+          "sunMu": 0.966234757102,
+          "expected": [
+            0.02067297847560071,
+            0.043000648676870826,
+            0.08199901812796535
+          ],
+          "measured": [
+            0.02069091796875,
+            0.042938232421875,
+            0.0819091796875
+          ],
+          "maxError": 0.0000898384404653535
+        },
+        {
+          "altitude": 0,
+          "sunMu": 1,
+          "expected": [
+            0.02072682914792189,
+            0.04321350065181111,
+            0.08281835675068186
+          ],
+          "measured": [
+            0.0207366943359375,
+            0.04315185546875,
+            0.082763671875
+          ],
+          "maxError": 0.000061645183061107
+        },
+        {
+          "altitude": 1.4,
+          "sunMu": -0.1,
+          "expected": [
+            0,
+            0,
+            0
+          ],
+          "measured": [
+            0,
+            0,
+            0
+          ],
+          "maxError": 0
+        },
+        {
+          "altitude": 1.4,
+          "sunMu": 0,
+          "expected": [
+            0,
+            0,
+            0
+          ],
+          "measured": [
+            0,
+            0,
+            0
+          ],
+          "maxError": 0
+        },
+        {
+          "altitude": 1.4,
+          "sunMu": 0.001,
+          "expected": [
+            0.00040943351197296864,
+            0.0003564738896670306,
+            0.00026129745492355094
+          ],
+          "measured": [
+            0.0004088878631591797,
+            0.00035500526428222656,
+            0.00026154518127441406
+          ],
+          "maxError": 0.0000014686253848040219
+        },
+        {
+          "altitude": 1.4,
+          "sunMu": 0.02,
+          "expected": [
+            0.007442805762947353,
+            0.007454078331993942,
+            0.005460168155366851
+          ],
+          "measured": [
+            0.00745391845703125,
+            0.007427215576171875,
+            0.005466461181640625
+          ],
+          "maxError": 0.000026862755822067153
+        },
+        {
+          "altitude": 1.4,
+          "sunMu": 0.1,
+          "expected": [
+            0.014515335421366475,
+            0.024203797924623148,
+            0.028150255808957848
+          ],
+          "measured": [
+            0.014556884765625,
+            0.024169921875,
+            0.02813720703125
+          ],
+          "maxError": 0.000041549344258524565
+        },
+        {
+          "altitude": 1.4,
+          "sunMu": 0.380690406958,
+          "expected": [
+            0.016847235994141604,
+            0.033635781732047926,
+            0.058132488264933786
+          ],
+          "measured": [
+            0.0168914794921875,
+            0.033599853515625,
+            0.058074951171875
+          ],
+          "maxError": 0.00005753709305878624
+        },
+        {
+          "altitude": 1.4,
+          "sunMu": 0.5,
+          "expected": [
+            0.017103380606519513,
+            0.03478087647900026,
+            0.06289134713836557
+          ],
+          "measured": [
+            0.01715087890625,
+            0.034759521484375,
+            0.06280517578125
+          ],
+          "maxError": 0.00008617135711556922
+        },
+        {
+          "altitude": 1.4,
+          "sunMu": 0.966234757102,
+          "expected": [
+            0.017709168958864784,
+            0.037390555706256934,
+            0.07378453365493814
+          ],
+          "measured": [
+            0.017730712890625,
+            0.037353515625,
+            0.07373046875
+          ],
+          "maxError": 0.00005406490493814475
+        },
+        {
+          "altitude": 1.4,
+          "sunMu": 1,
+          "expected": [
+            0.01774759859415423,
+            0.03754854962967981,
+            0.07442014016216816
+          ],
+          "measured": [
+            0.0177764892578125,
+            0.03753662109375,
+            0.0743408203125
+          ],
+          "maxError": 0.00007931984966816352
+        },
+        {
+          "altitude": 4,
+          "sunMu": -0.1,
+          "expected": [
+            0,
+            0,
+            0
+          ],
+          "measured": [
+            0,
+            0,
+            0
+          ],
+          "maxError": 0
+        },
+        {
+          "altitude": 4,
+          "sunMu": 0,
+          "expected": [
+            0,
+            0,
+            0
+          ],
+          "measured": [
+            0,
+            0,
+            0
+          ],
+          "maxError": 0
+        },
+        {
+          "altitude": 4,
+          "sunMu": 0.001,
+          "expected": [
+            0.0004383312272970651,
+            0.0003887378970362437,
+            0.0003029197189851129
+          ],
+          "measured": [
+            0.00043892860412597656,
+            0.0003871917724609375,
+            0.0003027915954589844
+          ],
+          "maxError": 0.0000015461245753061814
+        },
+        {
+          "altitude": 4,
+          "sunMu": 0.02,
+          "expected": [
+            0.0069128768354854205,
+            0.007904536633796621,
+            0.006356285688237417
+          ],
+          "measured": [
+            0.006938934326171875,
+            0.0078887939453125,
+            0.00634765625
+          ],
+          "maxError": 0.00002605749068645448
+        },
+        {
+          "altitude": 4,
+          "sunMu": 0.1,
+          "expected": [
+            0.011379856731314343,
+            0.020637887957524033,
+            0.028566938081645905
+          ],
+          "measured": [
+            0.01142120361328125,
+            0.0206298828125,
+            0.0285186767578125
+          ],
+          "maxError": 0.00004826132383340537
+        },
+        {
+          "altitude": 4,
+          "sunMu": 0.380690406958,
+          "expected": [
+            0.01264840145611949,
+            0.026218331869151148,
+            0.04939398022841304
+          ],
+          "measured": [
+            0.0126953125,
+            0.0262298583984375,
+            0.04931640625
+          ],
+          "maxError": 0.00007757397841304248
+        },
+        {
+          "altitude": 4,
+          "sunMu": 0.5,
+          "expected": [
+            0.01278530294745859,
+            0.026860755094241448,
+            0.05231013713947745
+          ],
+          "measured": [
+            0.0128326416015625,
+            0.0268707275390625,
+            0.05224609375
+          ],
+          "maxError": 0.00006404338947745003
+        },
+        {
+          "altitude": 4,
+          "sunMu": 0.966234757102,
+          "expected": [
+            0.013115871818539697,
+            0.02834287432395687,
+            0.05891876250163056
+          ],
+          "measured": [
+            0.013153076171875,
+            0.028350830078125,
+            0.058868408203125
+          ],
+          "maxError": 0.000050354298505563
+        },
+        {
+          "altitude": 4,
+          "sunMu": 1,
+          "expected": [
+            0.013137262129841985,
+            0.02843429046660049,
+            0.05930838164773294
+          ],
+          "measured": [
+            0.0131683349609375,
+            0.0284423828125,
+            0.05926513671875
+          ],
+          "maxError": 0.000043244928982937025
+        },
+        {
+          "altitude": 9,
+          "sunMu": -0.1,
+          "expected": [
+            0,
+            0,
+            0
+          ],
+          "measured": [
+            0,
+            0,
+            0
+          ],
+          "maxError": 0
+        },
+        {
+          "altitude": 9,
+          "sunMu": 0,
+          "expected": [
+            0,
+            0,
+            0
+          ],
+          "measured": [
+            0,
+            0,
+            0
+          ],
+          "maxError": 0
+        },
+        {
+          "altitude": 9,
+          "sunMu": 0.001,
+          "expected": [
+            0.00046411575103050935,
+            0.000429890346711003,
+            0.0003673067736762926
+          ],
+          "measured": [
+            0.0004665851593017578,
+            0.0004298686981201172,
+            0.0003657341003417969
+          ],
+          "maxError": 0.0000024694082712484666
+        },
+        {
+          "altitude": 9,
+          "sunMu": 0.02,
+          "expected": [
+            0.005045061187617409,
+            0.0074412186232938856,
+            0.007656075647265248
+          ],
+          "measured": [
+            0.005069732666015625,
+            0.007457733154296875,
+            0.007633209228515625
+          ],
+          "maxError": 0.000024671478398216422
+        },
+        {
+          "altitude": 9,
+          "sunMu": 0.1,
+          "expected": [
+            0.006692571127646579,
+            0.013529384301063619,
+            0.023811096838354067
+          ],
+          "measured": [
+            0.00672149658203125,
+            0.0135650634765625,
+            0.023773193359375
+          ],
+          "maxError": 0.00003790347897906707
+        },
+        {
+          "altitude": 9,
+          "sunMu": 0.380690406958,
+          "expected": [
+            0.007083832859221076,
+            0.015414384413976056,
+            0.032436407150066675
+          ],
+          "measured": [
+            0.007114410400390625,
+            0.0154571533203125,
+            0.03240966796875
+          ],
+          "maxError": 0.000042768906336443716
+        },
+        {
+          "altitude": 9,
+          "sunMu": 0.5,
+          "expected": [
+            0.00712561996993667,
+            0.015619759590225546,
+            0.03347088087164698
+          ],
+          "measured": [
+            0.0071563720703125,
+            0.015655517578125,
+            0.033447265625
+          ],
+          "maxError": 0.00003575798789945406
+        },
+        {
+          "altitude": 9,
+          "sunMu": 0.966234757102,
+          "expected": [
+            0.0072306465004117505,
+            0.01610930201003366,
+            0.035833208113023436
+          ],
+          "measured": [
+            0.007251739501953125,
+            0.0161285400390625,
+            0.035797119140625
+          ],
+          "maxError": 0.00003608897239843617
+        },
+        {
+          "altitude": 9,
+          "sunMu": 1,
+          "expected": [
+            0.007237674737736123,
+            0.0161405991604956,
+            0.03597674206289541
+          ],
+          "measured": [
+            0.00725555419921875,
+            0.0161590576171875,
+            0.03594970703125
+          ],
+          "maxError": 0.000027035031645410157
+        },
+        {
+          "altitude": 20,
+          "sunMu": -0.1,
+          "expected": [
+            0,
+            0,
+            0
+          ],
+          "measured": [
+            0,
+            0,
+            0
+          ],
+          "maxError": 0
+        },
+        {
+          "altitude": 20,
+          "sunMu": 0,
+          "expected": [
+            0,
+            0,
+            0
+          ],
+          "measured": [
+            0,
+            0,
+            0
+          ],
+          "maxError": 0
+        },
+        {
+          "altitude": 20,
+          "sunMu": 0.001,
+          "expected": [
+            0.000479271094905252,
+            0.00047737621211718314,
+            0.0004516584434753625
+          ],
+          "measured": [
+            0.0004813671112060547,
+            0.0004801750183105469,
+            0.0004532337188720703
+          ],
+          "maxError": 0.0000027988061933637313
+        },
+        {
+          "altitude": 20,
+          "sunMu": 0.02,
+          "expected": [
+            0.0017098502732612367,
+            0.0034763392146407507,
+            0.006198858221439543
+          ],
+          "measured": [
+            0.0017156600952148438,
+            0.0034942626953125,
+            0.006229400634765625
+          ],
+          "maxError": 0.000030542413326082284
+        },
+        {
+          "altitude": 20,
+          "sunMu": 0.1,
+          "expected": [
+            0.0018431517057469256,
+            0.00412454803337686,
+            0.009203697395491723
+          ],
+          "measured": [
+            0.0018491744995117188,
+            0.00414276123046875,
+            0.009246826171875
+          ],
+          "maxError": 0.00004312877638327703
+        },
+        {
+          "altitude": 20,
+          "sunMu": 0.380690406958,
+          "expected": [
+            0.0018701305064008542,
+            0.0042655205922159075,
+            0.009985995517649636
+          ],
+          "measured": [
+            0.0018768310546875,
+            0.004283905029296875,
+            0.01003265380859375
+          ],
+          "maxError": 0.000046658290944114056
+        },
+        {
+          "altitude": 20,
+          "sunMu": 0.5,
+          "expected": [
+            0.0018730820140422449,
+            0.004280642252737133,
+            0.010069826877507963
+          ],
+          "measured": [
+            0.0018787384033203125,
+            0.004299163818359375,
+            0.0101165771484375
+          ],
+          "maxError": 0.0000467502709295374
+        },
+        {
+          "altitude": 20,
+          "sunMu": 0.966234757102,
+          "expected": [
+            0.0018811778029951928,
+            0.004319978092659451,
+            0.010275614038569053
+          ],
+          "measured": [
+            0.0018854141235351562,
+            0.00433349609375,
+            0.01030731201171875
+          ],
+          "maxError": 0.00003169797314969691
+        },
+        {
+          "altitude": 20,
+          "sunMu": 1,
+          "expected": [
+            0.0018817539837111257,
+            0.004322679007803163,
+            0.010289123291458653
+          ],
+          "measured": [
+            0.0018863677978515625,
+            0.004337310791015625,
+            0.01032257080078125
+          ],
+          "maxError": 0.000033447509322596936
+        }
+      ],
+      "errors": [],
+      "passed": true
+    }
+  ]
+}

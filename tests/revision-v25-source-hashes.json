@@ -1,0 +1,7 @@
+{
+  "src/main.js": "cfaca4930876a51f1594a6742a5a22d636446a591ffb153d1a9db2ee27a6fc4c",
+  "src/experience-guide.js": "4a9f491357cfe04746228429127539ecda6fd85bd422fbfd0e2dd5ff92b03a20",
+  "src/ui/experience-guide.js": "29e6cc41843d381834ae8f3a635aca0154c84da716d979c287f2d59dc971552c",
+  "src/ui/flight-hud.js": "0f474b4d6bf2d7d9656e7089f8f7224d8a269c916df2122d9ec2b82e163fb1a3",
+  "src/view-framing.js": "c1f542111b3146068cd923b1cbd3566dced09a7de19642ea412323a54b02d162"
+}

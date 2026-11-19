@@ -1,0 +1,14 @@
+{
+  "version": "0.14.0",
+  "keyboardArrows": true,
+  "nativeRangeKeys": true,
+  "tabFocusTrap": true,
+  "flightShortcutsDoNotChangePausedFlight": true,
+  "syntheticXboxNavigation": true,
+  "controllerRangesAndSelects": true,
+  "controllerReviewAndCancellation": true,
+  "closedDetailsSkipped": true,
+  "compactPauseFits": true,
+  "physicalXboxTested": false,
+  "errors": []
+}

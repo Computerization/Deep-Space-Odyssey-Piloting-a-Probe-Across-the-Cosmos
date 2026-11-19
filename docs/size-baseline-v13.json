@@ -1,0 +1,14 @@
+{
+  "version": "0.13.0",
+  "file": "Cosmos-Voyager-Demo.zip",
+  "bytes": 17183491,
+  "previousBytes": 36549635,
+  "reductionPercent": 52.99,
+  "runtimeBytes": 20058060,
+  "files": 138,
+  "sha256": "81a091e7bea830e3e916373e8c4bfd926a6c626597301c80808faeeb89580235",
+  "integrity": "all entry hashes verified",
+  "previousVersion": "0.12.0",
+  "previousVersionBytes": 17181275,
+  "bytesSavedSincePreviousVersion": -2216
+}

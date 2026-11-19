@@ -1,0 +1,20 @@
+{
+  "checks": [
+    "About on a first visit creates no flight",
+    "title encounter menu preserves an existing checkpoint byte for byte",
+    "cancelling a new voyage retains the previous flight",
+    "cancelling a title chapter jump retains the previous flight",
+    "encounter atlas follows all seven actual stops",
+    "title encounter selection opens the actual Titan flyby",
+    "resume a current save at the same local passage pose and clock (0.42)",
+    "resume a current save at the same dated passage pose and clock (0.16)",
+    "resume a current save at the same dated passage pose and clock (0.83)",
+    "resume a legacy save at the same local passage pose and clock (0.53)",
+    "resume a legacy save at the same dated passage pose and clock (0.13)",
+    "Space resumes a held passage restored from disk",
+    "Stay with Voyager retains the lens mode and returns to active flight",
+    "returning to title releases mouse control",
+    "confirmed restart opens the launch film"
+  ],
+  "errors": []
+}

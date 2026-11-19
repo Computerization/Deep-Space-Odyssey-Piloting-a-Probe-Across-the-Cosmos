@@ -1,0 +1,186 @@
+{
+  "version": "0.15.0",
+  "studies": [
+    {
+      "id": "moon",
+      "body": "moon",
+      "solarVisibility": 1,
+      "latitude": 19.188788740062225,
+      "study": "moon",
+      "epoch": 0,
+      "range": 6949.599999996873,
+      "radii": 3.9999999999981997,
+      "speed": 10.703810241451416,
+      "energyError": 7.105427357601002e-15,
+      "reference": [
+        7.121004909281922,
+        11.36703366973137,
+        -26.32715904584781
+      ],
+      "boundary": {
+        "body": "moon",
+        "radius": 200000,
+        "worlds": [
+          "earth",
+          "moon"
+        ],
+        "title": "Earth beyond the Moon",
+        "range": 6949.5999999968735,
+        "fraction": 0.03474799999998437,
+        "outside": false
+      },
+      "history": 1,
+      "header": "5 September 1977 · 18:00:00 UTC · observation study",
+      "motion": "Relative to Moon",
+      "saveRestoresPhysicalState": true,
+      "reviewSurvivesReload": true,
+      "studyVisibleWithoutScrolling": true,
+      "returnsToHistoricalPassage": true
+    },
+    {
+      "id": "earth-shadow",
+      "body": "earth",
+      "solarVisibility": 0.4981058656988677,
+      "latitude": -6.488535708042006,
+      "study": "earth-shadow",
+      "epoch": 0,
+      "range": 51364.64411439076,
+      "radii": 8.06225774829552,
+      "speed": 10.987425843315492,
+      "energyError": 0,
+      "reference": [
+        8.054088985766546,
+        11.31000424924681,
+        -26.08178808245961
+      ],
+      "boundary": {
+        "body": "earth",
+        "radius": 2500000,
+        "worlds": [
+          "earth",
+          "moon"
+        ],
+        "title": "The edge of Earth’s shadow",
+        "range": 51364.64411439076,
+        "fraction": 0.020545857645756303,
+        "outside": false
+      },
+      "history": 1,
+      "header": "5 September 1977 · 18:00:00 UTC · observation study",
+      "motion": "Relative to Earth",
+      "saveRestoresPhysicalState": true,
+      "reviewSurvivesReload": true,
+      "studyVisibleWithoutScrolling": true,
+      "returnsToHistoricalPassage": true
+    },
+    {
+      "id": "io",
+      "body": "io",
+      "solarVisibility": 1,
+      "latitude": 20.648874832179803,
+      "study": "io",
+      "epoch": 1,
+      "range": 7286.400000001089,
+      "radii": 4.000000000000598,
+      "speed": 14.291832790333881,
+      "energyError": 1.4210854715202004e-14,
+      "reference": [
+        -27.44983702047612,
+        -1.444120508870326,
+        3.68523917425698
+      ],
+      "boundary": {
+        "body": "io",
+        "radius": 300000,
+        "worlds": [
+          "jupiter",
+          "io"
+        ],
+        "title": "Io against the giant",
+        "range": 7286.40000000109,
+        "fraction": 0.024288000000003633,
+        "outside": false
+      },
+      "history": 1,
+      "header": "5 March 1979 · 12:05:26 UTC · observation study",
+      "motion": "Relative to Io",
+      "saveRestoresPhysicalState": true,
+      "reviewSurvivesReload": true,
+      "studyVisibleWithoutScrolling": true,
+      "returnsToHistoricalPassage": true
+    },
+    {
+      "id": "titan",
+      "body": "titan",
+      "solarVisibility": 1,
+      "latitude": 1.13466321526131,
+      "study": "titan",
+      "epoch": 3,
+      "range": 10298.800000070323,
+      "radii": 4.000000000027313,
+      "speed": 17.245629830198066,
+      "energyError": 0,
+      "reference": [
+        -2.380990238151122,
+        -3.852299865258152,
+        3.758664433520731
+      ],
+      "boundary": {
+        "body": "titan",
+        "radius": 500000,
+        "worlds": [
+          "saturn",
+          "titan"
+        ],
+        "title": "Light through Titan’s haze",
+        "range": 10298.800000070325,
+        "fraction": 0.02059760000014065,
+        "outside": false
+      },
+      "history": 1,
+      "header": "12 November 1980 · 05:41:00 UTC · observation study",
+      "motion": "Relative to Titan",
+      "saveRestoresPhysicalState": true,
+      "reviewSurvivesReload": true,
+      "studyVisibleWithoutScrolling": true,
+      "returnsToHistoricalPassage": true
+    },
+    {
+      "id": "ring-plane",
+      "body": "saturn",
+      "solarVisibility": 1,
+      "latitude": 1.4271514271258676,
+      "study": "ring-plane",
+      "epoch": 2,
+      "range": 290379.2045844605,
+      "radii": 4.818132418272723,
+      "speed": 22.100753858454905,
+      "energyError": 2.842170943040401e-14,
+      "reference": [
+        -0.1479927091027474,
+        -3.691716648567058,
+        8.956031830399086
+      ],
+      "boundary": {
+        "body": "saturn",
+        "radius": 6000000,
+        "worlds": [
+          "saturn",
+          "titan"
+        ],
+        "title": "Along the ring plane",
+        "range": 290379.2045844605,
+        "fraction": 0.04839653409741008,
+        "outside": false
+      },
+      "history": 1,
+      "header": "12 November 1980 · 23:46:30 UTC · observation study",
+      "motion": "Relative to Saturn",
+      "saveRestoresPhysicalState": true,
+      "reviewSurvivesReload": true,
+      "studyVisibleWithoutScrolling": true,
+      "returnsToHistoricalPassage": true
+    }
+  ],
+  "errors": []
+}

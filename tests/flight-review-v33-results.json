@@ -1,0 +1,371 @@
+{
+  "version": "0.33.0",
+  "outcomes": [
+    {
+      "name": "Chrome",
+      "engineVersion": "158.0.8127.37",
+      "heldViewRetained": true,
+      "elapsedTimeTrack": true,
+      "pointerAndKeyboard": true,
+      "syntheticXbox": true,
+      "physicalXbox": false,
+      "cancelPreservesFlightAndLens": true,
+      "previewReloadPreservesPresent": true,
+      "restoresRecordedLensAndPhysics": true,
+      "legacyHistoryRetained": true,
+      "emptyHistoryHasReturnFocus": true,
+      "layouts": [
+        {
+          "width": 1280,
+          "height": 800,
+          "controls": [
+            {
+              "id": "panel-close",
+              "x": 1094.8125,
+              "y": 475.71875,
+              "w": 44,
+              "h": 44
+            },
+            {
+              "id": "review-range",
+              "x": 166.796875,
+              "y": 593.015625,
+              "w": 946.40625,
+              "h": 44
+            },
+            {
+              "id": "review-apply",
+              "x": 749.09375,
+              "y": 668.015625,
+              "w": 194.15625,
+              "h": 47.296875
+            },
+            {
+              "id": "Return to present",
+              "x": 971.25,
+              "y": 668.015625,
+              "w": 141.953125,
+              "h": 47.296875
+            }
+          ],
+          "overflow": 0
+        },
+        {
+          "width": 1024,
+          "height": 640,
+          "controls": [
+            {
+              "id": "panel-close",
+              "x": 939.046875,
+              "y": 315.71875,
+              "w": 44,
+              "h": 44
+            },
+            {
+              "id": "review-range",
+              "x": 61.4375,
+              "y": 433.015625,
+              "w": 901.125,
+              "h": 44
+            },
+            {
+              "id": "review-apply",
+              "x": 598.453125,
+              "y": 508.015625,
+              "w": 194.15625,
+              "h": 47.296875
+            },
+            {
+              "id": "Return to present",
+              "x": 820.609375,
+              "y": 508.015625,
+              "w": 141.953125,
+              "h": 47.296875
+            }
+          ],
+          "overflow": 0
+        },
+        {
+          "width": 800,
+          "height": 600,
+          "controls": [
+            {
+              "id": "panel-close",
+              "x": 724,
+              "y": 247.015625,
+              "w": 44,
+              "h": 44
+            },
+            {
+              "id": "review-range",
+              "x": 48,
+              "y": 364.3125,
+              "w": 704,
+              "h": 44
+            },
+            {
+              "id": "review-apply",
+              "x": 48,
+              "y": 471.3125,
+              "w": 169.84375,
+              "h": 44
+            },
+            {
+              "id": "Return to present",
+              "x": 232.84375,
+              "y": 471.3125,
+              "w": 121.671875,
+              "h": 44
+            }
+          ],
+          "overflow": 0
+        }
+      ],
+      "errors": []
+    },
+    {
+      "name": "Firefox",
+      "engineVersion": "153.0",
+      "heldViewRetained": true,
+      "elapsedTimeTrack": true,
+      "pointerAndKeyboard": true,
+      "syntheticXbox": true,
+      "physicalXbox": false,
+      "cancelPreservesFlightAndLens": true,
+      "previewReloadPreservesPresent": true,
+      "restoresRecordedLensAndPhysics": true,
+      "legacyHistoryRetained": true,
+      "emptyHistoryHasReturnFocus": true,
+      "layouts": [
+        {
+          "width": 1280,
+          "height": 800,
+          "controls": [
+            {
+              "id": "panel-close",
+              "x": 1094.800048828125,
+              "y": 473.70001220703125,
+              "w": 44,
+              "h": 44
+            },
+            {
+              "id": "review-range",
+              "x": 166.8000030517578,
+              "y": 592,
+              "w": 946.4000244140625,
+              "h": 44
+            },
+            {
+              "id": "review-apply",
+              "x": 749.13330078125,
+              "y": 668,
+              "w": 194.13333129882812,
+              "h": 47.30000305175781
+            },
+            {
+              "id": "Return to present",
+              "x": 971.2666625976562,
+              "y": 668,
+              "w": 141.93333435058594,
+              "h": 47.30000305175781
+            }
+          ],
+          "overflow": 0
+        },
+        {
+          "width": 1024,
+          "height": 640,
+          "controls": [
+            {
+              "id": "panel-close",
+              "x": 939.0499877929688,
+              "y": 313.70001220703125,
+              "w": 44,
+              "h": 44
+            },
+            {
+              "id": "review-range",
+              "x": 61.43333435058594,
+              "y": 432,
+              "w": 901.13330078125,
+              "h": 44
+            },
+            {
+              "id": "review-apply",
+              "x": 598.5,
+              "y": 508,
+              "w": 194.13333129882812,
+              "h": 47.30000305175781
+            },
+            {
+              "id": "Return to present",
+              "x": 820.63330078125,
+              "y": 508,
+              "w": 141.93333435058594,
+              "h": 47.30000305175781
+            }
+          ],
+          "overflow": 0
+        },
+        {
+          "width": 800,
+          "height": 600,
+          "controls": [
+            {
+              "id": "panel-close",
+              "x": 724,
+              "y": 243,
+              "w": 44,
+              "h": 44
+            },
+            {
+              "id": "review-range",
+              "x": 48,
+              "y": 361.29998779296875,
+              "w": 704,
+              "h": 44
+            },
+            {
+              "id": "review-apply",
+              "x": 48,
+              "y": 471.29998779296875,
+              "w": 169.8333282470703,
+              "h": 44
+            },
+            {
+              "id": "Return to present",
+              "x": 232.8333282470703,
+              "y": 471.29998779296875,
+              "w": 121.65000915527344,
+              "h": 44
+            }
+          ],
+          "overflow": 0
+        }
+      ],
+      "errors": []
+    },
+    {
+      "name": "WebKit",
+      "engineVersion": "26.5",
+      "heldViewRetained": true,
+      "elapsedTimeTrack": true,
+      "pointerAndKeyboard": true,
+      "syntheticXbox": true,
+      "physicalXbox": false,
+      "cancelPreservesFlightAndLens": true,
+      "previewReloadPreservesPresent": true,
+      "restoresRecordedLensAndPhysics": true,
+      "legacyHistoryRetained": true,
+      "emptyHistoryHasReturnFocus": true,
+      "layouts": [
+        {
+          "width": 1280,
+          "height": 800,
+          "controls": [
+            {
+              "id": "panel-close",
+              "x": 1094.8125,
+              "y": 475.71875,
+              "w": 44,
+              "h": 44
+            },
+            {
+              "id": "review-range",
+              "x": 166.796875,
+              "y": 593.015625,
+              "w": 946.40625,
+              "h": 44
+            },
+            {
+              "id": "review-apply",
+              "x": 749.09375,
+              "y": 668.015625,
+              "w": 194.15625,
+              "h": 47.296875
+            },
+            {
+              "id": "Return to present",
+              "x": 971.25,
+              "y": 668.015625,
+              "w": 141.953125,
+              "h": 47.296875
+            }
+          ],
+          "overflow": 0
+        },
+        {
+          "width": 1024,
+          "height": 640,
+          "controls": [
+            {
+              "id": "panel-close",
+              "x": 939.046875,
+              "y": 315.71875,
+              "w": 44,
+              "h": 44
+            },
+            {
+              "id": "review-range",
+              "x": 61.4375,
+              "y": 433.015625,
+              "w": 901.125,
+              "h": 44
+            },
+            {
+              "id": "review-apply",
+              "x": 598.453125,
+              "y": 508.015625,
+              "w": 194.15625,
+              "h": 47.296875
+            },
+            {
+              "id": "Return to present",
+              "x": 820.609375,
+              "y": 508.015625,
+              "w": 141.953125,
+              "h": 47.296875
+            }
+          ],
+          "overflow": 0
+        },
+        {
+          "width": 800,
+          "height": 600,
+          "controls": [
+            {
+              "id": "panel-close",
+              "x": 724,
+              "y": 247.015625,
+              "w": 44,
+              "h": 44
+            },
+            {
+              "id": "review-range",
+              "x": 48,
+              "y": 364.3125,
+              "w": 704,
+              "h": 44
+            },
+            {
+              "id": "review-apply",
+              "x": 48,
+              "y": 471.3125,
+              "w": 169.84375,
+              "h": 44
+            },
+            {
+              "id": "Return to present",
+              "x": 232.84375,
+              "y": 471.3125,
+              "w": 121.671875,
+              "h": 44
+            }
+          ],
+          "overflow": 0
+        }
+      ],
+      "errors": []
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "views": [
+    {
+      "radius": 4,
+      "phase": 155,
+      "direction": "body",
+      "filename": "tests/screenshots/v15-titan-before-4-155-body.png"
+    },
+    {
+      "radius": 1.25,
+      "phase": 70,
+      "direction": "body",
+      "filename": "tests/screenshots/v15-titan-before-1.25-70-body.png"
+    },
+    {
+      "radius": 1.23,
+      "phase": 70,
+      "direction": "body",
+      "filename": "tests/screenshots/v15-titan-before-1.23-70-body.png"
+    },
+    {
+      "radius": 1.1,
+      "phase": 70,
+      "direction": "body",
+      "filename": "tests/screenshots/v15-titan-before-1.1-70-body.png"
+    },
+    {
+      "radius": 1.1,
+      "phase": 70,
+      "direction": "outward",
+      "filename": "tests/screenshots/v15-titan-before-1.1-70-outward.png"
+    },
+    {
+      "radius": 4,
+      "phase": 115,
+      "direction": "body",
+      "filename": "tests/screenshots/v15-titan-before-4-115-body.png"
+    },
+    {
+      "radius": 4,
+      "phase": 30,
+      "direction": "body",
+      "filename": "tests/screenshots/v15-titan-before-4-30-body.png"
+    }
+  ],
+  "errors": []
+}

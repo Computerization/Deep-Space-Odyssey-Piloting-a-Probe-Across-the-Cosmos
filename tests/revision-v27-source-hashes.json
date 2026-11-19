@@ -1,0 +1,19 @@
+{
+  "version": "0.27.0",
+  "changedRuntimeFiles": [
+    "src/ui/flight.css",
+    "src/ui/solar-chart.js",
+    "src/ui/atlas-layout.js",
+    "src/ui/chart-labels.js",
+    "src/main.js",
+    "src/exploration-controller.js"
+  ],
+  "hashes": {
+    "src/ui/flight.css": "a82010454c83465cac02ecafc0045d5fd08cad9c4da87c3ac77d4c91fb7f337f",
+    "src/ui/solar-chart.js": "44bcfcb99a93592241f01a0bbafdf541a26b647a7ec391f9886a0a725aa9ee45",
+    "src/ui/atlas-layout.js": "b9d163d150c11f9a9cebf5336abba7c9fe7c93394a9996437b9cd963908b8146",
+    "src/ui/chart-labels.js": "a817714208be7d78a216823845ba6f7a756f047a6c63fc619f7af711e2ad315d",
+    "src/main.js": "fd4524b1cc79e7b383fa13c96356c07306b8212ef1f08510ab11e951bfb39bcb",
+    "src/exploration-controller.js": "93d20c02bcb1be80cb0595470aff7edfd083df48141af21ad51b93ca2436d1a4"
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "version": "0.86.0",
+  "method": "GPU-sampled source crops at native pixels; colour and first-difference errors against source crops. The comparison directory supplies the lower-resolution image. This measures retained image detail, not photographic scene equivalence.",
+  "caseFile": "tests/fixtures/io-detail/cases.json",
+  "textureLimit": 4096,
+  "hashes": {
+    "io.avif": "258005e849fe82bc81dff92f62ec91b3934bb84237c566b92c98b28142da8905"
+  },
+  "runtimeHashes": {
+    "src/world.js": "fafc2b0385a86036dfe75d7b2e4606b82d7ed35d87efdbfdd497d40989e0b2f8",
+    "src/mission.js": "d5d4826dbf00408df1189651f4d5ba2e66564642a0734931fefa97160cf4b4b8",
+    "src/rendering/shaders.js": "91c5c280d16d26f13152c66762fac22460e6b0473c48c0da3e335a81d0b572b3",
+    "src/rendering/scene-factory.js": "2eaddfa7f5522467887692929b95aaf8c3e8426844d3fa99ad9208c2dc90d958"
+  },
+  "outcomes": [
+    {
+      "name": "Chrome",
+      "engineVersion": "158.0.8127.37",
+      "results": [
+        {
+          "name": "io-pele",
+          "previous": {
+            "rmse": 28.95403236266153,
+            "gradientRmse": 2.219628050322542,
+            "width": 4096,
+            "height": 2048,
+            "format": 1023,
+            "mips": 0,
+            "bytes": 0,
+            "compressed": false
+          },
+          "candidate": {
+            "rmse": 0.822526155034687,
+            "gradientRmse": 0.7565960760598733,
+            "width": 4096,
+            "height": 2048,
+            "format": 1023,
+            "mips": 0,
+            "bytes": 0,
+            "compressed": false
+          }
+        },
+        {
+          "name": "io-loki",
+          "previous": {
+            "rmse": 32.07039938473648,
+            "gradientRmse": 3.6821609431475935,
+            "width": 4096,
+            "height": 2048,
+            "format": 1023,
+            "mips": 0,
+            "bytes": 0,
+            "compressed": false
+          },
+          "candidate": {
+            "rmse": 0.8255711489003849,
+            "gradientRmse": 0.7308543278169747,
+            "width": 4096,
+            "height": 2048,
+            "format": 1023,
+            "mips": 0,
+            "bytes": 0,
+            "compressed": false
+          }
+        },
+        {
+          "name": "io-northern-terrain",
+          "previous": {
+            "rmse": 18.098574917251725,
+            "gradientRmse": 2.0205973174394036,
+            "width": 4096,
+            "height": 2048,
+            "format": 1023,
+            "mips": 0,
+            "bytes": 0,
+            "compressed": false
+          },
+          "candidate": {
+            "rmse": 1.0272414265688476,
+            "gradientRmse": 0.9843493567984972,
+            "width": 4096,
+            "height": 2048,
+            "format": 1023,
+            "mips": 0,
+            "bytes": 0,
+            "compressed": false
+          }
+        },
+        {
+          "name": "io-volcanic-plains",
+          "previous": {
+            "rmse": 49.027389051260954,
+            "gradientRmse": 3.79941932669294,
+            "width": 4096,
+            "height": 2048,
+            "format": 1023,
+            "mips": 0,
+            "bytes": 0,
+            "compressed": false
+          },
+          "candidate": {
+            "rmse": 1.7099522308954846,
+            "gradientRmse": 1.485931319685813,
+            "width": 4096,
+            "height": 2048,
+            "format": 1023,
+            "mips": 0,
+            "bytes": 0,
+            "compressed": false
+          }
+        }
+      ],
+      "closeViews": [
+        {
+          "body": "io",
+          "fov": 18,
+          "physicalStatePreserved": true
+        }
+      ],
+      "projectionChecks": [],
+      "errors": []
+    }
+  ]
+}

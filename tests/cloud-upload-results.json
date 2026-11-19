@@ -1,0 +1,383 @@
+{
+  "method": "Chrome Metal. Two adjacent regions warmed into the same decoded cache. Eight ABBA groups compare old/new load methods on one renderer. CPU assembly, upload submission, time until the finish call returns and GPU query intervals are separate. CPU finish-return timing and GPU query intervals differ and must not be treated as interchangeable. This does not represent normal frame scheduling.",
+  "sourceHashes": {
+    "previous": "a878f5fd2e4e657832ab6f6d77d1e28559e694a431797e15fdd82d015a5f0027",
+    "candidate": "cca400f26521f709f9a699c8ef0204d791b7a277dc8f7f2ef121b4cd2e4bdd50"
+  },
+  "summary": {
+    "previous": {
+      "assemblyMs": {
+        "median": 0.5999999940395355,
+        "p95": 1.199999988079071,
+        "samples": 16
+      },
+      "uploadCPUMs": {
+        "median": 0.19999998807907104,
+        "p95": 0.4000000059604645,
+        "samples": 16
+      },
+      "gpuMs": {
+        "median": 8.470541,
+        "p95": 13.234041,
+        "samples": 16
+      },
+      "finishReturnMs": {
+        "median": 0.800000011920929,
+        "p95": 1.4000000059604645,
+        "samples": 16
+      }
+    },
+    "candidate": {
+      "assemblyMs": {
+        "median": 0.19999998807907104,
+        "p95": 0.30000001192092896,
+        "samples": 16
+      },
+      "uploadCPUMs": {
+        "median": 0.19999998807907104,
+        "p95": 0.30000001192092896,
+        "samples": 16
+      },
+      "gpuMs": {
+        "median": 1.574499,
+        "p95": 8.21875,
+        "samples": 16
+      },
+      "finishReturnMs": {
+        "median": 0.30000001192092896,
+        "p95": 0.5,
+        "samples": 16
+      }
+    }
+  },
+  "samples": [
+    {
+      "mode": "previous",
+      "group": 0,
+      "key": "14-3",
+      "assemblyMs": 1.0999999940395355,
+      "uploadCPUMs": 0.30000001192092896,
+      "gpuMs": 8.254499,
+      "texture": "d332f30a-6c51-4ba6-9511-603533b3c245",
+      "finishReturnMs": 1.4000000059604645
+    },
+    {
+      "mode": "candidate",
+      "group": 0,
+      "key": "15-3",
+      "assemblyMs": 0.30000001192092896,
+      "uploadCPUMs": 0.09999999403953552,
+      "gpuMs": 1.394333,
+      "texture": "d332f30a-6c51-4ba6-9511-603533b3c245",
+      "finishReturnMs": 0.4000000059604645
+    },
+    {
+      "mode": "candidate",
+      "group": 0,
+      "key": "14-3",
+      "assemblyMs": 0.19999998807907104,
+      "uploadCPUMs": 0.20000001788139343,
+      "gpuMs": 1.395999,
+      "texture": "d332f30a-6c51-4ba6-9511-603533b3c245",
+      "finishReturnMs": 0.4000000059604645
+    },
+    {
+      "mode": "previous",
+      "group": 0,
+      "key": "15-3",
+      "assemblyMs": 0.5,
+      "uploadCPUMs": 0.20000001788139343,
+      "gpuMs": 2.129875,
+      "texture": "f26daeed-7698-4630-ac59-6249f50cca5f",
+      "finishReturnMs": 0.7000000178813934
+    },
+    {
+      "mode": "previous",
+      "group": 1,
+      "key": "14-3",
+      "assemblyMs": 0.9000000059604645,
+      "uploadCPUMs": 0.09999999403953552,
+      "gpuMs": 11.337624,
+      "texture": "a1391ef2-4d11-452d-9288-284c1c5290bf",
+      "finishReturnMs": 1
+    },
+    {
+      "mode": "candidate",
+      "group": 1,
+      "key": "15-3",
+      "assemblyMs": 0.20000001788139343,
+      "uploadCPUMs": 0.19999998807907104,
+      "gpuMs": 3.318208,
+      "texture": "a1391ef2-4d11-452d-9288-284c1c5290bf",
+      "finishReturnMs": 0.4000000059604645
+    },
+    {
+      "mode": "candidate",
+      "group": 1,
+      "key": "14-3",
+      "assemblyMs": 0.30000001192092896,
+      "uploadCPUMs": 0.19999998807907104,
+      "gpuMs": 8.21875,
+      "texture": "a1391ef2-4d11-452d-9288-284c1c5290bf",
+      "finishReturnMs": 0.5
+    },
+    {
+      "mode": "previous",
+      "group": 1,
+      "key": "15-3",
+      "assemblyMs": 0.7999999821186066,
+      "uploadCPUMs": 0.4000000059604645,
+      "gpuMs": 10.113208,
+      "texture": "a45c4795-8b03-44a4-88db-7fc19d66c3d9",
+      "finishReturnMs": 1.199999988079071
+    },
+    {
+      "mode": "previous",
+      "group": 2,
+      "key": "14-3",
+      "assemblyMs": 1.199999988079071,
+      "uploadCPUMs": 0.20000001788139343,
+      "gpuMs": 11.787833,
+      "texture": "f4a3f4b0-9dcd-4a55-98ab-45a61c863c1d",
+      "finishReturnMs": 1.4000000059604645
+    },
+    {
+      "mode": "candidate",
+      "group": 2,
+      "key": "15-3",
+      "assemblyMs": 0.19999998807907104,
+      "uploadCPUMs": 0.19999998807907104,
+      "gpuMs": 4.412375,
+      "texture": "f4a3f4b0-9dcd-4a55-98ab-45a61c863c1d",
+      "finishReturnMs": 0.3999999761581421
+    },
+    {
+      "mode": "candidate",
+      "group": 2,
+      "key": "14-3",
+      "assemblyMs": 0.19999998807907104,
+      "uploadCPUMs": 0.09999999403953552,
+      "gpuMs": 3.579458,
+      "texture": "f4a3f4b0-9dcd-4a55-98ab-45a61c863c1d",
+      "finishReturnMs": 0.29999998211860657
+    },
+    {
+      "mode": "previous",
+      "group": 2,
+      "key": "15-3",
+      "assemblyMs": 0.4000000059604645,
+      "uploadCPUMs": 0.09999999403953552,
+      "gpuMs": 11.532124,
+      "texture": "a07976b9-7b5d-4e3d-9c04-7d3424211eb0",
+      "finishReturnMs": 0.5
+    },
+    {
+      "mode": "previous",
+      "group": 3,
+      "key": "14-3",
+      "assemblyMs": 0.7000000178813934,
+      "uploadCPUMs": 0.09999999403953552,
+      "gpuMs": 6.19325,
+      "texture": "4278431a-2de6-4beb-89de-45ee1c05020e",
+      "finishReturnMs": 0.800000011920929
+    },
+    {
+      "mode": "candidate",
+      "group": 3,
+      "key": "15-3",
+      "assemblyMs": 0.10000002384185791,
+      "uploadCPUMs": 0.19999998807907104,
+      "gpuMs": 1.568916,
+      "texture": "4278431a-2de6-4beb-89de-45ee1c05020e",
+      "finishReturnMs": 0.30000001192092896
+    },
+    {
+      "mode": "candidate",
+      "group": 3,
+      "key": "14-3",
+      "assemblyMs": 0,
+      "uploadCPUMs": 0.10000002384185791,
+      "gpuMs": 1.528124,
+      "texture": "4278431a-2de6-4beb-89de-45ee1c05020e",
+      "finishReturnMs": 0.10000002384185791
+    },
+    {
+      "mode": "previous",
+      "group": 3,
+      "key": "15-3",
+      "assemblyMs": 0.29999998211860657,
+      "uploadCPUMs": 0,
+      "gpuMs": 2.989375,
+      "texture": "97830dd2-92a1-48ac-876d-2aa512e0969e",
+      "finishReturnMs": 0.29999998211860657
+    },
+    {
+      "mode": "previous",
+      "group": 4,
+      "key": "14-3",
+      "assemblyMs": 0.699999988079071,
+      "uploadCPUMs": 0.19999998807907104,
+      "gpuMs": 8.470541,
+      "texture": "28da094e-efc6-4fc4-b6db-c56ade0bec5d",
+      "finishReturnMs": 0.8999999761581421
+    },
+    {
+      "mode": "candidate",
+      "group": 4,
+      "key": "15-3",
+      "assemblyMs": 0.19999998807907104,
+      "uploadCPUMs": 0.30000001192092896,
+      "gpuMs": 4.852541,
+      "texture": "28da094e-efc6-4fc4-b6db-c56ade0bec5d",
+      "finishReturnMs": 0.5
+    },
+    {
+      "mode": "candidate",
+      "group": 4,
+      "key": "14-3",
+      "assemblyMs": 0.09999999403953552,
+      "uploadCPUMs": 0.09999999403953552,
+      "gpuMs": 3.390541,
+      "texture": "28da094e-efc6-4fc4-b6db-c56ade0bec5d",
+      "finishReturnMs": 0.19999998807907104
+    },
+    {
+      "mode": "previous",
+      "group": 4,
+      "key": "15-3",
+      "assemblyMs": 0.09999999403953552,
+      "uploadCPUMs": 0.19999998807907104,
+      "gpuMs": 8.811916,
+      "texture": "148eadd7-5870-42b6-acb1-a1e53e7d6052",
+      "finishReturnMs": 0.29999998211860657
+    },
+    {
+      "mode": "previous",
+      "group": 5,
+      "key": "14-3",
+      "assemblyMs": 0.7000000178813934,
+      "uploadCPUMs": 0.19999998807907104,
+      "gpuMs": 7.610291,
+      "texture": "e391de3f-4af5-43ca-957c-e978284b8302",
+      "finishReturnMs": 0.9000000059604645
+    },
+    {
+      "mode": "candidate",
+      "group": 5,
+      "key": "15-3",
+      "assemblyMs": 0,
+      "uploadCPUMs": 0.20000001788139343,
+      "gpuMs": 1.558166,
+      "texture": "e391de3f-4af5-43ca-957c-e978284b8302",
+      "finishReturnMs": 0.20000001788139343
+    },
+    {
+      "mode": "candidate",
+      "group": 5,
+      "key": "14-3",
+      "assemblyMs": 0.10000002384185791,
+      "uploadCPUMs": 0,
+      "gpuMs": 1.506125,
+      "texture": "e391de3f-4af5-43ca-957c-e978284b8302",
+      "finishReturnMs": 0.10000002384185791
+    },
+    {
+      "mode": "previous",
+      "group": 5,
+      "key": "15-3",
+      "assemblyMs": 0.20000001788139343,
+      "uploadCPUMs": 0.09999999403953552,
+      "gpuMs": 6.524708,
+      "texture": "c816f6a0-82c3-4f9e-8e92-a0600174be01",
+      "finishReturnMs": 0.4000000059604645
+    },
+    {
+      "mode": "previous",
+      "group": 6,
+      "key": "14-3",
+      "assemblyMs": 0.5999999940395355,
+      "uploadCPUMs": 0.10000002384185791,
+      "gpuMs": 7.875499,
+      "texture": "35438a04-8760-4248-b8e9-709efd0df1d1",
+      "finishReturnMs": 0.7000000178813934
+    },
+    {
+      "mode": "candidate",
+      "group": 6,
+      "key": "15-3",
+      "assemblyMs": 0.09999999403953552,
+      "uploadCPUMs": 0.09999999403953552,
+      "gpuMs": 1.574499,
+      "texture": "35438a04-8760-4248-b8e9-709efd0df1d1",
+      "finishReturnMs": 0.19999998807907104
+    },
+    {
+      "mode": "candidate",
+      "group": 6,
+      "key": "14-3",
+      "assemblyMs": 0,
+      "uploadCPUMs": 0.09999999403953552,
+      "gpuMs": 1.449833,
+      "texture": "35438a04-8760-4248-b8e9-709efd0df1d1",
+      "finishReturnMs": 0.09999999403953552
+    },
+    {
+      "mode": "previous",
+      "group": 6,
+      "key": "15-3",
+      "assemblyMs": 0.20000001788139343,
+      "uploadCPUMs": 0.09999999403953552,
+      "gpuMs": 1.445541,
+      "texture": "61559c7d-6a1b-44a3-b60b-a5b644cede88",
+      "finishReturnMs": 0.30000001192092896
+    },
+    {
+      "mode": "previous",
+      "group": 7,
+      "key": "14-3",
+      "assemblyMs": 0.5999999940395355,
+      "uploadCPUMs": 0.20000001788139343,
+      "gpuMs": 12.538249,
+      "texture": "9c18e9ad-7bea-4bf6-9ef7-bf0abe77e63d",
+      "finishReturnMs": 0.800000011920929
+    },
+    {
+      "mode": "candidate",
+      "group": 7,
+      "key": "15-3",
+      "assemblyMs": 0.19999998807907104,
+      "uploadCPUMs": 0.19999998807907104,
+      "gpuMs": 1.39125,
+      "texture": "9c18e9ad-7bea-4bf6-9ef7-bf0abe77e63d",
+      "finishReturnMs": 0.3999999761581421
+    },
+    {
+      "mode": "candidate",
+      "group": 7,
+      "key": "14-3",
+      "assemblyMs": 0.09999999403953552,
+      "uploadCPUMs": 0.09999999403953552,
+      "gpuMs": 1.714583,
+      "texture": "9c18e9ad-7bea-4bf6-9ef7-bf0abe77e63d",
+      "finishReturnMs": 0.19999998807907104
+    },
+    {
+      "mode": "previous",
+      "group": 7,
+      "key": "15-3",
+      "assemblyMs": 0.10000002384185791,
+      "uploadCPUMs": 0,
+      "gpuMs": 13.234041,
+      "texture": "36273ffe-c24b-432d-9bf8-b1ebfae6faa3",
+      "finishReturnMs": 0.20000001788139343
+    }
+  ],
+  "preserved": true,
+  "graphicsError": 0,
+  "cacheSize": 6,
+  "resources": {
+    "geometries": 22,
+    "textures": 30
+  },
+  "errors": []
+}

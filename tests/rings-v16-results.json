@@ -1,0 +1,65 @@
+{
+  "views": [
+    {
+      "angle": 0.25,
+      "mode": "base",
+      "path": "tests/screenshots/v16-rings-0.25-base.png"
+    },
+    {
+      "angle": 0.25,
+      "mode": "filtered",
+      "path": "tests/screenshots/v16-rings-0.25-filtered.png"
+    },
+    {
+      "angle": 0.25,
+      "mode": "reference",
+      "path": "tests/screenshots/v16-rings-0.25-reference.png"
+    },
+    {
+      "angle": 1.427,
+      "mode": "base",
+      "path": "tests/screenshots/v16-rings-1.427-base.png"
+    },
+    {
+      "angle": 1.427,
+      "mode": "filtered",
+      "path": "tests/screenshots/v16-rings-1.427-filtered.png"
+    },
+    {
+      "angle": 1.427,
+      "mode": "reference",
+      "path": "tests/screenshots/v16-rings-1.427-reference.png"
+    },
+    {
+      "angle": 8,
+      "mode": "base",
+      "path": "tests/screenshots/v16-rings-8-base.png"
+    },
+    {
+      "angle": 8,
+      "mode": "filtered",
+      "path": "tests/screenshots/v16-rings-8-filtered.png"
+    },
+    {
+      "angle": 8,
+      "mode": "reference",
+      "path": "tests/screenshots/v16-rings-8-reference.png"
+    },
+    {
+      "angle": -8,
+      "mode": "base",
+      "path": "tests/screenshots/v16-rings--8-base.png"
+    },
+    {
+      "angle": -8,
+      "mode": "filtered",
+      "path": "tests/screenshots/v16-rings--8-filtered.png"
+    },
+    {
+      "angle": -8,
+      "mode": "reference",
+      "path": "tests/screenshots/v16-rings--8-reference.png"
+    }
+  ],
+  "errors": []
+}

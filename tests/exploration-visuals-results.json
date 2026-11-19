@@ -1,0 +1,31 @@
+{
+  "phases": [
+    {
+      "phase": 15,
+      "starVisibility": 0.03615969981089073
+    },
+    {
+      "phase": 80,
+      "starVisibility": 0.1984480009545604
+    },
+    {
+      "phase": 130,
+      "starVisibility": 0.4457148515467118
+    }
+  ],
+  "eclipses": [
+    {
+      "fraction": 0,
+      "key": 0
+    },
+    {
+      "fraction": 0.49803189353888666,
+      "key": 1.8427180060938808
+    },
+    {
+      "fraction": 1,
+      "key": 3.7
+    }
+  ],
+  "errors": []
+}

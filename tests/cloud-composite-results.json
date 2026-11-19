@@ -1,0 +1,4307 @@
+{
+  "version": "0.87.0",
+  "hashes": {
+    "src/rendering/earth-shaders.js": "3f78e9c561168889ad83feb6af92f2a8c5231b7cf97aa1bc84a1082eed7e5db5",
+    "src/rendering/cloud-layer.js": "abbd04ef69d3489829922df6c35427452fe138a73c2c635ad92e084893be88f2",
+    "assets/textures/earth-clouds.avif": "b0e44a2ed7ef48ae9f31fa24910d490fb6e55273d64354f18be2adc09481f648"
+  },
+  "method": "Same volume field and physical state. Prior bilinear reconstruction versus bounded cubic reconstruction; independent full-display-resolution volume as reference. Display/linear error and horizontal gradient error, two adaptive budgets, native-grid and direct-photography controls. This measures reconstruction fidelity, not photographic equivalence.",
+  "outcomes": [
+    {
+      "name": "Chrome",
+      "engineVersion": "158.0.8127.37",
+      "views": [
+        {
+          "label": "day",
+          "scale": 1,
+          "dpr": 2,
+          "capture": false,
+          "metrics": {
+            "previous": {
+              "display": {
+                "mean": 1.7806904166666666,
+                "rmse": 5.826367471818669,
+                "max": 117,
+                "gradientRmse": 7.540239966340594
+              },
+              "linear": {
+                "mean": 0.005568500407536824,
+                "rmse": 0.018498002830265044,
+                "max": 0.5040283203125,
+                "gradientRmse": 0.023802855121996137
+              }
+            },
+            "candidate": {
+              "display": {
+                "mean": 1.499293125,
+                "rmse": 5.1054382565717775,
+                "max": 117,
+                "gradientRmse": 6.948516508339508
+              },
+              "linear": {
+                "mean": 0.004739490172068278,
+                "rmse": 0.016366327603466426,
+                "max": 0.499755859375,
+                "gradientRmse": 0.02195444470920159
+              }
+            }
+          },
+          "change": {
+            "mean": 0.481013125,
+            "rmse": 1.5740401175531284,
+            "max": 50,
+            "gradientRmse": 1.6069046331378847
+          },
+          "repeat": {
+            "mean": 0,
+            "rmse": 0,
+            "max": 0,
+            "gradientRmse": 0
+          },
+          "resources": [
+            {
+              "calls": 7,
+              "triangles": 292866,
+              "textures": 28,
+              "geometries": 22
+            },
+            {
+              "calls": 7,
+              "triangles": 292866,
+              "textures": 28,
+              "geometries": 22
+            },
+            {
+              "calls": 7,
+              "triangles": 292866,
+              "textures": 28,
+              "geometries": 22
+            },
+            {
+              "calls": 7,
+              "triangles": 292866,
+              "textures": 28,
+              "geometries": 22
+            }
+          ],
+          "physicalStatePreserved": true
+        },
+        {
+          "label": "day",
+          "scale": 0.75,
+          "dpr": 2,
+          "capture": false,
+          "metrics": {
+            "previous": {
+              "display": {
+                "mean": 2.422681875,
+                "rmse": 7.696484681874793,
+                "max": 141,
+                "gradientRmse": 9.157827048486993
+              },
+              "linear": {
+                "mean": 0.007569155101776123,
+                "rmse": 0.02449449901066747,
+                "max": 0.5531005859375,
+                "gradientRmse": 0.028944726713090074
+              }
+            },
+            "candidate": {
+              "display": {
+                "mean": 2.165508125,
+                "rmse": 7.067270409547569,
+                "max": 136,
+                "gradientRmse": 8.795051781162709
+              },
+              "linear": {
+                "mean": 0.006836346592903137,
+                "rmse": 0.02267424334330146,
+                "max": 0.620849609375,
+                "gradientRmse": 0.027789976043926613
+              }
+            }
+          },
+          "change": {
+            "mean": 0.48590791666666666,
+            "rmse": 1.5870079289867036,
+            "max": 52,
+            "gradientRmse": 1.3657673362131144
+          },
+          "repeat": {
+            "mean": 0,
+            "rmse": 0,
+            "max": 0,
+            "gradientRmse": 0
+          },
+          "resources": [
+            {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 28,
+              "geometries": 22
+            },
+            {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 28,
+              "geometries": 22
+            },
+            {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 28,
+              "geometries": 22
+            },
+            {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 28,
+              "geometries": 22
+            }
+          ],
+          "physicalStatePreserved": true
+        },
+        {
+          "label": "terminator",
+          "scale": 1,
+          "dpr": 2,
+          "capture": false,
+          "metrics": {
+            "previous": {
+              "display": {
+                "mean": 0.7195483333333333,
+                "rmse": 3.4867956875427426,
+                "max": 119,
+                "gradientRmse": 4.687683729732628
+              },
+              "linear": {
+                "mean": 0.0019799618731439115,
+                "rmse": 0.010528561721921383,
+                "max": 0.49560546875,
+                "gradientRmse": 0.014713029454480522
+              }
+            },
+            "candidate": {
+              "display": {
+                "mean": 0.6134875,
+                "rmse": 3.0813914605796735,
+                "max": 112,
+                "gradientRmse": 4.33868475654393
+              },
+              "linear": {
+                "mean": 0.0017134526420012116,
+                "rmse": 0.009463752720744392,
+                "max": 0.470458984375,
+                "gradientRmse": 0.013640789040951486
+              }
+            }
+          },
+          "change": {
+            "mean": 0.19510958333333334,
+            "rmse": 0.9579357146141558,
+            "max": 42,
+            "gradientRmse": 1.0333517471477625
+          },
+          "repeat": {
+            "mean": 0,
+            "rmse": 0,
+            "max": 0,
+            "gradientRmse": 0
+          },
+          "resources": [
+            {
+              "calls": 7,
+              "triangles": 292866,
+              "textures": 28,
+              "geometries": 22
+            },
+            {
+              "calls": 7,
+              "triangles": 292866,
+              "textures": 28,
+              "geometries": 22
+            },
+            {
+              "calls": 7,
+              "triangles": 292866,
+              "textures": 28,
+              "geometries": 22
+            },
+            {
+              "calls": 7,
+              "triangles": 292866,
+              "textures": 28,
+              "geometries": 22
+            }
+          ],
+          "physicalStatePreserved": true
+        },
+        {
+          "label": "terminator",
+          "scale": 0.75,
+          "dpr": 2,
+          "capture": false,
+          "metrics": {
+            "previous": {
+              "display": {
+                "mean": 0.9836714583333334,
+                "rmse": 4.630711135991966,
+                "max": 134,
+                "gradientRmse": 5.7164289916578745
+              },
+              "linear": {
+                "mean": 0.0027155314399302005,
+                "rmse": 0.014074551866825711,
+                "max": 0.5814208984375,
+                "gradientRmse": 0.018082995218842993
+              }
+            },
+            "candidate": {
+              "display": {
+                "mean": 0.8879035416666666,
+                "rmse": 4.280458576484534,
+                "max": 133,
+                "gradientRmse": 5.500890117365856
+              },
+              "linear": {
+                "mean": 0.002489495750963688,
+                "rmse": 0.013251168808079736,
+                "max": 0.5740966796875,
+                "gradientRmse": 0.01741918603751786
+              }
+            }
+          },
+          "change": {
+            "mean": 0.19774208333333335,
+            "rmse": 0.9729855257573636,
+            "max": 51,
+            "gradientRmse": 0.8966100508768198
+          },
+          "repeat": {
+            "mean": 0,
+            "rmse": 0,
+            "max": 0,
+            "gradientRmse": 0
+          },
+          "resources": [
+            {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 28,
+              "geometries": 22
+            },
+            {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 28,
+              "geometries": 22
+            },
+            {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 28,
+              "geometries": 22
+            },
+            {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 28,
+              "geometries": 22
+            }
+          ],
+          "physicalStatePreserved": true
+        },
+        {
+          "label": "crescent",
+          "scale": 1,
+          "dpr": 2,
+          "capture": false,
+          "metrics": {
+            "previous": {
+              "display": {
+                "mean": 0.007074375,
+                "rmse": 0.402016013362652,
+                "max": 137,
+                "gradientRmse": 0.601410148456664
+              },
+              "linear": {
+                "mean": 0.00001961462630579869,
+                "rmse": 0.0016150630487783055,
+                "max": 0.6671142578125,
+                "gradientRmse": 0.002432112395425237
+              }
+            },
+            "candidate": {
+              "display": {
+                "mean": 0.0069635416666666665,
+                "rmse": 0.4016515384426323,
+                "max": 137,
+                "gradientRmse": 0.6025688065828388
+              },
+              "linear": {
+                "mean": 0.00001948120114703973,
+                "rmse": 0.0016149536100544969,
+                "max": 0.6671142578125,
+                "gradientRmse": 0.0024327862688006486
+              }
+            }
+          },
+          "change": {
+            "mean": 0.00020333333333333333,
+            "rmse": 0.016795336654361333,
+            "max": 4,
+            "gradientRmse": 0.01760681686165901
+          },
+          "repeat": {
+            "mean": 0,
+            "rmse": 0,
+            "max": 0,
+            "gradientRmse": 0
+          },
+          "resources": [
+            {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 28,
+              "geometries": 22
+            },
+            {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 28,
+              "geometries": 22
+            },
+            {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 28,
+              "geometries": 22
+            },
+            {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 28,
+              "geometries": 22
+            }
+          ],
+          "physicalStatePreserved": true
+        },
+        {
+          "label": "crescent",
+          "scale": 0.75,
+          "dpr": 2,
+          "capture": false,
+          "metrics": {
+            "previous": {
+              "display": {
+                "mean": 0.009701041666666667,
+                "rmse": 0.531554128632886,
+                "max": 147,
+                "gradientRmse": 0.7302065917715799
+              },
+              "linear": {
+                "mean": 0.00002728268566230933,
+                "rmse": 0.0022082379727434514,
+                "max": 0.7774658203125,
+                "gradientRmse": 0.0030137689166355197
+              }
+            },
+            "candidate": {
+              "display": {
+                "mean": 0.00961375,
+                "rmse": 0.5312591175688188,
+                "max": 147,
+                "gradientRmse": 0.7300830432217968
+              },
+              "linear": {
+                "mean": 0.000027208754693468412,
+                "rmse": 0.0022082021781348695,
+                "max": 0.7774658203125,
+                "gradientRmse": 0.003013760140287672
+              }
+            }
+          },
+          "change": {
+            "mean": 0.000129375,
+            "rmse": 0.012723010649999473,
+            "max": 3,
+            "gradientRmse": 0.01457737973711325
+          },
+          "repeat": {
+            "mean": 0,
+            "rmse": 0,
+            "max": 0,
+            "gradientRmse": 0
+          },
+          "resources": [
+            {
+              "calls": 9,
+              "triangles": 439298,
+              "textures": 28,
+              "geometries": 22
+            },
+            {
+              "calls": 9,
+              "triangles": 439298,
+              "textures": 28,
+              "geometries": 22
+            },
+            {
+              "calls": 9,
+              "triangles": 439298,
+              "textures": 28,
+              "geometries": 22
+            },
+            {
+              "calls": 9,
+              "triangles": 439298,
+              "textures": 28,
+              "geometries": 22
+            }
+          ],
+          "physicalStatePreserved": true
+        },
+        {
+          "label": "night",
+          "scale": 1,
+          "dpr": 2,
+          "capture": false,
+          "metrics": {
+            "previous": {
+              "display": {
+                "mean": 0.00009354166666666667,
+                "rmse": 0.009693210682396898,
+                "max": 2,
+                "gradientRmse": 0.012861441080480315
+              },
+              "linear": {
+                "mean": 9.966733554999034e-8,
+                "rmse": 0.0000011916367172083854,
+                "max": 0.0016632080078125,
+                "gradientRmse": 0.0000015829343353425078
+              }
+            },
+            "candidate": {
+              "display": {
+                "mean": 0.00007395833333333333,
+                "rmse": 0.008624094155330171,
+                "max": 2,
+                "gradientRmse": 0.011761519176251567
+              },
+              "linear": {
+                "mean": 8.230545868476232e-8,
+                "rmse": 0.0000010968233897512185,
+                "max": 0.0016632080078125,
+                "gradientRmse": 0.0000015062537279032595
+              }
+            }
+          },
+          "change": {
+            "mean": 0.000029166666666666666,
+            "rmse": 0.0054006172486732165,
+            "max": 1,
+            "gradientRmse": 0.007472170590486631
+          },
+          "repeat": {
+            "mean": 0,
+            "rmse": 0,
+            "max": 0,
+            "gradientRmse": 0
+          },
+          "resources": [
+            {
+              "calls": 11,
+              "triangles": 445570,
+              "textures": 29,
+              "geometries": 22
+            },
+            {
+              "calls": 11,
+              "triangles": 445570,
+              "textures": 29,
+              "geometries": 22
+            },
+            {
+              "calls": 11,
+              "triangles": 445570,
+              "textures": 29,
+              "geometries": 22
+            },
+            {
+              "calls": 11,
+              "triangles": 445570,
+              "textures": 29,
+              "geometries": 22
+            }
+          ],
+          "physicalStatePreserved": true
+        },
+        {
+          "label": "night",
+          "scale": 0.75,
+          "dpr": 2,
+          "capture": false,
+          "metrics": {
+            "previous": {
+              "display": {
+                "mean": 0.00014145833333333333,
+                "rmse": 0.013911925340033517,
+                "max": 15,
+                "gradientRmse": 0.018393839548428527
+              },
+              "linear": {
+                "mean": 1.396931086977323e-7,
+                "rmse": 0.000004125081383986732,
+                "max": 0.00833892822265625,
+                "gradientRmse": 0.000005745741083278603
+              }
+            },
+            "candidate": {
+              "display": {
+                "mean": 0.00011916666666666667,
+                "rmse": 0.0130862523283024,
+                "max": 15,
+                "gradientRmse": 0.017594980344783944
+              },
+              "linear": {
+                "mean": 1.237821951508522e-7,
+                "rmse": 0.000004091833279534878,
+                "max": 0.00833892822265625,
+                "gradientRmse": 0.000005729265537514484
+              }
+            }
+          },
+          "change": {
+            "mean": 0.00003270833333333333,
+            "rmse": 0.005719119978924496,
+            "max": 1,
+            "gradientRmse": 0.007905694150420948
+          },
+          "repeat": {
+            "mean": 0,
+            "rmse": 0,
+            "max": 0,
+            "gradientRmse": 0
+          },
+          "resources": [
+            {
+              "calls": 12,
+              "triangles": 518786,
+              "textures": 29,
+              "geometries": 22
+            },
+            {
+              "calls": 12,
+              "triangles": 518786,
+              "textures": 29,
+              "geometries": 22
+            },
+            {
+              "calls": 12,
+              "triangles": 518786,
+              "textures": 29,
+              "geometries": 22
+            },
+            {
+              "calls": 12,
+              "triangles": 518786,
+              "textures": 29,
+              "geometries": 22
+            }
+          ],
+          "physicalStatePreserved": true
+        },
+        {
+          "label": "close",
+          "scale": 1,
+          "dpr": 2,
+          "capture": false,
+          "metrics": {
+            "previous": {
+              "display": {
+                "mean": 0.08036916666666667,
+                "rmse": 0.3126946060722293,
+                "max": 10,
+                "gradientRmse": 0.3527251054291429
+              },
+              "linear": {
+                "mean": 0.0002125274960199992,
+                "rmse": 0.0006874978982398587,
+                "max": 0.03369140625,
+                "gradientRmse": 0.0006025784629813602
+              }
+            },
+            "candidate": {
+              "display": {
+                "mean": 0.049963541666666667,
+                "rmse": 0.22968139164213253,
+                "max": 5,
+                "gradientRmse": 0.3058301543885647
+              },
+              "linear": {
+                "mean": 0.0001370641009012858,
+                "rmse": 0.00042650520293871904,
+                "max": 0.019287109375,
+                "gradientRmse": 0.0005024212737262238
+              }
+            }
+          },
+          "change": {
+            "mean": 0.068831875,
+            "rmse": 0.26816389578017397,
+            "max": 6,
+            "gradientRmse": 0.31337477562816063
+          },
+          "repeat": {
+            "mean": 0,
+            "rmse": 0,
+            "max": 0,
+            "gradientRmse": 0
+          },
+          "resources": [
+            {
+              "calls": 7,
+              "triangles": 292866,
+              "textures": 29,
+              "geometries": 22
+            },
+            {
+              "calls": 7,
+              "triangles": 292866,
+              "textures": 29,
+              "geometries": 22
+            },
+            {
+              "calls": 7,
+              "triangles": 292866,
+              "textures": 29,
+              "geometries": 22
+            },
+            {
+              "calls": 7,
+              "triangles": 292866,
+              "textures": 29,
+              "geometries": 22
+            }
+          ],
+          "physicalStatePreserved": true
+        },
+        {
+          "label": "close",
+          "scale": 0.75,
+          "dpr": 2,
+          "capture": false,
+          "metrics": {
+            "previous": {
+              "display": {
+                "mean": 0.138276875,
+                "rmse": 0.46123949852544066,
+                "max": 19,
+                "gradientRmse": 0.46436336347017443
+              },
+              "linear": {
+                "mean": 0.00036895765463511147,
+                "rmse": 0.001148990563081093,
+                "max": 0.046875,
+                "gradientRmse": 0.0009475998217775936
+              }
+            },
+            "candidate": {
+              "display": {
+                "mean": 0.08739,
+                "rmse": 0.32233005858384767,
+                "max": 9,
+                "gradientRmse": 0.39697239618559543
+              },
+              "linear": {
+                "mean": 0.00024152483781178792,
+                "rmse": 0.000723341024007979,
+                "max": 0.03271484375,
+                "gradientRmse": 0.0007653449154884081
+              }
+            }
+          },
+          "change": {
+            "mean": 0.11201854166666667,
+            "rmse": 0.35704078898635655,
+            "max": 11,
+            "gradientRmse": 0.3793393379723929
+          },
+          "repeat": {
+            "mean": 0,
+            "rmse": 0,
+            "max": 0,
+            "gradientRmse": 0
+          },
+          "resources": [
+            {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 29,
+              "geometries": 22
+            },
+            {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 29,
+              "geometries": 22
+            },
+            {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 29,
+              "geometries": 22
+            },
+            {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 29,
+              "geometries": 22
+            }
+          ],
+          "physicalStatePreserved": true
+        },
+        {
+          "label": "grazing",
+          "scale": 1,
+          "dpr": 2,
+          "capture": false,
+          "metrics": {
+            "previous": {
+              "display": {
+                "mean": 0.024899791666666667,
+                "rmse": 0.16095483320898857,
+                "max": 7,
+                "gradientRmse": 0.2074558185895654
+              },
+              "linear": {
+                "mean": 0.00003106944620609284,
+                "rmse": 0.00012403574879219862,
+                "max": 0.0091552734375,
+                "gradientRmse": 0.00012232682950453916
+              }
+            },
+            "candidate": {
+              "display": {
+                "mean": 0.018365208333333334,
+                "rmse": 0.1359878977458411,
+                "max": 4,
+                "gradientRmse": 0.18566546977471785
+              },
+              "linear": {
+                "mean": 0.000023294555246829987,
+                "rmse": 0.00008546408055400872,
+                "max": 0.005615234375,
+                "gradientRmse": 0.0000997869603581564
+              }
+            }
+          },
+          "change": {
+            "mean": 0.01811625,
+            "rmse": 0.13540525592949978,
+            "max": 5,
+            "gradientRmse": 0.1779840816852264
+          },
+          "repeat": {
+            "mean": 0,
+            "rmse": 0,
+            "max": 0,
+            "gradientRmse": 0
+          },
+          "resources": [
+            {
+              "calls": 7,
+              "triangles": 292866,
+              "textures": 29,
+              "geometries": 22
+            },
+            {
+              "calls": 7,
+              "triangles": 292866,
+              "textures": 29,
+              "geometries": 22
+            },
+            {
+              "calls": 7,
+              "triangles": 292866,
+              "textures": 29,
+              "geometries": 22
+            },
+            {
+              "calls": 7,
+              "triangles": 292866,
+              "textures": 29,
+              "geometries": 22
+            }
+          ],
+          "physicalStatePreserved": true
+        },
+        {
+          "label": "grazing",
+          "scale": 0.75,
+          "dpr": 2,
+          "capture": false,
+          "metrics": {
+            "previous": {
+              "display": {
+                "mean": 0.03957395833333333,
+                "rmse": 0.21035931561655802,
+                "max": 11,
+                "gradientRmse": 0.2541472670192094
+              },
+              "linear": {
+                "mean": 0.00004945490638415019,
+                "rmse": 0.00019995520876969042,
+                "max": 0.0164794921875,
+                "gradientRmse": 0.00018744606843991115
+              }
+            },
+            "candidate": {
+              "display": {
+                "mean": 0.028117291666666665,
+                "rmse": 0.17013781178797382,
+                "max": 6,
+                "gradientRmse": 0.2247785947697571
+              },
+              "linear": {
+                "mean": 0.0000361296671628952,
+                "rmse": 0.00013672060610532297,
+                "max": 0.01171875,
+                "gradientRmse": 0.0001512610191810946
+              }
+            }
+          },
+          "change": {
+            "mean": 0.027732916666666666,
+            "rmse": 0.16937384685954324,
+            "max": 7,
+            "gradientRmse": 0.21393437467285772
+          },
+          "repeat": {
+            "mean": 0,
+            "rmse": 0,
+            "max": 0,
+            "gradientRmse": 0
+          },
+          "resources": [
+            {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 29,
+              "geometries": 22
+            },
+            {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 29,
+              "geometries": 22
+            },
+            {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 29,
+              "geometries": 22
+            },
+            {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 29,
+              "geometries": 22
+            }
+          ],
+          "physicalStatePreserved": true
+        },
+        {
+          "label": "resolved-limb",
+          "scale": 1,
+          "dpr": 2,
+          "capture": false,
+          "metrics": {
+            "previous": {
+              "display": {
+                "mean": 0.027251041666666666,
+                "rmse": 0.1924583288229775,
+                "max": 11,
+                "gradientRmse": 0.26408410907638247
+              },
+              "linear": {
+                "mean": 0.00016020992279052734,
+                "rmse": 0.0006759609483528239,
+                "max": 0.05322265625,
+                "gradientRmse": 0.0008859131957097776
+              }
+            },
+            "candidate": {
+              "display": {
+                "mean": 0.018462291666666665,
+                "rmse": 0.15561772071329152,
+                "max": 10,
+                "gradientRmse": 0.22472575879650883
+              },
+              "linear": {
+                "mean": 0.00011779335021972657,
+                "rmse": 0.0005216510190338126,
+                "max": 0.04638671875,
+                "gradientRmse": 0.0007615332367361049
+              }
+            }
+          },
+          "change": {
+            "mean": 0.021181666666666668,
+            "rmse": 0.148387162517517,
+            "max": 4,
+            "gradientRmse": 0.19364809147867515
+          },
+          "repeat": {
+            "mean": 0,
+            "rmse": 0,
+            "max": 0,
+            "gradientRmse": 0
+          },
+          "resources": [
+            {
+              "calls": 7,
+              "triangles": 292866,
+              "textures": 29,
+              "geometries": 22
+            },
+            {
+              "calls": 7,
+              "triangles": 292866,
+              "textures": 29,
+              "geometries": 22
+            },
+            {
+              "calls": 7,
+              "triangles": 292866,
+              "textures": 29,
+              "geometries": 22
+            },
+            {
+              "calls": 7,
+              "triangles": 292866,
+              "textures": 29,
+              "geometries": 22
+            }
+          ],
+          "physicalStatePreserved": true
+        },
+        {
+          "label": "resolved-limb",
+          "scale": 0.75,
+          "dpr": 2,
+          "capture": false,
+          "metrics": {
+            "previous": {
+              "display": {
+                "mean": 0.04028895833333333,
+                "rmse": 0.2531456267315976,
+                "max": 13,
+                "gradientRmse": 0.33569889782363005
+              },
+              "linear": {
+                "mean": 0.0002320840326944987,
+                "rmse": 0.0009844144493636252,
+                "max": 0.060546875,
+                "gradientRmse": 0.0012515872660280813
+              }
+            },
+            "candidate": {
+              "display": {
+                "mean": 0.022998125,
+                "rmse": 0.1955318601490134,
+                "max": 13,
+                "gradientRmse": 0.2817209020762689
+              },
+              "linear": {
+                "mean": 0.0001433570098876953,
+                "rmse": 0.0007371604075115337,
+                "max": 0.057373046875,
+                "gradientRmse": 0.001076206195189429
+              }
+            }
+          },
+          "change": {
+            "mean": 0.030302916666666666,
+            "rmse": 0.1807380701457222,
+            "max": 4,
+            "gradientRmse": 0.22542367518371564
+          },
+          "repeat": {
+            "mean": 0,
+            "rmse": 0,
+            "max": 0,
+            "gradientRmse": 0
+          },
+          "resources": [
+            {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 29,
+              "geometries": 22
+            },
+            {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 29,
+              "geometries": 22
+            },
+            {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 29,
+              "geometries": 22
+            },
+            {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 29,
+              "geometries": 22
+            }
+          ],
+          "physicalStatePreserved": true
+        },
+        {
+          "label": "occlusion",
+          "scale": 1,
+          "dpr": 2,
+          "capture": false,
+          "metrics": {
+            "previous": {
+              "display": {
+                "mean": 1.2607454166666667,
+                "rmse": 4.947249025131711,
+                "max": 117,
+                "gradientRmse": 6.477964990385998
+              },
+              "linear": {
+                "mean": 0.004099297726949056,
+                "rmse": 0.01621138190701517,
+                "max": 0.5040283203125,
+                "gradientRmse": 0.02108228176903501
+              }
+            },
+            "candidate": {
+              "display": {
+                "mean": 1.0683016666666667,
+                "rmse": 4.34765731936944,
+                "max": 113,
+                "gradientRmse": 5.984630244774247
+              },
+              "linear": {
+                "mean": 0.0035259380674362182,
+                "rmse": 0.014449577564042628,
+                "max": 0.499755859375,
+                "gradientRmse": 0.019523367121251353
+              }
+            }
+          },
+          "change": {
+            "mean": 0.3422625,
+            "rmse": 1.3589786299521662,
+            "max": 50,
+            "gradientRmse": 1.393540903597738
+          },
+          "repeat": {
+            "mean": 0,
+            "rmse": 0,
+            "max": 0,
+            "gradientRmse": 0
+          },
+          "resources": [
+            {
+              "calls": 8,
+              "triangles": 586754,
+              "textures": 29,
+              "geometries": 22
+            },
+            {
+              "calls": 8,
+              "triangles": 586754,
+              "textures": 29,
+              "geometries": 22
+            },
+            {
+              "calls": 8,
+              "triangles": 586754,
+              "textures": 29,
+              "geometries": 22
+            },
+            {
+              "calls": 8,
+              "triangles": 586754,
+              "textures": 29,
+              "geometries": 22
+            }
+          ],
+          "physicalStatePreserved": true
+        },
+        {
+          "label": "occlusion",
+          "scale": 0.75,
+          "dpr": 2,
+          "capture": false,
+          "metrics": {
+            "previous": {
+              "display": {
+                "mean": 1.7061541666666666,
+                "rmse": 6.513119068464817,
+                "max": 134,
+                "gradientRmse": 7.826037338057279
+              },
+              "linear": {
+                "mean": 0.005541360408465068,
+                "rmse": 0.021389186831526623,
+                "max": 0.544677734375,
+                "gradientRmse": 0.025523106672187556
+              }
+            },
+            "candidate": {
+              "display": {
+                "mean": 1.5303777083333334,
+                "rmse": 5.987673918838043,
+                "max": 129,
+                "gradientRmse": 7.520013408675989
+              },
+              "linear": {
+                "mean": 0.0050433962408701575,
+                "rmse": 0.019906385973349896,
+                "max": 0.620849609375,
+                "gradientRmse": 0.024550804187715176
+              }
+            }
+          },
+          "change": {
+            "mean": 0.345544375,
+            "rmse": 1.3683529484992776,
+            "max": 52,
+            "gradientRmse": 1.187467367972695
+          },
+          "repeat": {
+            "mean": 0,
+            "rmse": 0,
+            "max": 0,
+            "gradientRmse": 0
+          },
+          "resources": [
+            {
+              "calls": 9,
+              "triangles": 659970,
+              "textures": 29,
+              "geometries": 22
+            },
+            {
+              "calls": 9,
+              "triangles": 659970,
+              "textures": 29,
+              "geometries": 22
+            },
+            {
+              "calls": 9,
+              "triangles": 659970,
+              "textures": 29,
+              "geometries": 22
+            },
+            {
+              "calls": 9,
+              "triangles": 659970,
+              "textures": 29,
+              "geometries": 22
+            }
+          ],
+          "physicalStatePreserved": true
+        },
+        {
+          "label": "day",
+          "scale": 1,
+          "dpr": 2,
+          "capture": true,
+          "metrics": {
+            "previous": {
+              "display": {
+                "mean": 0,
+                "rmse": 0,
+                "max": 0,
+                "gradientRmse": 0
+              },
+              "linear": {
+                "mean": 0,
+                "rmse": 0,
+                "max": 0,
+                "gradientRmse": 0
+              }
+            },
+            "candidate": {
+              "display": {
+                "mean": 0,
+                "rmse": 0,
+                "max": 0,
+                "gradientRmse": 0
+              },
+              "linear": {
+                "mean": 0,
+                "rmse": 0,
+                "max": 0,
+                "gradientRmse": 0
+              }
+            }
+          },
+          "change": {
+            "mean": 0,
+            "rmse": 0,
+            "max": 0,
+            "gradientRmse": 0
+          },
+          "repeat": {
+            "mean": 0,
+            "rmse": 0,
+            "max": 0,
+            "gradientRmse": 0
+          },
+          "resources": [
+            {
+              "calls": 7,
+              "triangles": 292866,
+              "textures": 29,
+              "geometries": 22
+            },
+            {
+              "calls": 7,
+              "triangles": 292866,
+              "textures": 29,
+              "geometries": 22
+            },
+            {
+              "calls": 7,
+              "triangles": 292866,
+              "textures": 29,
+              "geometries": 22
+            },
+            {
+              "calls": 7,
+              "triangles": 292866,
+              "textures": 29,
+              "geometries": 22
+            }
+          ],
+          "physicalStatePreserved": true
+        },
+        {
+          "label": "day",
+          "scale": 1,
+          "dpr": 1,
+          "capture": false,
+          "metrics": {
+            "previous": {
+              "display": {
+                "mean": 0,
+                "rmse": 0,
+                "max": 0,
+                "gradientRmse": 0
+              },
+              "linear": {
+                "mean": 0,
+                "rmse": 0,
+                "max": 0,
+                "gradientRmse": 0
+              }
+            },
+            "candidate": {
+              "display": {
+                "mean": 0,
+                "rmse": 0,
+                "max": 0,
+                "gradientRmse": 0
+              },
+              "linear": {
+                "mean": 0,
+                "rmse": 0,
+                "max": 0,
+                "gradientRmse": 0
+              }
+            }
+          },
+          "change": {
+            "mean": 0,
+            "rmse": 0,
+            "max": 0,
+            "gradientRmse": 0
+          },
+          "repeat": {
+            "mean": 0,
+            "rmse": 0,
+            "max": 0,
+            "gradientRmse": 0
+          },
+          "resources": [
+            {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 28,
+              "geometries": 22
+            },
+            {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 28,
+              "geometries": 22
+            },
+            {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 28,
+              "geometries": 22
+            },
+            {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 28,
+              "geometries": 22
+            }
+          ],
+          "physicalStatePreserved": true
+        },
+        {
+          "label": "resolved-limb",
+          "scale": 1,
+          "dpr": 1,
+          "capture": false,
+          "metrics": {
+            "previous": {
+              "display": {
+                "mean": 0,
+                "rmse": 0,
+                "max": 0,
+                "gradientRmse": 0
+              },
+              "linear": {
+                "mean": 0,
+                "rmse": 0,
+                "max": 0,
+                "gradientRmse": 0
+              }
+            },
+            "candidate": {
+              "display": {
+                "mean": 0,
+                "rmse": 0,
+                "max": 0,
+                "gradientRmse": 0
+              },
+              "linear": {
+                "mean": 0,
+                "rmse": 0,
+                "max": 0,
+                "gradientRmse": 0
+              }
+            }
+          },
+          "change": {
+            "mean": 0,
+            "rmse": 0,
+            "max": 0,
+            "gradientRmse": 0
+          },
+          "repeat": {
+            "mean": 0,
+            "rmse": 0,
+            "max": 0,
+            "gradientRmse": 0
+          },
+          "resources": [
+            {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 28,
+              "geometries": 22
+            },
+            {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 28,
+              "geometries": 22
+            },
+            {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 28,
+              "geometries": 22
+            },
+            {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 28,
+              "geometries": 22
+            }
+          ],
+          "physicalStatePreserved": true
+        }
+      ],
+      "errors": []
+    },
+    {
+      "name": "Firefox",
+      "engineVersion": "153.0",
+      "views": [
+        {
+          "label": "day",
+          "scale": 1,
+          "dpr": 2,
+          "capture": false,
+          "metrics": {
+            "previous": {
+              "display": {
+                "mean": 1.780775625,
+                "rmse": 5.8235598541613705,
+                "max": 117,
+                "gradientRmse": 7.536629358229933
+              },
+              "linear": {
+                "mean": 0.005567031042575836,
+                "rmse": 0.018494124923099577,
+                "max": 0.5047607421875,
+                "gradientRmse": 0.02379745639721514
+              }
+            },
+            "candidate": {
+              "display": {
+                "mean": 1.4992154166666667,
+                "rmse": 5.102953883128215,
+                "max": 117,
+                "gradientRmse": 6.94509164206396
+              },
+              "linear": {
+                "mean": 0.004738203688462575,
+                "rmse": 0.01636298501415096,
+                "max": 0.499267578125,
+                "gradientRmse": 0.021949474899854823
+              }
+            }
+          },
+          "change": {
+            "mean": 0.48120229166666667,
+            "rmse": 1.5735205352965687,
+            "max": 50,
+            "gradientRmse": 1.6065955205547744
+          },
+          "repeat": {
+            "mean": 0,
+            "rmse": 0,
+            "max": 0,
+            "gradientRmse": 0
+          },
+          "resources": [
+            {
+              "calls": 7,
+              "triangles": 292866,
+              "textures": 28,
+              "geometries": 22
+            },
+            {
+              "calls": 7,
+              "triangles": 292866,
+              "textures": 28,
+              "geometries": 22
+            },
+            {
+              "calls": 7,
+              "triangles": 292866,
+              "textures": 28,
+              "geometries": 22
+            },
+            {
+              "calls": 7,
+              "triangles": 292866,
+              "textures": 28,
+              "geometries": 22
+            }
+          ],
+          "physicalStatePreserved": true
+        },
+        {
+          "label": "day",
+          "scale": 0.75,
+          "dpr": 2,
+          "capture": false,
+          "metrics": {
+            "previous": {
+              "display": {
+                "mean": 2.4227366666666668,
+                "rmse": 7.692735669664812,
+                "max": 141,
+                "gradientRmse": 9.153021654987311
+              },
+              "linear": {
+                "mean": 0.0075670930246512095,
+                "rmse": 0.024489318024450146,
+                "max": 0.55291748046875,
+                "gradientRmse": 0.028938283551208213
+              }
+            },
+            "candidate": {
+              "display": {
+                "mean": 2.1655583333333333,
+                "rmse": 7.063613098124783,
+                "max": 136,
+                "gradientRmse": 8.790426184207453
+              },
+              "linear": {
+                "mean": 0.0068345279475053155,
+                "rmse": 0.022669593311961424,
+                "max": 0.620849609375,
+                "gradientRmse": 0.0277837850385953
+              }
+            }
+          },
+          "change": {
+            "mean": 0.48598708333333335,
+            "rmse": 1.5864408540293373,
+            "max": 52,
+            "gradientRmse": 1.3649703903992447
+          },
+          "repeat": {
+            "mean": 0,
+            "rmse": 0,
+            "max": 0,
+            "gradientRmse": 0
+          },
+          "resources": [
+            {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 28,
+              "geometries": 22
+            },
+            {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 28,
+              "geometries": 22
+            },
+            {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 28,
+              "geometries": 22
+            },
+            {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 28,
+              "geometries": 22
+            }
+          ],
+          "physicalStatePreserved": true
+        },
+        {
+          "label": "terminator",
+          "scale": 1,
+          "dpr": 2,
+          "capture": false,
+          "metrics": {
+            "previous": {
+              "display": {
+                "mean": 0.719440625,
+                "rmse": 3.4860881550815668,
+                "max": 118,
+                "gradientRmse": 4.68617941397894
+              },
+              "linear": {
+                "mean": 0.0019797078359747927,
+                "rmse": 0.010527105437958132,
+                "max": 0.4959716796875,
+                "gradientRmse": 0.014710782680029413
+              }
+            },
+            "candidate": {
+              "display": {
+                "mean": 0.6133447916666667,
+                "rmse": 3.08073648526885,
+                "max": 112,
+                "gradientRmse": 4.337463880733379
+              },
+              "linear": {
+                "mean": 0.0017132254877313972,
+                "rmse": 0.009462486268213296,
+                "max": 0.470703125,
+                "gradientRmse": 0.013638707775429883
+              }
+            }
+          },
+          "change": {
+            "mean": 0.19510875,
+            "rmse": 0.9578791677450763,
+            "max": 42,
+            "gradientRmse": 1.0331858093618334
+          },
+          "repeat": {
+            "mean": 0,
+            "rmse": 0,
+            "max": 0,
+            "gradientRmse": 0
+          },
+          "resources": [
+            {
+              "calls": 7,
+              "triangles": 292866,
+              "textures": 28,
+              "geometries": 22
+            },
+            {
+              "calls": 7,
+              "triangles": 292866,
+              "textures": 28,
+              "geometries": 22
+            },
+            {
+              "calls": 7,
+              "triangles": 292866,
+              "textures": 28,
+              "geometries": 22
+            },
+            {
+              "calls": 7,
+              "triangles": 292866,
+              "textures": 28,
+              "geometries": 22
+            }
+          ],
+          "physicalStatePreserved": true
+        },
+        {
+          "label": "terminator",
+          "scale": 0.75,
+          "dpr": 2,
+          "capture": false,
+          "metrics": {
+            "previous": {
+              "display": {
+                "mean": 0.9835639583333333,
+                "rmse": 4.62978038986012,
+                "max": 134,
+                "gradientRmse": 5.715301501233334
+              },
+              "linear": {
+                "mean": 0.0027151635282983383,
+                "rmse": 0.014072742613451848,
+                "max": 0.5811767578125,
+                "gradientRmse": 0.01808055557650076
+              }
+            },
+            "candidate": {
+              "display": {
+                "mean": 0.887825625,
+                "rmse": 4.279765302170981,
+                "max": 133,
+                "gradientRmse": 5.499969924160192
+              },
+              "linear": {
+                "mean": 0.0024891447972133756,
+                "rmse": 0.013249428373438715,
+                "max": 0.57373046875,
+                "gradientRmse": 0.017416694554450426
+              }
+            }
+          },
+          "change": {
+            "mean": 0.19769291666666666,
+            "rmse": 0.9729189329024284,
+            "max": 51,
+            "gradientRmse": 0.8966219009891144
+          },
+          "repeat": {
+            "mean": 0,
+            "rmse": 0,
+            "max": 0,
+            "gradientRmse": 0
+          },
+          "resources": [
+            {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 28,
+              "geometries": 22
+            },
+            {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 28,
+              "geometries": 22
+            },
+            {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 28,
+              "geometries": 22
+            },
+            {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 28,
+              "geometries": 22
+            }
+          ],
+          "physicalStatePreserved": true
+        },
+        {
+          "label": "crescent",
+          "scale": 1,
+          "dpr": 2,
+          "capture": false,
+          "metrics": {
+            "previous": {
+              "display": {
+                "mean": 0.007073333333333333,
+                "rmse": 0.40222868702600845,
+                "max": 137,
+                "gradientRmse": 0.6016764772976697
+              },
+              "linear": {
+                "mean": 0.000019623752906918524,
+                "rmse": 0.0016160805592781303,
+                "max": 0.667236328125,
+                "gradientRmse": 0.002433509796590177
+              }
+            },
+            "candidate": {
+              "display": {
+                "mean": 0.006961041666666667,
+                "rmse": 0.4018605168463307,
+                "max": 137,
+                "gradientRmse": 0.6028370426574664
+              },
+              "linear": {
+                "mean": 0.00001948998944212993,
+                "rmse": 0.0016159711648306059,
+                "max": 0.667236328125,
+                "gradientRmse": 0.0024341830816117177
+              }
+            }
+          },
+          "change": {
+            "mean": 0.00020270833333333333,
+            "rmse": 0.016764297380643983,
+            "max": 4,
+            "gradientRmse": 0.017523793348853817
+          },
+          "repeat": {
+            "mean": 0,
+            "rmse": 0,
+            "max": 0,
+            "gradientRmse": 0
+          },
+          "resources": [
+            {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 28,
+              "geometries": 22
+            },
+            {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 28,
+              "geometries": 22
+            },
+            {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 28,
+              "geometries": 22
+            },
+            {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 28,
+              "geometries": 22
+            }
+          ],
+          "physicalStatePreserved": true
+        },
+        {
+          "label": "crescent",
+          "scale": 0.75,
+          "dpr": 2,
+          "capture": false,
+          "metrics": {
+            "previous": {
+              "display": {
+                "mean": 0.009693541666666666,
+                "rmse": 0.5315917528204013,
+                "max": 147,
+                "gradientRmse": 0.7302990255139785
+              },
+              "linear": {
+                "mean": 0.00002729328689475854,
+                "rmse": 0.0022086412768049595,
+                "max": 0.7774658203125,
+                "gradientRmse": 0.003014689896202809
+              }
+            },
+            "candidate": {
+              "display": {
+                "mean": 0.009604583333333333,
+                "rmse": 0.53129440990848,
+                "max": 147,
+                "gradientRmse": 0.7301669329680713
+              },
+              "linear": {
+                "mean": 0.000027219064769645534,
+                "rmse": 0.002208605481474586,
+                "max": 0.7774658203125,
+                "gradientRmse": 0.003014681178543595
+              }
+            }
+          },
+          "change": {
+            "mean": 0.00012729166666666667,
+            "rmse": 0.012624381172952597,
+            "max": 3,
+            "gradientRmse": 0.014520101009749669
+          },
+          "repeat": {
+            "mean": 0,
+            "rmse": 0,
+            "max": 0,
+            "gradientRmse": 0
+          },
+          "resources": [
+            {
+              "calls": 9,
+              "triangles": 439298,
+              "textures": 28,
+              "geometries": 22
+            },
+            {
+              "calls": 9,
+              "triangles": 439298,
+              "textures": 28,
+              "geometries": 22
+            },
+            {
+              "calls": 9,
+              "triangles": 439298,
+              "textures": 28,
+              "geometries": 22
+            },
+            {
+              "calls": 9,
+              "triangles": 439298,
+              "textures": 28,
+              "geometries": 22
+            }
+          ],
+          "physicalStatePreserved": true
+        },
+        {
+          "label": "night",
+          "scale": 1,
+          "dpr": 2,
+          "capture": false,
+          "metrics": {
+            "previous": {
+              "display": {
+                "mean": 0.00009125,
+                "rmse": 0.00963932916061417,
+                "max": 3,
+                "gradientRmse": 0.01295826634495011
+              },
+              "linear": {
+                "mean": 1.013273869951566e-7,
+                "rmse": 0.0000012178866525986163,
+                "max": 0.00167083740234375,
+                "gradientRmse": 0.0000016226674629493758
+              }
+            },
+            "candidate": {
+              "display": {
+                "mean": 0.0000725,
+                "rmse": 0.008612007121842543,
+                "max": 3,
+                "gradientRmse": 0.011902380714238084
+              },
+              "linear": {
+                "mean": 8.368466049432755e-8,
+                "rmse": 0.0000011250246442083871,
+                "max": 0.00167083740234375,
+                "gradientRmse": 0.0000015475981713210984
+              }
+            }
+          },
+          "change": {
+            "mean": 0.000029166666666666666,
+            "rmse": 0.0054006172486732165,
+            "max": 1,
+            "gradientRmse": 0.007359800721939872
+          },
+          "repeat": {
+            "mean": 0,
+            "rmse": 0,
+            "max": 0,
+            "gradientRmse": 0
+          },
+          "resources": [
+            {
+              "calls": 11,
+              "triangles": 445570,
+              "textures": 29,
+              "geometries": 22
+            },
+            {
+              "calls": 11,
+              "triangles": 445570,
+              "textures": 29,
+              "geometries": 22
+            },
+            {
+              "calls": 11,
+              "triangles": 445570,
+              "textures": 29,
+              "geometries": 22
+            },
+            {
+              "calls": 11,
+              "triangles": 445570,
+              "textures": 29,
+              "geometries": 22
+            }
+          ],
+          "physicalStatePreserved": true
+        },
+        {
+          "label": "night",
+          "scale": 0.75,
+          "dpr": 2,
+          "capture": false,
+          "metrics": {
+            "previous": {
+              "display": {
+                "mean": 0.00013854166666666667,
+                "rmse": 0.014193601844962867,
+                "max": 15,
+                "gradientRmse": 0.018741664813991313
+              },
+              "linear": {
+                "mean": 1.4195498079061508e-7,
+                "rmse": 0.000004241931964180618,
+                "max": 0.008373260498046875,
+                "gradientRmse": 0.000005913431629746526
+              }
+            },
+            "candidate": {
+              "display": {
+                "mean": 0.00012,
+                "rmse": 0.013524668819112233,
+                "max": 15,
+                "gradientRmse": 0.01828022611092835
+              },
+              "linear": {
+                "mean": 1.2579504400491716e-7,
+                "rmse": 0.000004209503753306996,
+                "max": 0.008373260498046875,
+                "gradientRmse": 0.000005897323905602863
+              }
+            }
+          },
+          "change": {
+            "mean": 0.000031041666666666665,
+            "rmse": 0.005571504883482259,
+            "max": 1,
+            "gradientRmse": 0.007582875444051551
+          },
+          "repeat": {
+            "mean": 0,
+            "rmse": 0,
+            "max": 0,
+            "gradientRmse": 0
+          },
+          "resources": [
+            {
+              "calls": 12,
+              "triangles": 518786,
+              "textures": 29,
+              "geometries": 22
+            },
+            {
+              "calls": 12,
+              "triangles": 518786,
+              "textures": 29,
+              "geometries": 22
+            },
+            {
+              "calls": 12,
+              "triangles": 518786,
+              "textures": 29,
+              "geometries": 22
+            },
+            {
+              "calls": 12,
+              "triangles": 518786,
+              "textures": 29,
+              "geometries": 22
+            }
+          ],
+          "physicalStatePreserved": true
+        },
+        {
+          "label": "close",
+          "scale": 1,
+          "dpr": 2,
+          "capture": false,
+          "metrics": {
+            "previous": {
+              "display": {
+                "mean": 0.08034541666666667,
+                "rmse": 0.31254133060018374,
+                "max": 10,
+                "gradientRmse": 0.35268139540762095
+              },
+              "linear": {
+                "mean": 0.00021234152952829996,
+                "rmse": 0.0006870882585300673,
+                "max": 0.03369140625,
+                "gradientRmse": 0.0006025727283543334
+              }
+            },
+            "candidate": {
+              "display": {
+                "mean": 0.04993583333333333,
+                "rmse": 0.22963013739489857,
+                "max": 5,
+                "gradientRmse": 0.30567820770651394
+              },
+              "linear": {
+                "mean": 0.00013682973861694337,
+                "rmse": 0.0004261575581964216,
+                "max": 0.019775390625,
+                "gradientRmse": 0.0005023852834357866
+              }
+            }
+          },
+          "change": {
+            "mean": 0.06880583333333333,
+            "rmse": 0.2682015722051855,
+            "max": 6,
+            "gradientRmse": 0.31353295945827875
+          },
+          "repeat": {
+            "mean": 0,
+            "rmse": 0,
+            "max": 0,
+            "gradientRmse": 0
+          },
+          "resources": [
+            {
+              "calls": 7,
+              "triangles": 292866,
+              "textures": 29,
+              "geometries": 22
+            },
+            {
+              "calls": 7,
+              "triangles": 292866,
+              "textures": 29,
+              "geometries": 22
+            },
+            {
+              "calls": 7,
+              "triangles": 292866,
+              "textures": 29,
+              "geometries": 22
+            },
+            {
+              "calls": 7,
+              "triangles": 292866,
+              "textures": 29,
+              "geometries": 22
+            }
+          ],
+          "physicalStatePreserved": true
+        },
+        {
+          "label": "close",
+          "scale": 0.75,
+          "dpr": 2,
+          "capture": false,
+          "metrics": {
+            "previous": {
+              "display": {
+                "mean": 0.13832395833333333,
+                "rmse": 0.4611003596470801,
+                "max": 19,
+                "gradientRmse": 0.4645878549854699
+              },
+              "linear": {
+                "mean": 0.00036877676963806153,
+                "rmse": 0.0011484195455062813,
+                "max": 0.047119140625,
+                "gradientRmse": 0.0009475421485008981
+              }
+            },
+            "candidate": {
+              "display": {
+                "mean": 0.08732791666666667,
+                "rmse": 0.3221600275225549,
+                "max": 9,
+                "gradientRmse": 0.39699574934752135
+              },
+              "linear": {
+                "mean": 0.00024137348651885986,
+                "rmse": 0.0007230876997862692,
+                "max": 0.032470703125,
+                "gradientRmse": 0.0007654193134182085
+              }
+            }
+          },
+          "change": {
+            "mean": 0.11225854166666667,
+            "rmse": 0.35726653215771553,
+            "max": 12,
+            "gradientRmse": 0.37971480525959656
+          },
+          "repeat": {
+            "mean": 0,
+            "rmse": 0,
+            "max": 0,
+            "gradientRmse": 0
+          },
+          "resources": [
+            {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 29,
+              "geometries": 22
+            },
+            {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 29,
+              "geometries": 22
+            },
+            {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 29,
+              "geometries": 22
+            },
+            {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 29,
+              "geometries": 22
+            }
+          ],
+          "physicalStatePreserved": true
+        },
+        {
+          "label": "grazing",
+          "scale": 1,
+          "dpr": 2,
+          "capture": false,
+          "metrics": {
+            "previous": {
+              "display": {
+                "mean": 0.02493625,
+                "rmse": 0.16107710369054112,
+                "max": 7,
+                "gradientRmse": 0.2076706125895846
+              },
+              "linear": {
+                "mean": 0.00003112344205379486,
+                "rmse": 0.0001241561792182877,
+                "max": 0.00909423828125,
+                "gradientRmse": 0.0001224580081821314
+              }
+            },
+            "candidate": {
+              "display": {
+                "mean": 0.018462083333333334,
+                "rmse": 0.13634515026211969,
+                "max": 4,
+                "gradientRmse": 0.18618651043152043
+              },
+              "linear": {
+                "mean": 0.000023359329104423524,
+                "rmse": 0.00008559345628122949,
+                "max": 0.00537109375,
+                "gradientRmse": 0.00009989938163880873
+              }
+            }
+          },
+          "change": {
+            "mean": 0.0181325,
+            "rmse": 0.13546524769598045,
+            "max": 5,
+            "gradientRmse": 0.17796535243318196
+          },
+          "repeat": {
+            "mean": 0,
+            "rmse": 0,
+            "max": 0,
+            "gradientRmse": 0
+          },
+          "resources": [
+            {
+              "calls": 7,
+              "triangles": 292866,
+              "textures": 29,
+              "geometries": 22
+            },
+            {
+              "calls": 7,
+              "triangles": 292866,
+              "textures": 29,
+              "geometries": 22
+            },
+            {
+              "calls": 7,
+              "triangles": 292866,
+              "textures": 29,
+              "geometries": 22
+            },
+            {
+              "calls": 7,
+              "triangles": 292866,
+              "textures": 29,
+              "geometries": 22
+            }
+          ],
+          "physicalStatePreserved": true
+        },
+        {
+          "label": "grazing",
+          "scale": 0.75,
+          "dpr": 2,
+          "capture": false,
+          "metrics": {
+            "previous": {
+              "display": {
+                "mean": 0.03963666666666667,
+                "rmse": 0.21049544729835212,
+                "max": 11,
+                "gradientRmse": 0.25443892521913125
+              },
+              "linear": {
+                "mean": 0.00004948346217473348,
+                "rmse": 0.00020001714996416864,
+                "max": 0.0164794921875,
+                "gradientRmse": 0.0001874666842218494
+              }
+            },
+            "candidate": {
+              "display": {
+                "mean": 0.028182083333333333,
+                "rmse": 0.1703378994821763,
+                "max": 6,
+                "gradientRmse": 0.22503703398922292
+              },
+              "linear": {
+                "mean": 0.0000361906561255455,
+                "rmse": 0.00013681921347171174,
+                "max": 0.01177978515625,
+                "gradientRmse": 0.0001512925320312173
+              }
+            }
+          },
+          "change": {
+            "mean": 0.027727083333333333,
+            "rmse": 0.169325869258067,
+            "max": 7,
+            "gradientRmse": 0.2139022362357782
+          },
+          "repeat": {
+            "mean": 0,
+            "rmse": 0,
+            "max": 0,
+            "gradientRmse": 0
+          },
+          "resources": [
+            {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 29,
+              "geometries": 22
+            },
+            {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 29,
+              "geometries": 22
+            },
+            {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 29,
+              "geometries": 22
+            },
+            {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 29,
+              "geometries": 22
+            }
+          ],
+          "physicalStatePreserved": true
+        },
+        {
+          "label": "resolved-limb",
+          "scale": 1,
+          "dpr": 2,
+          "capture": false,
+          "metrics": {
+            "previous": {
+              "display": {
+                "mean": 0.02717625,
+                "rmse": 0.19217071403659128,
+                "max": 11,
+                "gradientRmse": 0.2638260159018945
+              },
+              "linear": {
+                "mean": 0.0001603109868367513,
+                "rmse": 0.000675373920595749,
+                "max": 0.0537109375,
+                "gradientRmse": 0.0008852911499641785
+              }
+            },
+            "candidate": {
+              "display": {
+                "mean": 0.018416041666666667,
+                "rmse": 0.15543822459957096,
+                "max": 10,
+                "gradientRmse": 0.22440662497647731
+              },
+              "linear": {
+                "mean": 0.00011782768249511719,
+                "rmse": 0.0005211710857947112,
+                "max": 0.04638671875,
+                "gradientRmse": 0.0007609431493488739
+              }
+            }
+          },
+          "change": {
+            "mean": 0.021152708333333332,
+            "rmse": 0.14829798267901917,
+            "max": 4,
+            "gradientRmse": 0.1933724816685835
+          },
+          "repeat": {
+            "mean": 0,
+            "rmse": 0,
+            "max": 0,
+            "gradientRmse": 0
+          },
+          "resources": [
+            {
+              "calls": 7,
+              "triangles": 292866,
+              "textures": 29,
+              "geometries": 22
+            },
+            {
+              "calls": 7,
+              "triangles": 292866,
+              "textures": 29,
+              "geometries": 22
+            },
+            {
+              "calls": 7,
+              "triangles": 292866,
+              "textures": 29,
+              "geometries": 22
+            },
+            {
+              "calls": 7,
+              "triangles": 292866,
+              "textures": 29,
+              "geometries": 22
+            }
+          ],
+          "physicalStatePreserved": true
+        },
+        {
+          "label": "resolved-limb",
+          "scale": 0.75,
+          "dpr": 2,
+          "capture": false,
+          "metrics": {
+            "previous": {
+              "display": {
+                "mean": 0.04028645833333333,
+                "rmse": 0.2530139159545709,
+                "max": 13,
+                "gradientRmse": 0.33596781839932227
+              },
+              "linear": {
+                "mean": 0.0002322808837890625,
+                "rmse": 0.0009848583116029309,
+                "max": 0.060546875,
+                "gradientRmse": 0.0012522919772054721
+              }
+            },
+            "candidate": {
+              "display": {
+                "mean": 0.023008541666666667,
+                "rmse": 0.19561388413572967,
+                "max": 13,
+                "gradientRmse": 0.2819415571828081
+              },
+              "linear": {
+                "mean": 0.000143631960550944,
+                "rmse": 0.0007381548522087228,
+                "max": 0.057861328125,
+                "gradientRmse": 0.0010773584519061577
+              }
+            }
+          },
+          "change": {
+            "mean": 0.030324166666666666,
+            "rmse": 0.18077034233155245,
+            "max": 4,
+            "gradientRmse": 0.2255410162254307
+          },
+          "repeat": {
+            "mean": 0,
+            "rmse": 0,
+            "max": 0,
+            "gradientRmse": 0
+          },
+          "resources": [
+            {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 29,
+              "geometries": 22
+            },
+            {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 29,
+              "geometries": 22
+            },
+            {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 29,
+              "geometries": 22
+            },
+            {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 29,
+              "geometries": 22
+            }
+          ],
+          "physicalStatePreserved": true
+        },
+        {
+          "label": "occlusion",
+          "scale": 1,
+          "dpr": 2,
+          "capture": false,
+          "metrics": {
+            "previous": {
+              "display": {
+                "mean": 1.260729375,
+                "rmse": 4.945046279695806,
+                "max": 117,
+                "gradientRmse": 6.4750892850987
+              },
+              "linear": {
+                "mean": 0.004098408833344777,
+                "rmse": 0.01620841581118465,
+                "max": 0.5047607421875,
+                "gradientRmse": 0.021077957240654
+              }
+            },
+            "candidate": {
+              "display": {
+                "mean": 1.0682135416666667,
+                "rmse": 4.3456847609630715,
+                "max": 113,
+                "gradientRmse": 5.981867253068504
+              },
+              "linear": {
+                "mean": 0.0035251306064923603,
+                "rmse": 0.014446960207464873,
+                "max": 0.499267578125,
+                "gradientRmse": 0.019519292469565398
+              }
+            }
+          },
+          "change": {
+            "mean": 0.34233,
+            "rmse": 1.3586005360909683,
+            "max": 50,
+            "gradientRmse": 1.3934497060652506
+          },
+          "repeat": {
+            "mean": 0,
+            "rmse": 0,
+            "max": 0,
+            "gradientRmse": 0
+          },
+          "resources": [
+            {
+              "calls": 8,
+              "triangles": 586754,
+              "textures": 29,
+              "geometries": 22
+            },
+            {
+              "calls": 8,
+              "triangles": 586754,
+              "textures": 29,
+              "geometries": 22
+            },
+            {
+              "calls": 8,
+              "triangles": 586754,
+              "textures": 29,
+              "geometries": 22
+            },
+            {
+              "calls": 8,
+              "triangles": 586754,
+              "textures": 29,
+              "geometries": 22
+            }
+          ],
+          "physicalStatePreserved": true
+        },
+        {
+          "label": "occlusion",
+          "scale": 0.75,
+          "dpr": 2,
+          "capture": false,
+          "metrics": {
+            "previous": {
+              "display": {
+                "mean": 1.7061475,
+                "rmse": 6.510202089797213,
+                "max": 133,
+                "gradientRmse": 7.822277907787901
+              },
+              "linear": {
+                "mean": 0.005540137815872828,
+                "rmse": 0.0213852917929809,
+                "max": 0.544677734375,
+                "gradientRmse": 0.025518076283763094
+              }
+            },
+            "candidate": {
+              "display": {
+                "mean": 1.53032875,
+                "rmse": 5.985031745947552,
+                "max": 128,
+                "gradientRmse": 7.516651182541332
+              },
+              "linear": {
+                "mean": 0.005042300421794255,
+                "rmse": 0.019902837859461148,
+                "max": 0.620849609375,
+                "gradientRmse": 0.02454593502681931
+              }
+            }
+          },
+          "change": {
+            "mean": 0.3455775,
+            "rmse": 1.3679543730207768,
+            "max": 52,
+            "gradientRmse": 1.186820682889093
+          },
+          "repeat": {
+            "mean": 0,
+            "rmse": 0,
+            "max": 0,
+            "gradientRmse": 0
+          },
+          "resources": [
+            {
+              "calls": 9,
+              "triangles": 659970,
+              "textures": 29,
+              "geometries": 22
+            },
+            {
+              "calls": 9,
+              "triangles": 659970,
+              "textures": 29,
+              "geometries": 22
+            },
+            {
+              "calls": 9,
+              "triangles": 659970,
+              "textures": 29,
+              "geometries": 22
+            },
+            {
+              "calls": 9,
+              "triangles": 659970,
+              "textures": 29,
+              "geometries": 22
+            }
+          ],
+          "physicalStatePreserved": true
+        },
+        {
+          "label": "day",
+          "scale": 1,
+          "dpr": 2,
+          "capture": true,
+          "metrics": {
+            "previous": {
+              "display": {
+                "mean": 0,
+                "rmse": 0,
+                "max": 0,
+                "gradientRmse": 0
+              },
+              "linear": {
+                "mean": 0,
+                "rmse": 0,
+                "max": 0,
+                "gradientRmse": 0
+              }
+            },
+            "candidate": {
+              "display": {
+                "mean": 0,
+                "rmse": 0,
+                "max": 0,
+                "gradientRmse": 0
+              },
+              "linear": {
+                "mean": 0,
+                "rmse": 0,
+                "max": 0,
+                "gradientRmse": 0
+              }
+            }
+          },
+          "change": {
+            "mean": 0,
+            "rmse": 0,
+            "max": 0,
+            "gradientRmse": 0
+          },
+          "repeat": {
+            "mean": 0,
+            "rmse": 0,
+            "max": 0,
+            "gradientRmse": 0
+          },
+          "resources": [
+            {
+              "calls": 7,
+              "triangles": 292866,
+              "textures": 29,
+              "geometries": 22
+            },
+            {
+              "calls": 7,
+              "triangles": 292866,
+              "textures": 29,
+              "geometries": 22
+            },
+            {
+              "calls": 7,
+              "triangles": 292866,
+              "textures": 29,
+              "geometries": 22
+            },
+            {
+              "calls": 7,
+              "triangles": 292866,
+              "textures": 29,
+              "geometries": 22
+            }
+          ],
+          "physicalStatePreserved": true
+        },
+        {
+          "label": "day",
+          "scale": 1,
+          "dpr": 1,
+          "capture": false,
+          "metrics": {
+            "previous": {
+              "display": {
+                "mean": 0,
+                "rmse": 0,
+                "max": 0,
+                "gradientRmse": 0
+              },
+              "linear": {
+                "mean": 0,
+                "rmse": 0,
+                "max": 0,
+                "gradientRmse": 0
+              }
+            },
+            "candidate": {
+              "display": {
+                "mean": 0,
+                "rmse": 0,
+                "max": 0,
+                "gradientRmse": 0
+              },
+              "linear": {
+                "mean": 0,
+                "rmse": 0,
+                "max": 0,
+                "gradientRmse": 0
+              }
+            }
+          },
+          "change": {
+            "mean": 0,
+            "rmse": 0,
+            "max": 0,
+            "gradientRmse": 0
+          },
+          "repeat": {
+            "mean": 0,
+            "rmse": 0,
+            "max": 0,
+            "gradientRmse": 0
+          },
+          "resources": [
+            {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 28,
+              "geometries": 22
+            },
+            {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 28,
+              "geometries": 22
+            },
+            {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 28,
+              "geometries": 22
+            },
+            {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 28,
+              "geometries": 22
+            }
+          ],
+          "physicalStatePreserved": true
+        },
+        {
+          "label": "resolved-limb",
+          "scale": 1,
+          "dpr": 1,
+          "capture": false,
+          "metrics": {
+            "previous": {
+              "display": {
+                "mean": 0,
+                "rmse": 0,
+                "max": 0,
+                "gradientRmse": 0
+              },
+              "linear": {
+                "mean": 0,
+                "rmse": 0,
+                "max": 0,
+                "gradientRmse": 0
+              }
+            },
+            "candidate": {
+              "display": {
+                "mean": 0,
+                "rmse": 0,
+                "max": 0,
+                "gradientRmse": 0
+              },
+              "linear": {
+                "mean": 0,
+                "rmse": 0,
+                "max": 0,
+                "gradientRmse": 0
+              }
+            }
+          },
+          "change": {
+            "mean": 0,
+            "rmse": 0,
+            "max": 0,
+            "gradientRmse": 0
+          },
+          "repeat": {
+            "mean": 0,
+            "rmse": 0,
+            "max": 0,
+            "gradientRmse": 0
+          },
+          "resources": [
+            {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 28,
+              "geometries": 22
+            },
+            {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 28,
+              "geometries": 22
+            },
+            {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 28,
+              "geometries": 22
+            },
+            {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 28,
+              "geometries": 22
+            }
+          ],
+          "physicalStatePreserved": true
+        }
+      ],
+      "errors": []
+    },
+    {
+      "name": "WebKit",
+      "engineVersion": "26.5",
+      "views": [
+        {
+          "label": "day",
+          "scale": 1,
+          "dpr": 2,
+          "capture": false,
+          "metrics": {
+            "previous": {
+              "display": {
+                "mean": 1.7806904166666666,
+                "rmse": 5.826367471818669,
+                "max": 117,
+                "gradientRmse": 7.540239966340594
+              },
+              "linear": {
+                "mean": 0.005568500407536824,
+                "rmse": 0.018498002830265044,
+                "max": 0.5040283203125,
+                "gradientRmse": 0.023802855121996137
+              }
+            },
+            "candidate": {
+              "display": {
+                "mean": 1.499293125,
+                "rmse": 5.1054382565717775,
+                "max": 117,
+                "gradientRmse": 6.948516508339508
+              },
+              "linear": {
+                "mean": 0.004739490172068278,
+                "rmse": 0.016366327603466426,
+                "max": 0.499755859375,
+                "gradientRmse": 0.02195444470920159
+              }
+            }
+          },
+          "change": {
+            "mean": 0.481013125,
+            "rmse": 1.5740401175531284,
+            "max": 50,
+            "gradientRmse": 1.6069046331378847
+          },
+          "repeat": {
+            "mean": 0,
+            "rmse": 0,
+            "max": 0,
+            "gradientRmse": 0
+          },
+          "resources": [
+            {
+              "calls": 7,
+              "triangles": 292866,
+              "textures": 28,
+              "geometries": 22
+            },
+            {
+              "calls": 7,
+              "triangles": 292866,
+              "textures": 28,
+              "geometries": 22
+            },
+            {
+              "calls": 7,
+              "triangles": 292866,
+              "textures": 28,
+              "geometries": 22
+            },
+            {
+              "calls": 7,
+              "triangles": 292866,
+              "textures": 28,
+              "geometries": 22
+            }
+          ],
+          "physicalStatePreserved": true
+        },
+        {
+          "label": "day",
+          "scale": 0.75,
+          "dpr": 2,
+          "capture": false,
+          "metrics": {
+            "previous": {
+              "display": {
+                "mean": 2.422681875,
+                "rmse": 7.696484681874793,
+                "max": 141,
+                "gradientRmse": 9.157827048486993
+              },
+              "linear": {
+                "mean": 0.007569155101776123,
+                "rmse": 0.02449449901066747,
+                "max": 0.5531005859375,
+                "gradientRmse": 0.028944726713090074
+              }
+            },
+            "candidate": {
+              "display": {
+                "mean": 2.165508125,
+                "rmse": 7.067270409547569,
+                "max": 136,
+                "gradientRmse": 8.795051781162709
+              },
+              "linear": {
+                "mean": 0.006836347238222758,
+                "rmse": 0.022674246691323563,
+                "max": 0.620849609375,
+                "gradientRmse": 0.027789978769050303
+              }
+            }
+          },
+          "change": {
+            "mean": 0.48590791666666666,
+            "rmse": 1.5870079289867036,
+            "max": 52,
+            "gradientRmse": 1.3657673362131144
+          },
+          "repeat": {
+            "mean": 0,
+            "rmse": 0,
+            "max": 0,
+            "gradientRmse": 0
+          },
+          "resources": [
+            {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 28,
+              "geometries": 22
+            },
+            {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 28,
+              "geometries": 22
+            },
+            {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 28,
+              "geometries": 22
+            },
+            {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 28,
+              "geometries": 22
+            }
+          ],
+          "physicalStatePreserved": true
+        },
+        {
+          "label": "terminator",
+          "scale": 1,
+          "dpr": 2,
+          "capture": false,
+          "metrics": {
+            "previous": {
+              "display": {
+                "mean": 0.7195483333333333,
+                "rmse": 3.4867956875427426,
+                "max": 119,
+                "gradientRmse": 4.687683729732628
+              },
+              "linear": {
+                "mean": 0.0019799618731439115,
+                "rmse": 0.010528561721921383,
+                "max": 0.49560546875,
+                "gradientRmse": 0.014713029454480522
+              }
+            },
+            "candidate": {
+              "display": {
+                "mean": 0.6134875,
+                "rmse": 3.0813914605796735,
+                "max": 112,
+                "gradientRmse": 4.33868475654393
+              },
+              "linear": {
+                "mean": 0.0017134526420012116,
+                "rmse": 0.009463752720744392,
+                "max": 0.470458984375,
+                "gradientRmse": 0.013640789040951486
+              }
+            }
+          },
+          "change": {
+            "mean": 0.19510958333333334,
+            "rmse": 0.9579357146141558,
+            "max": 42,
+            "gradientRmse": 1.0333517471477625
+          },
+          "repeat": {
+            "mean": 0,
+            "rmse": 0,
+            "max": 0,
+            "gradientRmse": 0
+          },
+          "resources": [
+            {
+              "calls": 7,
+              "triangles": 292866,
+              "textures": 28,
+              "geometries": 22
+            },
+            {
+              "calls": 7,
+              "triangles": 292866,
+              "textures": 28,
+              "geometries": 22
+            },
+            {
+              "calls": 7,
+              "triangles": 292866,
+              "textures": 28,
+              "geometries": 22
+            },
+            {
+              "calls": 7,
+              "triangles": 292866,
+              "textures": 28,
+              "geometries": 22
+            }
+          ],
+          "physicalStatePreserved": true
+        },
+        {
+          "label": "terminator",
+          "scale": 0.75,
+          "dpr": 2,
+          "capture": false,
+          "metrics": {
+            "previous": {
+              "display": {
+                "mean": 0.9836714583333334,
+                "rmse": 4.630711135991966,
+                "max": 134,
+                "gradientRmse": 5.7164289916578745
+              },
+              "linear": {
+                "mean": 0.0027155314399302005,
+                "rmse": 0.014074551866825711,
+                "max": 0.5814208984375,
+                "gradientRmse": 0.018082995218842993
+              }
+            },
+            "candidate": {
+              "display": {
+                "mean": 0.8879035416666666,
+                "rmse": 4.280458576484534,
+                "max": 133,
+                "gradientRmse": 5.500890117365856
+              },
+              "linear": {
+                "mean": 0.002489495750963688,
+                "rmse": 0.013251168808079736,
+                "max": 0.5740966796875,
+                "gradientRmse": 0.01741918603751786
+              }
+            }
+          },
+          "change": {
+            "mean": 0.19774208333333335,
+            "rmse": 0.9729855257573636,
+            "max": 51,
+            "gradientRmse": 0.8966100508768198
+          },
+          "repeat": {
+            "mean": 0,
+            "rmse": 0,
+            "max": 0,
+            "gradientRmse": 0
+          },
+          "resources": [
+            {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 28,
+              "geometries": 22
+            },
+            {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 28,
+              "geometries": 22
+            },
+            {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 28,
+              "geometries": 22
+            },
+            {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 28,
+              "geometries": 22
+            }
+          ],
+          "physicalStatePreserved": true
+        },
+        {
+          "label": "crescent",
+          "scale": 1,
+          "dpr": 2,
+          "capture": false,
+          "metrics": {
+            "previous": {
+              "display": {
+                "mean": 0.007074375,
+                "rmse": 0.402016013362652,
+                "max": 137,
+                "gradientRmse": 0.601410148456664
+              },
+              "linear": {
+                "mean": 0.00001961462630579869,
+                "rmse": 0.0016150630487783055,
+                "max": 0.6671142578125,
+                "gradientRmse": 0.002432112395425237
+              }
+            },
+            "candidate": {
+              "display": {
+                "mean": 0.0069635416666666665,
+                "rmse": 0.4016515384426323,
+                "max": 137,
+                "gradientRmse": 0.6025688065828388
+              },
+              "linear": {
+                "mean": 0.00001948120114703973,
+                "rmse": 0.0016149536100544969,
+                "max": 0.6671142578125,
+                "gradientRmse": 0.0024327862688006486
+              }
+            }
+          },
+          "change": {
+            "mean": 0.00020333333333333333,
+            "rmse": 0.016795336654361333,
+            "max": 4,
+            "gradientRmse": 0.01760681686165901
+          },
+          "repeat": {
+            "mean": 0,
+            "rmse": 0,
+            "max": 0,
+            "gradientRmse": 0
+          },
+          "resources": [
+            {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 28,
+              "geometries": 22
+            },
+            {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 28,
+              "geometries": 22
+            },
+            {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 28,
+              "geometries": 22
+            },
+            {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 28,
+              "geometries": 22
+            }
+          ],
+          "physicalStatePreserved": true
+        },
+        {
+          "label": "crescent",
+          "scale": 0.75,
+          "dpr": 2,
+          "capture": false,
+          "metrics": {
+            "previous": {
+              "display": {
+                "mean": 0.009701041666666667,
+                "rmse": 0.531554128632886,
+                "max": 147,
+                "gradientRmse": 0.7302065917715799
+              },
+              "linear": {
+                "mean": 0.00002728268566230933,
+                "rmse": 0.0022082379727434514,
+                "max": 0.7774658203125,
+                "gradientRmse": 0.0030137689166355197
+              }
+            },
+            "candidate": {
+              "display": {
+                "mean": 0.00961375,
+                "rmse": 0.5312591175688188,
+                "max": 147,
+                "gradientRmse": 0.7300830432217968
+              },
+              "linear": {
+                "mean": 0.000027208754693468412,
+                "rmse": 0.0022082021781348695,
+                "max": 0.7774658203125,
+                "gradientRmse": 0.003013760140287672
+              }
+            }
+          },
+          "change": {
+            "mean": 0.000129375,
+            "rmse": 0.012723010649999473,
+            "max": 3,
+            "gradientRmse": 0.01457737973711325
+          },
+          "repeat": {
+            "mean": 0,
+            "rmse": 0,
+            "max": 0,
+            "gradientRmse": 0
+          },
+          "resources": [
+            {
+              "calls": 9,
+              "triangles": 439298,
+              "textures": 28,
+              "geometries": 22
+            },
+            {
+              "calls": 9,
+              "triangles": 439298,
+              "textures": 28,
+              "geometries": 22
+            },
+            {
+              "calls": 9,
+              "triangles": 439298,
+              "textures": 28,
+              "geometries": 22
+            },
+            {
+              "calls": 9,
+              "triangles": 439298,
+              "textures": 28,
+              "geometries": 22
+            }
+          ],
+          "physicalStatePreserved": true
+        },
+        {
+          "label": "night",
+          "scale": 1,
+          "dpr": 2,
+          "capture": false,
+          "metrics": {
+            "previous": {
+              "display": {
+                "mean": 0.00009354166666666667,
+                "rmse": 0.009693210682396898,
+                "max": 2,
+                "gradientRmse": 0.012861441080480315
+              },
+              "linear": {
+                "mean": 9.966733554999034e-8,
+                "rmse": 0.0000011916367172083854,
+                "max": 0.0016632080078125,
+                "gradientRmse": 0.0000015829343353425078
+              }
+            },
+            "candidate": {
+              "display": {
+                "mean": 0.00007395833333333333,
+                "rmse": 0.008624094155330171,
+                "max": 2,
+                "gradientRmse": 0.011761519176251567
+              },
+              "linear": {
+                "mean": 8.230545868476232e-8,
+                "rmse": 0.0000010968233897512185,
+                "max": 0.0016632080078125,
+                "gradientRmse": 0.0000015062537279032595
+              }
+            }
+          },
+          "change": {
+            "mean": 0.000029166666666666666,
+            "rmse": 0.0054006172486732165,
+            "max": 1,
+            "gradientRmse": 0.007472170590486631
+          },
+          "repeat": {
+            "mean": 0,
+            "rmse": 0,
+            "max": 0,
+            "gradientRmse": 0
+          },
+          "resources": [
+            {
+              "calls": 11,
+              "triangles": 445570,
+              "textures": 29,
+              "geometries": 22
+            },
+            {
+              "calls": 11,
+              "triangles": 445570,
+              "textures": 29,
+              "geometries": 22
+            },
+            {
+              "calls": 11,
+              "triangles": 445570,
+              "textures": 29,
+              "geometries": 22
+            },
+            {
+              "calls": 11,
+              "triangles": 445570,
+              "textures": 29,
+              "geometries": 22
+            }
+          ],
+          "physicalStatePreserved": true
+        },
+        {
+          "label": "night",
+          "scale": 0.75,
+          "dpr": 2,
+          "capture": false,
+          "metrics": {
+            "previous": {
+              "display": {
+                "mean": 0.00014145833333333333,
+                "rmse": 0.013911925340033517,
+                "max": 15,
+                "gradientRmse": 0.018393839548428527
+              },
+              "linear": {
+                "mean": 1.396931086977323e-7,
+                "rmse": 0.000004125081383986732,
+                "max": 0.00833892822265625,
+                "gradientRmse": 0.000005745741083278603
+              }
+            },
+            "candidate": {
+              "display": {
+                "mean": 0.00011916666666666667,
+                "rmse": 0.0130862523283024,
+                "max": 15,
+                "gradientRmse": 0.017594980344783944
+              },
+              "linear": {
+                "mean": 1.237821951508522e-7,
+                "rmse": 0.000004091833279534878,
+                "max": 0.00833892822265625,
+                "gradientRmse": 0.000005729265537514484
+              }
+            }
+          },
+          "change": {
+            "mean": 0.00003270833333333333,
+            "rmse": 0.005719119978924496,
+            "max": 1,
+            "gradientRmse": 0.007905694150420948
+          },
+          "repeat": {
+            "mean": 0,
+            "rmse": 0,
+            "max": 0,
+            "gradientRmse": 0
+          },
+          "resources": [
+            {
+              "calls": 12,
+              "triangles": 518786,
+              "textures": 29,
+              "geometries": 22
+            },
+            {
+              "calls": 12,
+              "triangles": 518786,
+              "textures": 29,
+              "geometries": 22
+            },
+            {
+              "calls": 12,
+              "triangles": 518786,
+              "textures": 29,
+              "geometries": 22
+            },
+            {
+              "calls": 12,
+              "triangles": 518786,
+              "textures": 29,
+              "geometries": 22
+            }
+          ],
+          "physicalStatePreserved": true
+        },
+        {
+          "label": "close",
+          "scale": 1,
+          "dpr": 2,
+          "capture": false,
+          "metrics": {
+            "previous": {
+              "display": {
+                "mean": 0.08036916666666667,
+                "rmse": 0.3126946060722293,
+                "max": 10,
+                "gradientRmse": 0.3527251054291429
+              },
+              "linear": {
+                "mean": 0.0002125274960199992,
+                "rmse": 0.0006874978982398587,
+                "max": 0.03369140625,
+                "gradientRmse": 0.0006025784629813602
+              }
+            },
+            "candidate": {
+              "display": {
+                "mean": 0.049963541666666667,
+                "rmse": 0.22968139164213253,
+                "max": 5,
+                "gradientRmse": 0.3058301543885647
+              },
+              "linear": {
+                "mean": 0.0001370641009012858,
+                "rmse": 0.00042650520293871904,
+                "max": 0.019287109375,
+                "gradientRmse": 0.0005024212737262238
+              }
+            }
+          },
+          "change": {
+            "mean": 0.068831875,
+            "rmse": 0.26816389578017397,
+            "max": 6,
+            "gradientRmse": 0.31337477562816063
+          },
+          "repeat": {
+            "mean": 0,
+            "rmse": 0,
+            "max": 0,
+            "gradientRmse": 0
+          },
+          "resources": [
+            {
+              "calls": 7,
+              "triangles": 292866,
+              "textures": 29,
+              "geometries": 22
+            },
+            {
+              "calls": 7,
+              "triangles": 292866,
+              "textures": 29,
+              "geometries": 22
+            },
+            {
+              "calls": 7,
+              "triangles": 292866,
+              "textures": 29,
+              "geometries": 22
+            },
+            {
+              "calls": 7,
+              "triangles": 292866,
+              "textures": 29,
+              "geometries": 22
+            }
+          ],
+          "physicalStatePreserved": true
+        },
+        {
+          "label": "close",
+          "scale": 0.75,
+          "dpr": 2,
+          "capture": false,
+          "metrics": {
+            "previous": {
+              "display": {
+                "mean": 0.138276875,
+                "rmse": 0.46123949852544066,
+                "max": 19,
+                "gradientRmse": 0.46436336347017443
+              },
+              "linear": {
+                "mean": 0.00036895765463511147,
+                "rmse": 0.001148990563081093,
+                "max": 0.046875,
+                "gradientRmse": 0.0009475998217775936
+              }
+            },
+            "candidate": {
+              "display": {
+                "mean": 0.08739,
+                "rmse": 0.32233005858384767,
+                "max": 9,
+                "gradientRmse": 0.39697239618559543
+              },
+              "linear": {
+                "mean": 0.00024152483781178792,
+                "rmse": 0.000723341024007979,
+                "max": 0.03271484375,
+                "gradientRmse": 0.0007653449154884081
+              }
+            }
+          },
+          "change": {
+            "mean": 0.11201854166666667,
+            "rmse": 0.35704078898635655,
+            "max": 11,
+            "gradientRmse": 0.3793393379723929
+          },
+          "repeat": {
+            "mean": 0,
+            "rmse": 0,
+            "max": 0,
+            "gradientRmse": 0
+          },
+          "resources": [
+            {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 29,
+              "geometries": 22
+            },
+            {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 29,
+              "geometries": 22
+            },
+            {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 29,
+              "geometries": 22
+            },
+            {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 29,
+              "geometries": 22
+            }
+          ],
+          "physicalStatePreserved": true
+        },
+        {
+          "label": "grazing",
+          "scale": 1,
+          "dpr": 2,
+          "capture": false,
+          "metrics": {
+            "previous": {
+              "display": {
+                "mean": 0.024899791666666667,
+                "rmse": 0.16095483320898857,
+                "max": 7,
+                "gradientRmse": 0.2074558185895654
+              },
+              "linear": {
+                "mean": 0.00003106944620609284,
+                "rmse": 0.00012403574879219862,
+                "max": 0.0091552734375,
+                "gradientRmse": 0.00012232682950453916
+              }
+            },
+            "candidate": {
+              "display": {
+                "mean": 0.018365208333333334,
+                "rmse": 0.1359878977458411,
+                "max": 4,
+                "gradientRmse": 0.18566546977471785
+              },
+              "linear": {
+                "mean": 0.000023294555246829987,
+                "rmse": 0.00008546408055400872,
+                "max": 0.005615234375,
+                "gradientRmse": 0.0000997869603581564
+              }
+            }
+          },
+          "change": {
+            "mean": 0.01811625,
+            "rmse": 0.13540525592949978,
+            "max": 5,
+            "gradientRmse": 0.1779840816852264
+          },
+          "repeat": {
+            "mean": 0,
+            "rmse": 0,
+            "max": 0,
+            "gradientRmse": 0
+          },
+          "resources": [
+            {
+              "calls": 7,
+              "triangles": 292866,
+              "textures": 29,
+              "geometries": 22
+            },
+            {
+              "calls": 7,
+              "triangles": 292866,
+              "textures": 29,
+              "geometries": 22
+            },
+            {
+              "calls": 7,
+              "triangles": 292866,
+              "textures": 29,
+              "geometries": 22
+            },
+            {
+              "calls": 7,
+              "triangles": 292866,
+              "textures": 29,
+              "geometries": 22
+            }
+          ],
+          "physicalStatePreserved": true
+        },
+        {
+          "label": "grazing",
+          "scale": 0.75,
+          "dpr": 2,
+          "capture": false,
+          "metrics": {
+            "previous": {
+              "display": {
+                "mean": 0.03957395833333333,
+                "rmse": 0.21035931561655802,
+                "max": 11,
+                "gradientRmse": 0.2541472670192094
+              },
+              "linear": {
+                "mean": 0.00004945490638415019,
+                "rmse": 0.00019995520876969042,
+                "max": 0.0164794921875,
+                "gradientRmse": 0.00018744606843991115
+              }
+            },
+            "candidate": {
+              "display": {
+                "mean": 0.028117291666666665,
+                "rmse": 0.17013781178797382,
+                "max": 6,
+                "gradientRmse": 0.2247785947697571
+              },
+              "linear": {
+                "mean": 0.0000361296671628952,
+                "rmse": 0.00013672060610532297,
+                "max": 0.01171875,
+                "gradientRmse": 0.0001512610191810946
+              }
+            }
+          },
+          "change": {
+            "mean": 0.027732916666666666,
+            "rmse": 0.16937384685954324,
+            "max": 7,
+            "gradientRmse": 0.21393437467285772
+          },
+          "repeat": {
+            "mean": 0,
+            "rmse": 0,
+            "max": 0,
+            "gradientRmse": 0
+          },
+          "resources": [
+            {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 29,
+              "geometries": 22
+            },
+            {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 29,
+              "geometries": 22
+            },
+            {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 29,
+              "geometries": 22
+            },
+            {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 29,
+              "geometries": 22
+            }
+          ],
+          "physicalStatePreserved": true
+        },
+        {
+          "label": "resolved-limb",
+          "scale": 1,
+          "dpr": 2,
+          "capture": false,
+          "metrics": {
+            "previous": {
+              "display": {
+                "mean": 0.027251041666666666,
+                "rmse": 0.1924583288229775,
+                "max": 11,
+                "gradientRmse": 0.26408410907638247
+              },
+              "linear": {
+                "mean": 0.00016020992279052734,
+                "rmse": 0.0006759609483528239,
+                "max": 0.05322265625,
+                "gradientRmse": 0.0008859131957097776
+              }
+            },
+            "candidate": {
+              "display": {
+                "mean": 0.018462291666666665,
+                "rmse": 0.15561772071329152,
+                "max": 10,
+                "gradientRmse": 0.22472575879650883
+              },
+              "linear": {
+                "mean": 0.00011779335021972657,
+                "rmse": 0.0005216510190338126,
+                "max": 0.04638671875,
+                "gradientRmse": 0.0007615332367361049
+              }
+            }
+          },
+          "change": {
+            "mean": 0.021181666666666668,
+            "rmse": 0.148387162517517,
+            "max": 4,
+            "gradientRmse": 0.19364809147867515
+          },
+          "repeat": {
+            "mean": 0,
+            "rmse": 0,
+            "max": 0,
+            "gradientRmse": 0
+          },
+          "resources": [
+            {
+              "calls": 7,
+              "triangles": 292866,
+              "textures": 29,
+              "geometries": 22
+            },
+            {
+              "calls": 7,
+              "triangles": 292866,
+              "textures": 29,
+              "geometries": 22
+            },
+            {
+              "calls": 7,
+              "triangles": 292866,
+              "textures": 29,
+              "geometries": 22
+            },
+            {
+              "calls": 7,
+              "triangles": 292866,
+              "textures": 29,
+              "geometries": 22
+            }
+          ],
+          "physicalStatePreserved": true
+        },
+        {
+          "label": "resolved-limb",
+          "scale": 0.75,
+          "dpr": 2,
+          "capture": false,
+          "metrics": {
+            "previous": {
+              "display": {
+                "mean": 0.04028895833333333,
+                "rmse": 0.2531456267315976,
+                "max": 13,
+                "gradientRmse": 0.33569889782363005
+              },
+              "linear": {
+                "mean": 0.0002320840326944987,
+                "rmse": 0.0009844144493636252,
+                "max": 0.060546875,
+                "gradientRmse": 0.0012515872660280813
+              }
+            },
+            "candidate": {
+              "display": {
+                "mean": 0.022998125,
+                "rmse": 0.1955318601490134,
+                "max": 13,
+                "gradientRmse": 0.2817209020762689
+              },
+              "linear": {
+                "mean": 0.0001433570098876953,
+                "rmse": 0.0007371604075115337,
+                "max": 0.057373046875,
+                "gradientRmse": 0.001076206195189429
+              }
+            }
+          },
+          "change": {
+            "mean": 0.030302916666666666,
+            "rmse": 0.1807380701457222,
+            "max": 4,
+            "gradientRmse": 0.22542367518371564
+          },
+          "repeat": {
+            "mean": 0,
+            "rmse": 0,
+            "max": 0,
+            "gradientRmse": 0
+          },
+          "resources": [
+            {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 29,
+              "geometries": 22
+            },
+            {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 29,
+              "geometries": 22
+            },
+            {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 29,
+              "geometries": 22
+            },
+            {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 29,
+              "geometries": 22
+            }
+          ],
+          "physicalStatePreserved": true
+        },
+        {
+          "label": "occlusion",
+          "scale": 1,
+          "dpr": 2,
+          "capture": false,
+          "metrics": {
+            "previous": {
+              "display": {
+                "mean": 1.2607454166666667,
+                "rmse": 4.947249025131711,
+                "max": 117,
+                "gradientRmse": 6.477964990385998
+              },
+              "linear": {
+                "mean": 0.004099297726949056,
+                "rmse": 0.01621138190701517,
+                "max": 0.5040283203125,
+                "gradientRmse": 0.02108228176903501
+              }
+            },
+            "candidate": {
+              "display": {
+                "mean": 1.0683016666666667,
+                "rmse": 4.34765731936944,
+                "max": 113,
+                "gradientRmse": 5.984630244774247
+              },
+              "linear": {
+                "mean": 0.0035259380674362182,
+                "rmse": 0.014449577564042628,
+                "max": 0.499755859375,
+                "gradientRmse": 0.019523367121251353
+              }
+            }
+          },
+          "change": {
+            "mean": 0.3422625,
+            "rmse": 1.3589786299521662,
+            "max": 50,
+            "gradientRmse": 1.393540903597738
+          },
+          "repeat": {
+            "mean": 0,
+            "rmse": 0,
+            "max": 0,
+            "gradientRmse": 0
+          },
+          "resources": [
+            {
+              "calls": 8,
+              "triangles": 586754,
+              "textures": 29,
+              "geometries": 22
+            },
+            {
+              "calls": 8,
+              "triangles": 586754,
+              "textures": 29,
+              "geometries": 22
+            },
+            {
+              "calls": 8,
+              "triangles": 586754,
+              "textures": 29,
+              "geometries": 22
+            },
+            {
+              "calls": 8,
+              "triangles": 586754,
+              "textures": 29,
+              "geometries": 22
+            }
+          ],
+          "physicalStatePreserved": true
+        },
+        {
+          "label": "occlusion",
+          "scale": 0.75,
+          "dpr": 2,
+          "capture": false,
+          "metrics": {
+            "previous": {
+              "display": {
+                "mean": 1.7061541666666666,
+                "rmse": 6.513119068464817,
+                "max": 134,
+                "gradientRmse": 7.826037338057279
+              },
+              "linear": {
+                "mean": 0.005541360408465068,
+                "rmse": 0.021389186831526623,
+                "max": 0.544677734375,
+                "gradientRmse": 0.025523106672187556
+              }
+            },
+            "candidate": {
+              "display": {
+                "mean": 1.5303777083333334,
+                "rmse": 5.987673918838043,
+                "max": 129,
+                "gradientRmse": 7.520013408675989
+              },
+              "linear": {
+                "mean": 0.0050433962408701575,
+                "rmse": 0.019906385973349896,
+                "max": 0.620849609375,
+                "gradientRmse": 0.024550804187715176
+              }
+            }
+          },
+          "change": {
+            "mean": 0.345544375,
+            "rmse": 1.3683529484992776,
+            "max": 52,
+            "gradientRmse": 1.187467367972695
+          },
+          "repeat": {
+            "mean": 0,
+            "rmse": 0,
+            "max": 0,
+            "gradientRmse": 0
+          },
+          "resources": [
+            {
+              "calls": 9,
+              "triangles": 659970,
+              "textures": 29,
+              "geometries": 22
+            },
+            {
+              "calls": 9,
+              "triangles": 659970,
+              "textures": 29,
+              "geometries": 22
+            },
+            {
+              "calls": 9,
+              "triangles": 659970,
+              "textures": 29,
+              "geometries": 22
+            },
+            {
+              "calls": 9,
+              "triangles": 659970,
+              "textures": 29,
+              "geometries": 22
+            }
+          ],
+          "physicalStatePreserved": true
+        },
+        {
+          "label": "day",
+          "scale": 1,
+          "dpr": 2,
+          "capture": true,
+          "metrics": {
+            "previous": {
+              "display": {
+                "mean": 0,
+                "rmse": 0,
+                "max": 0,
+                "gradientRmse": 0
+              },
+              "linear": {
+                "mean": 0,
+                "rmse": 0,
+                "max": 0,
+                "gradientRmse": 0
+              }
+            },
+            "candidate": {
+              "display": {
+                "mean": 0,
+                "rmse": 0,
+                "max": 0,
+                "gradientRmse": 0
+              },
+              "linear": {
+                "mean": 0,
+                "rmse": 0,
+                "max": 0,
+                "gradientRmse": 0
+              }
+            }
+          },
+          "change": {
+            "mean": 0,
+            "rmse": 0,
+            "max": 0,
+            "gradientRmse": 0
+          },
+          "repeat": {
+            "mean": 0,
+            "rmse": 0,
+            "max": 0,
+            "gradientRmse": 0
+          },
+          "resources": [
+            {
+              "calls": 7,
+              "triangles": 292866,
+              "textures": 29,
+              "geometries": 22
+            },
+            {
+              "calls": 7,
+              "triangles": 292866,
+              "textures": 29,
+              "geometries": 22
+            },
+            {
+              "calls": 7,
+              "triangles": 292866,
+              "textures": 29,
+              "geometries": 22
+            },
+            {
+              "calls": 7,
+              "triangles": 292866,
+              "textures": 29,
+              "geometries": 22
+            }
+          ],
+          "physicalStatePreserved": true
+        },
+        {
+          "label": "day",
+          "scale": 1,
+          "dpr": 1,
+          "capture": false,
+          "metrics": {
+            "previous": {
+              "display": {
+                "mean": 0,
+                "rmse": 0,
+                "max": 0,
+                "gradientRmse": 0
+              },
+              "linear": {
+                "mean": 0,
+                "rmse": 0,
+                "max": 0,
+                "gradientRmse": 0
+              }
+            },
+            "candidate": {
+              "display": {
+                "mean": 0,
+                "rmse": 0,
+                "max": 0,
+                "gradientRmse": 0
+              },
+              "linear": {
+                "mean": 0,
+                "rmse": 0,
+                "max": 0,
+                "gradientRmse": 0
+              }
+            }
+          },
+          "change": {
+            "mean": 0,
+            "rmse": 0,
+            "max": 0,
+            "gradientRmse": 0
+          },
+          "repeat": {
+            "mean": 0,
+            "rmse": 0,
+            "max": 0,
+            "gradientRmse": 0
+          },
+          "resources": [
+            {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 28,
+              "geometries": 22
+            },
+            {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 28,
+              "geometries": 22
+            },
+            {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 28,
+              "geometries": 22
+            },
+            {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 28,
+              "geometries": 22
+            }
+          ],
+          "physicalStatePreserved": true
+        },
+        {
+          "label": "resolved-limb",
+          "scale": 1,
+          "dpr": 1,
+          "capture": false,
+          "metrics": {
+            "previous": {
+              "display": {
+                "mean": 0,
+                "rmse": 0,
+                "max": 0,
+                "gradientRmse": 0
+              },
+              "linear": {
+                "mean": 0,
+                "rmse": 0,
+                "max": 0,
+                "gradientRmse": 0
+              }
+            },
+            "candidate": {
+              "display": {
+                "mean": 0,
+                "rmse": 0,
+                "max": 0,
+                "gradientRmse": 0
+              },
+              "linear": {
+                "mean": 0,
+                "rmse": 0,
+                "max": 0,
+                "gradientRmse": 0
+              }
+            }
+          },
+          "change": {
+            "mean": 0,
+            "rmse": 0,
+            "max": 0,
+            "gradientRmse": 0
+          },
+          "repeat": {
+            "mean": 0,
+            "rmse": 0,
+            "max": 0,
+            "gradientRmse": 0
+          },
+          "resources": [
+            {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 28,
+              "geometries": 22
+            },
+            {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 28,
+              "geometries": 22
+            },
+            {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 28,
+              "geometries": 22
+            },
+            {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 28,
+              "geometries": 22
+            }
+          ],
+          "physicalStatePreserved": true
+        }
+      ],
+      "errors": []
+    }
+  ]
+}

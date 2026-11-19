@@ -1,0 +1,185 @@
+{
+  "records": [
+    {
+      "name": "Earth",
+      "view": "probe",
+      "ratio": 1.5,
+      "seconds": 6.0097000000000005,
+      "frames": 361,
+      "meanCpuFrame": 0.45595567890151384,
+      "p95Frame": 16.700000000000728,
+      "gpuTimerAvailable": true,
+      "stages": {
+        "stars": {
+          "calls": 361,
+          "cpuMsPerFrame": 0.08227146868890672,
+          "gpuSamples": 360,
+          "gpuMsPerFrame": 0.6723302963988916
+        },
+        "world": {
+          "calls": 361,
+          "cpuMsPerFrame": 0.08808864285741157,
+          "gpuSamples": 360,
+          "gpuMsPerFrame": 5.3086026814404415
+        },
+        "cloud volume": {
+          "calls": 361,
+          "cpuMsPerFrame": 0.02631578947368421,
+          "gpuSamples": 360,
+          "gpuMsPerFrame": 9.071842315789477
+        },
+        "cloud + atmosphere": {
+          "calls": 361,
+          "cpuMsPerFrame": 0.04044321286711336,
+          "gpuSamples": 360,
+          "gpuMsPerFrame": 11.149593238227135
+        },
+        "frame resolve": {
+          "calls": 361,
+          "cpuMsPerFrame": 0.030747922916491605,
+          "gpuSamples": 359,
+          "gpuMsPerFrame": 11.698986479224383
+        }
+      }
+    },
+    {
+      "name": "Earth",
+      "view": "chase",
+      "ratio": 1.5,
+      "seconds": 6.00480000001788,
+      "frames": 361,
+      "meanCpuFrame": 0.9540166197721317,
+      "p95Frame": 16.700000000000728,
+      "gpuTimerAvailable": true,
+      "stages": {
+        "stars": {
+          "calls": 361,
+          "cpuMsPerFrame": 0.10941828147526263,
+          "gpuSamples": 360,
+          "gpuMsPerFrame": 0.5479332160664819
+        },
+        "world": {
+          "calls": 361,
+          "cpuMsPerFrame": 0.11246537402726277,
+          "gpuSamples": 360,
+          "gpuMsPerFrame": 3.696461074792246
+        },
+        "cloud volume": {
+          "calls": 361,
+          "cpuMsPerFrame": 0.04459833801618243,
+          "gpuSamples": 360,
+          "gpuMsPerFrame": 8.567997783933517
+        },
+        "cloud + atmosphere": {
+          "calls": 361,
+          "cpuMsPerFrame": 0.05650969514225989,
+          "gpuSamples": 360,
+          "gpuMsPerFrame": 10.480556529085876
+        },
+        "spacecraft": {
+          "calls": 361,
+          "cpuMsPerFrame": 0.3243767324411968,
+          "gpuSamples": 360,
+          "gpuMsPerFrame": 7.410866299168974
+        },
+        "frame resolve": {
+          "calls": 361,
+          "cpuMsPerFrame": 0.03518005503842045,
+          "gpuSamples": 360,
+          "gpuMsPerFrame": 1.0890358531855957
+        },
+        "environment": {
+          "calls": 48,
+          "cpuMsPerFrame": 0.011634349162558769,
+          "gpuSamples": 48,
+          "gpuMsPerFrame": 0.0402487811634349
+        },
+        "environment filter": {
+          "calls": 136,
+          "cpuMsPerFrame": 0.009972299317573907,
+          "gpuSamples": 136,
+          "gpuMsPerFrame": 0.040904504155124644
+        }
+      }
+    },
+    {
+      "name": "Titan",
+      "view": "probe",
+      "ratio": 2,
+      "seconds": 6.0137000000238405,
+      "frames": 361,
+      "meanCpuFrame": 0.5684210530938865,
+      "p95Frame": 16.799999999999272,
+      "gpuTimerAvailable": true,
+      "stages": {
+        "stars": {
+          "calls": 361,
+          "cpuMsPerFrame": 0.106094182610842,
+          "gpuSamples": 360,
+          "gpuMsPerFrame": 0.8615407119113574
+        },
+        "world": {
+          "calls": 361,
+          "cpuMsPerFrame": 0.26675900329843455,
+          "gpuSamples": 360,
+          "gpuMsPerFrame": 9.852785975069251
+        },
+        "frame resolve": {
+          "calls": 361,
+          "cpuMsPerFrame": 0.029362881117580338,
+          "gpuSamples": 360,
+          "gpuMsPerFrame": 10.443706457063714
+        }
+      }
+    },
+    {
+      "name": "Titan",
+      "view": "chase",
+      "ratio": 2,
+      "seconds": 6.002700000017882,
+      "frames": 361,
+      "meanCpuFrame": 0.8443213296729112,
+      "p95Frame": 16.700000000004366,
+      "gpuTimerAvailable": true,
+      "stages": {
+        "stars": {
+          "calls": 361,
+          "cpuMsPerFrame": 0.09639889208233587,
+          "gpuSamples": 360,
+          "gpuMsPerFrame": 0.8939909418282558
+        },
+        "world": {
+          "calls": 361,
+          "cpuMsPerFrame": 0.2390581715305096,
+          "gpuSamples": 360,
+          "gpuMsPerFrame": 9.328735299168976
+        },
+        "spacecraft": {
+          "calls": 361,
+          "cpuMsPerFrame": 0.2858725749059397,
+          "gpuSamples": 360,
+          "gpuMsPerFrame": 9.345068421052629
+        },
+        "frame resolve": {
+          "calls": 361,
+          "cpuMsPerFrame": 0.04210526328998259,
+          "gpuSamples": 360,
+          "gpuMsPerFrame": 1.6597679806094168
+        },
+        "environment": {
+          "calls": 42,
+          "cpuMsPerFrame": 0.006925207673677778,
+          "gpuSamples": 42,
+          "gpuMsPerFrame": 0.031159229916897513
+        },
+        "environment filter": {
+          "calls": 119,
+          "cpuMsPerFrame": 0.010526316070160377,
+          "gpuSamples": 119,
+          "gpuMsPerFrame": 0.021230454293628808
+        }
+      }
+    }
+  ],
+  "errors": []
+}

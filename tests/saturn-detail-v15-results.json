@@ -1,0 +1,14 @@
+{
+  "version": "0.15.0",
+  "views": [
+    "arrival",
+    "south"
+  ],
+  "maps": [
+    "v14 baseline",
+    "v15 current"
+  ],
+  "baseSha256": "a3267e9729b80a24d98144a81c46716f8b883b315e6a5dcb2b8311cebf250527",
+  "currentSha256": "9b230075ad122ecfc4f28dd5e20afeda9042034812bcb773ba37d99ce7c4fd64",
+  "errors": []
+}

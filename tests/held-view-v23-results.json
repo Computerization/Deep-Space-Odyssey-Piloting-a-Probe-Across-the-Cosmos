@@ -1,0 +1,50 @@
+{
+  "version": "0.23.0",
+  "outcomes": [
+    {
+      "name": "Chrome",
+      "engineVersion": "158.0.8127.37",
+      "heldViewDraws": 0,
+      "heldFramesProcessed": 37,
+      "identicalHeldPixels": true,
+      "turnResponseFrames": 1,
+      "chaseSettles": true,
+      "pendingReflectionsFinishBeforeCaching": true,
+      "lensExposureAndResizeRefresh": true,
+      "scienceAndMusicContinue": true,
+      "coastingKeepsRendering": true,
+      "errors": [],
+      "passed": true
+    },
+    {
+      "name": "Firefox",
+      "engineVersion": "153.0",
+      "heldViewDraws": 0,
+      "heldFramesProcessed": 75,
+      "identicalHeldPixels": true,
+      "turnResponseFrames": 1,
+      "chaseSettles": true,
+      "pendingReflectionsFinishBeforeCaching": true,
+      "lensExposureAndResizeRefresh": true,
+      "scienceAndMusicContinue": true,
+      "coastingKeepsRendering": true,
+      "errors": [],
+      "passed": true
+    },
+    {
+      "name": "WebKit",
+      "engineVersion": "26.5",
+      "heldViewDraws": 0,
+      "heldFramesProcessed": 38,
+      "identicalHeldPixels": true,
+      "turnResponseFrames": 1,
+      "chaseSettles": true,
+      "pendingReflectionsFinishBeforeCaching": true,
+      "lensExposureAndResizeRefresh": true,
+      "scienceAndMusicContinue": true,
+      "coastingKeepsRendering": true,
+      "errors": [],
+      "passed": true
+    }
+  ]
+}

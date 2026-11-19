@@ -1,0 +1,12 @@
+{
+  "journal": {
+    "photos": 6,
+    "visiblePhotos": 2,
+    "buttons": 19,
+    "scrollHeight": 3302
+  },
+  "guide": {
+    "text": "Keyboard & mouseThrustW / SMove sideways / verticallyA D / R FTurnDrag / arrowsRollQ / EHold timeSpaceTime flowT / [Take photographPRecord suggested viewHold XLensScrollCamera / free lookC / VXboxThrustTriggersTranslateLeft stickTurnRight stickRollBumpersHold timeBTime flowX / D-pad ↑ ↓Take photographLeft-stick clickRecord suggested viewHold ALensD-pad ← →Camera / free lookY / right-stick clickRelease thrust to coast. Turning changes your view; small thrust corrections change your path. Time flow advances gravity, thrust and travel together.Flight review revisits earlier moments of this pass. The exploration boundary holds time and preserves your velocity.H hides the interface. G hides bearings. Z enables fine control. M / Xbox View opens Voyage; Escape / Menu pauses.",
+    "scrollHeight": 940
+  }
+}

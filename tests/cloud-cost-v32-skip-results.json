@@ -1,0 +1,118 @@
+{
+  "method": "ABBA full-frame GPU queries, 20 warmup and 60 measured renders per window; fixed ultra 1280 x 800, no frame cache or adaptive resolution.",
+  "samples": [
+    {
+      "label": "day",
+      "mode": "previous",
+      "gpuSamples": 60,
+      "gpuMedianMs": 14.218583,
+      "gpuP95Ms": 15.257249,
+      "cpuMedianMs": 0.699999988079071,
+      "drawCalls": 6,
+      "triangles": 219650,
+      "pixels": [
+        1280,
+        800
+      ]
+    },
+    {
+      "label": "day",
+      "mode": "candidate",
+      "gpuSamples": 60,
+      "gpuMedianMs": 11.457041,
+      "gpuP95Ms": 15.003249,
+      "cpuMedianMs": 0.5999999940395355,
+      "drawCalls": 6,
+      "triangles": 219650,
+      "pixels": [
+        1280,
+        800
+      ]
+    },
+    {
+      "label": "day",
+      "mode": "candidate",
+      "gpuSamples": 60,
+      "gpuMedianMs": 13.337958,
+      "gpuP95Ms": 14.8035,
+      "cpuMedianMs": 0.29999998211860657,
+      "drawCalls": 6,
+      "triangles": 219650,
+      "pixels": [
+        1280,
+        800
+      ]
+    },
+    {
+      "label": "day",
+      "mode": "previous",
+      "gpuSamples": 60,
+      "gpuMedianMs": 13.230624,
+      "gpuP95Ms": 15.12825,
+      "cpuMedianMs": 0.30000001192092896,
+      "drawCalls": 6,
+      "triangles": 219650,
+      "pixels": [
+        1280,
+        800
+      ]
+    },
+    {
+      "label": "grazing",
+      "mode": "previous",
+      "gpuSamples": 60,
+      "gpuMedianMs": 14.3775,
+      "gpuP95Ms": 14.970374,
+      "cpuMedianMs": 0.30000001192092896,
+      "drawCalls": 6,
+      "triangles": 219650,
+      "pixels": [
+        1280,
+        800
+      ]
+    },
+    {
+      "label": "grazing",
+      "mode": "candidate",
+      "gpuSamples": 60,
+      "gpuMedianMs": 14.605958,
+      "gpuP95Ms": 14.94475,
+      "cpuMedianMs": 0.29999998211860657,
+      "drawCalls": 6,
+      "triangles": 219650,
+      "pixels": [
+        1280,
+        800
+      ]
+    },
+    {
+      "label": "grazing",
+      "mode": "candidate",
+      "gpuSamples": 60,
+      "gpuMedianMs": 14.385124,
+      "gpuP95Ms": 14.977208,
+      "cpuMedianMs": 0.30000001192092896,
+      "drawCalls": 6,
+      "triangles": 219650,
+      "pixels": [
+        1280,
+        800
+      ]
+    },
+    {
+      "label": "grazing",
+      "mode": "previous",
+      "gpuSamples": 60,
+      "gpuMedianMs": 14.321583,
+      "gpuP95Ms": 35.321416,
+      "cpuMedianMs": 0.30000001192092896,
+      "drawCalls": 6,
+      "triangles": 219650,
+      "pixels": [
+        1280,
+        800
+      ]
+    }
+  ],
+  "errors": []
+}

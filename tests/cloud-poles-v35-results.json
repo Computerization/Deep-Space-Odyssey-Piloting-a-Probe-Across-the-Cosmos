@@ -1,0 +1,430 @@
+{
+  "version": "0.35.0",
+  "reference": "320 uniform view midpoint samples of the unchanged v34 density field and sunlight integrator. Both views also use 640 for convergence. Linear premultiplied RGBA and display pixels are measured separately; this tests integration, not photographic equivalence.",
+  "viewport": [
+    800,
+    500
+  ],
+  "outcomes": [
+    {
+      "name": "Chrome",
+      "engineVersion": "158.0.8127.37",
+      "views": [
+        {
+          "label": "pole",
+          "radius": 2.35,
+          "phase": 90,
+          "yaw": 0,
+          "metrics": {
+            "previous": {
+              "channels": 226779,
+              "mae": 0.32047059031039027,
+              "rmse": 1.1349759563195603,
+              "max": 40,
+              "fullMean": 0.0607425,
+              "fullMax": 40
+            },
+            "candidate": {
+              "channels": 226779,
+              "mae": 0.20231591108524158,
+              "rmse": 0.7403956230071336,
+              "max": 24,
+              "fullMean": 0.038414166666666666,
+              "fullMax": 24
+            }
+          },
+          "linear": {
+            "previous": {
+              "mean": 0.0009833124235242119,
+              "rmse": 0.003944995033458198,
+              "max": 0.12591552734375,
+              "count": 460488
+            },
+            "candidate": {
+              "mean": 0.00048489070849799625,
+              "rmse": 0.0023985107473428052,
+              "max": 0.1181640625,
+              "count": 460488
+            },
+            "dense": {
+              "mean": 1.414642246629259e-05,
+              "rmse": 6.595904030254784e-05,
+              "max": 0.00244140625,
+              "count": 460488
+            }
+          },
+          "draws": {
+            "off": {
+              "calls": 5,
+              "triangles": 146434
+            },
+            "previous": {
+              "calls": 6,
+              "triangles": 219650
+            },
+            "candidate": {
+              "calls": 6,
+              "triangles": 219650
+            },
+            "reference": {
+              "calls": 6,
+              "triangles": 219650
+            },
+            "dense": {
+              "calls": 6,
+              "triangles": 219650
+            }
+          }
+        },
+        {
+          "label": "seam",
+          "radius": 2.35,
+          "phase": 150,
+          "yaw": 0,
+          "metrics": {
+            "previous": {
+              "channels": 255972,
+              "mae": 0.1645765943150032,
+              "rmse": 0.5822588446292465,
+              "max": 8,
+              "fullMean": 0.03519916666666666,
+              "fullMax": 8
+            },
+            "candidate": {
+              "channels": 255972,
+              "mae": 0.05183379432125389,
+              "rmse": 0.2587973637969651,
+              "max": 5,
+              "fullMean": 0.011135,
+              "fullMax": 5
+            }
+          },
+          "linear": {
+            "previous": {
+              "mean": 0.001114308704525032,
+              "rmse": 0.004580524768401098,
+              "max": 0.75830078125,
+              "count": 318380
+            },
+            "candidate": {
+              "mean": 0.0003825098959463117,
+              "rmse": 0.0017918251400611358,
+              "max": 0.05859375,
+              "count": 318380
+            },
+            "dense": {
+              "mean": 2.4179774572579836e-05,
+              "rmse": 9.261040703122816e-05,
+              "max": 0.001953125,
+              "count": 318380
+            }
+          },
+          "draws": {
+            "off": {
+              "calls": 9,
+              "triangles": 370178
+            },
+            "previous": {
+              "calls": 10,
+              "triangles": 443394
+            },
+            "candidate": {
+              "calls": 10,
+              "triangles": 443394
+            },
+            "reference": {
+              "calls": 10,
+              "triangles": 443394
+            },
+            "dense": {
+              "calls": 10,
+              "triangles": 443394
+            }
+          }
+        }
+      ],
+      "errors": [],
+      "passed": true
+    },
+    {
+      "name": "Firefox",
+      "engineVersion": "153.0",
+      "views": [
+        {
+          "label": "pole",
+          "radius": 2.35,
+          "phase": 90,
+          "yaw": 0,
+          "metrics": {
+            "previous": {
+              "channels": 226785,
+              "mae": 0.32085014440990367,
+              "rmse": 1.1355474443300042,
+              "max": 40,
+              "fullMean": 0.06081166666666667,
+              "fullMax": 40
+            },
+            "candidate": {
+              "channels": 226785,
+              "mae": 0.2026412681614745,
+              "rmse": 0.7405972233235008,
+              "max": 24,
+              "fullMean": 0.038475833333333334,
+              "fullMax": 24
+            }
+          },
+          "linear": {
+            "previous": {
+              "mean": 0.0009817801280723444,
+              "rmse": 0.003949648237996685,
+              "max": 0.126220703125,
+              "count": 460492
+            },
+            "candidate": {
+              "mean": 0.00048513341759044443,
+              "rmse": 0.002400065585654821,
+              "max": 0.11669921875,
+              "count": 460492
+            },
+            "dense": {
+              "mean": 1.4107113089632332e-05,
+              "rmse": 6.555640201673447e-05,
+              "max": 0.00244140625,
+              "count": 460492
+            }
+          },
+          "draws": {
+            "off": {
+              "calls": 5,
+              "triangles": 146434
+            },
+            "previous": {
+              "calls": 6,
+              "triangles": 219650
+            },
+            "candidate": {
+              "calls": 6,
+              "triangles": 219650
+            },
+            "reference": {
+              "calls": 6,
+              "triangles": 219650
+            },
+            "dense": {
+              "calls": 6,
+              "triangles": 219650
+            }
+          }
+        },
+        {
+          "label": "seam",
+          "radius": 2.35,
+          "phase": 150,
+          "yaw": 0,
+          "metrics": {
+            "previous": {
+              "channels": 255984,
+              "mae": 0.1648618663666479,
+              "rmse": 0.5824699172062693,
+              "max": 8,
+              "fullMean": 0.035276666666666665,
+              "fullMax": 8
+            },
+            "candidate": {
+              "channels": 255984,
+              "mae": 0.05153447090443153,
+              "rmse": 0.2582170448530476,
+              "max": 5,
+              "fullMean": 0.011080833333333333,
+              "fullMax": 5
+            }
+          },
+          "linear": {
+            "previous": {
+              "mean": 0.0011165990086010379,
+              "rmse": 0.0045767903664917665,
+              "max": 0.75830078125,
+              "count": 318380
+            },
+            "candidate": {
+              "mean": 0.00038203252560754347,
+              "rmse": 0.0017919813072876894,
+              "max": 0.05859375,
+              "count": 318380
+            },
+            "dense": {
+              "mean": 2.4232373733947054e-05,
+              "rmse": 9.285145277858953e-05,
+              "max": 0.001953125,
+              "count": 318380
+            }
+          },
+          "draws": {
+            "off": {
+              "calls": 9,
+              "triangles": 370178
+            },
+            "previous": {
+              "calls": 10,
+              "triangles": 443394
+            },
+            "candidate": {
+              "calls": 10,
+              "triangles": 443394
+            },
+            "reference": {
+              "calls": 10,
+              "triangles": 443394
+            },
+            "dense": {
+              "calls": 10,
+              "triangles": 443394
+            }
+          }
+        }
+      ],
+      "errors": [],
+      "passed": true
+    },
+    {
+      "name": "WebKit",
+      "engineVersion": "26.5",
+      "views": [
+        {
+          "label": "pole",
+          "radius": 2.35,
+          "phase": 90,
+          "yaw": 0,
+          "metrics": {
+            "previous": {
+              "channels": 226782,
+              "mae": 0.320827931670062,
+              "rmse": 1.1351083059754707,
+              "max": 40,
+              "fullMean": 0.060798333333333336,
+              "fullMax": 40
+            },
+            "candidate": {
+              "channels": 226782,
+              "mae": 0.20256457743559894,
+              "rmse": 0.740560442879871,
+              "max": 24,
+              "fullMean": 0.038455,
+              "fullMax": 24
+            }
+          },
+          "linear": {
+            "previous": {
+              "mean": 0.0009833124235242119,
+              "rmse": 0.003944995033458198,
+              "max": 0.12591552734375,
+              "count": 460488
+            },
+            "candidate": {
+              "mean": 0.00048489070849799625,
+              "rmse": 0.0023985107473428052,
+              "max": 0.1181640625,
+              "count": 460488
+            },
+            "dense": {
+              "mean": 1.414642246629259e-05,
+              "rmse": 6.595904030254784e-05,
+              "max": 0.00244140625,
+              "count": 460488
+            }
+          },
+          "draws": {
+            "off": {
+              "calls": 5,
+              "triangles": 146434
+            },
+            "previous": {
+              "calls": 6,
+              "triangles": 219650
+            },
+            "candidate": {
+              "calls": 6,
+              "triangles": 219650
+            },
+            "reference": {
+              "calls": 6,
+              "triangles": 219650
+            },
+            "dense": {
+              "calls": 6,
+              "triangles": 219650
+            }
+          }
+        },
+        {
+          "label": "seam",
+          "radius": 2.35,
+          "phase": 150,
+          "yaw": 0,
+          "metrics": {
+            "previous": {
+              "channels": 256014,
+              "mae": 0.16457693719874694,
+              "rmse": 0.5821070835457046,
+              "max": 8,
+              "fullMean": 0.035208333333333335,
+              "fullMax": 8
+            },
+            "candidate": {
+              "channels": 256014,
+              "mae": 0.051747170076636435,
+              "rmse": 0.25862514788586527,
+              "max": 5,
+              "fullMean": 0.011124166666666666,
+              "fullMax": 5
+            }
+          },
+          "linear": {
+            "previous": {
+              "mean": 0.001114308704525032,
+              "rmse": 0.004580524768401098,
+              "max": 0.75830078125,
+              "count": 318380
+            },
+            "candidate": {
+              "mean": 0.0003825098959463117,
+              "rmse": 0.0017918251400611358,
+              "max": 0.05859375,
+              "count": 318380
+            },
+            "dense": {
+              "mean": 2.4179774572579836e-05,
+              "rmse": 9.261040703122816e-05,
+              "max": 0.001953125,
+              "count": 318380
+            }
+          },
+          "draws": {
+            "off": {
+              "calls": 9,
+              "triangles": 370178
+            },
+            "previous": {
+              "calls": 10,
+              "triangles": 443394
+            },
+            "candidate": {
+              "calls": 10,
+              "triangles": 443394
+            },
+            "reference": {
+              "calls": 10,
+              "triangles": 443394
+            },
+            "dense": {
+              "calls": 10,
+              "triangles": 443394
+            }
+          }
+        }
+      ],
+      "errors": [],
+      "passed": true
+    }
+  ]
+}

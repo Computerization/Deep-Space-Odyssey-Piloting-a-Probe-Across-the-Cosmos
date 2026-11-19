@@ -1,0 +1,113 @@
+{
+  "version": "0.35.0",
+  "outcomes": [
+    {
+      "name": "Chrome",
+      "engineVersion": "158.0.8127.37",
+      "scenes": [
+        {
+          "label": "Earth",
+          "lit": 1311
+        },
+        {
+          "label": "Moon",
+          "lit": 302
+        },
+        {
+          "label": "Jupiter",
+          "lit": 484
+        },
+        {
+          "label": "Io",
+          "lit": 172
+        },
+        {
+          "label": "Saturn",
+          "lit": 645
+        },
+        {
+          "label": "Ring-plane",
+          "lit": 275
+        },
+        {
+          "label": "Titan",
+          "lit": 186
+        }
+      ],
+      "errors": [],
+      "passed": true
+    },
+    {
+      "name": "Firefox",
+      "engineVersion": "153.0",
+      "scenes": [
+        {
+          "label": "Earth",
+          "lit": 1308
+        },
+        {
+          "label": "Moon",
+          "lit": 302
+        },
+        {
+          "label": "Jupiter",
+          "lit": 483
+        },
+        {
+          "label": "Io",
+          "lit": 172
+        },
+        {
+          "label": "Saturn",
+          "lit": 640
+        },
+        {
+          "label": "Ring-plane",
+          "lit": 275
+        },
+        {
+          "label": "Titan",
+          "lit": 185
+        }
+      ],
+      "errors": [],
+      "passed": true
+    },
+    {
+      "name": "WebKit",
+      "engineVersion": "26.5",
+      "scenes": [
+        {
+          "label": "Earth",
+          "lit": 1310
+        },
+        {
+          "label": "Moon",
+          "lit": 302
+        },
+        {
+          "label": "Jupiter",
+          "lit": 484
+        },
+        {
+          "label": "Io",
+          "lit": 172
+        },
+        {
+          "label": "Saturn",
+          "lit": 644
+        },
+        {
+          "label": "Ring-plane",
+          "lit": 275
+        },
+        {
+          "label": "Titan",
+          "lit": 186
+        }
+      ],
+      "errors": [],
+      "passed": true
+    }
+  ]
+}

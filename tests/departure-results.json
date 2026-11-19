@@ -1,0 +1,17 @@
+{
+  "stationaryObserveCannotSkip": true,
+  "resumeDuringCoast": true,
+  "manualFlight": {
+    "travelled": 9368.451274479467,
+    "seconds": 27.164400000000093,
+    "observations": [
+      "earth-0"
+    ]
+  },
+  "directLunarContinuation": true,
+  "laptopFit": true,
+  "skipPreservesFlight": true,
+  "hideGuidanceReleasesFlight": true,
+  "controllerCompletionChoices": true,
+  "errors": []
+}

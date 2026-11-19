@@ -1,0 +1,50 @@
+[
+  {
+    "track": "departure",
+    "codec": "Opus",
+    "bytes": 1009556,
+    "duration": 120.0,
+    "channels": 2,
+    "peak": 0.5704208612442017,
+    "rms": 0.05496194213628769,
+    "loop_step": 7.935014582471922e-05,
+    "integrated_lufs": -22.99,
+    "true_peak_db": -4.88
+  },
+  {
+    "track": "encounter",
+    "codec": "Opus",
+    "bytes": 1009678,
+    "duration": 120.0,
+    "channels": 2,
+    "peak": 0.5996873378753662,
+    "rms": 0.05628819763660431,
+    "loop_step": 1.045072713168338e-05,
+    "integrated_lufs": -22.99,
+    "true_peak_db": -4.44
+  },
+  {
+    "track": "rings",
+    "codec": "Opus",
+    "bytes": 1009540,
+    "duration": 120.0,
+    "channels": 2,
+    "peak": 0.5118863582611084,
+    "rms": 0.05547480285167694,
+    "loop_step": 2.2870499378768727e-05,
+    "integrated_lufs": -22.99,
+    "true_peak_db": -5.82
+  },
+  {
+    "track": "distance",
+    "codec": "Opus",
+    "bytes": 1009548,
+    "duration": 120.0,
+    "channels": 2,
+    "peak": 0.5664660334587097,
+    "rms": 0.059648651629686356,
+    "loop_step": 1.040881579683628e-05,
+    "integrated_lufs": -22.99,
+    "true_peak_db": -4.94
+  }
+]

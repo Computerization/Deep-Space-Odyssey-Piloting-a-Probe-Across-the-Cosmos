@@ -1,0 +1,19 @@
+{
+  "engine": "Chrome",
+  "checks": [
+    "launch-captions-outside-film",
+    "all-flight-actions-mapped",
+    "camera-menu-and-view-switch",
+    "Tab-Enter-menu-navigation",
+    "map-journal-review-help-shortcuts",
+    "recent-photo-shortcut",
+    "Tab-pause",
+    "later-chapter-shortcuts",
+    "compact-flight-layout"
+  ],
+  "steadyHUD": {
+    "updates": 120,
+    "mutations": 0
+  },
+  "errors": []
+}

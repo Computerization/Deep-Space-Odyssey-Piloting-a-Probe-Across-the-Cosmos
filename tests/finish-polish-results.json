@@ -1,0 +1,41 @@
+{
+  "pointerObservation": {
+    "mission": 1,
+    "field": 0
+  },
+  "singleExposurePerPress": true,
+  "stableSubject": {
+    "before": "explore-earth-1",
+    "after": "explore-earth-1",
+    "progress": 0.42000000000000004
+  },
+  "markerSubject": true,
+  "cleanViewDrag": true,
+  "restoredView": {
+    "look": [
+      0,
+      -0.06923859822545894,
+      0,
+      0.9976001285664381
+    ],
+    "precision": true,
+    "freeLook": true,
+    "showHud": false
+  },
+  "controllerReleaseGate": true,
+  "pauseFits": true,
+  "summaryControls": true,
+  "collapsedChoicesSkipped": true,
+  "recording": {
+    "volume": 0.35001787543296814,
+    "hidden": true,
+    "restored": true,
+    "nativeVolume": 1
+  },
+  "hiddenRecordingPaused": true,
+  "crossfade": {
+    "maximumJump": 0.0014210641384124756,
+    "tracks": 4
+  },
+  "errors": []
+}

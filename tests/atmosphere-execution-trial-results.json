@@ -1,0 +1,1244 @@
+{
+  "version": "0.85.0",
+  "previous": "/private/tmp/cosmos-v86-previous/Cosmos",
+  "source": "src/rendering/earth-shaders.js",
+  "hashes": {
+    "previous": "22763e9313096acdab12beed13a2b6c310349d385bef7c00eae42f4974bc7667",
+    "candidate": "a803722d2c9fd00cbf56dba2038000e0409ef4850b781f5e43b30d5078449a54"
+  },
+  "method": "Repeated-prior and candidate display/HDR comparison at the same physical state, 6/12/20 integration samples and fixed render grids. Optional Chrome timing uses full-frame GPU queries and animation intervals in ABBA order, 30 warm-up and 120 measured frames per window; short local timing, not sustained hardware coverage.",
+  "outcomes": [
+    {
+      "name": "Chrome",
+      "engineVersion": "158.0.8127.37",
+      "views": [
+        {
+          "scene": "day",
+          "route": "adaptive",
+          "referenceRepeat": {
+            "max": 0,
+            "mean": 0,
+            "changed": 0,
+            "channels": 4800000,
+            "hdrMax": 0,
+            "hdrChanged": 0,
+            "hdrOverTolerance": 0
+          },
+          "candidate": {
+            "max": 1,
+            "mean": 8.333333333333333e-7,
+            "changed": 4,
+            "channels": 4800000,
+            "hdrMax": 0.00048828125,
+            "hdrChanged": 156,
+            "hdrOverTolerance": 0
+          },
+          "resources": [
+            {
+              "calls": 8,
+              "textures": 28,
+              "geometries": 22,
+              "pixels": [
+                1600,
+                1000
+              ],
+              "detailWeight": 0
+            },
+            {
+              "calls": 8,
+              "textures": 28,
+              "geometries": 22,
+              "pixels": [
+                1600,
+                1000
+              ],
+              "detailWeight": 0
+            },
+            {
+              "calls": 8,
+              "textures": 28,
+              "geometries": 22,
+              "pixels": [
+                1600,
+                1000
+              ],
+              "detailWeight": 0
+            }
+          ],
+          "physicalStatePreserved": true
+        },
+        {
+          "scene": "day",
+          "route": "direct",
+          "referenceRepeat": {
+            "max": 0,
+            "mean": 0,
+            "changed": 0,
+            "channels": 4800000,
+            "hdrMax": 0,
+            "hdrChanged": 0,
+            "hdrOverTolerance": 0
+          },
+          "candidate": {
+            "max": 1,
+            "mean": 8.333333333333333e-7,
+            "changed": 4,
+            "channels": 4800000,
+            "hdrMax": 0.00048828125,
+            "hdrChanged": 129,
+            "hdrOverTolerance": 0
+          },
+          "resources": [
+            {
+              "calls": 7,
+              "textures": 28,
+              "geometries": 22,
+              "pixels": [
+                1600,
+                1000
+              ],
+              "detailWeight": 0
+            },
+            {
+              "calls": 7,
+              "textures": 28,
+              "geometries": 22,
+              "pixels": [
+                1600,
+                1000
+              ],
+              "detailWeight": 0
+            },
+            {
+              "calls": 7,
+              "textures": 28,
+              "geometries": 22,
+              "pixels": [
+                1600,
+                1000
+              ],
+              "detailWeight": 0
+            }
+          ],
+          "physicalStatePreserved": true
+        },
+        {
+          "scene": "day",
+          "route": "merged",
+          "referenceRepeat": {
+            "max": 0,
+            "mean": 0,
+            "changed": 0,
+            "channels": 4800000,
+            "hdrMax": 0,
+            "hdrChanged": 0,
+            "hdrOverTolerance": 0
+          },
+          "candidate": {
+            "max": 1,
+            "mean": 0.0000029166666666666666,
+            "changed": 14,
+            "channels": 4800000,
+            "hdrMax": 0.00048828125,
+            "hdrChanged": 147,
+            "hdrOverTolerance": 0
+          },
+          "resources": [
+            {
+              "calls": 7,
+              "textures": 28,
+              "geometries": 22,
+              "pixels": [
+                1600,
+                1000
+              ],
+              "detailWeight": 0
+            },
+            {
+              "calls": 7,
+              "textures": 28,
+              "geometries": 22,
+              "pixels": [
+                1600,
+                1000
+              ],
+              "detailWeight": 0
+            },
+            {
+              "calls": 7,
+              "textures": 28,
+              "geometries": 22,
+              "pixels": [
+                1600,
+                1000
+              ],
+              "detailWeight": 0
+            }
+          ],
+          "physicalStatePreserved": true
+        },
+        {
+          "scene": "day",
+          "route": "multisampled",
+          "referenceRepeat": {
+            "max": 0,
+            "mean": 0,
+            "changed": 0,
+            "channels": 1200000,
+            "hdrMax": 0,
+            "hdrChanged": 0,
+            "hdrOverTolerance": 0
+          },
+          "candidate": {
+            "max": 1,
+            "mean": 8.333333333333333e-7,
+            "changed": 1,
+            "channels": 1200000,
+            "hdrMax": 0.00048828125,
+            "hdrChanged": 30,
+            "hdrOverTolerance": 0
+          },
+          "resources": [
+            {
+              "calls": 8,
+              "textures": 28,
+              "geometries": 22,
+              "pixels": [
+                800,
+                500
+              ],
+              "detailWeight": 0
+            },
+            {
+              "calls": 8,
+              "textures": 28,
+              "geometries": 22,
+              "pixels": [
+                800,
+                500
+              ],
+              "detailWeight": 0
+            },
+            {
+              "calls": 8,
+              "textures": 28,
+              "geometries": 22,
+              "pixels": [
+                800,
+                500
+              ],
+              "detailWeight": 0
+            }
+          ],
+          "physicalStatePreserved": true
+        },
+        {
+          "scene": "day",
+          "route": "capture",
+          "referenceRepeat": {
+            "max": 0,
+            "mean": 0,
+            "changed": 0,
+            "channels": 4800000,
+            "hdrMax": 0,
+            "hdrChanged": 0,
+            "hdrOverTolerance": 0
+          },
+          "candidate": {
+            "max": 1,
+            "mean": 8.333333333333333e-7,
+            "changed": 4,
+            "channels": 4800000,
+            "hdrMax": 0.00048828125,
+            "hdrChanged": 129,
+            "hdrOverTolerance": 0
+          },
+          "resources": [
+            {
+              "calls": 7,
+              "textures": 28,
+              "geometries": 22,
+              "pixels": [
+                1600,
+                1000
+              ],
+              "detailWeight": 0
+            },
+            {
+              "calls": 7,
+              "textures": 28,
+              "geometries": 22,
+              "pixels": [
+                1600,
+                1000
+              ],
+              "detailWeight": 0
+            },
+            {
+              "calls": 7,
+              "textures": 28,
+              "geometries": 22,
+              "pixels": [
+                1600,
+                1000
+              ],
+              "detailWeight": 0
+            }
+          ],
+          "physicalStatePreserved": true
+        },
+        {
+          "scene": "terminator",
+          "route": "adaptive",
+          "referenceRepeat": {
+            "max": 0,
+            "mean": 0,
+            "changed": 0,
+            "channels": 4800000,
+            "hdrMax": 0,
+            "hdrChanged": 0,
+            "hdrOverTolerance": 0
+          },
+          "candidate": {
+            "max": 1,
+            "mean": 6.25e-7,
+            "changed": 3,
+            "channels": 4800000,
+            "hdrMax": 0.00048828125,
+            "hdrChanged": 184,
+            "hdrOverTolerance": 0
+          },
+          "resources": [
+            {
+              "calls": 8,
+              "textures": 28,
+              "geometries": 22,
+              "pixels": [
+                1600,
+                1000
+              ],
+              "detailWeight": 0
+            },
+            {
+              "calls": 8,
+              "textures": 28,
+              "geometries": 22,
+              "pixels": [
+                1600,
+                1000
+              ],
+              "detailWeight": 0
+            },
+            {
+              "calls": 8,
+              "textures": 28,
+              "geometries": 22,
+              "pixels": [
+                1600,
+                1000
+              ],
+              "detailWeight": 0
+            }
+          ],
+          "physicalStatePreserved": true
+        },
+        {
+          "scene": "terminator",
+          "route": "direct",
+          "referenceRepeat": {
+            "max": 0,
+            "mean": 0,
+            "changed": 0,
+            "channels": 4800000,
+            "hdrMax": 0,
+            "hdrChanged": 0,
+            "hdrOverTolerance": 0
+          },
+          "candidate": {
+            "max": 1,
+            "mean": 0.00000125,
+            "changed": 6,
+            "channels": 4800000,
+            "hdrMax": 0.00048828125,
+            "hdrChanged": 154,
+            "hdrOverTolerance": 0
+          },
+          "resources": [
+            {
+              "calls": 7,
+              "textures": 28,
+              "geometries": 22,
+              "pixels": [
+                1600,
+                1000
+              ],
+              "detailWeight": 0
+            },
+            {
+              "calls": 7,
+              "textures": 28,
+              "geometries": 22,
+              "pixels": [
+                1600,
+                1000
+              ],
+              "detailWeight": 0
+            },
+            {
+              "calls": 7,
+              "textures": 28,
+              "geometries": 22,
+              "pixels": [
+                1600,
+                1000
+              ],
+              "detailWeight": 0
+            }
+          ],
+          "physicalStatePreserved": true
+        },
+        {
+          "scene": "crescent",
+          "route": "adaptive",
+          "referenceRepeat": {
+            "max": 0,
+            "mean": 0,
+            "changed": 0,
+            "channels": 4800000,
+            "hdrMax": 0,
+            "hdrChanged": 0,
+            "hdrOverTolerance": 0
+          },
+          "candidate": {
+            "max": 1,
+            "mean": 2.0833333333333333e-7,
+            "changed": 1,
+            "channels": 4800000,
+            "hdrMax": 0.000030517578125,
+            "hdrChanged": 19,
+            "hdrOverTolerance": 0
+          },
+          "resources": [
+            {
+              "calls": 9,
+              "textures": 28,
+              "geometries": 22,
+              "pixels": [
+                1600,
+                1000
+              ],
+              "detailWeight": 0
+            },
+            {
+              "calls": 9,
+              "textures": 28,
+              "geometries": 22,
+              "pixels": [
+                1600,
+                1000
+              ],
+              "detailWeight": 0
+            },
+            {
+              "calls": 9,
+              "textures": 28,
+              "geometries": 22,
+              "pixels": [
+                1600,
+                1000
+              ],
+              "detailWeight": 0
+            }
+          ],
+          "physicalStatePreserved": true
+        },
+        {
+          "scene": "crescent",
+          "route": "direct",
+          "referenceRepeat": {
+            "max": 0,
+            "mean": 0,
+            "changed": 0,
+            "channels": 4800000,
+            "hdrMax": 0,
+            "hdrChanged": 0,
+            "hdrOverTolerance": 0
+          },
+          "candidate": {
+            "max": 0,
+            "mean": 0,
+            "changed": 0,
+            "channels": 4800000,
+            "hdrMax": 0.00006103515625,
+            "hdrChanged": 16,
+            "hdrOverTolerance": 0
+          },
+          "resources": [
+            {
+              "calls": 8,
+              "textures": 28,
+              "geometries": 22,
+              "pixels": [
+                1600,
+                1000
+              ],
+              "detailWeight": 0
+            },
+            {
+              "calls": 8,
+              "textures": 28,
+              "geometries": 22,
+              "pixels": [
+                1600,
+                1000
+              ],
+              "detailWeight": 0
+            },
+            {
+              "calls": 8,
+              "textures": 28,
+              "geometries": 22,
+              "pixels": [
+                1600,
+                1000
+              ],
+              "detailWeight": 0
+            }
+          ],
+          "physicalStatePreserved": true
+        },
+        {
+          "scene": "night",
+          "route": "adaptive",
+          "referenceRepeat": {
+            "max": 0,
+            "mean": 0,
+            "changed": 0,
+            "channels": 4800000,
+            "hdrMax": 0,
+            "hdrChanged": 0,
+            "hdrOverTolerance": 0
+          },
+          "candidate": {
+            "max": 0,
+            "mean": 0,
+            "changed": 0,
+            "channels": 4800000,
+            "hdrMax": 0,
+            "hdrChanged": 0,
+            "hdrOverTolerance": 0
+          },
+          "resources": [
+            {
+              "calls": 12,
+              "textures": 29,
+              "geometries": 22,
+              "pixels": [
+                1600,
+                1000
+              ],
+              "detailWeight": 0
+            },
+            {
+              "calls": 12,
+              "textures": 29,
+              "geometries": 22,
+              "pixels": [
+                1600,
+                1000
+              ],
+              "detailWeight": 0
+            },
+            {
+              "calls": 12,
+              "textures": 29,
+              "geometries": 22,
+              "pixels": [
+                1600,
+                1000
+              ],
+              "detailWeight": 0
+            }
+          ],
+          "physicalStatePreserved": true
+        },
+        {
+          "scene": "night",
+          "route": "direct",
+          "referenceRepeat": {
+            "max": 0,
+            "mean": 0,
+            "changed": 0,
+            "channels": 4800000,
+            "hdrMax": 0,
+            "hdrChanged": 0,
+            "hdrOverTolerance": 0
+          },
+          "candidate": {
+            "max": 0,
+            "mean": 0,
+            "changed": 0,
+            "channels": 4800000,
+            "hdrMax": 0,
+            "hdrChanged": 0,
+            "hdrOverTolerance": 0
+          },
+          "resources": [
+            {
+              "calls": 11,
+              "textures": 29,
+              "geometries": 22,
+              "pixels": [
+                1600,
+                1000
+              ],
+              "detailWeight": 0
+            },
+            {
+              "calls": 11,
+              "textures": 29,
+              "geometries": 22,
+              "pixels": [
+                1600,
+                1000
+              ],
+              "detailWeight": 0
+            },
+            {
+              "calls": 11,
+              "textures": 29,
+              "geometries": 22,
+              "pixels": [
+                1600,
+                1000
+              ],
+              "detailWeight": 0
+            }
+          ],
+          "physicalStatePreserved": true
+        },
+        {
+          "scene": "close",
+          "route": "adaptive",
+          "referenceRepeat": {
+            "max": 0,
+            "mean": 0,
+            "changed": 0,
+            "channels": 4800000,
+            "hdrMax": 0,
+            "hdrChanged": 0,
+            "hdrOverTolerance": 0
+          },
+          "candidate": {
+            "max": 1,
+            "mean": 8.333333333333333e-7,
+            "changed": 4,
+            "channels": 4800000,
+            "hdrMax": 0.000244140625,
+            "hdrChanged": 140,
+            "hdrOverTolerance": 0
+          },
+          "resources": [
+            {
+              "calls": 8,
+              "textures": 29,
+              "geometries": 22,
+              "pixels": [
+                1600,
+                1000
+              ],
+              "detailWeight": 0
+            },
+            {
+              "calls": 8,
+              "textures": 29,
+              "geometries": 22,
+              "pixels": [
+                1600,
+                1000
+              ],
+              "detailWeight": 0
+            },
+            {
+              "calls": 8,
+              "textures": 29,
+              "geometries": 22,
+              "pixels": [
+                1600,
+                1000
+              ],
+              "detailWeight": 0
+            }
+          ],
+          "physicalStatePreserved": true
+        },
+        {
+          "scene": "close",
+          "route": "direct",
+          "referenceRepeat": {
+            "max": 0,
+            "mean": 0,
+            "changed": 0,
+            "channels": 4800000,
+            "hdrMax": 0,
+            "hdrChanged": 0,
+            "hdrOverTolerance": 0
+          },
+          "candidate": {
+            "max": 1,
+            "mean": 0.0000010416666666666667,
+            "changed": 5,
+            "channels": 4800000,
+            "hdrMax": 0.00048828125,
+            "hdrChanged": 140,
+            "hdrOverTolerance": 0
+          },
+          "resources": [
+            {
+              "calls": 7,
+              "textures": 29,
+              "geometries": 22,
+              "pixels": [
+                1600,
+                1000
+              ],
+              "detailWeight": 0
+            },
+            {
+              "calls": 7,
+              "textures": 29,
+              "geometries": 22,
+              "pixels": [
+                1600,
+                1000
+              ],
+              "detailWeight": 0
+            },
+            {
+              "calls": 7,
+              "textures": 29,
+              "geometries": 22,
+              "pixels": [
+                1600,
+                1000
+              ],
+              "detailWeight": 0
+            }
+          ],
+          "physicalStatePreserved": true
+        },
+        {
+          "scene": "grazing",
+          "route": "adaptive",
+          "referenceRepeat": {
+            "max": 0,
+            "mean": 0,
+            "changed": 0,
+            "channels": 4800000,
+            "hdrMax": 0,
+            "hdrChanged": 0,
+            "hdrOverTolerance": 0
+          },
+          "candidate": {
+            "max": 1,
+            "mean": 0.000004583333333333333,
+            "changed": 22,
+            "channels": 4800000,
+            "hdrMax": 0.0001220703125,
+            "hdrChanged": 2190,
+            "hdrOverTolerance": 0
+          },
+          "resources": [
+            {
+              "calls": 8,
+              "textures": 29,
+              "geometries": 22,
+              "pixels": [
+                1600,
+                1000
+              ],
+              "detailWeight": 0
+            },
+            {
+              "calls": 8,
+              "textures": 29,
+              "geometries": 22,
+              "pixels": [
+                1600,
+                1000
+              ],
+              "detailWeight": 0
+            },
+            {
+              "calls": 8,
+              "textures": 29,
+              "geometries": 22,
+              "pixels": [
+                1600,
+                1000
+              ],
+              "detailWeight": 0
+            }
+          ],
+          "physicalStatePreserved": true
+        },
+        {
+          "scene": "grazing",
+          "route": "direct",
+          "referenceRepeat": {
+            "max": 0,
+            "mean": 0,
+            "changed": 0,
+            "channels": 4800000,
+            "hdrMax": 0,
+            "hdrChanged": 0,
+            "hdrOverTolerance": 0
+          },
+          "candidate": {
+            "max": 1,
+            "mean": 0.00000375,
+            "changed": 18,
+            "channels": 4800000,
+            "hdrMax": 0.0001220703125,
+            "hdrChanged": 2190,
+            "hdrOverTolerance": 0
+          },
+          "resources": [
+            {
+              "calls": 7,
+              "textures": 29,
+              "geometries": 22,
+              "pixels": [
+                1600,
+                1000
+              ],
+              "detailWeight": 0
+            },
+            {
+              "calls": 7,
+              "textures": 29,
+              "geometries": 22,
+              "pixels": [
+                1600,
+                1000
+              ],
+              "detailWeight": 0
+            },
+            {
+              "calls": 7,
+              "textures": 29,
+              "geometries": 22,
+              "pixels": [
+                1600,
+                1000
+              ],
+              "detailWeight": 0
+            }
+          ],
+          "physicalStatePreserved": true
+        },
+        {
+          "scene": "resolved-limb",
+          "route": "adaptive",
+          "referenceRepeat": {
+            "max": 0,
+            "mean": 0,
+            "changed": 0,
+            "channels": 4800000,
+            "hdrMax": 0,
+            "hdrChanged": 0,
+            "hdrOverTolerance": 0
+          },
+          "candidate": {
+            "max": 1,
+            "mean": 0.000022291666666666665,
+            "changed": 107,
+            "channels": 4800000,
+            "hdrMax": 0.00048828125,
+            "hdrChanged": 1578,
+            "hdrOverTolerance": 0
+          },
+          "resources": [
+            {
+              "calls": 8,
+              "textures": 29,
+              "geometries": 22,
+              "pixels": [
+                1600,
+                1000
+              ],
+              "detailWeight": 1
+            },
+            {
+              "calls": 8,
+              "textures": 29,
+              "geometries": 22,
+              "pixels": [
+                1600,
+                1000
+              ],
+              "detailWeight": 1
+            },
+            {
+              "calls": 8,
+              "textures": 29,
+              "geometries": 22,
+              "pixels": [
+                1600,
+                1000
+              ],
+              "detailWeight": 1
+            }
+          ],
+          "physicalStatePreserved": true
+        },
+        {
+          "scene": "resolved-limb",
+          "route": "direct",
+          "referenceRepeat": {
+            "max": 0,
+            "mean": 0,
+            "changed": 0,
+            "channels": 4800000,
+            "hdrMax": 0,
+            "hdrChanged": 0,
+            "hdrOverTolerance": 0
+          },
+          "candidate": {
+            "max": 1,
+            "mean": 0.000016875,
+            "changed": 81,
+            "channels": 4800000,
+            "hdrMax": 0.00048828125,
+            "hdrChanged": 1597,
+            "hdrOverTolerance": 0
+          },
+          "resources": [
+            {
+              "calls": 7,
+              "textures": 29,
+              "geometries": 22,
+              "pixels": [
+                1600,
+                1000
+              ],
+              "detailWeight": 1
+            },
+            {
+              "calls": 7,
+              "textures": 29,
+              "geometries": 22,
+              "pixels": [
+                1600,
+                1000
+              ],
+              "detailWeight": 1
+            },
+            {
+              "calls": 7,
+              "textures": 29,
+              "geometries": 22,
+              "pixels": [
+                1600,
+                1000
+              ],
+              "detailWeight": 1
+            }
+          ],
+          "physicalStatePreserved": true
+        },
+        {
+          "scene": "inside-air",
+          "route": "adaptive",
+          "referenceRepeat": {
+            "max": 0,
+            "mean": 0,
+            "changed": 0,
+            "channels": 4800000,
+            "hdrMax": 0,
+            "hdrChanged": 0,
+            "hdrOverTolerance": 0
+          },
+          "candidate": {
+            "max": 0,
+            "mean": 0,
+            "changed": 0,
+            "channels": 4800000,
+            "hdrMax": 0,
+            "hdrChanged": 0,
+            "hdrOverTolerance": 0
+          },
+          "resources": [
+            {
+              "calls": 8,
+              "textures": 29,
+              "geometries": 22,
+              "pixels": [
+                1600,
+                1000
+              ],
+              "detailWeight": 0
+            },
+            {
+              "calls": 8,
+              "textures": 29,
+              "geometries": 22,
+              "pixels": [
+                1600,
+                1000
+              ],
+              "detailWeight": 0
+            },
+            {
+              "calls": 8,
+              "textures": 29,
+              "geometries": 22,
+              "pixels": [
+                1600,
+                1000
+              ],
+              "detailWeight": 0
+            }
+          ],
+          "physicalStatePreserved": true
+        },
+        {
+          "scene": "inside-air",
+          "route": "direct",
+          "referenceRepeat": {
+            "max": 0,
+            "mean": 0,
+            "changed": 0,
+            "channels": 4800000,
+            "hdrMax": 0,
+            "hdrChanged": 0,
+            "hdrOverTolerance": 0
+          },
+          "candidate": {
+            "max": 0,
+            "mean": 0,
+            "changed": 0,
+            "channels": 4800000,
+            "hdrMax": 0,
+            "hdrChanged": 0,
+            "hdrOverTolerance": 0
+          },
+          "resources": [
+            {
+              "calls": 7,
+              "textures": 29,
+              "geometries": 22,
+              "pixels": [
+                1600,
+                1000
+              ],
+              "detailWeight": 0
+            },
+            {
+              "calls": 7,
+              "textures": 29,
+              "geometries": 22,
+              "pixels": [
+                1600,
+                1000
+              ],
+              "detailWeight": 0
+            },
+            {
+              "calls": 7,
+              "textures": 29,
+              "geometries": 22,
+              "pixels": [
+                1600,
+                1000
+              ],
+              "detailWeight": 0
+            }
+          ],
+          "physicalStatePreserved": true
+        }
+      ],
+      "cost": [
+        {
+          "scene": "day",
+          "rows": [
+            {
+              "mode": "previous",
+              "interval": {
+                "samples": 120,
+                "median": 33.30000000000291,
+                "p95": 50
+              },
+              "gpu": {
+                "samples": 120,
+                "median": 67.4975,
+                "p95": 76.840791
+              },
+              "pixels": [
+                3200,
+                2000
+              ],
+              "cloudPixels": [
+                1800,
+                1125
+              ]
+            },
+            {
+              "mode": "candidate",
+              "interval": {
+                "samples": 120,
+                "median": 33.30000000000291,
+                "p95": 50
+              },
+              "gpu": {
+                "samples": 120,
+                "median": 63.735375,
+                "p95": 75.323124
+              },
+              "pixels": [
+                3200,
+                2000
+              ],
+              "cloudPixels": [
+                1800,
+                1125
+              ]
+            },
+            {
+              "mode": "candidate",
+              "interval": {
+                "samples": 120,
+                "median": 33.30000000000291,
+                "p95": 50
+              },
+              "gpu": {
+                "samples": 120,
+                "median": 64.19825,
+                "p95": 69.61
+              },
+              "pixels": [
+                3200,
+                2000
+              ],
+              "cloudPixels": [
+                1800,
+                1125
+              ]
+            },
+            {
+              "mode": "previous",
+              "interval": {
+                "samples": 120,
+                "median": 33.30000000000291,
+                "p95": 50
+              },
+              "gpu": {
+                "samples": 120,
+                "median": 65.983458,
+                "p95": 73.881249
+              },
+              "pixels": [
+                3200,
+                2000
+              ],
+              "cloudPixels": [
+                1800,
+                1125
+              ]
+            }
+          ]
+        },
+        {
+          "scene": "grazing",
+          "rows": [
+            {
+              "mode": "previous",
+              "interval": {
+                "samples": 120,
+                "median": 66.59999999999854,
+                "p95": 66.70000000000437
+              },
+              "gpu": {
+                "samples": 120,
+                "median": 114.536708,
+                "p95": 121.358375
+              },
+              "pixels": [
+                3200,
+                2000
+              ],
+              "cloudPixels": [
+                1800,
+                1125
+              ]
+            },
+            {
+              "mode": "candidate",
+              "interval": {
+                "samples": 120,
+                "median": 66.59999999999854,
+                "p95": 66.70000000000437
+              },
+              "gpu": {
+                "samples": 120,
+                "median": 118.303083,
+                "p95": 134.09025
+              },
+              "pixels": [
+                3200,
+                2000
+              ],
+              "cloudPixels": [
+                1800,
+                1125
+              ]
+            },
+            {
+              "mode": "candidate",
+              "interval": {
+                "samples": 120,
+                "median": 66.59999999999854,
+                "p95": 66.70000000000437
+              },
+              "gpu": {
+                "samples": 120,
+                "median": 118.964749,
+                "p95": 128.12575
+              },
+              "pixels": [
+                3200,
+                2000
+              ],
+              "cloudPixels": [
+                1800,
+                1125
+              ]
+            },
+            {
+              "mode": "previous",
+              "interval": {
+                "samples": 120,
+                "median": 66.59999999999127,
+                "p95": 66.70000000001164
+              },
+              "gpu": {
+                "samples": 120,
+                "median": 114.627708,
+                "p95": 123.53175
+              },
+              "pixels": [
+                3200,
+                2000
+              ],
+              "cloudPixels": [
+                1800,
+                1125
+              ]
+            }
+          ]
+        }
+      ],
+      "errors": []
+    }
+  ]
+}

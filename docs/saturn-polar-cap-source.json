@@ -1,0 +1,39 @@
+{
+  "sourceSha256": "548d41082eecd6511088a7202c5a7d0ac56cc1bd84917c484e948b2d809a6d78",
+  "sourcePage": "https://science.nasa.gov/photojournal/saturns-hexagon-as-summer-solstice-approaches/",
+  "credit": "NASA/JPL-Caltech/Space Science Institute/Hampton University",
+  "observation": "25 June 2013; left panel of PIA21611",
+  "sourceDimensions": [
+    2048,
+    1024
+  ],
+  "outputDimensions": [
+    1024,
+    1024
+  ],
+  "publishedNativeScaleKmPerPixel": 80,
+  "projection": "Ellipsoidal polar stereographic, approximate registration; original publication pixel grid retained",
+  "flatten": 0.902,
+  "jetReferenceLatitudeGraphic": 78,
+  "detectedMeanJetRadiusPixels": 375.0,
+  "effectiveRegisteredKmPerPixel": 37.267965441008805,
+  "latitudeBlendGraphic": [
+    77,
+    78
+  ],
+  "lightingCorrection": "First linear-RGB azimuthal harmonic, sampled on 1-pixel radial rings and interpolated on the original image grid; inferred, not retrieved albedo.",
+  "limitations": "Published image is not georeferenced. Pixel grid is not native observational resolution. Longitude and 1980 weather are not reconstructed.",
+  "usesProceduralWeather": false,
+  "outputSha256": "d1ab87bbaecc4455ef964a626d01c3ba478432c9aadff063b8f944ee830ed919",
+  "outputBytes": 225795,
+  "sourceGridComparison": {
+    "globalRmse8bit": 1.74521922648852,
+    "capRmse8bit": 1.413656229675941
+  },
+  "comparisonReference": "Corrected publication grid inside the 78-degree jet; bilinear global-map reprojection versus decoded cap. No sharpening.",
+  "encoding": {
+    "format": "AVIF",
+    "quality": 95,
+    "subsampling": "4:4:4"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "engine": "Chrome",
+  "checks": [
+    "occulted-earth-excluded",
+    "earthrise-away-from-waypoint",
+    "framed-lunar-terminator",
+    "unordered-discovery",
+    "unseen-next-suggestion",
+    "keyboard-orbit-and-coast",
+    "mouse-releases-following",
+    "great-red-spot-visible",
+    "close-pass-boundary",
+    "optional-recording-in-journal",
+    "saturn-polar-discovery",
+    "onward-remains-available"
+  ],
+  "orbit": {
+    "initial": {
+      "range": 11799.553450000954,
+      "position": [
+        144488826.4355904,
+        -17174040.505431224,
+        39618440.455539964
+      ],
+      "speed": 0,
+      "tracking": "earth"
+    },
+    "powered": {
+      "range": 11799.8520895355,
+      "position": [
+        144489749.40811047,
+        -17174037.200050555,
+        39617970.623684645
+      ],
+      "speed": 1189.6761153538614,
+      "tracking": "earth"
+    },
+    "coast": {
+      "range": 11801.412186335849,
+      "position": [
+        144492395.30030555,
+        -17173981.629853487,
+        39615933.69998866
+      ],
+      "speed": 1189.6761153538616,
+      "tracking": "earth"
+    }
+  },
+  "close": 1.5978012788348648,
+  "errors": []
+}

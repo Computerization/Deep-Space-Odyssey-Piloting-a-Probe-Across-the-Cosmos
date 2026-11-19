@@ -1,0 +1,54 @@
+[
+  {
+    "track": "departure",
+    "title": "A World Behind Us",
+    "seconds": 240.0,
+    "bytes": 1950924,
+    "peak": 0.6496055126190186,
+    "rms": 0.05369055991764512,
+    "loopStep": 0.00010301574366167188,
+    "integratedLufs": -23.0,
+    "loudnessRangeLu": 11.4,
+    "notes": 151,
+    "sourceRevision": "440300901dfe9275fd84e0b7763af1f8443ae62e"
+  },
+  {
+    "track": "encounter",
+    "title": "Worlds in Motion",
+    "seconds": 240.0,
+    "bytes": 1951023,
+    "peak": 0.715325653553009,
+    "rms": 0.05535329477945612,
+    "loopStep": 2.68587791651953e-05,
+    "integratedLufs": -23.05,
+    "loudnessRangeLu": 10.9,
+    "notes": 142,
+    "sourceRevision": "440300901dfe9275fd84e0b7763af1f8443ae62e"
+  },
+  {
+    "track": "rings",
+    "title": "The Light Between",
+    "seconds": 240.0,
+    "bytes": 1950909,
+    "peak": 0.686442494392395,
+    "rms": 0.05428367732387667,
+    "loopStep": 0.00013157285866327584,
+    "integratedLufs": -23.0,
+    "loudnessRangeLu": 11.1,
+    "notes": 163,
+    "sourceRevision": "440300901dfe9275fd84e0b7763af1f8443ae62e"
+  },
+  {
+    "track": "distance",
+    "title": "Still Travelling",
+    "seconds": 240.0,
+    "bytes": 1950915,
+    "peak": 0.6086535453796387,
+    "rms": 0.059016199746915805,
+    "loopStep": 1.4009220649313647e-05,
+    "integratedLufs": -23.0,
+    "loudnessRangeLu": 11.5,
+    "notes": 91,
+    "sourceRevision": "440300901dfe9275fd84e0b7763af1f8443ae62e"
+  }
+]

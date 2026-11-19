@@ -1,0 +1,146 @@
+{
+  "version": "0.37.0",
+  "states": [
+    {
+      "label": "landing",
+      "text": "A VOYAGE THROUGH SPACE\n\nCOSMOS\n\nVoyager 1\n1977 — 2026\n\nBegin voyage\nEncounters\nAbout\nSound on",
+      "stage": "encounter",
+      "mode": "landing",
+      "rate": 1,
+      "time": 0,
+      "fov": 58,
+      "view": "probe",
+      "position": [
+        144470220.15900433,
+        -17170201.204834297,
+        39617424.12710526
+      ],
+      "velocity": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "label": "opening",
+      "text": "Leaving home\n\n5 September 1977 · Departure study · 18:00 UTC\n\nProbe camera\nVoyage\n?\nEarth · bearing\n15,199 km\n12.6 km/s\nRelative to Earth\n−\n57×\n+\n57 seconds / second\nNear-body limit · 100× selected\nEarth\n\nSunlit oceans, a thin atmosphere, and the world Voyager left behind.\n\nPhotograph\nP\nContinue to Jupiter\nFlight review\nJournal\nDrag  Look     W / S  Thrust     T  Time flow     Space  Hold time",
+      "stage": "encounter",
+      "mode": "play",
+      "rate": 57.10451381871975,
+      "time": 1.4330999999999998,
+      "fov": 58,
+      "view": "probe",
+      "position": [
+        144471860.33722103,
+        -17170242.763688873,
+        39616464.31672047
+      ],
+      "velocity": [
+        -3.395685263396398,
+        9.657410584973602,
+        -7.270281562258624
+      ]
+    },
+    {
+      "label": "coasting",
+      "text": "Leaving home\n\n5 September 1977 · Departure study · 18:00 UTC\n\nProbe camera\nVoyage\n?\nEarth · bearing\n17,842 km\n12.2 km/s\nRelative to Earth\n−\n77×\n+\n1.3 minutes / second\nNear-body limit · 100k× selected\nA thin atmosphere\n\nThe blue rim is sunlight scattered by Earth’s atmosphere. Almost all of the air we breathe lies in a layer remarkably thin beside the planet.\n\nPhotograph\nP\nContinue to Jupiter\nFlight review\nJournal\nDrag  Look     W / S  Thrust     T  Time flow     Space  Hold time",
+      "stage": "encounter",
+      "mode": "play",
+      "rate": 76.50840728109776,
+      "time": 13.598999999999947,
+      "fov": 58,
+      "view": "probe",
+      "position": [
+        144469630.50654718,
+        -17162931.393427655,
+        39610622.768322505
+      ],
+      "velocity": [
+        -2.4185981579018554,
+        9.188234957220661,
+        -7.720757806828985
+      ]
+    },
+    {
+      "label": "voyage",
+      "text": "×\nEarth & Moon\nEncounter\nSolar system\nVoyage\nCurrent pass\nWhole encounter\nEarth\nVoyager 1\n10,000 km · projected distance\n\nCoast forecast · 2 h 0 min\nOne linear scale. Body symbols enlarged.\n\nLocate a subject\n\nSet a bearing; keep flying freely.\n\nEarth\n17,858 km\nMoon\n407,749 km\nHide bearings\nExplore a viewpoint\nBegin a Moon pass\n→\nEarth’s shadow edge\n→\n\nBegins a separate local pass. Your journal is kept.\n\nMore compositions\nFlight review\nRevisit encounter\nContinue to Jupiter\n→",
+      "stage": "encounter",
+      "mode": "panel",
+      "rate": 0,
+      "time": 13.665599999999948,
+      "fov": 58,
+      "view": "probe",
+      "position": [
+        144469624.34102842,
+        -17162907.960600227,
+        39610603.07539004
+      ],
+      "velocity": [
+        -2.416038079499486,
+        9.18640143525214,
+        -7.721272984138403
+      ]
+    },
+    {
+      "label": "chart",
+      "text": "×\nSolar system\nEncounter\nSolar system\nVoyage\n2 AU\n12 AU\n35 AU\n100 AU\n200 AU\n5\n10\nSun\nMercury\nVenus\nEarth\nJupiter\nSaturn\nVoyager 1\n2 AU · linear scale\n\n5 September 1977 · Departure study · 18:00 UTC\n\nVoyager 1\nFrom the Sun\n1.01 AU\nFrom Earth\n17,858 km\nOne-way light time\n0.1 s\nAbove ecliptic plane\n0.000 AU\n\nLinear scale; enlarged symbols. Positions project onto the ecliptic. Encounter epoch; probe at your flown position.\n\nSun\nMercury\nVenus\nEarth\nMars\nJupiter\nSaturn\nUranus\nNeptune\nVoyager 1\nFlight review\nRevisit encounter\nContinue to Jupiter\n→",
+      "stage": "encounter",
+      "mode": "panel",
+      "rate": 0,
+      "time": 13.665599999999948,
+      "fov": 58,
+      "view": "probe",
+      "position": [
+        144469624.34102842,
+        -17162907.960600227,
+        39610603.07539004
+      ],
+      "velocity": [
+        -2.416038079499486,
+        9.18640143525214,
+        -7.721272984138403
+      ]
+    },
+    {
+      "label": "controls",
+      "text": "×\nFlight controls\nKeyboard & mouse\nXbox\nFly\nTurn\nDrag / arrow keys\nForward / reverse thrust\nW / S\nSideways / vertical thrust\nA D / R F\nRoll\nQ / E\nTime & camera\nHold time\nHold Space\nSlower / faster time\n[ / T\nTake photograph\nP\nLens\nScroll\nCamera / free look\nC / V\nMore controls\n\nThrust makes small corrections. Change time flow to travel farther. Flight review lets you revisit this pass.\n\nReturn to flight\n→",
+      "stage": "encounter",
+      "mode": "panel",
+      "rate": 0,
+      "time": 13.665599999999948,
+      "fov": 58,
+      "view": "probe",
+      "position": [
+        144469624.34102842,
+        -17162907.960600227,
+        39610603.07539004
+      ],
+      "velocity": [
+        -2.416038079499486,
+        9.18640143525214,
+        -7.721272984138403
+      ]
+    },
+    {
+      "label": "pause",
+      "text": "×\nPAUSED\nResume flight\nFlight review\nVoyage\nJournal\nTake photograph\nControls\nSettings\nTitle screen",
+      "stage": "encounter",
+      "mode": "panel",
+      "rate": 0,
+      "time": 13.682299999999948,
+      "fov": 58,
+      "view": "probe",
+      "position": [
+        144469624.34102842,
+        -17162907.960600227,
+        39610603.07539004
+      ],
+      "velocity": [
+        -2.416038079499486,
+        9.18640143525214,
+        -7.721272984138403
+      ]
+    }
+  ],
+  "errors": []
+}

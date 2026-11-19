@@ -1,0 +1,244 @@
+{
+  "version": "0.36.0",
+  "reference": "Released v35 shader, identical view samples, weather field and illumination model. Compare complete display and isolated linear premultiplied cloud output.",
+  "viewport": [
+    800,
+    500
+  ],
+  "outcomes": [
+    {
+      "name": "Chrome",
+      "engineVersion": "158.0.8127.37",
+      "views": [
+        {
+          "label": "closest-ground",
+          "radius": 1.035,
+          "phase": 50,
+          "yaw": 0,
+          "fov": 4,
+          "metrics": {
+            "display": {
+              "mean": 0.00020916666666666666,
+              "rmse": 0.014462595433277757,
+              "max": 1,
+              "changed": 251,
+              "aboveOne": 0,
+              "count": 1200000
+            },
+            "linear": {
+              "mean": 6.331253051757813e-7,
+              "rmse": 0.000011148422574017911,
+              "max": 0.000244140625,
+              "changed": 5807,
+              "aboveOne": 0,
+              "count": 1600000
+            }
+          },
+          "draws": {
+            "previous": {
+              "calls": 6,
+              "triangles": 219650
+            },
+            "candidate": {
+              "calls": 6,
+              "triangles": 219650
+            }
+          }
+        },
+        {
+          "label": "closest-limb",
+          "radius": 1.035,
+          "phase": 35,
+          "yaw": 1.3,
+          "fov": 4,
+          "metrics": {
+            "display": {
+              "mean": 0.0004108333333333333,
+              "rmse": 0.020269023985711135,
+              "max": 1,
+              "changed": 493,
+              "aboveOne": 0,
+              "count": 1200000
+            },
+            "linear": {
+              "mean": 0.000004889124408364296,
+              "rmse": 0.00007979682782508689,
+              "max": 0.01171875,
+              "changed": 10768,
+              "aboveOne": 0,
+              "count": 1600000
+            }
+          },
+          "draws": {
+            "previous": {
+              "calls": 6,
+              "triangles": 219650
+            },
+            "candidate": {
+              "calls": 6,
+              "triangles": 219650
+            }
+          }
+        }
+      ],
+      "errors": [],
+      "passed": true
+    },
+    {
+      "name": "Firefox",
+      "engineVersion": "153.0",
+      "views": [
+        {
+          "label": "closest-ground",
+          "radius": 1.035,
+          "phase": 50,
+          "yaw": 0,
+          "fov": 4,
+          "metrics": {
+            "display": {
+              "mean": 0.0005333333333333334,
+              "rmse": 0.023094010767585032,
+              "max": 1,
+              "changed": 640,
+              "aboveOne": 0,
+              "count": 1200000
+            },
+            "linear": {
+              "mean": 0.0000016162872314453126,
+              "rmse": 0.00001806269427132327,
+              "max": 0.000244140625,
+              "changed": 14326,
+              "aboveOne": 0,
+              "count": 1600000
+            }
+          },
+          "draws": {
+            "previous": {
+              "calls": 6,
+              "triangles": 219650
+            },
+            "candidate": {
+              "calls": 6,
+              "triangles": 219650
+            }
+          }
+        },
+        {
+          "label": "closest-limb",
+          "radius": 1.035,
+          "phase": 35,
+          "yaw": 1.3,
+          "fov": 4,
+          "metrics": {
+            "display": {
+              "mean": 0.0005425,
+              "rmse": 0.023291629397704232,
+              "max": 1,
+              "changed": 651,
+              "aboveOne": 0,
+              "count": 1200000
+            },
+            "linear": {
+              "mean": 0.0000062707824259996414,
+              "rmse": 0.00008926875772953856,
+              "max": 0.0126953125,
+              "changed": 14638,
+              "aboveOne": 0,
+              "count": 1600000
+            }
+          },
+          "draws": {
+            "previous": {
+              "calls": 6,
+              "triangles": 219650
+            },
+            "candidate": {
+              "calls": 6,
+              "triangles": 219650
+            }
+          }
+        }
+      ],
+      "errors": [],
+      "passed": true
+    },
+    {
+      "name": "WebKit",
+      "engineVersion": "26.5",
+      "views": [
+        {
+          "label": "closest-ground",
+          "radius": 1.035,
+          "phase": 50,
+          "yaw": 0,
+          "fov": 4,
+          "metrics": {
+            "display": {
+              "mean": 0.00020916666666666666,
+              "rmse": 0.014462595433277757,
+              "max": 1,
+              "changed": 251,
+              "aboveOne": 0,
+              "count": 1200000
+            },
+            "linear": {
+              "mean": 6.331253051757813e-7,
+              "rmse": 0.000011148422574017911,
+              "max": 0.000244140625,
+              "changed": 5807,
+              "aboveOne": 0,
+              "count": 1600000
+            }
+          },
+          "draws": {
+            "previous": {
+              "calls": 6,
+              "triangles": 219650
+            },
+            "candidate": {
+              "calls": 6,
+              "triangles": 219650
+            }
+          }
+        },
+        {
+          "label": "closest-limb",
+          "radius": 1.035,
+          "phase": 35,
+          "yaw": 1.3,
+          "fov": 4,
+          "metrics": {
+            "display": {
+              "mean": 0.00041,
+              "rmse": 0.020248456731316585,
+              "max": 1,
+              "changed": 492,
+              "aboveOne": 0,
+              "count": 1200000
+            },
+            "linear": {
+              "mean": 0.000004889124408364296,
+              "rmse": 0.00007979682782508689,
+              "max": 0.01171875,
+              "changed": 10768,
+              "aboveOne": 0,
+              "count": 1600000
+            }
+          },
+          "draws": {
+            "previous": {
+              "calls": 6,
+              "triangles": 219650
+            },
+            "candidate": {
+              "calls": 6,
+              "triangles": 219650
+            }
+          }
+        }
+      ],
+      "errors": [],
+      "passed": true
+    }
+  ]
+}

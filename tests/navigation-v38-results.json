@@ -1,0 +1,2819 @@
+{
+  "version": "0.38.0",
+  "outcomes": [
+    {
+      "name": "Chrome",
+      "engineVersion": "158.0.8127.37",
+      "bearings": [
+        {
+          "width": 1440,
+          "height": 900,
+          "corner": 0,
+          "framed": {
+            "visible": true,
+            "angularRadius": 0.3634774890628658,
+            "separation": 0.09675222156304174,
+            "penetration": 0.26672526749982406,
+            "prominence": 0.09694863050045725,
+            "bounds": {
+              "x": 1.722333002954158,
+              "y": -1.910514360681164,
+              "halfWidth": 1.2560001569517638,
+              "halfHeight": 1.6600555334728897
+            },
+            "ellipse": {
+              "major": 2.285958431497209,
+              "minor": 1.252466204331954,
+              "angle": 0.6062065270526777
+            }
+          },
+          "obstacles": [
+            {
+              "left": 57.59375,
+              "right": 351.125,
+              "top": 28,
+              "bottom": 132.390625
+            },
+            {
+              "left": 1072.171875,
+              "right": 1382.40625,
+              "top": 28,
+              "bottom": 74
+            }
+          ],
+          "leaderPoints": [
+            1061.9,
+            822.1,
+            904.2,
+            779.9
+          ],
+          "resolved": true,
+          "leader": true,
+          "box": {
+            "x": 811.890625,
+            "y": 748,
+            "width": 84.609375,
+            "height": 37
+          },
+          "anchor": {
+            "x": 1068.6620763090812,
+            "y": 823.9095093230388
+          },
+          "tangentError": 0.000010991543360872047
+        },
+        {
+          "width": 1440,
+          "height": 900,
+          "corner": 1,
+          "framed": {
+            "visible": true,
+            "angularRadius": 0.3634774890628658,
+            "separation": 0.2627819435869706,
+            "penetration": 0.10069554547589521,
+            "prominence": 0.03660056402939401,
+            "bounds": {
+              "x": -1.1940714754257267,
+              "y": -2.7557328047266516,
+              "halfWidth": 1.0375347084205557,
+              "halfHeight": 2.0096002511228215
+            },
+            "ellipse": {
+              "major": 2.2859584314972077,
+              "minor": 1.2524662043319537,
+              "angle": 2.1770028538475743
+            }
+          },
+          "obstacles": [
+            {
+              "left": 57.59375,
+              "right": 351.125,
+              "top": 28,
+              "bottom": 132.390625
+            },
+            {
+              "left": 1072.171875,
+              "right": 1382.40625,
+              "top": 28,
+              "bottom": 74
+            }
+          ],
+          "leaderPoints": [
+            243.7,
+            778.8,
+            243.7,
+            768.8
+          ],
+          "resolved": true,
+          "leader": true,
+          "box": {
+            "x": 201.375,
+            "y": 723.75,
+            "width": 84.609375,
+            "height": 37
+          },
+          "anchor": {
+            "x": 243.7,
+            "y": 785.8
+          },
+          "tangentError": 0.00003731208045815171
+        },
+        {
+          "width": 1440,
+          "height": 900,
+          "corner": 2,
+          "framed": {
+            "visible": true,
+            "angularRadius": 0.3634774890628658,
+            "separation": 0.09675222156304518,
+            "penetration": 0.2667252674998206,
+            "prominence": 0.096948630500456,
+            "bounds": {
+              "x": -1.7223330029541564,
+              "y": 1.9105143606811634,
+              "halfWidth": 1.2560001569517631,
+              "halfHeight": 1.6600555334728895
+            },
+            "ellipse": {
+              "major": 2.2859584314972077,
+              "minor": 1.2524662043319537,
+              "angle": -2.5353861265371154
+            }
+          },
+          "obstacles": [
+            {
+              "left": 57.59375,
+              "right": 351.125,
+              "top": 28,
+              "bottom": 132.390625
+            },
+            {
+              "left": 1072.171875,
+              "right": 1382.40625,
+              "top": 28,
+              "bottom": 74
+            }
+          ],
+          "leaderPoints": [
+            378.1,
+            77.9,
+            547,
+            123.1
+          ],
+          "resolved": true,
+          "leader": true,
+          "box": {
+            "x": 554.6875,
+            "y": 118,
+            "width": 84.609375,
+            "height": 37
+          },
+          "anchor": {
+            "x": 371.33795285394416,
+            "y": 76.0903816992201
+          },
+          "tangentError": 0.000010991592875486678
+        },
+        {
+          "width": 1440,
+          "height": 900,
+          "corner": 3,
+          "framed": {
+            "visible": true,
+            "angularRadius": 0.3634774890628658,
+            "separation": 0.26278194358696977,
+            "penetration": 0.10069554547589604,
+            "prominence": 0.03660056402939431,
+            "bounds": {
+              "x": 1.194071475425728,
+              "y": 2.7557328047266516,
+              "halfWidth": 1.0375347084205562,
+              "halfHeight": 2.009600251122822
+            },
+            "ellipse": {
+              "major": 2.285958431497209,
+              "minor": 1.252466204331954,
+              "angle": -0.9645897997422186
+            }
+          },
+          "obstacles": [
+            {
+              "left": 57.59375,
+              "right": 351.125,
+              "top": 28,
+              "bottom": 132.390625
+            },
+            {
+              "left": 1072.171875,
+              "right": 1382.40625,
+              "top": 28,
+              "bottom": 74
+            }
+          ],
+          "leaderPoints": [
+            1196.3,
+            121.2,
+            1196.3,
+            131.2
+          ],
+          "resolved": true,
+          "leader": true,
+          "box": {
+            "x": 1154,
+            "y": 139.234375,
+            "width": 84.609375,
+            "height": 37
+          },
+          "anchor": {
+            "x": 1196.3,
+            "y": 114.2
+          },
+          "tangentError": 0.00003731208045815171
+        },
+        {
+          "width": 1024,
+          "height": 640,
+          "corner": 0,
+          "framed": {
+            "visible": true,
+            "angularRadius": 0.3634774890628658,
+            "separation": 0.09675222156304174,
+            "penetration": 0.26672526749982406,
+            "prominence": 0.09694863050045725,
+            "bounds": {
+              "x": 1.722333002954158,
+              "y": -1.910514360681164,
+              "halfWidth": 1.2560001569517638,
+              "halfHeight": 1.6600555334728897
+            },
+            "ellipse": {
+              "major": 2.285958431497209,
+              "minor": 1.252466204331954,
+              "angle": 0.6062065270526777
+            }
+          },
+          "obstacles": [
+            {
+              "left": 40.953125,
+              "right": 334.484375,
+              "top": 22,
+              "bottom": 126.390625
+            },
+            {
+              "left": 702.8125,
+              "right": 983.046875,
+              "top": 22,
+              "bottom": 68
+            }
+          ],
+          "leaderPoints": [
+            753.2,
+            584.1,
+            513.5,
+            519.9
+          ],
+          "resolved": true,
+          "leader": true,
+          "box": {
+            "x": 421.1875,
+            "y": 488,
+            "width": 84.609375,
+            "height": 37
+          },
+          "anchor": {
+            "x": 759.9616741275931,
+            "y": 585.9110115936232
+          },
+          "tangentError": 0.00004783992337964449
+        },
+        {
+          "width": 1024,
+          "height": 640,
+          "corner": 1,
+          "framed": {
+            "visible": true,
+            "angularRadius": 0.3634774890628658,
+            "separation": 0.2627819435869706,
+            "penetration": 0.10069554547589521,
+            "prominence": 0.03660056402939401,
+            "bounds": {
+              "x": -1.1940714754257267,
+              "y": -2.7557328047266516,
+              "halfWidth": 1.0375347084205557,
+              "halfHeight": 2.0096002511228215
+            },
+            "ellipse": {
+              "major": 2.2859584314972077,
+              "minor": 1.2524662043319537,
+              "angle": 2.1770028538475743
+            }
+          },
+          "obstacles": [
+            {
+              "left": 40.953125,
+              "right": 334.484375,
+              "top": 22,
+              "bottom": 126.390625
+            },
+            {
+              "left": 702.8125,
+              "right": 983.046875,
+              "top": 22,
+              "bottom": 68
+            }
+          ],
+          "leaderPoints": [
+            173.3,
+            551.8,
+            173.3,
+            533
+          ],
+          "resolved": true,
+          "leader": true,
+          "box": {
+            "x": 130.984375,
+            "y": 488,
+            "width": 84.609375,
+            "height": 37
+          },
+          "anchor": {
+            "x": 173.3,
+            "y": 558.8
+          },
+          "tangentError": 0.00004887044759693815
+        },
+        {
+          "width": 1024,
+          "height": 640,
+          "corner": 2,
+          "framed": {
+            "visible": true,
+            "angularRadius": 0.3634774890628658,
+            "separation": 0.09675222156304518,
+            "penetration": 0.2667252674998206,
+            "prominence": 0.096948630500456,
+            "bounds": {
+              "x": -1.7223330029541564,
+              "y": 1.9105143606811634,
+              "halfWidth": 1.2560001569517631,
+              "halfHeight": 1.6600555334728895
+            },
+            "ellipse": {
+              "major": 2.2859584314972077,
+              "minor": 1.2524662043319537,
+              "angle": -2.5353861265371154
+            }
+          },
+          "obstacles": [
+            {
+              "left": 40.953125,
+              "right": 334.484375,
+              "top": 22,
+              "bottom": 126.390625
+            },
+            {
+              "left": 702.8125,
+              "right": 983.046875,
+              "top": 22,
+              "bottom": 68
+            },
+            {
+              "left": 40.953125,
+              "right": 460.953125,
+              "top": 392.5,
+              "bottom": 502
+            }
+          ],
+          "leaderPoints": [
+            210.8,
+            160.9,
+            229.8,
+            179.8
+          ],
+          "resolved": true,
+          "leader": true,
+          "box": {
+            "x": 211.609375,
+            "y": 185.484375,
+            "width": 84.609375,
+            "height": 37
+          },
+          "anchor": {
+            "x": 205.83720978693677,
+            "y": 155.96332973542656
+          },
+          "tangentError": 0.00005159499642815035
+        },
+        {
+          "width": 1024,
+          "height": 640,
+          "corner": 3,
+          "framed": {
+            "visible": true,
+            "angularRadius": 0.3634774890628658,
+            "separation": 0.26278194358696977,
+            "penetration": 0.10069554547589604,
+            "prominence": 0.03660056402939431,
+            "bounds": {
+              "x": 1.194071475425728,
+              "y": 2.7557328047266516,
+              "halfWidth": 1.0375347084205562,
+              "halfHeight": 2.009600251122822
+            },
+            "ellipse": {
+              "major": 2.285958431497209,
+              "minor": 1.252466204331954,
+              "angle": -0.9645897997422186
+            }
+          },
+          "obstacles": [
+            {
+              "left": 40.953125,
+              "right": 334.484375,
+              "top": 22,
+              "bottom": 126.390625
+            },
+            {
+              "left": 702.8125,
+              "right": 983.046875,
+              "top": 22,
+              "bottom": 68
+            },
+            {
+              "left": 40.953125,
+              "right": 460.953125,
+              "top": 392.5,
+              "bottom": 502
+            }
+          ],
+          "leaderPoints": [
+            850.7,
+            88.2,
+            850.7,
+            110
+          ],
+          "resolved": true,
+          "leader": true,
+          "box": {
+            "x": 808.390625,
+            "y": 118,
+            "width": 84.609375,
+            "height": 37
+          },
+          "anchor": {
+            "x": 850.7,
+            "y": 81.2
+          },
+          "tangentError": 0.00004887044759660508
+        },
+        {
+          "width": 800,
+          "height": 600,
+          "corner": 0,
+          "framed": {
+            "visible": true,
+            "angularRadius": 0.3634774890628658,
+            "separation": 0.15427883784253058,
+            "penetration": 0.20919865122033524,
+            "prominence": 0.07603900046090568,
+            "bounds": {
+              "x": 2.06679960354499,
+              "y": -1.910514360681164,
+              "halfWidth": 1.5072001883421169,
+              "halfHeight": 1.6600555334728897
+            },
+            "ellipse": {
+              "major": 2.285958431497209,
+              "minor": 1.252466204331954,
+              "angle": 0.6062065270526777
+            }
+          },
+          "obstacles": [
+            {
+              "left": 32,
+              "right": 298.84375,
+              "top": 22,
+              "bottom": 121.1875
+            },
+            {
+              "left": 528.015625,
+              "right": 768,
+              "top": 22,
+              "bottom": 68
+            },
+            {
+              "left": 32,
+              "right": 392,
+              "top": 350.5,
+              "bottom": 460
+            }
+          ],
+          "leaderPoints": [
+            647.9,
+            493.3,
+            631.6,
+            483.9
+          ],
+          "resolved": true,
+          "leader": true,
+          "box": {
+            "x": 550.296875,
+            "y": 442.875,
+            "width": 84.609375,
+            "height": 37
+          },
+          "anchor": {
+            "x": 653.9639183516947,
+            "y": 496.7969835893209
+          },
+          "tangentError": 0.00006579212370411147
+        },
+        {
+          "width": 800,
+          "height": 600,
+          "corner": 1,
+          "framed": {
+            "visible": true,
+            "angularRadius": 0.3634774890628658,
+            "separation": 0.26278194358697016,
+            "penetration": 0.10069554547589565,
+            "prominence": 0.03660056402939417,
+            "bounds": {
+              "x": -1.4328857705108722,
+              "y": -2.7557328047266516,
+              "halfWidth": 1.2450416501046668,
+              "halfHeight": 2.0096002511228215
+            },
+            "ellipse": {
+              "major": 2.2859584314972077,
+              "minor": 1.2524662043319537,
+              "angle": 2.1770028538475743
+            }
+          },
+          "obstacles": [
+            {
+              "left": 32,
+              "right": 298.84375,
+              "top": 22,
+              "bottom": 121.1875
+            },
+            {
+              "left": 528.015625,
+              "right": 768,
+              "top": 22,
+              "bottom": 68
+            },
+            {
+              "left": 32,
+              "right": 392,
+              "top": 350.5,
+              "bottom": 460
+            }
+          ],
+          "leaderPoints": [
+            259.1,
+            590.5,
+            416.6,
+            448.8
+          ],
+          "resolved": true,
+          "leader": true,
+          "box": {
+            "x": 400.734375,
+            "y": 406.40625,
+            "width": 84.609375,
+            "height": 37
+          },
+          "anchor": {
+            "x": 253.89611960717036,
+            "y": 595.1818403280251
+          },
+          "tangentError": 0.0000038109705528532878
+        },
+        {
+          "width": 800,
+          "height": 600,
+          "corner": 2,
+          "framed": {
+            "visible": true,
+            "angularRadius": 0.3634774890628658,
+            "separation": 0.15427883784253202,
+            "penetration": 0.2091986512203338,
+            "prominence": 0.07603900046090516,
+            "bounds": {
+              "x": -2.0667996035449883,
+              "y": 1.9105143606811634,
+              "halfWidth": 1.507200188342116,
+              "halfHeight": 1.6600555334728895
+            },
+            "ellipse": {
+              "major": 2.2859584314972077,
+              "minor": 1.2524662043319537,
+              "angle": -2.5353861265371154
+            }
+          },
+          "obstacles": [
+            {
+              "left": 32,
+              "right": 298.84375,
+              "top": 22,
+              "bottom": 121.1875
+            },
+            {
+              "left": 528.015625,
+              "right": 768,
+              "top": 22,
+              "bottom": 68
+            },
+            {
+              "left": 32,
+              "right": 392,
+              "top": 350.5,
+              "bottom": 460
+            }
+          ],
+          "leaderPoints": [
+            117.9,
+            151.1,
+            136.9,
+            170.1
+          ],
+          "resolved": true,
+          "leader": true,
+          "box": {
+            "x": 118.734375,
+            "y": 175.734375,
+            "width": 84.609375,
+            "height": 37
+          },
+          "anchor": {
+            "x": 112.95025253169418,
+            "y": 146.15025253169415
+          },
+          "tangentError": 0.00003329280352976083
+        },
+        {
+          "width": 800,
+          "height": 600,
+          "corner": 3,
+          "framed": {
+            "visible": true,
+            "angularRadius": 0.3634774890628658,
+            "separation": 0.2627819435869706,
+            "penetration": 0.10069554547589521,
+            "prominence": 0.03660056402939401,
+            "bounds": {
+              "x": 1.432885770510873,
+              "y": 2.7557328047266516,
+              "halfWidth": 1.2450416501046675,
+              "halfHeight": 2.009600251122822
+            },
+            "ellipse": {
+              "major": 2.285958431497209,
+              "minor": 1.252466204331954,
+              "angle": -0.9645897997422187
+            }
+          },
+          "obstacles": [
+            {
+              "left": 32,
+              "right": 298.84375,
+              "top": 22,
+              "bottom": 121.1875
+            },
+            {
+              "left": 528.015625,
+              "right": 768,
+              "top": 22,
+              "bottom": 68
+            },
+            {
+              "left": 32,
+              "right": 392,
+              "top": 350.5,
+              "bottom": 460
+            }
+          ],
+          "leaderPoints": [
+            717.5,
+            83.2,
+            717.5,
+            110
+          ],
+          "resolved": true,
+          "leader": true,
+          "box": {
+            "x": 675.21875,
+            "y": 118,
+            "width": 84.609375,
+            "height": 37
+          },
+          "anchor": {
+            "x": 717.5,
+            "y": 76.2
+          },
+          "tangentError": 0.00005516232626379125
+        }
+      ],
+      "time": [
+        {
+          "label": "held-selection",
+          "rate": 0,
+          "index": 5,
+          "position": [
+            144472013.8703407,
+            -17170675.828623302,
+            39616789.088083945
+          ],
+          "readout": "Held",
+          "detail": "Press Space to resume",
+          "status": "Near-body limit · 100k× selected",
+          "toastVisible": false,
+          "toast": ""
+        },
+        {
+          "label": "limited-flow",
+          "rate": 2.509290389936298,
+          "status": "Near-body limit · 100k× selected",
+          "detail": "3 seconds / second"
+        }
+      ],
+      "temporaryHold": "Release Space to resume",
+      "boundaryDeparture": {
+        "stage": "transit",
+        "boundary": false,
+        "proximity": false,
+        "rate": 999999.9999999999
+      },
+      "passageTimeButton": {
+        "paused": true,
+        "rate": 0
+      },
+      "deliberateHoldRetained": true,
+      "layouts": [
+        {
+          "size": {
+            "width": 1440,
+            "height": 900
+          },
+          "boxes": [
+            {
+              "id": "slower-time",
+              "x": 174.125,
+              "y": 794,
+              "width": 44,
+              "height": 44,
+              "right": 218.125,
+              "bottom": 838
+            },
+            {
+              "id": "time-toggle",
+              "x": 218.125,
+              "y": 794,
+              "width": 64,
+              "height": 44,
+              "right": 282.125,
+              "bottom": 838
+            },
+            {
+              "id": "time-rate",
+              "x": 226.125,
+              "y": 804.125,
+              "width": 48,
+              "height": 23.75,
+              "right": 274.125,
+              "bottom": 827.875
+            },
+            {
+              "id": "faster-time",
+              "x": 282.125,
+              "y": 794,
+              "width": 44,
+              "height": 44,
+              "right": 326.125,
+              "bottom": 838
+            },
+            {
+              "id": "time-flow-detail",
+              "x": 182.125,
+              "y": 836,
+              "width": 165,
+              "height": 17,
+              "right": 347.125,
+              "bottom": 853
+            },
+            {
+              "id": "time-limit",
+              "x": 182.125,
+              "y": 858,
+              "width": 165,
+              "height": 17,
+              "right": 347.125,
+              "bottom": 875
+            }
+          ]
+        },
+        {
+          "size": {
+            "width": 1024,
+            "height": 640
+          },
+          "boxes": [
+            {
+              "id": "slower-time",
+              "x": 157.484375,
+              "y": 534,
+              "width": 44,
+              "height": 44,
+              "right": 201.484375,
+              "bottom": 578
+            },
+            {
+              "id": "time-toggle",
+              "x": 201.484375,
+              "y": 534,
+              "width": 64,
+              "height": 44,
+              "right": 265.484375,
+              "bottom": 578
+            },
+            {
+              "id": "time-rate",
+              "x": 209.484375,
+              "y": 544.125,
+              "width": 48,
+              "height": 23.75,
+              "right": 257.484375,
+              "bottom": 567.875
+            },
+            {
+              "id": "faster-time",
+              "x": 265.484375,
+              "y": 534,
+              "width": 44,
+              "height": 44,
+              "right": 309.484375,
+              "bottom": 578
+            },
+            {
+              "id": "time-flow-detail",
+              "x": 165.484375,
+              "y": 576,
+              "width": 165,
+              "height": 17,
+              "right": 330.484375,
+              "bottom": 593
+            },
+            {
+              "id": "time-limit",
+              "x": 165.484375,
+              "y": 598,
+              "width": 165,
+              "height": 17,
+              "right": 330.484375,
+              "bottom": 615
+            }
+          ]
+        },
+        {
+          "size": {
+            "width": 800,
+            "height": 600
+          },
+          "boxes": [
+            {
+              "id": "slower-time",
+              "x": 131.53125,
+              "y": 494,
+              "width": 44,
+              "height": 44,
+              "right": 175.53125,
+              "bottom": 538
+            },
+            {
+              "id": "time-toggle",
+              "x": 175.53125,
+              "y": 494,
+              "width": 64,
+              "height": 44,
+              "right": 239.53125,
+              "bottom": 538
+            },
+            {
+              "id": "time-rate",
+              "x": 183.53125,
+              "y": 504.125,
+              "width": 48,
+              "height": 23.75,
+              "right": 231.53125,
+              "bottom": 527.875
+            },
+            {
+              "id": "faster-time",
+              "x": 239.53125,
+              "y": 494,
+              "width": 44,
+              "height": 44,
+              "right": 283.53125,
+              "bottom": 538
+            },
+            {
+              "id": "time-flow-detail",
+              "x": 139.53125,
+              "y": 536,
+              "width": 165,
+              "height": 17,
+              "right": 304.53125,
+              "bottom": 553
+            },
+            {
+              "id": "time-limit",
+              "x": 139.53125,
+              "y": 558,
+              "width": 165,
+              "height": 17,
+              "right": 304.53125,
+              "bottom": 575
+            }
+          ]
+        }
+      ],
+      "controller": {
+        "selection": "3M× selected",
+        "temporaryHoldResumes": true,
+        "physicalControllerTested": false
+      },
+      "errors": [],
+      "passed": true
+    },
+    {
+      "name": "Firefox",
+      "engineVersion": "153.0",
+      "bearings": [
+        {
+          "width": 1440,
+          "height": 900,
+          "corner": 0,
+          "framed": {
+            "visible": true,
+            "angularRadius": 0.3634774890628658,
+            "separation": 0.09675222156304174,
+            "penetration": 0.26672526749982406,
+            "prominence": 0.09694863050045725,
+            "bounds": {
+              "x": 1.722333002954158,
+              "y": -1.910514360681164,
+              "halfWidth": 1.2560001569517638,
+              "halfHeight": 1.6600555334728897
+            },
+            "ellipse": {
+              "major": 2.285958431497209,
+              "minor": 1.252466204331954,
+              "angle": 0.6062065270526777
+            }
+          },
+          "obstacles": [
+            {
+              "left": 57.600006103515625,
+              "right": 351.23333740234375,
+              "top": 28,
+              "bottom": 132.39999389648438
+            },
+            {
+              "left": 1072.2166748046875,
+              "right": 1382.4000244140625,
+              "top": 28,
+              "bottom": 75
+            }
+          ],
+          "leaderPoints": [
+            1061.9,
+            822.1,
+            898.6,
+            778.4
+          ],
+          "resolved": true,
+          "leader": true,
+          "box": {
+            "x": 806.2999877929688,
+            "y": 745,
+            "width": 84.59999084472656,
+            "height": 40
+          },
+          "anchor": {
+            "x": 1068.6620612277168,
+            "y": 823.9095656806567
+          },
+          "tangentError": 0.000010991569179941152
+        },
+        {
+          "width": 1440,
+          "height": 900,
+          "corner": 1,
+          "framed": {
+            "visible": true,
+            "angularRadius": 0.3634774890628658,
+            "separation": 0.2627819435869706,
+            "penetration": 0.10069554547589521,
+            "prominence": 0.03660056402939401,
+            "bounds": {
+              "x": -1.1940714754257267,
+              "y": -2.7557328047266516,
+              "halfWidth": 1.0375347084205557,
+              "halfHeight": 2.0096002511228215
+            },
+            "ellipse": {
+              "major": 2.2859584314972077,
+              "minor": 1.2524662043319537,
+              "angle": 2.1770028538475743
+            }
+          },
+          "obstacles": [
+            {
+              "left": 57.600006103515625,
+              "right": 351.23333740234375,
+              "top": 28,
+              "bottom": 132.39999389648438
+            },
+            {
+              "left": 1072.2166748046875,
+              "right": 1382.4000244140625,
+              "top": 28,
+              "bottom": 75
+            }
+          ],
+          "leaderPoints": [
+            243.7,
+            778.8,
+            243.7,
+            768.8
+          ],
+          "resolved": true,
+          "leader": true,
+          "box": {
+            "x": 201.39999389648438,
+            "y": 720.7666625976562,
+            "width": 84.60000610351562,
+            "height": 40
+          },
+          "anchor": {
+            "x": 243.7,
+            "y": 785.8
+          },
+          "tangentError": 0.00003731208045815171
+        },
+        {
+          "width": 1440,
+          "height": 900,
+          "corner": 2,
+          "framed": {
+            "visible": true,
+            "angularRadius": 0.3634774890628658,
+            "separation": 0.09675222156304518,
+            "penetration": 0.2667252674998206,
+            "prominence": 0.096948630500456,
+            "bounds": {
+              "x": -1.7223330029541564,
+              "y": 1.9105143606811634,
+              "halfWidth": 1.2560001569517631,
+              "halfHeight": 1.6600555334728895
+            },
+            "ellipse": {
+              "major": 2.2859584314972077,
+              "minor": 1.2524662043319537,
+              "angle": -2.5353861265371154
+            }
+          },
+          "obstacles": [
+            {
+              "left": 57.600006103515625,
+              "right": 351.23333740234375,
+              "top": 28,
+              "bottom": 132.39999389648438
+            },
+            {
+              "left": 1072.2166748046875,
+              "right": 1382.4000244140625,
+              "top": 28,
+              "bottom": 75
+            }
+          ],
+          "leaderPoints": [
+            378.1,
+            77.9,
+            552.6,
+            124.6
+          ],
+          "resolved": true,
+          "leader": true,
+          "box": {
+            "x": 560.2999877929688,
+            "y": 118,
+            "width": 84.59999084472656,
+            "height": 40
+          },
+          "anchor": {
+            "x": 371.33796603211414,
+            "y": 76.09033245673199
+          },
+          "tangentError": 0.0000109916146898148
+        },
+        {
+          "width": 1440,
+          "height": 900,
+          "corner": 3,
+          "framed": {
+            "visible": true,
+            "angularRadius": 0.3634774890628658,
+            "separation": 0.26278194358696977,
+            "penetration": 0.10069554547589604,
+            "prominence": 0.03660056402939431,
+            "bounds": {
+              "x": 1.194071475425728,
+              "y": 2.7557328047266516,
+              "halfWidth": 1.0375347084205562,
+              "halfHeight": 2.009600251122822
+            },
+            "ellipse": {
+              "major": 2.285958431497209,
+              "minor": 1.252466204331954,
+              "angle": -0.9645897997422186
+            }
+          },
+          "obstacles": [
+            {
+              "left": 57.600006103515625,
+              "right": 351.23333740234375,
+              "top": 28,
+              "bottom": 132.39999389648438
+            },
+            {
+              "left": 1072.2166748046875,
+              "right": 1382.4000244140625,
+              "top": 28,
+              "bottom": 75
+            }
+          ],
+          "leaderPoints": [
+            1196.3,
+            121.2,
+            1196.3,
+            131.2
+          ],
+          "resolved": true,
+          "leader": true,
+          "box": {
+            "x": 1154,
+            "y": 139.23333740234375,
+            "width": 84.60000610351562,
+            "height": 40
+          },
+          "anchor": {
+            "x": 1196.3,
+            "y": 114.2
+          },
+          "tangentError": 0.00003731208045815171
+        },
+        {
+          "width": 1024,
+          "height": 640,
+          "corner": 0,
+          "framed": {
+            "visible": true,
+            "angularRadius": 0.3634774890628658,
+            "separation": 0.09675222156304174,
+            "penetration": 0.26672526749982406,
+            "prominence": 0.09694863050045725,
+            "bounds": {
+              "x": 1.722333002954158,
+              "y": -1.910514360681164,
+              "halfWidth": 1.2560001569517638,
+              "halfHeight": 1.6600555334728897
+            },
+            "ellipse": {
+              "major": 2.285958431497209,
+              "minor": 1.252466204331954,
+              "angle": 0.6062065270526777
+            }
+          },
+          "obstacles": [
+            {
+              "left": 40.94999694824219,
+              "right": 334.5833282470703,
+              "top": 22,
+              "bottom": 126.39999389648438
+            },
+            {
+              "left": 702.86669921875,
+              "right": 983.050048828125,
+              "top": 22,
+              "bottom": 69
+            }
+          ],
+          "leaderPoints": [
+            753.2,
+            584.1,
+            507.9,
+            518.4
+          ],
+          "resolved": true,
+          "leader": true,
+          "box": {
+            "x": 415.6000061035156,
+            "y": 485,
+            "width": 84.59999084472656,
+            "height": 40
+          },
+          "anchor": {
+            "x": 759.9616732654297,
+            "y": 585.9110148126324
+          },
+          "tangentError": 0.000047839924309123205
+        },
+        {
+          "width": 1024,
+          "height": 640,
+          "corner": 1,
+          "framed": {
+            "visible": true,
+            "angularRadius": 0.3634774890628658,
+            "separation": 0.2627819435869706,
+            "penetration": 0.10069554547589521,
+            "prominence": 0.03660056402939401,
+            "bounds": {
+              "x": -1.1940714754257267,
+              "y": -2.7557328047266516,
+              "halfWidth": 1.0375347084205557,
+              "halfHeight": 2.0096002511228215
+            },
+            "ellipse": {
+              "major": 2.2859584314972077,
+              "minor": 1.2524662043319537,
+              "angle": 2.1770028538475743
+            }
+          },
+          "obstacles": [
+            {
+              "left": 40.94999694824219,
+              "right": 334.5833282470703,
+              "top": 22,
+              "bottom": 126.39999389648438
+            },
+            {
+              "left": 702.86669921875,
+              "right": 983.050048828125,
+              "top": 22,
+              "bottom": 69
+            }
+          ],
+          "leaderPoints": [
+            173.3,
+            551.8,
+            173.3,
+            533
+          ],
+          "resolved": true,
+          "leader": true,
+          "box": {
+            "x": 131,
+            "y": 485,
+            "width": 84.60000610351562,
+            "height": 40
+          },
+          "anchor": {
+            "x": 173.3,
+            "y": 558.8
+          },
+          "tangentError": 0.00004887044759693815
+        },
+        {
+          "width": 1024,
+          "height": 640,
+          "corner": 2,
+          "framed": {
+            "visible": true,
+            "angularRadius": 0.3634774890628658,
+            "separation": 0.09675222156304518,
+            "penetration": 0.2667252674998206,
+            "prominence": 0.096948630500456,
+            "bounds": {
+              "x": -1.7223330029541564,
+              "y": 1.9105143606811634,
+              "halfWidth": 1.2560001569517631,
+              "halfHeight": 1.6600555334728895
+            },
+            "ellipse": {
+              "major": 2.2859584314972077,
+              "minor": 1.2524662043319537,
+              "angle": -2.5353861265371154
+            }
+          },
+          "obstacles": [
+            {
+              "left": 40.94999694824219,
+              "right": 334.5833282470703,
+              "top": 22,
+              "bottom": 126.39999389648438
+            },
+            {
+              "left": 702.86669921875,
+              "right": 983.050048828125,
+              "top": 22,
+              "bottom": 69
+            }
+          ],
+          "leaderPoints": [
+            210.8,
+            160.9,
+            229,
+            179.1
+          ],
+          "resolved": true,
+          "leader": true,
+          "box": {
+            "x": 212.36666870117188,
+            "y": 184.73333740234375,
+            "width": 84.59999084472656,
+            "height": 40
+          },
+          "anchor": {
+            "x": 205.85025253169417,
+            "y": 155.95025253169416
+          },
+          "tangentError": 0.00005156010603368788
+        },
+        {
+          "width": 1024,
+          "height": 640,
+          "corner": 3,
+          "framed": {
+            "visible": true,
+            "angularRadius": 0.3634774890628658,
+            "separation": 0.26278194358696977,
+            "penetration": 0.10069554547589604,
+            "prominence": 0.03660056402939431,
+            "bounds": {
+              "x": 1.194071475425728,
+              "y": 2.7557328047266516,
+              "halfWidth": 1.0375347084205562,
+              "halfHeight": 2.009600251122822
+            },
+            "ellipse": {
+              "major": 2.285958431497209,
+              "minor": 1.252466204331954,
+              "angle": -0.9645897997422186
+            }
+          },
+          "obstacles": [
+            {
+              "left": 40.94999694824219,
+              "right": 334.5833282470703,
+              "top": 22,
+              "bottom": 126.39999389648438
+            },
+            {
+              "left": 702.86669921875,
+              "right": 983.050048828125,
+              "top": 22,
+              "bottom": 69
+            },
+            {
+              "left": 40.94999694824219,
+              "right": 460.9499969482422,
+              "top": 392.5,
+              "bottom": 502
+            }
+          ],
+          "leaderPoints": [
+            850.7,
+            88.2,
+            850.7,
+            110
+          ],
+          "resolved": true,
+          "leader": true,
+          "box": {
+            "x": 808.4000244140625,
+            "y": 118,
+            "width": 84.60000610351562,
+            "height": 40
+          },
+          "anchor": {
+            "x": 850.7,
+            "y": 81.2
+          },
+          "tangentError": 0.00004887044759660508
+        },
+        {
+          "width": 800,
+          "height": 600,
+          "corner": 0,
+          "framed": {
+            "visible": true,
+            "angularRadius": 0.3634774890628658,
+            "separation": 0.15427883784253058,
+            "penetration": 0.20919865122033524,
+            "prominence": 0.07603900046090568,
+            "bounds": {
+              "x": 2.06679960354499,
+              "y": -1.910514360681164,
+              "halfWidth": 1.5072001883421169,
+              "halfHeight": 1.6600555334728897
+            },
+            "ellipse": {
+              "major": 2.285958431497209,
+              "minor": 1.252466204331954,
+              "angle": 0.6062065270526777
+            }
+          },
+          "obstacles": [
+            {
+              "left": 32,
+              "right": 298.79998779296875,
+              "top": 22,
+              "bottom": 121.19999694824219
+            },
+            {
+              "left": 528.0166625976562,
+              "right": 768,
+              "top": 22,
+              "bottom": 69
+            },
+            {
+              "left": 32,
+              "right": 392,
+              "top": 350.5,
+              "bottom": 460
+            }
+          ],
+          "leaderPoints": [
+            647.9,
+            493.3,
+            633.5,
+            485
+          ],
+          "resolved": true,
+          "leader": true,
+          "box": {
+            "x": 549.6666870117188,
+            "y": 441,
+            "width": 84.59999084472656,
+            "height": 40
+          },
+          "anchor": {
+            "x": 653.9647009229695,
+            "y": 496.79562622643385
+          },
+          "tangentError": 0.00006579340822499002
+        },
+        {
+          "width": 800,
+          "height": 600,
+          "corner": 1,
+          "framed": {
+            "visible": true,
+            "angularRadius": 0.3634774890628658,
+            "separation": 0.26278194358697016,
+            "penetration": 0.10069554547589565,
+            "prominence": 0.03660056402939417,
+            "bounds": {
+              "x": -1.4328857705108722,
+              "y": -2.7557328047266516,
+              "halfWidth": 1.2450416501046668,
+              "halfHeight": 2.0096002511228215
+            },
+            "ellipse": {
+              "major": 2.2859584314972077,
+              "minor": 1.2524662043319537,
+              "angle": 2.1770028538475743
+            }
+          },
+          "obstacles": [
+            {
+              "left": 32,
+              "right": 298.79998779296875,
+              "top": 22,
+              "bottom": 121.19999694824219
+            },
+            {
+              "left": 528.0166625976562,
+              "right": 768,
+              "top": 22,
+              "bottom": 69
+            },
+            {
+              "left": 32,
+              "right": 392,
+              "top": 350.5,
+              "bottom": 460
+            }
+          ],
+          "leaderPoints": [
+            259.1,
+            590.5,
+            414.9,
+            450.3
+          ],
+          "resolved": true,
+          "leader": true,
+          "box": {
+            "x": 400.75,
+            "y": 404.91668701171875,
+            "width": 84.60000610351562,
+            "height": 40
+          },
+          "anchor": {
+            "x": 253.89660885565203,
+            "y": 595.1823840721283
+          },
+          "tangentError": 0.0000038114497395991265
+        },
+        {
+          "width": 800,
+          "height": 600,
+          "corner": 2,
+          "framed": {
+            "visible": true,
+            "angularRadius": 0.3634774890628658,
+            "separation": 0.15427883784253202,
+            "penetration": 0.2091986512203338,
+            "prominence": 0.07603900046090516,
+            "bounds": {
+              "x": -2.0667996035449883,
+              "y": 1.9105143606811634,
+              "halfWidth": 1.507200188342116,
+              "halfHeight": 1.6600555334728895
+            },
+            "ellipse": {
+              "major": 2.2859584314972077,
+              "minor": 1.2524662043319537,
+              "angle": -2.5353861265371154
+            }
+          },
+          "obstacles": [
+            {
+              "left": 32,
+              "right": 298.79998779296875,
+              "top": 22,
+              "bottom": 121.19999694824219
+            },
+            {
+              "left": 528.0166625976562,
+              "right": 768,
+              "top": 22,
+              "bottom": 69
+            },
+            {
+              "left": 32,
+              "right": 392,
+              "top": 350.5,
+              "bottom": 460
+            }
+          ],
+          "leaderPoints": [
+            117.9,
+            151.1,
+            136.1,
+            169.3
+          ],
+          "resolved": true,
+          "leader": true,
+          "box": {
+            "x": 119.5,
+            "y": 174.98333740234375,
+            "width": 84.60000610351562,
+            "height": 40
+          },
+          "anchor": {
+            "x": 112.95025253169418,
+            "y": 146.15025253169415
+          },
+          "tangentError": 0.00003329280352976083
+        },
+        {
+          "width": 800,
+          "height": 600,
+          "corner": 3,
+          "framed": {
+            "visible": true,
+            "angularRadius": 0.3634774890628658,
+            "separation": 0.2627819435869706,
+            "penetration": 0.10069554547589521,
+            "prominence": 0.03660056402939401,
+            "bounds": {
+              "x": 1.432885770510873,
+              "y": 2.7557328047266516,
+              "halfWidth": 1.2450416501046675,
+              "halfHeight": 2.009600251122822
+            },
+            "ellipse": {
+              "major": 2.285958431497209,
+              "minor": 1.252466204331954,
+              "angle": -0.9645897997422187
+            }
+          },
+          "obstacles": [
+            {
+              "left": 32,
+              "right": 298.79998779296875,
+              "top": 22,
+              "bottom": 121.19999694824219
+            },
+            {
+              "left": 528.0166625976562,
+              "right": 768,
+              "top": 22,
+              "bottom": 69
+            },
+            {
+              "left": 32,
+              "right": 392,
+              "top": 350.5,
+              "bottom": 460
+            }
+          ],
+          "leaderPoints": [
+            717.5,
+            83.2,
+            717.5,
+            110
+          ],
+          "resolved": true,
+          "leader": true,
+          "box": {
+            "x": 675.2333374023438,
+            "y": 118,
+            "width": 84.59999084472656,
+            "height": 40
+          },
+          "anchor": {
+            "x": 717.5,
+            "y": 76.2
+          },
+          "tangentError": 0.00005516232626379125
+        }
+      ],
+      "time": [
+        {
+          "label": "held-selection",
+          "rate": 0,
+          "index": 5,
+          "position": [
+            144472013.8703407,
+            -17170675.828623302,
+            39616789.088083945
+          ],
+          "readout": "Held",
+          "detail": "Press Space to resume",
+          "status": "Near-body limit · 100k× selected",
+          "toastVisible": false,
+          "toast": ""
+        },
+        {
+          "label": "limited-flow",
+          "rate": 2.5092903899362984,
+          "status": "Near-body limit · 100k× selected",
+          "detail": "3 seconds / second"
+        }
+      ],
+      "temporaryHold": "Release Space to resume",
+      "boundaryDeparture": {
+        "stage": "transit",
+        "boundary": false,
+        "proximity": false,
+        "rate": 999999.9999999999
+      },
+      "passageTimeButton": {
+        "paused": true,
+        "rate": 0
+      },
+      "deliberateHoldRetained": true,
+      "layouts": [
+        {
+          "size": {
+            "width": 1440,
+            "height": 900
+          },
+          "boxes": [
+            {
+              "id": "slower-time",
+              "x": 174.14999389648438,
+              "y": 794,
+              "width": 44,
+              "height": 44,
+              "right": 218.14999389648438,
+              "bottom": 838
+            },
+            {
+              "id": "time-toggle",
+              "x": 218.14999389648438,
+              "y": 794,
+              "width": 64,
+              "height": 44,
+              "right": 282.1499938964844,
+              "bottom": 838
+            },
+            {
+              "id": "time-rate",
+              "x": 226.14999389648438,
+              "y": 804.11669921875,
+              "width": 48,
+              "height": 23.75,
+              "right": 274.1499938964844,
+              "bottom": 827.86669921875
+            },
+            {
+              "id": "faster-time",
+              "x": 282.1499938964844,
+              "y": 794,
+              "width": 44,
+              "height": 44,
+              "right": 326.1499938964844,
+              "bottom": 838
+            },
+            {
+              "id": "time-flow-detail",
+              "x": 182.14999389648438,
+              "y": 836,
+              "width": 165,
+              "height": 17,
+              "right": 347.1499938964844,
+              "bottom": 853
+            },
+            {
+              "id": "time-limit",
+              "x": 182.14999389648438,
+              "y": 858,
+              "width": 165,
+              "height": 17,
+              "right": 347.1499938964844,
+              "bottom": 875
+            }
+          ]
+        },
+        {
+          "size": {
+            "width": 1024,
+            "height": 640
+          },
+          "boxes": [
+            {
+              "id": "slower-time",
+              "x": 157.5,
+              "y": 534,
+              "width": 44,
+              "height": 44,
+              "right": 201.5,
+              "bottom": 578
+            },
+            {
+              "id": "time-toggle",
+              "x": 201.5,
+              "y": 534,
+              "width": 64,
+              "height": 44,
+              "right": 265.5,
+              "bottom": 578
+            },
+            {
+              "id": "time-rate",
+              "x": 209.5,
+              "y": 544.11669921875,
+              "width": 48,
+              "height": 23.75,
+              "right": 257.5,
+              "bottom": 567.86669921875
+            },
+            {
+              "id": "faster-time",
+              "x": 265.5,
+              "y": 534,
+              "width": 44,
+              "height": 44,
+              "right": 309.5,
+              "bottom": 578
+            },
+            {
+              "id": "time-flow-detail",
+              "x": 165.5,
+              "y": 576,
+              "width": 165,
+              "height": 17,
+              "right": 330.5,
+              "bottom": 593
+            },
+            {
+              "id": "time-limit",
+              "x": 165.5,
+              "y": 598,
+              "width": 165,
+              "height": 17,
+              "right": 330.5,
+              "bottom": 615
+            }
+          ]
+        },
+        {
+          "size": {
+            "width": 800,
+            "height": 600
+          },
+          "boxes": [
+            {
+              "id": "slower-time",
+              "x": 131.5500030517578,
+              "y": 494,
+              "width": 44,
+              "height": 44,
+              "right": 175.5500030517578,
+              "bottom": 538
+            },
+            {
+              "id": "time-toggle",
+              "x": 175.5500030517578,
+              "y": 494,
+              "width": 64,
+              "height": 44,
+              "right": 239.5500030517578,
+              "bottom": 538
+            },
+            {
+              "id": "time-rate",
+              "x": 183.5500030517578,
+              "y": 504.1166687011719,
+              "width": 48,
+              "height": 23.75,
+              "right": 231.5500030517578,
+              "bottom": 527.8666687011719
+            },
+            {
+              "id": "faster-time",
+              "x": 239.5500030517578,
+              "y": 494,
+              "width": 44,
+              "height": 44,
+              "right": 283.5500030517578,
+              "bottom": 538
+            },
+            {
+              "id": "time-flow-detail",
+              "x": 139.5500030517578,
+              "y": 536,
+              "width": 165,
+              "height": 17,
+              "right": 304.5500030517578,
+              "bottom": 553
+            },
+            {
+              "id": "time-limit",
+              "x": 139.5500030517578,
+              "y": 558,
+              "width": 165,
+              "height": 17,
+              "right": 304.5500030517578,
+              "bottom": 575
+            }
+          ]
+        }
+      ],
+      "controller": {
+        "selection": "3M× selected",
+        "temporaryHoldResumes": true,
+        "physicalControllerTested": false
+      },
+      "errors": [],
+      "passed": true
+    },
+    {
+      "name": "WebKit",
+      "engineVersion": "26.5",
+      "bearings": [
+        {
+          "width": 1440,
+          "height": 900,
+          "corner": 0,
+          "framed": {
+            "visible": true,
+            "angularRadius": 0.3634774890628658,
+            "separation": 0.09675222156304174,
+            "penetration": 0.26672526749982406,
+            "prominence": 0.09694863050045725,
+            "bounds": {
+              "x": 1.722333002954158,
+              "y": -1.910514360681164,
+              "halfWidth": 1.2560001569517638,
+              "halfHeight": 1.6600555334728897
+            },
+            "ellipse": {
+              "major": 2.285958431497209,
+              "minor": 1.252466204331954,
+              "angle": 0.6062065270526777
+            }
+          },
+          "obstacles": [
+            {
+              "left": 57.59375,
+              "right": 351.125,
+              "top": 28,
+              "bottom": 132.390625
+            },
+            {
+              "left": 1072.171875,
+              "right": 1382.40625,
+              "top": 28,
+              "bottom": 74
+            }
+          ],
+          "leaderPoints": [
+            1061.9,
+            822.1,
+            904.2,
+            779.9
+          ],
+          "resolved": true,
+          "leader": true,
+          "box": {
+            "x": 811.890625,
+            "y": 748,
+            "width": 84.609375,
+            "height": 37
+          },
+          "anchor": {
+            "x": 1068.6620763090812,
+            "y": 823.9095093230388
+          },
+          "tangentError": 0.000010991543360872047
+        },
+        {
+          "width": 1440,
+          "height": 900,
+          "corner": 1,
+          "framed": {
+            "visible": true,
+            "angularRadius": 0.3634774890628658,
+            "separation": 0.2627819435869706,
+            "penetration": 0.10069554547589521,
+            "prominence": 0.03660056402939401,
+            "bounds": {
+              "x": -1.1940714754257267,
+              "y": -2.7557328047266516,
+              "halfWidth": 1.0375347084205557,
+              "halfHeight": 2.0096002511228215
+            },
+            "ellipse": {
+              "major": 2.2859584314972077,
+              "minor": 1.2524662043319537,
+              "angle": 2.1770028538475743
+            }
+          },
+          "obstacles": [
+            {
+              "left": 57.59375,
+              "right": 351.125,
+              "top": 28,
+              "bottom": 132.390625
+            },
+            {
+              "left": 1072.171875,
+              "right": 1382.40625,
+              "top": 28,
+              "bottom": 74
+            }
+          ],
+          "leaderPoints": [
+            243.7,
+            778.8,
+            243.7,
+            768.8
+          ],
+          "resolved": true,
+          "leader": true,
+          "box": {
+            "x": 201.375,
+            "y": 723.75,
+            "width": 84.609375,
+            "height": 37
+          },
+          "anchor": {
+            "x": 243.7,
+            "y": 785.8
+          },
+          "tangentError": 0.00003731208045815171
+        },
+        {
+          "width": 1440,
+          "height": 900,
+          "corner": 2,
+          "framed": {
+            "visible": true,
+            "angularRadius": 0.3634774890628658,
+            "separation": 0.09675222156304518,
+            "penetration": 0.2667252674998206,
+            "prominence": 0.096948630500456,
+            "bounds": {
+              "x": -1.7223330029541564,
+              "y": 1.9105143606811636,
+              "halfWidth": 1.2560001569517631,
+              "halfHeight": 1.6600555334728895
+            },
+            "ellipse": {
+              "major": 2.2859584314972077,
+              "minor": 1.2524662043319537,
+              "angle": -2.5353861265371154
+            }
+          },
+          "obstacles": [
+            {
+              "left": 57.59375,
+              "right": 351.125,
+              "top": 28,
+              "bottom": 132.390625
+            },
+            {
+              "left": 1072.171875,
+              "right": 1382.40625,
+              "top": 28,
+              "bottom": 74
+            }
+          ],
+          "leaderPoints": [
+            378.1,
+            77.9,
+            547,
+            123.1
+          ],
+          "resolved": true,
+          "leader": true,
+          "box": {
+            "x": 554.6875,
+            "y": 118,
+            "width": 84.609375,
+            "height": 37
+          },
+          "anchor": {
+            "x": 371.33795285394416,
+            "y": 76.0903816992201
+          },
+          "tangentError": 0.000010991592875486678
+        },
+        {
+          "width": 1440,
+          "height": 900,
+          "corner": 3,
+          "framed": {
+            "visible": true,
+            "angularRadius": 0.3634774890628658,
+            "separation": 0.26278194358696977,
+            "penetration": 0.10069554547589604,
+            "prominence": 0.03660056402939431,
+            "bounds": {
+              "x": 1.194071475425728,
+              "y": 2.7557328047266516,
+              "halfWidth": 1.0375347084205562,
+              "halfHeight": 2.009600251122822
+            },
+            "ellipse": {
+              "major": 2.285958431497209,
+              "minor": 1.252466204331954,
+              "angle": -0.9645897997422186
+            }
+          },
+          "obstacles": [
+            {
+              "left": 57.59375,
+              "right": 351.125,
+              "top": 28,
+              "bottom": 132.390625
+            },
+            {
+              "left": 1072.171875,
+              "right": 1382.40625,
+              "top": 28,
+              "bottom": 74
+            }
+          ],
+          "leaderPoints": [
+            1196.3,
+            121.2,
+            1196.3,
+            131.2
+          ],
+          "resolved": true,
+          "leader": true,
+          "box": {
+            "x": 1154,
+            "y": 139.234375,
+            "width": 84.609375,
+            "height": 37
+          },
+          "anchor": {
+            "x": 1196.3,
+            "y": 114.2
+          },
+          "tangentError": 0.00003731208045815171
+        },
+        {
+          "width": 1024,
+          "height": 640,
+          "corner": 0,
+          "framed": {
+            "visible": true,
+            "angularRadius": 0.3634774890628658,
+            "separation": 0.09675222156304174,
+            "penetration": 0.26672526749982406,
+            "prominence": 0.09694863050045725,
+            "bounds": {
+              "x": 1.722333002954158,
+              "y": -1.910514360681164,
+              "halfWidth": 1.2560001569517638,
+              "halfHeight": 1.6600555334728897
+            },
+            "ellipse": {
+              "major": 2.285958431497209,
+              "minor": 1.252466204331954,
+              "angle": 0.6062065270526777
+            }
+          },
+          "obstacles": [
+            {
+              "left": 40.953125,
+              "right": 334.484375,
+              "top": 22,
+              "bottom": 126.390625
+            },
+            {
+              "left": 702.8125,
+              "right": 983.046875,
+              "top": 22,
+              "bottom": 68
+            }
+          ],
+          "leaderPoints": [
+            753.2,
+            584.1,
+            513.5,
+            519.9
+          ],
+          "resolved": true,
+          "leader": true,
+          "box": {
+            "x": 421.1875,
+            "y": 488,
+            "width": 84.609375,
+            "height": 37
+          },
+          "anchor": {
+            "x": 759.9616741275931,
+            "y": 585.9110115936232
+          },
+          "tangentError": 0.00004783992337964449
+        },
+        {
+          "width": 1024,
+          "height": 640,
+          "corner": 1,
+          "framed": {
+            "visible": true,
+            "angularRadius": 0.3634774890628658,
+            "separation": 0.2627819435869706,
+            "penetration": 0.10069554547589521,
+            "prominence": 0.03660056402939401,
+            "bounds": {
+              "x": -1.1940714754257267,
+              "y": -2.7557328047266516,
+              "halfWidth": 1.0375347084205557,
+              "halfHeight": 2.0096002511228215
+            },
+            "ellipse": {
+              "major": 2.2859584314972077,
+              "minor": 1.2524662043319537,
+              "angle": 2.1770028538475743
+            }
+          },
+          "obstacles": [
+            {
+              "left": 40.953125,
+              "right": 334.484375,
+              "top": 22,
+              "bottom": 126.390625
+            },
+            {
+              "left": 702.8125,
+              "right": 983.046875,
+              "top": 22,
+              "bottom": 68
+            }
+          ],
+          "leaderPoints": [
+            173.3,
+            551.8,
+            173.3,
+            533
+          ],
+          "resolved": true,
+          "leader": true,
+          "box": {
+            "x": 130.984375,
+            "y": 488,
+            "width": 84.609375,
+            "height": 37
+          },
+          "anchor": {
+            "x": 173.3,
+            "y": 558.8
+          },
+          "tangentError": 0.00004887044759693815
+        },
+        {
+          "width": 1024,
+          "height": 640,
+          "corner": 2,
+          "framed": {
+            "visible": true,
+            "angularRadius": 0.3634774890628658,
+            "separation": 0.09675222156304518,
+            "penetration": 0.2667252674998206,
+            "prominence": 0.096948630500456,
+            "bounds": {
+              "x": -1.7223330029541564,
+              "y": 1.9105143606811636,
+              "halfWidth": 1.2560001569517631,
+              "halfHeight": 1.6600555334728895
+            },
+            "ellipse": {
+              "major": 2.2859584314972077,
+              "minor": 1.2524662043319537,
+              "angle": -2.5353861265371154
+            }
+          },
+          "obstacles": [
+            {
+              "left": 40.953125,
+              "right": 334.484375,
+              "top": 22,
+              "bottom": 126.390625
+            },
+            {
+              "left": 702.8125,
+              "right": 983.046875,
+              "top": 22,
+              "bottom": 68
+            }
+          ],
+          "leaderPoints": [
+            210.8,
+            160.9,
+            229.8,
+            179.8
+          ],
+          "resolved": true,
+          "leader": true,
+          "box": {
+            "x": 211.609375,
+            "y": 185.484375,
+            "width": 84.609375,
+            "height": 37
+          },
+          "anchor": {
+            "x": 205.83720978693677,
+            "y": 155.96332973542656
+          },
+          "tangentError": 0.00005159499642815035
+        },
+        {
+          "width": 1024,
+          "height": 640,
+          "corner": 3,
+          "framed": {
+            "visible": true,
+            "angularRadius": 0.3634774890628658,
+            "separation": 0.26278194358696977,
+            "penetration": 0.10069554547589604,
+            "prominence": 0.03660056402939431,
+            "bounds": {
+              "x": 1.194071475425728,
+              "y": 2.7557328047266516,
+              "halfWidth": 1.0375347084205562,
+              "halfHeight": 2.009600251122822
+            },
+            "ellipse": {
+              "major": 2.285958431497209,
+              "minor": 1.252466204331954,
+              "angle": -0.9645897997422186
+            }
+          },
+          "obstacles": [
+            {
+              "left": 40.953125,
+              "right": 334.484375,
+              "top": 22,
+              "bottom": 126.390625
+            },
+            {
+              "left": 702.8125,
+              "right": 983.046875,
+              "top": 22,
+              "bottom": 68
+            }
+          ],
+          "leaderPoints": [
+            850.7,
+            88.2,
+            850.7,
+            110
+          ],
+          "resolved": true,
+          "leader": true,
+          "box": {
+            "x": 808.390625,
+            "y": 118,
+            "width": 84.609375,
+            "height": 37
+          },
+          "anchor": {
+            "x": 850.7,
+            "y": 81.2
+          },
+          "tangentError": 0.00004887044759660508
+        },
+        {
+          "width": 800,
+          "height": 600,
+          "corner": 0,
+          "framed": {
+            "visible": true,
+            "angularRadius": 0.3634774890628658,
+            "separation": 0.15427883784253058,
+            "penetration": 0.20919865122033524,
+            "prominence": 0.07603900046090568,
+            "bounds": {
+              "x": 2.06679960354499,
+              "y": -1.910514360681164,
+              "halfWidth": 1.5072001883421169,
+              "halfHeight": 1.6600555334728897
+            },
+            "ellipse": {
+              "major": 2.285958431497209,
+              "minor": 1.252466204331954,
+              "angle": 0.6062065270526777
+            }
+          },
+          "obstacles": [
+            {
+              "left": 32,
+              "right": 298.84375,
+              "top": 22,
+              "bottom": 121.1875
+            },
+            {
+              "left": 528.015625,
+              "right": 768,
+              "top": 22,
+              "bottom": 68
+            },
+            {
+              "left": 32,
+              "right": 392,
+              "top": 350.5,
+              "bottom": 460
+            }
+          ],
+          "leaderPoints": [
+            647.9,
+            493.3,
+            631.6,
+            483.9
+          ],
+          "resolved": true,
+          "leader": true,
+          "box": {
+            "x": 550.296875,
+            "y": 442.875,
+            "width": 84.609375,
+            "height": 37
+          },
+          "anchor": {
+            "x": 653.9639183516947,
+            "y": 496.7969835893209
+          },
+          "tangentError": 0.00006579212370416698
+        },
+        {
+          "width": 800,
+          "height": 600,
+          "corner": 1,
+          "framed": {
+            "visible": true,
+            "angularRadius": 0.3634774890628658,
+            "separation": 0.2627819435869702,
+            "penetration": 0.1006955454758956,
+            "prominence": 0.03660056402939415,
+            "bounds": {
+              "x": -1.4328857705108722,
+              "y": -2.7557328047266516,
+              "halfWidth": 1.2450416501046668,
+              "halfHeight": 2.0096002511228215
+            },
+            "ellipse": {
+              "major": 2.2859584314972077,
+              "minor": 1.2524662043319537,
+              "angle": 2.1770028538475743
+            }
+          },
+          "obstacles": [
+            {
+              "left": 32,
+              "right": 298.84375,
+              "top": 22,
+              "bottom": 121.1875
+            },
+            {
+              "left": 528.015625,
+              "right": 768,
+              "top": 22,
+              "bottom": 68
+            },
+            {
+              "left": 32,
+              "right": 392,
+              "top": 350.5,
+              "bottom": 460
+            }
+          ],
+          "leaderPoints": [
+            259.1,
+            590.5,
+            416.6,
+            448.8
+          ],
+          "resolved": true,
+          "leader": true,
+          "box": {
+            "x": 400.734375,
+            "y": 406.40625,
+            "width": 84.609375,
+            "height": 37
+          },
+          "anchor": {
+            "x": 253.89611960717036,
+            "y": 595.1818403280251
+          },
+          "tangentError": 0.0000038109705528532878
+        },
+        {
+          "width": 800,
+          "height": 600,
+          "corner": 2,
+          "framed": {
+            "visible": true,
+            "angularRadius": 0.3634774890628658,
+            "separation": 0.15427883784253202,
+            "penetration": 0.2091986512203338,
+            "prominence": 0.07603900046090516,
+            "bounds": {
+              "x": -2.0667996035449883,
+              "y": 1.9105143606811636,
+              "halfWidth": 1.507200188342116,
+              "halfHeight": 1.6600555334728895
+            },
+            "ellipse": {
+              "major": 2.2859584314972077,
+              "minor": 1.2524662043319537,
+              "angle": -2.5353861265371154
+            }
+          },
+          "obstacles": [
+            {
+              "left": 32,
+              "right": 298.84375,
+              "top": 22,
+              "bottom": 121.1875
+            },
+            {
+              "left": 528.015625,
+              "right": 768,
+              "top": 22,
+              "bottom": 68
+            },
+            {
+              "left": 32,
+              "right": 392,
+              "top": 350.5,
+              "bottom": 460
+            }
+          ],
+          "leaderPoints": [
+            117.9,
+            151.1,
+            136.9,
+            170.1
+          ],
+          "resolved": true,
+          "leader": true,
+          "box": {
+            "x": 118.734375,
+            "y": 175.734375,
+            "width": 84.609375,
+            "height": 37
+          },
+          "anchor": {
+            "x": 112.95025253169418,
+            "y": 146.15025253169415
+          },
+          "tangentError": 0.00003329280352976083
+        },
+        {
+          "width": 800,
+          "height": 600,
+          "corner": 3,
+          "framed": {
+            "visible": true,
+            "angularRadius": 0.3634774890628658,
+            "separation": 0.2627819435869706,
+            "penetration": 0.10069554547589521,
+            "prominence": 0.03660056402939401,
+            "bounds": {
+              "x": 1.4328857705108735,
+              "y": 2.7557328047266516,
+              "halfWidth": 1.2450416501046675,
+              "halfHeight": 2.009600251122822
+            },
+            "ellipse": {
+              "major": 2.285958431497209,
+              "minor": 1.252466204331954,
+              "angle": -0.9645897997422186
+            }
+          },
+          "obstacles": [
+            {
+              "left": 32,
+              "right": 298.84375,
+              "top": 22,
+              "bottom": 121.1875
+            },
+            {
+              "left": 528.015625,
+              "right": 768,
+              "top": 22,
+              "bottom": 68
+            },
+            {
+              "left": 32,
+              "right": 392,
+              "top": 350.5,
+              "bottom": 460
+            }
+          ],
+          "leaderPoints": [
+            717.5,
+            83.2,
+            717.5,
+            110
+          ],
+          "resolved": true,
+          "leader": true,
+          "box": {
+            "x": 675.21875,
+            "y": 118,
+            "width": 84.609375,
+            "height": 37
+          },
+          "anchor": {
+            "x": 717.5,
+            "y": 76.2
+          },
+          "tangentError": 0.00005516232626384676
+        }
+      ],
+      "time": [
+        {
+          "label": "held-selection",
+          "rate": 0,
+          "index": 5,
+          "position": [
+            144472013.8703407,
+            -17170675.828623302,
+            39616789.088083945
+          ],
+          "readout": "Held",
+          "detail": "Press Space to resume",
+          "status": "Near-body limit · 100k× selected",
+          "toastVisible": false,
+          "toast": ""
+        },
+        {
+          "label": "limited-flow",
+          "rate": 2.509290389936298,
+          "status": "Near-body limit · 100k× selected",
+          "detail": "3 seconds / second"
+        }
+      ],
+      "temporaryHold": "Release Space to resume",
+      "boundaryDeparture": {
+        "stage": "transit",
+        "boundary": false,
+        "proximity": false,
+        "rate": 1000000
+      },
+      "passageTimeButton": {
+        "paused": true,
+        "rate": 0
+      },
+      "deliberateHoldRetained": true,
+      "layouts": [
+        {
+          "size": {
+            "width": 1440,
+            "height": 900
+          },
+          "boxes": [
+            {
+              "id": "slower-time",
+              "x": 174.125,
+              "y": 794,
+              "width": 44,
+              "height": 44,
+              "right": 218.125,
+              "bottom": 838
+            },
+            {
+              "id": "time-toggle",
+              "x": 218.125,
+              "y": 794,
+              "width": 64,
+              "height": 44,
+              "right": 282.125,
+              "bottom": 838
+            },
+            {
+              "id": "time-rate",
+              "x": 226.125,
+              "y": 804.125,
+              "width": 48,
+              "height": 23.75,
+              "right": 274.125,
+              "bottom": 827.875
+            },
+            {
+              "id": "faster-time",
+              "x": 282.125,
+              "y": 794,
+              "width": 44,
+              "height": 44,
+              "right": 326.125,
+              "bottom": 838
+            },
+            {
+              "id": "time-flow-detail",
+              "x": 182.125,
+              "y": 836,
+              "width": 165,
+              "height": 17,
+              "right": 347.125,
+              "bottom": 853
+            },
+            {
+              "id": "time-limit",
+              "x": 182.125,
+              "y": 858,
+              "width": 165,
+              "height": 17,
+              "right": 347.125,
+              "bottom": 875
+            }
+          ]
+        },
+        {
+          "size": {
+            "width": 1024,
+            "height": 640
+          },
+          "boxes": [
+            {
+              "id": "slower-time",
+              "x": 157.484375,
+              "y": 534,
+              "width": 44,
+              "height": 44,
+              "right": 201.484375,
+              "bottom": 578
+            },
+            {
+              "id": "time-toggle",
+              "x": 201.484375,
+              "y": 534,
+              "width": 64,
+              "height": 44,
+              "right": 265.484375,
+              "bottom": 578
+            },
+            {
+              "id": "time-rate",
+              "x": 209.484375,
+              "y": 544.125,
+              "width": 48,
+              "height": 23.75,
+              "right": 257.484375,
+              "bottom": 567.875
+            },
+            {
+              "id": "faster-time",
+              "x": 265.484375,
+              "y": 534,
+              "width": 44,
+              "height": 44,
+              "right": 309.484375,
+              "bottom": 578
+            },
+            {
+              "id": "time-flow-detail",
+              "x": 165.484375,
+              "y": 576,
+              "width": 165,
+              "height": 17,
+              "right": 330.484375,
+              "bottom": 593
+            },
+            {
+              "id": "time-limit",
+              "x": 165.484375,
+              "y": 598,
+              "width": 165,
+              "height": 17,
+              "right": 330.484375,
+              "bottom": 615
+            }
+          ]
+        },
+        {
+          "size": {
+            "width": 800,
+            "height": 600
+          },
+          "boxes": [
+            {
+              "id": "slower-time",
+              "x": 131.53125,
+              "y": 494,
+              "width": 44,
+              "height": 44,
+              "right": 175.53125,
+              "bottom": 538
+            },
+            {
+              "id": "time-toggle",
+              "x": 175.53125,
+              "y": 494,
+              "width": 64,
+              "height": 44,
+              "right": 239.53125,
+              "bottom": 538
+            },
+            {
+              "id": "time-rate",
+              "x": 183.53125,
+              "y": 504.125,
+              "width": 48,
+              "height": 23.75,
+              "right": 231.53125,
+              "bottom": 527.875
+            },
+            {
+              "id": "faster-time",
+              "x": 239.53125,
+              "y": 494,
+              "width": 44,
+              "height": 44,
+              "right": 283.53125,
+              "bottom": 538
+            },
+            {
+              "id": "time-flow-detail",
+              "x": 139.53125,
+              "y": 536,
+              "width": 165,
+              "height": 17,
+              "right": 304.53125,
+              "bottom": 553
+            },
+            {
+              "id": "time-limit",
+              "x": 139.53125,
+              "y": 558,
+              "width": 165,
+              "height": 17,
+              "right": 304.53125,
+              "bottom": 575
+            }
+          ]
+        }
+      ],
+      "controller": {
+        "selection": "3M× selected",
+        "temporaryHoldResumes": true,
+        "physicalControllerTested": false
+      },
+      "errors": [],
+      "passed": true
+    }
+  ]
+}

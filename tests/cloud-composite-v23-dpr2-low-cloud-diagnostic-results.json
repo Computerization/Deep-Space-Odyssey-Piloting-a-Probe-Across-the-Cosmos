@@ -1,0 +1,236 @@
+{
+  "version": "0.23.0",
+  "viewport": [
+    1000,
+    625
+  ],
+  "dpr": 2,
+  "cloudScale": 0.75,
+  "outcomes": [
+    {
+      "name": "Chrome",
+      "engineVersion": "158.0.8127.37",
+      "views": [
+        {
+          "label": "day",
+          "radius": 2.35,
+          "phase": 35,
+          "view": "probe",
+          "counts": {
+            "base": {
+              "drawCalls": 7,
+              "triangles": 292866,
+              "frameSamples": 0
+            },
+            "current": {
+              "drawCalls": 6,
+              "triangles": 219650,
+              "frameSamples": 0
+            }
+          },
+          "metrics": {
+            "mean": 0.004082,
+            "rmse": 0.07221911104409967,
+            "max": 17,
+            "p99": 0,
+            "changed": 29612,
+            "overOne": 190,
+            "channels": 7500000
+          }
+        },
+        {
+          "label": "terminator",
+          "radius": 2.35,
+          "phase": 90,
+          "view": "probe",
+          "counts": {
+            "base": {
+              "drawCalls": 7,
+              "triangles": 292866,
+              "frameSamples": 0
+            },
+            "current": {
+              "drawCalls": 6,
+              "triangles": 219650,
+              "frameSamples": 0
+            }
+          },
+          "metrics": {
+            "mean": 0.0015674666666666667,
+            "rmse": 0.04194917559777943,
+            "max": 13,
+            "p99": 0,
+            "changed": 11552,
+            "overOne": 45,
+            "channels": 7500000
+          }
+        },
+        {
+          "label": "crescent",
+          "radius": 2.35,
+          "phase": 150,
+          "view": "probe",
+          "counts": {
+            "base": {
+              "drawCalls": 8,
+              "triangles": 366082,
+              "frameSamples": 0
+            },
+            "current": {
+              "drawCalls": 7,
+              "triangles": 292866,
+              "frameSamples": 0
+            }
+          },
+          "metrics": {
+            "mean": 0.000022,
+            "rmse": 0.014881756168768075,
+            "max": 20,
+            "p99": 0,
+            "changed": 38,
+            "overOne": 19,
+            "channels": 7500000
+          }
+        },
+        {
+          "label": "night",
+          "radius": 2.35,
+          "phase": 175,
+          "view": "probe",
+          "counts": {
+            "base": {
+              "drawCalls": 11,
+              "triangles": 589826,
+              "frameSamples": 0
+            },
+            "current": {
+              "drawCalls": 10,
+              "triangles": 516610,
+              "frameSamples": 0
+            }
+          },
+          "metrics": {
+            "mean": 9.333333333333333e-7,
+            "rmse": 0.0009660917830792959,
+            "max": 1,
+            "p99": 0,
+            "changed": 7,
+            "overOne": 0,
+            "channels": 7500000
+          }
+        },
+        {
+          "label": "close",
+          "radius": 1.08,
+          "phase": 90,
+          "view": "probe",
+          "counts": {
+            "base": {
+              "drawCalls": 7,
+              "triangles": 292866,
+              "frameSamples": 0
+            },
+            "current": {
+              "drawCalls": 6,
+              "triangles": 219650,
+              "frameSamples": 0
+            }
+          },
+          "metrics": {
+            "mean": 0.0027165333333333333,
+            "rmse": 0.052120373495719824,
+            "max": 1,
+            "p99": 0,
+            "changed": 20374,
+            "overOne": 0,
+            "channels": 7500000
+          }
+        },
+        {
+          "label": "chase",
+          "radius": 2.35,
+          "phase": 35,
+          "view": "chase",
+          "counts": {
+            "base": {
+              "drawCalls": 12,
+              "triangles": 313256,
+              "frameSamples": 0
+            },
+            "current": {
+              "drawCalls": 11,
+              "triangles": 240040,
+              "frameSamples": 0
+            }
+          },
+          "metrics": {
+            "mean": 0.004077333333333333,
+            "rmse": 0.07218679472959949,
+            "max": 17,
+            "p99": 0,
+            "changed": 29577,
+            "overOne": 190,
+            "channels": 7500000
+          }
+        },
+        {
+          "label": "occlusion",
+          "radius": 2.35,
+          "phase": 35,
+          "view": "probe",
+          "counts": {
+            "base": {
+              "drawCalls": 8,
+              "triangles": 366082,
+              "frameSamples": 0
+            },
+            "current": {
+              "drawCalls": 7,
+              "triangles": 292866,
+              "frameSamples": 0
+            }
+          },
+          "metrics": {
+            "mean": 0.0024774666666666665,
+            "rmse": 0.06009215145646449,
+            "max": 17,
+            "p99": 0,
+            "changed": 17578,
+            "overOne": 190,
+            "channels": 7500000
+          }
+        },
+        {
+          "label": "capture",
+          "radius": 2.35,
+          "phase": 35,
+          "view": "probe",
+          "counts": {
+            "base": {
+              "drawCalls": 6,
+              "triangles": 219650,
+              "frameSamples": 0
+            },
+            "current": {
+              "drawCalls": 6,
+              "triangles": 219650,
+              "frameSamples": 0
+            }
+          },
+          "metrics": {
+            "mean": 0,
+            "rmse": 0,
+            "max": 0,
+            "p99": 0,
+            "changed": 0,
+            "overOne": 0,
+            "channels": 7500000
+          }
+        }
+      ],
+      "errors": [],
+      "passed": false,
+      "diagnosticOnly": true
+    }
+  ]
+}

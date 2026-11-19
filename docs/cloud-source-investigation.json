@@ -1,0 +1,576 @@
+{
+  "url": "https://repository.gaiasky.space/vt/vt-earth-clouds-nasa/000_20230125/vt-earth-clouds-nasa.tar.gz",
+  "sourcePage": "https://gaiasky.space/resources/datasets/",
+  "sha256": "22c69645ae1143dc8802256965db9c32fe200641e0d7cdea5b6d0f2d06eade6c",
+  "bytes": 396667310,
+  "metadata": {
+    "key": "vt-earth-clouds-nasa",
+    "name": "64K Earth cloud VT (NASA)",
+    "type": "virtualtex-pack",
+    "version": 0,
+    "mingsversion": 30400,
+    "size": 419326290,
+    "nobjects": 1,
+    "description": "64K Earth cloud map as a virtual texture pack. Data from NASA's visible Earth protal, 'Blue Marble: Clouds' dataset.",
+    "releasenotes": "- First version.",
+    "link": "https://www.visibleearth.nasa.gov/images/57747/blue-marble-clouds",
+    "check": "$data/vt-earth-clouds-nasa/dataset.json",
+    "files": [
+      "$data/vt-earth-clouds-nasa"
+    ],
+    "data": [
+      {
+        "loader": "gaiasky.data.JsonLoader",
+        "files": [
+          "$data/vt-earth-clouds-nasa/vt-earth-clouds-nasa.json"
+        ]
+      }
+    ]
+  },
+  "findings": [
+    "Native 1024-square level-5 crops retain detail missing from the same atlas level-2 8K image.",
+    "The assembled 8K atlas has large near-black polar areas; its coverage differs markedly from the current composite.",
+    "The catalogue identifies NASA Visible Earth but does not establish original observational resolution, detailed processing or polar fill.",
+    "The source-grid registration check supports combining existing polar coverage with finer non-polar detail, but not treating the atlas as complete polar observations."
+  ],
+  "disposition": "Delivered in revision 0.90. Native 16K coverage and a separate regional-height field passed source, device, photography, material, context-recovery, offline and upgrade verification. Rejected 12K/ETC1S trials remain development history. Extreme close-up source and volume limits remain open.",
+  "evaluation": "/private/tmp/cosmos-gaia-cloud-evaluation",
+  "archive": "/private/tmp/cosmos-gaia-clouds.tar.gz",
+  "registration": {
+    "source": "Current Solar System Scope red channel vs Gaia NASA-derived level 2; direct 2048 x 1024 box reductions. Best Pearson correlation over +/-4 pixels, independent 160 x 96 windows.",
+    "regions": [
+      {
+        "lat": -75,
+        "lon": -135,
+        "correlation": -0.012757582284001485,
+        "offsetPixelsAt2K": [
+          4,
+          4
+        ],
+        "oldMean": 92.4117202758789,
+        "newMean": 5.8641276359558105
+      },
+      {
+        "lat": -75,
+        "lon": -45,
+        "correlation": 0.08206475783572514,
+        "offsetPixelsAt2K": [
+          0,
+          0
+        ],
+        "oldMean": 32.39114761352539,
+        "newMean": 0.5151041746139526
+      },
+      {
+        "lat": -75,
+        "lon": 45,
+        "correlation": -0.22194296955718493,
+        "offsetPixelsAt2K": [
+          0,
+          0
+        ],
+        "oldMean": 185.46347045898438,
+        "newMean": 9.011588096618652
+      },
+      {
+        "lat": -75,
+        "lon": 135,
+        "correlation": -0.14786142019129572,
+        "offsetPixelsAt2K": [
+          4,
+          2
+        ],
+        "oldMean": 173.3655548095703,
+        "newMean": 1.3074219226837158
+      },
+      {
+        "lat": -60,
+        "lon": -135,
+        "correlation": 0.9007752357670351,
+        "offsetPixelsAt2K": [
+          0,
+          0
+        ],
+        "oldMean": 84.98821258544922,
+        "newMean": 76.3558578491211
+      },
+      {
+        "lat": -60,
+        "lon": -45,
+        "correlation": 0.9139069462983119,
+        "offsetPixelsAt2K": [
+          0,
+          0
+        ],
+        "oldMean": 71.43521881103516,
+        "newMean": 70.1117172241211
+      },
+      {
+        "lat": -60,
+        "lon": 45,
+        "correlation": 0.8209637639062995,
+        "offsetPixelsAt2K": [
+          0,
+          0
+        ],
+        "oldMean": 125.49244689941406,
+        "newMean": 110.03242492675781
+      },
+      {
+        "lat": -60,
+        "lon": 135,
+        "correlation": 0.5961566478112191,
+        "offsetPixelsAt2K": [
+          0,
+          0
+        ],
+        "oldMean": 95.71659851074219,
+        "newMean": 75.31510162353516
+      },
+      {
+        "lat": -45,
+        "lon": -135,
+        "correlation": 0.9982748037411021,
+        "offsetPixelsAt2K": [
+          0,
+          0
+        ],
+        "oldMean": 69.79459381103516,
+        "newMean": 74.7734375
+      },
+      {
+        "lat": -45,
+        "lon": -45,
+        "correlation": 0.9940928968622665,
+        "offsetPixelsAt2K": [
+          0,
+          0
+        ],
+        "oldMean": 69.94615936279297,
+        "newMean": 77.64335632324219
+      },
+      {
+        "lat": -45,
+        "lon": 45,
+        "correlation": 0.9963033991310342,
+        "offsetPixelsAt2K": [
+          0,
+          0
+        ],
+        "oldMean": 74.47643280029297,
+        "newMean": 78.29153442382812
+      },
+      {
+        "lat": -45,
+        "lon": 135,
+        "correlation": 0.9942553536313496,
+        "offsetPixelsAt2K": [
+          0,
+          0
+        ],
+        "oldMean": 80.83860778808594,
+        "newMean": 87.18151092529297
+      },
+      {
+        "lat": -30,
+        "lon": -135,
+        "correlation": 0.9995720861302965,
+        "offsetPixelsAt2K": [
+          0,
+          0
+        ],
+        "oldMean": 64.01569366455078,
+        "newMean": 68.37454223632812
+      },
+      {
+        "lat": -30,
+        "lon": -45,
+        "correlation": 0.9987931031390291,
+        "offsetPixelsAt2K": [
+          0,
+          0
+        ],
+        "oldMean": 48.88424301147461,
+        "newMean": 53.903709411621094
+      },
+      {
+        "lat": -30,
+        "lon": 45,
+        "correlation": 0.9989195285751972,
+        "offsetPixelsAt2K": [
+          0,
+          0
+        ],
+        "oldMean": 59.36796951293945,
+        "newMean": 63.154232025146484
+      },
+      {
+        "lat": -30,
+        "lon": 135,
+        "correlation": 0.9996729362437072,
+        "offsetPixelsAt2K": [
+          0,
+          0
+        ],
+        "oldMean": 40.44511795043945,
+        "newMean": 43.608333587646484
+      },
+      {
+        "lat": -15,
+        "lon": -135,
+        "correlation": 0.9990398990009619,
+        "offsetPixelsAt2K": [
+          0,
+          0
+        ],
+        "oldMean": 23.94954490661621,
+        "newMean": 25.31360626220703
+      },
+      {
+        "lat": -15,
+        "lon": -45,
+        "correlation": 0.9988131502633221,
+        "offsetPixelsAt2K": [
+          0,
+          0
+        ],
+        "oldMean": 25.30533790588379,
+        "newMean": 28.11829376220703
+      },
+      {
+        "lat": -15,
+        "lon": 45,
+        "correlation": 0.9986025801802909,
+        "offsetPixelsAt2K": [
+          0,
+          0
+        ],
+        "oldMean": 33.29739761352539,
+        "newMean": 35.30521011352539
+      },
+      {
+        "lat": -15,
+        "lon": 135,
+        "correlation": 0.999141937734761,
+        "offsetPixelsAt2K": [
+          0,
+          0
+        ],
+        "oldMean": 16.914844512939453,
+        "newMean": 18.26953125
+      },
+      {
+        "lat": 0,
+        "lon": -135,
+        "correlation": 0.9913106528049982,
+        "offsetPixelsAt2K": [
+          0,
+          0
+        ],
+        "oldMean": 26.09778594970703,
+        "newMean": 26.510547637939453
+      },
+      {
+        "lat": 0,
+        "lon": -45,
+        "correlation": 0.9407541532018677,
+        "offsetPixelsAt2K": [
+          0,
+          0
+        ],
+        "oldMean": 40.96243667602539,
+        "newMean": 31.8203125
+      },
+      {
+        "lat": 0,
+        "lon": 45,
+        "correlation": 0.9993072011819744,
+        "offsetPixelsAt2K": [
+          0,
+          0
+        ],
+        "oldMean": 41.37154769897461,
+        "newMean": 44.09420394897461
+      },
+      {
+        "lat": 0,
+        "lon": 135,
+        "correlation": 0.9991021993073155,
+        "offsetPixelsAt2K": [
+          0,
+          0
+        ],
+        "oldMean": 54.89733123779297,
+        "newMean": 58.60227966308594
+      },
+      {
+        "lat": 15,
+        "lon": -135,
+        "correlation": 0.9985737268397328,
+        "offsetPixelsAt2K": [
+          0,
+          0
+        ],
+        "oldMean": 31.412044525146484,
+        "newMean": 33.38886642456055
+      },
+      {
+        "lat": 15,
+        "lon": -45,
+        "correlation": 0.7677754473272924,
+        "offsetPixelsAt2K": [
+          0,
+          0
+        ],
+        "oldMean": 65.35462188720703,
+        "newMean": 38.211326599121094
+      },
+      {
+        "lat": 15,
+        "lon": 45,
+        "correlation": 0.999614124954358,
+        "offsetPixelsAt2K": [
+          0,
+          0
+        ],
+        "oldMean": 40.45267105102539,
+        "newMean": 43.42897033691406
+      },
+      {
+        "lat": 15,
+        "lon": 135,
+        "correlation": 0.9994762461099418,
+        "offsetPixelsAt2K": [
+          0,
+          0
+        ],
+        "oldMean": 54.54759216308594,
+        "newMean": 58.669334411621094
+      },
+      {
+        "lat": 30,
+        "lon": -135,
+        "correlation": 0.9979912203729723,
+        "offsetPixelsAt2K": [
+          0,
+          0
+        ],
+        "oldMean": 78.72897338867188,
+        "newMean": 84.13098907470703
+      },
+      {
+        "lat": 30,
+        "lon": -45,
+        "correlation": 0.8572749949777445,
+        "offsetPixelsAt2K": [
+          0,
+          0
+        ],
+        "oldMean": 49.86790466308594,
+        "newMean": 23.17955780029297
+      },
+      {
+        "lat": 30,
+        "lon": 45,
+        "correlation": 0.9963850718045627,
+        "offsetPixelsAt2K": [
+          0,
+          0
+        ],
+        "oldMean": 2.531705617904663,
+        "newMean": 2.7843098640441895
+      },
+      {
+        "lat": 30,
+        "lon": 135,
+        "correlation": 0.9990006338927127,
+        "offsetPixelsAt2K": [
+          0,
+          0
+        ],
+        "oldMean": 37.306640625,
+        "newMean": 40.32018280029297
+      },
+      {
+        "lat": 45,
+        "lon": -135,
+        "correlation": 0.996894588459972,
+        "offsetPixelsAt2K": [
+          0,
+          0
+        ],
+        "oldMean": 81.13255310058594,
+        "newMean": 87.54889678955078
+      },
+      {
+        "lat": 45,
+        "lon": -45,
+        "correlation": 0.946042267080909,
+        "offsetPixelsAt2K": [
+          0,
+          0
+        ],
+        "oldMean": 63.96510314941406,
+        "newMean": 46.79446792602539
+      },
+      {
+        "lat": 45,
+        "lon": 45,
+        "correlation": 0.9986838155825906,
+        "offsetPixelsAt2K": [
+          0,
+          0
+        ],
+        "oldMean": 19.17884063720703,
+        "newMean": 20.421419143676758
+      },
+      {
+        "lat": 45,
+        "lon": 135,
+        "correlation": 0.9965257600241195,
+        "offsetPixelsAt2K": [
+          0,
+          0
+        ],
+        "oldMean": 75.08899688720703,
+        "newMean": 81.962890625
+      },
+      {
+        "lat": 60,
+        "lon": -135,
+        "correlation": 0.866013353404119,
+        "offsetPixelsAt2K": [
+          0,
+          0
+        ],
+        "oldMean": 105.61243438720703,
+        "newMean": 90.10832977294922
+      },
+      {
+        "lat": 60,
+        "lon": -45,
+        "correlation": 0.8670622841538183,
+        "offsetPixelsAt2K": [
+          0,
+          0
+        ],
+        "oldMean": 77.609375,
+        "newMean": 54.0576171875
+      },
+      {
+        "lat": 60,
+        "lon": 45,
+        "correlation": 0.9299520675707194,
+        "offsetPixelsAt2K": [
+          0,
+          0
+        ],
+        "oldMean": 63.64472579956055,
+        "newMean": 58.6875
+      },
+      {
+        "lat": 60,
+        "lon": 135,
+        "correlation": 0.6085783657067388,
+        "offsetPixelsAt2K": [
+          0,
+          0
+        ],
+        "oldMean": 69.0355453491211,
+        "newMean": 24.625261306762695
+      },
+      {
+        "lat": 75,
+        "lon": -135,
+        "correlation": 0.803389128916288,
+        "offsetPixelsAt2K": [
+          0,
+          0
+        ],
+        "oldMean": 84.49342346191406,
+        "newMean": 69.39381408691406
+      },
+      {
+        "lat": 75,
+        "lon": -45,
+        "correlation": 0.1273258143028731,
+        "offsetPixelsAt2K": [
+          0,
+          0
+        ],
+        "oldMean": 68.20455932617188,
+        "newMean": 3.699674367904663
+      },
+      {
+        "lat": 75,
+        "lon": 45,
+        "correlation": 0.6851974412618921,
+        "offsetPixelsAt2K": [
+          0,
+          0
+        ],
+        "oldMean": 98.88600158691406,
+        "newMean": 66.15110778808594
+      },
+      {
+        "lat": 75,
+        "lon": 135,
+        "correlation": 0.6111085483919785,
+        "offsetPixelsAt2K": [
+          0,
+          0
+        ],
+        "oldMean": 92.7138671875,
+        "newMean": 18.054166793823242
+      }
+    ],
+    "conclusion": "All 36 windows centred between -60 and +60 degrees have their best match at zero translation. Most windows centred from -45 to +45 degrees have correlation above 0.99; a few different cloud patches remain. Polar coverage is not interchangeable."
+  },
+  "trialComposition": {
+    "source": "Gaia level-3 tiles on their native 16384 x 8192 grid",
+    "retainedPoles": "Existing Solar System Scope red-channel coverage beyond absolute latitude 60 degrees; original polar detail remains 8K.",
+    "transition": "Smooth latitude weight from full NASA-derived atlas at 50 degrees to full prior coverage at 60 degrees. No displacement of cloud patterns, sharpening or invented meteorological detail.",
+    "heightGrid": [
+      2048,
+      1024
+    ],
+    "referencePage": "https://science.nasa.gov/earth/earth-observatory/the-blue-marble-true-color-global-imagery-at-1km-resolution/"
+  },
+  "sceneTrial": {
+    "report": "tests/cloud-scene-detail-trial-results.json",
+    "views": 10,
+    "engine": "Chrome",
+    "findings": [
+      "12K source improves close, grazing and resolved-limb image/gradient errors against the common 16K reference.",
+      "12K day-view error increases, and the polar gradient comparison regresses. This candidate is not accepted.",
+      "Exact R8 reference bytes loaded over local HTTP complete all views. The earlier large intercepted image/binary transfers closed the browser. Their precise failure mechanism is unproven."
+    ],
+    "nextCheck": "Native 16K evaluated and integrated; final engine/device coverage is recorded in tests/cloud-source-results.json.",
+    "native16K": {
+      "result": "Clearer close/grazing/limb comparisons; large 12K wide-view regression removed. High day differs slightly from the lossless 8K control; polar gradients still include compression error. These exceptions remain explicit.",
+      "approximateCloseImageErrorReduction": 0.61,
+      "source": "tests/cloud-scene-detail-trial-results.json",
+      "filesBytes": 13826371,
+      "estimatedFullMipGPUStorageMiB": 173.333,
+      "previousPackedMipGPUStorageMiB": 85.333
+    }
+  },
+  "candidate": {
+    "root": "/private/tmp/cosmos-v90-cloud-candidate/Cosmos",
+    "baseVersion": "0.89.0",
+    "defaultPreview": "http://127.0.0.1:4173",
+    "files": {
+      "src/world.js": "726b300f85d32142b490f6dcdab3838bb4ea0e7cb6d040c2093176e7dbcb2614",
+      "src/rendering/scene-factory.js": "ae8294bfe8611a4623fce5a72a319789350f4c09ed7c4bac76586f482e395711",
+      "src/rendering/earth-shaders.js": "22eb1230a69fb88287bf39649a2260ba96a6baf91c7f6cd884c093e619e7efd1",
+      "assets/textures/earth-clouds.avif": "52c8504370bc943b07f743083125ee4eca883524d770ab80757ba43ef4927d47",
+      "assets/textures/earth-cloud-height.png": "e459fde568e5666da55abfaeffb18dc88ae13fc29d91d442d7f0318fd16d19bb"
+    },
+    "runtimeArchitecture": "Replace the runtime RG8 packing loop with two directly loaded R8 fields. Fine coverage uses 16K; regional height stays 2K. One shared CPU-derived LOD bias preserves matching physical footprints after device resizing. No new draw pass, module, controller or flight state.",
+    "pending": [],
+    "deviceReview": "Chrome and WebKit support native 16K. Firefox reports an 8K maximum; the final source review labels it as a compatibility case. All three engines also pass an explicitly constrained 4K application check with the regional height field remaining 2K.",
+    "deliveredVersion": "0.90.0",
+    "releaseReview": "dist/release-review.json"
+  },
+  "biasCheck": "Ten Chrome views remain pixel-identical after the per-sample dimension conversion becomes a material uniform. The shared CPU expression was then factored once outside the body loop; its values are unchanged."
+}

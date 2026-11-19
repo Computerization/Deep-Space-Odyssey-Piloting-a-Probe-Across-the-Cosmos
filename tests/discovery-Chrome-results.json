@@ -1,0 +1,12 @@
+{
+  "engine": "Chrome",
+  "checks": [
+    "opening-with-one-instruction",
+    "first-discovery-through-keyboard-flight",
+    "release-coast-brake-cues",
+    "notes-without-photographs",
+    "crescent-discovery",
+    "no-forced-modal"
+  ],
+  "errors": []
+}

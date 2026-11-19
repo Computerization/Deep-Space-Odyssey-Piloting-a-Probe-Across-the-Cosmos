@@ -1,0 +1,354 @@
+{
+  "version": "0.32.0",
+  "reference": "16x hardware anisotropy with explicit gradients is a filter-quality reference, not a photographic or full radiance reference.",
+  "viewport": [
+    800,
+    500
+  ],
+  "outcomes": [
+    {
+      "name": "Chrome",
+      "engineVersion": "158.0.8127.37",
+      "views": [
+        {
+          "label": "day",
+          "radius": 2.35,
+          "phase": 35,
+          "yaw": 0,
+          "metrics": {
+            "previous": {
+              "channels": 277104,
+              "mae": 1.7478383567180553,
+              "rmse": 3.453307296427789,
+              "max": 68,
+              "fullMean": 0.41344166666666665,
+              "fullMax": 68
+            },
+            "candidate": {
+              "channels": 277104,
+              "mae": 0.3176027772966107,
+              "rmse": 1.485668540095115,
+              "max": 61,
+              "fullMean": 0.07594083333333333,
+              "fullMax": 61
+            }
+          },
+          "draws": {
+            "off": {
+              "calls": 5,
+              "triangles": 146434
+            },
+            "previous": {
+              "calls": 6,
+              "triangles": 219650
+            },
+            "candidate": {
+              "calls": 6,
+              "triangles": 219650
+            },
+            "reference": {
+              "calls": 6,
+              "triangles": 219650
+            }
+          }
+        },
+        {
+          "label": "terminator",
+          "radius": 2.35,
+          "phase": 90,
+          "yaw": 0,
+          "metrics": {
+            "previous": {
+              "channels": 134595,
+              "mae": 1.9174114937404807,
+              "rmse": 3.913136107892617,
+              "max": 81,
+              "fullMean": 0.220225,
+              "fullMax": 81
+            },
+            "candidate": {
+              "channels": 134595,
+              "mae": 0.4745718637393663,
+              "rmse": 1.9263357301032065,
+              "max": 61,
+              "fullMean": 0.054960833333333334,
+              "fullMax": 61
+            }
+          },
+          "draws": {
+            "off": {
+              "calls": 5,
+              "triangles": 146434
+            },
+            "previous": {
+              "calls": 6,
+              "triangles": 219650
+            },
+            "candidate": {
+              "calls": 6,
+              "triangles": 219650
+            },
+            "reference": {
+              "calls": 6,
+              "triangles": 219650
+            }
+          }
+        },
+        {
+          "label": "crescent",
+          "radius": 2.35,
+          "phase": 150,
+          "yaw": 0,
+          "metrics": {
+            "previous": {
+              "channels": 309,
+              "mae": 1.7119741100323624,
+              "rmse": 4.071767187093335,
+              "max": 38,
+              "fullMean": 0.0005416666666666666,
+              "fullMax": 38
+            },
+            "candidate": {
+              "channels": 309,
+              "mae": 1.72168284789644,
+              "rmse": 4.101463942605361,
+              "max": 38,
+              "fullMean": 0.0005366666666666666,
+              "fullMax": 38
+            }
+          },
+          "draws": {
+            "off": {
+              "calls": 6,
+              "triangles": 219650
+            },
+            "previous": {
+              "calls": 7,
+              "triangles": 292866
+            },
+            "candidate": {
+              "calls": 7,
+              "triangles": 292866
+            },
+            "reference": {
+              "calls": 7,
+              "triangles": 292866
+            }
+          }
+        },
+        {
+          "label": "night",
+          "radius": 2.35,
+          "phase": 175,
+          "yaw": 0,
+          "metrics": {
+            "previous": {
+              "channels": 0,
+              "mae": 0,
+              "rmse": 0,
+              "max": 0,
+              "fullMean": 0,
+              "fullMax": 0
+            },
+            "candidate": {
+              "channels": 0,
+              "mae": 0,
+              "rmse": 0,
+              "max": 0,
+              "fullMean": 0,
+              "fullMax": 0
+            }
+          },
+          "draws": {
+            "off": {
+              "calls": 9,
+              "triangles": 443394
+            },
+            "previous": {
+              "calls": 10,
+              "triangles": 516610
+            },
+            "candidate": {
+              "calls": 10,
+              "triangles": 516610
+            },
+            "reference": {
+              "calls": 10,
+              "triangles": 516610
+            }
+          }
+        },
+        {
+          "label": "close",
+          "radius": 1.05,
+          "phase": 50,
+          "yaw": 0,
+          "metrics": {
+            "previous": {
+              "channels": 807537,
+              "mae": 0.02407072369439419,
+              "rmse": 0.16322225256672537,
+              "max": 10,
+              "fullMean": 0.016471666666666666,
+              "fullMax": 10
+            },
+            "candidate": {
+              "channels": 807537,
+              "mae": 0,
+              "rmse": 0,
+              "max": 0,
+              "fullMean": 0,
+              "fullMax": 0
+            }
+          },
+          "draws": {
+            "off": {
+              "calls": 5,
+              "triangles": 146434
+            },
+            "previous": {
+              "calls": 6,
+              "triangles": 219650
+            },
+            "candidate": {
+              "calls": 6,
+              "triangles": 219650
+            },
+            "reference": {
+              "calls": 6,
+              "triangles": 219650
+            }
+          }
+        },
+        {
+          "label": "grazing",
+          "radius": 1.08,
+          "phase": 90,
+          "yaw": 0,
+          "metrics": {
+            "previous": {
+              "channels": 569763,
+              "mae": 0.02761148056297092,
+              "rmse": 0.20191913791958416,
+              "max": 21,
+              "fullMean": 0.0133275,
+              "fullMax": 21
+            },
+            "candidate": {
+              "channels": 569763,
+              "mae": 0.000012285810064886628,
+              "rmse": 0.0035051119903487574,
+              "max": 1,
+              "fullMean": 0.000005833333333333333,
+              "fullMax": 1
+            }
+          },
+          "draws": {
+            "off": {
+              "calls": 5,
+              "triangles": 146434
+            },
+            "previous": {
+              "calls": 6,
+              "triangles": 219650
+            },
+            "candidate": {
+              "calls": 6,
+              "triangles": 219650
+            },
+            "reference": {
+              "calls": 6,
+              "triangles": 219650
+            }
+          }
+        },
+        {
+          "label": "turn-left",
+          "radius": 1.08,
+          "phase": 90,
+          "yaw": -0.001,
+          "metrics": {
+            "previous": {
+              "channels": 570501,
+              "mae": 0.027351398157058445,
+              "rmse": 0.19902461714125708,
+              "max": 26,
+              "fullMean": 0.0132225,
+              "fullMax": 26
+            },
+            "candidate": {
+              "channels": 570501,
+              "mae": 0.00001226991714300238,
+              "rmse": 0.0035028441505442942,
+              "max": 1,
+              "fullMean": 0.000005833333333333333,
+              "fullMax": 1
+            }
+          },
+          "draws": {
+            "off": {
+              "calls": 5,
+              "triangles": 146434
+            },
+            "previous": {
+              "calls": 6,
+              "triangles": 219650
+            },
+            "candidate": {
+              "calls": 6,
+              "triangles": 219650
+            },
+            "reference": {
+              "calls": 6,
+              "triangles": 219650
+            }
+          }
+        },
+        {
+          "label": "turn-right",
+          "radius": 1.08,
+          "phase": 90,
+          "yaw": 0.001,
+          "metrics": {
+            "previous": {
+              "channels": 568995,
+              "mae": 0.027327129412384996,
+              "rmse": 0.20328240815903703,
+              "max": 23,
+              "fullMean": 0.013178333333333334,
+              "fullMax": 23
+            },
+            "candidate": {
+              "channels": 568995,
+              "mae": 0.000014059877503317253,
+              "rmse": 0.0037496503174719174,
+              "max": 1,
+              "fullMean": 0.000006666666666666667,
+              "fullMax": 1
+            }
+          },
+          "draws": {
+            "off": {
+              "calls": 5,
+              "triangles": 146434
+            },
+            "previous": {
+              "calls": 6,
+              "triangles": 219650
+            },
+            "candidate": {
+              "calls": 6,
+              "triangles": 219650
+            },
+            "reference": {
+              "calls": 6,
+              "triangles": 219650
+            }
+          }
+        }
+      ],
+      "errors": [],
+      "passed": true
+    }
+  ]
+}

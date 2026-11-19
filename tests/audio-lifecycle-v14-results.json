@@ -1,0 +1,27 @@
+{
+  "version": "0.14.0",
+  "savedMuteAppliedBeforePlayback": {
+    "muted": true,
+    "master": 0,
+    "recordings": 0
+  },
+  "rapidTransitionState": {
+    "count": 4,
+    "current": "rings",
+    "finite": true
+  },
+  "settledPlaying": [
+    "rings"
+  ],
+  "loopWrap": {
+    "time": 1.2,
+    "paused": false,
+    "ended": false
+  },
+  "hiddenAudioFade": {
+    "master": 0.00009048707579495385,
+    "recordings": 0
+  },
+  "listeningQualityAuditioned": false,
+  "errors": []
+}

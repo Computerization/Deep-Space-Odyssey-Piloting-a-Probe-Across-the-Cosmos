@@ -1,0 +1,319 @@
+{
+  "durationSeconds": 180,
+  "viewport": "1600 × 1000, DPR 2, High adaptive, 1–2× cap",
+  "samples": [
+    {
+      "chapter": 0,
+      "fps": 60.00393468424171,
+      "pixels": [
+        2000,
+        1250
+      ],
+      "heap": 25564464,
+      "geometry": {
+        "geometries": 20,
+        "textures": 22
+      },
+      "glLost": false,
+      "audio": {
+        "started": true,
+        "state": "running",
+        "track": "departure",
+        "muted": false,
+        "feedbackVoices": 0,
+        "acousticFeedback": true,
+        "adaptiveGain": 0.9566602110862732,
+        "playing": [
+          "departure"
+        ]
+      }
+    },
+    {
+      "chapter": 1,
+      "fps": 59.998032851382135,
+      "pixels": [
+        2200,
+        1375
+      ],
+      "heap": 29390831,
+      "geometry": {
+        "geometries": 20,
+        "textures": 22
+      },
+      "glLost": false,
+      "audio": {
+        "started": true,
+        "state": "running",
+        "track": "encounter",
+        "muted": false,
+        "feedbackVoices": 0,
+        "acousticFeedback": true,
+        "adaptiveGain": 0.9460427761077881,
+        "playing": [
+          "encounter"
+        ]
+      }
+    },
+    {
+      "chapter": 2,
+      "fps": 60.00393468424171,
+      "pixels": [
+        2400,
+        1500
+      ],
+      "heap": 28808797,
+      "geometry": {
+        "geometries": 20,
+        "textures": 22
+      },
+      "glLost": false,
+      "audio": {
+        "started": true,
+        "state": "running",
+        "track": "rings",
+        "muted": false,
+        "feedbackVoices": 0,
+        "acousticFeedback": true,
+        "adaptiveGain": 0.9232832789421082,
+        "playing": [
+          "rings"
+        ]
+      }
+    },
+    {
+      "chapter": 3,
+      "fps": 60.0039346842417,
+      "pixels": [
+        2600,
+        1625
+      ],
+      "heap": 28336847,
+      "geometry": {
+        "geometries": 20,
+        "textures": 22
+      },
+      "glLost": false,
+      "audio": {
+        "started": true,
+        "state": "running",
+        "track": "distance",
+        "muted": false,
+        "feedbackVoices": 0,
+        "acousticFeedback": true,
+        "adaptiveGain": 0.8625749349594116,
+        "playing": [
+          "distance"
+        ]
+      }
+    },
+    {
+      "chapter": 4,
+      "fps": 60.003934684241266,
+      "pixels": [
+        2800,
+        1750
+      ],
+      "heap": 24687317,
+      "geometry": {
+        "geometries": 20,
+        "textures": 22
+      },
+      "glLost": false,
+      "audio": {
+        "started": true,
+        "state": "running",
+        "track": "distance",
+        "muted": false,
+        "feedbackVoices": 0,
+        "acousticFeedback": true,
+        "adaptiveGain": 0.8600000143051147,
+        "playing": [
+          "distance"
+        ]
+      }
+    },
+    {
+      "chapter": 0,
+      "fps": 58.03659256344648,
+      "pixels": [
+        2400,
+        1500
+      ],
+      "heap": 26022705,
+      "geometry": {
+        "geometries": 20,
+        "textures": 22
+      },
+      "glLost": false,
+      "audio": {
+        "started": true,
+        "state": "running",
+        "track": "departure",
+        "muted": false,
+        "feedbackVoices": 0,
+        "acousticFeedback": true,
+        "adaptiveGain": 0.9566602110862732,
+        "playing": [
+          "departure"
+        ]
+      }
+    },
+    {
+      "chapter": 1,
+      "fps": 59.99803285138126,
+      "pixels": [
+        2600,
+        1625
+      ],
+      "heap": 32234257,
+      "geometry": {
+        "geometries": 20,
+        "textures": 22
+      },
+      "glLost": false,
+      "audio": {
+        "started": true,
+        "state": "running",
+        "track": "encounter",
+        "muted": false,
+        "feedbackVoices": 0,
+        "acousticFeedback": true,
+        "adaptiveGain": 0.9460427761077881,
+        "playing": [
+          "encounter"
+        ]
+      }
+    },
+    {
+      "chapter": 2,
+      "fps": 59.998032851382106,
+      "pixels": [
+        2800,
+        1750
+      ],
+      "heap": 33888021,
+      "geometry": {
+        "geometries": 20,
+        "textures": 22
+      },
+      "glLost": false,
+      "audio": {
+        "started": true,
+        "state": "running",
+        "track": "rings",
+        "muted": false,
+        "feedbackVoices": 0,
+        "acousticFeedback": true,
+        "adaptiveGain": 0.9232832789421082,
+        "playing": [
+          "rings"
+        ]
+      }
+    },
+    {
+      "chapter": 3,
+      "fps": 60.003934684241266,
+      "pixels": [
+        3000,
+        1875
+      ],
+      "heap": 31410033,
+      "geometry": {
+        "geometries": 20,
+        "textures": 22
+      },
+      "glLost": false,
+      "audio": {
+        "started": true,
+        "state": "running",
+        "track": "distance",
+        "muted": false,
+        "feedbackVoices": 0,
+        "acousticFeedback": true,
+        "adaptiveGain": 0.8625749349594116,
+        "playing": [
+          "distance"
+        ]
+      }
+    },
+    {
+      "chapter": 4,
+      "fps": 60.00393468424125,
+      "pixels": [
+        3200,
+        2000
+      ],
+      "heap": 34855793,
+      "geometry": {
+        "geometries": 20,
+        "textures": 22
+      },
+      "glLost": false,
+      "audio": {
+        "started": true,
+        "state": "running",
+        "track": "distance",
+        "muted": false,
+        "feedbackVoices": 0,
+        "acousticFeedback": true,
+        "adaptiveGain": 0.8600000143051147,
+        "playing": [
+          "distance"
+        ]
+      }
+    },
+    {
+      "chapter": 0,
+      "fps": 41.99999999999999,
+      "pixels": [
+        2200,
+        1375
+      ],
+      "heap": 24702621,
+      "geometry": {
+        "geometries": 20,
+        "textures": 22
+      },
+      "glLost": false,
+      "audio": {
+        "started": true,
+        "state": "running",
+        "track": "departure",
+        "muted": false,
+        "feedbackVoices": 0,
+        "acousticFeedback": true,
+        "adaptiveGain": 0.9566602110862732,
+        "playing": [
+          "departure"
+        ]
+      }
+    },
+    {
+      "chapter": 1,
+      "fps": 60.003934684241266,
+      "pixels": [
+        2400,
+        1500
+      ],
+      "heap": 25851421,
+      "geometry": {
+        "geometries": 20,
+        "textures": 22
+      },
+      "glLost": false,
+      "audio": {
+        "started": true,
+        "state": "running",
+        "track": "encounter",
+        "muted": false,
+        "feedbackVoices": 0,
+        "acousticFeedback": true,
+        "adaptiveGain": 0.9460427761077881,
+        "playing": [
+          "encounter"
+        ]
+      }
+    }
+  ],
+  "errors": []
+}

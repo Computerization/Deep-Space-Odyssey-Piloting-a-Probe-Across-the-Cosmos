@@ -1,0 +1,30 @@
+{
+  "sourcePage": "https://bjj.mmedia.is/data/jupiter_vgr1/index.html",
+  "sourceUrl": "https://bjj.mmedia.is/data/jupiter_vgr1/jupiter_vgr1_2025.jpg",
+  "permission": "https://bjj.mmedia.is/acknow.html",
+  "credit": "NASA / JPL / Bjorn Jonsson",
+  "sourceSha256": "ead1343a61c93946afb99179b160385fb10ae7fb5d7715a23b5e99db51b63db4",
+  "maskSha256": "63263e598b8d6b989b9e48eb28f5099e916bbbb05599e3252f9ee0cd216e49c5",
+  "sourceEdition": "2025 colour reconstruction; Voyager 1 images from 27 February 1979, 03:55:47 to 12:52:35 UTC",
+  "dimensions": [
+    7200,
+    3600
+  ],
+  "projection": "Simple cylindrical; planetographic latitude; System III longitude 0 at both edges and 180 at the centre",
+  "encoding": {
+    "encoder": "Pillow AVIF",
+    "quality": 85,
+    "subsampling": "4:4:4",
+    "speed": 4,
+    "maxThreads": 4,
+    "control": "Development only: 3600 x 1800; linear-light Lanczos reduction, AVIF quality 90, 4:4:4"
+  },
+  "processing": "Original RGB pixels retained before compressed encoding; no sharpening, generated detail, palette edits or texture reprojection.",
+  "limitations": "Synthetic green and RGB reconstruction from orange/violet observations; manually blended seams and smooth missing polar data as documented by the author. Not the exact cloud pattern at the 5 March closest approach. The 7200-wide grid slightly oversamples the original observations.",
+  "files": {
+    "jupiter.avif": {
+      "bytes": 3299889,
+      "sha256": "7c0c16b9f8a8d01e3cb7c72fe1cddea476949da75e3da748fcf8a455a0d37480"
+    }
+  }
+}

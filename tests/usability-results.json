@@ -1,0 +1,27 @@
+{
+  "mouse": true,
+  "freeLookIndependentHeading": true,
+  "chaseFreeLookMovesSpacecraft": true,
+  "chaseAndWorldLensMatch": true,
+  "frameRateIndependentTurning": {
+    "fast": -0.022000000000000002,
+    "slow": -0.044000000000000004
+  },
+  "keyboardMenu": true,
+  "settingsEscape": true,
+  "fullscreen": true,
+  "collisionRecovery": true,
+  "photoExport": true,
+  "musicLoop": {
+    "time": 2.757813,
+    "paused": false,
+    "ended": false
+  },
+  "unresolvedEarth": {
+    "radius": 0.011236853384202865,
+    "range": 10679.349500753768,
+    "angularPixels": 0.001870971010660428
+  },
+  "resumeChapter": 3,
+  "errors": []
+}

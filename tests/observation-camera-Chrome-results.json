@@ -1,0 +1,467 @@
+{
+  "version": "0.54.0",
+  "outcomes": [
+    {
+      "name": "Chrome",
+      "engineVersion": "158.0.8127.37",
+      "layouts": [
+        {
+          "width": 1440,
+          "height": 900,
+          "buttons": [
+            {
+              "text": "×",
+              "x": 474,
+              "y": 43,
+              "width": 44,
+              "height": 44
+            },
+            {
+              "text": "Probe",
+              "x": 86.390625,
+              "y": 110.390625,
+              "width": 44,
+              "height": 45.6875
+            },
+            {
+              "text": "Chase",
+              "x": 158.390625,
+              "y": 110.390625,
+              "width": 45,
+              "height": 45.6875
+            },
+            {
+              "text": "SaturnFollow →",
+              "x": 86.390625,
+              "y": 400.375,
+              "width": 419.609375,
+              "height": 52
+            },
+            {
+              "text": "TitanFollow →",
+              "x": 86.390625,
+              "y": 452.375,
+              "width": 419.609375,
+              "height": 52
+            },
+            {
+              "text": "Return to flight →",
+              "x": 86.390625,
+              "y": 824.703125,
+              "width": 425.609375,
+              "height": 47.296875
+            }
+          ],
+          "scroll": 693,
+          "client": 693
+        },
+        {
+          "width": 1024,
+          "height": 640,
+          "buttons": [
+            {
+              "text": "×",
+              "x": 474,
+              "y": 18,
+              "width": 44,
+              "height": 44
+            },
+            {
+              "text": "Probe",
+              "x": 61.4375,
+              "y": 72.5,
+              "width": 44,
+              "height": 45.6875
+            },
+            {
+              "text": "Chase",
+              "x": 133.4375,
+              "y": 72.5,
+              "width": 45,
+              "height": 45.6875
+            },
+            {
+              "text": "SaturnFollow →",
+              "x": 61.4375,
+              "y": 316.484375,
+              "width": 444.5625,
+              "height": 46
+            },
+            {
+              "text": "TitanFollow →",
+              "x": 61.4375,
+              "y": 362.484375,
+              "width": 444.5625,
+              "height": 46
+            },
+            {
+              "text": "Return to flight →",
+              "x": 61.4375,
+              "y": 564.703125,
+              "width": 450.5625,
+              "height": 47.296875
+            }
+          ],
+          "scroll": 471,
+          "client": 471
+        },
+        {
+          "width": 800,
+          "height": 600,
+          "buttons": [
+            {
+              "text": "×",
+              "x": 374,
+              "y": 18,
+              "width": 44,
+              "height": 44
+            },
+            {
+              "text": "Probe",
+              "x": 40,
+              "y": 72.5,
+              "width": 44,
+              "height": 45.6875
+            },
+            {
+              "text": "Chase",
+              "x": 112,
+              "y": 72.5,
+              "width": 45,
+              "height": 45.6875
+            },
+            {
+              "text": "SaturnFollow →",
+              "x": 40,
+              "y": 316.484375,
+              "width": 370,
+              "height": 46
+            },
+            {
+              "text": "TitanFollow →",
+              "x": 40,
+              "y": 362.484375,
+              "width": 370,
+              "height": 46
+            },
+            {
+              "text": "Return to flight →",
+              "x": 40,
+              "y": 524.703125,
+              "width": 376,
+              "height": 47.296875
+            }
+          ],
+          "scroll": 431,
+          "client": 431
+        }
+      ],
+      "acquired": {
+        "tracking": "saturn",
+        "freeLook": true,
+        "project": {
+          "x": 1.699620614890053e-17,
+          "y": 1.631635790294451e-15,
+          "front": true,
+          "distance": 298493.9641646015,
+          "angle": 0
+        },
+        "position": [
+          -1421176444.2564046,
+          31058198.718411293,
+          72694290.02840832
+        ],
+        "velocity": [
+          -13.358976799736949,
+          17.310551686639204,
+          -1.7954174547722381
+        ],
+        "attitude": [
+          -0.04187300771707857,
+          0.9489169842359795,
+          0.15041486041717653,
+          0.274187122270359
+        ],
+        "fuel": 104,
+        "localSeconds": 0
+      },
+      "motion": {
+        "tracked": {
+          "position": [
+            -1421210174.2643387,
+            31100650.33730554,
+            72690890.67135215
+          ],
+          "velocity": [
+            -13.8302189455978,
+            16.91495220295817,
+            -0.95013225252045
+          ],
+          "q": [
+            -0.04187300771707857,
+            0.9489169842359795,
+            0.15041486041717653,
+            0.274187122270359
+          ],
+          "fuel": 104,
+          "seconds": 2479.087427356324,
+          "maxError": 2.1073424255447017e-8
+        },
+        "manual": {
+          "position": [
+            -1421210174.2643387,
+            31100650.33730554,
+            72690890.67135215
+          ],
+          "velocity": [
+            -13.8302189455978,
+            16.91495220295817,
+            -0.95013225252045
+          ],
+          "q": [
+            -0.04187300771707857,
+            0.9489169842359795,
+            0.15041486041717653,
+            0.274187122270359
+          ],
+          "fuel": 104,
+          "seconds": 2479.087427356324,
+          "maxError": 0.18075215964629768
+        }
+      },
+      "lens": {
+        "target": 49.6,
+        "values": [
+          56.1,
+          54.6,
+          53.5,
+          52.6,
+          51.9,
+          51.4,
+          51,
+          50.7,
+          50.4,
+          50.3,
+          50.1,
+          50,
+          49.9,
+          49.8,
+          49.8,
+          49.7,
+          49.7,
+          49.7,
+          49.7,
+          49.7,
+          49.6,
+          49.6,
+          49.6,
+          49.6,
+          49.6,
+          49.6,
+          49.6,
+          49.6,
+          49.6,
+          49.6,
+          49.6,
+          49.6,
+          49.6,
+          49.6,
+          49.6,
+          49.6,
+          49.6,
+          49.6,
+          49.6,
+          49.6,
+          49.6,
+          49.6,
+          49.6,
+          49.6,
+          49.6,
+          49.6,
+          49.6,
+          49.6,
+          49.6,
+          49.6,
+          49.6,
+          49.6,
+          49.6,
+          49.6,
+          49.6,
+          49.6,
+          49.6,
+          49.6,
+          49.6,
+          49.6
+        ],
+        "detail": 6.7,
+        "detailValues": [
+          7.7,
+          7.5,
+          7.3,
+          7.2,
+          7,
+          7,
+          6.9,
+          6.9,
+          6.8,
+          6.8,
+          6.8,
+          6.8,
+          6.7,
+          6.7,
+          6.7,
+          6.7,
+          6.7,
+          6.7,
+          6.7,
+          6.7,
+          6.7,
+          6.7,
+          6.7,
+          6.7,
+          6.7,
+          6.7,
+          6.7,
+          6.7,
+          6.7,
+          6.7,
+          6.7,
+          6.7,
+          6.7,
+          6.7,
+          6.7,
+          6.7,
+          6.7,
+          6.7,
+          6.7,
+          6.7,
+          6.7,
+          6.7,
+          6.7,
+          6.7,
+          6.7,
+          6.7,
+          6.7,
+          6.7,
+          6.7,
+          6.7,
+          6.7,
+          6.7,
+          6.7,
+          6.7,
+          6.7,
+          6.7,
+          6.7,
+          6.7,
+          6.7,
+          6.7
+        ],
+        "external": 34
+      },
+      "switching": [
+        {
+          "label": "current-probe",
+          "view": "probe",
+          "angleRadians": 0,
+          "tracking": "saturn",
+          "freeLook": true,
+          "physicalStatePreserved": true
+        },
+        {
+          "label": "menu-chase",
+          "view": "chase",
+          "angleRadians": 0,
+          "tracking": "saturn",
+          "freeLook": true,
+          "physicalStatePreserved": true
+        },
+        {
+          "label": "current-chase",
+          "view": "chase",
+          "angleRadians": 0,
+          "tracking": "saturn",
+          "freeLook": true,
+          "physicalStatePreserved": true
+        },
+        {
+          "label": "menu-probe",
+          "view": "probe",
+          "angleRadians": 0,
+          "tracking": "saturn",
+          "freeLook": true,
+          "physicalStatePreserved": true
+        },
+        {
+          "label": "keyboard-following-chase",
+          "view": "chase",
+          "angleRadians": 0,
+          "tracking": "saturn",
+          "freeLook": true,
+          "physicalStatePreserved": true
+        },
+        {
+          "label": "keyboard-following-probe",
+          "view": "probe",
+          "angleRadians": 0,
+          "tracking": "saturn",
+          "freeLook": true,
+          "physicalStatePreserved": true
+        },
+        {
+          "label": "xbox-following-chase",
+          "view": "chase",
+          "angleRadians": 0,
+          "tracking": "saturn",
+          "freeLook": true,
+          "physicalStatePreserved": true
+        },
+        {
+          "label": "xbox-following-probe",
+          "view": "probe",
+          "angleRadians": 0,
+          "tracking": "saturn",
+          "freeLook": true,
+          "physicalStatePreserved": true
+        },
+        {
+          "label": "independent-look-chase",
+          "view": "chase",
+          "angleRadians": 0,
+          "tracking": null,
+          "freeLook": true,
+          "physicalStatePreserved": true
+        },
+        {
+          "label": "independent-look-probe",
+          "view": "probe",
+          "angleRadians": 0,
+          "tracking": null,
+          "freeLook": true,
+          "physicalStatePreserved": true
+        },
+        {
+          "label": "lagged-chase-to-probe",
+          "view": "probe",
+          "angleRadians": 0,
+          "tracking": null,
+          "freeLook": true,
+          "physicalStatePreserved": true
+        }
+      ],
+      "chaseLagRadians": 0.011918256243884085,
+      "bearingPointerAndKeyboard": true,
+      "bearingPhysicalStatePreserved": true,
+      "bearingCanSwitchSubject": true,
+      "transitBearingIsReadOnly": true,
+      "keyboardRelease": true,
+      "heldFollowingReusesFrame": true,
+      "persistedFollowing": true,
+      "syntheticXboxCameraAndManualRelease": true,
+      "pauseCamera": true,
+      "chasePhoto": true,
+      "transitClearsTracking": true,
+      "errors": [],
+      "passed": true
+    }
+  ]
+}

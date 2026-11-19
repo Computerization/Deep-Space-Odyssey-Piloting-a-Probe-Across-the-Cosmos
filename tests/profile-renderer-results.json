@@ -1,0 +1,567 @@
+{
+  "version": "0.84.0",
+  "geometryOnly": true,
+  "reflectionOnly": false,
+  "gpuScope": "Complete frame including output resolve",
+  "geometrySourceSha256": "0e87fdf9a19a8dab13affe848de13cc3e9f86d127c3bc7df460bc434390e4fbd",
+  "reflectionRefreshEveryDraw": true,
+  "worldSha256": "dd3048121a79cc4e18e0444286bf53be3381847ff82221d9973c12f56c3a5e4a",
+  "referenceWorldSha256": "dd3048121a79cc4e18e0444286bf53be3381847ff82221d9973c12f56c3a5e4a",
+  "geometryComparison": "Full meshes versus viewport-selected meshes; each chase draw refreshes the reflection. This measures refresh cost, not normal steady-flight frequency.",
+  "method": "1280 x 800 DPR 2, High ratio 1.25 and cloud scale .75. Warm 120 draws per variant; then 64 interleaved ABBA groups on consecutive animation ticks, reported in four chunks of 32 GPU samples per variant. CPU values always measure the complete update.",
+  "samples": [
+    {
+      "label": "Earth",
+      "group": 0,
+      "mode": "previous",
+      "gpuSamples": 32,
+      "gpuMedianMs": 34.906499,
+      "gpuP95Ms": 38.748874,
+      "cpuMedianMs": 0.5,
+      "output": [
+        2560,
+        1600
+      ],
+      "scene": [
+        1600,
+        1000
+      ],
+      "calls": 8,
+      "triangles": 366082,
+      "memory": {
+        "geometries": 22,
+        "textures": 28
+      }
+    },
+    {
+      "label": "Earth",
+      "group": 0,
+      "mode": "current",
+      "gpuSamples": 32,
+      "gpuMedianMs": 35.914,
+      "gpuP95Ms": 39.891125,
+      "cpuMedianMs": 0.4000000059604645,
+      "output": [
+        2560,
+        1600
+      ],
+      "scene": [
+        1600,
+        1000
+      ],
+      "calls": 8,
+      "triangles": 366082,
+      "memory": {
+        "geometries": 22,
+        "textures": 28
+      }
+    },
+    {
+      "label": "Earth",
+      "group": 1,
+      "mode": "previous",
+      "gpuSamples": 32,
+      "gpuMedianMs": 32.673791,
+      "gpuP95Ms": 38.953083,
+      "cpuMedianMs": 0.5,
+      "output": [
+        2560,
+        1600
+      ],
+      "scene": [
+        1600,
+        1000
+      ],
+      "calls": 8,
+      "triangles": 366082,
+      "memory": {
+        "geometries": 22,
+        "textures": 28
+      }
+    },
+    {
+      "label": "Earth",
+      "group": 1,
+      "mode": "current",
+      "gpuSamples": 32,
+      "gpuMedianMs": 33.033499,
+      "gpuP95Ms": 37.745166,
+      "cpuMedianMs": 0.4000000059604645,
+      "output": [
+        2560,
+        1600
+      ],
+      "scene": [
+        1600,
+        1000
+      ],
+      "calls": 8,
+      "triangles": 366082,
+      "memory": {
+        "geometries": 22,
+        "textures": 28
+      }
+    },
+    {
+      "label": "Earth",
+      "group": 2,
+      "mode": "previous",
+      "gpuSamples": 32,
+      "gpuMedianMs": 33.658,
+      "gpuP95Ms": 37.195999,
+      "cpuMedianMs": 0.4000000059604645,
+      "output": [
+        2560,
+        1600
+      ],
+      "scene": [
+        1600,
+        1000
+      ],
+      "calls": 8,
+      "triangles": 366082,
+      "memory": {
+        "geometries": 22,
+        "textures": 28
+      }
+    },
+    {
+      "label": "Earth",
+      "group": 2,
+      "mode": "current",
+      "gpuSamples": 32,
+      "gpuMedianMs": 34.179083,
+      "gpuP95Ms": 37.616374,
+      "cpuMedianMs": 0.5,
+      "output": [
+        2560,
+        1600
+      ],
+      "scene": [
+        1600,
+        1000
+      ],
+      "calls": 8,
+      "triangles": 366082,
+      "memory": {
+        "geometries": 22,
+        "textures": 28
+      }
+    },
+    {
+      "label": "Earth",
+      "group": 3,
+      "mode": "previous",
+      "gpuSamples": 32,
+      "gpuMedianMs": 34.546541,
+      "gpuP95Ms": 37.675624,
+      "cpuMedianMs": 0.4000000059604645,
+      "output": [
+        2560,
+        1600
+      ],
+      "scene": [
+        1600,
+        1000
+      ],
+      "calls": 8,
+      "triangles": 366082,
+      "memory": {
+        "geometries": 22,
+        "textures": 28
+      }
+    },
+    {
+      "label": "Earth",
+      "group": 3,
+      "mode": "current",
+      "gpuSamples": 32,
+      "gpuMedianMs": 34.498916,
+      "gpuP95Ms": 38.468083,
+      "cpuMedianMs": 0.5,
+      "output": [
+        2560,
+        1600
+      ],
+      "scene": [
+        1600,
+        1000
+      ],
+      "calls": 8,
+      "triangles": 366082,
+      "memory": {
+        "geometries": 22,
+        "textures": 28
+      }
+    },
+    {
+      "label": "Jupiter",
+      "group": 0,
+      "mode": "previous",
+      "gpuSamples": 32,
+      "gpuMedianMs": 2.388124,
+      "gpuP95Ms": 4.224416,
+      "cpuMedianMs": 0.800000011920929,
+      "output": [
+        2560,
+        1600
+      ],
+      "scene": [
+        1600,
+        1000
+      ],
+      "calls": 41,
+      "triangles": 1274484,
+      "memory": {
+        "geometries": 22,
+        "textures": 29
+      }
+    },
+    {
+      "label": "Jupiter",
+      "group": 0,
+      "mode": "current",
+      "gpuSamples": 32,
+      "gpuMedianMs": 2.261583,
+      "gpuP95Ms": 2.983624,
+      "cpuMedianMs": 0.7999999821186066,
+      "output": [
+        2560,
+        1600
+      ],
+      "scene": [
+        1600,
+        1000
+      ],
+      "calls": 41,
+      "triangles": 621044,
+      "memory": {
+        "geometries": 22,
+        "textures": 29
+      }
+    },
+    {
+      "label": "Jupiter",
+      "group": 1,
+      "mode": "previous",
+      "gpuSamples": 32,
+      "gpuMedianMs": 3.182749,
+      "gpuP95Ms": 4.437416,
+      "cpuMedianMs": 1,
+      "output": [
+        2560,
+        1600
+      ],
+      "scene": [
+        1600,
+        1000
+      ],
+      "calls": 41,
+      "triangles": 1274484,
+      "memory": {
+        "geometries": 22,
+        "textures": 29
+      }
+    },
+    {
+      "label": "Jupiter",
+      "group": 1,
+      "mode": "current",
+      "gpuSamples": 32,
+      "gpuMedianMs": 2.828125,
+      "gpuP95Ms": 3.575583,
+      "cpuMedianMs": 0.9000000059604645,
+      "output": [
+        2560,
+        1600
+      ],
+      "scene": [
+        1600,
+        1000
+      ],
+      "calls": 41,
+      "triangles": 621044,
+      "memory": {
+        "geometries": 22,
+        "textures": 29
+      }
+    },
+    {
+      "label": "Jupiter",
+      "group": 2,
+      "mode": "previous",
+      "gpuSamples": 32,
+      "gpuMedianMs": 3.299791,
+      "gpuP95Ms": 5.194875,
+      "cpuMedianMs": 1.0999999940395355,
+      "output": [
+        2560,
+        1600
+      ],
+      "scene": [
+        1600,
+        1000
+      ],
+      "calls": 41,
+      "triangles": 1274484,
+      "memory": {
+        "geometries": 22,
+        "textures": 29
+      }
+    },
+    {
+      "label": "Jupiter",
+      "group": 2,
+      "mode": "current",
+      "gpuSamples": 32,
+      "gpuMedianMs": 2.879333,
+      "gpuP95Ms": 3.509,
+      "cpuMedianMs": 1,
+      "output": [
+        2560,
+        1600
+      ],
+      "scene": [
+        1600,
+        1000
+      ],
+      "calls": 41,
+      "triangles": 621044,
+      "memory": {
+        "geometries": 22,
+        "textures": 29
+      }
+    },
+    {
+      "label": "Jupiter",
+      "group": 3,
+      "mode": "previous",
+      "gpuSamples": 32,
+      "gpuMedianMs": 3.060833,
+      "gpuP95Ms": 4.177958,
+      "cpuMedianMs": 0.9000000059604645,
+      "output": [
+        2560,
+        1600
+      ],
+      "scene": [
+        1600,
+        1000
+      ],
+      "calls": 41,
+      "triangles": 1274484,
+      "memory": {
+        "geometries": 22,
+        "textures": 29
+      }
+    },
+    {
+      "label": "Jupiter",
+      "group": 3,
+      "mode": "current",
+      "gpuSamples": 32,
+      "gpuMedianMs": 2.832333,
+      "gpuP95Ms": 8.457333,
+      "cpuMedianMs": 0.9000000059604645,
+      "output": [
+        2560,
+        1600
+      ],
+      "scene": [
+        1600,
+        1000
+      ],
+      "calls": 41,
+      "triangles": 621044,
+      "memory": {
+        "geometries": 22,
+        "textures": 29
+      }
+    },
+    {
+      "label": "Saturn",
+      "group": 0,
+      "mode": "previous",
+      "gpuSamples": 32,
+      "gpuMedianMs": 3.467958,
+      "gpuP95Ms": 6.690375,
+      "cpuMedianMs": 0.7000000178813934,
+      "output": [
+        2560,
+        1600
+      ],
+      "scene": [
+        1600,
+        1000
+      ],
+      "calls": 40,
+      "triangles": 1063028,
+      "memory": {
+        "geometries": 22,
+        "textures": 29
+      }
+    },
+    {
+      "label": "Saturn",
+      "group": 0,
+      "mode": "current",
+      "gpuSamples": 32,
+      "gpuMedianMs": 3.20125,
+      "gpuP95Ms": 3.737375,
+      "cpuMedianMs": 0.7999999821186066,
+      "output": [
+        2560,
+        1600
+      ],
+      "scene": [
+        1600,
+        1000
+      ],
+      "calls": 40,
+      "triangles": 553844,
+      "memory": {
+        "geometries": 22,
+        "textures": 29
+      }
+    },
+    {
+      "label": "Saturn",
+      "group": 1,
+      "mode": "previous",
+      "gpuSamples": 32,
+      "gpuMedianMs": 4.596499,
+      "gpuP95Ms": 10.006541,
+      "cpuMedianMs": 1,
+      "output": [
+        2560,
+        1600
+      ],
+      "scene": [
+        1600,
+        1000
+      ],
+      "calls": 40,
+      "triangles": 1063028,
+      "memory": {
+        "geometries": 22,
+        "textures": 29
+      }
+    },
+    {
+      "label": "Saturn",
+      "group": 1,
+      "mode": "current",
+      "gpuSamples": 32,
+      "gpuMedianMs": 4.315541,
+      "gpuP95Ms": 5.609999,
+      "cpuMedianMs": 1,
+      "output": [
+        2560,
+        1600
+      ],
+      "scene": [
+        1600,
+        1000
+      ],
+      "calls": 40,
+      "triangles": 553844,
+      "memory": {
+        "geometries": 22,
+        "textures": 29
+      }
+    },
+    {
+      "label": "Saturn",
+      "group": 2,
+      "mode": "previous",
+      "gpuSamples": 32,
+      "gpuMedianMs": 4.676749,
+      "gpuP95Ms": 9.723249,
+      "cpuMedianMs": 0.8999999761581421,
+      "output": [
+        2560,
+        1600
+      ],
+      "scene": [
+        1600,
+        1000
+      ],
+      "calls": 40,
+      "triangles": 1063028,
+      "memory": {
+        "geometries": 22,
+        "textures": 29
+      }
+    },
+    {
+      "label": "Saturn",
+      "group": 2,
+      "mode": "current",
+      "gpuSamples": 32,
+      "gpuMedianMs": 4.269875,
+      "gpuP95Ms": 9.841208,
+      "cpuMedianMs": 1.0999999940395355,
+      "output": [
+        2560,
+        1600
+      ],
+      "scene": [
+        1600,
+        1000
+      ],
+      "calls": 40,
+      "triangles": 553844,
+      "memory": {
+        "geometries": 22,
+        "textures": 29
+      }
+    },
+    {
+      "label": "Saturn",
+      "group": 3,
+      "mode": "previous",
+      "gpuSamples": 32,
+      "gpuMedianMs": 3.927749,
+      "gpuP95Ms": 9.392083,
+      "cpuMedianMs": 0.800000011920929,
+      "output": [
+        2560,
+        1600
+      ],
+      "scene": [
+        1600,
+        1000
+      ],
+      "calls": 40,
+      "triangles": 1063028,
+      "memory": {
+        "geometries": 22,
+        "textures": 29
+      }
+    },
+    {
+      "label": "Saturn",
+      "group": 3,
+      "mode": "current",
+      "gpuSamples": 32,
+      "gpuMedianMs": 3.477458,
+      "gpuP95Ms": 4.702125,
+      "cpuMedianMs": 0.8999999761581421,
+      "output": [
+        2560,
+        1600
+      ],
+      "scene": [
+        1600,
+        1000
+      ],
+      "calls": 40,
+      "triangles": 553844,
+      "memory": {
+        "geometries": 22,
+        "textures": 29
+      }
+    }
+  ],
+  "errors": []
+}

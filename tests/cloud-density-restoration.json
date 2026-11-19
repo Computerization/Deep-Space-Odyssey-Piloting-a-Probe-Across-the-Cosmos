@@ -1,0 +1,13 @@
+{
+  "version": "0.69.0",
+  "allPackagedSourceMatchesArchive": true,
+  "all83LiveRuntimeHashesMatch": true,
+  "serviceWorkerMatches": true,
+  "archiveUnchanged": true,
+  "archiveSha256": "d346b97f5cac8d2a9e44b4c875bf5b099bee857f96c41300b1fa6b93294c5f7a",
+  "unitChecks": 99,
+  "identicalShaderControlScenes": 11,
+  "candidateShipped": false,
+  "runtimeBytesAdded": 0,
+  "archiveBytesAdded": 0
+}

@@ -1,0 +1,2200 @@
+{
+  "origin": "http://127.0.0.1:4173",
+  "sourceHashes": {
+    "candidate": "cca400f26521f709f9a699c8ef0204d791b7a277dc8f7f2ef121b4cd2e4bdd50",
+    "previous": "a878f5fd2e4e657832ab6f6d77d1e28559e694a431797e15fdd82d015a5f0027"
+  },
+  "runnerSha256": "fd67b6eaccfbd158f1b0ae68c35be572ee1f533eade8494b28ad9d5547fd153b",
+  "results": [
+    {
+      "name": "Chrome",
+      "mode": "previous",
+      "browser": "158.0.8127.37",
+      "limit": 0,
+      "views": [
+        {
+          "label": "day",
+          "pixelSha256": "825e43b51a528c88e60d67710e207ea0fbca6743ada9e064285eabfc419658fa",
+          "preserved": true,
+          "patchAllocations": 0,
+          "weight": 0,
+          "cache": 0,
+          "cachePeak": 0,
+          "loads": 0,
+          "base": 8192,
+          "resources": {
+            "geometries": 22,
+            "textures": 29
+          },
+          "graphicsError": 0,
+          "imageSha256": "455228e215e9d82922d8e870d3494bef02b4490c03d7526654e0b11808fafa4d"
+        },
+        {
+          "label": "close",
+          "pixelSha256": "a236cff32fb7113ec45087cccd3a7dd85b5e78dabe7a0787100bdbbafa4aff80",
+          "preserved": true,
+          "textureIdentity": "b81732eb-cdf3-4856-8c6a-b036ad627305",
+          "patchAllocations": 1,
+          "key": "15-3",
+          "wanted": "15-3",
+          "weight": 1,
+          "cache": 4,
+          "cachePeak": 4,
+          "loads": 1,
+          "patch": 4096,
+          "base": 8192,
+          "resources": {
+            "geometries": 22,
+            "textures": 30
+          },
+          "graphicsError": 0,
+          "imageSha256": "b5031015cfc5d53933f7e63df1eb420489ba8f3b20f11466ca025d097a31e99d"
+        },
+        {
+          "label": "transition",
+          "pixelSha256": "0ba783fdbc9aafdcee17ae81e8f0c186a4f7e930bc310a76ca1bfc2551303832",
+          "preserved": true,
+          "textureIdentity": "8ad23e9f-5c0d-427d-a1ea-66a4e62075b5",
+          "patchAllocations": 2,
+          "key": "15-1",
+          "wanted": "15-1",
+          "weight": 1,
+          "cache": 8,
+          "cachePeak": 8,
+          "loads": 2,
+          "patch": 4096,
+          "base": 8192,
+          "resources": {
+            "geometries": 22,
+            "textures": 30
+          },
+          "graphicsError": 0,
+          "imageSha256": "a93c85c5f13e8af0316f1df8749ebbb8664795b68e867c18efb5d172b9254082"
+        },
+        {
+          "label": "pole",
+          "pixelSha256": "18465789d1d8b712b0ec21e95cec5c1ff71d17c21c1dd0d6063941ae698395fc",
+          "preserved": true,
+          "textureIdentity": "8ad23e9f-5c0d-427d-a1ea-66a4e62075b5",
+          "patchAllocations": 2,
+          "key": "15-1",
+          "weight": 0,
+          "cache": 8,
+          "cachePeak": 8,
+          "loads": 2,
+          "patch": 4096,
+          "base": 8192,
+          "resources": {
+            "geometries": 22,
+            "textures": 30
+          },
+          "graphicsError": 0,
+          "imageSha256": "351b4036f185347c089193798aa1f640fc83f50bc1859f48707cac853fefd727"
+        },
+        {
+          "label": "seam",
+          "pixelSha256": "eefb7f199e050011c57c4dbabae00c743e0d297011a8053544cad73b71202734",
+          "preserved": true,
+          "textureIdentity": "5b199f54-ccca-48c9-a183-d72293e337b4",
+          "patchAllocations": 3,
+          "key": "15-3",
+          "wanted": "15-3",
+          "weight": 1,
+          "cache": 8,
+          "cachePeak": 8,
+          "loads": 3,
+          "patch": 4096,
+          "base": 8192,
+          "resources": {
+            "geometries": 22,
+            "textures": 30
+          },
+          "graphicsError": 0,
+          "imageSha256": "ec4a61d825c540c48d758ba930ff5349af7f57cd2b17cbc570d16eb00d4088b7"
+        }
+      ],
+      "motion": {
+        "records": [
+          {
+            "u": 0.91,
+            "pixelSha256": "10461070baa2fd0568991cfc2aa73a9cfd1617dbb61c69639cade1dd5b90fcb4",
+            "preserved": true,
+            "textureIdentity": "734b9ab6-f241-430e-ab05-30817cc4c17e",
+            "patchAllocations": 4,
+            "key": "14-3",
+            "wanted": "14-3",
+            "weight": 1,
+            "cache": 8,
+            "cachePeak": 8,
+            "loads": 4,
+            "patch": 4096,
+            "base": 8192,
+            "resources": {
+              "geometries": 22,
+              "textures": 30
+            },
+            "graphicsError": 0
+          },
+          {
+            "u": 0.94,
+            "pixelSha256": "0226e48bc02bfe50859df5cfb4969e28fc5e219ce10ddb5b3e70bf2a311cc882",
+            "preserved": true,
+            "textureIdentity": "734b9ab6-f241-430e-ab05-30817cc4c17e",
+            "patchAllocations": 4,
+            "key": "14-3",
+            "wanted": "14-3",
+            "weight": 1,
+            "cache": 8,
+            "cachePeak": 8,
+            "loads": 4,
+            "patch": 4096,
+            "base": 8192,
+            "resources": {
+              "geometries": 22,
+              "textures": 30
+            },
+            "graphicsError": 0
+          },
+          {
+            "u": 0.97,
+            "pixelSha256": "fb96de42f4270f5a0f7291c3293cff72da866b70407e916ec6adab44d629ed0e",
+            "preserved": true,
+            "textureIdentity": "734b9ab6-f241-430e-ab05-30817cc4c17e",
+            "patchAllocations": 4,
+            "key": "14-3",
+            "wanted": "14-3",
+            "weight": 1,
+            "cache": 8,
+            "cachePeak": 8,
+            "loads": 4,
+            "patch": 4096,
+            "base": 8192,
+            "resources": {
+              "geometries": 22,
+              "textures": 30
+            },
+            "graphicsError": 0
+          },
+          {
+            "u": 0,
+            "pixelSha256": "48d7cb73b49bcb063e01fe2ee4156421ed6c0fb08a83ff4b04e9164d28b41c8e",
+            "preserved": true,
+            "textureIdentity": "d4f52695-2328-4657-b2e4-dba6f33b4841",
+            "patchAllocations": 5,
+            "key": "15-3",
+            "wanted": "15-3",
+            "weight": 1,
+            "cache": 8,
+            "cachePeak": 8,
+            "loads": 5,
+            "patch": 4096,
+            "base": 8192,
+            "resources": {
+              "geometries": 22,
+              "textures": 30
+            },
+            "graphicsError": 0
+          },
+          {
+            "u": 0.03,
+            "pixelSha256": "648f0e3c35136a72688f2425e90b8f74096dd05b717ab24621dfd9654fae445f",
+            "preserved": true,
+            "textureIdentity": "d4f52695-2328-4657-b2e4-dba6f33b4841",
+            "patchAllocations": 5,
+            "key": "15-3",
+            "wanted": "15-3",
+            "weight": 1,
+            "cache": 8,
+            "cachePeak": 8,
+            "loads": 5,
+            "patch": 4096,
+            "base": 8192,
+            "resources": {
+              "geometries": 22,
+              "textures": 30
+            },
+            "graphicsError": 0
+          },
+          {
+            "u": 0.06,
+            "pixelSha256": "7f4b1cc1c809df30fea8ffeab4d6ece93a0d1ba6bed365549d03ad80fc2c18e3",
+            "preserved": true,
+            "textureIdentity": "8be24df7-8f93-453e-a016-e4fd7202bff6",
+            "patchAllocations": 6,
+            "key": "0-3",
+            "wanted": "0-3",
+            "weight": 1,
+            "cache": 8,
+            "cachePeak": 8,
+            "loads": 6,
+            "patch": 4096,
+            "base": 8192,
+            "resources": {
+              "geometries": 22,
+              "textures": 30
+            },
+            "graphicsError": 0
+          },
+          {
+            "u": 0.09,
+            "pixelSha256": "828c5692abc046773d6ec2f55e3939a95a3af9e68981be2d2f8e50d73f1d1644",
+            "preserved": true,
+            "textureIdentity": "8be24df7-8f93-453e-a016-e4fd7202bff6",
+            "patchAllocations": 6,
+            "key": "0-3",
+            "wanted": "0-3",
+            "weight": 1,
+            "cache": 8,
+            "cachePeak": 8,
+            "loads": 6,
+            "patch": 4096,
+            "base": 8192,
+            "resources": {
+              "geometries": 22,
+              "textures": 30
+            },
+            "graphicsError": 0
+          },
+          {
+            "u": 0.12,
+            "pixelSha256": "c8efde8b27dd4667a9b15af023be593eeb7b82a44cdc0932ed12be498d3e2b1d",
+            "preserved": true,
+            "textureIdentity": "887aa79b-2160-4739-a9ae-6dd99e76eaaf",
+            "patchAllocations": 7,
+            "key": "1-3",
+            "wanted": "1-3",
+            "weight": 1,
+            "cache": 8,
+            "cachePeak": 8,
+            "loads": 7,
+            "patch": 4096,
+            "base": 8192,
+            "resources": {
+              "geometries": 22,
+              "textures": 30
+            },
+            "graphicsError": 0
+          },
+          {
+            "u": 0.16,
+            "pixelSha256": "48fba8f054e29c614bd050127ef630be1206244fae09350194a04949c53b9da1",
+            "preserved": true,
+            "textureIdentity": "887aa79b-2160-4739-a9ae-6dd99e76eaaf",
+            "patchAllocations": 7,
+            "key": "1-3",
+            "wanted": "1-3",
+            "weight": 1,
+            "cache": 8,
+            "cachePeak": 8,
+            "loads": 7,
+            "patch": 4096,
+            "base": 8192,
+            "resources": {
+              "geometries": 22,
+              "textures": 30
+            },
+            "graphicsError": 0
+          },
+          {
+            "u": 0.19,
+            "pixelSha256": "8b6667a5f3c4c569e5b590c7027ae894c19aeab9e0c5f4729a9b1cdc40a96d3d",
+            "preserved": true,
+            "textureIdentity": "ca4be492-68c0-44fc-b774-3b87fad734b6",
+            "patchAllocations": 8,
+            "key": "2-3",
+            "wanted": "2-3",
+            "weight": 1,
+            "cache": 8,
+            "cachePeak": 8,
+            "loads": 8,
+            "patch": 4096,
+            "base": 8192,
+            "resources": {
+              "geometries": 22,
+              "textures": 30
+            },
+            "graphicsError": 0
+          }
+        ],
+        "stalePreserved": true,
+        "key": "2-3",
+        "overlap": {
+          "rmse": 0,
+          "max": 0
+        },
+        "preserved": true,
+        "final": {
+          "textureIdentity": "b5ed60c0-27f6-4c81-a3a8-62eb89fa1e7e",
+          "patchAllocations": 9,
+          "key": "1-3",
+          "wanted": "1-3",
+          "weight": 1,
+          "cache": 8,
+          "cachePeak": 8,
+          "loads": 9,
+          "patch": 4096,
+          "base": 8192,
+          "resources": {
+            "geometries": 22,
+            "textures": 30
+          },
+          "graphicsError": 0
+        }
+      },
+      "recovery": {
+        "preserved": true,
+        "imageError": {
+          "rmse": 0,
+          "max": 0
+        },
+        "photo": [
+          1600,
+          1000
+        ],
+        "textureIdentity": "13c0f220-75c4-48b5-9394-f48620d52894",
+        "patchAllocations": 11,
+        "key": "15-3",
+        "wanted": "15-3",
+        "weight": 1,
+        "cache": 8,
+        "cachePeak": 8,
+        "loads": 10,
+        "patch": 4096,
+        "base": 8192,
+        "resources": {
+          "geometries": 4,
+          "textures": 12
+        },
+        "graphicsError": 0
+      },
+      "requests": 28,
+      "uniqueRequests": 20,
+      "errors": []
+    },
+    {
+      "name": "Chrome",
+      "mode": "candidate",
+      "browser": "158.0.8127.37",
+      "limit": 0,
+      "views": [
+        {
+          "label": "day",
+          "pixelSha256": "825e43b51a528c88e60d67710e207ea0fbca6743ada9e064285eabfc419658fa",
+          "preserved": true,
+          "patchAllocations": 0,
+          "weight": 0,
+          "cache": 0,
+          "cachePeak": 0,
+          "loads": 0,
+          "base": 8192,
+          "resources": {
+            "geometries": 22,
+            "textures": 29
+          },
+          "graphicsError": 0,
+          "imageSha256": "455228e215e9d82922d8e870d3494bef02b4490c03d7526654e0b11808fafa4d"
+        },
+        {
+          "label": "close",
+          "pixelSha256": "a236cff32fb7113ec45087cccd3a7dd85b5e78dabe7a0787100bdbbafa4aff80",
+          "preserved": true,
+          "textureIdentity": "e8c4129c-c314-4999-aab2-10baa5120482",
+          "patchAllocations": 1,
+          "key": "15-3",
+          "wanted": "15-3",
+          "weight": 1,
+          "cache": 4,
+          "cachePeak": 4,
+          "loads": 1,
+          "patch": 4096,
+          "base": 8192,
+          "resources": {
+            "geometries": 22,
+            "textures": 30
+          },
+          "graphicsError": 0,
+          "imageSha256": "b5031015cfc5d53933f7e63df1eb420489ba8f3b20f11466ca025d097a31e99d"
+        },
+        {
+          "label": "transition",
+          "pixelSha256": "0ba783fdbc9aafdcee17ae81e8f0c186a4f7e930bc310a76ca1bfc2551303832",
+          "preserved": true,
+          "textureIdentity": "e8c4129c-c314-4999-aab2-10baa5120482",
+          "patchAllocations": 1,
+          "key": "15-1",
+          "wanted": "15-1",
+          "weight": 1,
+          "cache": 8,
+          "cachePeak": 8,
+          "loads": 2,
+          "patch": 4096,
+          "base": 8192,
+          "resources": {
+            "geometries": 22,
+            "textures": 30
+          },
+          "graphicsError": 0,
+          "imageSha256": "a93c85c5f13e8af0316f1df8749ebbb8664795b68e867c18efb5d172b9254082"
+        },
+        {
+          "label": "pole",
+          "pixelSha256": "18465789d1d8b712b0ec21e95cec5c1ff71d17c21c1dd0d6063941ae698395fc",
+          "preserved": true,
+          "textureIdentity": "e8c4129c-c314-4999-aab2-10baa5120482",
+          "patchAllocations": 1,
+          "key": "15-1",
+          "weight": 0,
+          "cache": 8,
+          "cachePeak": 8,
+          "loads": 2,
+          "patch": 4096,
+          "base": 8192,
+          "resources": {
+            "geometries": 22,
+            "textures": 30
+          },
+          "graphicsError": 0,
+          "imageSha256": "351b4036f185347c089193798aa1f640fc83f50bc1859f48707cac853fefd727"
+        },
+        {
+          "label": "seam",
+          "pixelSha256": "eefb7f199e050011c57c4dbabae00c743e0d297011a8053544cad73b71202734",
+          "preserved": true,
+          "textureIdentity": "e8c4129c-c314-4999-aab2-10baa5120482",
+          "patchAllocations": 1,
+          "key": "15-3",
+          "wanted": "15-3",
+          "weight": 1,
+          "cache": 8,
+          "cachePeak": 8,
+          "loads": 3,
+          "patch": 4096,
+          "base": 8192,
+          "resources": {
+            "geometries": 22,
+            "textures": 30
+          },
+          "graphicsError": 0,
+          "imageSha256": "ec4a61d825c540c48d758ba930ff5349af7f57cd2b17cbc570d16eb00d4088b7"
+        }
+      ],
+      "motion": {
+        "records": [
+          {
+            "u": 0.91,
+            "pixelSha256": "10461070baa2fd0568991cfc2aa73a9cfd1617dbb61c69639cade1dd5b90fcb4",
+            "preserved": true,
+            "textureIdentity": "e8c4129c-c314-4999-aab2-10baa5120482",
+            "patchAllocations": 1,
+            "key": "14-3",
+            "wanted": "14-3",
+            "weight": 1,
+            "cache": 8,
+            "cachePeak": 8,
+            "loads": 4,
+            "patch": 4096,
+            "base": 8192,
+            "resources": {
+              "geometries": 22,
+              "textures": 30
+            },
+            "graphicsError": 0
+          },
+          {
+            "u": 0.94,
+            "pixelSha256": "0226e48bc02bfe50859df5cfb4969e28fc5e219ce10ddb5b3e70bf2a311cc882",
+            "preserved": true,
+            "textureIdentity": "e8c4129c-c314-4999-aab2-10baa5120482",
+            "patchAllocations": 1,
+            "key": "14-3",
+            "wanted": "14-3",
+            "weight": 1,
+            "cache": 8,
+            "cachePeak": 8,
+            "loads": 4,
+            "patch": 4096,
+            "base": 8192,
+            "resources": {
+              "geometries": 22,
+              "textures": 30
+            },
+            "graphicsError": 0
+          },
+          {
+            "u": 0.97,
+            "pixelSha256": "fb96de42f4270f5a0f7291c3293cff72da866b70407e916ec6adab44d629ed0e",
+            "preserved": true,
+            "textureIdentity": "e8c4129c-c314-4999-aab2-10baa5120482",
+            "patchAllocations": 1,
+            "key": "14-3",
+            "wanted": "14-3",
+            "weight": 1,
+            "cache": 8,
+            "cachePeak": 8,
+            "loads": 4,
+            "patch": 4096,
+            "base": 8192,
+            "resources": {
+              "geometries": 22,
+              "textures": 30
+            },
+            "graphicsError": 0
+          },
+          {
+            "u": 0,
+            "pixelSha256": "48d7cb73b49bcb063e01fe2ee4156421ed6c0fb08a83ff4b04e9164d28b41c8e",
+            "preserved": true,
+            "textureIdentity": "e8c4129c-c314-4999-aab2-10baa5120482",
+            "patchAllocations": 1,
+            "key": "15-3",
+            "wanted": "15-3",
+            "weight": 1,
+            "cache": 8,
+            "cachePeak": 8,
+            "loads": 5,
+            "patch": 4096,
+            "base": 8192,
+            "resources": {
+              "geometries": 22,
+              "textures": 30
+            },
+            "graphicsError": 0
+          },
+          {
+            "u": 0.03,
+            "pixelSha256": "648f0e3c35136a72688f2425e90b8f74096dd05b717ab24621dfd9654fae445f",
+            "preserved": true,
+            "textureIdentity": "e8c4129c-c314-4999-aab2-10baa5120482",
+            "patchAllocations": 1,
+            "key": "15-3",
+            "wanted": "15-3",
+            "weight": 1,
+            "cache": 8,
+            "cachePeak": 8,
+            "loads": 5,
+            "patch": 4096,
+            "base": 8192,
+            "resources": {
+              "geometries": 22,
+              "textures": 30
+            },
+            "graphicsError": 0
+          },
+          {
+            "u": 0.06,
+            "pixelSha256": "7f4b1cc1c809df30fea8ffeab4d6ece93a0d1ba6bed365549d03ad80fc2c18e3",
+            "preserved": true,
+            "textureIdentity": "e8c4129c-c314-4999-aab2-10baa5120482",
+            "patchAllocations": 1,
+            "key": "0-3",
+            "wanted": "0-3",
+            "weight": 1,
+            "cache": 8,
+            "cachePeak": 8,
+            "loads": 6,
+            "patch": 4096,
+            "base": 8192,
+            "resources": {
+              "geometries": 22,
+              "textures": 30
+            },
+            "graphicsError": 0
+          },
+          {
+            "u": 0.09,
+            "pixelSha256": "828c5692abc046773d6ec2f55e3939a95a3af9e68981be2d2f8e50d73f1d1644",
+            "preserved": true,
+            "textureIdentity": "e8c4129c-c314-4999-aab2-10baa5120482",
+            "patchAllocations": 1,
+            "key": "0-3",
+            "wanted": "0-3",
+            "weight": 1,
+            "cache": 8,
+            "cachePeak": 8,
+            "loads": 6,
+            "patch": 4096,
+            "base": 8192,
+            "resources": {
+              "geometries": 22,
+              "textures": 30
+            },
+            "graphicsError": 0
+          },
+          {
+            "u": 0.12,
+            "pixelSha256": "c8efde8b27dd4667a9b15af023be593eeb7b82a44cdc0932ed12be498d3e2b1d",
+            "preserved": true,
+            "textureIdentity": "e8c4129c-c314-4999-aab2-10baa5120482",
+            "patchAllocations": 1,
+            "key": "1-3",
+            "wanted": "1-3",
+            "weight": 1,
+            "cache": 8,
+            "cachePeak": 8,
+            "loads": 7,
+            "patch": 4096,
+            "base": 8192,
+            "resources": {
+              "geometries": 22,
+              "textures": 30
+            },
+            "graphicsError": 0
+          },
+          {
+            "u": 0.16,
+            "pixelSha256": "48fba8f054e29c614bd050127ef630be1206244fae09350194a04949c53b9da1",
+            "preserved": true,
+            "textureIdentity": "e8c4129c-c314-4999-aab2-10baa5120482",
+            "patchAllocations": 1,
+            "key": "1-3",
+            "wanted": "1-3",
+            "weight": 1,
+            "cache": 8,
+            "cachePeak": 8,
+            "loads": 7,
+            "patch": 4096,
+            "base": 8192,
+            "resources": {
+              "geometries": 22,
+              "textures": 30
+            },
+            "graphicsError": 0
+          },
+          {
+            "u": 0.19,
+            "pixelSha256": "8b6667a5f3c4c569e5b590c7027ae894c19aeab9e0c5f4729a9b1cdc40a96d3d",
+            "preserved": true,
+            "textureIdentity": "e8c4129c-c314-4999-aab2-10baa5120482",
+            "patchAllocations": 1,
+            "key": "2-3",
+            "wanted": "2-3",
+            "weight": 1,
+            "cache": 8,
+            "cachePeak": 8,
+            "loads": 8,
+            "patch": 4096,
+            "base": 8192,
+            "resources": {
+              "geometries": 22,
+              "textures": 30
+            },
+            "graphicsError": 0
+          }
+        ],
+        "stalePreserved": true,
+        "key": "2-3",
+        "overlap": {
+          "rmse": 0,
+          "max": 0
+        },
+        "preserved": true,
+        "final": {
+          "textureIdentity": "e8c4129c-c314-4999-aab2-10baa5120482",
+          "patchAllocations": 1,
+          "key": "1-3",
+          "wanted": "1-3",
+          "weight": 1,
+          "cache": 8,
+          "cachePeak": 8,
+          "loads": 9,
+          "patch": 4096,
+          "base": 8192,
+          "resources": {
+            "geometries": 22,
+            "textures": 30
+          },
+          "graphicsError": 0
+        }
+      },
+      "recovery": {
+        "preserved": true,
+        "imageError": {
+          "rmse": 0,
+          "max": 0
+        },
+        "photo": [
+          1600,
+          1000
+        ],
+        "textureIdentity": "e8c4129c-c314-4999-aab2-10baa5120482",
+        "patchAllocations": 2,
+        "key": "15-3",
+        "wanted": "15-3",
+        "weight": 1,
+        "cache": 8,
+        "cachePeak": 8,
+        "loads": 10,
+        "patch": 4096,
+        "base": 8192,
+        "resources": {
+          "geometries": 4,
+          "textures": 12
+        },
+        "graphicsError": 0
+      },
+      "requests": 28,
+      "uniqueRequests": 20,
+      "errors": []
+    },
+    {
+      "name": "Firefox",
+      "mode": "previous",
+      "browser": "153.0",
+      "limit": 0,
+      "views": [
+        {
+          "label": "day",
+          "pixelSha256": "d4b1097e14b8fdbb839ca2ad859b6e226472c76988ba222638679d452a1a9790",
+          "preserved": true,
+          "patchAllocations": 0,
+          "weight": 0,
+          "cache": 0,
+          "cachePeak": 0,
+          "loads": 0,
+          "base": 8192,
+          "resources": {
+            "geometries": 22,
+            "textures": 29
+          },
+          "graphicsError": 0,
+          "imageSha256": "cb9a1c00358dc490471cfbd588959f24c07dde411c490c3508f4cab9d365e020"
+        },
+        {
+          "label": "close",
+          "pixelSha256": "5c61ea1ef2a8d4b87494175369f551d17a373464fee2fd0a598f5956ca46fafa",
+          "preserved": true,
+          "textureIdentity": "de1392d9-b50e-4e36-bd96-76ff3b8a1470",
+          "patchAllocations": 1,
+          "key": "15-3",
+          "wanted": "15-3",
+          "weight": 1,
+          "cache": 4,
+          "cachePeak": 4,
+          "loads": 1,
+          "patch": 4096,
+          "base": 8192,
+          "resources": {
+            "geometries": 22,
+            "textures": 30
+          },
+          "graphicsError": 0,
+          "imageSha256": "6949b7fdb9e2d70f7970090cc0fc6ec01ed726f6fca7b2c7b6420271164d186e"
+        },
+        {
+          "label": "transition",
+          "pixelSha256": "8d6ed4ab6721e830d533292995cf52a219c588479a56ce11ba2eb94e55fab1b2",
+          "preserved": true,
+          "textureIdentity": "2c4ea8fc-44c6-4ac3-9e50-d3b0504219ca",
+          "patchAllocations": 2,
+          "key": "15-1",
+          "wanted": "15-1",
+          "weight": 1,
+          "cache": 8,
+          "cachePeak": 8,
+          "loads": 2,
+          "patch": 4096,
+          "base": 8192,
+          "resources": {
+            "geometries": 22,
+            "textures": 30
+          },
+          "graphicsError": 0,
+          "imageSha256": "9d83e3af84f50631fbcfb6a8047f94f525be6dbcdd352b74e8e147d5c3d9c893"
+        },
+        {
+          "label": "pole",
+          "pixelSha256": "1e892800dee1844245e44fa06da345b4564b8433f80e444176b092f1fe5e8869",
+          "preserved": true,
+          "textureIdentity": "2c4ea8fc-44c6-4ac3-9e50-d3b0504219ca",
+          "patchAllocations": 2,
+          "key": "15-1",
+          "weight": 0,
+          "cache": 8,
+          "cachePeak": 8,
+          "loads": 2,
+          "patch": 4096,
+          "base": 8192,
+          "resources": {
+            "geometries": 22,
+            "textures": 30
+          },
+          "graphicsError": 0,
+          "imageSha256": "8cdf4d46b23c1dc865956d8b5ab3405863e5cd6c695ff5d4f7b1aa50a211bc33"
+        },
+        {
+          "label": "seam",
+          "pixelSha256": "34b91ff6b490baf9e49b497c7802c89b130d8def090cce96b604452036599c28",
+          "preserved": true,
+          "textureIdentity": "269f4dfa-52ba-4d98-b3d7-ca29e2d89cba",
+          "patchAllocations": 3,
+          "key": "15-3",
+          "wanted": "15-3",
+          "weight": 1,
+          "cache": 8,
+          "cachePeak": 8,
+          "loads": 3,
+          "patch": 4096,
+          "base": 8192,
+          "resources": {
+            "geometries": 22,
+            "textures": 30
+          },
+          "graphicsError": 0,
+          "imageSha256": "6680f811ad8e36cced27682f2de7936b87ea9ec1852347b3635175bc3fd3d472"
+        }
+      ],
+      "motion": {
+        "records": [
+          {
+            "u": 0.91,
+            "pixelSha256": "97e95b5ab84cb52c8399b1696126712dcb073dee0c7975c90fe95e993d47cef7",
+            "preserved": true,
+            "textureIdentity": "34f8b5f2-d1cc-482f-992e-9f2175c0af46",
+            "patchAllocations": 4,
+            "key": "14-3",
+            "wanted": "14-3",
+            "weight": 1,
+            "cache": 8,
+            "cachePeak": 8,
+            "loads": 4,
+            "patch": 4096,
+            "base": 8192,
+            "resources": {
+              "geometries": 22,
+              "textures": 30
+            },
+            "graphicsError": 0
+          },
+          {
+            "u": 0.94,
+            "pixelSha256": "34ae221cb5d4b4b32fa26b2dbde50c2f2b5d40af8af136767ae352452a8f1214",
+            "preserved": true,
+            "textureIdentity": "34f8b5f2-d1cc-482f-992e-9f2175c0af46",
+            "patchAllocations": 4,
+            "key": "14-3",
+            "wanted": "14-3",
+            "weight": 1,
+            "cache": 8,
+            "cachePeak": 8,
+            "loads": 4,
+            "patch": 4096,
+            "base": 8192,
+            "resources": {
+              "geometries": 22,
+              "textures": 30
+            },
+            "graphicsError": 0
+          },
+          {
+            "u": 0.97,
+            "pixelSha256": "b4f6d19589b368dc3fdb3733ec71a8907c030cc3c76b3f2040dbde22f7cad367",
+            "preserved": true,
+            "textureIdentity": "34f8b5f2-d1cc-482f-992e-9f2175c0af46",
+            "patchAllocations": 4,
+            "key": "14-3",
+            "wanted": "14-3",
+            "weight": 1,
+            "cache": 8,
+            "cachePeak": 8,
+            "loads": 4,
+            "patch": 4096,
+            "base": 8192,
+            "resources": {
+              "geometries": 22,
+              "textures": 30
+            },
+            "graphicsError": 0
+          },
+          {
+            "u": 0,
+            "pixelSha256": "706a1f17a047b1dc60524f0a292e12fd66700ba58c3753d5cad3f188399cb2a4",
+            "preserved": true,
+            "textureIdentity": "46a5b664-8494-4647-a428-a0ae4834b2a8",
+            "patchAllocations": 5,
+            "key": "15-3",
+            "wanted": "15-3",
+            "weight": 1,
+            "cache": 8,
+            "cachePeak": 8,
+            "loads": 5,
+            "patch": 4096,
+            "base": 8192,
+            "resources": {
+              "geometries": 22,
+              "textures": 30
+            },
+            "graphicsError": 0
+          },
+          {
+            "u": 0.03,
+            "pixelSha256": "5343901156a786d45ac0b976ce9363921da241f5e1b91d0bc125b82bf3499617",
+            "preserved": true,
+            "textureIdentity": "46a5b664-8494-4647-a428-a0ae4834b2a8",
+            "patchAllocations": 5,
+            "key": "15-3",
+            "wanted": "15-3",
+            "weight": 1,
+            "cache": 8,
+            "cachePeak": 8,
+            "loads": 5,
+            "patch": 4096,
+            "base": 8192,
+            "resources": {
+              "geometries": 22,
+              "textures": 30
+            },
+            "graphicsError": 0
+          },
+          {
+            "u": 0.06,
+            "pixelSha256": "d32f98060b598f0d44afb41aaa26f2f9053c799bbc6719ffc58a3290fc10b363",
+            "preserved": true,
+            "textureIdentity": "9d5f9f02-46c9-4a39-ac16-e7042d845137",
+            "patchAllocations": 6,
+            "key": "0-3",
+            "wanted": "0-3",
+            "weight": 1,
+            "cache": 8,
+            "cachePeak": 8,
+            "loads": 6,
+            "patch": 4096,
+            "base": 8192,
+            "resources": {
+              "geometries": 22,
+              "textures": 30
+            },
+            "graphicsError": 0
+          },
+          {
+            "u": 0.09,
+            "pixelSha256": "4d0dff0fd6fa09b09eecd37dc3213202abd8c2d883b71df55beccf204cc490c3",
+            "preserved": true,
+            "textureIdentity": "9d5f9f02-46c9-4a39-ac16-e7042d845137",
+            "patchAllocations": 6,
+            "key": "0-3",
+            "wanted": "0-3",
+            "weight": 1,
+            "cache": 8,
+            "cachePeak": 8,
+            "loads": 6,
+            "patch": 4096,
+            "base": 8192,
+            "resources": {
+              "geometries": 22,
+              "textures": 30
+            },
+            "graphicsError": 0
+          },
+          {
+            "u": 0.12,
+            "pixelSha256": "c258621e8109208a0a8c65b19b11b744918c911f6136084541f4b2cfc61bfa6f",
+            "preserved": true,
+            "textureIdentity": "1d1a34d2-6259-4ef5-8c03-2ff3205d8130",
+            "patchAllocations": 7,
+            "key": "1-3",
+            "wanted": "1-3",
+            "weight": 1,
+            "cache": 8,
+            "cachePeak": 8,
+            "loads": 7,
+            "patch": 4096,
+            "base": 8192,
+            "resources": {
+              "geometries": 22,
+              "textures": 30
+            },
+            "graphicsError": 0
+          },
+          {
+            "u": 0.16,
+            "pixelSha256": "758cc8524796b47e2f36f330d04967a25827f6cc9c5b396afa8eccb7f98cc8aa",
+            "preserved": true,
+            "textureIdentity": "1d1a34d2-6259-4ef5-8c03-2ff3205d8130",
+            "patchAllocations": 7,
+            "key": "1-3",
+            "wanted": "1-3",
+            "weight": 1,
+            "cache": 8,
+            "cachePeak": 8,
+            "loads": 7,
+            "patch": 4096,
+            "base": 8192,
+            "resources": {
+              "geometries": 22,
+              "textures": 30
+            },
+            "graphicsError": 0
+          },
+          {
+            "u": 0.19,
+            "pixelSha256": "01cc4e6724ffb3f0d3ddb0256769ae597dd1f8ace05c04a5dfb7f33ca5933212",
+            "preserved": true,
+            "textureIdentity": "573f8097-f42b-4db9-a468-6ad5db25b816",
+            "patchAllocations": 8,
+            "key": "2-3",
+            "wanted": "2-3",
+            "weight": 1,
+            "cache": 8,
+            "cachePeak": 8,
+            "loads": 8,
+            "patch": 4096,
+            "base": 8192,
+            "resources": {
+              "geometries": 22,
+              "textures": 30
+            },
+            "graphicsError": 0
+          }
+        ],
+        "stalePreserved": true,
+        "key": "2-3",
+        "overlap": {
+          "rmse": 0,
+          "max": 0
+        },
+        "preserved": true,
+        "final": {
+          "textureIdentity": "ac64ef0e-b211-40c9-91cf-3153466bac6c",
+          "patchAllocations": 9,
+          "key": "1-3",
+          "wanted": "1-3",
+          "weight": 1,
+          "cache": 8,
+          "cachePeak": 8,
+          "loads": 9,
+          "patch": 4096,
+          "base": 8192,
+          "resources": {
+            "geometries": 22,
+            "textures": 30
+          },
+          "graphicsError": 0
+        }
+      },
+      "recovery": {
+        "preserved": true,
+        "imageError": {
+          "rmse": 0,
+          "max": 0
+        },
+        "photo": [
+          1600,
+          1000
+        ],
+        "textureIdentity": "c1331304-ff2f-4570-9207-4acc2c7d8a5c",
+        "patchAllocations": 11,
+        "key": "15-3",
+        "wanted": "15-3",
+        "weight": 1,
+        "cache": 8,
+        "cachePeak": 8,
+        "loads": 10,
+        "patch": 4096,
+        "base": 8192,
+        "resources": {
+          "geometries": 4,
+          "textures": 12
+        },
+        "graphicsError": 0
+      },
+      "requests": 28,
+      "uniqueRequests": 20,
+      "errors": []
+    },
+    {
+      "name": "Firefox",
+      "mode": "candidate",
+      "browser": "153.0",
+      "limit": 0,
+      "views": [
+        {
+          "label": "day",
+          "pixelSha256": "d4b1097e14b8fdbb839ca2ad859b6e226472c76988ba222638679d452a1a9790",
+          "preserved": true,
+          "patchAllocations": 0,
+          "weight": 0,
+          "cache": 0,
+          "cachePeak": 0,
+          "loads": 0,
+          "base": 8192,
+          "resources": {
+            "geometries": 22,
+            "textures": 29
+          },
+          "graphicsError": 0,
+          "imageSha256": "807f8b0ba71021961eb4ff910a8603d629f639af83de7c0e5c0cf70880220eb4"
+        },
+        {
+          "label": "close",
+          "pixelSha256": "5c61ea1ef2a8d4b87494175369f551d17a373464fee2fd0a598f5956ca46fafa",
+          "preserved": true,
+          "textureIdentity": "ce8dca74-3ddf-41b1-94a4-f5127364bac1",
+          "patchAllocations": 1,
+          "key": "15-3",
+          "wanted": "15-3",
+          "weight": 1,
+          "cache": 4,
+          "cachePeak": 4,
+          "loads": 1,
+          "patch": 4096,
+          "base": 8192,
+          "resources": {
+            "geometries": 22,
+            "textures": 30
+          },
+          "graphicsError": 0,
+          "imageSha256": "18e308fb55976185fb6832baf1578f30513070b940b8ef4389cf70a82eed6ff1"
+        },
+        {
+          "label": "transition",
+          "pixelSha256": "8d6ed4ab6721e830d533292995cf52a219c588479a56ce11ba2eb94e55fab1b2",
+          "preserved": true,
+          "textureIdentity": "ce8dca74-3ddf-41b1-94a4-f5127364bac1",
+          "patchAllocations": 1,
+          "key": "15-1",
+          "wanted": "15-1",
+          "weight": 1,
+          "cache": 8,
+          "cachePeak": 8,
+          "loads": 2,
+          "patch": 4096,
+          "base": 8192,
+          "resources": {
+            "geometries": 22,
+            "textures": 30
+          },
+          "graphicsError": 0,
+          "imageSha256": "ead8d724a745cd52e2c85f629719b29a8981a16deaf394cfe005aed9c4408aa8"
+        },
+        {
+          "label": "pole",
+          "pixelSha256": "1e892800dee1844245e44fa06da345b4564b8433f80e444176b092f1fe5e8869",
+          "preserved": true,
+          "textureIdentity": "ce8dca74-3ddf-41b1-94a4-f5127364bac1",
+          "patchAllocations": 1,
+          "key": "15-1",
+          "weight": 0,
+          "cache": 8,
+          "cachePeak": 8,
+          "loads": 2,
+          "patch": 4096,
+          "base": 8192,
+          "resources": {
+            "geometries": 22,
+            "textures": 30
+          },
+          "graphicsError": 0,
+          "imageSha256": "06729f80e479e203264a8cb9de33ea8a4da606a7746c1b595f746d7dc83ab47d"
+        },
+        {
+          "label": "seam",
+          "pixelSha256": "34b91ff6b490baf9e49b497c7802c89b130d8def090cce96b604452036599c28",
+          "preserved": true,
+          "textureIdentity": "ce8dca74-3ddf-41b1-94a4-f5127364bac1",
+          "patchAllocations": 1,
+          "key": "15-3",
+          "wanted": "15-3",
+          "weight": 1,
+          "cache": 8,
+          "cachePeak": 8,
+          "loads": 3,
+          "patch": 4096,
+          "base": 8192,
+          "resources": {
+            "geometries": 22,
+            "textures": 30
+          },
+          "graphicsError": 0,
+          "imageSha256": "05eeb7e57894b984267662416671caa29ec796cf9e10040ff749bc473cb47940"
+        }
+      ],
+      "motion": {
+        "records": [
+          {
+            "u": 0.91,
+            "pixelSha256": "97e95b5ab84cb52c8399b1696126712dcb073dee0c7975c90fe95e993d47cef7",
+            "preserved": true,
+            "textureIdentity": "ce8dca74-3ddf-41b1-94a4-f5127364bac1",
+            "patchAllocations": 1,
+            "key": "14-3",
+            "wanted": "14-3",
+            "weight": 1,
+            "cache": 8,
+            "cachePeak": 8,
+            "loads": 4,
+            "patch": 4096,
+            "base": 8192,
+            "resources": {
+              "geometries": 22,
+              "textures": 30
+            },
+            "graphicsError": 0
+          },
+          {
+            "u": 0.94,
+            "pixelSha256": "34ae221cb5d4b4b32fa26b2dbde50c2f2b5d40af8af136767ae352452a8f1214",
+            "preserved": true,
+            "textureIdentity": "ce8dca74-3ddf-41b1-94a4-f5127364bac1",
+            "patchAllocations": 1,
+            "key": "14-3",
+            "wanted": "14-3",
+            "weight": 1,
+            "cache": 8,
+            "cachePeak": 8,
+            "loads": 4,
+            "patch": 4096,
+            "base": 8192,
+            "resources": {
+              "geometries": 22,
+              "textures": 30
+            },
+            "graphicsError": 0
+          },
+          {
+            "u": 0.97,
+            "pixelSha256": "b4f6d19589b368dc3fdb3733ec71a8907c030cc3c76b3f2040dbde22f7cad367",
+            "preserved": true,
+            "textureIdentity": "ce8dca74-3ddf-41b1-94a4-f5127364bac1",
+            "patchAllocations": 1,
+            "key": "14-3",
+            "wanted": "14-3",
+            "weight": 1,
+            "cache": 8,
+            "cachePeak": 8,
+            "loads": 4,
+            "patch": 4096,
+            "base": 8192,
+            "resources": {
+              "geometries": 22,
+              "textures": 30
+            },
+            "graphicsError": 0
+          },
+          {
+            "u": 0,
+            "pixelSha256": "706a1f17a047b1dc60524f0a292e12fd66700ba58c3753d5cad3f188399cb2a4",
+            "preserved": true,
+            "textureIdentity": "ce8dca74-3ddf-41b1-94a4-f5127364bac1",
+            "patchAllocations": 1,
+            "key": "15-3",
+            "wanted": "15-3",
+            "weight": 1,
+            "cache": 8,
+            "cachePeak": 8,
+            "loads": 5,
+            "patch": 4096,
+            "base": 8192,
+            "resources": {
+              "geometries": 22,
+              "textures": 30
+            },
+            "graphicsError": 0
+          },
+          {
+            "u": 0.03,
+            "pixelSha256": "5343901156a786d45ac0b976ce9363921da241f5e1b91d0bc125b82bf3499617",
+            "preserved": true,
+            "textureIdentity": "ce8dca74-3ddf-41b1-94a4-f5127364bac1",
+            "patchAllocations": 1,
+            "key": "15-3",
+            "wanted": "15-3",
+            "weight": 1,
+            "cache": 8,
+            "cachePeak": 8,
+            "loads": 5,
+            "patch": 4096,
+            "base": 8192,
+            "resources": {
+              "geometries": 22,
+              "textures": 30
+            },
+            "graphicsError": 0
+          },
+          {
+            "u": 0.06,
+            "pixelSha256": "d32f98060b598f0d44afb41aaa26f2f9053c799bbc6719ffc58a3290fc10b363",
+            "preserved": true,
+            "textureIdentity": "ce8dca74-3ddf-41b1-94a4-f5127364bac1",
+            "patchAllocations": 1,
+            "key": "0-3",
+            "wanted": "0-3",
+            "weight": 1,
+            "cache": 8,
+            "cachePeak": 8,
+            "loads": 6,
+            "patch": 4096,
+            "base": 8192,
+            "resources": {
+              "geometries": 22,
+              "textures": 30
+            },
+            "graphicsError": 0
+          },
+          {
+            "u": 0.09,
+            "pixelSha256": "4d0dff0fd6fa09b09eecd37dc3213202abd8c2d883b71df55beccf204cc490c3",
+            "preserved": true,
+            "textureIdentity": "ce8dca74-3ddf-41b1-94a4-f5127364bac1",
+            "patchAllocations": 1,
+            "key": "0-3",
+            "wanted": "0-3",
+            "weight": 1,
+            "cache": 8,
+            "cachePeak": 8,
+            "loads": 6,
+            "patch": 4096,
+            "base": 8192,
+            "resources": {
+              "geometries": 22,
+              "textures": 30
+            },
+            "graphicsError": 0
+          },
+          {
+            "u": 0.12,
+            "pixelSha256": "c258621e8109208a0a8c65b19b11b744918c911f6136084541f4b2cfc61bfa6f",
+            "preserved": true,
+            "textureIdentity": "ce8dca74-3ddf-41b1-94a4-f5127364bac1",
+            "patchAllocations": 1,
+            "key": "1-3",
+            "wanted": "1-3",
+            "weight": 1,
+            "cache": 8,
+            "cachePeak": 8,
+            "loads": 7,
+            "patch": 4096,
+            "base": 8192,
+            "resources": {
+              "geometries": 22,
+              "textures": 30
+            },
+            "graphicsError": 0
+          },
+          {
+            "u": 0.16,
+            "pixelSha256": "758cc8524796b47e2f36f330d04967a25827f6cc9c5b396afa8eccb7f98cc8aa",
+            "preserved": true,
+            "textureIdentity": "ce8dca74-3ddf-41b1-94a4-f5127364bac1",
+            "patchAllocations": 1,
+            "key": "1-3",
+            "wanted": "1-3",
+            "weight": 1,
+            "cache": 8,
+            "cachePeak": 8,
+            "loads": 7,
+            "patch": 4096,
+            "base": 8192,
+            "resources": {
+              "geometries": 22,
+              "textures": 30
+            },
+            "graphicsError": 0
+          },
+          {
+            "u": 0.19,
+            "pixelSha256": "01cc4e6724ffb3f0d3ddb0256769ae597dd1f8ace05c04a5dfb7f33ca5933212",
+            "preserved": true,
+            "textureIdentity": "ce8dca74-3ddf-41b1-94a4-f5127364bac1",
+            "patchAllocations": 1,
+            "key": "2-3",
+            "wanted": "2-3",
+            "weight": 1,
+            "cache": 8,
+            "cachePeak": 8,
+            "loads": 8,
+            "patch": 4096,
+            "base": 8192,
+            "resources": {
+              "geometries": 22,
+              "textures": 30
+            },
+            "graphicsError": 0
+          }
+        ],
+        "stalePreserved": true,
+        "key": "2-3",
+        "overlap": {
+          "rmse": 0,
+          "max": 0
+        },
+        "preserved": true,
+        "final": {
+          "textureIdentity": "ce8dca74-3ddf-41b1-94a4-f5127364bac1",
+          "patchAllocations": 1,
+          "key": "1-3",
+          "wanted": "1-3",
+          "weight": 1,
+          "cache": 8,
+          "cachePeak": 8,
+          "loads": 9,
+          "patch": 4096,
+          "base": 8192,
+          "resources": {
+            "geometries": 22,
+            "textures": 30
+          },
+          "graphicsError": 0
+        }
+      },
+      "recovery": {
+        "preserved": true,
+        "imageError": {
+          "rmse": 0,
+          "max": 0
+        },
+        "photo": [
+          1600,
+          1000
+        ],
+        "textureIdentity": "ce8dca74-3ddf-41b1-94a4-f5127364bac1",
+        "patchAllocations": 2,
+        "key": "15-3",
+        "wanted": "15-3",
+        "weight": 1,
+        "cache": 8,
+        "cachePeak": 8,
+        "loads": 10,
+        "patch": 4096,
+        "base": 8192,
+        "resources": {
+          "geometries": 4,
+          "textures": 12
+        },
+        "graphicsError": 0
+      },
+      "requests": 28,
+      "uniqueRequests": 20,
+      "errors": []
+    },
+    {
+      "name": "WebKit",
+      "mode": "previous",
+      "browser": "26.5",
+      "limit": 0,
+      "views": [
+        {
+          "label": "day",
+          "pixelSha256": "825e43b51a528c88e60d67710e207ea0fbca6743ada9e064285eabfc419658fa",
+          "preserved": true,
+          "patchAllocations": 0,
+          "weight": 0,
+          "cache": 0,
+          "cachePeak": 0,
+          "loads": 0,
+          "base": 8192,
+          "resources": {
+            "geometries": 22,
+            "textures": 29
+          },
+          "graphicsError": 0,
+          "imageSha256": "633ef978d3ff2ba6fc5be3b759829f85d44fdd46c4bb94fd9c83814fbc778775"
+        },
+        {
+          "label": "close",
+          "pixelSha256": "a236cff32fb7113ec45087cccd3a7dd85b5e78dabe7a0787100bdbbafa4aff80",
+          "preserved": true,
+          "textureIdentity": "fd51cfbd-c855-4253-9194-f19589f2ce49",
+          "patchAllocations": 1,
+          "key": "15-3",
+          "wanted": "15-3",
+          "weight": 1,
+          "cache": 4,
+          "cachePeak": 4,
+          "loads": 1,
+          "patch": 4096,
+          "base": 8192,
+          "resources": {
+            "geometries": 22,
+            "textures": 30
+          },
+          "graphicsError": 0,
+          "imageSha256": "fb6aca601dcfe24b7c766640e274d2016fbde7e488a5f59a648507cb0d110b88"
+        },
+        {
+          "label": "transition",
+          "pixelSha256": "0ba783fdbc9aafdcee17ae81e8f0c186a4f7e930bc310a76ca1bfc2551303832",
+          "preserved": true,
+          "textureIdentity": "6994cffd-d10c-4feb-b5dd-99216f652dcc",
+          "patchAllocations": 2,
+          "key": "15-1",
+          "wanted": "15-1",
+          "weight": 1,
+          "cache": 8,
+          "cachePeak": 8,
+          "loads": 2,
+          "patch": 4096,
+          "base": 8192,
+          "resources": {
+            "geometries": 22,
+            "textures": 30
+          },
+          "graphicsError": 0,
+          "imageSha256": "e76e52a14e62dcdc7cbb366003e4bcf7d5c5f630be6a8367342e5e4df08f12ec"
+        },
+        {
+          "label": "pole",
+          "pixelSha256": "18465789d1d8b712b0ec21e95cec5c1ff71d17c21c1dd0d6063941ae698395fc",
+          "preserved": true,
+          "textureIdentity": "6994cffd-d10c-4feb-b5dd-99216f652dcc",
+          "patchAllocations": 2,
+          "key": "15-1",
+          "weight": 0,
+          "cache": 8,
+          "cachePeak": 8,
+          "loads": 2,
+          "patch": 4096,
+          "base": 8192,
+          "resources": {
+            "geometries": 22,
+            "textures": 30
+          },
+          "graphicsError": 0,
+          "imageSha256": "87bae7e7c8e70015ecbe0d4189e4b12754b65590219faf87b47b6cc52e26884b"
+        },
+        {
+          "label": "seam",
+          "pixelSha256": "eefb7f199e050011c57c4dbabae00c743e0d297011a8053544cad73b71202734",
+          "preserved": true,
+          "textureIdentity": "811b5f93-2b5f-4a75-bc73-9e1fa39a8c17",
+          "patchAllocations": 3,
+          "key": "15-3",
+          "wanted": "15-3",
+          "weight": 1,
+          "cache": 8,
+          "cachePeak": 8,
+          "loads": 3,
+          "patch": 4096,
+          "base": 8192,
+          "resources": {
+            "geometries": 22,
+            "textures": 30
+          },
+          "graphicsError": 0,
+          "imageSha256": "fe0879b164bc5ec20cc282e6c26476e40cf1c91982f12cd3343681109291b2c1"
+        }
+      ],
+      "motion": {
+        "records": [
+          {
+            "u": 0.91,
+            "pixelSha256": "10461070baa2fd0568991cfc2aa73a9cfd1617dbb61c69639cade1dd5b90fcb4",
+            "preserved": true,
+            "textureIdentity": "b8cd8c0c-c8ba-4420-96a5-0c79a91409c3",
+            "patchAllocations": 4,
+            "key": "14-3",
+            "wanted": "14-3",
+            "weight": 1,
+            "cache": 8,
+            "cachePeak": 8,
+            "loads": 4,
+            "patch": 4096,
+            "base": 8192,
+            "resources": {
+              "geometries": 22,
+              "textures": 30
+            },
+            "graphicsError": 0
+          },
+          {
+            "u": 0.94,
+            "pixelSha256": "0226e48bc02bfe50859df5cfb4969e28fc5e219ce10ddb5b3e70bf2a311cc882",
+            "preserved": true,
+            "textureIdentity": "b8cd8c0c-c8ba-4420-96a5-0c79a91409c3",
+            "patchAllocations": 4,
+            "key": "14-3",
+            "wanted": "14-3",
+            "weight": 1,
+            "cache": 8,
+            "cachePeak": 8,
+            "loads": 4,
+            "patch": 4096,
+            "base": 8192,
+            "resources": {
+              "geometries": 22,
+              "textures": 30
+            },
+            "graphicsError": 0
+          },
+          {
+            "u": 0.97,
+            "pixelSha256": "fb96de42f4270f5a0f7291c3293cff72da866b70407e916ec6adab44d629ed0e",
+            "preserved": true,
+            "textureIdentity": "b8cd8c0c-c8ba-4420-96a5-0c79a91409c3",
+            "patchAllocations": 4,
+            "key": "14-3",
+            "wanted": "14-3",
+            "weight": 1,
+            "cache": 8,
+            "cachePeak": 8,
+            "loads": 4,
+            "patch": 4096,
+            "base": 8192,
+            "resources": {
+              "geometries": 22,
+              "textures": 30
+            },
+            "graphicsError": 0
+          },
+          {
+            "u": 0,
+            "pixelSha256": "48d7cb73b49bcb063e01fe2ee4156421ed6c0fb08a83ff4b04e9164d28b41c8e",
+            "preserved": true,
+            "textureIdentity": "223e67e3-85b0-4ad4-9aa8-5fbfc132a328",
+            "patchAllocations": 5,
+            "key": "15-3",
+            "wanted": "15-3",
+            "weight": 1,
+            "cache": 8,
+            "cachePeak": 8,
+            "loads": 5,
+            "patch": 4096,
+            "base": 8192,
+            "resources": {
+              "geometries": 22,
+              "textures": 30
+            },
+            "graphicsError": 0
+          },
+          {
+            "u": 0.03,
+            "pixelSha256": "648f0e3c35136a72688f2425e90b8f74096dd05b717ab24621dfd9654fae445f",
+            "preserved": true,
+            "textureIdentity": "223e67e3-85b0-4ad4-9aa8-5fbfc132a328",
+            "patchAllocations": 5,
+            "key": "15-3",
+            "wanted": "15-3",
+            "weight": 1,
+            "cache": 8,
+            "cachePeak": 8,
+            "loads": 5,
+            "patch": 4096,
+            "base": 8192,
+            "resources": {
+              "geometries": 22,
+              "textures": 30
+            },
+            "graphicsError": 0
+          },
+          {
+            "u": 0.06,
+            "pixelSha256": "7f4b1cc1c809df30fea8ffeab4d6ece93a0d1ba6bed365549d03ad80fc2c18e3",
+            "preserved": true,
+            "textureIdentity": "ed14717f-4dd6-4ace-801c-fa3fc515434d",
+            "patchAllocations": 6,
+            "key": "0-3",
+            "wanted": "0-3",
+            "weight": 1,
+            "cache": 8,
+            "cachePeak": 8,
+            "loads": 6,
+            "patch": 4096,
+            "base": 8192,
+            "resources": {
+              "geometries": 22,
+              "textures": 30
+            },
+            "graphicsError": 0
+          },
+          {
+            "u": 0.09,
+            "pixelSha256": "828c5692abc046773d6ec2f55e3939a95a3af9e68981be2d2f8e50d73f1d1644",
+            "preserved": true,
+            "textureIdentity": "ed14717f-4dd6-4ace-801c-fa3fc515434d",
+            "patchAllocations": 6,
+            "key": "0-3",
+            "wanted": "0-3",
+            "weight": 1,
+            "cache": 8,
+            "cachePeak": 8,
+            "loads": 6,
+            "patch": 4096,
+            "base": 8192,
+            "resources": {
+              "geometries": 22,
+              "textures": 30
+            },
+            "graphicsError": 0
+          },
+          {
+            "u": 0.12,
+            "pixelSha256": "c8efde8b27dd4667a9b15af023be593eeb7b82a44cdc0932ed12be498d3e2b1d",
+            "preserved": true,
+            "textureIdentity": "e054269b-6ad3-4c49-a21d-70bea7c5e5c9",
+            "patchAllocations": 7,
+            "key": "1-3",
+            "wanted": "1-3",
+            "weight": 1,
+            "cache": 8,
+            "cachePeak": 8,
+            "loads": 7,
+            "patch": 4096,
+            "base": 8192,
+            "resources": {
+              "geometries": 22,
+              "textures": 30
+            },
+            "graphicsError": 0
+          },
+          {
+            "u": 0.16,
+            "pixelSha256": "48fba8f054e29c614bd050127ef630be1206244fae09350194a04949c53b9da1",
+            "preserved": true,
+            "textureIdentity": "e054269b-6ad3-4c49-a21d-70bea7c5e5c9",
+            "patchAllocations": 7,
+            "key": "1-3",
+            "wanted": "1-3",
+            "weight": 1,
+            "cache": 8,
+            "cachePeak": 8,
+            "loads": 7,
+            "patch": 4096,
+            "base": 8192,
+            "resources": {
+              "geometries": 22,
+              "textures": 30
+            },
+            "graphicsError": 0
+          },
+          {
+            "u": 0.19,
+            "pixelSha256": "8b6667a5f3c4c569e5b590c7027ae894c19aeab9e0c5f4729a9b1cdc40a96d3d",
+            "preserved": true,
+            "textureIdentity": "a2980d6b-0ed1-497a-ac5c-2ac1b2d0b8c2",
+            "patchAllocations": 8,
+            "key": "2-3",
+            "wanted": "2-3",
+            "weight": 1,
+            "cache": 8,
+            "cachePeak": 8,
+            "loads": 8,
+            "patch": 4096,
+            "base": 8192,
+            "resources": {
+              "geometries": 22,
+              "textures": 30
+            },
+            "graphicsError": 0
+          }
+        ],
+        "stalePreserved": true,
+        "key": "2-3",
+        "overlap": {
+          "rmse": 0,
+          "max": 0
+        },
+        "preserved": true,
+        "final": {
+          "textureIdentity": "1d862def-5c98-419f-b179-b8dfd886a410",
+          "patchAllocations": 9,
+          "key": "1-3",
+          "wanted": "1-3",
+          "weight": 1,
+          "cache": 8,
+          "cachePeak": 8,
+          "loads": 9,
+          "patch": 4096,
+          "base": 8192,
+          "resources": {
+            "geometries": 22,
+            "textures": 30
+          },
+          "graphicsError": 0
+        }
+      },
+      "recovery": {
+        "preserved": true,
+        "imageError": {
+          "rmse": 0,
+          "max": 0
+        },
+        "photo": [
+          1600,
+          1000
+        ],
+        "textureIdentity": "ba1faa41-d416-4804-9ac2-fbdebf60d72e",
+        "patchAllocations": 11,
+        "key": "15-3",
+        "wanted": "15-3",
+        "weight": 1,
+        "cache": 8,
+        "cachePeak": 8,
+        "loads": 10,
+        "patch": 4096,
+        "base": 8192,
+        "resources": {
+          "geometries": 4,
+          "textures": 12
+        },
+        "graphicsError": 0
+      },
+      "requests": 28,
+      "uniqueRequests": 20,
+      "errors": []
+    },
+    {
+      "name": "WebKit",
+      "mode": "candidate",
+      "browser": "26.5",
+      "limit": 0,
+      "views": [
+        {
+          "label": "day",
+          "pixelSha256": "825e43b51a528c88e60d67710e207ea0fbca6743ada9e064285eabfc419658fa",
+          "preserved": true,
+          "patchAllocations": 0,
+          "weight": 0,
+          "cache": 0,
+          "cachePeak": 0,
+          "loads": 0,
+          "base": 8192,
+          "resources": {
+            "geometries": 22,
+            "textures": 29
+          },
+          "graphicsError": 0,
+          "imageSha256": "633ef978d3ff2ba6fc5be3b759829f85d44fdd46c4bb94fd9c83814fbc778775"
+        },
+        {
+          "label": "close",
+          "pixelSha256": "a236cff32fb7113ec45087cccd3a7dd85b5e78dabe7a0787100bdbbafa4aff80",
+          "preserved": true,
+          "textureIdentity": "c698f717-3b47-44ed-a06e-1233158282e4",
+          "patchAllocations": 1,
+          "key": "15-3",
+          "wanted": "15-3",
+          "weight": 1,
+          "cache": 4,
+          "cachePeak": 4,
+          "loads": 1,
+          "patch": 4096,
+          "base": 8192,
+          "resources": {
+            "geometries": 22,
+            "textures": 30
+          },
+          "graphicsError": 0,
+          "imageSha256": "fb6aca601dcfe24b7c766640e274d2016fbde7e488a5f59a648507cb0d110b88"
+        },
+        {
+          "label": "transition",
+          "pixelSha256": "0ba783fdbc9aafdcee17ae81e8f0c186a4f7e930bc310a76ca1bfc2551303832",
+          "preserved": true,
+          "textureIdentity": "c698f717-3b47-44ed-a06e-1233158282e4",
+          "patchAllocations": 1,
+          "key": "15-1",
+          "wanted": "15-1",
+          "weight": 1,
+          "cache": 8,
+          "cachePeak": 8,
+          "loads": 2,
+          "patch": 4096,
+          "base": 8192,
+          "resources": {
+            "geometries": 22,
+            "textures": 30
+          },
+          "graphicsError": 0,
+          "imageSha256": "e76e52a14e62dcdc7cbb366003e4bcf7d5c5f630be6a8367342e5e4df08f12ec"
+        },
+        {
+          "label": "pole",
+          "pixelSha256": "18465789d1d8b712b0ec21e95cec5c1ff71d17c21c1dd0d6063941ae698395fc",
+          "preserved": true,
+          "textureIdentity": "c698f717-3b47-44ed-a06e-1233158282e4",
+          "patchAllocations": 1,
+          "key": "15-1",
+          "weight": 0,
+          "cache": 8,
+          "cachePeak": 8,
+          "loads": 2,
+          "patch": 4096,
+          "base": 8192,
+          "resources": {
+            "geometries": 22,
+            "textures": 30
+          },
+          "graphicsError": 0,
+          "imageSha256": "87bae7e7c8e70015ecbe0d4189e4b12754b65590219faf87b47b6cc52e26884b"
+        },
+        {
+          "label": "seam",
+          "pixelSha256": "eefb7f199e050011c57c4dbabae00c743e0d297011a8053544cad73b71202734",
+          "preserved": true,
+          "textureIdentity": "c698f717-3b47-44ed-a06e-1233158282e4",
+          "patchAllocations": 1,
+          "key": "15-3",
+          "wanted": "15-3",
+          "weight": 1,
+          "cache": 8,
+          "cachePeak": 8,
+          "loads": 3,
+          "patch": 4096,
+          "base": 8192,
+          "resources": {
+            "geometries": 22,
+            "textures": 30
+          },
+          "graphicsError": 0,
+          "imageSha256": "fe0879b164bc5ec20cc282e6c26476e40cf1c91982f12cd3343681109291b2c1"
+        }
+      ],
+      "motion": {
+        "records": [
+          {
+            "u": 0.91,
+            "pixelSha256": "10461070baa2fd0568991cfc2aa73a9cfd1617dbb61c69639cade1dd5b90fcb4",
+            "preserved": true,
+            "textureIdentity": "c698f717-3b47-44ed-a06e-1233158282e4",
+            "patchAllocations": 1,
+            "key": "14-3",
+            "wanted": "14-3",
+            "weight": 1,
+            "cache": 8,
+            "cachePeak": 8,
+            "loads": 4,
+            "patch": 4096,
+            "base": 8192,
+            "resources": {
+              "geometries": 22,
+              "textures": 30
+            },
+            "graphicsError": 0
+          },
+          {
+            "u": 0.94,
+            "pixelSha256": "0226e48bc02bfe50859df5cfb4969e28fc5e219ce10ddb5b3e70bf2a311cc882",
+            "preserved": true,
+            "textureIdentity": "c698f717-3b47-44ed-a06e-1233158282e4",
+            "patchAllocations": 1,
+            "key": "14-3",
+            "wanted": "14-3",
+            "weight": 1,
+            "cache": 8,
+            "cachePeak": 8,
+            "loads": 4,
+            "patch": 4096,
+            "base": 8192,
+            "resources": {
+              "geometries": 22,
+              "textures": 30
+            },
+            "graphicsError": 0
+          },
+          {
+            "u": 0.97,
+            "pixelSha256": "fb96de42f4270f5a0f7291c3293cff72da866b70407e916ec6adab44d629ed0e",
+            "preserved": true,
+            "textureIdentity": "c698f717-3b47-44ed-a06e-1233158282e4",
+            "patchAllocations": 1,
+            "key": "14-3",
+            "wanted": "14-3",
+            "weight": 1,
+            "cache": 8,
+            "cachePeak": 8,
+            "loads": 4,
+            "patch": 4096,
+            "base": 8192,
+            "resources": {
+              "geometries": 22,
+              "textures": 30
+            },
+            "graphicsError": 0
+          },
+          {
+            "u": 0,
+            "pixelSha256": "48d7cb73b49bcb063e01fe2ee4156421ed6c0fb08a83ff4b04e9164d28b41c8e",
+            "preserved": true,
+            "textureIdentity": "c698f717-3b47-44ed-a06e-1233158282e4",
+            "patchAllocations": 1,
+            "key": "15-3",
+            "wanted": "15-3",
+            "weight": 1,
+            "cache": 8,
+            "cachePeak": 8,
+            "loads": 5,
+            "patch": 4096,
+            "base": 8192,
+            "resources": {
+              "geometries": 22,
+              "textures": 30
+            },
+            "graphicsError": 0
+          },
+          {
+            "u": 0.03,
+            "pixelSha256": "648f0e3c35136a72688f2425e90b8f74096dd05b717ab24621dfd9654fae445f",
+            "preserved": true,
+            "textureIdentity": "c698f717-3b47-44ed-a06e-1233158282e4",
+            "patchAllocations": 1,
+            "key": "15-3",
+            "wanted": "15-3",
+            "weight": 1,
+            "cache": 8,
+            "cachePeak": 8,
+            "loads": 5,
+            "patch": 4096,
+            "base": 8192,
+            "resources": {
+              "geometries": 22,
+              "textures": 30
+            },
+            "graphicsError": 0
+          },
+          {
+            "u": 0.06,
+            "pixelSha256": "7f4b1cc1c809df30fea8ffeab4d6ece93a0d1ba6bed365549d03ad80fc2c18e3",
+            "preserved": true,
+            "textureIdentity": "c698f717-3b47-44ed-a06e-1233158282e4",
+            "patchAllocations": 1,
+            "key": "0-3",
+            "wanted": "0-3",
+            "weight": 1,
+            "cache": 8,
+            "cachePeak": 8,
+            "loads": 6,
+            "patch": 4096,
+            "base": 8192,
+            "resources": {
+              "geometries": 22,
+              "textures": 30
+            },
+            "graphicsError": 0
+          },
+          {
+            "u": 0.09,
+            "pixelSha256": "828c5692abc046773d6ec2f55e3939a95a3af9e68981be2d2f8e50d73f1d1644",
+            "preserved": true,
+            "textureIdentity": "c698f717-3b47-44ed-a06e-1233158282e4",
+            "patchAllocations": 1,
+            "key": "0-3",
+            "wanted": "0-3",
+            "weight": 1,
+            "cache": 8,
+            "cachePeak": 8,
+            "loads": 6,
+            "patch": 4096,
+            "base": 8192,
+            "resources": {
+              "geometries": 22,
+              "textures": 30
+            },
+            "graphicsError": 0
+          },
+          {
+            "u": 0.12,
+            "pixelSha256": "c8efde8b27dd4667a9b15af023be593eeb7b82a44cdc0932ed12be498d3e2b1d",
+            "preserved": true,
+            "textureIdentity": "c698f717-3b47-44ed-a06e-1233158282e4",
+            "patchAllocations": 1,
+            "key": "1-3",
+            "wanted": "1-3",
+            "weight": 1,
+            "cache": 8,
+            "cachePeak": 8,
+            "loads": 7,
+            "patch": 4096,
+            "base": 8192,
+            "resources": {
+              "geometries": 22,
+              "textures": 30
+            },
+            "graphicsError": 0
+          },
+          {
+            "u": 0.16,
+            "pixelSha256": "48fba8f054e29c614bd050127ef630be1206244fae09350194a04949c53b9da1",
+            "preserved": true,
+            "textureIdentity": "c698f717-3b47-44ed-a06e-1233158282e4",
+            "patchAllocations": 1,
+            "key": "1-3",
+            "wanted": "1-3",
+            "weight": 1,
+            "cache": 8,
+            "cachePeak": 8,
+            "loads": 7,
+            "patch": 4096,
+            "base": 8192,
+            "resources": {
+              "geometries": 22,
+              "textures": 30
+            },
+            "graphicsError": 0
+          },
+          {
+            "u": 0.19,
+            "pixelSha256": "8b6667a5f3c4c569e5b590c7027ae894c19aeab9e0c5f4729a9b1cdc40a96d3d",
+            "preserved": true,
+            "textureIdentity": "c698f717-3b47-44ed-a06e-1233158282e4",
+            "patchAllocations": 1,
+            "key": "2-3",
+            "wanted": "2-3",
+            "weight": 1,
+            "cache": 8,
+            "cachePeak": 8,
+            "loads": 8,
+            "patch": 4096,
+            "base": 8192,
+            "resources": {
+              "geometries": 22,
+              "textures": 30
+            },
+            "graphicsError": 0
+          }
+        ],
+        "stalePreserved": true,
+        "key": "2-3",
+        "overlap": {
+          "rmse": 0,
+          "max": 0
+        },
+        "preserved": true,
+        "final": {
+          "textureIdentity": "c698f717-3b47-44ed-a06e-1233158282e4",
+          "patchAllocations": 1,
+          "key": "1-3",
+          "wanted": "1-3",
+          "weight": 1,
+          "cache": 8,
+          "cachePeak": 8,
+          "loads": 9,
+          "patch": 4096,
+          "base": 8192,
+          "resources": {
+            "geometries": 22,
+            "textures": 30
+          },
+          "graphicsError": 0
+        }
+      },
+      "recovery": {
+        "preserved": true,
+        "imageError": {
+          "rmse": 0,
+          "max": 0
+        },
+        "photo": [
+          1600,
+          1000
+        ],
+        "textureIdentity": "c698f717-3b47-44ed-a06e-1233158282e4",
+        "patchAllocations": 2,
+        "key": "15-3",
+        "wanted": "15-3",
+        "weight": 1,
+        "cache": 8,
+        "cachePeak": 8,
+        "loads": 10,
+        "patch": 4096,
+        "base": 8192,
+        "resources": {
+          "geometries": 4,
+          "textures": 12
+        },
+        "graphicsError": 0
+      },
+      "requests": 28,
+      "uniqueRequests": 20,
+      "errors": []
+    }
+  ]
+}

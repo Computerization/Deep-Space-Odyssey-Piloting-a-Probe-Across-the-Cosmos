@@ -1,0 +1,11 @@
+import {chromium,BASE_URL} from './browser.mjs';
+const browser=await chromium.launch({channel:'chrome',headless:true,args:['--use-angle=metal','--ignore-gpu-blocklist']});
+const page=await browser.newPage({viewport:{width:1440,height:900}});const errors=[];page.on('pageerror',e=>errors.push(e.message));
+await page.goto(BASE_URL+'/?test=1');await page.waitForFunction(()=>window.__cosmos,{timeout:90000});await page.waitForTimeout(2500);
+await page.screenshot({path:'tests/screenshots/v12-title.png'});
+await page.click('#begin');await page.waitForTimeout(2000);await page.screenshot({path:'tests/screenshots/v12-flight.png'});
+console.log(await page.evaluate(()=>({...window.__cosmos.inspect(),fuel:window.__cosmos.game.fuel,localSeconds:window.__cosmos.game.localSeconds})));
+await page.click('#pause-button');await page.screenshot({path:'tests/screenshots/v12-pause.png'});
+await page.click('[data-action=map]');await page.click('[data-action=map-tab][data-value=solar]');await page.screenshot({path:'tests/screenshots/v12-chart.png'});
+await page.click('#panel-close');await page.evaluate(()=>window.__cosmos.beginTransit());await page.waitForTimeout(1500);await page.screenshot({path:'tests/screenshots/v12-transit.png'});
+console.log('transit',await page.evaluate(()=>({...window.__cosmos.inspect(),jd:window.__cosmos.game.transit.jd})));console.log({errors});await browser.close();

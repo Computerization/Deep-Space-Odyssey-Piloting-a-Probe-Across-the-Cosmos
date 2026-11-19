@@ -1,0 +1,20 @@
+{
+  "precision": {
+    "speed": 1.0000000000000004,
+    "rate": 10
+  },
+  "navigation": {
+    "steps": 598,
+    "seconds": 19.933333333333334,
+    "minAltitude": 4681.454684871249,
+    "recorded": true,
+    "waypoints": 1
+  },
+  "terrain": {
+    "changed": 4135,
+    "darker": 4135,
+    "meanDifference": 0.20030401234567902,
+    "samples": 4
+  },
+  "errors": []
+}

@@ -1,0 +1,39 @@
+{
+  "cache": {
+    "heldFrames": 30,
+    "heldUpdates": 0,
+    "cases": [
+      {
+        "name": "subtexel turn",
+        "naturalUpdates": 1,
+        "maxChannelDifference": 0,
+        "meanChannelDifference": 0,
+        "changedChannels": 0
+      },
+      {
+        "name": "accumulated turn",
+        "naturalUpdates": 1,
+        "maxChannelDifference": 0,
+        "meanChannelDifference": 0,
+        "changedChannels": 0
+      },
+      {
+        "name": "steering",
+        "naturalUpdates": 1,
+        "maxChannelDifference": 0,
+        "meanChannelDifference": 0,
+        "changedChannels": 0
+      }
+    ],
+    "epochUpdates": 1
+  },
+  "recovery": {
+    "mode": "panel",
+    "rendered": true,
+    "shadowsRefreshed": true,
+    "environmentReady": true,
+    "lit": 114
+  },
+  "physicalHardwareContextLossTested": false,
+  "errors": []
+}

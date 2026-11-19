@@ -1,0 +1,5361 @@
+{
+  "version": "0.90.0",
+  "files": {
+    "control": "/private/tmp/cosmos-cloud-release-source/hybrid-8192.png",
+    "reference": "/private/tmp/cosmos-cloud-release-source/reference-r8.bin",
+    "candidate": "assets/textures/earth-clouds.avif"
+  },
+  "hashes": {
+    "/private/tmp/cosmos-cloud-release-source/hybrid-8192.png": "fb9530aa94ac7e2818babf9fc7eb5f415b0ca8544d0ce4915be2ca20494e2228",
+    "/private/tmp/cosmos-cloud-release-source/reference-r8.bin": "3d409156891d4add85a2c374a2ab06ce60c0acac02c92cd1a7f5f09523f664e6",
+    "assets/textures/earth-clouds.avif": "52c8504370bc943b07f743083125ee4eca883524d770ab80757ba43ef4927d47",
+    "assets/textures/earth-cloud-height.png": "e459fde568e5666da55abfaeffb18dc88ae13fc29d91d442d7f0318fd16d19bb",
+    "src/world.js": "726b300f85d32142b490f6dcdab3838bb4ea0e7cb6d040c2093176e7dbcb2614",
+    "src/rendering/scene-factory.js": "ae8294bfe8611a4623fce5a72a319789350f4c09ed7c4bac76586f482e395711",
+    "src/rendering/earth-shaders.js": "22eb1230a69fb88287bf39649a2260ba96a6baf91c7f6cd884c093e619e7efd1"
+  },
+  "textureLimit": 0,
+  "reference": "Exact bottom-first R8 source; lossless same-source 8K control. Shared 2K inferred-height field and production shaders. Native source retention, not measured 3D weather or photographic equivalence. Polar gradient and broad-view tradeoffs are retained in the metrics.",
+  "outcomes": [
+    {
+      "name": "Chrome",
+      "engineVersion": "158.0.8127.37",
+      "maxTextureSize": 16384,
+      "constrained": false,
+      "views": {
+        "ultra-day": {
+          "control": {
+            "label": "day",
+            "quality": "ultra",
+            "physicalStatePreserved": true,
+            "physical": "[[144474457.83116025,-17171778.480158877,39596214.79159133],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[0.01577675287351146,0.9401668523387668,0.043949052387549814,-0.33749942907569486],0,104]",
+            "maps": [
+              {
+                "size": [
+                  8192,
+                  4096
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -2,
+            "resources": {
+              "calls": 7,
+              "triangles": 292866,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "candidate": {
+            "label": "day",
+            "quality": "ultra",
+            "physicalStatePreserved": true,
+            "physical": "[[144474457.83116025,-17171778.480158877,39596214.79159133],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[0.01577675287351146,0.9401668523387668,0.043949052387549814,-0.33749942907569486],0,104]",
+            "maps": [
+              {
+                "size": [
+                  16384,
+                  8192
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -3,
+            "resources": {
+              "calls": 7,
+              "triangles": 292866,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "reference": {
+            "label": "day",
+            "quality": "ultra",
+            "physicalStatePreserved": true,
+            "physical": "[[144474457.83116025,-17171778.480158877,39596214.79159133],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[0.01577675287351146,0.9401668523387668,0.043949052387549814,-0.33749942907569486],0,104]",
+            "maps": [
+              {
+                "size": [
+                  16384,
+                  8192
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -3,
+            "resources": {
+              "calls": 7,
+              "triangles": 292866,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "metrics": {
+            "errors": {
+              "control": {
+                "rmse": 0.4050162033795685,
+                "gradientRMSE": 0.5563007301786792,
+                "max": 18
+              },
+              "candidate": {
+                "rmse": 0.34061005318888243,
+                "gradientRMSE": 0.4484745878084328,
+                "max": 7
+              }
+            },
+            "repeats": {
+              "control": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              },
+              "candidate": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              },
+              "reference": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              }
+            }
+          }
+        },
+        "ultra-terminator": {
+          "control": {
+            "label": "terminator",
+            "quality": "ultra",
+            "physicalStatePreserved": true,
+            "physical": "[[144487911.6676236,-17173176.74134138,39593275.616194025],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[0,0.991064832172347,0,0.13338102725349577],0,104]",
+            "maps": [
+              {
+                "size": [
+                  8192,
+                  4096
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -2,
+            "resources": {
+              "calls": 7,
+              "triangles": 292866,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "candidate": {
+            "label": "terminator",
+            "quality": "ultra",
+            "physicalStatePreserved": true,
+            "physical": "[[144487911.6676236,-17173176.74134138,39593275.616194025],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[0,0.991064832172347,0,0.13338102725349577],0,104]",
+            "maps": [
+              {
+                "size": [
+                  16384,
+                  8192
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -3,
+            "resources": {
+              "calls": 7,
+              "triangles": 292866,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "reference": {
+            "label": "terminator",
+            "quality": "ultra",
+            "physicalStatePreserved": true,
+            "physical": "[[144487911.6676236,-17173176.74134138,39593275.616194025],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[0,0.991064832172347,0,0.13338102725349577],0,104]",
+            "maps": [
+              {
+                "size": [
+                  16384,
+                  8192
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -3,
+            "resources": {
+              "calls": 7,
+              "triangles": 292866,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "metrics": {
+            "errors": {
+              "control": {
+                "rmse": 0.2395638397866701,
+                "gradientRMSE": 0.33161030598967484,
+                "max": 15
+              },
+              "candidate": {
+                "rmse": 0.20433989249940077,
+                "gradientRMSE": 0.274245036045697,
+                "max": 6
+              }
+            },
+            "repeats": {
+              "control": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              },
+              "candidate": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              },
+              "reference": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              }
+            }
+          }
+        },
+        "ultra-crescent": {
+          "control": {
+            "label": "crescent",
+            "quality": "ultra",
+            "physicalStatePreserved": true,
+            "physical": "[[144498367.55473247,-17174655.01355423,39603912.717490494],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[0.030113933267620574,0.7914944414404061,-0.039126460858180834,0.6091788081120405],0,104]",
+            "maps": [
+              {
+                "size": [
+                  8192,
+                  4096
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -2,
+            "resources": {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "candidate": {
+            "label": "crescent",
+            "quality": "ultra",
+            "physicalStatePreserved": true,
+            "physical": "[[144498367.55473247,-17174655.01355423,39603912.717490494],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[0.030113933267620574,0.7914944414404061,-0.039126460858180834,0.6091788081120405],0,104]",
+            "maps": [
+              {
+                "size": [
+                  16384,
+                  8192
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -3,
+            "resources": {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "reference": {
+            "label": "crescent",
+            "quality": "ultra",
+            "physicalStatePreserved": true,
+            "physical": "[[144498367.55473247,-17174655.01355423,39603912.717490494],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[0.030113933267620574,0.7914944414404061,-0.039126460858180834,0.6091788081120405],0,104]",
+            "maps": [
+              {
+                "size": [
+                  16384,
+                  8192
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -3,
+            "resources": {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "metrics": {
+            "errors": {
+              "control": {
+                "rmse": 0.004765326151831933,
+                "gradientRMSE": 0.00677214863108521,
+                "max": 2
+              },
+              "candidate": {
+                "rmse": 0.0049371044145328745,
+                "gradientRMSE": 0.006802861480855304,
+                "max": 1
+              }
+            },
+            "repeats": {
+              "control": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              },
+              "candidate": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              },
+              "reference": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              }
+            }
+          }
+        },
+        "ultra-close": {
+          "control": {
+            "label": "close",
+            "quality": "ultra",
+            "physicalStatePreserved": true,
+            "physical": "[[144479587.10025,-17172534.136202186,39602438.405753665],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[0.015776752873507754,0.9401668523386231,0.04394905238747942,-0.33749942907610453],0,104]",
+            "maps": [
+              {
+                "size": [
+                  8192,
+                  4096
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -2,
+            "resources": {
+              "calls": 7,
+              "triangles": 292866,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "candidate": {
+            "label": "close",
+            "quality": "ultra",
+            "physicalStatePreserved": true,
+            "physical": "[[144479587.10025,-17172534.136202186,39602438.405753665],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[0.015776752873507754,0.9401668523386231,0.04394905238747942,-0.33749942907610453],0,104]",
+            "maps": [
+              {
+                "size": [
+                  16384,
+                  8192
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -3,
+            "resources": {
+              "calls": 7,
+              "triangles": 292866,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "reference": {
+            "label": "close",
+            "quality": "ultra",
+            "physicalStatePreserved": true,
+            "physical": "[[144479587.10025,-17172534.136202186,39602438.405753665],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[0.015776752873507754,0.9401668523386231,0.04394905238747942,-0.33749942907610453],0,104]",
+            "maps": [
+              {
+                "size": [
+                  16384,
+                  8192
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -3,
+            "resources": {
+              "calls": 7,
+              "triangles": 292866,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "metrics": {
+            "errors": {
+              "control": {
+                "rmse": 6.853431075016368,
+                "gradientRMSE": 2.6717842155213325,
+                "max": 165
+              },
+              "candidate": {
+                "rmse": 2.667712464203492,
+                "gradientRMSE": 1.2222554053903125,
+                "max": 58
+              }
+            },
+            "repeats": {
+              "control": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              },
+              "candidate": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              },
+              "reference": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              }
+            }
+          }
+        },
+        "ultra-grazing": {
+          "control": {
+            "label": "grazing",
+            "quality": "ultra",
+            "physicalStatePreserved": true,
+            "physical": "[[144485770.13998637,-17173176.74134138,39601087.63578384],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[0,0.9910648321723687,0,0.13338102725333403],0,104]",
+            "maps": [
+              {
+                "size": [
+                  8192,
+                  4096
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -2,
+            "resources": {
+              "calls": 7,
+              "triangles": 292866,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "candidate": {
+            "label": "grazing",
+            "quality": "ultra",
+            "physicalStatePreserved": true,
+            "physical": "[[144485770.13998637,-17173176.74134138,39601087.63578384],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[0,0.9910648321723687,0,0.13338102725333403],0,104]",
+            "maps": [
+              {
+                "size": [
+                  16384,
+                  8192
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -3,
+            "resources": {
+              "calls": 7,
+              "triangles": 292866,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "reference": {
+            "label": "grazing",
+            "quality": "ultra",
+            "physicalStatePreserved": true,
+            "physical": "[[144485770.13998637,-17173176.74134138,39601087.63578384],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[0,0.9910648321723687,0,0.13338102725333403],0,104]",
+            "maps": [
+              {
+                "size": [
+                  16384,
+                  8192
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -3,
+            "resources": {
+              "calls": 7,
+              "triangles": 292866,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "metrics": {
+            "errors": {
+              "control": {
+                "rmse": 1.8019068603380513,
+                "gradientRMSE": 0.8107245759985302,
+                "max": 64
+              },
+              "candidate": {
+                "rmse": 0.9283072632485432,
+                "gradientRMSE": 0.534179285315056,
+                "max": 35
+              }
+            },
+            "repeats": {
+              "control": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              },
+              "candidate": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              },
+              "reference": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              }
+            }
+          }
+        },
+        "ultra-resolved-limb": {
+          "control": {
+            "label": "resolved-limb",
+            "quality": "ultra",
+            "physicalStatePreserved": true,
+            "physical": "[[144479708.26408678,-17172551.98634494,39602585.420261435],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[-0.013245085538195603,0.5589833843869272,0.04477714647098312,-0.8278630024601528],0,104]",
+            "maps": [
+              {
+                "size": [
+                  8192,
+                  4096
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -2,
+            "resources": {
+              "calls": 7,
+              "triangles": 292866,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "candidate": {
+            "label": "resolved-limb",
+            "quality": "ultra",
+            "physicalStatePreserved": true,
+            "physical": "[[144479708.26408678,-17172551.98634494,39602585.420261435],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[-0.013245085538195603,0.5589833843869272,0.04477714647098312,-0.8278630024601528],0,104]",
+            "maps": [
+              {
+                "size": [
+                  16384,
+                  8192
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -3,
+            "resources": {
+              "calls": 7,
+              "triangles": 292866,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "reference": {
+            "label": "resolved-limb",
+            "quality": "ultra",
+            "physicalStatePreserved": true,
+            "physical": "[[144479708.26408678,-17172551.98634494,39602585.420261435],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[-0.013245085538195603,0.5589833843869272,0.04477714647098312,-0.8278630024601528],0,104]",
+            "maps": [
+              {
+                "size": [
+                  16384,
+                  8192
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -3,
+            "resources": {
+              "calls": 7,
+              "triangles": 292866,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "metrics": {
+            "errors": {
+              "control": {
+                "rmse": 2.254615589925106,
+                "gradientRMSE": 0.5465377980780057,
+                "max": 59
+              },
+              "candidate": {
+                "rmse": 1.0946616676702745,
+                "gradientRMSE": 0.38653272356057533,
+                "max": 25
+              }
+            },
+            "repeats": {
+              "control": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              },
+              "candidate": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              },
+              "reference": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              }
+            }
+          }
+        },
+        "ultra-pole": {
+          "control": {
+            "label": "pole",
+            "quality": "ultra",
+            "physicalStatePreserved": true,
+            "physical": "[[144484182.72183335,-17166483.777149543,39607730.92803345],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[-0.4911976443599027,0.5086500507965005,0.4911976443599027,0.5086500507965005],0,104]",
+            "maps": [
+              {
+                "size": [
+                  8192,
+                  4096
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -2,
+            "resources": {
+              "calls": 7,
+              "triangles": 292866,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "candidate": {
+            "label": "pole",
+            "quality": "ultra",
+            "physicalStatePreserved": true,
+            "physical": "[[144484182.72183335,-17166483.777149543,39607730.92803345],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[-0.4911976443599027,0.5086500507965005,0.4911976443599027,0.5086500507965005],0,104]",
+            "maps": [
+              {
+                "size": [
+                  16384,
+                  8192
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -3,
+            "resources": {
+              "calls": 7,
+              "triangles": 292866,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "reference": {
+            "label": "pole",
+            "quality": "ultra",
+            "physicalStatePreserved": true,
+            "physical": "[[144484182.72183335,-17166483.777149543,39607730.92803345],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[-0.4911976443599027,0.5086500507965005,0.4911976443599027,0.5086500507965005],0,104]",
+            "maps": [
+              {
+                "size": [
+                  16384,
+                  8192
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -3,
+            "resources": {
+              "calls": 7,
+              "triangles": 292866,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "metrics": {
+            "errors": {
+              "control": {
+                "rmse": 1.8901621403114248,
+                "gradientRMSE": 0.5712663264711565,
+                "max": 35
+              },
+              "candidate": {
+                "rmse": 0.9588376209418012,
+                "gradientRMSE": 0.6897058676457056,
+                "max": 14
+              }
+            },
+            "repeats": {
+              "control": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              },
+              "candidate": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              },
+              "reference": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              }
+            }
+          }
+        },
+        "ultra-seam": {
+          "control": {
+            "label": "seam",
+            "quality": "ultra",
+            "physicalStatePreserved": true,
+            "physical": "[[144479164.37717906,-17171846.244121395,39603237.869665116],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[0.03964863083609261,0.9131696752587315,0.09162257992531526,-0.3951638054130404],0,104]",
+            "maps": [
+              {
+                "size": [
+                  8192,
+                  4096
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -2,
+            "resources": {
+              "calls": 7,
+              "triangles": 292866,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "candidate": {
+            "label": "seam",
+            "quality": "ultra",
+            "physicalStatePreserved": true,
+            "physical": "[[144479164.37717906,-17171846.244121395,39603237.869665116],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[0.03964863083609261,0.9131696752587315,0.09162257992531526,-0.3951638054130404],0,104]",
+            "maps": [
+              {
+                "size": [
+                  16384,
+                  8192
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -3,
+            "resources": {
+              "calls": 7,
+              "triangles": 292866,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "reference": {
+            "label": "seam",
+            "quality": "ultra",
+            "physicalStatePreserved": true,
+            "physical": "[[144479164.37717906,-17171846.244121395,39603237.869665116],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[0.03964863083609261,0.9131696752587315,0.09162257992531526,-0.3951638054130404],0,104]",
+            "maps": [
+              {
+                "size": [
+                  16384,
+                  8192
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -3,
+            "resources": {
+              "calls": 7,
+              "triangles": 292866,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "metrics": {
+            "errors": {
+              "control": {
+                "rmse": 5.539313171925439,
+                "gradientRMSE": 0.5222619618604607,
+                "max": 76
+              },
+              "candidate": {
+                "rmse": 2.1607275491525226,
+                "gradientRMSE": 0.446008167399096,
+                "max": 31
+              }
+            },
+            "repeats": {
+              "control": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              },
+              "candidate": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              },
+              "reference": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              }
+            }
+          }
+        },
+        "ultra-transition": {
+          "control": {
+            "label": "transition",
+            "quality": "ultra",
+            "physicalStatePreserved": true,
+            "physical": "[[144481068.83092085,-17167534.104262087,39605026.2707681],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[0.18338248775004473,0.814058295180937,0.4237719256995131,-0.35227448136735307],0,104]",
+            "maps": [
+              {
+                "size": [
+                  8192,
+                  4096
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -2,
+            "resources": {
+              "calls": 7,
+              "triangles": 292866,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "candidate": {
+            "label": "transition",
+            "quality": "ultra",
+            "physicalStatePreserved": true,
+            "physical": "[[144481068.83092085,-17167534.104262087,39605026.2707681],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[0.18338248775004473,0.814058295180937,0.4237719256995131,-0.35227448136735307],0,104]",
+            "maps": [
+              {
+                "size": [
+                  16384,
+                  8192
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -3,
+            "resources": {
+              "calls": 7,
+              "triangles": 292866,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "reference": {
+            "label": "transition",
+            "quality": "ultra",
+            "physicalStatePreserved": true,
+            "physical": "[[144481068.83092085,-17167534.104262087,39605026.2707681],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[0.18338248775004473,0.814058295180937,0.4237719256995131,-0.35227448136735307],0,104]",
+            "maps": [
+              {
+                "size": [
+                  16384,
+                  8192
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -3,
+            "resources": {
+              "calls": 7,
+              "triangles": 292866,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "metrics": {
+            "errors": {
+              "control": {
+                "rmse": 3.1064644292185286,
+                "gradientRMSE": 0.8476838177701155,
+                "max": 39
+              },
+              "candidate": {
+                "rmse": 2.189437713204009,
+                "gradientRMSE": 0.7753721695100887,
+                "max": 22
+              }
+            },
+            "repeats": {
+              "control": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              },
+              "candidate": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              },
+              "reference": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              }
+            }
+          }
+        },
+        "high-day": {
+          "control": {
+            "label": "day",
+            "quality": "high",
+            "physicalStatePreserved": true,
+            "physical": "[[144474457.83116025,-17171778.480158877,39596214.79159133],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[0.01577675287351146,0.9401668523387668,0.043949052387549814,-0.33749942907569486],0,104]",
+            "maps": [
+              {
+                "size": [
+                  8192,
+                  4096
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -2,
+            "resources": {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "candidate": {
+            "label": "day",
+            "quality": "high",
+            "physicalStatePreserved": true,
+            "physical": "[[144474457.83116025,-17171778.480158877,39596214.79159133],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[0.01577675287351146,0.9401668523387668,0.043949052387549814,-0.33749942907569486],0,104]",
+            "maps": [
+              {
+                "size": [
+                  16384,
+                  8192
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -3,
+            "resources": {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "reference": {
+            "label": "day",
+            "quality": "high",
+            "physicalStatePreserved": true,
+            "physical": "[[144474457.83116025,-17171778.480158877,39596214.79159133],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[0.01577675287351146,0.9401668523387668,0.043949052387549814,-0.33749942907569486],0,104]",
+            "maps": [
+              {
+                "size": [
+                  16384,
+                  8192
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -3,
+            "resources": {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "metrics": {
+            "errors": {
+              "control": {
+                "rmse": 0.24498469339940404,
+                "gradientRMSE": 0.27618563938130203,
+                "max": 7
+              },
+              "candidate": {
+                "rmse": 0.24925472245609845,
+                "gradientRMSE": 0.27875433925806636,
+                "max": 7
+              }
+            },
+            "repeats": {
+              "control": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              },
+              "candidate": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              },
+              "reference": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              }
+            }
+          }
+        },
+        "high-terminator": {
+          "control": {
+            "label": "terminator",
+            "quality": "high",
+            "physicalStatePreserved": true,
+            "physical": "[[144487911.6676236,-17173176.74134138,39593275.616194025],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[0,0.991064832172347,0,0.13338102725349577],0,104]",
+            "maps": [
+              {
+                "size": [
+                  8192,
+                  4096
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -2,
+            "resources": {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "candidate": {
+            "label": "terminator",
+            "quality": "high",
+            "physicalStatePreserved": true,
+            "physical": "[[144487911.6676236,-17173176.74134138,39593275.616194025],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[0,0.991064832172347,0,0.13338102725349577],0,104]",
+            "maps": [
+              {
+                "size": [
+                  16384,
+                  8192
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -3,
+            "resources": {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "reference": {
+            "label": "terminator",
+            "quality": "high",
+            "physicalStatePreserved": true,
+            "physical": "[[144487911.6676236,-17173176.74134138,39593275.616194025],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[0,0.991064832172347,0,0.13338102725349577],0,104]",
+            "maps": [
+              {
+                "size": [
+                  16384,
+                  8192
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -3,
+            "resources": {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "metrics": {
+            "errors": {
+              "control": {
+                "rmse": 0.1515489469885335,
+                "gradientRMSE": 0.17738634726952215,
+                "max": 9
+              },
+              "candidate": {
+                "rmse": 0.15232298469589764,
+                "gradientRMSE": 0.17788861981305945,
+                "max": 7
+              }
+            },
+            "repeats": {
+              "control": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              },
+              "candidate": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              },
+              "reference": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              }
+            }
+          }
+        },
+        "high-crescent": {
+          "control": {
+            "label": "crescent",
+            "quality": "high",
+            "physicalStatePreserved": true,
+            "physical": "[[144498367.55473247,-17174655.01355423,39603912.717490494],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[0.030113933267620574,0.7914944414404061,-0.039126460858180834,0.6091788081120405],0,104]",
+            "maps": [
+              {
+                "size": [
+                  8192,
+                  4096
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -2,
+            "resources": {
+              "calls": 9,
+              "triangles": 439298,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "candidate": {
+            "label": "crescent",
+            "quality": "high",
+            "physicalStatePreserved": true,
+            "physical": "[[144498367.55473247,-17174655.01355423,39603912.717490494],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[0.030113933267620574,0.7914944414404061,-0.039126460858180834,0.6091788081120405],0,104]",
+            "maps": [
+              {
+                "size": [
+                  16384,
+                  8192
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -3,
+            "resources": {
+              "calls": 9,
+              "triangles": 439298,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "reference": {
+            "label": "crescent",
+            "quality": "high",
+            "physicalStatePreserved": true,
+            "physical": "[[144498367.55473247,-17174655.01355423,39603912.717490494],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[0.030113933267620574,0.7914944414404061,-0.039126460858180834,0.6091788081120405],0,104]",
+            "maps": [
+              {
+                "size": [
+                  16384,
+                  8192
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -3,
+            "resources": {
+              "calls": 9,
+              "triangles": 439298,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "metrics": {
+            "errors": {
+              "control": {
+                "rmse": 0.0067700320038633,
+                "gradientRMSE": 0.00871095625104317,
+                "max": 2
+              },
+              "candidate": {
+                "rmse": 0.00532290647422377,
+                "gradientRMSE": 0.007073278556897407,
+                "max": 2
+              }
+            },
+            "repeats": {
+              "control": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              },
+              "candidate": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              },
+              "reference": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              }
+            }
+          }
+        },
+        "high-close": {
+          "control": {
+            "label": "close",
+            "quality": "high",
+            "physicalStatePreserved": true,
+            "physical": "[[144479587.10025,-17172534.136202186,39602438.405753665],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[0.015776752873507754,0.9401668523386231,0.04394905238747942,-0.33749942907610453],0,104]",
+            "maps": [
+              {
+                "size": [
+                  8192,
+                  4096
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -2,
+            "resources": {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "candidate": {
+            "label": "close",
+            "quality": "high",
+            "physicalStatePreserved": true,
+            "physical": "[[144479587.10025,-17172534.136202186,39602438.405753665],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[0.015776752873507754,0.9401668523386231,0.04394905238747942,-0.33749942907610453],0,104]",
+            "maps": [
+              {
+                "size": [
+                  16384,
+                  8192
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -3,
+            "resources": {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "reference": {
+            "label": "close",
+            "quality": "high",
+            "physicalStatePreserved": true,
+            "physical": "[[144479587.10025,-17172534.136202186,39602438.405753665],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[0.015776752873507754,0.9401668523386231,0.04394905238747942,-0.33749942907610453],0,104]",
+            "maps": [
+              {
+                "size": [
+                  16384,
+                  8192
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -3,
+            "resources": {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "metrics": {
+            "errors": {
+              "control": {
+                "rmse": 6.705940836303284,
+                "gradientRMSE": 2.5123430964068096,
+                "max": 158
+              },
+              "candidate": {
+                "rmse": 2.5972120068129465,
+                "gradientRMSE": 1.1593762205440377,
+                "max": 54
+              }
+            },
+            "repeats": {
+              "control": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              },
+              "candidate": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              },
+              "reference": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              }
+            }
+          }
+        },
+        "high-grazing": {
+          "control": {
+            "label": "grazing",
+            "quality": "high",
+            "physicalStatePreserved": true,
+            "physical": "[[144485770.13998637,-17173176.74134138,39601087.63578384],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[0,0.9910648321723687,0,0.13338102725333403],0,104]",
+            "maps": [
+              {
+                "size": [
+                  8192,
+                  4096
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -2,
+            "resources": {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "candidate": {
+            "label": "grazing",
+            "quality": "high",
+            "physicalStatePreserved": true,
+            "physical": "[[144485770.13998637,-17173176.74134138,39601087.63578384],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[0,0.9910648321723687,0,0.13338102725333403],0,104]",
+            "maps": [
+              {
+                "size": [
+                  16384,
+                  8192
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -3,
+            "resources": {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "reference": {
+            "label": "grazing",
+            "quality": "high",
+            "physicalStatePreserved": true,
+            "physical": "[[144485770.13998637,-17173176.74134138,39601087.63578384],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[0,0.9910648321723687,0,0.13338102725333403],0,104]",
+            "maps": [
+              {
+                "size": [
+                  16384,
+                  8192
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -3,
+            "resources": {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "metrics": {
+            "errors": {
+              "control": {
+                "rmse": 1.7611245815292758,
+                "gradientRMSE": 0.7723906019795078,
+                "max": 56
+              },
+              "candidate": {
+                "rmse": 0.9074725661601751,
+                "gradientRMSE": 0.5190789778049991,
+                "max": 35
+              }
+            },
+            "repeats": {
+              "control": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              },
+              "candidate": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              },
+              "reference": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              }
+            }
+          }
+        },
+        "high-resolved-limb": {
+          "control": {
+            "label": "resolved-limb",
+            "quality": "high",
+            "physicalStatePreserved": true,
+            "physical": "[[144479708.26408678,-17172551.98634494,39602585.420261435],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[-0.013245085538195603,0.5589833843869272,0.04477714647098312,-0.8278630024601528],0,104]",
+            "maps": [
+              {
+                "size": [
+                  8192,
+                  4096
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -2,
+            "resources": {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "candidate": {
+            "label": "resolved-limb",
+            "quality": "high",
+            "physicalStatePreserved": true,
+            "physical": "[[144479708.26408678,-17172551.98634494,39602585.420261435],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[-0.013245085538195603,0.5589833843869272,0.04477714647098312,-0.8278630024601528],0,104]",
+            "maps": [
+              {
+                "size": [
+                  16384,
+                  8192
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -3,
+            "resources": {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "reference": {
+            "label": "resolved-limb",
+            "quality": "high",
+            "physicalStatePreserved": true,
+            "physical": "[[144479708.26408678,-17172551.98634494,39602585.420261435],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[-0.013245085538195603,0.5589833843869272,0.04477714647098312,-0.8278630024601528],0,104]",
+            "maps": [
+              {
+                "size": [
+                  16384,
+                  8192
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -3,
+            "resources": {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "metrics": {
+            "errors": {
+              "control": {
+                "rmse": 2.254579460047187,
+                "gradientRMSE": 0.5287092380614388,
+                "max": 59
+              },
+              "candidate": {
+                "rmse": 1.0937944276691118,
+                "gradientRMSE": 0.38332884680736373,
+                "max": 25
+              }
+            },
+            "repeats": {
+              "control": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              },
+              "candidate": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              },
+              "reference": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              }
+            }
+          }
+        },
+        "high-pole": {
+          "control": {
+            "label": "pole",
+            "quality": "high",
+            "physicalStatePreserved": true,
+            "physical": "[[144484182.72183335,-17166483.777149543,39607730.92803345],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[-0.4911976443599027,0.5086500507965005,0.4911976443599027,0.5086500507965005],0,104]",
+            "maps": [
+              {
+                "size": [
+                  8192,
+                  4096
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -2,
+            "resources": {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "candidate": {
+            "label": "pole",
+            "quality": "high",
+            "physicalStatePreserved": true,
+            "physical": "[[144484182.72183335,-17166483.777149543,39607730.92803345],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[-0.4911976443599027,0.5086500507965005,0.4911976443599027,0.5086500507965005],0,104]",
+            "maps": [
+              {
+                "size": [
+                  16384,
+                  8192
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -3,
+            "resources": {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "reference": {
+            "label": "pole",
+            "quality": "high",
+            "physicalStatePreserved": true,
+            "physical": "[[144484182.72183335,-17166483.777149543,39607730.92803345],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[-0.4911976443599027,0.5086500507965005,0.4911976443599027,0.5086500507965005],0,104]",
+            "maps": [
+              {
+                "size": [
+                  16384,
+                  8192
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -3,
+            "resources": {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "metrics": {
+            "errors": {
+              "control": {
+                "rmse": 1.6331337463090196,
+                "gradientRMSE": 0.5197105157883295,
+                "max": 35
+              },
+              "candidate": {
+                "rmse": 0.896320952561079,
+                "gradientRMSE": 0.6157242261773436,
+                "max": 13
+              }
+            },
+            "repeats": {
+              "control": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              },
+              "candidate": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              },
+              "reference": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              }
+            }
+          }
+        },
+        "high-seam": {
+          "control": {
+            "label": "seam",
+            "quality": "high",
+            "physicalStatePreserved": true,
+            "physical": "[[144479164.37717906,-17171846.244121395,39603237.869665116],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[0.03964863083609261,0.9131696752587315,0.09162257992531526,-0.3951638054130404],0,104]",
+            "maps": [
+              {
+                "size": [
+                  8192,
+                  4096
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -2,
+            "resources": {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "candidate": {
+            "label": "seam",
+            "quality": "high",
+            "physicalStatePreserved": true,
+            "physical": "[[144479164.37717906,-17171846.244121395,39603237.869665116],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[0.03964863083609261,0.9131696752587315,0.09162257992531526,-0.3951638054130404],0,104]",
+            "maps": [
+              {
+                "size": [
+                  16384,
+                  8192
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -3,
+            "resources": {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "reference": {
+            "label": "seam",
+            "quality": "high",
+            "physicalStatePreserved": true,
+            "physical": "[[144479164.37717906,-17171846.244121395,39603237.869665116],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[0.03964863083609261,0.9131696752587315,0.09162257992531526,-0.3951638054130404],0,104]",
+            "maps": [
+              {
+                "size": [
+                  16384,
+                  8192
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -3,
+            "resources": {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "metrics": {
+            "errors": {
+              "control": {
+                "rmse": 5.536190270243006,
+                "gradientRMSE": 0.5208310256359132,
+                "max": 74
+              },
+              "candidate": {
+                "rmse": 2.1591643831198524,
+                "gradientRMSE": 0.44567595692193007,
+                "max": 30
+              }
+            },
+            "repeats": {
+              "control": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              },
+              "candidate": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              },
+              "reference": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              }
+            }
+          }
+        },
+        "high-transition": {
+          "control": {
+            "label": "transition",
+            "quality": "high",
+            "physicalStatePreserved": true,
+            "physical": "[[144481068.83092085,-17167534.104262087,39605026.2707681],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[0.18338248775004473,0.814058295180937,0.4237719256995131,-0.35227448136735307],0,104]",
+            "maps": [
+              {
+                "size": [
+                  8192,
+                  4096
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -2,
+            "resources": {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "candidate": {
+            "label": "transition",
+            "quality": "high",
+            "physicalStatePreserved": true,
+            "physical": "[[144481068.83092085,-17167534.104262087,39605026.2707681],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[0.18338248775004473,0.814058295180937,0.4237719256995131,-0.35227448136735307],0,104]",
+            "maps": [
+              {
+                "size": [
+                  16384,
+                  8192
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -3,
+            "resources": {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "reference": {
+            "label": "transition",
+            "quality": "high",
+            "physicalStatePreserved": true,
+            "physical": "[[144481068.83092085,-17167534.104262087,39605026.2707681],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[0.18338248775004473,0.814058295180937,0.4237719256995131,-0.35227448136735307],0,104]",
+            "maps": [
+              {
+                "size": [
+                  16384,
+                  8192
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -3,
+            "resources": {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "metrics": {
+            "errors": {
+              "control": {
+                "rmse": 3.081347513669953,
+                "gradientRMSE": 0.805596434953635,
+                "max": 35
+              },
+              "candidate": {
+                "rmse": 2.1729103467469613,
+                "gradientRMSE": 0.7618136364473203,
+                "max": 20
+              }
+            },
+            "repeats": {
+              "control": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              },
+              "candidate": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              },
+              "reference": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              }
+            }
+          }
+        }
+      },
+      "errors": [],
+      "runnerSha256": "74f3961e5c59b1d0d8484c1fbfce6da9d79e398fca4179736a6b1b53932c818b"
+    },
+    {
+      "name": "Firefox",
+      "engineVersion": "153.0",
+      "maxTextureSize": 8192,
+      "constrained": true,
+      "views": {
+        "ultra-day": {
+          "candidate": {
+            "label": "day",
+            "quality": "ultra",
+            "physicalStatePreserved": true,
+            "physical": "[[144474457.83116025,-17171778.480158877,39596214.79159133],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[0.01577675287351146,0.9401668523387668,0.043949052387549814,-0.33749942907569486],0,104]",
+            "maps": [
+              {
+                "size": [
+                  8192,
+                  4096
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -2,
+            "resources": {
+              "calls": 7,
+              "triangles": 292866,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "metrics": {
+            "errors": null,
+            "repeats": {
+              "candidate": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              }
+            }
+          }
+        },
+        "ultra-terminator": {
+          "candidate": {
+            "label": "terminator",
+            "quality": "ultra",
+            "physicalStatePreserved": true,
+            "physical": "[[144487911.6676236,-17173176.74134138,39593275.616194025],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[0,0.991064832172347,0,0.13338102725349577],0,104]",
+            "maps": [
+              {
+                "size": [
+                  8192,
+                  4096
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -2,
+            "resources": {
+              "calls": 7,
+              "triangles": 292866,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "metrics": {
+            "errors": null,
+            "repeats": {
+              "candidate": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              }
+            }
+          }
+        },
+        "ultra-crescent": {
+          "candidate": {
+            "label": "crescent",
+            "quality": "ultra",
+            "physicalStatePreserved": true,
+            "physical": "[[144498367.55473247,-17174655.01355423,39603912.717490494],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[0.030113933267620574,0.7914944414404061,-0.039126460858180834,0.6091788081120405],0,104]",
+            "maps": [
+              {
+                "size": [
+                  8192,
+                  4096
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -2,
+            "resources": {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "metrics": {
+            "errors": null,
+            "repeats": {
+              "candidate": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              }
+            }
+          }
+        },
+        "ultra-close": {
+          "candidate": {
+            "label": "close",
+            "quality": "ultra",
+            "physicalStatePreserved": true,
+            "physical": "[[144479587.10025,-17172534.136202186,39602438.405753665],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[0.015776752873507754,0.9401668523386231,0.04394905238747942,-0.33749942907610453],0,104]",
+            "maps": [
+              {
+                "size": [
+                  8192,
+                  4096
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -2,
+            "resources": {
+              "calls": 7,
+              "triangles": 292866,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "metrics": {
+            "errors": null,
+            "repeats": {
+              "candidate": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              }
+            }
+          }
+        },
+        "ultra-grazing": {
+          "candidate": {
+            "label": "grazing",
+            "quality": "ultra",
+            "physicalStatePreserved": true,
+            "physical": "[[144485770.13998637,-17173176.74134138,39601087.63578384],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[0,0.9910648321723687,0,0.13338102725333403],0,104]",
+            "maps": [
+              {
+                "size": [
+                  8192,
+                  4096
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -2,
+            "resources": {
+              "calls": 7,
+              "triangles": 292866,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "metrics": {
+            "errors": null,
+            "repeats": {
+              "candidate": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              }
+            }
+          }
+        },
+        "ultra-resolved-limb": {
+          "candidate": {
+            "label": "resolved-limb",
+            "quality": "ultra",
+            "physicalStatePreserved": true,
+            "physical": "[[144479708.26408678,-17172551.98634494,39602585.420261435],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[-0.013245085538195603,0.5589833843869272,0.04477714647098312,-0.8278630024601528],0,104]",
+            "maps": [
+              {
+                "size": [
+                  8192,
+                  4096
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -2,
+            "resources": {
+              "calls": 7,
+              "triangles": 292866,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "metrics": {
+            "errors": null,
+            "repeats": {
+              "candidate": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              }
+            }
+          }
+        },
+        "ultra-pole": {
+          "candidate": {
+            "label": "pole",
+            "quality": "ultra",
+            "physicalStatePreserved": true,
+            "physical": "[[144484182.72183335,-17166483.777149543,39607730.92803345],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[-0.4911976443599027,0.5086500507965005,0.4911976443599027,0.5086500507965005],0,104]",
+            "maps": [
+              {
+                "size": [
+                  8192,
+                  4096
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -2,
+            "resources": {
+              "calls": 7,
+              "triangles": 292866,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "metrics": {
+            "errors": null,
+            "repeats": {
+              "candidate": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              }
+            }
+          }
+        },
+        "ultra-seam": {
+          "candidate": {
+            "label": "seam",
+            "quality": "ultra",
+            "physicalStatePreserved": true,
+            "physical": "[[144479164.37717906,-17171846.244121395,39603237.869665116],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[0.03964863083609261,0.9131696752587315,0.09162257992531526,-0.3951638054130404],0,104]",
+            "maps": [
+              {
+                "size": [
+                  8192,
+                  4096
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -2,
+            "resources": {
+              "calls": 7,
+              "triangles": 292866,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "metrics": {
+            "errors": null,
+            "repeats": {
+              "candidate": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              }
+            }
+          }
+        },
+        "ultra-transition": {
+          "candidate": {
+            "label": "transition",
+            "quality": "ultra",
+            "physicalStatePreserved": true,
+            "physical": "[[144481068.83092085,-17167534.104262087,39605026.2707681],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[0.18338248775004473,0.814058295180937,0.4237719256995131,-0.35227448136735307],0,104]",
+            "maps": [
+              {
+                "size": [
+                  8192,
+                  4096
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -2,
+            "resources": {
+              "calls": 7,
+              "triangles": 292866,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "metrics": {
+            "errors": null,
+            "repeats": {
+              "candidate": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              }
+            }
+          }
+        },
+        "high-day": {
+          "candidate": {
+            "label": "day",
+            "quality": "high",
+            "physicalStatePreserved": true,
+            "physical": "[[144474457.83116025,-17171778.480158877,39596214.79159133],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[0.01577675287351146,0.9401668523387668,0.043949052387549814,-0.33749942907569486],0,104]",
+            "maps": [
+              {
+                "size": [
+                  8192,
+                  4096
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -2,
+            "resources": {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "metrics": {
+            "errors": null,
+            "repeats": {
+              "candidate": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              }
+            }
+          }
+        },
+        "high-terminator": {
+          "candidate": {
+            "label": "terminator",
+            "quality": "high",
+            "physicalStatePreserved": true,
+            "physical": "[[144487911.6676236,-17173176.74134138,39593275.616194025],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[0,0.991064832172347,0,0.13338102725349577],0,104]",
+            "maps": [
+              {
+                "size": [
+                  8192,
+                  4096
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -2,
+            "resources": {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "metrics": {
+            "errors": null,
+            "repeats": {
+              "candidate": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              }
+            }
+          }
+        },
+        "high-crescent": {
+          "candidate": {
+            "label": "crescent",
+            "quality": "high",
+            "physicalStatePreserved": true,
+            "physical": "[[144498367.55473247,-17174655.01355423,39603912.717490494],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[0.030113933267620574,0.7914944414404061,-0.039126460858180834,0.6091788081120405],0,104]",
+            "maps": [
+              {
+                "size": [
+                  8192,
+                  4096
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -2,
+            "resources": {
+              "calls": 9,
+              "triangles": 439298,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "metrics": {
+            "errors": null,
+            "repeats": {
+              "candidate": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              }
+            }
+          }
+        },
+        "high-close": {
+          "candidate": {
+            "label": "close",
+            "quality": "high",
+            "physicalStatePreserved": true,
+            "physical": "[[144479587.10025,-17172534.136202186,39602438.405753665],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[0.015776752873507754,0.9401668523386231,0.04394905238747942,-0.33749942907610453],0,104]",
+            "maps": [
+              {
+                "size": [
+                  8192,
+                  4096
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -2,
+            "resources": {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "metrics": {
+            "errors": null,
+            "repeats": {
+              "candidate": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              }
+            }
+          }
+        },
+        "high-grazing": {
+          "candidate": {
+            "label": "grazing",
+            "quality": "high",
+            "physicalStatePreserved": true,
+            "physical": "[[144485770.13998637,-17173176.74134138,39601087.63578384],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[0,0.9910648321723687,0,0.13338102725333403],0,104]",
+            "maps": [
+              {
+                "size": [
+                  8192,
+                  4096
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -2,
+            "resources": {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "metrics": {
+            "errors": null,
+            "repeats": {
+              "candidate": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              }
+            }
+          }
+        },
+        "high-resolved-limb": {
+          "candidate": {
+            "label": "resolved-limb",
+            "quality": "high",
+            "physicalStatePreserved": true,
+            "physical": "[[144479708.26408678,-17172551.98634494,39602585.420261435],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[-0.013245085538195603,0.5589833843869272,0.04477714647098312,-0.8278630024601528],0,104]",
+            "maps": [
+              {
+                "size": [
+                  8192,
+                  4096
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -2,
+            "resources": {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "metrics": {
+            "errors": null,
+            "repeats": {
+              "candidate": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              }
+            }
+          }
+        },
+        "high-pole": {
+          "candidate": {
+            "label": "pole",
+            "quality": "high",
+            "physicalStatePreserved": true,
+            "physical": "[[144484182.72183335,-17166483.777149543,39607730.92803345],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[-0.4911976443599027,0.5086500507965005,0.4911976443599027,0.5086500507965005],0,104]",
+            "maps": [
+              {
+                "size": [
+                  8192,
+                  4096
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -2,
+            "resources": {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "metrics": {
+            "errors": null,
+            "repeats": {
+              "candidate": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              }
+            }
+          }
+        },
+        "high-seam": {
+          "candidate": {
+            "label": "seam",
+            "quality": "high",
+            "physicalStatePreserved": true,
+            "physical": "[[144479164.37717906,-17171846.244121395,39603237.869665116],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[0.03964863083609261,0.9131696752587315,0.09162257992531526,-0.3951638054130404],0,104]",
+            "maps": [
+              {
+                "size": [
+                  8192,
+                  4096
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -2,
+            "resources": {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "metrics": {
+            "errors": null,
+            "repeats": {
+              "candidate": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              }
+            }
+          }
+        },
+        "high-transition": {
+          "candidate": {
+            "label": "transition",
+            "quality": "high",
+            "physicalStatePreserved": true,
+            "physical": "[[144481068.83092085,-17167534.104262087,39605026.2707681],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[0.18338248775004473,0.814058295180937,0.4237719256995131,-0.35227448136735307],0,104]",
+            "maps": [
+              {
+                "size": [
+                  8192,
+                  4096
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -2,
+            "resources": {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "metrics": {
+            "errors": null,
+            "repeats": {
+              "candidate": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              }
+            }
+          }
+        }
+      },
+      "errors": [],
+      "runnerSha256": "74f3961e5c59b1d0d8484c1fbfce6da9d79e398fca4179736a6b1b53932c818b"
+    },
+    {
+      "name": "WebKit",
+      "engineVersion": "26.5",
+      "runnerSha256": "68ca7f99e0af1c39ead02f396e0f6fe50b33608df7add51bb17de9aca5abbe1d",
+      "maxTextureSize": 16384,
+      "constrained": false,
+      "views": {
+        "ultra-day": {
+          "control": {
+            "label": "day",
+            "quality": "ultra",
+            "physicalStatePreserved": true,
+            "physical": "[[144474457.83116025,-17171778.480158877,39596214.79159133],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[0.01577675287351146,0.9401668523387668,0.043949052387549814,-0.33749942907569486],0,104]",
+            "maps": [
+              {
+                "size": [
+                  8192,
+                  4096
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -2,
+            "resources": {
+              "calls": 7,
+              "triangles": 292866,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "candidate": {
+            "label": "day",
+            "quality": "ultra",
+            "physicalStatePreserved": true,
+            "physical": "[[144474457.83116025,-17171778.480158877,39596214.79159133],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[0.01577675287351146,0.9401668523387668,0.043949052387549814,-0.33749942907569486],0,104]",
+            "maps": [
+              {
+                "size": [
+                  16384,
+                  8192
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -3,
+            "resources": {
+              "calls": 7,
+              "triangles": 292866,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "reference": {
+            "label": "day",
+            "quality": "ultra",
+            "physicalStatePreserved": true,
+            "physical": "[[144474457.83116025,-17171778.480158877,39596214.79159133],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[0.01577675287351146,0.9401668523387668,0.043949052387549814,-0.33749942907569486],0,104]",
+            "maps": [
+              {
+                "size": [
+                  16384,
+                  8192
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -3,
+            "resources": {
+              "calls": 7,
+              "triangles": 292866,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "metrics": {
+            "errors": {
+              "control": {
+                "rmse": 0.4050162033795685,
+                "gradientRMSE": 0.5563007301786792,
+                "max": 18
+              },
+              "candidate": {
+                "rmse": 0.34061005318888243,
+                "gradientRMSE": 0.4484745878084328,
+                "max": 7
+              }
+            },
+            "repeats": {
+              "control": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              },
+              "candidate": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              },
+              "reference": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              }
+            }
+          }
+        },
+        "ultra-terminator": {
+          "control": {
+            "label": "terminator",
+            "quality": "ultra",
+            "physicalStatePreserved": true,
+            "physical": "[[144487911.6676236,-17173176.74134138,39593275.616194025],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[0,0.991064832172347,0,0.13338102725349577],0,104]",
+            "maps": [
+              {
+                "size": [
+                  8192,
+                  4096
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -2,
+            "resources": {
+              "calls": 7,
+              "triangles": 292866,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "candidate": {
+            "label": "terminator",
+            "quality": "ultra",
+            "physicalStatePreserved": true,
+            "physical": "[[144487911.6676236,-17173176.74134138,39593275.616194025],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[0,0.991064832172347,0,0.13338102725349577],0,104]",
+            "maps": [
+              {
+                "size": [
+                  16384,
+                  8192
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -3,
+            "resources": {
+              "calls": 7,
+              "triangles": 292866,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "reference": {
+            "label": "terminator",
+            "quality": "ultra",
+            "physicalStatePreserved": true,
+            "physical": "[[144487911.6676236,-17173176.74134138,39593275.616194025],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[0,0.991064832172347,0,0.13338102725349577],0,104]",
+            "maps": [
+              {
+                "size": [
+                  16384,
+                  8192
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -3,
+            "resources": {
+              "calls": 7,
+              "triangles": 292866,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "metrics": {
+            "errors": {
+              "control": {
+                "rmse": 0.2395638397866701,
+                "gradientRMSE": 0.33161030598967484,
+                "max": 15
+              },
+              "candidate": {
+                "rmse": 0.2043393827272005,
+                "gradientRMSE": 0.2742442759082848,
+                "max": 6
+              }
+            },
+            "repeats": {
+              "control": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              },
+              "candidate": {
+                "rmse": 0.0004564354645876384,
+                "gradientRMSE": 0.0006456990368550497,
+                "max": 1
+              },
+              "reference": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              }
+            }
+          }
+        },
+        "ultra-crescent": {
+          "control": {
+            "label": "crescent",
+            "quality": "ultra",
+            "physicalStatePreserved": true,
+            "physical": "[[144498367.55473247,-17174655.01355423,39603912.717490494],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[0.030113933267620574,0.7914944414404061,-0.039126460858180834,0.6091788081120405],0,104]",
+            "maps": [
+              {
+                "size": [
+                  8192,
+                  4096
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -2,
+            "resources": {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "candidate": {
+            "label": "crescent",
+            "quality": "ultra",
+            "physicalStatePreserved": true,
+            "physical": "[[144498367.55473247,-17174655.01355423,39603912.717490494],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[0.030113933267620574,0.7914944414404061,-0.039126460858180834,0.6091788081120405],0,104]",
+            "maps": [
+              {
+                "size": [
+                  16384,
+                  8192
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -3,
+            "resources": {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "reference": {
+            "label": "crescent",
+            "quality": "ultra",
+            "physicalStatePreserved": true,
+            "physical": "[[144498367.55473247,-17174655.01355423,39603912.717490494],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[0.030113933267620574,0.7914944414404061,-0.039126460858180834,0.6091788081120405],0,104]",
+            "maps": [
+              {
+                "size": [
+                  16384,
+                  8192
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -3,
+            "resources": {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "metrics": {
+            "errors": {
+              "control": {
+                "rmse": 0.004765326151831933,
+                "gradientRMSE": 0.00677214863108521,
+                "max": 2
+              },
+              "candidate": {
+                "rmse": 0.0049371044145328745,
+                "gradientRMSE": 0.006802861480855304,
+                "max": 1
+              }
+            },
+            "repeats": {
+              "control": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              },
+              "candidate": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              },
+              "reference": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              }
+            }
+          }
+        },
+        "ultra-close": {
+          "control": {
+            "label": "close",
+            "quality": "ultra",
+            "physicalStatePreserved": true,
+            "physical": "[[144479587.10025,-17172534.136202186,39602438.405753665],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[0.015776752873507754,0.9401668523386231,0.04394905238747942,-0.33749942907610453],0,104]",
+            "maps": [
+              {
+                "size": [
+                  8192,
+                  4096
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -2,
+            "resources": {
+              "calls": 7,
+              "triangles": 292866,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "candidate": {
+            "label": "close",
+            "quality": "ultra",
+            "physicalStatePreserved": true,
+            "physical": "[[144479587.10025,-17172534.136202186,39602438.405753665],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[0.015776752873507754,0.9401668523386231,0.04394905238747942,-0.33749942907610453],0,104]",
+            "maps": [
+              {
+                "size": [
+                  16384,
+                  8192
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -3,
+            "resources": {
+              "calls": 7,
+              "triangles": 292866,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "reference": {
+            "label": "close",
+            "quality": "ultra",
+            "physicalStatePreserved": true,
+            "physical": "[[144479587.10025,-17172534.136202186,39602438.405753665],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[0.015776752873507754,0.9401668523386231,0.04394905238747942,-0.33749942907610453],0,104]",
+            "maps": [
+              {
+                "size": [
+                  16384,
+                  8192
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -3,
+            "resources": {
+              "calls": 7,
+              "triangles": 292866,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "metrics": {
+            "errors": {
+              "control": {
+                "rmse": 6.853431075016368,
+                "gradientRMSE": 2.6717842155213325,
+                "max": 165
+              },
+              "candidate": {
+                "rmse": 2.667712464203492,
+                "gradientRMSE": 1.2222554053903125,
+                "max": 58
+              }
+            },
+            "repeats": {
+              "control": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              },
+              "candidate": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              },
+              "reference": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              }
+            }
+          }
+        },
+        "ultra-grazing": {
+          "control": {
+            "label": "grazing",
+            "quality": "ultra",
+            "physicalStatePreserved": true,
+            "physical": "[[144485770.13998637,-17173176.74134138,39601087.63578384],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[0,0.9910648321723687,0,0.13338102725333403],0,104]",
+            "maps": [
+              {
+                "size": [
+                  8192,
+                  4096
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -2,
+            "resources": {
+              "calls": 7,
+              "triangles": 292866,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "candidate": {
+            "label": "grazing",
+            "quality": "ultra",
+            "physicalStatePreserved": true,
+            "physical": "[[144485770.13998637,-17173176.74134138,39601087.63578384],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[0,0.9910648321723687,0,0.13338102725333403],0,104]",
+            "maps": [
+              {
+                "size": [
+                  16384,
+                  8192
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -3,
+            "resources": {
+              "calls": 7,
+              "triangles": 292866,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "reference": {
+            "label": "grazing",
+            "quality": "ultra",
+            "physicalStatePreserved": true,
+            "physical": "[[144485770.13998637,-17173176.74134138,39601087.63578384],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[0,0.9910648321723687,0,0.13338102725333403],0,104]",
+            "maps": [
+              {
+                "size": [
+                  16384,
+                  8192
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -3,
+            "resources": {
+              "calls": 7,
+              "triangles": 292866,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "metrics": {
+            "errors": {
+              "control": {
+                "rmse": 1.8019068603380513,
+                "gradientRMSE": 0.8107245759985302,
+                "max": 64
+              },
+              "candidate": {
+                "rmse": 0.9283072632485432,
+                "gradientRMSE": 0.534179285315056,
+                "max": 35
+              }
+            },
+            "repeats": {
+              "control": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              },
+              "candidate": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              },
+              "reference": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              }
+            }
+          }
+        },
+        "ultra-resolved-limb": {
+          "control": {
+            "label": "resolved-limb",
+            "quality": "ultra",
+            "physicalStatePreserved": true,
+            "physical": "[[144479708.26408678,-17172551.98634494,39602585.420261435],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[-0.013245085538195603,0.5589833843869272,0.04477714647098312,-0.8278630024601528],0,104]",
+            "maps": [
+              {
+                "size": [
+                  8192,
+                  4096
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -2,
+            "resources": {
+              "calls": 7,
+              "triangles": 292866,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "candidate": {
+            "label": "resolved-limb",
+            "quality": "ultra",
+            "physicalStatePreserved": true,
+            "physical": "[[144479708.26408678,-17172551.98634494,39602585.420261435],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[-0.013245085538195603,0.5589833843869272,0.04477714647098312,-0.8278630024601528],0,104]",
+            "maps": [
+              {
+                "size": [
+                  16384,
+                  8192
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -3,
+            "resources": {
+              "calls": 7,
+              "triangles": 292866,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "reference": {
+            "label": "resolved-limb",
+            "quality": "ultra",
+            "physicalStatePreserved": true,
+            "physical": "[[144479708.26408678,-17172551.98634494,39602585.420261435],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[-0.013245085538195603,0.5589833843869272,0.04477714647098312,-0.8278630024601528],0,104]",
+            "maps": [
+              {
+                "size": [
+                  16384,
+                  8192
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -3,
+            "resources": {
+              "calls": 7,
+              "triangles": 292866,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "metrics": {
+            "errors": {
+              "control": {
+                "rmse": 2.254615589925106,
+                "gradientRMSE": 0.5465377980780057,
+                "max": 59
+              },
+              "candidate": {
+                "rmse": 1.0946616676702745,
+                "gradientRMSE": 0.38653272356057533,
+                "max": 25
+              }
+            },
+            "repeats": {
+              "control": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              },
+              "candidate": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              },
+              "reference": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              }
+            }
+          }
+        },
+        "ultra-pole": {
+          "control": {
+            "label": "pole",
+            "quality": "ultra",
+            "physicalStatePreserved": true,
+            "physical": "[[144484182.72183335,-17166483.777149543,39607730.92803345],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[-0.4911976443599027,0.5086500507965005,0.4911976443599027,0.5086500507965005],0,104]",
+            "maps": [
+              {
+                "size": [
+                  8192,
+                  4096
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -2,
+            "resources": {
+              "calls": 7,
+              "triangles": 292866,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "candidate": {
+            "label": "pole",
+            "quality": "ultra",
+            "physicalStatePreserved": true,
+            "physical": "[[144484182.72183335,-17166483.777149543,39607730.92803345],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[-0.4911976443599027,0.5086500507965005,0.4911976443599027,0.5086500507965005],0,104]",
+            "maps": [
+              {
+                "size": [
+                  16384,
+                  8192
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -3,
+            "resources": {
+              "calls": 7,
+              "triangles": 292866,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "reference": {
+            "label": "pole",
+            "quality": "ultra",
+            "physicalStatePreserved": true,
+            "physical": "[[144484182.72183335,-17166483.777149543,39607730.92803345],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[-0.4911976443599027,0.5086500507965005,0.4911976443599027,0.5086500507965005],0,104]",
+            "maps": [
+              {
+                "size": [
+                  16384,
+                  8192
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -3,
+            "resources": {
+              "calls": 7,
+              "triangles": 292866,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "metrics": {
+            "errors": {
+              "control": {
+                "rmse": 1.8901621403114248,
+                "gradientRMSE": 0.5712663264711565,
+                "max": 35
+              },
+              "candidate": {
+                "rmse": 0.9588376209418012,
+                "gradientRMSE": 0.6897058676457056,
+                "max": 14
+              }
+            },
+            "repeats": {
+              "control": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              },
+              "candidate": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              },
+              "reference": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              }
+            }
+          }
+        },
+        "ultra-seam": {
+          "control": {
+            "label": "seam",
+            "quality": "ultra",
+            "physicalStatePreserved": true,
+            "physical": "[[144479164.37717906,-17171846.244121395,39603237.869665116],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[0.03964863083609261,0.9131696752587315,0.09162257992531526,-0.3951638054130404],0,104]",
+            "maps": [
+              {
+                "size": [
+                  8192,
+                  4096
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -2,
+            "resources": {
+              "calls": 7,
+              "triangles": 292866,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "candidate": {
+            "label": "seam",
+            "quality": "ultra",
+            "physicalStatePreserved": true,
+            "physical": "[[144479164.37717906,-17171846.244121395,39603237.869665116],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[0.03964863083609261,0.9131696752587315,0.09162257992531526,-0.3951638054130404],0,104]",
+            "maps": [
+              {
+                "size": [
+                  16384,
+                  8192
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -3,
+            "resources": {
+              "calls": 7,
+              "triangles": 292866,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "reference": {
+            "label": "seam",
+            "quality": "ultra",
+            "physicalStatePreserved": true,
+            "physical": "[[144479164.37717906,-17171846.244121395,39603237.869665116],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[0.03964863083609261,0.9131696752587315,0.09162257992531526,-0.3951638054130404],0,104]",
+            "maps": [
+              {
+                "size": [
+                  16384,
+                  8192
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -3,
+            "resources": {
+              "calls": 7,
+              "triangles": 292866,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "metrics": {
+            "errors": {
+              "control": {
+                "rmse": 5.539313171925439,
+                "gradientRMSE": 0.5222619618604607,
+                "max": 76
+              },
+              "candidate": {
+                "rmse": 2.1607275491525226,
+                "gradientRMSE": 0.446008167399096,
+                "max": 31
+              }
+            },
+            "repeats": {
+              "control": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              },
+              "candidate": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              },
+              "reference": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              }
+            }
+          }
+        },
+        "ultra-transition": {
+          "control": {
+            "label": "transition",
+            "quality": "ultra",
+            "physicalStatePreserved": true,
+            "physical": "[[144481068.83092085,-17167534.104262087,39605026.2707681],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[0.18338248775004473,0.814058295180937,0.4237719256995131,-0.35227448136735307],0,104]",
+            "maps": [
+              {
+                "size": [
+                  8192,
+                  4096
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -2,
+            "resources": {
+              "calls": 7,
+              "triangles": 292866,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "candidate": {
+            "label": "transition",
+            "quality": "ultra",
+            "physicalStatePreserved": true,
+            "physical": "[[144481068.83092085,-17167534.104262087,39605026.2707681],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[0.18338248775004473,0.814058295180937,0.4237719256995131,-0.35227448136735307],0,104]",
+            "maps": [
+              {
+                "size": [
+                  16384,
+                  8192
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -3,
+            "resources": {
+              "calls": 7,
+              "triangles": 292866,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "reference": {
+            "label": "transition",
+            "quality": "ultra",
+            "physicalStatePreserved": true,
+            "physical": "[[144481068.83092085,-17167534.104262087,39605026.2707681],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[0.18338248775004473,0.814058295180937,0.4237719256995131,-0.35227448136735307],0,104]",
+            "maps": [
+              {
+                "size": [
+                  16384,
+                  8192
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -3,
+            "resources": {
+              "calls": 7,
+              "triangles": 292866,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "metrics": {
+            "errors": {
+              "control": {
+                "rmse": 3.1064644292185286,
+                "gradientRMSE": 0.8476838177701155,
+                "max": 39
+              },
+              "candidate": {
+                "rmse": 2.189437713204009,
+                "gradientRMSE": 0.7753721695100887,
+                "max": 22
+              }
+            },
+            "repeats": {
+              "control": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              },
+              "candidate": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              },
+              "reference": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              }
+            }
+          }
+        },
+        "high-day": {
+          "control": {
+            "label": "day",
+            "quality": "high",
+            "physicalStatePreserved": true,
+            "physical": "[[144474457.83116025,-17171778.480158877,39596214.79159133],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[0.01577675287351146,0.9401668523387668,0.043949052387549814,-0.33749942907569486],0,104]",
+            "maps": [
+              {
+                "size": [
+                  8192,
+                  4096
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -2,
+            "resources": {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "candidate": {
+            "label": "day",
+            "quality": "high",
+            "physicalStatePreserved": true,
+            "physical": "[[144474457.83116025,-17171778.480158877,39596214.79159133],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[0.01577675287351146,0.9401668523387668,0.043949052387549814,-0.33749942907569486],0,104]",
+            "maps": [
+              {
+                "size": [
+                  16384,
+                  8192
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -3,
+            "resources": {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "reference": {
+            "label": "day",
+            "quality": "high",
+            "physicalStatePreserved": true,
+            "physical": "[[144474457.83116025,-17171778.480158877,39596214.79159133],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[0.01577675287351146,0.9401668523387668,0.043949052387549814,-0.33749942907569486],0,104]",
+            "maps": [
+              {
+                "size": [
+                  16384,
+                  8192
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -3,
+            "resources": {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "metrics": {
+            "errors": {
+              "control": {
+                "rmse": 0.24498469339940404,
+                "gradientRMSE": 0.27618563938130203,
+                "max": 7
+              },
+              "candidate": {
+                "rmse": 0.24925472245609845,
+                "gradientRMSE": 0.27875433925806636,
+                "max": 7
+              }
+            },
+            "repeats": {
+              "control": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              },
+              "candidate": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              },
+              "reference": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              }
+            }
+          }
+        },
+        "high-terminator": {
+          "control": {
+            "label": "terminator",
+            "quality": "high",
+            "physicalStatePreserved": true,
+            "physical": "[[144487911.6676236,-17173176.74134138,39593275.616194025],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[0,0.991064832172347,0,0.13338102725349577],0,104]",
+            "maps": [
+              {
+                "size": [
+                  8192,
+                  4096
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -2,
+            "resources": {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "candidate": {
+            "label": "terminator",
+            "quality": "high",
+            "physicalStatePreserved": true,
+            "physical": "[[144487911.6676236,-17173176.74134138,39593275.616194025],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[0,0.991064832172347,0,0.13338102725349577],0,104]",
+            "maps": [
+              {
+                "size": [
+                  16384,
+                  8192
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -3,
+            "resources": {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "reference": {
+            "label": "terminator",
+            "quality": "high",
+            "physicalStatePreserved": true,
+            "physical": "[[144487911.6676236,-17173176.74134138,39593275.616194025],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[0,0.991064832172347,0,0.13338102725349577],0,104]",
+            "maps": [
+              {
+                "size": [
+                  16384,
+                  8192
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -3,
+            "resources": {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "metrics": {
+            "errors": {
+              "control": {
+                "rmse": 0.1515489469885335,
+                "gradientRMSE": 0.17738634726952215,
+                "max": 9
+              },
+              "candidate": {
+                "rmse": 0.15232298469589764,
+                "gradientRMSE": 0.17788861981305945,
+                "max": 7
+              }
+            },
+            "repeats": {
+              "control": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              },
+              "candidate": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              },
+              "reference": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              }
+            }
+          }
+        },
+        "high-crescent": {
+          "control": {
+            "label": "crescent",
+            "quality": "high",
+            "physicalStatePreserved": true,
+            "physical": "[[144498367.55473247,-17174655.01355423,39603912.717490494],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[0.030113933267620574,0.7914944414404061,-0.039126460858180834,0.6091788081120405],0,104]",
+            "maps": [
+              {
+                "size": [
+                  8192,
+                  4096
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -2,
+            "resources": {
+              "calls": 9,
+              "triangles": 439298,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "candidate": {
+            "label": "crescent",
+            "quality": "high",
+            "physicalStatePreserved": true,
+            "physical": "[[144498367.55473247,-17174655.01355423,39603912.717490494],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[0.030113933267620574,0.7914944414404061,-0.039126460858180834,0.6091788081120405],0,104]",
+            "maps": [
+              {
+                "size": [
+                  16384,
+                  8192
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -3,
+            "resources": {
+              "calls": 9,
+              "triangles": 439298,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "reference": {
+            "label": "crescent",
+            "quality": "high",
+            "physicalStatePreserved": true,
+            "physical": "[[144498367.55473247,-17174655.01355423,39603912.717490494],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[0.030113933267620574,0.7914944414404061,-0.039126460858180834,0.6091788081120405],0,104]",
+            "maps": [
+              {
+                "size": [
+                  16384,
+                  8192
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -3,
+            "resources": {
+              "calls": 9,
+              "triangles": 439298,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "metrics": {
+            "errors": {
+              "control": {
+                "rmse": 0.0067700320038633,
+                "gradientRMSE": 0.00871095625104317,
+                "max": 2
+              },
+              "candidate": {
+                "rmse": 0.00532290647422377,
+                "gradientRMSE": 0.007073278556897407,
+                "max": 2
+              }
+            },
+            "repeats": {
+              "control": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              },
+              "candidate": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              },
+              "reference": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              }
+            }
+          }
+        },
+        "high-close": {
+          "control": {
+            "label": "close",
+            "quality": "high",
+            "physicalStatePreserved": true,
+            "physical": "[[144479587.10025,-17172534.136202186,39602438.405753665],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[0.015776752873507754,0.9401668523386231,0.04394905238747942,-0.33749942907610453],0,104]",
+            "maps": [
+              {
+                "size": [
+                  8192,
+                  4096
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -2,
+            "resources": {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "candidate": {
+            "label": "close",
+            "quality": "high",
+            "physicalStatePreserved": true,
+            "physical": "[[144479587.10025,-17172534.136202186,39602438.405753665],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[0.015776752873507754,0.9401668523386231,0.04394905238747942,-0.33749942907610453],0,104]",
+            "maps": [
+              {
+                "size": [
+                  16384,
+                  8192
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -3,
+            "resources": {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "reference": {
+            "label": "close",
+            "quality": "high",
+            "physicalStatePreserved": true,
+            "physical": "[[144479587.10025,-17172534.136202186,39602438.405753665],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[0.015776752873507754,0.9401668523386231,0.04394905238747942,-0.33749942907610453],0,104]",
+            "maps": [
+              {
+                "size": [
+                  16384,
+                  8192
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -3,
+            "resources": {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "metrics": {
+            "errors": {
+              "control": {
+                "rmse": 6.705940836303284,
+                "gradientRMSE": 2.5123430964068096,
+                "max": 158
+              },
+              "candidate": {
+                "rmse": 2.5972120068129465,
+                "gradientRMSE": 1.1593762205440377,
+                "max": 54
+              }
+            },
+            "repeats": {
+              "control": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              },
+              "candidate": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              },
+              "reference": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              }
+            }
+          }
+        },
+        "high-grazing": {
+          "control": {
+            "label": "grazing",
+            "quality": "high",
+            "physicalStatePreserved": true,
+            "physical": "[[144485770.13998637,-17173176.74134138,39601087.63578384],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[0,0.9910648321723687,0,0.13338102725333403],0,104]",
+            "maps": [
+              {
+                "size": [
+                  8192,
+                  4096
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -2,
+            "resources": {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "candidate": {
+            "label": "grazing",
+            "quality": "high",
+            "physicalStatePreserved": true,
+            "physical": "[[144485770.13998637,-17173176.74134138,39601087.63578384],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[0,0.9910648321723687,0,0.13338102725333403],0,104]",
+            "maps": [
+              {
+                "size": [
+                  16384,
+                  8192
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -3,
+            "resources": {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "reference": {
+            "label": "grazing",
+            "quality": "high",
+            "physicalStatePreserved": true,
+            "physical": "[[144485770.13998637,-17173176.74134138,39601087.63578384],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[0,0.9910648321723687,0,0.13338102725333403],0,104]",
+            "maps": [
+              {
+                "size": [
+                  16384,
+                  8192
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -3,
+            "resources": {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "metrics": {
+            "errors": {
+              "control": {
+                "rmse": 1.7611245815292758,
+                "gradientRMSE": 0.7723906019795078,
+                "max": 56
+              },
+              "candidate": {
+                "rmse": 0.9074725661601751,
+                "gradientRMSE": 0.5190789778049991,
+                "max": 35
+              }
+            },
+            "repeats": {
+              "control": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              },
+              "candidate": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              },
+              "reference": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              }
+            }
+          }
+        },
+        "high-resolved-limb": {
+          "control": {
+            "label": "resolved-limb",
+            "quality": "high",
+            "physicalStatePreserved": true,
+            "physical": "[[144479708.26408678,-17172551.98634494,39602585.420261435],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[-0.013245085538195603,0.5589833843869272,0.04477714647098312,-0.8278630024601528],0,104]",
+            "maps": [
+              {
+                "size": [
+                  8192,
+                  4096
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -2,
+            "resources": {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "candidate": {
+            "label": "resolved-limb",
+            "quality": "high",
+            "physicalStatePreserved": true,
+            "physical": "[[144479708.26408678,-17172551.98634494,39602585.420261435],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[-0.013245085538195603,0.5589833843869272,0.04477714647098312,-0.8278630024601528],0,104]",
+            "maps": [
+              {
+                "size": [
+                  16384,
+                  8192
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -3,
+            "resources": {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "reference": {
+            "label": "resolved-limb",
+            "quality": "high",
+            "physicalStatePreserved": true,
+            "physical": "[[144479708.26408678,-17172551.98634494,39602585.420261435],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[-0.013245085538195603,0.5589833843869272,0.04477714647098312,-0.8278630024601528],0,104]",
+            "maps": [
+              {
+                "size": [
+                  16384,
+                  8192
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -3,
+            "resources": {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "metrics": {
+            "errors": {
+              "control": {
+                "rmse": 2.254579460047187,
+                "gradientRMSE": 0.5287092380614388,
+                "max": 59
+              },
+              "candidate": {
+                "rmse": 1.0937944276691118,
+                "gradientRMSE": 0.38332884680736373,
+                "max": 25
+              }
+            },
+            "repeats": {
+              "control": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              },
+              "candidate": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              },
+              "reference": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              }
+            }
+          }
+        },
+        "high-pole": {
+          "control": {
+            "label": "pole",
+            "quality": "high",
+            "physicalStatePreserved": true,
+            "physical": "[[144484182.72183335,-17166483.777149543,39607730.92803345],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[-0.4911976443599027,0.5086500507965005,0.4911976443599027,0.5086500507965005],0,104]",
+            "maps": [
+              {
+                "size": [
+                  8192,
+                  4096
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -2,
+            "resources": {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "candidate": {
+            "label": "pole",
+            "quality": "high",
+            "physicalStatePreserved": true,
+            "physical": "[[144484182.72183335,-17166483.777149543,39607730.92803345],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[-0.4911976443599027,0.5086500507965005,0.4911976443599027,0.5086500507965005],0,104]",
+            "maps": [
+              {
+                "size": [
+                  16384,
+                  8192
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -3,
+            "resources": {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "reference": {
+            "label": "pole",
+            "quality": "high",
+            "physicalStatePreserved": true,
+            "physical": "[[144484182.72183335,-17166483.777149543,39607730.92803345],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[-0.4911976443599027,0.5086500507965005,0.4911976443599027,0.5086500507965005],0,104]",
+            "maps": [
+              {
+                "size": [
+                  16384,
+                  8192
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -3,
+            "resources": {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "metrics": {
+            "errors": {
+              "control": {
+                "rmse": 1.6331337463090196,
+                "gradientRMSE": 0.5197105157883295,
+                "max": 35
+              },
+              "candidate": {
+                "rmse": 0.896320952561079,
+                "gradientRMSE": 0.6157242261773436,
+                "max": 13
+              }
+            },
+            "repeats": {
+              "control": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              },
+              "candidate": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              },
+              "reference": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              }
+            }
+          }
+        },
+        "high-seam": {
+          "control": {
+            "label": "seam",
+            "quality": "high",
+            "physicalStatePreserved": true,
+            "physical": "[[144479164.37717906,-17171846.244121395,39603237.869665116],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[0.03964863083609261,0.9131696752587315,0.09162257992531526,-0.3951638054130404],0,104]",
+            "maps": [
+              {
+                "size": [
+                  8192,
+                  4096
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -2,
+            "resources": {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "candidate": {
+            "label": "seam",
+            "quality": "high",
+            "physicalStatePreserved": true,
+            "physical": "[[144479164.37717906,-17171846.244121395,39603237.869665116],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[0.03964863083609261,0.9131696752587315,0.09162257992531526,-0.3951638054130404],0,104]",
+            "maps": [
+              {
+                "size": [
+                  16384,
+                  8192
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -3,
+            "resources": {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "reference": {
+            "label": "seam",
+            "quality": "high",
+            "physicalStatePreserved": true,
+            "physical": "[[144479164.37717906,-17171846.244121395,39603237.869665116],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[0.03964863083609261,0.9131696752587315,0.09162257992531526,-0.3951638054130404],0,104]",
+            "maps": [
+              {
+                "size": [
+                  16384,
+                  8192
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -3,
+            "resources": {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "metrics": {
+            "errors": {
+              "control": {
+                "rmse": 5.536190270243006,
+                "gradientRMSE": 0.5208310256359132,
+                "max": 74
+              },
+              "candidate": {
+                "rmse": 2.1591643831198524,
+                "gradientRMSE": 0.44567595692193007,
+                "max": 30
+              }
+            },
+            "repeats": {
+              "control": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              },
+              "candidate": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              },
+              "reference": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              }
+            }
+          }
+        },
+        "high-transition": {
+          "control": {
+            "label": "transition",
+            "quality": "high",
+            "physicalStatePreserved": true,
+            "physical": "[[144481068.83092085,-17167534.104262087,39605026.2707681],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[0.18338248775004473,0.814058295180937,0.4237719256995131,-0.35227448136735307],0,104]",
+            "maps": [
+              {
+                "size": [
+                  8192,
+                  4096
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -2,
+            "resources": {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "candidate": {
+            "label": "transition",
+            "quality": "high",
+            "physicalStatePreserved": true,
+            "physical": "[[144481068.83092085,-17167534.104262087,39605026.2707681],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[0.18338248775004473,0.814058295180937,0.4237719256995131,-0.35227448136735307],0,104]",
+            "maps": [
+              {
+                "size": [
+                  16384,
+                  8192
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -3,
+            "resources": {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "reference": {
+            "label": "transition",
+            "quality": "high",
+            "physicalStatePreserved": true,
+            "physical": "[[144481068.83092085,-17167534.104262087,39605026.2707681],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[0.18338248775004473,0.814058295180937,0.4237719256995131,-0.35227448136735307],0,104]",
+            "maps": [
+              {
+                "size": [
+                  16384,
+                  8192
+                ],
+                "format": 1028
+              },
+              {
+                "size": [
+                  2048,
+                  1024
+                ],
+                "format": 1028
+              }
+            ],
+            "heightLodBias": -3,
+            "resources": {
+              "calls": 8,
+              "triangles": 366082,
+              "textures": 29,
+              "geometries": 22,
+              "programs": 23
+            },
+            "graphicsError": 0
+          },
+          "metrics": {
+            "errors": {
+              "control": {
+                "rmse": 3.081347513669953,
+                "gradientRMSE": 0.805596434953635,
+                "max": 35
+              },
+              "candidate": {
+                "rmse": 2.1729103467469613,
+                "gradientRMSE": 0.7618136364473203,
+                "max": 20
+              }
+            },
+            "repeats": {
+              "control": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              },
+              "candidate": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              },
+              "reference": {
+                "rmse": 0,
+                "gradientRMSE": 0,
+                "max": 0
+              }
+            }
+          }
+        }
+      },
+      "errors": []
+    }
+  ]
+}

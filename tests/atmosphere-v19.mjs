@@ -1,0 +1,18 @@
+import {chromium,BASE_URL} from './browser.mjs';import fs from 'node:fs/promises';import assert from 'node:assert/strict';
+const previous=await fs.readFile('tests/fixtures/earth-atmosphere-v18.glsl','utf8'),reference=previous.replace(')/20.',')/160.').replace('i<20','i<160');
+assert.ok(reference.includes('/160.')&&reference.includes('i<160'));
+const browser=await chromium.launch({channel:'chrome',headless:true,args:['--use-angle=metal','--ignore-gpu-blocklist']}),page=await browser.newPage({viewport:{width:1000,height:625}}),errors=[],views=[];
+page.on('pageerror',e=>errors.push(e.message));page.on('console',m=>{if(m.type()==='error')errors.push(m.text());});
+try{
+ await page.goto(BASE_URL+'/?test=1');await page.waitForFunction(()=>window.__cosmos,null,{timeout:90000});await page.click('#begin');
+ await page.evaluate(()=>{const a=window.__cosmos;a.game.mode='panel';a.world.setQuality('ultra');a.game.timePaused=true;document.getElementById('hud').hidden=true;document.getElementById('chapter-intro').hidden=true;document.getElementById('toast').hidden=true;window.atmoCandidate=a.world.bodies.earth.atmosphere.material.fragmentShader;});
+ for(const [label,radius,phase] of [['day',2.35,35],['terminator',2.35,90],['crescent',2.35,150],['night',2.35,175],['close',1.08,90]]){
+  await page.evaluate(async({radius,phase})=>{const a=window.__cosmos,w=a.world,t=await import('three');a.startChapter(0);a.game.mode='panel';a.game.timePaused=true;const c=w.bodyPositions.earth,sun=c.clone().negate().normalize(),side=new t.Vector3().crossVectors(sun,new t.Vector3(0,1,0)).normalize(),p=sun.multiplyScalar(Math.cos(phase*Math.PI/180)).addScaledVector(side,Math.sin(phase*Math.PI/180)).multiplyScalar(6371*radius).add(c);a.game.player.position.copy(p);a.game.player.quaternion.setFromRotationMatrix(new t.Matrix4().lookAt(p,c,new t.Vector3(0,1,0)));w.followReady=false;window.atmoPixels={};}, {radius,phase});
+  for(const mode of ['off','previous','candidate','reference']){
+   const result=await page.evaluate(({mode,previous,reference})=>{const a=window.__cosmos,w=a.world,atm=w.bodies.earth.atmosphere;atm.visible=mode!=='off';atm.material.fragmentShader=mode==='previous'?previous:mode==='reference'?reference:window.atmoCandidate;atm.material.needsUpdate=true;w.update(a.game.player,0,{view:'probe',exposure:1});const canvas=document.createElement('canvas');canvas.width=w.canvas.width;canvas.height=w.canvas.height;const ctx=canvas.getContext('2d');ctx.drawImage(w.canvas,0,0);window.atmoPixels[mode]=ctx.getImageData(0,0,canvas.width,canvas.height).data;return {width:canvas.width,height:canvas.height};},{mode,previous,reference});
+   if(mode!=='off')await page.screenshot({path:`tests/screenshots/v19-atmosphere-${label}-${mode}.png`});
+  }
+  const metrics=await page.evaluate(()=>{const p=window.atmoPixels,report={};for(const mode of ['previous','candidate']){const errors=[];let squared=0;for(let i=0;i<p.reference.length;i+=4){if(Math.max(...[0,1,2].map(c=>Math.abs(p.reference[i+c]-p.off[i+c])))<=2)continue;for(let c=0;c<3;c++){const e=Math.abs(p[mode][i+c]-p.reference[i+c]);errors.push(e);squared+=e*e;}}errors.sort((a,b)=>a-b);report[mode]={channels:errors.length,meanError:errors.reduce((a,b)=>a+b,0)/errors.length,rmse:Math.sqrt(squared/errors.length),p99:errors[Math.floor(errors.length*.99)],max:errors.at(-1)};}return report;});views.push({label,radius,phase,metrics});console.log(views.at(-1));
+ }
+ assert.deepEqual(errors,[]);await fs.writeFile('tests/atmosphere-v19-results.json',JSON.stringify({referenceSamples:160,views,errors},null,2));
+}finally{await browser.close();}

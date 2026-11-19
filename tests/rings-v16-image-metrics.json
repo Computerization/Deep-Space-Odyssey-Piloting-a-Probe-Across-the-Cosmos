@@ -1,0 +1,38 @@
+[
+  {
+    "angle": "0.25",
+    "ringPixels": 1472,
+    "baseMae": 0.13953360329639103,
+    "baseRmse": 0.1758062112494302,
+    "filteredMae": 0.08698937908496732,
+    "filteredRmse": 0.10894386780771229,
+    "rmseChangePercent": -38.03184367977478
+  },
+  {
+    "angle": "1.427",
+    "ringPixels": 4436,
+    "baseMae": 0.07674552237486519,
+    "baseRmse": 0.15203176886047715,
+    "filteredMae": 0.04110309588217614,
+    "filteredRmse": 0.06423110269489642,
+    "rmseChangePercent": -57.75152576574789
+  },
+  {
+    "angle": "8",
+    "ringPixels": 20727,
+    "baseMae": 0.012147774791555706,
+    "baseRmse": 0.031731783384467985,
+    "filteredMae": 0.008240080902337294,
+    "filteredRmse": 0.013857911497553357,
+    "rmseChangePercent": -56.32797775766836
+  },
+  {
+    "angle": "-8",
+    "ringPixels": 8731,
+    "baseMae": 0.022720334650104836,
+    "baseRmse": 0.05424085658479318,
+    "filteredMae": 0.009165298616678755,
+    "filteredRmse": 0.01753318422876623,
+    "rmseChangePercent": -67.67531832511328
+  }
+]

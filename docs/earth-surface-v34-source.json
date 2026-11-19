@@ -1,0 +1,133 @@
+{
+  "sourcePage": "https://science.nasa.gov/earth/earth-observatory/blue-marble-next-generation/base-map/",
+  "sourceUrl": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/bmng/bmng-base/september/world.200409.3x21600x10800.jpg",
+  "sourceSha256": "7cf788e13a3a7b4a926b524f8f71d635c56a18c48ba0bfe35695b05a305db3f3",
+  "sourceDimensions": [
+    21600,
+    10800
+  ],
+  "sourceEpoch": "September 2004",
+  "colourDimensions": [
+    8192,
+    4096
+  ],
+  "encoding": {
+    "quality": 70,
+    "speed": 6,
+    "subsampling": "4:2:0"
+  },
+  "colourSha256": "0cfa1ac6b0b5acdacbd6e3a338d37d6ff3d5ac8df525085d96bf229a5394ee8c",
+  "colourBytes": 1834803,
+  "maskSources": [
+    {
+      "url": "https://naciscdn.org/naturalearth/10m/physical/ne_10m_land.zip",
+      "sha256": "e547d749445eaa0964aba76738090ec88f5e63c4585122170f98c67a7ea922dc"
+    },
+    {
+      "url": "https://naciscdn.org/naturalearth/10m/physical/ne_10m_lakes.zip",
+      "sha256": "0803a06f9c3cb4671d89b68c48b142aad9366ba40f665245e12a913fbc61722a"
+    }
+  ],
+  "maskPages": [
+    "https://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-land/",
+    "https://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-lakes/"
+  ],
+  "maskDimensions": [
+    4096,
+    2048
+  ],
+  "maskBytes": 153611,
+  "maskSha256": "de2ebad37beb535d220d247238bfb5f100a7e222eb50bf949cb36d9607c4e3e7",
+  "maskRings": {
+    "land": 6838,
+    "lakes": 1597
+  },
+  "geographicChecks": [
+    {
+      "label": "Pacific",
+      "longitude": -140,
+      "latitude": 0,
+      "value": 255
+    },
+    {
+      "label": "Atlantic",
+      "longitude": -30,
+      "latitude": 0,
+      "value": 255
+    },
+    {
+      "label": "Sahara",
+      "longitude": 20,
+      "latitude": 22,
+      "value": 0
+    },
+    {
+      "label": "Amazon",
+      "longitude": -64,
+      "latitude": -4,
+      "value": 0
+    },
+    {
+      "label": "Australia",
+      "longitude": 134,
+      "latitude": -25,
+      "value": 0
+    },
+    {
+      "label": "Greenland",
+      "longitude": -42,
+      "latitude": 74,
+      "value": 0
+    },
+    {
+      "label": "Antarctica",
+      "longitude": 0,
+      "latitude": -85,
+      "value": 0
+    },
+    {
+      "label": "Lake Superior",
+      "longitude": -87,
+      "latitude": 47.7,
+      "value": 255
+    },
+    {
+      "label": "Caspian Sea",
+      "longitude": 51,
+      "latitude": 42,
+      "value": 255
+    },
+    {
+      "label": "Lake Victoria",
+      "longitude": 33,
+      "latitude": -1,
+      "value": 255
+    },
+    {
+      "label": "Madagascar",
+      "longitude": 47,
+      "latitude": -20,
+      "value": 0
+    },
+    {
+      "label": "Borneo",
+      "longitude": 114,
+      "latitude": 1,
+      "value": 0
+    }
+  ],
+  "addedNominalMipmappedBytes": 11184810,
+  "interpretation": "NASA processed monthly cloud-free colour composite; not raw calibrated albedo or a reconstruction of 1977. Natural Earth coast/lake coverage is generalized cartography, not subpixel satellite classification. Existing reconstructed cloud/weather layer is unchanged. Dynamic sea ice and subpixel shorelines remain approximate.",
+  "encodingComparison": {
+    "meanAbsoluteError8bit": 0.90367192029953,
+    "rgbMeanShift8bit": [
+      -0.13278216123580933,
+      0.16483014822006226,
+      -0.18643054366111755
+    ],
+    "psnrDb": 42.15513610839844
+  },
+  "previousColourBytes": 2454000,
+  "combinedBytes": 1988414,
+  "combinedBytesSaved": 465586
+}

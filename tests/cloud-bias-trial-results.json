@@ -1,0 +1,364 @@
+{
+  "files": {
+    "control": "/private/tmp/cosmos-cloud-detail-final/hybrid-8192.png",
+    "candidate": "/private/tmp/cosmos-v90-cloud-candidate/Cosmos/assets/textures/earth-clouds.avif",
+    "reference": "/private/tmp/cosmos-cloud-detail-final/hybrid-16384.png",
+    "lossless12k": "/private/tmp/cosmos-cloud-detail-final/hybrid-12288.png",
+    "candidate16k": "/private/tmp/cosmos-cloud-detail-final/cloud-r-16k-q65.avif"
+  },
+  "hashes": {
+    "control": "fb9530aa94ac7e2818babf9fc7eb5f415b0ca8544d0ce4915be2ca20494e2228",
+    "candidate": "52c8504370bc943b07f743083125ee4eca883524d770ab80757ba43ef4927d47",
+    "reference": "16b937e7b4a35ff4b20eea3683c228d6b1ce3725295378af60fac88e501f87f8",
+    "lossless12k": "1a0ef1278cb4fa83d660dd8863fe0ef213f1750632fca3bd0fc2d1a0ce8a291a",
+    "candidate16k": "52c8504370bc943b07f743083125ee4eca883524d770ab80757ba43ef4927d47",
+    "src/world.js": "726b300f85d32142b490f6dcdab3838bb4ea0e7cb6d040c2093176e7dbcb2614",
+    "src/rendering/scene-factory.js": "417f3fc52913ff12d3296f6eed853105596eefae8b3d1f4a888bd3c83e56e419",
+    "src/rendering/earth-shaders.js": "22eb1230a69fb88287bf39649a2260ba96a6baf91c7f6cd884c093e619e7efd1",
+    "assets/textures/earth-cloud-height.png": "e459fde568e5666da55abfaeffb18dc88ae13fc29d91d442d7f0318fd16d19bb"
+  },
+  "outcomes": [
+    {
+      "mode": "candidate16k",
+      "engineVersion": "158.0.8127.37",
+      "views": [
+        {
+          "label": "day",
+          "quality": "ultra",
+          "physicalStatePreserved": true,
+          "physical": "[[144474457.83116025,-17171778.480158877,39596214.79159133],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[0.01577675287351146,0.9401668523387668,0.043949052387549814,-0.33749942907569486],0,104]",
+          "dimensions": [
+            16384,
+            8192
+          ],
+          "heightDimensions": [
+            2048,
+            1024
+          ],
+          "formats": [
+            1028,
+            1028
+          ],
+          "resources": {
+            "calls": 7,
+            "triangles": 292866,
+            "textures": 29,
+            "geometries": 22,
+            "programs": 23
+          },
+          "graphicsError": 0
+        },
+        {
+          "label": "close",
+          "quality": "ultra",
+          "physicalStatePreserved": true,
+          "physical": "[[144479587.10025,-17172534.136202186,39602438.405753665],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[0.015776752873507754,0.9401668523386231,0.04394905238747942,-0.33749942907610453],0,104]",
+          "dimensions": [
+            16384,
+            8192
+          ],
+          "heightDimensions": [
+            2048,
+            1024
+          ],
+          "formats": [
+            1028,
+            1028
+          ],
+          "resources": {
+            "calls": 7,
+            "triangles": 292866,
+            "textures": 29,
+            "geometries": 22,
+            "programs": 23
+          },
+          "graphicsError": 0
+        },
+        {
+          "label": "grazing",
+          "quality": "ultra",
+          "physicalStatePreserved": true,
+          "physical": "[[144485770.13998637,-17173176.74134138,39601087.63578384],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[0,0.9910648321723687,0,0.13338102725333403],0,104]",
+          "dimensions": [
+            16384,
+            8192
+          ],
+          "heightDimensions": [
+            2048,
+            1024
+          ],
+          "formats": [
+            1028,
+            1028
+          ],
+          "resources": {
+            "calls": 7,
+            "triangles": 292866,
+            "textures": 29,
+            "geometries": 22,
+            "programs": 23
+          },
+          "graphicsError": 0
+        },
+        {
+          "label": "resolved-limb",
+          "quality": "ultra",
+          "physicalStatePreserved": true,
+          "physical": "[[144479708.26408678,-17172551.98634494,39602585.420261435],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[-0.013245085538195603,0.5589833843869272,0.04477714647098312,-0.8278630024601528],0,104]",
+          "dimensions": [
+            16384,
+            8192
+          ],
+          "heightDimensions": [
+            2048,
+            1024
+          ],
+          "formats": [
+            1028,
+            1028
+          ],
+          "resources": {
+            "calls": 7,
+            "triangles": 292866,
+            "textures": 29,
+            "geometries": 22,
+            "programs": 23
+          },
+          "graphicsError": 0
+        },
+        {
+          "label": "pole",
+          "quality": "ultra",
+          "physicalStatePreserved": true,
+          "physical": "[[144484182.72183335,-17166483.777149543,39607730.92803345],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[-0.4911976443599027,0.5086500507965005,0.4911976443599027,0.5086500507965005],0,104]",
+          "dimensions": [
+            16384,
+            8192
+          ],
+          "heightDimensions": [
+            2048,
+            1024
+          ],
+          "formats": [
+            1028,
+            1028
+          ],
+          "resources": {
+            "calls": 7,
+            "triangles": 292866,
+            "textures": 29,
+            "geometries": 22,
+            "programs": 23
+          },
+          "graphicsError": 0
+        },
+        {
+          "label": "day",
+          "quality": "high",
+          "physicalStatePreserved": true,
+          "physical": "[[144474457.83116025,-17171778.480158877,39596214.79159133],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[0.01577675287351146,0.9401668523387668,0.043949052387549814,-0.33749942907569486],0,104]",
+          "dimensions": [
+            16384,
+            8192
+          ],
+          "heightDimensions": [
+            2048,
+            1024
+          ],
+          "formats": [
+            1028,
+            1028
+          ],
+          "resources": {
+            "calls": 8,
+            "triangles": 366082,
+            "textures": 29,
+            "geometries": 22,
+            "programs": 23
+          },
+          "graphicsError": 0
+        },
+        {
+          "label": "close",
+          "quality": "high",
+          "physicalStatePreserved": true,
+          "physical": "[[144479587.10025,-17172534.136202186,39602438.405753665],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[0.015776752873507754,0.9401668523386231,0.04394905238747942,-0.33749942907610453],0,104]",
+          "dimensions": [
+            16384,
+            8192
+          ],
+          "heightDimensions": [
+            2048,
+            1024
+          ],
+          "formats": [
+            1028,
+            1028
+          ],
+          "resources": {
+            "calls": 8,
+            "triangles": 366082,
+            "textures": 29,
+            "geometries": 22,
+            "programs": 23
+          },
+          "graphicsError": 0
+        },
+        {
+          "label": "grazing",
+          "quality": "high",
+          "physicalStatePreserved": true,
+          "physical": "[[144485770.13998637,-17173176.74134138,39601087.63578384],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[0,0.9910648321723687,0,0.13338102725333403],0,104]",
+          "dimensions": [
+            16384,
+            8192
+          ],
+          "heightDimensions": [
+            2048,
+            1024
+          ],
+          "formats": [
+            1028,
+            1028
+          ],
+          "resources": {
+            "calls": 8,
+            "triangles": 366082,
+            "textures": 29,
+            "geometries": 22,
+            "programs": 23
+          },
+          "graphicsError": 0
+        },
+        {
+          "label": "resolved-limb",
+          "quality": "high",
+          "physicalStatePreserved": true,
+          "physical": "[[144479708.26408678,-17172551.98634494,39602585.420261435],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[-0.013245085538195603,0.5589833843869272,0.04477714647098312,-0.8278630024601528],0,104]",
+          "dimensions": [
+            16384,
+            8192
+          ],
+          "heightDimensions": [
+            2048,
+            1024
+          ],
+          "formats": [
+            1028,
+            1028
+          ],
+          "resources": {
+            "calls": 8,
+            "triangles": 366082,
+            "textures": 29,
+            "geometries": 22,
+            "programs": 23
+          },
+          "graphicsError": 0
+        },
+        {
+          "label": "pole",
+          "quality": "high",
+          "physicalStatePreserved": true,
+          "physical": "[[144484182.72183335,-17166483.777149543,39607730.92803345],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[-0.4911976443599027,0.5086500507965005,0.4911976443599027,0.5086500507965005],0,104]",
+          "dimensions": [
+            16384,
+            8192
+          ],
+          "heightDimensions": [
+            2048,
+            1024
+          ],
+          "formats": [
+            1028,
+            1028
+          ],
+          "resources": {
+            "calls": 8,
+            "triangles": 366082,
+            "textures": 29,
+            "geometries": 22,
+            "programs": 23
+          },
+          "graphicsError": 0
+        }
+      ],
+      "errors": []
+    }
+  ],
+  "biasHoisting": {
+    "views": [
+      {
+        "quality": "ultra",
+        "label": "day",
+        "identical": true,
+        "max": 0.0,
+        "physicalStatePreserved": true
+      },
+      {
+        "quality": "ultra",
+        "label": "close",
+        "identical": true,
+        "max": 0.0,
+        "physicalStatePreserved": true
+      },
+      {
+        "quality": "ultra",
+        "label": "grazing",
+        "identical": true,
+        "max": 0.0,
+        "physicalStatePreserved": true
+      },
+      {
+        "quality": "ultra",
+        "label": "resolved-limb",
+        "identical": true,
+        "max": 0.0,
+        "physicalStatePreserved": true
+      },
+      {
+        "quality": "ultra",
+        "label": "pole",
+        "identical": true,
+        "max": 0.0,
+        "physicalStatePreserved": true
+      },
+      {
+        "quality": "high",
+        "label": "day",
+        "identical": true,
+        "max": 0.0,
+        "physicalStatePreserved": true
+      },
+      {
+        "quality": "high",
+        "label": "close",
+        "identical": true,
+        "max": 0.0,
+        "physicalStatePreserved": true
+      },
+      {
+        "quality": "high",
+        "label": "grazing",
+        "identical": true,
+        "max": 0.0,
+        "physicalStatePreserved": true
+      },
+      {
+        "quality": "high",
+        "label": "resolved-limb",
+        "identical": true,
+        "max": 0.0,
+        "physicalStatePreserved": true
+      },
+      {
+        "quality": "high",
+        "label": "pole",
+        "identical": true,
+        "max": 0.0,
+        "physicalStatePreserved": true
+      }
+    ],
+    "finding": "CPU-derived LOD bias exactly matches the prior per-sample texture-dimension expression in these ten Chrome views. No timing improvement is claimed by this image check."
+  }
+}

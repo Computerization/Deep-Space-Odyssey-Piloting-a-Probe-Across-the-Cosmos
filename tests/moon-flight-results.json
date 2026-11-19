@@ -1,0 +1,227 @@
+{
+  "version": "0.97.0",
+  "worldSha256": "8950fdbb234873c267e68d123256d49a77c8fda33d215917f7bb9ec60b114db3",
+  "sourceURL": "http://127.0.0.1:4173",
+  "viewport": [
+    1600,
+    1000
+  ],
+  "deviceScaleFactor": 2,
+  "readyMs": 6563,
+  "windowSeconds": 3,
+  "method": "Measured from each scene/camera selection, without a warm-up gap. Two rounds include all selected local studies in both views. Frame intervals include first-use stalls; CPU draw time excludes asynchronous GPU execution.",
+  "samples": [
+    {
+      "round": 0,
+      "name": "Moon",
+      "view": "probe",
+      "seconds": 3.013,
+      "firstFrameMs": 16.200000017881393,
+      "resizes": [],
+      "slowFrames": [
+        {
+          "atMs": 219.40000000596046,
+          "intervalMs": 125.09999999403954,
+          "lastDraw": {
+            "atMs": 217.40000000596046,
+            "cpuMs": 1,
+            "ratio": 2,
+            "cloudScale": 1,
+            "stages": {
+              "sky": 0.19999998807907104,
+              "world": 0.5,
+              "output": 0
+            }
+          }
+        }
+      ],
+      "canvasWrites": 0,
+      "firstDrawCpuMs": {
+        "sky": 0.19999998807907104,
+        "world": 0.30000001192092896,
+        "output": 0.09999999403953552
+      },
+      "frames": 173,
+      "renders": 173,
+      "medianMs": 16.599999994039536,
+      "p95Ms": 18.099999994039536,
+      "maxIntervalMs": 125.09999999403954,
+      "maxRenderCpuMs": 3.5,
+      "over100ms": 1,
+      "simulationSeconds": 3.0166000000000013,
+      "held": false,
+      "ratio": 2,
+      "cloudScale": 1,
+      "pixels": [
+        3200,
+        2000
+      ],
+      "scenePixels": [
+        3200,
+        2000
+      ],
+      "before": {
+        "geometries": 22,
+        "textures": 31,
+        "programs": 24
+      },
+      "after": {
+        "geometries": 22,
+        "textures": 31,
+        "programs": 24
+      },
+      "audioTracks": 1,
+      "scorePlaying": true,
+      "contextLosses": 0
+    },
+    {
+      "round": 0,
+      "name": "Moon",
+      "view": "chase",
+      "seconds": 3.0104000000059603,
+      "firstFrameMs": 13,
+      "resizes": [],
+      "slowFrames": [],
+      "canvasWrites": 0,
+      "firstDrawCpuMs": {
+        "reflection": 0.5999999940395355,
+        "clouds/prefilter": 0.3999999761581421,
+        "sky": 0,
+        "world": 0,
+        "probe": 0.6000000238418579,
+        "output": 0
+      },
+      "frames": 174,
+      "renders": 174,
+      "medianMs": 16.80000001192093,
+      "p95Ms": 22,
+      "maxIntervalMs": 69.5,
+      "maxRenderCpuMs": 3.5,
+      "over100ms": 0,
+      "simulationSeconds": 3.0165,
+      "held": false,
+      "ratio": 2,
+      "cloudScale": 1,
+      "pixels": [
+        3200,
+        2000
+      ],
+      "scenePixels": [
+        3200,
+        2000
+      ],
+      "before": {
+        "geometries": 22,
+        "textures": 31,
+        "programs": 24
+      },
+      "after": {
+        "geometries": 22,
+        "textures": 32,
+        "programs": 24
+      },
+      "audioTracks": 1,
+      "scorePlaying": true,
+      "contextLosses": 0
+    },
+    {
+      "round": 1,
+      "name": "Moon",
+      "view": "probe",
+      "seconds": 3.012800000011921,
+      "firstFrameMs": 12.699999988079071,
+      "resizes": [],
+      "slowFrames": [],
+      "canvasWrites": 0,
+      "firstDrawCpuMs": {
+        "sky": 0.09999999403953552,
+        "world": 0.09999999403953552,
+        "output": 0
+      },
+      "frames": 180,
+      "renders": 180,
+      "medianMs": 16.69999998807907,
+      "p95Ms": 17.80000001192093,
+      "maxIntervalMs": 24.399999976158142,
+      "maxRenderCpuMs": 1,
+      "over100ms": 0,
+      "simulationSeconds": 3.016599999999999,
+      "held": false,
+      "ratio": 2,
+      "cloudScale": 1,
+      "pixels": [
+        3200,
+        2000
+      ],
+      "scenePixels": [
+        3200,
+        2000
+      ],
+      "before": {
+        "geometries": 22,
+        "textures": 32,
+        "programs": 24
+      },
+      "after": {
+        "geometries": 22,
+        "textures": 32,
+        "programs": 24
+      },
+      "audioTracks": 1,
+      "scorePlaying": true,
+      "contextLosses": 0
+    },
+    {
+      "round": 1,
+      "name": "Moon",
+      "view": "chase",
+      "seconds": 3.014,
+      "firstFrameMs": 14.599999994039536,
+      "resizes": [],
+      "slowFrames": [],
+      "canvasWrites": 0,
+      "firstDrawCpuMs": {
+        "reflection": 0.4000000059604645,
+        "clouds/prefilter": 0.29999998211860657,
+        "sky": 0,
+        "world": 0.09999999403953552,
+        "probe": 0.20000001788139343,
+        "output": 0
+      },
+      "frames": 181,
+      "renders": 181,
+      "medianMs": 16.599999994039536,
+      "p95Ms": 17.69999998807907,
+      "maxIntervalMs": 18.69999998807907,
+      "maxRenderCpuMs": 1.4000000059604645,
+      "over100ms": 0,
+      "simulationSeconds": 3.0163999999999986,
+      "held": false,
+      "ratio": 2,
+      "cloudScale": 1,
+      "pixels": [
+        3200,
+        2000
+      ],
+      "scenePixels": [
+        3200,
+        2000
+      ],
+      "before": {
+        "geometries": 22,
+        "textures": 32,
+        "programs": 24
+      },
+      "after": {
+        "geometries": 22,
+        "textures": 32,
+        "programs": 24
+      },
+      "audioTracks": 1,
+      "scorePlaying": true,
+      "contextLosses": 0
+    }
+  ],
+  "errors": [],
+  "passed": true
+}

@@ -1,0 +1,9 @@
+{
+  "firstTurnBeforeNeutralFrame": true,
+  "heldTriggerBlockedAfterMenu": true,
+  "newStickWhileTriggerHeld": true,
+  "menuSelectionDoesNotPhotograph": true,
+  "triggerRearmsAfterRelease": true,
+  "physicalXboxTested": false,
+  "errors": []
+}

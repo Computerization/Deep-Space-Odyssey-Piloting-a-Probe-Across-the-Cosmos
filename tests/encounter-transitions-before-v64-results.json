@@ -1,0 +1,1688 @@
+{
+  "version": "0.63.0",
+  "worldSha256": "73c17de1202163e5b946f6d5e518bae07320ad1b395eae14f2a8d385ac19b58c",
+  "sourceURL": "http://127.0.0.1:4173",
+  "viewport": [
+    1600,
+    1000
+  ],
+  "deviceScaleFactor": 2,
+  "readyMs": 2509,
+  "windowSeconds": 3,
+  "method": "Measured from each scene/camera selection, without a warm-up gap. Two rounds include all selected local studies in both views. Frame intervals include first-use stalls; CPU draw time excludes asynchronous GPU execution.",
+  "samples": [
+    {
+      "round": 0,
+      "name": "Earth",
+      "view": "probe",
+      "seconds": 3.0059000000059606,
+      "firstFrameMs": 6,
+      "resizes": [
+        {
+          "atMs": 2837.800000011921,
+          "cpuMs": 126.59999999403954,
+          "from": [
+            3200,
+            2000
+          ],
+          "to": [
+            2200,
+            1375
+          ],
+          "ratio": 1.375,
+          "canvasWrites": 2
+        }
+      ],
+      "slowFrames": [
+        {
+          "atMs": 2965.699999988079,
+          "intervalMs": 163.69999998807907,
+          "lastDraw": {
+            "atMs": 2964.4000000059605,
+            "cpuMs": 1,
+            "ratio": 1.375,
+            "cloudScale": 0.875,
+            "stages": {
+              "sky": 0.09999999403953552,
+              "world": 0.09999999403953552,
+              "clouds/prefilter": 0.20000001788139343,
+              "output": 0
+            }
+          }
+        }
+      ],
+      "canvasWrites": 2,
+      "firstDrawCpuMs": {
+        "sky": 0.09999999403953552,
+        "world": 0.19999998807907104,
+        "clouds/prefilter": 0,
+        "output": 0
+      },
+      "frames": 96,
+      "renders": 96,
+      "medianMs": 33.900000005960464,
+      "p95Ms": 43.29999998211861,
+      "maxIntervalMs": 163.69999998807907,
+      "maxRenderCpuMs": 1,
+      "over100ms": 1,
+      "simulationSeconds": 2.9497999999999984,
+      "held": false,
+      "ratio": 1.375,
+      "cloudScale": 0.875,
+      "pixels": [
+        2200,
+        1375
+      ],
+      "before": {
+        "geometries": 15,
+        "textures": 24,
+        "programs": 20
+      },
+      "after": {
+        "geometries": 15,
+        "textures": 24,
+        "programs": 20
+      },
+      "audioTracks": 1,
+      "scorePlaying": true,
+      "contextLosses": 0
+    },
+    {
+      "round": 0,
+      "name": "Earth",
+      "view": "chase",
+      "seconds": 3.010700000017881,
+      "firstFrameMs": 75.5,
+      "resizes": [
+        {
+          "atMs": 2862.9000000059605,
+          "cpuMs": 61.599999994039536,
+          "from": [
+            2200,
+            1375
+          ],
+          "to": [
+            1800,
+            1125
+          ],
+          "ratio": 1.125,
+          "canvasWrites": 2
+        }
+      ],
+      "slowFrames": [
+        {
+          "atMs": 2925.800000011921,
+          "intervalMs": 81.80000001192093,
+          "lastDraw": {
+            "atMs": 2924.5,
+            "cpuMs": 1,
+            "ratio": 1.125,
+            "cloudScale": 0.75,
+            "stages": {
+              "sky": 0.19999998807907104,
+              "world": 0,
+              "clouds/prefilter": 0.20000001788139343,
+              "probe": 0.29999998211860657,
+              "output": 0
+            }
+          }
+        }
+      ],
+      "canvasWrites": 2,
+      "firstDrawCpuMs": {
+        "reflection": 0.4000000059604645,
+        "clouds/prefilter": 0.5999999940395355,
+        "sky": 0.09999999403953552,
+        "world": 0,
+        "probe": 61.5,
+        "output": 0.10000002384185791
+      },
+      "frames": 132,
+      "renders": 132,
+      "medianMs": 22.80000001192093,
+      "p95Ms": 25.900000005960464,
+      "maxIntervalMs": 81.80000001192093,
+      "maxRenderCpuMs": 63.60000002384186,
+      "over100ms": 0,
+      "simulationSeconds": 2.999799999999996,
+      "held": false,
+      "ratio": 1.125,
+      "cloudScale": 0.75,
+      "pixels": [
+        1800,
+        1125
+      ],
+      "before": {
+        "geometries": 15,
+        "textures": 24,
+        "programs": 20
+      },
+      "after": {
+        "geometries": 20,
+        "textures": 26,
+        "programs": 21
+      },
+      "audioTracks": 1,
+      "scorePlaying": true,
+      "contextLosses": 0
+    },
+    {
+      "round": 0,
+      "name": "Moon",
+      "view": "probe",
+      "seconds": 3.0139000000059606,
+      "firstFrameMs": 14.599999994039536,
+      "resizes": [],
+      "slowFrames": [],
+      "canvasWrites": 0,
+      "firstDrawCpuMs": {
+        "sky": 0.09999999403953552,
+        "world": 0.09999999403953552,
+        "output": 0.10000002384185791
+      },
+      "frames": 181,
+      "renders": 181,
+      "medianMs": 16.600000023841858,
+      "p95Ms": 18.30000001192093,
+      "maxIntervalMs": 18.900000005960464,
+      "maxRenderCpuMs": 0.9000000059604645,
+      "over100ms": 0,
+      "simulationSeconds": 3.0166,
+      "held": false,
+      "ratio": 1.125,
+      "cloudScale": 0.75,
+      "pixels": [
+        1800,
+        1125
+      ],
+      "before": {
+        "geometries": 20,
+        "textures": 26,
+        "programs": 21
+      },
+      "after": {
+        "geometries": 20,
+        "textures": 26,
+        "programs": 21
+      },
+      "audioTracks": 1,
+      "scorePlaying": true,
+      "contextLosses": 0
+    },
+    {
+      "round": 0,
+      "name": "Moon",
+      "view": "chase",
+      "seconds": 3.0118000000119207,
+      "firstFrameMs": 12.199999988079071,
+      "resizes": [],
+      "slowFrames": [],
+      "canvasWrites": 0,
+      "firstDrawCpuMs": {
+        "reflection": 0.5000000298023224,
+        "clouds/prefilter": 0.29999998211860657,
+        "sky": 0.09999999403953552,
+        "world": 0.09999999403953552,
+        "probe": 0.20000001788139343,
+        "output": 0
+      },
+      "frames": 181,
+      "renders": 181,
+      "medianMs": 16.69999998807907,
+      "p95Ms": 18.5,
+      "maxIntervalMs": 19.30000001192093,
+      "maxRenderCpuMs": 2.300000011920929,
+      "over100ms": 0,
+      "simulationSeconds": 3.016599999999999,
+      "held": false,
+      "ratio": 1.125,
+      "cloudScale": 0.75,
+      "pixels": [
+        1800,
+        1125
+      ],
+      "before": {
+        "geometries": 20,
+        "textures": 26,
+        "programs": 21
+      },
+      "after": {
+        "geometries": 20,
+        "textures": 26,
+        "programs": 21
+      },
+      "audioTracks": 1,
+      "scorePlaying": true,
+      "contextLosses": 0
+    },
+    {
+      "round": 0,
+      "name": "Earth shadow",
+      "view": "probe",
+      "seconds": 3.0115,
+      "firstFrameMs": 13.300000011920929,
+      "resizes": [],
+      "slowFrames": [],
+      "canvasWrites": 0,
+      "firstDrawCpuMs": {
+        "sky": 0.20000001788139343,
+        "world": 0.19999998807907104,
+        "clouds/prefilter": 0.20000001788139343,
+        "output": 0
+      },
+      "frames": 181,
+      "renders": 181,
+      "medianMs": 16.69999998807907,
+      "p95Ms": 18.099999994039536,
+      "maxIntervalMs": 19.100000023841858,
+      "maxRenderCpuMs": 1.100000023841858,
+      "over100ms": 0,
+      "simulationSeconds": 3.016499999999999,
+      "held": false,
+      "ratio": 1.125,
+      "cloudScale": 0.75,
+      "pixels": [
+        1800,
+        1125
+      ],
+      "before": {
+        "geometries": 20,
+        "textures": 26,
+        "programs": 21
+      },
+      "after": {
+        "geometries": 20,
+        "textures": 26,
+        "programs": 21
+      },
+      "audioTracks": 1,
+      "scorePlaying": true,
+      "contextLosses": 0
+    },
+    {
+      "round": 0,
+      "name": "Earth shadow",
+      "view": "chase",
+      "seconds": 3.013699999988079,
+      "firstFrameMs": 14.699999988079071,
+      "resizes": [],
+      "slowFrames": [],
+      "canvasWrites": 0,
+      "firstDrawCpuMs": {
+        "reflection": 0.30000001192092896,
+        "clouds/prefilter": 0.20000001788139343,
+        "sky": 0,
+        "world": 0,
+        "probe": 0.20000001788139343,
+        "output": 0
+      },
+      "frames": 181,
+      "renders": 181,
+      "medianMs": 16.69999998807907,
+      "p95Ms": 18.5,
+      "maxIntervalMs": 19.700000017881393,
+      "maxRenderCpuMs": 1.5999999940395355,
+      "over100ms": 0,
+      "simulationSeconds": 3.0165999999999995,
+      "held": false,
+      "ratio": 1.125,
+      "cloudScale": 0.75,
+      "pixels": [
+        1800,
+        1125
+      ],
+      "before": {
+        "geometries": 20,
+        "textures": 26,
+        "programs": 21
+      },
+      "after": {
+        "geometries": 20,
+        "textures": 26,
+        "programs": 21
+      },
+      "audioTracks": 1,
+      "scorePlaying": true,
+      "contextLosses": 0
+    },
+    {
+      "round": 0,
+      "name": "Jupiter",
+      "view": "probe",
+      "seconds": 3.011,
+      "firstFrameMs": 12.099999994039536,
+      "resizes": [],
+      "slowFrames": [],
+      "canvasWrites": 0,
+      "firstDrawCpuMs": {
+        "sky": 0.30000001192092896,
+        "world": 0.5999999940395355,
+        "output": 0.09999999403953552
+      },
+      "frames": 181,
+      "renders": 181,
+      "medianMs": 16.69999998807907,
+      "p95Ms": 18.099999994039536,
+      "maxIntervalMs": 19,
+      "maxRenderCpuMs": 1.199999988079071,
+      "over100ms": 0,
+      "simulationSeconds": 3.0165000000000006,
+      "held": false,
+      "ratio": 1.125,
+      "cloudScale": 0.75,
+      "pixels": [
+        1800,
+        1125
+      ],
+      "before": {
+        "geometries": 20,
+        "textures": 26,
+        "programs": 21
+      },
+      "after": {
+        "geometries": 20,
+        "textures": 27,
+        "programs": 21
+      },
+      "audioTracks": 2,
+      "scorePlaying": true,
+      "contextLosses": 0
+    },
+    {
+      "round": 0,
+      "name": "Jupiter",
+      "view": "chase",
+      "seconds": 3.0135,
+      "firstFrameMs": 15.399999976158142,
+      "resizes": [],
+      "slowFrames": [],
+      "canvasWrites": 0,
+      "firstDrawCpuMs": {
+        "reflection": 0.4000000059604645,
+        "clouds/prefilter": 0.30000001192092896,
+        "sky": 0,
+        "world": 0.09999999403953552,
+        "probe": 0.30000001192092896,
+        "output": 0
+      },
+      "frames": 181,
+      "renders": 181,
+      "medianMs": 16.69999998807907,
+      "p95Ms": 18.19999998807907,
+      "maxIntervalMs": 19,
+      "maxRenderCpuMs": 1.600000023841858,
+      "over100ms": 0,
+      "simulationSeconds": 3.016499999999999,
+      "held": false,
+      "ratio": 1.125,
+      "cloudScale": 0.75,
+      "pixels": [
+        1800,
+        1125
+      ],
+      "before": {
+        "geometries": 20,
+        "textures": 27,
+        "programs": 21
+      },
+      "after": {
+        "geometries": 20,
+        "textures": 27,
+        "programs": 21
+      },
+      "audioTracks": 2,
+      "scorePlaying": true,
+      "contextLosses": 0
+    },
+    {
+      "round": 0,
+      "name": "Io",
+      "view": "probe",
+      "seconds": 3.012399999976158,
+      "firstFrameMs": 13.599999994039536,
+      "resizes": [],
+      "slowFrames": [],
+      "canvasWrites": 0,
+      "firstDrawCpuMs": {
+        "sky": 0,
+        "world": 0.30000001192092896,
+        "output": 0
+      },
+      "frames": 181,
+      "renders": 181,
+      "medianMs": 16.69999998807907,
+      "p95Ms": 18.100000023841858,
+      "maxIntervalMs": 19.099999994039536,
+      "maxRenderCpuMs": 0.800000011920929,
+      "over100ms": 0,
+      "simulationSeconds": 3.0166000000000013,
+      "held": false,
+      "ratio": 1.125,
+      "cloudScale": 0.75,
+      "pixels": [
+        1800,
+        1125
+      ],
+      "before": {
+        "geometries": 20,
+        "textures": 27,
+        "programs": 21
+      },
+      "after": {
+        "geometries": 20,
+        "textures": 27,
+        "programs": 21
+      },
+      "audioTracks": 1,
+      "scorePlaying": true,
+      "contextLosses": 0
+    },
+    {
+      "round": 0,
+      "name": "Io",
+      "view": "chase",
+      "seconds": 3.014199999988079,
+      "firstFrameMs": 14,
+      "resizes": [],
+      "slowFrames": [],
+      "canvasWrites": 0,
+      "firstDrawCpuMs": {
+        "reflection": 0.5,
+        "clouds/prefilter": 0.4000000059604645,
+        "sky": 0.09999999403953552,
+        "world": 0.10000002384185791,
+        "probe": 0.29999998211860657,
+        "output": 0.09999999403953552
+      },
+      "frames": 181,
+      "renders": 181,
+      "medianMs": 16.599999994039536,
+      "p95Ms": 18.599999994039536,
+      "maxIntervalMs": 19.69999998807907,
+      "maxRenderCpuMs": 2.5,
+      "over100ms": 0,
+      "simulationSeconds": 3.0165000000000015,
+      "held": false,
+      "ratio": 1.125,
+      "cloudScale": 0.75,
+      "pixels": [
+        1800,
+        1125
+      ],
+      "before": {
+        "geometries": 20,
+        "textures": 27,
+        "programs": 21
+      },
+      "after": {
+        "geometries": 20,
+        "textures": 27,
+        "programs": 21
+      },
+      "audioTracks": 1,
+      "scorePlaying": true,
+      "contextLosses": 0
+    },
+    {
+      "round": 0,
+      "name": "Saturn",
+      "view": "probe",
+      "seconds": 3.0115,
+      "firstFrameMs": 11.699999988079071,
+      "resizes": [],
+      "slowFrames": [],
+      "canvasWrites": 0,
+      "firstDrawCpuMs": {
+        "sky": 0,
+        "world": 0,
+        "output": 0.09999999403953552
+      },
+      "frames": 181,
+      "renders": 181,
+      "medianMs": 16.600000023841858,
+      "p95Ms": 18.100000023841858,
+      "maxIntervalMs": 18.900000005960464,
+      "maxRenderCpuMs": 0.699999988079071,
+      "over100ms": 0,
+      "simulationSeconds": 3.016599999999995,
+      "held": false,
+      "ratio": 1.125,
+      "cloudScale": 0.75,
+      "pixels": [
+        1800,
+        1125
+      ],
+      "before": {
+        "geometries": 20,
+        "textures": 27,
+        "programs": 21
+      },
+      "after": {
+        "geometries": 20,
+        "textures": 27,
+        "programs": 21
+      },
+      "audioTracks": 2,
+      "scorePlaying": true,
+      "contextLosses": 0
+    },
+    {
+      "round": 0,
+      "name": "Saturn",
+      "view": "chase",
+      "seconds": 3.0115999999940395,
+      "firstFrameMs": 13.800000011920929,
+      "resizes": [],
+      "slowFrames": [],
+      "canvasWrites": 0,
+      "firstDrawCpuMs": {
+        "reflection": 0.5,
+        "clouds/prefilter": 0.6000000238418579,
+        "sky": 0.09999999403953552,
+        "world": 0,
+        "probe": 0.30000001192092896,
+        "output": 0
+      },
+      "frames": 181,
+      "renders": 181,
+      "medianMs": 16.599999994039536,
+      "p95Ms": 18.5,
+      "maxIntervalMs": 19.200000017881393,
+      "maxRenderCpuMs": 1.800000011920929,
+      "over100ms": 0,
+      "simulationSeconds": 3.016499999999997,
+      "held": false,
+      "ratio": 1.125,
+      "cloudScale": 0.75,
+      "pixels": [
+        1800,
+        1125
+      ],
+      "before": {
+        "geometries": 20,
+        "textures": 27,
+        "programs": 21
+      },
+      "after": {
+        "geometries": 20,
+        "textures": 27,
+        "programs": 21
+      },
+      "audioTracks": 2,
+      "scorePlaying": true,
+      "contextLosses": 0
+    },
+    {
+      "round": 0,
+      "name": "Ring plane",
+      "view": "probe",
+      "seconds": 3.0125,
+      "firstFrameMs": 13.200000017881393,
+      "resizes": [],
+      "slowFrames": [],
+      "canvasWrites": 0,
+      "firstDrawCpuMs": {
+        "sky": 0.09999999403953552,
+        "world": 0.20000001788139343,
+        "output": 0
+      },
+      "frames": 181,
+      "renders": 181,
+      "medianMs": 16.599999994039536,
+      "p95Ms": 18.5,
+      "maxIntervalMs": 19.19999998807907,
+      "maxRenderCpuMs": 0.7000000178813934,
+      "over100ms": 0,
+      "simulationSeconds": 3.0165999999999955,
+      "held": false,
+      "ratio": 1.125,
+      "cloudScale": 0.75,
+      "pixels": [
+        1800,
+        1125
+      ],
+      "before": {
+        "geometries": 20,
+        "textures": 27,
+        "programs": 21
+      },
+      "after": {
+        "geometries": 20,
+        "textures": 27,
+        "programs": 21
+      },
+      "audioTracks": 1,
+      "scorePlaying": true,
+      "contextLosses": 0
+    },
+    {
+      "round": 0,
+      "name": "Ring plane",
+      "view": "chase",
+      "seconds": 3.0139000000059606,
+      "firstFrameMs": 15.300000011920929,
+      "resizes": [],
+      "slowFrames": [],
+      "canvasWrites": 0,
+      "firstDrawCpuMs": {
+        "reflection": 0.4000000059604645,
+        "clouds/prefilter": 0.3999999761581421,
+        "sky": 0.10000002384185791,
+        "world": 0,
+        "probe": 0.29999998211860657,
+        "output": 0
+      },
+      "frames": 181,
+      "renders": 181,
+      "medianMs": 16.599999994039536,
+      "p95Ms": 18.69999998807907,
+      "maxIntervalMs": 18.900000005960464,
+      "maxRenderCpuMs": 1.5,
+      "over100ms": 0,
+      "simulationSeconds": 3.016499999999996,
+      "held": false,
+      "ratio": 1.125,
+      "cloudScale": 0.75,
+      "pixels": [
+        1800,
+        1125
+      ],
+      "before": {
+        "geometries": 20,
+        "textures": 27,
+        "programs": 21
+      },
+      "after": {
+        "geometries": 20,
+        "textures": 27,
+        "programs": 21
+      },
+      "audioTracks": 1,
+      "scorePlaying": true,
+      "contextLosses": 0
+    },
+    {
+      "round": 0,
+      "name": "North pole",
+      "view": "probe",
+      "seconds": 3.011,
+      "firstFrameMs": 13.099999994039536,
+      "resizes": [],
+      "slowFrames": [],
+      "canvasWrites": 0,
+      "firstDrawCpuMs": {
+        "sky": 0.09999999403953552,
+        "world": 0.10000002384185791,
+        "output": 0.09999999403953552
+      },
+      "frames": 181,
+      "renders": 181,
+      "medianMs": 16.700000017881393,
+      "p95Ms": 18.399999976158142,
+      "maxIntervalMs": 19.099999994039536,
+      "maxRenderCpuMs": 0.699999988079071,
+      "over100ms": 0,
+      "simulationSeconds": 3.0165999999999955,
+      "held": false,
+      "ratio": 1.125,
+      "cloudScale": 0.75,
+      "pixels": [
+        1800,
+        1125
+      ],
+      "before": {
+        "geometries": 20,
+        "textures": 27,
+        "programs": 21
+      },
+      "after": {
+        "geometries": 20,
+        "textures": 27,
+        "programs": 21
+      },
+      "audioTracks": 1,
+      "scorePlaying": true,
+      "contextLosses": 0
+    },
+    {
+      "round": 0,
+      "name": "North pole",
+      "view": "chase",
+      "seconds": 3.0134000000059604,
+      "firstFrameMs": 14.200000017881393,
+      "resizes": [],
+      "slowFrames": [],
+      "canvasWrites": 0,
+      "firstDrawCpuMs": {
+        "reflection": 0.5999999940395355,
+        "clouds/prefilter": 0.19999998807907104,
+        "sky": 0,
+        "world": 0.10000002384185791,
+        "probe": 0.19999998807907104,
+        "output": 0
+      },
+      "frames": 181,
+      "renders": 181,
+      "medianMs": 16.700000017881393,
+      "p95Ms": 18.5,
+      "maxIntervalMs": 19.19999998807907,
+      "maxRenderCpuMs": 2.2000000178813934,
+      "over100ms": 0,
+      "simulationSeconds": 3.016499999999999,
+      "held": false,
+      "ratio": 1.125,
+      "cloudScale": 0.75,
+      "pixels": [
+        1800,
+        1125
+      ],
+      "before": {
+        "geometries": 20,
+        "textures": 27,
+        "programs": 21
+      },
+      "after": {
+        "geometries": 20,
+        "textures": 27,
+        "programs": 21
+      },
+      "audioTracks": 1,
+      "scorePlaying": true,
+      "contextLosses": 0
+    },
+    {
+      "round": 0,
+      "name": "Titan",
+      "view": "probe",
+      "seconds": 3.0102000000178815,
+      "firstFrameMs": 11.300000011920929,
+      "resizes": [],
+      "slowFrames": [],
+      "canvasWrites": 0,
+      "firstDrawCpuMs": {
+        "sky": 0.19999998807907104,
+        "world": 0.4000000059604645,
+        "output": 0.09999999403953552
+      },
+      "frames": 181,
+      "renders": 181,
+      "medianMs": 16.69999998807907,
+      "p95Ms": 18.400000005960464,
+      "maxIntervalMs": 19.19999998807907,
+      "maxRenderCpuMs": 1.5999999940395355,
+      "over100ms": 0,
+      "simulationSeconds": 3.0166000000000026,
+      "held": false,
+      "ratio": 1.125,
+      "cloudScale": 0.75,
+      "pixels": [
+        1800,
+        1125
+      ],
+      "before": {
+        "geometries": 20,
+        "textures": 27,
+        "programs": 21
+      },
+      "after": {
+        "geometries": 20,
+        "textures": 27,
+        "programs": 21
+      },
+      "audioTracks": 1,
+      "scorePlaying": true,
+      "contextLosses": 0
+    },
+    {
+      "round": 0,
+      "name": "Titan",
+      "view": "chase",
+      "seconds": 3.0149000000059605,
+      "firstFrameMs": 17.5,
+      "resizes": [],
+      "slowFrames": [],
+      "canvasWrites": 0,
+      "firstDrawCpuMs": {
+        "reflection": 0.5,
+        "clouds/prefilter": 0.4000000059604645,
+        "sky": 0.10000002384185791,
+        "world": 0.09999999403953552,
+        "probe": 0.29999998211860657,
+        "output": 0.10000002384185791
+      },
+      "frames": 181,
+      "renders": 181,
+      "medianMs": 16.600000023841858,
+      "p95Ms": 18.5,
+      "maxIntervalMs": 19.299999982118607,
+      "maxRenderCpuMs": 2.600000023841858,
+      "over100ms": 0,
+      "simulationSeconds": 3.0165999999999964,
+      "held": false,
+      "ratio": 1.125,
+      "cloudScale": 0.75,
+      "pixels": [
+        1800,
+        1125
+      ],
+      "before": {
+        "geometries": 20,
+        "textures": 27,
+        "programs": 21
+      },
+      "after": {
+        "geometries": 20,
+        "textures": 28,
+        "programs": 21
+      },
+      "audioTracks": 1,
+      "scorePlaying": true,
+      "contextLosses": 0
+    },
+    {
+      "round": 1,
+      "name": "Earth",
+      "view": "probe",
+      "seconds": 3.011799999982119,
+      "firstFrameMs": 12.299999982118607,
+      "resizes": [],
+      "slowFrames": [],
+      "canvasWrites": 0,
+      "firstDrawCpuMs": {
+        "sky": 0.19999998807907104,
+        "world": 0.10000002384185791,
+        "clouds/prefilter": 0,
+        "output": 0
+      },
+      "frames": 181,
+      "renders": 181,
+      "medianMs": 16.700000017881393,
+      "p95Ms": 18.5,
+      "maxIntervalMs": 19.599999994039536,
+      "maxRenderCpuMs": 0.9000000059604645,
+      "over100ms": 0,
+      "simulationSeconds": 3.0164999999999966,
+      "held": false,
+      "ratio": 1.125,
+      "cloudScale": 0.75,
+      "pixels": [
+        1800,
+        1125
+      ],
+      "before": {
+        "geometries": 20,
+        "textures": 28,
+        "programs": 21
+      },
+      "after": {
+        "geometries": 20,
+        "textures": 28,
+        "programs": 21
+      },
+      "audioTracks": 2,
+      "scorePlaying": true,
+      "contextLosses": 0
+    },
+    {
+      "round": 1,
+      "name": "Earth",
+      "view": "chase",
+      "seconds": 3.0124000000059605,
+      "firstFrameMs": 14.900000005960464,
+      "resizes": [],
+      "slowFrames": [],
+      "canvasWrites": 0,
+      "firstDrawCpuMs": {
+        "reflection": 0.4000000059604645,
+        "clouds/prefilter": 0.30000001192092896,
+        "sky": 0.09999999403953552,
+        "world": 0,
+        "probe": 0.20000001788139343,
+        "output": 0.09999999403953552
+      },
+      "frames": 181,
+      "renders": 181,
+      "medianMs": 16.599999994039536,
+      "p95Ms": 18.400000005960464,
+      "maxIntervalMs": 19,
+      "maxRenderCpuMs": 1.5999999940395355,
+      "over100ms": 0,
+      "simulationSeconds": 3.0164999999999975,
+      "held": false,
+      "ratio": 1.125,
+      "cloudScale": 0.75,
+      "pixels": [
+        1800,
+        1125
+      ],
+      "before": {
+        "geometries": 20,
+        "textures": 28,
+        "programs": 21
+      },
+      "after": {
+        "geometries": 20,
+        "textures": 28,
+        "programs": 21
+      },
+      "audioTracks": 2,
+      "scorePlaying": true,
+      "contextLosses": 0
+    },
+    {
+      "round": 1,
+      "name": "Moon",
+      "view": "probe",
+      "seconds": 3.0139000000059606,
+      "firstFrameMs": 13.600000023841858,
+      "resizes": [],
+      "slowFrames": [],
+      "canvasWrites": 0,
+      "firstDrawCpuMs": {
+        "sky": 0.19999998807907104,
+        "world": 0.09999999403953552,
+        "output": 0
+      },
+      "frames": 181,
+      "renders": 181,
+      "medianMs": 16.600000023841858,
+      "p95Ms": 18.5,
+      "maxIntervalMs": 18.900000005960464,
+      "maxRenderCpuMs": 0.7000000178813934,
+      "over100ms": 0,
+      "simulationSeconds": 3.0164999999999873,
+      "held": false,
+      "ratio": 1.125,
+      "cloudScale": 0.75,
+      "pixels": [
+        1800,
+        1125
+      ],
+      "before": {
+        "geometries": 20,
+        "textures": 28,
+        "programs": 21
+      },
+      "after": {
+        "geometries": 20,
+        "textures": 28,
+        "programs": 21
+      },
+      "audioTracks": 1,
+      "scorePlaying": true,
+      "contextLosses": 0
+    },
+    {
+      "round": 1,
+      "name": "Moon",
+      "view": "chase",
+      "seconds": 3.0125999999940394,
+      "firstFrameMs": 14.800000011920929,
+      "resizes": [],
+      "slowFrames": [],
+      "canvasWrites": 0,
+      "firstDrawCpuMs": {
+        "reflection": 0.5999999940395355,
+        "clouds/prefilter": 0.30000001192092896,
+        "sky": 0,
+        "world": 0,
+        "probe": 0.30000001192092896,
+        "output": 0
+      },
+      "frames": 181,
+      "renders": 181,
+      "medianMs": 16.599999994039536,
+      "p95Ms": 18.400000005960464,
+      "maxIntervalMs": 19.099999994039536,
+      "maxRenderCpuMs": 2.600000023841858,
+      "over100ms": 0,
+      "simulationSeconds": 3.016600000000001,
+      "held": false,
+      "ratio": 1.125,
+      "cloudScale": 0.75,
+      "pixels": [
+        1800,
+        1125
+      ],
+      "before": {
+        "geometries": 20,
+        "textures": 28,
+        "programs": 21
+      },
+      "after": {
+        "geometries": 20,
+        "textures": 28,
+        "programs": 21
+      },
+      "audioTracks": 1,
+      "scorePlaying": true,
+      "contextLosses": 0
+    },
+    {
+      "round": 1,
+      "name": "Earth shadow",
+      "view": "probe",
+      "seconds": 3.0118000000119207,
+      "firstFrameMs": 12,
+      "resizes": [],
+      "slowFrames": [],
+      "canvasWrites": 0,
+      "firstDrawCpuMs": {
+        "sky": 0,
+        "world": 0.30000001192092896,
+        "clouds/prefilter": 0.09999999403953552,
+        "output": 0
+      },
+      "frames": 181,
+      "renders": 181,
+      "medianMs": 16.600000023841858,
+      "p95Ms": 18.30000001192093,
+      "maxIntervalMs": 19.200000017881393,
+      "maxRenderCpuMs": 1,
+      "over100ms": 0,
+      "simulationSeconds": 3.016600000000001,
+      "held": false,
+      "ratio": 1.125,
+      "cloudScale": 0.75,
+      "pixels": [
+        1800,
+        1125
+      ],
+      "before": {
+        "geometries": 20,
+        "textures": 28,
+        "programs": 21
+      },
+      "after": {
+        "geometries": 20,
+        "textures": 28,
+        "programs": 21
+      },
+      "audioTracks": 1,
+      "scorePlaying": true,
+      "contextLosses": 0
+    },
+    {
+      "round": 1,
+      "name": "Earth shadow",
+      "view": "chase",
+      "seconds": 3.013699999988079,
+      "firstFrameMs": 13.799999982118607,
+      "resizes": [],
+      "slowFrames": [],
+      "canvasWrites": 0,
+      "firstDrawCpuMs": {
+        "reflection": 0.5,
+        "clouds/prefilter": 0.09999999403953552,
+        "sky": 0.09999999403953552,
+        "world": 0.10000002384185791,
+        "probe": 0.19999998807907104,
+        "output": 0.09999999403953552
+      },
+      "frames": 181,
+      "renders": 181,
+      "medianMs": 16.700000017881393,
+      "p95Ms": 18.200000017881393,
+      "maxIntervalMs": 19.099999994039536,
+      "maxRenderCpuMs": 1.699999988079071,
+      "over100ms": 0,
+      "simulationSeconds": 3.016499999999993,
+      "held": false,
+      "ratio": 1.125,
+      "cloudScale": 0.75,
+      "pixels": [
+        1800,
+        1125
+      ],
+      "before": {
+        "geometries": 20,
+        "textures": 28,
+        "programs": 21
+      },
+      "after": {
+        "geometries": 20,
+        "textures": 28,
+        "programs": 21
+      },
+      "audioTracks": 1,
+      "scorePlaying": true,
+      "contextLosses": 0
+    },
+    {
+      "round": 1,
+      "name": "Jupiter",
+      "view": "probe",
+      "seconds": 3.0106999999880792,
+      "firstFrameMs": 11.599999994039536,
+      "resizes": [],
+      "slowFrames": [],
+      "canvasWrites": 0,
+      "firstDrawCpuMs": {
+        "sky": 0,
+        "world": 0.20000001788139343,
+        "output": 0.09999999403953552
+      },
+      "frames": 181,
+      "renders": 181,
+      "medianMs": 16.599999994039536,
+      "p95Ms": 18.30000001192093,
+      "maxIntervalMs": 18.700000017881393,
+      "maxRenderCpuMs": 0.7000000178813934,
+      "over100ms": 0,
+      "simulationSeconds": 3.0164999999999926,
+      "held": false,
+      "ratio": 1.125,
+      "cloudScale": 0.75,
+      "pixels": [
+        1800,
+        1125
+      ],
+      "before": {
+        "geometries": 20,
+        "textures": 28,
+        "programs": 21
+      },
+      "after": {
+        "geometries": 20,
+        "textures": 28,
+        "programs": 21
+      },
+      "audioTracks": 2,
+      "scorePlaying": true,
+      "contextLosses": 0
+    },
+    {
+      "round": 1,
+      "name": "Jupiter",
+      "view": "chase",
+      "seconds": 3.013399999976158,
+      "firstFrameMs": 13.899999976158142,
+      "resizes": [],
+      "slowFrames": [],
+      "canvasWrites": 0,
+      "firstDrawCpuMs": {
+        "reflection": 0.4000000059604645,
+        "clouds/prefilter": 0.09999999403953552,
+        "sky": 0,
+        "world": 0.09999999403953552,
+        "probe": 0.29999998211860657,
+        "output": 0
+      },
+      "frames": 181,
+      "renders": 181,
+      "medianMs": 16.69999998807907,
+      "p95Ms": 18.200000017881393,
+      "maxIntervalMs": 19.19999998807907,
+      "maxRenderCpuMs": 1.5,
+      "over100ms": 0,
+      "simulationSeconds": 3.0165999999999875,
+      "held": false,
+      "ratio": 1.125,
+      "cloudScale": 0.75,
+      "pixels": [
+        1800,
+        1125
+      ],
+      "before": {
+        "geometries": 20,
+        "textures": 28,
+        "programs": 21
+      },
+      "after": {
+        "geometries": 20,
+        "textures": 28,
+        "programs": 21
+      },
+      "audioTracks": 2,
+      "scorePlaying": true,
+      "contextLosses": 0
+    },
+    {
+      "round": 1,
+      "name": "Io",
+      "view": "probe",
+      "seconds": 3.0127999999821187,
+      "firstFrameMs": 11.400000005960464,
+      "resizes": [],
+      "slowFrames": [],
+      "canvasWrites": 0,
+      "firstDrawCpuMs": {
+        "sky": 0.09999999403953552,
+        "world": 0.10000002384185791,
+        "output": 0.09999999403953552
+      },
+      "frames": 181,
+      "renders": 181,
+      "medianMs": 16.599999994039536,
+      "p95Ms": 18.30000001192093,
+      "maxIntervalMs": 19.099999994039536,
+      "maxRenderCpuMs": 1.300000011920929,
+      "over100ms": 0,
+      "simulationSeconds": 3.0164999999999944,
+      "held": false,
+      "ratio": 1.125,
+      "cloudScale": 0.75,
+      "pixels": [
+        1800,
+        1125
+      ],
+      "before": {
+        "geometries": 20,
+        "textures": 28,
+        "programs": 21
+      },
+      "after": {
+        "geometries": 20,
+        "textures": 28,
+        "programs": 21
+      },
+      "audioTracks": 1,
+      "scorePlaying": true,
+      "contextLosses": 0
+    },
+    {
+      "round": 1,
+      "name": "Io",
+      "view": "chase",
+      "seconds": 3.0144000000059603,
+      "firstFrameMs": 13,
+      "resizes": [],
+      "slowFrames": [],
+      "canvasWrites": 0,
+      "firstDrawCpuMs": {
+        "reflection": 0.4000000059604645,
+        "clouds/prefilter": 0.30000001192092896,
+        "sky": 0.19999998807907104,
+        "world": 0,
+        "probe": 0.30000001192092896,
+        "output": 0
+      },
+      "frames": 181,
+      "renders": 181,
+      "medianMs": 16.69999998807907,
+      "p95Ms": 18.400000005960464,
+      "maxIntervalMs": 19.400000005960464,
+      "maxRenderCpuMs": 2.2999999821186066,
+      "over100ms": 0,
+      "simulationSeconds": 3.016499999999992,
+      "held": false,
+      "ratio": 1.125,
+      "cloudScale": 0.75,
+      "pixels": [
+        1800,
+        1125
+      ],
+      "before": {
+        "geometries": 20,
+        "textures": 28,
+        "programs": 21
+      },
+      "after": {
+        "geometries": 20,
+        "textures": 28,
+        "programs": 21
+      },
+      "audioTracks": 1,
+      "scorePlaying": true,
+      "contextLosses": 0
+    },
+    {
+      "round": 1,
+      "name": "Saturn",
+      "view": "probe",
+      "seconds": 3.009800000011921,
+      "firstFrameMs": 11.5,
+      "resizes": [],
+      "slowFrames": [],
+      "canvasWrites": 0,
+      "firstDrawCpuMs": {
+        "sky": 0,
+        "world": 0.30000001192092896,
+        "output": 0.09999999403953552
+      },
+      "frames": 181,
+      "renders": 181,
+      "medianMs": 16.599999994039536,
+      "p95Ms": 18.30000001192093,
+      "maxIntervalMs": 19,
+      "maxRenderCpuMs": 0.699999988079071,
+      "over100ms": 0,
+      "simulationSeconds": 3.0166000000000004,
+      "held": false,
+      "ratio": 1.125,
+      "cloudScale": 0.75,
+      "pixels": [
+        1800,
+        1125
+      ],
+      "before": {
+        "geometries": 20,
+        "textures": 28,
+        "programs": 21
+      },
+      "after": {
+        "geometries": 20,
+        "textures": 28,
+        "programs": 21
+      },
+      "audioTracks": 2,
+      "scorePlaying": true,
+      "contextLosses": 0
+    },
+    {
+      "round": 1,
+      "name": "Saturn",
+      "view": "chase",
+      "seconds": 3.013,
+      "firstFrameMs": 16.399999976158142,
+      "resizes": [],
+      "slowFrames": [],
+      "canvasWrites": 0,
+      "firstDrawCpuMs": {
+        "reflection": 0.4000000059604645,
+        "clouds/prefilter": 0.5,
+        "sky": 0,
+        "world": 0.09999999403953552,
+        "probe": 0.29999998211860657,
+        "output": 0.10000002384185791
+      },
+      "frames": 181,
+      "renders": 181,
+      "medianMs": 16.700000017881393,
+      "p95Ms": 18.099999994039536,
+      "maxIntervalMs": 18.80000001192093,
+      "maxRenderCpuMs": 1.9000000059604645,
+      "over100ms": 0,
+      "simulationSeconds": 3.0165999999999866,
+      "held": false,
+      "ratio": 1.125,
+      "cloudScale": 0.75,
+      "pixels": [
+        1800,
+        1125
+      ],
+      "before": {
+        "geometries": 20,
+        "textures": 28,
+        "programs": 21
+      },
+      "after": {
+        "geometries": 20,
+        "textures": 28,
+        "programs": 21
+      },
+      "audioTracks": 2,
+      "scorePlaying": true,
+      "contextLosses": 0
+    },
+    {
+      "round": 1,
+      "name": "Ring plane",
+      "view": "probe",
+      "seconds": 3.012100000023842,
+      "firstFrameMs": 13.5,
+      "resizes": [],
+      "slowFrames": [],
+      "canvasWrites": 0,
+      "firstDrawCpuMs": {
+        "sky": 0.09999999403953552,
+        "world": 0.20000001788139343,
+        "output": 0.09999999403953552
+      },
+      "frames": 181,
+      "renders": 181,
+      "medianMs": 16.600000023841858,
+      "p95Ms": 18.099999994039536,
+      "maxIntervalMs": 18.900000005960464,
+      "maxRenderCpuMs": 0.7000000178813934,
+      "over100ms": 0,
+      "simulationSeconds": 3.0164999999999935,
+      "held": false,
+      "ratio": 1.125,
+      "cloudScale": 0.75,
+      "pixels": [
+        1800,
+        1125
+      ],
+      "before": {
+        "geometries": 20,
+        "textures": 28,
+        "programs": 21
+      },
+      "after": {
+        "geometries": 20,
+        "textures": 28,
+        "programs": 21
+      },
+      "audioTracks": 1,
+      "scorePlaying": true,
+      "contextLosses": 0
+    },
+    {
+      "round": 1,
+      "name": "Ring plane",
+      "view": "chase",
+      "seconds": 3.0125999999940394,
+      "firstFrameMs": 14.200000017881393,
+      "resizes": [],
+      "slowFrames": [],
+      "canvasWrites": 0,
+      "firstDrawCpuMs": {
+        "reflection": 0.3999999761581421,
+        "clouds/prefilter": 0.30000001192092896,
+        "sky": 0,
+        "world": 0.09999999403953552,
+        "probe": 0.30000001192092896,
+        "output": 0
+      },
+      "frames": 181,
+      "renders": 181,
+      "medianMs": 16.69999998807907,
+      "p95Ms": 18.099999994039536,
+      "maxIntervalMs": 19,
+      "maxRenderCpuMs": 1.5999999940395355,
+      "over100ms": 0,
+      "simulationSeconds": 3.0165999999999995,
+      "held": false,
+      "ratio": 1.125,
+      "cloudScale": 0.75,
+      "pixels": [
+        1800,
+        1125
+      ],
+      "before": {
+        "geometries": 20,
+        "textures": 28,
+        "programs": 21
+      },
+      "after": {
+        "geometries": 20,
+        "textures": 28,
+        "programs": 21
+      },
+      "audioTracks": 1,
+      "scorePlaying": true,
+      "contextLosses": 0
+    },
+    {
+      "round": 1,
+      "name": "North pole",
+      "view": "probe",
+      "seconds": 3.0129000000059603,
+      "firstFrameMs": 13.400000005960464,
+      "resizes": [],
+      "slowFrames": [],
+      "canvasWrites": 0,
+      "firstDrawCpuMs": {
+        "sky": 0.09999999403953552,
+        "world": 0.20000001788139343,
+        "output": 0
+      },
+      "frames": 181,
+      "renders": 181,
+      "medianMs": 16.700000017881393,
+      "p95Ms": 18.299999982118607,
+      "maxIntervalMs": 18.700000017881393,
+      "maxRenderCpuMs": 0.6000000238418579,
+      "over100ms": 0,
+      "simulationSeconds": 3.0164999999999953,
+      "held": false,
+      "ratio": 1.125,
+      "cloudScale": 0.75,
+      "pixels": [
+        1800,
+        1125
+      ],
+      "before": {
+        "geometries": 20,
+        "textures": 28,
+        "programs": 21
+      },
+      "after": {
+        "geometries": 20,
+        "textures": 28,
+        "programs": 21
+      },
+      "audioTracks": 1,
+      "scorePlaying": true,
+      "contextLosses": 0
+    },
+    {
+      "round": 1,
+      "name": "North pole",
+      "view": "chase",
+      "seconds": 3.013199999988079,
+      "firstFrameMs": 14.5,
+      "resizes": [],
+      "slowFrames": [],
+      "canvasWrites": 0,
+      "firstDrawCpuMs": {
+        "reflection": 0.30000001192092896,
+        "clouds/prefilter": 0.40000003576278687,
+        "sky": 0,
+        "world": 0.09999999403953552,
+        "probe": 0.5,
+        "output": 0
+      },
+      "frames": 181,
+      "renders": 181,
+      "medianMs": 16.600000023841858,
+      "p95Ms": 18.099999994039536,
+      "maxIntervalMs": 19.30000001192093,
+      "maxRenderCpuMs": 2.199999988079071,
+      "over100ms": 0,
+      "simulationSeconds": 3.0166,
+      "held": false,
+      "ratio": 1.125,
+      "cloudScale": 0.75,
+      "pixels": [
+        1800,
+        1125
+      ],
+      "before": {
+        "geometries": 20,
+        "textures": 28,
+        "programs": 21
+      },
+      "after": {
+        "geometries": 20,
+        "textures": 28,
+        "programs": 21
+      },
+      "audioTracks": 1,
+      "scorePlaying": true,
+      "contextLosses": 0
+    },
+    {
+      "round": 1,
+      "name": "Titan",
+      "view": "probe",
+      "seconds": 3.012300000011921,
+      "firstFrameMs": 10.400000005960464,
+      "resizes": [],
+      "slowFrames": [],
+      "canvasWrites": 0,
+      "firstDrawCpuMs": {
+        "sky": 0,
+        "world": 0.30000001192092896,
+        "output": 0.09999999403953552
+      },
+      "frames": 181,
+      "renders": 181,
+      "medianMs": 16.700000017881393,
+      "p95Ms": 18.099999994039536,
+      "maxIntervalMs": 19,
+      "maxRenderCpuMs": 0.800000011920929,
+      "over100ms": 0,
+      "simulationSeconds": 3.0164999999999935,
+      "held": false,
+      "ratio": 1.125,
+      "cloudScale": 0.75,
+      "pixels": [
+        1800,
+        1125
+      ],
+      "before": {
+        "geometries": 20,
+        "textures": 28,
+        "programs": 21
+      },
+      "after": {
+        "geometries": 20,
+        "textures": 28,
+        "programs": 21
+      },
+      "audioTracks": 1,
+      "scorePlaying": true,
+      "contextLosses": 0
+    },
+    {
+      "round": 1,
+      "name": "Titan",
+      "view": "chase",
+      "seconds": 3.011300000011921,
+      "firstFrameMs": 14.300000011920929,
+      "resizes": [],
+      "slowFrames": [],
+      "canvasWrites": 0,
+      "firstDrawCpuMs": {
+        "reflection": 0.30000001192092896,
+        "clouds/prefilter": 0.10000002384185791,
+        "sky": 0,
+        "world": 0.09999999403953552,
+        "probe": 0.19999998807907104,
+        "output": 0
+      },
+      "frames": 181,
+      "renders": 181,
+      "medianMs": 16.700000017881393,
+      "p95Ms": 18.099999994039536,
+      "maxIntervalMs": 18.80000001192093,
+      "maxRenderCpuMs": 2.2999999821186066,
+      "over100ms": 0,
+      "simulationSeconds": 3.0164999999999944,
+      "held": false,
+      "ratio": 1.125,
+      "cloudScale": 0.75,
+      "pixels": [
+        1800,
+        1125
+      ],
+      "before": {
+        "geometries": 20,
+        "textures": 28,
+        "programs": 21
+      },
+      "after": {
+        "geometries": 20,
+        "textures": 28,
+        "programs": 21
+      },
+      "audioTracks": 1,
+      "scorePlaying": true,
+      "contextLosses": 0
+    }
+  ],
+  "errors": [],
+  "passed": true
+}

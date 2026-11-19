@@ -1,0 +1,26 @@
+{
+  "version": "0.32.0",
+  "engineVersion": "158.0.8127.37",
+  "simulatedContextLoss": true,
+  "outcomes": [
+    {
+      "label": "held-earth",
+      "mode": "play",
+      "rendered": true,
+      "lit": 850,
+      "settledDraws": 0,
+      "cloudSamplerAnisotropy": 1,
+      "posePreserved": true
+    },
+    {
+      "label": "paused-titan",
+      "mode": "panel",
+      "rendered": true,
+      "lit": 114,
+      "settledDraws": 0,
+      "cloudSamplerAnisotropy": 1,
+      "posePreserved": true
+    }
+  ],
+  "errors": []
+}

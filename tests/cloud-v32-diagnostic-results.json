@@ -1,0 +1,150 @@
+{
+  "version": "0.32.0",
+  "reference": "The delivered v31 shader is the fallback reference. New filtering is separately checked against spatially supersampled linear radiance.",
+  "viewport": [
+    800,
+    500
+  ],
+  "outcomes": [
+    {
+      "name": "Firefox",
+      "engineVersion": "153.0",
+      "views": [
+        {
+          "label": "day",
+          "radius": 2.35,
+          "phase": 35,
+          "yaw": 0,
+          "metrics": {
+            "fallback": {
+              "channels": 280170,
+              "mae": 0.005007673912267552,
+              "rmse": 0.1903459316281913,
+              "max": 18,
+              "fullMean": 0.00117,
+              "fullMax": 18
+            },
+            "skip": {
+              "channels": 280170,
+              "mae": 0,
+              "rmse": 0,
+              "max": 0,
+              "fullMean": 0,
+              "fullMax": 0
+            },
+            "filterOnly": {
+              "channels": 280170,
+              "mae": 0.005007673912267552,
+              "rmse": 0.1903459316281913,
+              "max": 18,
+              "fullMean": 0.00117,
+              "fullMax": 18
+            },
+            "candidate": {
+              "channels": 280170,
+              "mae": 1.4759039154798872,
+              "rmse": 2.990060988984987,
+              "max": 58,
+              "fullMean": 0.3491591666666667,
+              "fullMax": 58
+            }
+          },
+          "draws": {
+            "off": {
+              "calls": 5,
+              "triangles": 146434
+            },
+            "previous": {
+              "calls": 6,
+              "triangles": 219650
+            },
+            "fallback": {
+              "calls": 6,
+              "triangles": 219650
+            },
+            "skip": {
+              "calls": 6,
+              "triangles": 219650
+            },
+            "filterOnly": {
+              "calls": 6,
+              "triangles": 219650
+            },
+            "candidate": {
+              "calls": 6,
+              "triangles": 219650
+            }
+          }
+        },
+        {
+          "label": "close",
+          "radius": 1.05,
+          "phase": 50,
+          "yaw": 0,
+          "metrics": {
+            "fallback": {
+              "channels": 807534,
+              "mae": 0.0000049533518093355825,
+              "rmse": 0.002225612681788002,
+              "max": 1,
+              "fullMean": 0.0000033333333333333333,
+              "fullMax": 1
+            },
+            "skip": {
+              "channels": 807534,
+              "mae": 0.0000012383379523338956,
+              "rmse": 0.001112806340894001,
+              "max": 1,
+              "fullMean": 8.333333333333333e-7,
+              "fullMax": 1
+            },
+            "filterOnly": {
+              "channels": 807534,
+              "mae": 0.0000037150138570016866,
+              "rmse": 0.0019274371214132219,
+              "max": 1,
+              "fullMean": 0.0000025,
+              "fullMax": 1
+            },
+            "candidate": {
+              "channels": 807534,
+              "mae": 0.0000049533518093355825,
+              "rmse": 0.002225612681788002,
+              "max": 1,
+              "fullMean": 0.0000033333333333333333,
+              "fullMax": 1
+            }
+          },
+          "draws": {
+            "off": {
+              "calls": 5,
+              "triangles": 146434
+            },
+            "previous": {
+              "calls": 6,
+              "triangles": 219650
+            },
+            "fallback": {
+              "calls": 6,
+              "triangles": 219650
+            },
+            "skip": {
+              "calls": 6,
+              "triangles": 219650
+            },
+            "filterOnly": {
+              "calls": 6,
+              "triangles": 219650
+            },
+            "candidate": {
+              "calls": 6,
+              "triangles": 219650
+            }
+          }
+        }
+      ],
+      "errors": [],
+      "passed": true
+    }
+  ]
+}

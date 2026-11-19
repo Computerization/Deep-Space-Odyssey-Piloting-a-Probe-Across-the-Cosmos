@@ -1,0 +1,10 @@
+{
+  "index.html": "17fd238d28c7aeecab278cc0fef0096338de246df46cacb79300b203aedaec09",
+  "src/main.js": "0cc9efe2d2d9c8009eac31ea447a792106474b942796a316fea45a7da746f1d9",
+  "src/input.js": "1f8d45d676df779b804015406062f526f642c98df19fcc258ef24d540c6eba4f",
+  "src/observations.js": "d3feb9ec1377e6ef89d22c3cbf2ea7145197705e15fb5863e4f4aa3942b42274",
+  "src/ui/photo-receipt.js": "a46f2f90c49dfd00788439fdef30e6c94912272cc8e0e8535f88eda784e7f4b7",
+  "src/ui/photo-viewer.js": "04991d6f101e5fea8b5de86559b898c711b6d1ed862d2f3adcf35c92316d6434",
+  "src/ui/flight-hud.js": "fae23c2057979073fca476e60595929f8c64537a041a7bf09a8a34141df44490",
+  "src/ui/flight.css": "22cfdf8ad9b9d4803146ee17b0c09d825c25ef48803d455a67102e13f926c9b5"
+}

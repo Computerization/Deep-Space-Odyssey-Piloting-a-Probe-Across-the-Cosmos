@@ -1,0 +1,86 @@
+{
+  "controller": "synthetic standard-mapping test; not physical hardware",
+  "audio": {
+    "maxRms": 0.02927857964119505,
+    "tracks": [
+      {
+        "name": "departure",
+        "duration": 119.9995,
+        "channels": 2,
+        "peak": 0.485940158367157
+      },
+      {
+        "name": "encounter",
+        "duration": 119.9995,
+        "channels": 2,
+        "peak": 0.4481643736362457
+      },
+      {
+        "name": "rings",
+        "duration": 119.9995,
+        "channels": 2,
+        "peak": 0.5002591013908386
+      },
+      {
+        "name": "distance",
+        "duration": 119.9995,
+        "channels": 2,
+        "peak": 0.48297756910324097
+      }
+    ]
+  },
+  "performance": {
+    "mode": "play",
+    "chapter": 1,
+    "task": 0,
+    "stage": "encounter",
+    "departure": null,
+    "survey": null,
+    "guidance": true,
+    "destination": null,
+    "opportunity": null,
+    "navigation": null,
+    "precision": false,
+    "freeLook": false,
+    "look": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "showHud": true,
+    "explored": [],
+    "position": [
+      -481933440.20657146,
+      257106373.72794107,
+      -572466592.1159643
+    ],
+    "speed": 0,
+    "discovered": [
+      "earth-0"
+    ],
+    "rate": 100,
+    "canObserve": false,
+    "fps": 60.00393468424171,
+    "audio": {
+      "started": true,
+      "state": "running",
+      "track": "encounter",
+      "muted": false,
+      "feedbackVoices": 0,
+      "acousticFeedback": true,
+      "adaptiveGain": 0.9408929347991943,
+      "playing": [
+        "encounter"
+      ]
+    },
+    "render": {
+      "frame": 4559,
+      "calls": 3,
+      "triangles": 2,
+      "points": 5045,
+      "lines": 0
+    }
+  },
+  "errors": []
+}

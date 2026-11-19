@@ -1,0 +1,13 @@
+{
+  "version": "0.59.0",
+  "before": {
+    "jd": 2443392.6342592593,
+    "held": false,
+    "marker": "translate(318.97 270.47)"
+  },
+  "after": {
+    "jd": 2443392.6342592593,
+    "marker": "translate(318.97 270.47)",
+    "playButton": false
+  }
+}

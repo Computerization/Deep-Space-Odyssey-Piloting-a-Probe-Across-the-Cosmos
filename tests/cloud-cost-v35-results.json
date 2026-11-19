@@ -1,0 +1,176 @@
+{
+  "version": "0.35.0",
+  "lowPowerModeConfigured": true,
+  "method": "240 unmeasured renders per variant before ABBA full-frame GPU queries; 40 warmup and 160 measured renders per window; fixed ultra 1280 x 800, no frame cache or adaptive resolution.",
+  "samples": [
+    {
+      "label": "day",
+      "mode": "previous",
+      "gpuSamples": 160,
+      "gpuMedianMs": 33.578208,
+      "gpuP95Ms": 37.960374,
+      "cpuMedianMs": 0.29999998211860657,
+      "drawCalls": 6,
+      "triangles": 219650,
+      "pixels": [
+        1280,
+        800
+      ]
+    },
+    {
+      "label": "day",
+      "mode": "candidate",
+      "gpuSamples": 160,
+      "gpuMedianMs": 35.716333,
+      "gpuP95Ms": 41.335083,
+      "cpuMedianMs": 0.29999998211860657,
+      "drawCalls": 6,
+      "triangles": 219650,
+      "pixels": [
+        1280,
+        800
+      ]
+    },
+    {
+      "label": "day",
+      "mode": "candidate",
+      "gpuSamples": 160,
+      "gpuMedianMs": 34.808708,
+      "gpuP95Ms": 39.187541,
+      "cpuMedianMs": 0.29999998211860657,
+      "drawCalls": 6,
+      "triangles": 219650,
+      "pixels": [
+        1280,
+        800
+      ]
+    },
+    {
+      "label": "day",
+      "mode": "previous",
+      "gpuSamples": 160,
+      "gpuMedianMs": 32.527,
+      "gpuP95Ms": 36.973666,
+      "cpuMedianMs": 0.29999998211860657,
+      "drawCalls": 6,
+      "triangles": 219650,
+      "pixels": [
+        1280,
+        800
+      ]
+    },
+    {
+      "label": "close",
+      "mode": "previous",
+      "gpuSamples": 160,
+      "gpuMedianMs": 31.965333,
+      "gpuP95Ms": 35.973625,
+      "cpuMedianMs": 0.29999998211860657,
+      "drawCalls": 6,
+      "triangles": 219650,
+      "pixels": [
+        1280,
+        800
+      ]
+    },
+    {
+      "label": "close",
+      "mode": "candidate",
+      "gpuSamples": 160,
+      "gpuMedianMs": 34.304041,
+      "gpuP95Ms": 44.253208,
+      "cpuMedianMs": 0.29999998211860657,
+      "drawCalls": 6,
+      "triangles": 219650,
+      "pixels": [
+        1280,
+        800
+      ]
+    },
+    {
+      "label": "close",
+      "mode": "candidate",
+      "gpuSamples": 160,
+      "gpuMedianMs": 34.008208,
+      "gpuP95Ms": 40.665374,
+      "cpuMedianMs": 0.20000001788139343,
+      "drawCalls": 6,
+      "triangles": 219650,
+      "pixels": [
+        1280,
+        800
+      ]
+    },
+    {
+      "label": "close",
+      "mode": "previous",
+      "gpuSamples": 160,
+      "gpuMedianMs": 31.030708,
+      "gpuP95Ms": 34.84975,
+      "cpuMedianMs": 0.30000001192092896,
+      "drawCalls": 6,
+      "triangles": 219650,
+      "pixels": [
+        1280,
+        800
+      ]
+    },
+    {
+      "label": "grazing",
+      "mode": "previous",
+      "gpuSamples": 160,
+      "gpuMedianMs": 32.159374,
+      "gpuP95Ms": 39.837791,
+      "cpuMedianMs": 0.20000001788139343,
+      "drawCalls": 6,
+      "triangles": 219650,
+      "pixels": [
+        1280,
+        800
+      ]
+    },
+    {
+      "label": "grazing",
+      "mode": "candidate",
+      "gpuSamples": 160,
+      "gpuMedianMs": 33.863083,
+      "gpuP95Ms": 37.304208,
+      "cpuMedianMs": 0.20000001788139343,
+      "drawCalls": 6,
+      "triangles": 219650,
+      "pixels": [
+        1280,
+        800
+      ]
+    },
+    {
+      "label": "grazing",
+      "mode": "candidate",
+      "gpuSamples": 160,
+      "gpuMedianMs": 33.845875,
+      "gpuP95Ms": 38.098208,
+      "cpuMedianMs": 0.20000001788139343,
+      "drawCalls": 6,
+      "triangles": 219650,
+      "pixels": [
+        1280,
+        800
+      ]
+    },
+    {
+      "label": "grazing",
+      "mode": "previous",
+      "gpuSamples": 160,
+      "gpuMedianMs": 31.440833,
+      "gpuP95Ms": 35.191,
+      "cpuMedianMs": 0.29999998211860657,
+      "drawCalls": 6,
+      "triangles": 219650,
+      "pixels": [
+        1280,
+        800
+      ]
+    }
+  ],
+  "errors": []
+}

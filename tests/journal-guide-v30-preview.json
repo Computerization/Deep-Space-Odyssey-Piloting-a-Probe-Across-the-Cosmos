@@ -1,0 +1,12 @@
+{
+  "journal": {
+    "photos": 6,
+    "visiblePhotos": 6,
+    "buttons": 10,
+    "scrollHeight": 800
+  },
+  "guide": {
+    "text": "Keyboard & mouseXboxFlyTurnDrag / arrow keysForward / reverse thrustW / SSideways / vertical thrustA D / R FRollQ / ETime & cameraHold timeHold SpaceSlower / faster time[ / TTake photographPLensScrollCamera / free lookC / VMore controlsRecord suggested viewHold XFine controlZInterface / bearingsH / GVoyage / journalM / JInstrumentsIExposure− / +SoundBContinue voyageNPauseEscapeThrust makes small corrections. Change time flow to travel farther. Flight review lets you revisit this pass.Return to flight →",
+    "scrollHeight": 800
+  }
+}

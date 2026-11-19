@@ -1,0 +1,2933 @@
+{
+  "version": "0.79.0",
+  "fidelityOnly": true,
+  "fieldChanged": true,
+  "candidateShader": "runtime",
+  "candidateSha256": "8469cbaba7d9b7aa8748da5ae6917373c53edaa60e9f0d08a5ec63b9118ea9ea",
+  "changed": true,
+  "previousShader": "/private/tmp/cosmos-cloud-v78.glsl",
+  "previousSha256": "07f589e0e0ff2ee12c2ef0a3f44e0618d091e961746830dfb0e87d0323d7299f",
+  "shaderSourceSha256": "22763e9313096acdab12beed13a2b6c310349d385bef7c00eae42f4974bc7667",
+  "reference": "400 complete view/lighting segments of the designated field; 800 segments check convergence. A changed field compares the previous shader against its own 400-step reference. Linear premultiplied RGBA and displayed pixels. Integration fidelity, not photographic equivalence.",
+  "outcomes": [
+    {
+      "name": "Chrome",
+      "engineVersion": "158.0.8127.37",
+      "packedCoverage": {
+        "samples": 32768,
+        "baseMax": 0,
+        "mipMax": 0,
+        "minHeight": 0,
+        "maxHeight": 0.8784313797950745,
+        "packedBytes": 67108864,
+        "width": 8192,
+        "height": 4096
+      },
+      "selection": {
+        "programs": 23,
+        "rows": [
+          {
+            "quality": "ultra",
+            "radius": 1.05,
+            "yaw": 0,
+            "fov": 4,
+            "expected": 0,
+            "weight": 0,
+            "selected": false,
+            "volumeSelected": false,
+            "programs": 23,
+            "physicalStatePreserved": true,
+            "drawMs": 0.5
+          },
+          {
+            "quality": "ultra",
+            "radius": 1.05,
+            "yaw": 1.2645,
+            "fov": 58,
+            "expected": 0,
+            "weight": 0,
+            "selected": false,
+            "volumeSelected": false,
+            "programs": 23,
+            "physicalStatePreserved": true,
+            "drawMs": 0.29999998211860657
+          },
+          {
+            "quality": "ultra",
+            "radius": 1.05,
+            "yaw": 1.2645,
+            "fov": 16,
+            "expected": 0,
+            "weight": 0,
+            "selected": false,
+            "volumeSelected": false,
+            "programs": 23,
+            "physicalStatePreserved": true,
+            "drawMs": 0.30000001192092896
+          },
+          {
+            "quality": "ultra",
+            "radius": 1.05,
+            "yaw": 1.2645,
+            "fov": 15,
+            "expected": 0.04296875,
+            "weight": 0.04296875,
+            "selected": true,
+            "volumeSelected": true,
+            "programs": 23,
+            "physicalStatePreserved": true,
+            "drawMs": 0.30000001192092896
+          },
+          {
+            "quality": "ultra",
+            "radius": 1.05,
+            "yaw": 1.2645,
+            "fov": 12,
+            "expected": 0.5,
+            "weight": 0.5,
+            "selected": true,
+            "volumeSelected": true,
+            "programs": 23,
+            "physicalStatePreserved": true,
+            "drawMs": 0.19999998807907104
+          },
+          {
+            "quality": "ultra",
+            "radius": 1.05,
+            "yaw": 1.2645,
+            "fov": 8,
+            "expected": 1,
+            "weight": 1,
+            "selected": true,
+            "volumeSelected": true,
+            "programs": 23,
+            "physicalStatePreserved": true,
+            "drawMs": 0.19999998807907104
+          },
+          {
+            "quality": "ultra",
+            "radius": 1.05,
+            "yaw": 1.2645,
+            "fov": 4,
+            "expected": 1,
+            "weight": 1,
+            "selected": true,
+            "volumeSelected": true,
+            "programs": 23,
+            "physicalStatePreserved": true,
+            "drawMs": 0.10000002384185791
+          },
+          {
+            "quality": "ultra",
+            "radius": 1.05,
+            "yaw": 1.2,
+            "fov": 4,
+            "expected": 1,
+            "weight": 1,
+            "selected": true,
+            "volumeSelected": true,
+            "programs": 23,
+            "physicalStatePreserved": true,
+            "drawMs": 0.19999998807907104
+          },
+          {
+            "quality": "ultra",
+            "radius": 1.18,
+            "yaw": 1.05,
+            "fov": 4,
+            "expected": 0.352,
+            "weight": 0.3519999999706922,
+            "selected": true,
+            "volumeSelected": true,
+            "programs": 23,
+            "physicalStatePreserved": true,
+            "drawMs": 0.19999998807907104
+          },
+          {
+            "quality": "ultra",
+            "radius": 1.2,
+            "yaw": 1.05,
+            "fov": 4,
+            "expected": 0,
+            "weight": 0,
+            "selected": false,
+            "volumeSelected": false,
+            "programs": 23,
+            "physicalStatePreserved": true,
+            "drawMs": 0.10000002384185791
+          },
+          {
+            "quality": "ultra",
+            "radius": 1.05,
+            "yaw": 1.2645,
+            "fov": 58,
+            "expected": 0,
+            "weight": 0,
+            "selected": false,
+            "volumeSelected": false,
+            "programs": 23,
+            "physicalStatePreserved": true,
+            "drawMs": 0.09999999403953552
+          },
+          {
+            "quality": "high",
+            "radius": 1.05,
+            "yaw": 0,
+            "fov": 4,
+            "expected": 0,
+            "weight": 0,
+            "selected": false,
+            "volumeSelected": false,
+            "programs": 23,
+            "physicalStatePreserved": true,
+            "drawMs": 0.29999998211860657
+          },
+          {
+            "quality": "high",
+            "radius": 1.05,
+            "yaw": 1.2645,
+            "fov": 58,
+            "expected": 0,
+            "weight": 0,
+            "selected": false,
+            "volumeSelected": false,
+            "programs": 23,
+            "physicalStatePreserved": true,
+            "drawMs": 0.09999999403953552
+          },
+          {
+            "quality": "high",
+            "radius": 1.05,
+            "yaw": 1.2645,
+            "fov": 16,
+            "expected": 0,
+            "weight": 0,
+            "selected": false,
+            "volumeSelected": false,
+            "programs": 23,
+            "physicalStatePreserved": true,
+            "drawMs": 0.29999998211860657
+          },
+          {
+            "quality": "high",
+            "radius": 1.05,
+            "yaw": 1.2645,
+            "fov": 15,
+            "expected": 0.04296875,
+            "weight": 0.04296875,
+            "selected": true,
+            "volumeSelected": true,
+            "programs": 23,
+            "physicalStatePreserved": true,
+            "drawMs": 0.10000002384185791
+          },
+          {
+            "quality": "high",
+            "radius": 1.05,
+            "yaw": 1.2645,
+            "fov": 12,
+            "expected": 0.5,
+            "weight": 0.5,
+            "selected": true,
+            "volumeSelected": true,
+            "programs": 23,
+            "physicalStatePreserved": true,
+            "drawMs": 0.19999998807907104
+          },
+          {
+            "quality": "high",
+            "radius": 1.05,
+            "yaw": 1.2645,
+            "fov": 8,
+            "expected": 1,
+            "weight": 1,
+            "selected": true,
+            "volumeSelected": true,
+            "programs": 23,
+            "physicalStatePreserved": true,
+            "drawMs": 0
+          },
+          {
+            "quality": "high",
+            "radius": 1.05,
+            "yaw": 1.2645,
+            "fov": 4,
+            "expected": 1,
+            "weight": 1,
+            "selected": true,
+            "volumeSelected": true,
+            "programs": 23,
+            "physicalStatePreserved": true,
+            "drawMs": 0.30000001192092896
+          },
+          {
+            "quality": "high",
+            "radius": 1.05,
+            "yaw": 1.2,
+            "fov": 4,
+            "expected": 1,
+            "weight": 1,
+            "selected": true,
+            "volumeSelected": true,
+            "programs": 23,
+            "physicalStatePreserved": true,
+            "drawMs": 0.09999999403953552
+          },
+          {
+            "quality": "high",
+            "radius": 1.18,
+            "yaw": 1.05,
+            "fov": 4,
+            "expected": 0.352,
+            "weight": 0.3519999999706922,
+            "selected": true,
+            "volumeSelected": true,
+            "programs": 23,
+            "physicalStatePreserved": true,
+            "drawMs": 0.09999999403953552
+          },
+          {
+            "quality": "high",
+            "radius": 1.2,
+            "yaw": 1.05,
+            "fov": 4,
+            "expected": 0,
+            "weight": 0,
+            "selected": false,
+            "volumeSelected": false,
+            "programs": 23,
+            "physicalStatePreserved": true,
+            "drawMs": 0.09999999403953552
+          },
+          {
+            "quality": "high",
+            "radius": 1.05,
+            "yaw": 1.2645,
+            "fov": 58,
+            "expected": 0,
+            "weight": 0,
+            "selected": false,
+            "volumeSelected": false,
+            "programs": 23,
+            "physicalStatePreserved": true,
+            "drawMs": 0.10000002384185791
+          }
+        ],
+        "zeroWeightMaxChannelDifference": 1
+      },
+      "views": [
+        {
+          "label": "day",
+          "radius": 2.35,
+          "phase": 35,
+          "yaw": 0,
+          "fov": 58,
+          "metrics": {
+            "previous": {
+              "display": {
+                "mae": 0.021426666666666667,
+                "rmse": 0.22461448454333185,
+                "max": 29
+              },
+              "linear": {
+                "mae": 0.00009797034591436386,
+                "rmse": 0.0010566039152130472,
+                "max": 0.15185546875
+              }
+            },
+            "candidate": {
+              "display": {
+                "mae": 0.021144166666666665,
+                "rmse": 0.2244530388893558,
+                "max": 29
+              },
+              "linear": {
+                "mae": 0.00009710969299077988,
+                "rmse": 0.001063136259767704,
+                "max": 0.147216796875
+              }
+            },
+            "dense": {
+              "display": {
+                "mae": 0.002843333333333333,
+                "rmse": 0.05332291564921533,
+                "max": 1
+              },
+              "linear": {
+                "mae": 0.0000067557048052549365,
+                "rmse": 0.00003932761051965184,
+                "max": 0.0029296875
+              }
+            },
+            "change": {
+              "display": {
+                "rmse": 0.2768633838797275,
+                "max": 27
+              },
+              "linear": {
+                "rmse": 0.0015709667023317234,
+                "max": 0.24365234375
+              }
+            }
+          },
+          "draw": {
+            "calls": 7,
+            "triangles": 292866
+          },
+          "physicalStatePreserved": true
+        },
+        {
+          "label": "night",
+          "radius": 2.35,
+          "phase": 175,
+          "yaw": 0,
+          "fov": 58,
+          "metrics": {
+            "previous": {
+              "display": {
+                "mae": 0,
+                "rmse": 0,
+                "max": 0
+              },
+              "linear": {
+                "mae": 0.000005115665383636951,
+                "rmse": 0.0001357444056411391,
+                "max": 0.068359375
+              }
+            },
+            "candidate": {
+              "display": {
+                "mae": 0,
+                "rmse": 0,
+                "max": 0
+              },
+              "linear": {
+                "mae": 0.0000049819983914494515,
+                "rmse": 0.00013535965253541832,
+                "max": 0.068359375
+              }
+            },
+            "dense": {
+              "display": {
+                "mae": 0,
+                "rmse": 0,
+                "max": 0
+              },
+              "linear": {
+                "mae": 6.931957975029945e-7,
+                "rmse": 0.000016103967320704434,
+                "max": 0.00244140625
+              }
+            },
+            "change": {
+              "display": {
+                "rmse": 0,
+                "max": 0
+              },
+              "linear": {
+                "rmse": 0.00011429132475450091,
+                "max": 0.01806640625
+              }
+            }
+          },
+          "draw": {
+            "calls": 11,
+            "triangles": 589826
+          },
+          "physicalStatePreserved": true
+        },
+        {
+          "label": "close",
+          "radius": 1.05,
+          "phase": 50,
+          "yaw": 0,
+          "fov": 58,
+          "metrics": {
+            "previous": {
+              "display": {
+                "mae": 0.07279333333333333,
+                "rmse": 0.29799608498546865,
+                "max": 8
+              },
+              "linear": {
+                "mae": 0.0003093215408548713,
+                "rmse": 0.0012277563954176253,
+                "max": 0.05810546875
+              }
+            },
+            "candidate": {
+              "display": {
+                "mae": 0.06164666666666667,
+                "rmse": 0.2816676528582341,
+                "max": 6
+              },
+              "linear": {
+                "mae": 0.0002569137420877814,
+                "rmse": 0.0011552612439805182,
+                "max": 0.0341796875
+              }
+            },
+            "dense": {
+              "display": {
+                "mae": 0.0025283333333333334,
+                "rmse": 0.0502825350726605,
+                "max": 1
+              },
+              "linear": {
+                "mae": 0.0000059004824981093404,
+                "rmse": 0.0000368322412466201,
+                "max": 0.00048828125
+              }
+            },
+            "change": {
+              "display": {
+                "rmse": 2.641212947365913,
+                "max": 110
+              },
+              "linear": {
+                "rmse": 0.012627396099687391,
+                "max": 0.4205322265625
+              }
+            }
+          },
+          "draw": {
+            "calls": 7,
+            "triangles": 292866
+          },
+          "physicalStatePreserved": true
+        },
+        {
+          "label": "resolved-cloud",
+          "radius": 1.05,
+          "phase": 50,
+          "yaw": 0,
+          "fov": 20,
+          "metrics": {
+            "previous": {
+              "display": {
+                "mae": 0.12283583333333334,
+                "rmse": 0.37699580015344114,
+                "max": 4
+              },
+              "linear": {
+                "mae": 0.0004961644807457924,
+                "rmse": 0.001542778048390781,
+                "max": 0.017578125
+              }
+            },
+            "candidate": {
+              "display": {
+                "mae": 0.1235225,
+                "rmse": 0.447203346737626,
+                "max": 6
+              },
+              "linear": {
+                "mae": 0.0005041979280114173,
+                "rmse": 0.001976817178064736,
+                "max": 0.0361328125
+              }
+            },
+            "dense": {
+              "display": {
+                "mae": 0.0035241666666666668,
+                "rmse": 0.059364692087693564,
+                "max": 1
+              },
+              "linear": {
+                "mae": 0.000007863119095563888,
+                "rmse": 0.000041816337639638966,
+                "max": 0.00048828125
+              }
+            },
+            "change": {
+              "display": {
+                "rmse": 3.297852205097534,
+                "max": 51
+              },
+              "linear": {
+                "rmse": 0.015339188806617159,
+                "max": 0.236328125
+              }
+            }
+          },
+          "draw": {
+            "calls": 7,
+            "triangles": 292866
+          },
+          "physicalStatePreserved": true
+        },
+        {
+          "label": "limb-left",
+          "radius": 1.05,
+          "phase": 35,
+          "yaw": 1.264,
+          "fov": 4,
+          "metrics": {
+            "previous": {
+              "display": {
+                "mae": 0.21987083333333332,
+                "rmse": 1.1492530182688232,
+                "max": 59
+              },
+              "linear": {
+                "mae": 0.0015062075049057603,
+                "rmse": 0.007290155698451938,
+                "max": 0.248779296875
+              }
+            },
+            "candidate": {
+              "display": {
+                "mae": 0.07742666666666667,
+                "rmse": 0.33455443005087626,
+                "max": 8
+              },
+              "linear": {
+                "mae": 0.0007198102289065718,
+                "rmse": 0.002611796567414693,
+                "max": 0.1064453125
+              }
+            },
+            "dense": {
+              "display": {
+                "mae": 0.0017325,
+                "rmse": 0.041623310776534826,
+                "max": 1
+              },
+              "linear": {
+                "mae": 0.00002096736930310726,
+                "rmse": 0.0001017538469749655,
+                "max": 0.004150390625
+              }
+            },
+            "change": {
+              "display": {
+                "rmse": 5.217544521451957,
+                "max": 147
+              },
+              "linear": {
+                "rmse": 0.04015705810827876,
+                "max": 0.90863037109375
+              }
+            }
+          },
+          "draw": {
+            "calls": 7,
+            "triangles": 292866
+          },
+          "physicalStatePreserved": true
+        },
+        {
+          "label": "limb",
+          "radius": 1.05,
+          "phase": 35,
+          "yaw": 1.2645,
+          "fov": 4,
+          "metrics": {
+            "previous": {
+              "display": {
+                "mae": 0.22241,
+                "rmse": 1.1694500131828351,
+                "max": 36
+              },
+              "linear": {
+                "mae": 0.0015107929347082973,
+                "rmse": 0.007374393601400095,
+                "max": 0.25439453125
+              }
+            },
+            "candidate": {
+              "display": {
+                "mae": 0.07645083333333333,
+                "rmse": 0.33193749411598567,
+                "max": 8
+              },
+              "linear": {
+                "mae": 0.0007061787044629455,
+                "rmse": 0.0025294122181199856,
+                "max": 0.11376953125
+              }
+            },
+            "dense": {
+              "display": {
+                "mae": 0.0017133333333333334,
+                "rmse": 0.0413924308700677,
+                "max": 1
+              },
+              "linear": {
+                "mae": 0.000020655087791383268,
+                "rmse": 0.00009917151107338801,
+                "max": 0.00341796875
+              }
+            },
+            "change": {
+              "display": {
+                "rmse": 5.210857255129269,
+                "max": 144
+              },
+              "linear": {
+                "rmse": 0.04009873575232156,
+                "max": 0.91424560546875
+              }
+            }
+          },
+          "draw": {
+            "calls": 7,
+            "triangles": 292866
+          },
+          "physicalStatePreserved": true
+        },
+        {
+          "label": "limb-right",
+          "radius": 1.05,
+          "phase": 35,
+          "yaw": 1.265,
+          "fov": 4,
+          "metrics": {
+            "previous": {
+              "display": {
+                "mae": 0.21348,
+                "rmse": 1.1239491388255372,
+                "max": 48
+              },
+              "linear": {
+                "mae": 0.0014782346675544977,
+                "rmse": 0.0073538389959180725,
+                "max": 0.30712890625
+              }
+            },
+            "candidate": {
+              "display": {
+                "mae": 0.075485,
+                "rmse": 0.3287856444554719,
+                "max": 8
+              },
+              "linear": {
+                "mae": 0.0006984978628158569,
+                "rmse": 0.0024759880012076726,
+                "max": 0.074951171875
+              }
+            },
+            "dense": {
+              "display": {
+                "mae": 0.0017441666666666667,
+                "rmse": 0.04176322145939734,
+                "max": 1
+              },
+              "linear": {
+                "mae": 0.000020671377368271352,
+                "rmse": 0.00010048785868458271,
+                "max": 0.0048828125
+              }
+            },
+            "change": {
+              "display": {
+                "rmse": 5.226500103638508,
+                "max": 146
+              },
+              "linear": {
+                "rmse": 0.04023575648691377,
+                "max": 0.90704345703125
+              }
+            }
+          },
+          "draw": {
+            "calls": 7,
+            "triangles": 292866
+          },
+          "physicalStatePreserved": true
+        },
+        {
+          "label": "horizon",
+          "radius": 1.05,
+          "phase": 35,
+          "yaw": 1.2,
+          "fov": 4,
+          "metrics": {
+            "previous": {
+              "display": {
+                "mae": 0.30008666666666667,
+                "rmse": 1.3314227978619966,
+                "max": 64
+              },
+              "linear": {
+                "mae": 0.0019544019270688294,
+                "rmse": 0.007963396516291823,
+                "max": 0.3394775390625
+              }
+            },
+            "candidate": {
+              "display": {
+                "mae": 0.10266916666666667,
+                "rmse": 0.3690313898121224,
+                "max": 8
+              },
+              "linear": {
+                "mae": 0.0008998118014261127,
+                "rmse": 0.002669028155386339,
+                "max": 0.0654296875
+              }
+            },
+            "dense": {
+              "display": {
+                "mae": 0.0028583333333333334,
+                "rmse": 0.05346338310781813,
+                "max": 1
+              },
+              "linear": {
+                "mae": 0.000025134523287415505,
+                "rmse": 0.00010496214456793064,
+                "max": 0.001953125
+              }
+            },
+            "change": {
+              "display": {
+                "rmse": 5.385514831471546,
+                "max": 145
+              },
+              "linear": {
+                "rmse": 0.04167935307801354,
+                "max": 0.91412353515625
+              }
+            }
+          },
+          "draw": {
+            "calls": 7,
+            "triangles": 292866
+          },
+          "physicalStatePreserved": true
+        },
+        {
+          "label": "closest-limb",
+          "radius": 1.035,
+          "phase": 35,
+          "yaw": 1.3,
+          "fov": 4,
+          "metrics": {
+            "previous": {
+              "display": {
+                "mae": 0.2499075,
+                "rmse": 1.5902507663887477,
+                "max": 81
+              },
+              "linear": {
+                "mae": 0.0016223206926882267,
+                "rmse": 0.011757847434681055,
+                "max": 0.827789306640625
+              }
+            },
+            "candidate": {
+              "display": {
+                "mae": 0.058945,
+                "rmse": 0.26607643012237414,
+                "max": 6
+              },
+              "linear": {
+                "mae": 0.0004970228154957295,
+                "rmse": 0.0015782846186655896,
+                "max": 0.0478515625
+              }
+            },
+            "dense": {
+              "display": {
+                "mae": 0.0021258333333333333,
+                "rmse": 0.0461067601695601,
+                "max": 1
+              },
+              "linear": {
+                "mae": 0.00002788215175271034,
+                "rmse": 0.00013225334069764244,
+                "max": 0.005859375
+              }
+            },
+            "change": {
+              "display": {
+                "rmse": 4.536547788057934,
+                "max": 129
+              },
+              "linear": {
+                "rmse": 0.041098150285710094,
+                "max": 0.99951171875
+              }
+            }
+          },
+          "draw": {
+            "calls": 7,
+            "triangles": 292866
+          },
+          "physicalStatePreserved": true
+        },
+        {
+          "label": "pole",
+          "radius": 1.05,
+          "phase": 35,
+          "yaw": 0,
+          "fov": 4,
+          "metrics": {
+            "previous": {
+              "display": {
+                "mae": 0.29093166666666664,
+                "rmse": 1.4106511498831547,
+                "max": 24
+              },
+              "linear": {
+                "mae": 0.0004495304672792554,
+                "rmse": 0.0028527528261621327,
+                "max": 0.059814453125
+              }
+            },
+            "candidate": {
+              "display": {
+                "mae": 0.0942825,
+                "rmse": 0.3070545554132034,
+                "max": 1
+              },
+              "linear": {
+                "mae": 0.00012683296017348766,
+                "rmse": 0.00030210692064451663,
+                "max": 0.0020751953125
+              }
+            },
+            "dense": {
+              "display": {
+                "mae": 0.0041758333333333335,
+                "rmse": 0.06462068812178755,
+                "max": 1
+              },
+              "linear": {
+                "mae": 0.0000033423344045877456,
+                "rmse": 0.000017384735718630564,
+                "max": 0.00048828125
+              }
+            },
+            "change": {
+              "display": {
+                "rmse": 12.505614472441302,
+                "max": 74
+              },
+              "linear": {
+                "rmse": 0.016185660303655307,
+                "max": 0.138458251953125
+              }
+            }
+          },
+          "draw": {
+            "calls": 7,
+            "triangles": 292866
+          },
+          "physicalStatePreserved": true
+        },
+        {
+          "label": "seam",
+          "radius": 1.05,
+          "phase": 35,
+          "yaw": 0,
+          "fov": 4,
+          "metrics": {
+            "previous": {
+              "display": {
+                "mae": 0.00786,
+                "rmse": 0.08865664103720601,
+                "max": 1
+              },
+              "linear": {
+                "mae": 0.000021621299684047697,
+                "rmse": 0.000056193826353032905,
+                "max": 0.00048828125
+              }
+            },
+            "candidate": {
+              "display": {
+                "mae": 0.00786,
+                "rmse": 0.08865664103720601,
+                "max": 1
+              },
+              "linear": {
+                "mae": 0.000021621299684047697,
+                "rmse": 0.000056193826353032905,
+                "max": 0.00048828125
+              }
+            },
+            "dense": {
+              "display": {
+                "mae": 0.0027275,
+                "rmse": 0.05222547271207796,
+                "max": 1
+              },
+              "linear": {
+                "mae": 0.0000053111067414283755,
+                "rmse": 0.0000197826025419703,
+                "max": 0.00048828125
+              }
+            },
+            "change": {
+              "display": {
+                "rmse": 0,
+                "max": 0
+              },
+              "linear": {
+                "rmse": 0,
+                "max": 0
+              }
+            }
+          },
+          "draw": {
+            "calls": 7,
+            "triangles": 292866
+          },
+          "physicalStatePreserved": true
+        }
+      ],
+      "motion": {
+        "previous": 0.009948229736867322,
+        "candidate": 0.0019093974171527435
+      },
+      "errors": []
+    },
+    {
+      "name": "Firefox",
+      "engineVersion": "153.0",
+      "packedCoverage": {
+        "samples": 32768,
+        "baseMax": 0,
+        "mipMax": 0,
+        "minHeight": 0,
+        "maxHeight": 0.8784313797950745,
+        "packedBytes": 67108864,
+        "width": 8192,
+        "height": 4096
+      },
+      "selection": {
+        "programs": 23,
+        "rows": [
+          {
+            "quality": "ultra",
+            "radius": 1.05,
+            "yaw": 0,
+            "fov": 4,
+            "expected": 0,
+            "weight": 0,
+            "selected": false,
+            "volumeSelected": false,
+            "programs": 23,
+            "physicalStatePreserved": true,
+            "drawMs": 1
+          },
+          {
+            "quality": "ultra",
+            "radius": 1.05,
+            "yaw": 1.2645,
+            "fov": 58,
+            "expected": 0,
+            "weight": 0,
+            "selected": false,
+            "volumeSelected": false,
+            "programs": 23,
+            "physicalStatePreserved": true,
+            "drawMs": 1
+          },
+          {
+            "quality": "ultra",
+            "radius": 1.05,
+            "yaw": 1.2645,
+            "fov": 16,
+            "expected": 0,
+            "weight": 0,
+            "selected": false,
+            "volumeSelected": false,
+            "programs": 23,
+            "physicalStatePreserved": true,
+            "drawMs": 0
+          },
+          {
+            "quality": "ultra",
+            "radius": 1.05,
+            "yaw": 1.2645,
+            "fov": 15,
+            "expected": 0.04296875,
+            "weight": 0.04296875,
+            "selected": true,
+            "volumeSelected": true,
+            "programs": 23,
+            "physicalStatePreserved": true,
+            "drawMs": 1
+          },
+          {
+            "quality": "ultra",
+            "radius": 1.05,
+            "yaw": 1.2645,
+            "fov": 12,
+            "expected": 0.5,
+            "weight": 0.5,
+            "selected": true,
+            "volumeSelected": true,
+            "programs": 23,
+            "physicalStatePreserved": true,
+            "drawMs": 0
+          },
+          {
+            "quality": "ultra",
+            "radius": 1.05,
+            "yaw": 1.2645,
+            "fov": 8,
+            "expected": 1,
+            "weight": 1,
+            "selected": true,
+            "volumeSelected": true,
+            "programs": 23,
+            "physicalStatePreserved": true,
+            "drawMs": 1
+          },
+          {
+            "quality": "ultra",
+            "radius": 1.05,
+            "yaw": 1.2645,
+            "fov": 4,
+            "expected": 1,
+            "weight": 1,
+            "selected": true,
+            "volumeSelected": true,
+            "programs": 23,
+            "physicalStatePreserved": true,
+            "drawMs": 0
+          },
+          {
+            "quality": "ultra",
+            "radius": 1.05,
+            "yaw": 1.2,
+            "fov": 4,
+            "expected": 1,
+            "weight": 1,
+            "selected": true,
+            "volumeSelected": true,
+            "programs": 23,
+            "physicalStatePreserved": true,
+            "drawMs": 0
+          },
+          {
+            "quality": "ultra",
+            "radius": 1.18,
+            "yaw": 1.05,
+            "fov": 4,
+            "expected": 0.352,
+            "weight": 0.3519999999706922,
+            "selected": true,
+            "volumeSelected": true,
+            "programs": 23,
+            "physicalStatePreserved": true,
+            "drawMs": 1
+          },
+          {
+            "quality": "ultra",
+            "radius": 1.2,
+            "yaw": 1.05,
+            "fov": 4,
+            "expected": 0,
+            "weight": 0,
+            "selected": false,
+            "volumeSelected": false,
+            "programs": 23,
+            "physicalStatePreserved": true,
+            "drawMs": 1
+          },
+          {
+            "quality": "ultra",
+            "radius": 1.05,
+            "yaw": 1.2645,
+            "fov": 58,
+            "expected": 0,
+            "weight": 0,
+            "selected": false,
+            "volumeSelected": false,
+            "programs": 23,
+            "physicalStatePreserved": true,
+            "drawMs": 0
+          },
+          {
+            "quality": "high",
+            "radius": 1.05,
+            "yaw": 0,
+            "fov": 4,
+            "expected": 0,
+            "weight": 0,
+            "selected": false,
+            "volumeSelected": false,
+            "programs": 23,
+            "physicalStatePreserved": true,
+            "drawMs": 1
+          },
+          {
+            "quality": "high",
+            "radius": 1.05,
+            "yaw": 1.2645,
+            "fov": 58,
+            "expected": 0,
+            "weight": 0,
+            "selected": false,
+            "volumeSelected": false,
+            "programs": 23,
+            "physicalStatePreserved": true,
+            "drawMs": 2
+          },
+          {
+            "quality": "high",
+            "radius": 1.05,
+            "yaw": 1.2645,
+            "fov": 16,
+            "expected": 0,
+            "weight": 0,
+            "selected": false,
+            "volumeSelected": false,
+            "programs": 23,
+            "physicalStatePreserved": true,
+            "drawMs": 0
+          },
+          {
+            "quality": "high",
+            "radius": 1.05,
+            "yaw": 1.2645,
+            "fov": 15,
+            "expected": 0.04296875,
+            "weight": 0.04296875,
+            "selected": true,
+            "volumeSelected": true,
+            "programs": 23,
+            "physicalStatePreserved": true,
+            "drawMs": 1
+          },
+          {
+            "quality": "high",
+            "radius": 1.05,
+            "yaw": 1.2645,
+            "fov": 12,
+            "expected": 0.5,
+            "weight": 0.5,
+            "selected": true,
+            "volumeSelected": true,
+            "programs": 23,
+            "physicalStatePreserved": true,
+            "drawMs": 1
+          },
+          {
+            "quality": "high",
+            "radius": 1.05,
+            "yaw": 1.2645,
+            "fov": 8,
+            "expected": 1,
+            "weight": 1,
+            "selected": true,
+            "volumeSelected": true,
+            "programs": 23,
+            "physicalStatePreserved": true,
+            "drawMs": 1
+          },
+          {
+            "quality": "high",
+            "radius": 1.05,
+            "yaw": 1.2645,
+            "fov": 4,
+            "expected": 1,
+            "weight": 1,
+            "selected": true,
+            "volumeSelected": true,
+            "programs": 23,
+            "physicalStatePreserved": true,
+            "drawMs": 0
+          },
+          {
+            "quality": "high",
+            "radius": 1.05,
+            "yaw": 1.2,
+            "fov": 4,
+            "expected": 1,
+            "weight": 1,
+            "selected": true,
+            "volumeSelected": true,
+            "programs": 23,
+            "physicalStatePreserved": true,
+            "drawMs": 1
+          },
+          {
+            "quality": "high",
+            "radius": 1.18,
+            "yaw": 1.05,
+            "fov": 4,
+            "expected": 0.352,
+            "weight": 0.3519999999706922,
+            "selected": true,
+            "volumeSelected": true,
+            "programs": 23,
+            "physicalStatePreserved": true,
+            "drawMs": 0
+          },
+          {
+            "quality": "high",
+            "radius": 1.2,
+            "yaw": 1.05,
+            "fov": 4,
+            "expected": 0,
+            "weight": 0,
+            "selected": false,
+            "volumeSelected": false,
+            "programs": 23,
+            "physicalStatePreserved": true,
+            "drawMs": 0
+          },
+          {
+            "quality": "high",
+            "radius": 1.05,
+            "yaw": 1.2645,
+            "fov": 58,
+            "expected": 0,
+            "weight": 0,
+            "selected": false,
+            "volumeSelected": false,
+            "programs": 23,
+            "physicalStatePreserved": true,
+            "drawMs": 0
+          }
+        ],
+        "zeroWeightMaxChannelDifference": 1
+      },
+      "views": [
+        {
+          "label": "day",
+          "radius": 2.35,
+          "phase": 35,
+          "yaw": 0,
+          "fov": 58,
+          "metrics": {
+            "previous": {
+              "display": {
+                "mae": 0.021395833333333333,
+                "rmse": 0.22427475708752126,
+                "max": 28
+              },
+              "linear": {
+                "mae": 0.00009808842249214649,
+                "rmse": 0.0010669670222762462,
+                "max": 0.16552734375
+              }
+            },
+            "candidate": {
+              "display": {
+                "mae": 0.021124166666666666,
+                "rmse": 0.22422644803858444,
+                "max": 29
+              },
+              "linear": {
+                "mae": 0.00009722691126167774,
+                "rmse": 0.0010733380490203543,
+                "max": 0.16552734375
+              }
+            },
+            "dense": {
+              "display": {
+                "mae": 0.0028608333333333333,
+                "rmse": 0.05348675848594055,
+                "max": 1
+              },
+              "linear": {
+                "mae": 0.000006756702996790409,
+                "rmse": 0.00003917363828156535,
+                "max": 0.00244140625
+              }
+            },
+            "change": {
+              "display": {
+                "rmse": 0.2769130429093822,
+                "max": 27
+              },
+              "linear": {
+                "rmse": 0.0015714292756337667,
+                "max": 0.24365234375
+              }
+            }
+          },
+          "draw": {
+            "calls": 7,
+            "triangles": 292866
+          },
+          "physicalStatePreserved": true
+        },
+        {
+          "label": "night",
+          "radius": 2.35,
+          "phase": 175,
+          "yaw": 0,
+          "fov": 58,
+          "metrics": {
+            "previous": {
+              "display": {
+                "mae": 0,
+                "rmse": 0,
+                "max": 0
+              },
+              "linear": {
+                "mae": 0.000005109653919935227,
+                "rmse": 0.0001351993837250524,
+                "max": 0.0673828125
+              }
+            },
+            "candidate": {
+              "display": {
+                "mae": 0,
+                "rmse": 0,
+                "max": 0
+              },
+              "linear": {
+                "mae": 0.000004975071400403977,
+                "rmse": 0.00013443286151040338,
+                "max": 0.0673828125
+              }
+            },
+            "dense": {
+              "display": {
+                "mae": 0,
+                "rmse": 0,
+                "max": 0
+              },
+              "linear": {
+                "mae": 6.935622170567513e-7,
+                "rmse": 0.000016073963795623554,
+                "max": 0.0029296875
+              }
+            },
+            "change": {
+              "display": {
+                "rmse": 0,
+                "max": 0
+              },
+              "linear": {
+                "rmse": 0.00011464020733642197,
+                "max": 0.01806640625
+              }
+            }
+          },
+          "draw": {
+            "calls": 11,
+            "triangles": 589826
+          },
+          "physicalStatePreserved": true
+        },
+        {
+          "label": "close",
+          "radius": 1.05,
+          "phase": 50,
+          "yaw": 0,
+          "fov": 58,
+          "metrics": {
+            "previous": {
+              "display": {
+                "mae": 0.072755,
+                "rmse": 0.2979821023708191,
+                "max": 8
+              },
+              "linear": {
+                "mae": 0.00030905453599989417,
+                "rmse": 0.0012274118728287256,
+                "max": 0.0576171875
+              }
+            },
+            "candidate": {
+              "display": {
+                "mae": 0.061546666666666666,
+                "rmse": 0.28156112421047524,
+                "max": 6
+              },
+              "linear": {
+                "mae": 0.0002567744151502848,
+                "rmse": 0.0011556703655196791,
+                "max": 0.0341796875
+              }
+            },
+            "dense": {
+              "display": {
+                "mae": 0.0025,
+                "rmse": 0.05,
+                "max": 1
+              },
+              "linear": {
+                "mae": 0.000005983263812959194,
+                "rmse": 0.00003707799164458261,
+                "max": 0.00048828125
+              }
+            },
+            "change": {
+              "display": {
+                "rmse": 2.641137065735135,
+                "max": 110
+              },
+              "linear": {
+                "rmse": 0.01262689626176426,
+                "max": 0.4205322265625
+              }
+            }
+          },
+          "draw": {
+            "calls": 7,
+            "triangles": 292866
+          },
+          "physicalStatePreserved": true
+        },
+        {
+          "label": "resolved-cloud",
+          "radius": 1.05,
+          "phase": 50,
+          "yaw": 0,
+          "fov": 20,
+          "metrics": {
+            "previous": {
+              "display": {
+                "mae": 0.12283,
+                "rmse": 0.3768686773930675,
+                "max": 4
+              },
+              "linear": {
+                "mae": 0.0004959810224175453,
+                "rmse": 0.0015428437235411117,
+                "max": 0.017578125
+              }
+            },
+            "candidate": {
+              "display": {
+                "mae": 0.12358,
+                "rmse": 0.44727880939446857,
+                "max": 6
+              },
+              "linear": {
+                "mae": 0.000503938709795475,
+                "rmse": 0.001977385237466732,
+                "max": 0.035888671875
+              }
+            },
+            "dense": {
+              "display": {
+                "mae": 0.00361,
+                "rmse": 0.060083275543199206,
+                "max": 1
+              },
+              "linear": {
+                "mae": 0.000007879793792963027,
+                "rmse": 0.000041759006947048654,
+                "max": 0.00048828125
+              }
+            },
+            "change": {
+              "display": {
+                "rmse": 3.297570444028957,
+                "max": 51
+              },
+              "linear": {
+                "rmse": 0.015338228477862698,
+                "max": 0.236328125
+              }
+            }
+          },
+          "draw": {
+            "calls": 7,
+            "triangles": 292866
+          },
+          "physicalStatePreserved": true
+        },
+        {
+          "label": "limb-left",
+          "radius": 1.05,
+          "phase": 35,
+          "yaw": 1.264,
+          "fov": 4,
+          "metrics": {
+            "previous": {
+              "display": {
+                "mae": 0.21983166666666668,
+                "rmse": 1.1490205974365009,
+                "max": 59
+              },
+              "linear": {
+                "mae": 0.0015064209343865513,
+                "rmse": 0.007289817543181325,
+                "max": 0.247802734375
+              }
+            },
+            "candidate": {
+              "display": {
+                "mae": 0.07746,
+                "rmse": 0.3348034249127887,
+                "max": 8
+              },
+              "linear": {
+                "mae": 0.000720038848258555,
+                "rmse": 0.0026121417356953502,
+                "max": 0.10546875
+              }
+            },
+            "dense": {
+              "display": {
+                "mae": 0.0017691666666666667,
+                "rmse": 0.04206146296393727,
+                "max": 1
+              },
+              "linear": {
+                "mae": 0.000021172620430588724,
+                "rmse": 0.00010223563166441137,
+                "max": 0.00439453125
+              }
+            },
+            "change": {
+              "display": {
+                "rmse": 5.217645621670116,
+                "max": 147
+              },
+              "linear": {
+                "rmse": 0.04015773282144221,
+                "max": 0.90838623046875
+              }
+            }
+          },
+          "draw": {
+            "calls": 7,
+            "triangles": 292866
+          },
+          "physicalStatePreserved": true
+        },
+        {
+          "label": "limb",
+          "radius": 1.05,
+          "phase": 35,
+          "yaw": 1.2645,
+          "fov": 4,
+          "metrics": {
+            "previous": {
+              "display": {
+                "mae": 0.22238916666666667,
+                "rmse": 1.168497967477907,
+                "max": 36
+              },
+              "linear": {
+                "mae": 0.001510784548409283,
+                "rmse": 0.007371288425014736,
+                "max": 0.25244140625
+              }
+            },
+            "candidate": {
+              "display": {
+                "mae": 0.07638333333333333,
+                "rmse": 0.33205672206216014,
+                "max": 8
+              },
+              "linear": {
+                "mae": 0.0007067361776158214,
+                "rmse": 0.002531498371240648,
+                "max": 0.115234375
+              }
+            },
+            "dense": {
+              "display": {
+                "mae": 0.0017375,
+                "rmse": 0.04168333000133267,
+                "max": 1
+              },
+              "linear": {
+                "mae": 0.000020746395997703075,
+                "rmse": 0.00009936771496572535,
+                "max": 0.00341796875
+              }
+            },
+            "change": {
+              "display": {
+                "rmse": 5.211056274883241,
+                "max": 145
+              },
+              "linear": {
+                "rmse": 0.04009768454467985,
+                "max": 0.91424560546875
+              }
+            }
+          },
+          "draw": {
+            "calls": 7,
+            "triangles": 292866
+          },
+          "physicalStatePreserved": true
+        },
+        {
+          "label": "limb-right",
+          "radius": 1.05,
+          "phase": 35,
+          "yaw": 1.265,
+          "fov": 4,
+          "metrics": {
+            "previous": {
+              "display": {
+                "mae": 0.21351083333333334,
+                "rmse": 1.1241103890039745,
+                "max": 48
+              },
+              "linear": {
+                "mae": 0.0014784169364720583,
+                "rmse": 0.0073559844888403565,
+                "max": 0.3076171875
+              }
+            },
+            "candidate": {
+              "display": {
+                "mae": 0.07552416666666667,
+                "rmse": 0.32894908420605157,
+                "max": 8
+              },
+              "linear": {
+                "mae": 0.0006989820968359709,
+                "rmse": 0.002477183514240538,
+                "max": 0.07568359375
+              }
+            },
+            "dense": {
+              "display": {
+                "mae": 0.0017833333333333334,
+                "rmse": 0.04222953153106643,
+                "max": 1
+              },
+              "linear": {
+                "mae": 0.00002084470134228468,
+                "rmse": 0.00010084973127115655,
+                "max": 0.00537109375
+              }
+            },
+            "change": {
+              "display": {
+                "rmse": 5.226600392862139,
+                "max": 146
+              },
+              "linear": {
+                "rmse": 0.04023786525945582,
+                "max": 0.90643310546875
+              }
+            }
+          },
+          "draw": {
+            "calls": 7,
+            "triangles": 292866
+          },
+          "physicalStatePreserved": true
+        },
+        {
+          "label": "horizon",
+          "radius": 1.05,
+          "phase": 35,
+          "yaw": 1.2,
+          "fov": 4,
+          "metrics": {
+            "previous": {
+              "display": {
+                "mae": 0.30020166666666664,
+                "rmse": 1.331178675710615,
+                "max": 64
+              },
+              "linear": {
+                "mae": 0.001954526448324323,
+                "rmse": 0.007961058430150702,
+                "max": 0.3397216796875
+              }
+            },
+            "candidate": {
+              "display": {
+                "mae": 0.10265083333333333,
+                "rmse": 0.3690313898121224,
+                "max": 8
+              },
+              "linear": {
+                "mae": 0.0009004796305298805,
+                "rmse": 0.0026701032611259052,
+                "max": 0.0654296875
+              }
+            },
+            "dense": {
+              "display": {
+                "mae": 0.0028583333333333334,
+                "rmse": 0.05346338310781813,
+                "max": 1
+              },
+              "linear": {
+                "mae": 0.000025187656171619892,
+                "rmse": 0.00010507511211450483,
+                "max": 0.001953125
+              }
+            },
+            "change": {
+              "display": {
+                "rmse": 5.386056689886087,
+                "max": 145
+              },
+              "linear": {
+                "rmse": 0.0416802455033754,
+                "max": 0.91357421875
+              }
+            }
+          },
+          "draw": {
+            "calls": 7,
+            "triangles": 292866
+          },
+          "physicalStatePreserved": true
+        },
+        {
+          "label": "closest-limb",
+          "radius": 1.035,
+          "phase": 35,
+          "yaw": 1.3,
+          "fov": 4,
+          "metrics": {
+            "previous": {
+              "display": {
+                "mae": 0.25005083333333333,
+                "rmse": 1.5930717184106935,
+                "max": 81
+              },
+              "linear": {
+                "mae": 0.0016232800388336181,
+                "rmse": 0.01180069185966737,
+                "max": 0.82122802734375
+              }
+            },
+            "candidate": {
+              "display": {
+                "mae": 0.05876833333333333,
+                "rmse": 0.26561877443684834,
+                "max": 6
+              },
+              "linear": {
+                "mae": 0.0004972792145982385,
+                "rmse": 0.001578681508255878,
+                "max": 0.046875
+              }
+            },
+            "dense": {
+              "display": {
+                "mae": 0.0021266666666666665,
+                "rmse": 0.04611579628139003,
+                "max": 1
+              },
+              "linear": {
+                "mae": 0.000027934843339025974,
+                "rmse": 0.00013274262991280983,
+                "max": 0.0068359375
+              }
+            },
+            "change": {
+              "display": {
+                "rmse": 4.536253593734225,
+                "max": 129
+              },
+              "linear": {
+                "rmse": 0.04109756026529312,
+                "max": 0.99951171875
+              }
+            }
+          },
+          "draw": {
+            "calls": 7,
+            "triangles": 292866
+          },
+          "physicalStatePreserved": true
+        },
+        {
+          "label": "pole",
+          "radius": 1.05,
+          "phase": 35,
+          "yaw": 0,
+          "fov": 4,
+          "metrics": {
+            "previous": {
+              "display": {
+                "mae": 0.29085833333333333,
+                "rmse": 1.4086021439711072,
+                "max": 24
+              },
+              "linear": {
+                "mae": 0.0004495814764872193,
+                "rmse": 0.002848602766166332,
+                "max": 0.059814453125
+              }
+            },
+            "candidate": {
+              "display": {
+                "mae": 0.094425,
+                "rmse": 0.30728651125618905,
+                "max": 1
+              },
+              "linear": {
+                "mae": 0.00012716100431978703,
+                "rmse": 0.00030213774817224487,
+                "max": 0.0020751953125
+              }
+            },
+            "dense": {
+              "display": {
+                "mae": 0.004114166666666667,
+                "rmse": 0.06414177006184556,
+                "max": 1
+              },
+              "linear": {
+                "mae": 0.0000034062520042061804,
+                "rmse": 0.000017798632578049727,
+                "max": 0.00048828125
+              }
+            },
+            "change": {
+              "display": {
+                "rmse": 12.506270760435877,
+                "max": 74
+              },
+              "linear": {
+                "rmse": 0.016185941824347884,
+                "max": 0.138580322265625
+              }
+            }
+          },
+          "draw": {
+            "calls": 7,
+            "triangles": 292866
+          },
+          "physicalStatePreserved": true
+        },
+        {
+          "label": "seam",
+          "radius": 1.05,
+          "phase": 35,
+          "yaw": 0,
+          "fov": 4,
+          "metrics": {
+            "previous": {
+              "display": {
+                "mae": 0.00772,
+                "rmse": 0.08786353054595519,
+                "max": 1
+              },
+              "linear": {
+                "mae": 0.0000212610724568367,
+                "rmse": 0.00005569957255348466,
+                "max": 0.00048828125
+              }
+            },
+            "candidate": {
+              "display": {
+                "mae": 0.00772,
+                "rmse": 0.08786353054595519,
+                "max": 1
+              },
+              "linear": {
+                "mae": 0.0000212610724568367,
+                "rmse": 0.00005569957255348466,
+                "max": 0.00048828125
+              }
+            },
+            "dense": {
+              "display": {
+                "mae": 0.0026891666666666665,
+                "rmse": 0.051857175652619825,
+                "max": 1
+              },
+              "linear": {
+                "mae": 0.000005240952968597412,
+                "rmse": 0.000019286402763787387,
+                "max": 0.00048828125
+              }
+            },
+            "change": {
+              "display": {
+                "rmse": 0,
+                "max": 0
+              },
+              "linear": {
+                "rmse": 0,
+                "max": 0
+              }
+            }
+          },
+          "draw": {
+            "calls": 7,
+            "triangles": 292866
+          },
+          "physicalStatePreserved": true
+        }
+      ],
+      "motion": {
+        "previous": 0.0099482410271429,
+        "candidate": 0.0019103310308115828
+      },
+      "errors": []
+    },
+    {
+      "name": "WebKit",
+      "engineVersion": "26.5",
+      "packedCoverage": {
+        "samples": 32768,
+        "baseMax": 0,
+        "mipMax": 0,
+        "minHeight": 0,
+        "maxHeight": 0.8784313797950745,
+        "packedBytes": 67108864,
+        "width": 8192,
+        "height": 4096
+      },
+      "selection": {
+        "programs": 23,
+        "rows": [
+          {
+            "quality": "ultra",
+            "radius": 1.05,
+            "yaw": 0,
+            "fov": 4,
+            "expected": 0,
+            "weight": 0,
+            "selected": false,
+            "volumeSelected": false,
+            "programs": 23,
+            "physicalStatePreserved": true,
+            "drawMs": 1
+          },
+          {
+            "quality": "ultra",
+            "radius": 1.05,
+            "yaw": 1.2645,
+            "fov": 58,
+            "expected": 0,
+            "weight": 0,
+            "selected": false,
+            "volumeSelected": false,
+            "programs": 23,
+            "physicalStatePreserved": true,
+            "drawMs": 2
+          },
+          {
+            "quality": "ultra",
+            "radius": 1.05,
+            "yaw": 1.2645,
+            "fov": 16,
+            "expected": 0,
+            "weight": 0,
+            "selected": false,
+            "volumeSelected": false,
+            "programs": 23,
+            "physicalStatePreserved": true,
+            "drawMs": 0
+          },
+          {
+            "quality": "ultra",
+            "radius": 1.05,
+            "yaw": 1.2645,
+            "fov": 15,
+            "expected": 0.04296875,
+            "weight": 0.04296875,
+            "selected": true,
+            "volumeSelected": true,
+            "programs": 23,
+            "physicalStatePreserved": true,
+            "drawMs": 2
+          },
+          {
+            "quality": "ultra",
+            "radius": 1.05,
+            "yaw": 1.2645,
+            "fov": 12,
+            "expected": 0.5,
+            "weight": 0.5,
+            "selected": true,
+            "volumeSelected": true,
+            "programs": 23,
+            "physicalStatePreserved": true,
+            "drawMs": 1
+          },
+          {
+            "quality": "ultra",
+            "radius": 1.05,
+            "yaw": 1.2645,
+            "fov": 8,
+            "expected": 1,
+            "weight": 1,
+            "selected": true,
+            "volumeSelected": true,
+            "programs": 23,
+            "physicalStatePreserved": true,
+            "drawMs": 0
+          },
+          {
+            "quality": "ultra",
+            "radius": 1.05,
+            "yaw": 1.2645,
+            "fov": 4,
+            "expected": 1,
+            "weight": 1,
+            "selected": true,
+            "volumeSelected": true,
+            "programs": 23,
+            "physicalStatePreserved": true,
+            "drawMs": 0
+          },
+          {
+            "quality": "ultra",
+            "radius": 1.05,
+            "yaw": 1.2,
+            "fov": 4,
+            "expected": 1,
+            "weight": 1,
+            "selected": true,
+            "volumeSelected": true,
+            "programs": 23,
+            "physicalStatePreserved": true,
+            "drawMs": 0
+          },
+          {
+            "quality": "ultra",
+            "radius": 1.18,
+            "yaw": 1.05,
+            "fov": 4,
+            "expected": 0.352,
+            "weight": 0.3519999999706922,
+            "selected": true,
+            "volumeSelected": true,
+            "programs": 23,
+            "physicalStatePreserved": true,
+            "drawMs": 0
+          },
+          {
+            "quality": "ultra",
+            "radius": 1.2,
+            "yaw": 1.05,
+            "fov": 4,
+            "expected": 0,
+            "weight": 0,
+            "selected": false,
+            "volumeSelected": false,
+            "programs": 23,
+            "physicalStatePreserved": true,
+            "drawMs": 1
+          },
+          {
+            "quality": "ultra",
+            "radius": 1.05,
+            "yaw": 1.2645,
+            "fov": 58,
+            "expected": 0,
+            "weight": 0,
+            "selected": false,
+            "volumeSelected": false,
+            "programs": 23,
+            "physicalStatePreserved": true,
+            "drawMs": 0
+          },
+          {
+            "quality": "high",
+            "radius": 1.05,
+            "yaw": 0,
+            "fov": 4,
+            "expected": 0,
+            "weight": 0,
+            "selected": false,
+            "volumeSelected": false,
+            "programs": 23,
+            "physicalStatePreserved": true,
+            "drawMs": 0
+          },
+          {
+            "quality": "high",
+            "radius": 1.05,
+            "yaw": 1.2645,
+            "fov": 58,
+            "expected": 0,
+            "weight": 0,
+            "selected": false,
+            "volumeSelected": false,
+            "programs": 23,
+            "physicalStatePreserved": true,
+            "drawMs": 0
+          },
+          {
+            "quality": "high",
+            "radius": 1.05,
+            "yaw": 1.2645,
+            "fov": 16,
+            "expected": 0,
+            "weight": 0,
+            "selected": false,
+            "volumeSelected": false,
+            "programs": 23,
+            "physicalStatePreserved": true,
+            "drawMs": 1
+          },
+          {
+            "quality": "high",
+            "radius": 1.05,
+            "yaw": 1.2645,
+            "fov": 15,
+            "expected": 0.04296875,
+            "weight": 0.04296875,
+            "selected": true,
+            "volumeSelected": true,
+            "programs": 23,
+            "physicalStatePreserved": true,
+            "drawMs": 1
+          },
+          {
+            "quality": "high",
+            "radius": 1.05,
+            "yaw": 1.2645,
+            "fov": 12,
+            "expected": 0.5,
+            "weight": 0.5,
+            "selected": true,
+            "volumeSelected": true,
+            "programs": 23,
+            "physicalStatePreserved": true,
+            "drawMs": 1
+          },
+          {
+            "quality": "high",
+            "radius": 1.05,
+            "yaw": 1.2645,
+            "fov": 8,
+            "expected": 1,
+            "weight": 1,
+            "selected": true,
+            "volumeSelected": true,
+            "programs": 23,
+            "physicalStatePreserved": true,
+            "drawMs": 1
+          },
+          {
+            "quality": "high",
+            "radius": 1.05,
+            "yaw": 1.2645,
+            "fov": 4,
+            "expected": 1,
+            "weight": 1,
+            "selected": true,
+            "volumeSelected": true,
+            "programs": 23,
+            "physicalStatePreserved": true,
+            "drawMs": 0
+          },
+          {
+            "quality": "high",
+            "radius": 1.05,
+            "yaw": 1.2,
+            "fov": 4,
+            "expected": 1,
+            "weight": 1,
+            "selected": true,
+            "volumeSelected": true,
+            "programs": 23,
+            "physicalStatePreserved": true,
+            "drawMs": 1
+          },
+          {
+            "quality": "high",
+            "radius": 1.18,
+            "yaw": 1.05,
+            "fov": 4,
+            "expected": 0.352,
+            "weight": 0.3519999999706922,
+            "selected": true,
+            "volumeSelected": true,
+            "programs": 23,
+            "physicalStatePreserved": true,
+            "drawMs": 1
+          },
+          {
+            "quality": "high",
+            "radius": 1.2,
+            "yaw": 1.05,
+            "fov": 4,
+            "expected": 0,
+            "weight": 0,
+            "selected": false,
+            "volumeSelected": false,
+            "programs": 23,
+            "physicalStatePreserved": true,
+            "drawMs": 0
+          },
+          {
+            "quality": "high",
+            "radius": 1.05,
+            "yaw": 1.2645,
+            "fov": 58,
+            "expected": 0,
+            "weight": 0,
+            "selected": false,
+            "volumeSelected": false,
+            "programs": 23,
+            "physicalStatePreserved": true,
+            "drawMs": 0
+          }
+        ],
+        "zeroWeightMaxChannelDifference": 1
+      },
+      "views": [
+        {
+          "label": "day",
+          "radius": 2.35,
+          "phase": 35,
+          "yaw": 0,
+          "fov": 58,
+          "metrics": {
+            "previous": {
+              "display": {
+                "mae": 0.021416666666666667,
+                "rmse": 0.22459222307699497,
+                "max": 29
+              },
+              "linear": {
+                "mae": 0.00009797034591436386,
+                "rmse": 0.0010566039152130472,
+                "max": 0.15185546875
+              }
+            },
+            "candidate": {
+              "display": {
+                "mae": 0.021133333333333334,
+                "rmse": 0.22442890485259098,
+                "max": 29
+              },
+              "linear": {
+                "mae": 0.00009710969299077988,
+                "rmse": 0.001063136259767704,
+                "max": 0.147216796875
+              }
+            },
+            "dense": {
+              "display": {
+                "mae": 0.0028366666666666666,
+                "rmse": 0.053260366753024396,
+                "max": 1
+              },
+              "linear": {
+                "mae": 0.0000067557048052549365,
+                "rmse": 0.00003932761051965184,
+                "max": 0.0029296875
+              }
+            },
+            "change": {
+              "display": {
+                "rmse": 0.27686187892160236,
+                "max": 27
+              },
+              "linear": {
+                "rmse": 0.0015709667023317234,
+                "max": 0.24365234375
+              }
+            }
+          },
+          "draw": {
+            "calls": 7,
+            "triangles": 292866
+          },
+          "physicalStatePreserved": true
+        },
+        {
+          "label": "night",
+          "radius": 2.35,
+          "phase": 175,
+          "yaw": 0,
+          "fov": 58,
+          "metrics": {
+            "previous": {
+              "display": {
+                "mae": 0,
+                "rmse": 0,
+                "max": 0
+              },
+              "linear": {
+                "mae": 0.000005115665383636951,
+                "rmse": 0.0001357444056411391,
+                "max": 0.068359375
+              }
+            },
+            "candidate": {
+              "display": {
+                "mae": 0,
+                "rmse": 0,
+                "max": 0
+              },
+              "linear": {
+                "mae": 0.0000049819983914494515,
+                "rmse": 0.00013535965253541832,
+                "max": 0.068359375
+              }
+            },
+            "dense": {
+              "display": {
+                "mae": 8.333333333333333e-7,
+                "rmse": 0.0009128709291752768,
+                "max": 1
+              },
+              "linear": {
+                "mae": 6.931957975029945e-7,
+                "rmse": 0.000016103967320704434,
+                "max": 0.00244140625
+              }
+            },
+            "change": {
+              "display": {
+                "rmse": 0,
+                "max": 0
+              },
+              "linear": {
+                "rmse": 0.00011429132475450091,
+                "max": 0.01806640625
+              }
+            }
+          },
+          "draw": {
+            "calls": 11,
+            "triangles": 589826
+          },
+          "physicalStatePreserved": true
+        },
+        {
+          "label": "close",
+          "radius": 1.05,
+          "phase": 50,
+          "yaw": 0,
+          "fov": 58,
+          "metrics": {
+            "previous": {
+              "display": {
+                "mae": 0.07279333333333333,
+                "rmse": 0.29799608498546865,
+                "max": 8
+              },
+              "linear": {
+                "mae": 0.0003093215408548713,
+                "rmse": 0.0012277563954176253,
+                "max": 0.05810546875
+              }
+            },
+            "candidate": {
+              "display": {
+                "mae": 0.06164666666666667,
+                "rmse": 0.2816676528582341,
+                "max": 6
+              },
+              "linear": {
+                "mae": 0.0002569137420877814,
+                "rmse": 0.0011552612439805182,
+                "max": 0.0341796875
+              }
+            },
+            "dense": {
+              "display": {
+                "mae": 0.0025283333333333334,
+                "rmse": 0.0502825350726605,
+                "max": 1
+              },
+              "linear": {
+                "mae": 0.0000059004824981093404,
+                "rmse": 0.0000368322412466201,
+                "max": 0.00048828125
+              }
+            },
+            "change": {
+              "display": {
+                "rmse": 2.641212947365913,
+                "max": 110
+              },
+              "linear": {
+                "rmse": 0.012627396099687391,
+                "max": 0.4205322265625
+              }
+            }
+          },
+          "draw": {
+            "calls": 7,
+            "triangles": 292866
+          },
+          "physicalStatePreserved": true
+        },
+        {
+          "label": "resolved-cloud",
+          "radius": 1.05,
+          "phase": 50,
+          "yaw": 0,
+          "fov": 20,
+          "metrics": {
+            "previous": {
+              "display": {
+                "mae": 0.12283583333333334,
+                "rmse": 0.37699580015344114,
+                "max": 4
+              },
+              "linear": {
+                "mae": 0.0004961644807457924,
+                "rmse": 0.001542778048390781,
+                "max": 0.017578125
+              }
+            },
+            "candidate": {
+              "display": {
+                "mae": 0.1235225,
+                "rmse": 0.447203346737626,
+                "max": 6
+              },
+              "linear": {
+                "mae": 0.0005041979280114173,
+                "rmse": 0.001976817178064736,
+                "max": 0.0361328125
+              }
+            },
+            "dense": {
+              "display": {
+                "mae": 0.0035241666666666668,
+                "rmse": 0.059364692087693564,
+                "max": 1
+              },
+              "linear": {
+                "mae": 0.000007863119095563888,
+                "rmse": 0.000041816337639638966,
+                "max": 0.00048828125
+              }
+            },
+            "change": {
+              "display": {
+                "rmse": 3.297852205097534,
+                "max": 51
+              },
+              "linear": {
+                "rmse": 0.015339188806617159,
+                "max": 0.236328125
+              }
+            }
+          },
+          "draw": {
+            "calls": 7,
+            "triangles": 292866
+          },
+          "physicalStatePreserved": true
+        },
+        {
+          "label": "limb-left",
+          "radius": 1.05,
+          "phase": 35,
+          "yaw": 1.264,
+          "fov": 4,
+          "metrics": {
+            "previous": {
+              "display": {
+                "mae": 0.21987,
+                "rmse": 1.1492526557144285,
+                "max": 59
+              },
+              "linear": {
+                "mae": 0.0015062075049057603,
+                "rmse": 0.007290155698451938,
+                "max": 0.248779296875
+              }
+            },
+            "candidate": {
+              "display": {
+                "mae": 0.0774275,
+                "rmse": 0.33455567548615883,
+                "max": 8
+              },
+              "linear": {
+                "mae": 0.0007198102289065718,
+                "rmse": 0.002611796567414693,
+                "max": 0.1064453125
+              }
+            },
+            "dense": {
+              "display": {
+                "mae": 0.0017325,
+                "rmse": 0.041623310776534826,
+                "max": 1
+              },
+              "linear": {
+                "mae": 0.00002096736930310726,
+                "rmse": 0.0001017538469749655,
+                "max": 0.004150390625
+              }
+            },
+            "change": {
+              "display": {
+                "rmse": 5.217544521451957,
+                "max": 147
+              },
+              "linear": {
+                "rmse": 0.04015705810827876,
+                "max": 0.90863037109375
+              }
+            }
+          },
+          "draw": {
+            "calls": 7,
+            "triangles": 292866
+          },
+          "physicalStatePreserved": true
+        },
+        {
+          "label": "limb",
+          "radius": 1.05,
+          "phase": 35,
+          "yaw": 1.2645,
+          "fov": 4,
+          "metrics": {
+            "previous": {
+              "display": {
+                "mae": 0.22241,
+                "rmse": 1.1694500131828351,
+                "max": 36
+              },
+              "linear": {
+                "mae": 0.0015107929347082973,
+                "rmse": 0.007374393601400095,
+                "max": 0.25439453125
+              }
+            },
+            "candidate": {
+              "display": {
+                "mae": 0.07645083333333333,
+                "rmse": 0.33193749411598567,
+                "max": 8
+              },
+              "linear": {
+                "mae": 0.0007061787044629455,
+                "rmse": 0.0025294122181199856,
+                "max": 0.11376953125
+              }
+            },
+            "dense": {
+              "display": {
+                "mae": 0.0017133333333333334,
+                "rmse": 0.0413924308700677,
+                "max": 1
+              },
+              "linear": {
+                "mae": 0.000020655087791383268,
+                "rmse": 0.00009917151107338801,
+                "max": 0.00341796875
+              }
+            },
+            "change": {
+              "display": {
+                "rmse": 5.210857255129269,
+                "max": 144
+              },
+              "linear": {
+                "rmse": 0.04009873575232156,
+                "max": 0.91424560546875
+              }
+            }
+          },
+          "draw": {
+            "calls": 7,
+            "triangles": 292866
+          },
+          "physicalStatePreserved": true
+        },
+        {
+          "label": "limb-right",
+          "radius": 1.05,
+          "phase": 35,
+          "yaw": 1.265,
+          "fov": 4,
+          "metrics": {
+            "previous": {
+              "display": {
+                "mae": 0.21348,
+                "rmse": 1.1239491388255372,
+                "max": 48
+              },
+              "linear": {
+                "mae": 0.0014782346675544977,
+                "rmse": 0.0073538389959180725,
+                "max": 0.30712890625
+              }
+            },
+            "candidate": {
+              "display": {
+                "mae": 0.075485,
+                "rmse": 0.3287856444554719,
+                "max": 8
+              },
+              "linear": {
+                "mae": 0.0006984978628158569,
+                "rmse": 0.0024759880012076726,
+                "max": 0.074951171875
+              }
+            },
+            "dense": {
+              "display": {
+                "mae": 0.0017441666666666667,
+                "rmse": 0.04176322145939734,
+                "max": 1
+              },
+              "linear": {
+                "mae": 0.000020671377368271352,
+                "rmse": 0.00010048785868458271,
+                "max": 0.0048828125
+              }
+            },
+            "change": {
+              "display": {
+                "rmse": 5.226500103638508,
+                "max": 146
+              },
+              "linear": {
+                "rmse": 0.04023575648691377,
+                "max": 0.90704345703125
+              }
+            }
+          },
+          "draw": {
+            "calls": 7,
+            "triangles": 292866
+          },
+          "physicalStatePreserved": true
+        },
+        {
+          "label": "horizon",
+          "radius": 1.05,
+          "phase": 35,
+          "yaw": 1.2,
+          "fov": 4,
+          "metrics": {
+            "previous": {
+              "display": {
+                "mae": 0.30011333333333334,
+                "rmse": 1.3314328121739127,
+                "max": 64
+              },
+              "linear": {
+                "mae": 0.0019544019270688294,
+                "rmse": 0.007963396516291823,
+                "max": 0.3394775390625
+              }
+            },
+            "candidate": {
+              "display": {
+                "mae": 0.10266833333333333,
+                "rmse": 0.3690302607284846,
+                "max": 8
+              },
+              "linear": {
+                "mae": 0.0008998118014261127,
+                "rmse": 0.002669028155386339,
+                "max": 0.0654296875
+              }
+            },
+            "dense": {
+              "display": {
+                "mae": 0.00286,
+                "rmse": 0.05347896782848375,
+                "max": 1
+              },
+              "linear": {
+                "mae": 0.000025134523287415505,
+                "rmse": 0.00010496214456793064,
+                "max": 0.001953125
+              }
+            },
+            "change": {
+              "display": {
+                "rmse": 5.385516610935915,
+                "max": 145
+              },
+              "linear": {
+                "rmse": 0.04167935307801354,
+                "max": 0.91412353515625
+              }
+            }
+          },
+          "draw": {
+            "calls": 7,
+            "triangles": 292866
+          },
+          "physicalStatePreserved": true
+        },
+        {
+          "label": "closest-limb",
+          "radius": 1.035,
+          "phase": 35,
+          "yaw": 1.3,
+          "fov": 4,
+          "metrics": {
+            "previous": {
+              "display": {
+                "mae": 0.24991083333333333,
+                "rmse": 1.5902518144411384,
+                "max": 81
+              },
+              "linear": {
+                "mae": 0.0016223206926882267,
+                "rmse": 0.011757847434681055,
+                "max": 0.827789306640625
+              }
+            },
+            "candidate": {
+              "display": {
+                "mae": 0.05895416666666667,
+                "rmse": 0.26609365519180145,
+                "max": 6
+              },
+              "linear": {
+                "mae": 0.0004970228154957295,
+                "rmse": 0.0015782846186655896,
+                "max": 0.0478515625
+              }
+            },
+            "dense": {
+              "display": {
+                "mae": 0.0021266666666666665,
+                "rmse": 0.04611579628139003,
+                "max": 1
+              },
+              "linear": {
+                "mae": 0.00002788215175271034,
+                "rmse": 0.00013225334069764244,
+                "max": 0.005859375
+              }
+            },
+            "change": {
+              "display": {
+                "rmse": 4.53654870652423,
+                "max": 129
+              },
+              "linear": {
+                "rmse": 0.041098150285710094,
+                "max": 0.99951171875
+              }
+            }
+          },
+          "draw": {
+            "calls": 7,
+            "triangles": 292866
+          },
+          "physicalStatePreserved": true
+        },
+        {
+          "label": "pole",
+          "radius": 1.05,
+          "phase": 35,
+          "yaw": 0,
+          "fov": 4,
+          "metrics": {
+            "previous": {
+              "display": {
+                "mae": 0.29093166666666664,
+                "rmse": 1.4106511498831547,
+                "max": 24
+              },
+              "linear": {
+                "mae": 0.0004495304672792554,
+                "rmse": 0.0028527528261621327,
+                "max": 0.059814453125
+              }
+            },
+            "candidate": {
+              "display": {
+                "mae": 0.0942825,
+                "rmse": 0.3070545554132034,
+                "max": 1
+              },
+              "linear": {
+                "mae": 0.00012683296017348766,
+                "rmse": 0.00030210692064451663,
+                "max": 0.0020751953125
+              }
+            },
+            "dense": {
+              "display": {
+                "mae": 0.0041758333333333335,
+                "rmse": 0.06462068812178755,
+                "max": 1
+              },
+              "linear": {
+                "mae": 0.0000033423344045877456,
+                "rmse": 0.000017384735718630564,
+                "max": 0.00048828125
+              }
+            },
+            "change": {
+              "display": {
+                "rmse": 12.505614472441302,
+                "max": 74
+              },
+              "linear": {
+                "rmse": 0.016185660303655307,
+                "max": 0.138458251953125
+              }
+            }
+          },
+          "draw": {
+            "calls": 7,
+            "triangles": 292866
+          },
+          "physicalStatePreserved": true
+        },
+        {
+          "label": "seam",
+          "radius": 1.05,
+          "phase": 35,
+          "yaw": 0,
+          "fov": 4,
+          "metrics": {
+            "previous": {
+              "display": {
+                "mae": 0.00786,
+                "rmse": 0.08865664103720601,
+                "max": 1
+              },
+              "linear": {
+                "mae": 0.000021621299684047697,
+                "rmse": 0.000056193826353032905,
+                "max": 0.00048828125
+              }
+            },
+            "candidate": {
+              "display": {
+                "mae": 0.00786,
+                "rmse": 0.08865664103720601,
+                "max": 1
+              },
+              "linear": {
+                "mae": 0.000021621299684047697,
+                "rmse": 0.000056193826353032905,
+                "max": 0.00048828125
+              }
+            },
+            "dense": {
+              "display": {
+                "mae": 0.0027275,
+                "rmse": 0.05222547271207796,
+                "max": 1
+              },
+              "linear": {
+                "mae": 0.0000053111067414283755,
+                "rmse": 0.0000197826025419703,
+                "max": 0.00048828125
+              }
+            },
+            "change": {
+              "display": {
+                "rmse": 0,
+                "max": 0
+              },
+              "linear": {
+                "rmse": 0,
+                "max": 0
+              }
+            }
+          },
+          "draw": {
+            "calls": 7,
+            "triangles": 292866
+          },
+          "physicalStatePreserved": true
+        }
+      ],
+      "motion": {
+        "previous": 0.009948229736867322,
+        "candidate": 0.0019093974171527435
+      },
+      "errors": []
+    }
+  ]
+}

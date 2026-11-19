@@ -1,0 +1,99 @@
+{
+  "version": "0.95.0",
+  "dpr": 2,
+  "native": true,
+  "simulatedContextLoss": true,
+  "underlyingDriverResetReproduced": false,
+  "outcomes": [
+    {
+      "name": "Chrome",
+      "engineVersion": "158.0.8127.37",
+      "checks": [
+        {
+          "label": "flying-moon",
+          "heldImage": null,
+          "preservedWhileLost": true,
+          "preservedAfterRestoration": true,
+          "explicitResume": true,
+          "litPixels": 181624,
+          "settledDraws": 0,
+          "heldInputBlocked": true
+        },
+        {
+          "label": "held-moon",
+          "heldImage": {
+            "mean": 0,
+            "max": 0
+          },
+          "preservedWhileLost": true,
+          "preservedAfterRestoration": true,
+          "explicitResume": true,
+          "litPixels": 183494,
+          "settledDraws": 0,
+          "heldInputBlocked": true
+        }
+      ],
+      "errors": []
+    },
+    {
+      "name": "Firefox",
+      "engineVersion": "153.0",
+      "checks": [
+        {
+          "label": "flying-moon",
+          "heldImage": null,
+          "preservedWhileLost": true,
+          "preservedAfterRestoration": true,
+          "explicitResume": true,
+          "litPixels": 182174,
+          "settledDraws": 0,
+          "heldInputBlocked": true
+        },
+        {
+          "label": "held-moon",
+          "heldImage": {
+            "mean": 0,
+            "max": 0
+          },
+          "preservedWhileLost": true,
+          "preservedAfterRestoration": true,
+          "explicitResume": true,
+          "litPixels": 183496,
+          "settledDraws": 0,
+          "heldInputBlocked": true
+        }
+      ],
+      "errors": []
+    },
+    {
+      "name": "WebKit",
+      "engineVersion": "26.5",
+      "checks": [
+        {
+          "label": "flying-moon",
+          "heldImage": null,
+          "preservedWhileLost": true,
+          "preservedAfterRestoration": true,
+          "explicitResume": true,
+          "litPixels": 182949,
+          "settledDraws": 0,
+          "heldInputBlocked": true
+        },
+        {
+          "label": "held-moon",
+          "heldImage": {
+            "mean": 0,
+            "max": 0
+          },
+          "preservedWhileLost": true,
+          "preservedAfterRestoration": true,
+          "explicitResume": true,
+          "litPixels": 183509,
+          "settledDraws": 0,
+          "heldInputBlocked": true
+        }
+      ],
+      "errors": []
+    }
+  ]
+}

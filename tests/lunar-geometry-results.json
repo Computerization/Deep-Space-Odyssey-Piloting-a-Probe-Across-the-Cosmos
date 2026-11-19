@@ -1,0 +1,478 @@
+{
+  "version": "0.83.0",
+  "hashes": {
+    "src/world.js": "e072365d18f611c64b541b579cda4b584eeb15dd3eb3f1e356eb9126e30cfa8a",
+    "src/rendering/scene-factory.js": "8a830a932d5f48bd24d46d6d40892cb1d93fbf6719c106235b1ff7cfcfb6a041",
+    "assets/textures/moon-height.webp": "3cbbc1667418cef9bd6b30ed521fa74bbde1bea8d8d3bf3354061610fb130720",
+    "/private/tmp/cosmos-lunar-candidates/height-reference.bin": "7ecf94e316db68672c57066046b3c070bb18fec3877a07f73ac3ac552ec68e25",
+    "/private/tmp/cosmos-v83-previous/Cosmos/assets/textures/moon-relief.bin": "711e4a07c04dcd1cc6a6d49ae06aead376d3f6947a288126c3de5ed691d65f45"
+  },
+  "reference": "Native NASA LOLA Float32 elevation; independent bottom-first sampler, 2048x1152 reference mesh and 1024x576 convergence control. No vertical exaggeration.",
+  "outcomes": [
+    {
+      "name": "Chrome",
+      "engineVersion": "158.0.8127.37",
+      "fields": {
+        "candidate": {
+          "meanMetres": 12.022098891670732,
+          "p95Metres": 29.239738953725226,
+          "maxMetres": 41.1552776187003,
+          "vertices": 148257,
+          "triangles": 293888
+        },
+        "previous": {
+          "meanMetres": 196.00795522057112,
+          "p95Metres": 715.7148602123891,
+          "maxMetres": 2231.9572966761366,
+          "vertices": 37265,
+          "triangles": 73216
+        },
+        "seam": 2.4532191734852674e-16,
+        "pole": 0,
+        "bounds": {
+          "centre": [
+            0,
+            0,
+            0
+          ],
+          "radius": 1.0054069934703453,
+          "maxRadius": 1.0054069934703456
+        }
+      },
+      "views": [
+        {
+          "label": "north",
+          "metrics": {
+            "previous": {
+              "meanPixels": 0.998,
+              "p95Pixels": 3,
+              "maxPixels": 5
+            },
+            "candidate": {
+              "meanPixels": 0.453,
+              "p95Pixels": 1,
+              "maxPixels": 2
+            },
+            "convergence": {
+              "meanPixels": 0.184,
+              "p95Pixels": 1,
+              "maxPixels": 2
+            }
+          }
+        },
+        {
+          "label": "south",
+          "metrics": {
+            "previous": {
+              "meanPixels": 1.152,
+              "p95Pixels": 3,
+              "maxPixels": 5
+            },
+            "candidate": {
+              "meanPixels": 0.494,
+              "p95Pixels": 1,
+              "maxPixels": 2
+            },
+            "convergence": {
+              "meanPixels": 0.233,
+              "p95Pixels": 1,
+              "maxPixels": 2
+            }
+          }
+        },
+        {
+          "label": "east",
+          "metrics": {
+            "previous": {
+              "meanPixels": 1.163,
+              "p95Pixels": 2,
+              "maxPixels": 4
+            },
+            "candidate": {
+              "meanPixels": 0.661,
+              "p95Pixels": 2,
+              "maxPixels": 3
+            },
+            "convergence": {
+              "meanPixels": 0.21,
+              "p95Pixels": 1,
+              "maxPixels": 2
+            }
+          }
+        },
+        {
+          "label": "west",
+          "metrics": {
+            "previous": {
+              "meanPixels": 1.371,
+              "p95Pixels": 3,
+              "maxPixels": 4
+            },
+            "candidate": {
+              "meanPixels": 0.566,
+              "p95Pixels": 2,
+              "maxPixels": 3
+            },
+            "convergence": {
+              "meanPixels": 0.334,
+              "p95Pixels": 1,
+              "maxPixels": 2
+            }
+          }
+        },
+        {
+          "label": "north-oblique",
+          "metrics": {
+            "previous": {
+              "meanPixels": 0.89,
+              "p95Pixels": 2,
+              "maxPixels": 4
+            },
+            "candidate": {
+              "meanPixels": 0.571,
+              "p95Pixels": 1,
+              "maxPixels": 2
+            },
+            "convergence": {
+              "meanPixels": 0.203,
+              "p95Pixels": 1,
+              "maxPixels": 2
+            }
+          }
+        },
+        {
+          "label": "south-oblique",
+          "metrics": {
+            "previous": {
+              "meanPixels": 0.939,
+              "p95Pixels": 2,
+              "maxPixels": 4
+            },
+            "candidate": {
+              "meanPixels": 0.422,
+              "p95Pixels": 1,
+              "maxPixels": 3
+            },
+            "convergence": {
+              "meanPixels": 0.181,
+              "p95Pixels": 1,
+              "maxPixels": 2
+            }
+          }
+        }
+      ],
+      "errors": [],
+      "passed": true
+    },
+    {
+      "name": "Firefox",
+      "engineVersion": "153.0",
+      "fields": {
+        "candidate": {
+          "meanMetres": 12.022098891670565,
+          "p95Metres": 29.239738953725226,
+          "maxMetres": 41.1552776187003,
+          "vertices": 148257,
+          "triangles": 293888
+        },
+        "previous": {
+          "meanMetres": 196.00795522057132,
+          "p95Metres": 715.7148602123891,
+          "maxMetres": 2231.9572966761366,
+          "vertices": 37265,
+          "triangles": 73216
+        },
+        "seam": 2.4532191734852674e-16,
+        "pole": 0,
+        "bounds": {
+          "centre": [
+            0,
+            0,
+            0
+          ],
+          "radius": 1.0054069934703453,
+          "maxRadius": 1.0054069934703456
+        }
+      },
+      "views": [
+        {
+          "label": "north",
+          "metrics": {
+            "previous": {
+              "meanPixels": 0.998,
+              "p95Pixels": 3,
+              "maxPixels": 5
+            },
+            "candidate": {
+              "meanPixels": 0.453,
+              "p95Pixels": 1,
+              "maxPixels": 2
+            },
+            "convergence": {
+              "meanPixels": 0.184,
+              "p95Pixels": 1,
+              "maxPixels": 2
+            }
+          }
+        },
+        {
+          "label": "south",
+          "metrics": {
+            "previous": {
+              "meanPixels": 1.152,
+              "p95Pixels": 3,
+              "maxPixels": 5
+            },
+            "candidate": {
+              "meanPixels": 0.493,
+              "p95Pixels": 1,
+              "maxPixels": 2
+            },
+            "convergence": {
+              "meanPixels": 0.233,
+              "p95Pixels": 1,
+              "maxPixels": 2
+            }
+          }
+        },
+        {
+          "label": "east",
+          "metrics": {
+            "previous": {
+              "meanPixels": 1.163,
+              "p95Pixels": 2,
+              "maxPixels": 4
+            },
+            "candidate": {
+              "meanPixels": 0.661,
+              "p95Pixels": 2,
+              "maxPixels": 3
+            },
+            "convergence": {
+              "meanPixels": 0.21,
+              "p95Pixels": 1,
+              "maxPixels": 2
+            }
+          }
+        },
+        {
+          "label": "west",
+          "metrics": {
+            "previous": {
+              "meanPixels": 1.371,
+              "p95Pixels": 3,
+              "maxPixels": 4
+            },
+            "candidate": {
+              "meanPixels": 0.566,
+              "p95Pixels": 2,
+              "maxPixels": 3
+            },
+            "convergence": {
+              "meanPixels": 0.334,
+              "p95Pixels": 1,
+              "maxPixels": 2
+            }
+          }
+        },
+        {
+          "label": "north-oblique",
+          "metrics": {
+            "previous": {
+              "meanPixels": 0.89,
+              "p95Pixels": 2,
+              "maxPixels": 4
+            },
+            "candidate": {
+              "meanPixels": 0.571,
+              "p95Pixels": 1,
+              "maxPixels": 2
+            },
+            "convergence": {
+              "meanPixels": 0.203,
+              "p95Pixels": 1,
+              "maxPixels": 2
+            }
+          }
+        },
+        {
+          "label": "south-oblique",
+          "metrics": {
+            "previous": {
+              "meanPixels": 0.939,
+              "p95Pixels": 2,
+              "maxPixels": 4
+            },
+            "candidate": {
+              "meanPixels": 0.422,
+              "p95Pixels": 1,
+              "maxPixels": 3
+            },
+            "convergence": {
+              "meanPixels": 0.181,
+              "p95Pixels": 1,
+              "maxPixels": 2
+            }
+          }
+        }
+      ],
+      "errors": [],
+      "passed": true
+    },
+    {
+      "name": "WebKit",
+      "engineVersion": "26.5",
+      "fields": {
+        "candidate": {
+          "meanMetres": 12.022098891670687,
+          "p95Metres": 29.239738953725226,
+          "maxMetres": 41.1552776187003,
+          "vertices": 148257,
+          "triangles": 293888
+        },
+        "previous": {
+          "meanMetres": 196.00795522057155,
+          "p95Metres": 715.7148602123891,
+          "maxMetres": 2231.9572966763294,
+          "vertices": 37265,
+          "triangles": 73216
+        },
+        "seam": 2.4532191734852674e-16,
+        "pole": 0,
+        "bounds": {
+          "centre": [
+            0,
+            0,
+            0
+          ],
+          "radius": 1.0054069934703453,
+          "maxRadius": 1.0054069934703453
+        }
+      },
+      "views": [
+        {
+          "label": "north",
+          "metrics": {
+            "previous": {
+              "meanPixels": 0.998,
+              "p95Pixels": 3,
+              "maxPixels": 5
+            },
+            "candidate": {
+              "meanPixels": 0.453,
+              "p95Pixels": 1,
+              "maxPixels": 2
+            },
+            "convergence": {
+              "meanPixels": 0.184,
+              "p95Pixels": 1,
+              "maxPixels": 2
+            }
+          }
+        },
+        {
+          "label": "south",
+          "metrics": {
+            "previous": {
+              "meanPixels": 1.152,
+              "p95Pixels": 3,
+              "maxPixels": 5
+            },
+            "candidate": {
+              "meanPixels": 0.494,
+              "p95Pixels": 1,
+              "maxPixels": 2
+            },
+            "convergence": {
+              "meanPixels": 0.233,
+              "p95Pixels": 1,
+              "maxPixels": 2
+            }
+          }
+        },
+        {
+          "label": "east",
+          "metrics": {
+            "previous": {
+              "meanPixels": 1.163,
+              "p95Pixels": 2,
+              "maxPixels": 4
+            },
+            "candidate": {
+              "meanPixels": 0.661,
+              "p95Pixels": 2,
+              "maxPixels": 3
+            },
+            "convergence": {
+              "meanPixels": 0.21,
+              "p95Pixels": 1,
+              "maxPixels": 2
+            }
+          }
+        },
+        {
+          "label": "west",
+          "metrics": {
+            "previous": {
+              "meanPixels": 1.371,
+              "p95Pixels": 3,
+              "maxPixels": 4
+            },
+            "candidate": {
+              "meanPixels": 0.566,
+              "p95Pixels": 2,
+              "maxPixels": 3
+            },
+            "convergence": {
+              "meanPixels": 0.334,
+              "p95Pixels": 1,
+              "maxPixels": 2
+            }
+          }
+        },
+        {
+          "label": "north-oblique",
+          "metrics": {
+            "previous": {
+              "meanPixels": 0.89,
+              "p95Pixels": 2,
+              "maxPixels": 4
+            },
+            "candidate": {
+              "meanPixels": 0.571,
+              "p95Pixels": 1,
+              "maxPixels": 2
+            },
+            "convergence": {
+              "meanPixels": 0.203,
+              "p95Pixels": 1,
+              "maxPixels": 2
+            }
+          }
+        },
+        {
+          "label": "south-oblique",
+          "metrics": {
+            "previous": {
+              "meanPixels": 0.939,
+              "p95Pixels": 2,
+              "maxPixels": 4
+            },
+            "candidate": {
+              "meanPixels": 0.422,
+              "p95Pixels": 1,
+              "maxPixels": 3
+            },
+            "convergence": {
+              "meanPixels": 0.181,
+              "p95Pixels": 1,
+              "maxPixels": 2
+            }
+          }
+        }
+      ],
+      "errors": [],
+      "passed": true
+    }
+  ]
+}

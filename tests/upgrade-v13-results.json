@@ -1,0 +1,12 @@
+{
+  "previous": "0.12.0",
+  "current": "0.13.0",
+  "oldCacheRemovedAtActivation": true,
+  "lateStaleCacheIsolated": true,
+  "newCache": [
+    "cosmos-exploration-v13"
+  ],
+  "offlineReload": true,
+  "flightReviewVisible": true,
+  "errors": []
+}

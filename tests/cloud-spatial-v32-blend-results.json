@@ -1,0 +1,483 @@
+{
+  "version": "0.32.0",
+  "reference": "Premultiplied linear cloud radiance integrated over 4x4 spatial subpixels at 16x anisotropy, compared with 640x400. Same 20 view and 4 sunlight integration steps. This measures spatial sampling, not photographic equivalence.",
+  "outcomes": [
+    {
+      "name": "Chrome",
+      "engineVersion": "158.0.8127.37",
+      "views": [
+        {
+          "label": "day",
+          "radius": 2.35,
+          "phase": 35,
+          "yaw": 0,
+          "metrics": {
+            "previous": {
+              "channels": 156108,
+              "mean": 0.030970657092791173,
+              "rmse": 0.052517716159441286,
+              "max": 0.9822292327880859
+            },
+            "candidate": {
+              "channels": 156108,
+              "mean": 0.028933869234948964,
+              "rmse": 0.05040783301916783,
+              "max": 0.9822292327880859
+            }
+          }
+        },
+        {
+          "label": "terminator",
+          "radius": 2.35,
+          "phase": 90,
+          "yaw": 0,
+          "metrics": {
+            "previous": {
+              "channels": 79437,
+              "mean": 0.025440621049705976,
+              "rmse": 0.05268201118192981,
+              "max": 1.1210933923721313
+            },
+            "candidate": {
+              "channels": 79437,
+              "mean": 0.024323620004883428,
+              "rmse": 0.0513276814858432,
+              "max": 1.1201168298721313
+            }
+          }
+        },
+        {
+          "label": "crescent",
+          "radius": 2.35,
+          "phase": 150,
+          "yaw": 0,
+          "metrics": {
+            "previous": {
+              "channels": 681,
+              "mean": 0.08537370087401107,
+              "rmse": 0.1824006698177394,
+              "max": 1.4078216552734375
+            },
+            "candidate": {
+              "channels": 681,
+              "mean": 0.08536594701867972,
+              "rmse": 0.18241101851476293,
+              "max": 1.4078216552734375
+            }
+          }
+        },
+        {
+          "label": "close",
+          "radius": 1.05,
+          "phase": 50,
+          "yaw": 0,
+          "metrics": {
+            "previous": {
+              "channels": 438348,
+              "mean": 0.00034765063842287774,
+              "rmse": 0.001217690434597807,
+              "max": 0.094696044921875
+            },
+            "candidate": {
+              "channels": 438348,
+              "mean": 0.00034765230058895975,
+              "rmse": 0.0012176930850463453,
+              "max": 0.094696044921875
+            }
+          }
+        },
+        {
+          "label": "grazing",
+          "radius": 1.08,
+          "phase": 90,
+          "yaw": 0,
+          "metrics": {
+            "previous": {
+              "channels": 330366,
+              "mean": 0.0003097059211680844,
+              "rmse": 0.0016545948229177015,
+              "max": 0.17765426635742188
+            },
+            "candidate": {
+              "channels": 330366,
+              "mean": 0.0003097063404642421,
+              "rmse": 0.0016545954109686283,
+              "max": 0.17765426635742188
+            }
+          }
+        },
+        {
+          "label": "turn-left",
+          "radius": 2.35,
+          "phase": 35,
+          "yaw": -0.001,
+          "metrics": {
+            "previous": {
+              "channels": 156216,
+              "mean": 0.03090807249098131,
+              "rmse": 0.05228901000869289,
+              "max": 1.0130562782287598
+            },
+            "candidate": {
+              "channels": 156216,
+              "mean": 0.028926250813749717,
+              "rmse": 0.05023893299525035,
+              "max": 1.0150094032287598
+            }
+          }
+        },
+        {
+          "label": "turn-right",
+          "radius": 2.35,
+          "phase": 35,
+          "yaw": 0.001,
+          "metrics": {
+            "previous": {
+              "channels": 156270,
+              "mean": 0.030887319405689583,
+              "rmse": 0.05211697624278148,
+              "max": 0.8907051086425781
+            },
+            "candidate": {
+              "channels": 156270,
+              "mean": 0.028913670864261113,
+              "rmse": 0.05002870169963391,
+              "max": 0.8887519836425781
+            }
+          }
+        }
+      ],
+      "motion": {
+        "previous": {
+          "channels": 333435,
+          "rmse": 0.04849012517996813,
+          "max": 1.1842689514160156
+        },
+        "candidate": {
+          "channels": 333435,
+          "rmse": 0.04741316616359416,
+          "max": 1.1842689514160156
+        }
+      },
+      "errors": []
+    },
+    {
+      "name": "Firefox",
+      "engineVersion": "153.0",
+      "views": [
+        {
+          "label": "day",
+          "radius": 2.35,
+          "phase": 35,
+          "yaw": 0,
+          "metrics": {
+            "previous": {
+              "channels": 156117,
+              "mean": 0.031808724885862956,
+              "rmse": 0.058063427622100795,
+              "max": 1.0122465938329697
+            },
+            "candidate": {
+              "channels": 156117,
+              "mean": 0.02997739088985674,
+              "rmse": 0.058088522078065155,
+              "max": 1.0513090938329697
+            }
+          }
+        },
+        {
+          "label": "terminator",
+          "radius": 2.35,
+          "phase": 90,
+          "yaw": 0,
+          "metrics": {
+            "previous": {
+              "channels": 79452,
+              "mean": 0.027184640473556704,
+              "rmse": 0.0655572925140471,
+              "max": 1.124847412109375
+            },
+            "candidate": {
+              "channels": 79452,
+              "mean": 0.0261094347086517,
+              "rmse": 0.0647450139886804,
+              "max": 1.1233278512954712
+            }
+          }
+        },
+        {
+          "label": "crescent",
+          "radius": 2.35,
+          "phase": 150,
+          "yaw": 0,
+          "metrics": {
+            "previous": {
+              "channels": 699,
+              "mean": 0.09089290460462393,
+              "rmse": 0.1949098085692002,
+              "max": 1.3128738403320312
+            },
+            "candidate": {
+              "channels": 699,
+              "mean": 0.0910330146700357,
+              "rmse": 0.1953690972107509,
+              "max": 1.3128738403320312
+            }
+          }
+        },
+        {
+          "label": "close",
+          "radius": 1.05,
+          "phase": 50,
+          "yaw": 0,
+          "metrics": {
+            "previous": {
+              "channels": 438345,
+              "mean": 0.0003478800985711403,
+              "rmse": 0.0012180107740978141,
+              "max": 0.0948486328125
+            },
+            "candidate": {
+              "channels": 438345,
+              "mean": 0.0003478828572635703,
+              "rmse": 0.001218015090041332,
+              "max": 0.0948486328125
+            }
+          }
+        },
+        {
+          "label": "grazing",
+          "radius": 1.08,
+          "phase": 90,
+          "yaw": 0,
+          "metrics": {
+            "previous": {
+              "channels": 330366,
+              "mean": 0.0003096892440535674,
+              "rmse": 0.0016529275800301214,
+              "max": 0.17765426635742188
+            },
+            "candidate": {
+              "channels": 330366,
+              "mean": 0.00030968998594074494,
+              "rmse": 0.0016529309637688156,
+              "max": 0.17765426635742188
+            }
+          }
+        },
+        {
+          "label": "turn-left",
+          "radius": 2.35,
+          "phase": 35,
+          "yaw": -0.001,
+          "metrics": {
+            "previous": {
+              "channels": 156219,
+              "mean": 0.031809036159251125,
+              "rmse": 0.058422884077001094,
+              "max": 1.0618820190429688
+            },
+            "candidate": {
+              "channels": 156219,
+              "mean": 0.03012078270681549,
+              "rmse": 0.05913922985197894,
+              "max": 1.066918969154358
+            }
+          }
+        },
+        {
+          "label": "turn-right",
+          "radius": 2.35,
+          "phase": 35,
+          "yaw": 0.001,
+          "metrics": {
+            "previous": {
+              "channels": 156291,
+              "mean": 0.031653809745622125,
+              "rmse": 0.05702141663776461,
+              "max": 1.0048542022705078
+            },
+            "candidate": {
+              "channels": 156291,
+              "mean": 0.02986669242455463,
+              "rmse": 0.0568200212346137,
+              "max": 1.0009479522705078
+            }
+          }
+        }
+      ],
+      "motion": {
+        "previous": {
+          "channels": 333522,
+          "rmse": 0.05256843098846495,
+          "max": 1.1842536926269531
+        },
+        "candidate": {
+          "channels": 333522,
+          "rmse": 0.054015813818275825,
+          "max": 1.1842536926269531
+        }
+      },
+      "errors": []
+    },
+    {
+      "name": "WebKit",
+      "engineVersion": "26.5",
+      "views": [
+        {
+          "label": "day",
+          "radius": 2.35,
+          "phase": 35,
+          "yaw": 0,
+          "metrics": {
+            "previous": {
+              "channels": 156108,
+              "mean": 0.030970657092791173,
+              "rmse": 0.052517716159441286,
+              "max": 0.9822292327880859
+            },
+            "candidate": {
+              "channels": 156108,
+              "mean": 0.028933869234948964,
+              "rmse": 0.05040783301916783,
+              "max": 0.9822292327880859
+            }
+          }
+        },
+        {
+          "label": "terminator",
+          "radius": 2.35,
+          "phase": 90,
+          "yaw": 0,
+          "metrics": {
+            "previous": {
+              "channels": 79437,
+              "mean": 0.025440621049705976,
+              "rmse": 0.05268201118192981,
+              "max": 1.1210933923721313
+            },
+            "candidate": {
+              "channels": 79437,
+              "mean": 0.024323620004883428,
+              "rmse": 0.0513276814858432,
+              "max": 1.1201168298721313
+            }
+          }
+        },
+        {
+          "label": "crescent",
+          "radius": 2.35,
+          "phase": 150,
+          "yaw": 0,
+          "metrics": {
+            "previous": {
+              "channels": 681,
+              "mean": 0.08537370087401107,
+              "rmse": 0.1824006698177394,
+              "max": 1.4078216552734375
+            },
+            "candidate": {
+              "channels": 681,
+              "mean": 0.08536594701867972,
+              "rmse": 0.18241101851476293,
+              "max": 1.4078216552734375
+            }
+          }
+        },
+        {
+          "label": "close",
+          "radius": 1.05,
+          "phase": 50,
+          "yaw": 0,
+          "metrics": {
+            "previous": {
+              "channels": 438348,
+              "mean": 0.00034765063842287774,
+              "rmse": 0.001217690434597807,
+              "max": 0.094696044921875
+            },
+            "candidate": {
+              "channels": 438348,
+              "mean": 0.00034765230058895975,
+              "rmse": 0.0012176930850463453,
+              "max": 0.094696044921875
+            }
+          }
+        },
+        {
+          "label": "grazing",
+          "radius": 1.08,
+          "phase": 90,
+          "yaw": 0,
+          "metrics": {
+            "previous": {
+              "channels": 330366,
+              "mean": 0.0003097059211680844,
+              "rmse": 0.0016545948229177015,
+              "max": 0.17765426635742188
+            },
+            "candidate": {
+              "channels": 330366,
+              "mean": 0.0003097063404642421,
+              "rmse": 0.0016545954109686283,
+              "max": 0.17765426635742188
+            }
+          }
+        },
+        {
+          "label": "turn-left",
+          "radius": 2.35,
+          "phase": 35,
+          "yaw": -0.001,
+          "metrics": {
+            "previous": {
+              "channels": 156216,
+              "mean": 0.03090807249098131,
+              "rmse": 0.05228901000869289,
+              "max": 1.0130562782287598
+            },
+            "candidate": {
+              "channels": 156216,
+              "mean": 0.028926250813749717,
+              "rmse": 0.05023893299525035,
+              "max": 1.0150094032287598
+            }
+          }
+        },
+        {
+          "label": "turn-right",
+          "radius": 2.35,
+          "phase": 35,
+          "yaw": 0.001,
+          "metrics": {
+            "previous": {
+              "channels": 156270,
+              "mean": 0.030887319405689583,
+              "rmse": 0.05211697624278148,
+              "max": 0.8907051086425781
+            },
+            "candidate": {
+              "channels": 156270,
+              "mean": 0.028913670864261113,
+              "rmse": 0.05002870169963391,
+              "max": 0.8887519836425781
+            }
+          }
+        }
+      ],
+      "motion": {
+        "previous": {
+          "channels": 333435,
+          "rmse": 0.04849012517996813,
+          "max": 1.1842689514160156
+        },
+        "candidate": {
+          "channels": 333435,
+          "rmse": 0.04741316616359416,
+          "max": 1.1842689514160156
+        }
+      },
+      "errors": []
+    }
+  ]
+}

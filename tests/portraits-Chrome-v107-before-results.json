@@ -1,0 +1,22 @@
+{
+  "engine": "Chrome",
+  "label": "v107-before",
+  "views": [
+    {
+      "body": "earth",
+      "kind": "globe",
+      "file": "tests/screenshots/portrait-Chrome-v107-before-earth-globe.png"
+    },
+    {
+      "body": "earth",
+      "kind": "crescent",
+      "file": "tests/screenshots/portrait-Chrome-v107-before-earth-crescent.png"
+    },
+    {
+      "body": "earth",
+      "kind": "near",
+      "file": "tests/screenshots/portrait-Chrome-v107-before-earth-near.png"
+    }
+  ],
+  "errors": []
+}

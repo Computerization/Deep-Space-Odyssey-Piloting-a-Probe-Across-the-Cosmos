@@ -1,0 +1,86 @@
+[
+  {
+    "name": "earth-himalaya",
+    "body": "earth",
+    "rect": [
+      11804,
+      2539,
+      512,
+      384
+    ],
+    "size": [
+      16384,
+      8192
+    ]
+  },
+  {
+    "name": "earth-sahara",
+    "body": "earth",
+    "rect": [
+      8619,
+      2812,
+      512,
+      384
+    ],
+    "size": [
+      16384,
+      8192
+    ]
+  },
+  {
+    "name": "earth-andes",
+    "body": "earth",
+    "rect": [
+      4841,
+      4814,
+      512,
+      384
+    ],
+    "size": [
+      16384,
+      8192
+    ]
+  },
+  {
+    "name": "moon-tycho",
+    "body": "moon",
+    "rect": [
+      7419,
+      5875,
+      512,
+      384
+    ],
+    "size": [
+      16384,
+      8192
+    ]
+  },
+  {
+    "name": "moon-copernicus",
+    "body": "moon",
+    "rect": [
+      7022,
+      3466,
+      512,
+      384
+    ],
+    "size": [
+      16384,
+      8192
+    ]
+  },
+  {
+    "name": "moon-far-side",
+    "body": "moon",
+    "rect": [
+      14763,
+      3221,
+      512,
+      384
+    ],
+    "size": [
+      16384,
+      8192
+    ]
+  }
+]

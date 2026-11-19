@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+ <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#000">
+ <meta name="description" content="Take the controls of Voyager 1. A voyage from Earth to the space between stars."><title>Cosmos — Voyager 1</title>
+ <link rel="preload" href="assets/models/voyager-compact.glb" as="fetch" crossorigin><link rel="icon" href="assets/icon.svg" type="image/svg+xml"><link rel="stylesheet" href="style.css"><link rel="stylesheet" href="src/ui/flight.css">
+ <script type="importmap">{"imports":{"three":"./vendor/three/three.module.js","three/addons/":"./vendor/three/addons/"}}</script>
+</head>
+<body>
+ <canvas id="universe" tabindex="-1" aria-label="Spacecraft view"></canvas>
+ <main id="landing">
+  <div class="landing-copy"><p class="landing-description">COSMOS</p><p class="landing-years">Voyager 1<span>1977 — 2026</span></p><p class="landing-premise">Pilot Voyager 1 from Earth to interstellar space.</p>
+   <div class="launch-actions"><button id="begin" class="primary" disabled>Preparing <span id="load-percent">0%</span></button><button id="continue" class="text-button" hidden>Continue voyage</button><button id="chapter-select" class="text-button" disabled>Encounters</button><button id="landing-notes" class="text-button" disabled>About</button></div><p id="resume-context" hidden></p>
+  </div>
+  <section id="craft-plate" aria-label="Voyager spacecraft model" hidden>
+   <header><span>NASA / VTAD · SPACECRAFT STUDY</span><span id="craft-number"></span></header>
+   <div id="craft-stage" tabindex="0" role="group" aria-label="Rotate or magnify Voyager" aria-describedby="craft-gesture"></div>
+   <div class="craft-legend"><h2 id="craft-title"></h2><p id="craft-caption"></p></div>
+   <nav id="craft-views" aria-label="Model views"><button>Overview</button><button>Antenna</button><button>Cameras</button><button>Power</button><button>Boom</button></nav>
+   <p id="craft-gesture">Drag or use arrows to rotate · Scroll or + / − to zoom · Home to reset</p>
+  </section>
+  <nav class="landing-footer"><button id="landing-sound" aria-label="Enable or mute sound">Sound on</button></nav><div id="loading-bar"><i></i></div>
+ </main>
+ <section id="hud" hidden aria-label="Flight instruments">
+  <header class="hud-top"><div class="chapter-heading"><h2 id="chapter-title"></h2><p id="chapter-date"></p><p id="world-scale"></p><button id="depart" aria-keyshortcuts="n" class="primary" hidden>Continue voyage</button></div>
+   <nav class="flight-nav" aria-label="Flight menu"><button id="view-button" aria-keyshortcuts="k" title="Camera · K">Camera</button><button id="map-button" aria-keyshortcuts="m" title="Voyage · M">Voyage</button><button id="controls-button" aria-keyshortcuts="/" title="Flight controls · ?" aria-label="Flight controls">?</button><button id="pause-button" aria-keyshortcuts="Escape" aria-label="Pause flight" title="Pause · Escape">Esc</button></nav>
+  </header>
+  <aside id="journey-direction"><p id="journey-reading" hidden></p><h3 id="journey-marker"></h3><p id="journey-caption"></p><div id="field-feedback" hidden><span id="field-status" role="status"></span><span class="field-meter" id="field-feedback-meter" aria-hidden="true"><i></i></span></div><button id="journey-action" aria-keyshortcuts="x" hidden></button></aside>
+  <div id="flight-keys" aria-label="Flight shortcuts">Mouse · steer <span>WASD · move</span><span>Q / E · roll</span><span>R / F · up / down</span><span>Shift · faster</span><span>Esc · pause</span></div>
+  <div id="crosshair" aria-hidden="true"><i></i><i></i></div>
+  <div id="bearing-leader" hidden aria-hidden="true"><svg><path id="bearing-stem"/></svg></div>
+  <button id="waypoint" aria-keyshortcuts="l" type="button" aria-label="Follow the subject" aria-pressed="false"><span class="waypoint-shape" aria-hidden="true"></span><span><span id="waypoint-name"></span><kbd id="waypoint-key">L</kbd><small id="waypoint-distance"></small></span></button>
+  <div id="velocity-marker" aria-hidden="true">⊙</div>
+  <aside id="scene-reading" class="objective" aria-label="Scene notes"><h3 id="objective-title"></h3><p id="objective-caption"></p><button id="observe-action" aria-keyshortcuts="x" aria-label="Hold to record this view"><span id="observe-key" class="key-symbol">X</span><span id="observe-label">Hold to observe</span><span id="observe-meter"><i></i></span></button></aside>
+  <div class="hud-bottom"><div class="telemetry"><div><strong id="speed">0.0 <small>km/s</small></strong><span id="motion-state">Drifting</span></div><div class="rate"><div class="time-control"><button id="slower-time" aria-label="Slower time" title="Slower time · [">−</button><button id="time-toggle" aria-label="Hold or resume time" aria-pressed="false" title="Hold or resume time"><strong id="time-rate">1×</strong></button><button id="faster-time" aria-label="Faster time" title="Faster time · T">+</button></div><span id="time-flow-detail">Time flow</span><small id="time-limit" role="status" aria-live="polite"></small></div></div>
+   
+   <nav class="log-shortcut" aria-label="Encounter tools"><button id="photo-button" aria-keyshortcuts="p" aria-label="Take photograph"><span id="photo-label">Photograph</span><kbd id="photo-key">P</kbd></button><button id="review-button" aria-keyshortcuts="u" title="Flight review · U">U · Review</button><button id="log-button" aria-keyshortcuts="j" title="Journal · J">J · Journal</button></nav>
+  </div>
+  <div id="thrust-feedback" hidden><span id="thrust-state"></span><span id="thrust-impulse"></span></div><div id="flight-hint"></div><div id="safety" role="status"></div>
+  <div id="capture-frame" hidden aria-hidden="true"><span></span><div id="capture-status"></div></div>
+  <button id="photo-receipt" aria-keyshortcuts="o" hidden aria-label="Open the photograph you just took"><img id="photo-receipt-image" alt=""><span><span id="photo-receipt-status" role="status">Saved to journal</span><span class="photo-receipt-open">O · View <span aria-hidden="true">→</span></span></span></button>
+  <div id="cruise-scale" hidden><span id="cruise-from"></span><div><i id="cruise-progress"></i><b id="cruise-craft"></b></div><span id="cruise-to"></span><p id="cruise-distance"></p></div>
+ </section>
+ <section id="passage" hidden><video id="launch-film" src="assets/archive/voyager-launch.mp4" muted playsinline preload="auto" aria-label="NASA archival film of Voyager 1 lifting off on 5 September 1977" hidden></video><div id="passage-veil"></div><div id="passage-chart" hidden></div><div class="passage-copy"><p class="eyebrow">VOYAGER 1</p><h2 id="passage-title"></h2><p id="passage-caption"></p><p id="passage-detail"></p><div class="passage-track"><i id="passage-progress"></i></div></div><p id="passage-keys">N · skip introduction <span>Esc · pause</span></p></section>
+ <div id="toast" role="status" aria-live="polite"></div>
+ <section id="panel" class="panel" role="dialog" aria-modal="true" aria-labelledby="panel-title" hidden><div class="panel-inner"><button id="panel-close" class="close-button" aria-label="Close panel">×</button><h2 id="panel-title"></h2><div id="panel-content"></div></div></section>
+ <div id="fatal" hidden role="alert"><h2>Unable to launch</h2><p id="fatal-message"></p><button onclick="location.reload()">Try again</button></div>
+ <script type="module" src="src/main.js"></script>
+</body></html>

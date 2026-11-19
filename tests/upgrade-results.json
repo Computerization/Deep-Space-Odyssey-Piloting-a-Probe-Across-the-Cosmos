@@ -1,0 +1,52 @@
+{
+  "previous": "0.96.0",
+  "current": "0.97.0",
+  "earthRestored": {
+    "position": [
+      144471966.0058491,
+      -17170576.346905112,
+      39616726.947757885
+    ],
+    "velocity": [
+      -3.442654025856796,
+      9.66655624819435,
+      -7.233868179816203
+    ],
+    "fuel": 104,
+    "seconds": 10.000000000000007,
+    "chapter": 0,
+    "history": 2,
+    "renderedRadius": 6378.137
+  },
+  "upgradedRotation": {
+    "seconds": 12.02664957374177,
+    "phase": 0.24968649249317698,
+    "date": "12 November 1980 · 05:41:12 UTC · observation study"
+  },
+  "bearingMigration": {
+    "destination": "saturn",
+    "hidden": true,
+    "retiredGameFields": [],
+    "retiredSavedFields": [],
+    "visibleSubject": "Follow Saturn"
+  },
+  "newPolarStudyWorksOffline": true,
+  "savedLensRetained": true,
+  "savedReviewLens": 58,
+  "recordedReviewLensRetained": true,
+  "legacyReviewLensFallback": false,
+  "oldSaveRestored": true,
+  "oldFlightOptionsRetained": true,
+  "newSettingsAndInstrumentsOffline": true,
+  "oldStudyReviewRestored": true,
+  "oldPhotographRetained": true,
+  "oldScienceNotesRetained": true,
+  "studyWorksOffline": true,
+  "passageChartWorksOffline": true,
+  "oldCacheRemovedAtActivation": true,
+  "lateStaleCacheIsolated": true,
+  "offlineReload": true,
+  "errors": [],
+  "legacyChaseCameraFallback": true,
+  "upgradedPassagePlayback": true
+}

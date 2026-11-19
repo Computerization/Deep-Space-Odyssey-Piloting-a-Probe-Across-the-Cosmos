@@ -1,0 +1,385 @@
+{
+  "version": "0.95.0",
+  "geometryOnly": false,
+  "reflectionOnly": false,
+  "lunarOnly": true,
+  "referenceShaderSha256": "701487cdd182379a4c813f7ff50b11e416329adc2fccc2dcff7346ac03db0532",
+  "gpuScope": "Complete frame including output resolve",
+  "geometrySourceSha256": null,
+  "reflectionRefreshEveryDraw": false,
+  "worldSha256": "abc4ceabb8554b1d6af3d43057c4dcdeeb8466b46d78d3619ab8a9b41687a661",
+  "referenceWorldSha256": "abc4ceabb8554b1d6af3d43057c4dcdeeb8466b46d78d3619ab8a9b41687a661",
+  "geometryComparison": null,
+  "method": "1280 x 800 DPR 2, High ratio 2 and cloud scale .75. Warm 120 draws per variant; then 64 interleaved ABBA groups on consecutive animation ticks, reported in four chunks of 32 GPU samples per variant. CPU values always measure the complete update.",
+  "samples": [
+    {
+      "label": "Moon",
+      "group": 0,
+      "mode": "previous",
+      "gpuSamples": 32,
+      "gpuMedianMs": 5.876874,
+      "gpuP95Ms": 11.7325,
+      "cpuMedianMs": 0.3999999761581421,
+      "output": [
+        2560,
+        1600
+      ],
+      "scene": [
+        2560,
+        1600
+      ],
+      "calls": 8,
+      "triangles": 586754,
+      "memory": {
+        "geometries": 22,
+        "textures": 31
+      }
+    },
+    {
+      "label": "Moon",
+      "group": 0,
+      "mode": "current",
+      "gpuSamples": 32,
+      "gpuMedianMs": 4.946375,
+      "gpuP95Ms": 9.739375,
+      "cpuMedianMs": 0.30000001192092896,
+      "output": [
+        2560,
+        1600
+      ],
+      "scene": [
+        2560,
+        1600
+      ],
+      "calls": 8,
+      "triangles": 586754,
+      "memory": {
+        "geometries": 22,
+        "textures": 31
+      }
+    },
+    {
+      "label": "Moon",
+      "group": 1,
+      "mode": "previous",
+      "gpuSamples": 32,
+      "gpuMedianMs": 5.157208,
+      "gpuP95Ms": 10.534625,
+      "cpuMedianMs": 0.5,
+      "output": [
+        2560,
+        1600
+      ],
+      "scene": [
+        2560,
+        1600
+      ],
+      "calls": 8,
+      "triangles": 586754,
+      "memory": {
+        "geometries": 22,
+        "textures": 31
+      }
+    },
+    {
+      "label": "Moon",
+      "group": 1,
+      "mode": "current",
+      "gpuSamples": 32,
+      "gpuMedianMs": 3.904624,
+      "gpuP95Ms": 9.3165,
+      "cpuMedianMs": 0.5,
+      "output": [
+        2560,
+        1600
+      ],
+      "scene": [
+        2560,
+        1600
+      ],
+      "calls": 8,
+      "triangles": 586754,
+      "memory": {
+        "geometries": 22,
+        "textures": 31
+      }
+    },
+    {
+      "label": "Moon",
+      "group": 2,
+      "mode": "previous",
+      "gpuSamples": 32,
+      "gpuMedianMs": 4.134499,
+      "gpuP95Ms": 5.915708,
+      "cpuMedianMs": 0.5,
+      "output": [
+        2560,
+        1600
+      ],
+      "scene": [
+        2560,
+        1600
+      ],
+      "calls": 8,
+      "triangles": 586754,
+      "memory": {
+        "geometries": 22,
+        "textures": 31
+      }
+    },
+    {
+      "label": "Moon",
+      "group": 2,
+      "mode": "current",
+      "gpuSamples": 32,
+      "gpuMedianMs": 2.961499,
+      "gpuP95Ms": 3.949958,
+      "cpuMedianMs": 0.5,
+      "output": [
+        2560,
+        1600
+      ],
+      "scene": [
+        2560,
+        1600
+      ],
+      "calls": 8,
+      "triangles": 586754,
+      "memory": {
+        "geometries": 22,
+        "textures": 31
+      }
+    },
+    {
+      "label": "Moon",
+      "group": 3,
+      "mode": "previous",
+      "gpuSamples": 32,
+      "gpuMedianMs": 4.627999,
+      "gpuP95Ms": 6.661166,
+      "cpuMedianMs": 0.5,
+      "output": [
+        2560,
+        1600
+      ],
+      "scene": [
+        2560,
+        1600
+      ],
+      "calls": 8,
+      "triangles": 586754,
+      "memory": {
+        "geometries": 22,
+        "textures": 31
+      }
+    },
+    {
+      "label": "Moon",
+      "group": 3,
+      "mode": "current",
+      "gpuSamples": 32,
+      "gpuMedianMs": 3.4985,
+      "gpuP95Ms": 5.416416,
+      "cpuMedianMs": 0.5,
+      "output": [
+        2560,
+        1600
+      ],
+      "scene": [
+        2560,
+        1600
+      ],
+      "calls": 8,
+      "triangles": 586754,
+      "memory": {
+        "geometries": 22,
+        "textures": 31
+      }
+    },
+    {
+      "label": "Moon close",
+      "group": 0,
+      "mode": "previous",
+      "gpuSamples": 32,
+      "gpuMedianMs": 31.621583,
+      "gpuP95Ms": 35.289874,
+      "cpuMedianMs": 0.20000001788139343,
+      "output": [
+        2560,
+        1600
+      ],
+      "scene": [
+        2560,
+        1600
+      ],
+      "calls": 4,
+      "triangles": 293890,
+      "memory": {
+        "geometries": 22,
+        "textures": 31
+      }
+    },
+    {
+      "label": "Moon close",
+      "group": 0,
+      "mode": "current",
+      "gpuSamples": 32,
+      "gpuMedianMs": 31.226416,
+      "gpuP95Ms": 35.685874,
+      "cpuMedianMs": 0.19999998807907104,
+      "output": [
+        2560,
+        1600
+      ],
+      "scene": [
+        2560,
+        1600
+      ],
+      "calls": 4,
+      "triangles": 293890,
+      "memory": {
+        "geometries": 22,
+        "textures": 31
+      }
+    },
+    {
+      "label": "Moon close",
+      "group": 1,
+      "mode": "previous",
+      "gpuSamples": 32,
+      "gpuMedianMs": 21.251083,
+      "gpuP95Ms": 33.090791,
+      "cpuMedianMs": 0.29999998211860657,
+      "output": [
+        2560,
+        1600
+      ],
+      "scene": [
+        2560,
+        1600
+      ],
+      "calls": 4,
+      "triangles": 293890,
+      "memory": {
+        "geometries": 22,
+        "textures": 31
+      }
+    },
+    {
+      "label": "Moon close",
+      "group": 1,
+      "mode": "current",
+      "gpuSamples": 32,
+      "gpuMedianMs": 21.62325,
+      "gpuP95Ms": 35.154374,
+      "cpuMedianMs": 0.30000001192092896,
+      "output": [
+        2560,
+        1600
+      ],
+      "scene": [
+        2560,
+        1600
+      ],
+      "calls": 4,
+      "triangles": 293890,
+      "memory": {
+        "geometries": 22,
+        "textures": 31
+      }
+    },
+    {
+      "label": "Moon close",
+      "group": 2,
+      "mode": "previous",
+      "gpuSamples": 32,
+      "gpuMedianMs": 18.051374,
+      "gpuP95Ms": 22.882374,
+      "cpuMedianMs": 0.4000000059604645,
+      "output": [
+        2560,
+        1600
+      ],
+      "scene": [
+        2560,
+        1600
+      ],
+      "calls": 4,
+      "triangles": 293890,
+      "memory": {
+        "geometries": 22,
+        "textures": 31
+      }
+    },
+    {
+      "label": "Moon close",
+      "group": 2,
+      "mode": "current",
+      "gpuSamples": 32,
+      "gpuMedianMs": 19.4385,
+      "gpuP95Ms": 22.69225,
+      "cpuMedianMs": 0.4000000059604645,
+      "output": [
+        2560,
+        1600
+      ],
+      "scene": [
+        2560,
+        1600
+      ],
+      "calls": 4,
+      "triangles": 293890,
+      "memory": {
+        "geometries": 22,
+        "textures": 31
+      }
+    },
+    {
+      "label": "Moon close",
+      "group": 3,
+      "mode": "previous",
+      "gpuSamples": 32,
+      "gpuMedianMs": 15.986458,
+      "gpuP95Ms": 18.265,
+      "cpuMedianMs": 0.4000000059604645,
+      "output": [
+        2560,
+        1600
+      ],
+      "scene": [
+        2560,
+        1600
+      ],
+      "calls": 4,
+      "triangles": 293890,
+      "memory": {
+        "geometries": 22,
+        "textures": 31
+      }
+    },
+    {
+      "label": "Moon close",
+      "group": 3,
+      "mode": "current",
+      "gpuSamples": 32,
+      "gpuMedianMs": 17.814999,
+      "gpuP95Ms": 19.620083,
+      "cpuMedianMs": 0.4000000059604645,
+      "output": [
+        2560,
+        1600
+      ],
+      "scene": [
+        2560,
+        1600
+      ],
+      "calls": 4,
+      "triangles": 293890,
+      "memory": {
+        "geometries": 22,
+        "textures": 31
+      }
+    }
+  ],
+  "errors": []
+}

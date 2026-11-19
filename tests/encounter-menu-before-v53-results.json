@@ -1,0 +1,2095 @@
+{
+  "states": [
+    {
+      "chapter": 0,
+      "width": 1440,
+      "height": 900,
+      "text": "Encounter\nSolar system\nVoyage\nCurrent pass\nWhole encounter\nEarth\nVoyager 1\n10,000 km · projected distance\n\nCoast forecast · 2 h 0 min\nOne linear scale. Body symbols enlarged.\n\nLocate a subject\n\nSet a bearing; keep flying freely.\n\nEarth\n15,191 km\nMoon\n414,966 km\nHide bearings\nExplore a viewpoint\nBegin a Moon pass\n→\nEarth’s shadow edge\n→\n\nBegins a separate local pass. Your journal is kept.\n\nMore compositions\nFlight review\nRevisit encounter\nContinue to Jupiter\n→",
+      "controls": [
+        {
+          "text": "Encounter",
+          "action": "map-tab",
+          "value": "local",
+          "rect": {
+            "x": 57.59375,
+            "y": 85.1875,
+            "width": 76.078125,
+            "height": 44,
+            "top": 85.1875,
+            "right": 133.671875,
+            "bottom": 129.1875,
+            "left": 57.59375
+          }
+        },
+        {
+          "text": "Solar system",
+          "action": "map-tab",
+          "value": "solar",
+          "rect": {
+            "x": 165.671875,
+            "y": 85.1875,
+            "width": 93.546875,
+            "height": 44,
+            "top": 85.1875,
+            "right": 259.21875,
+            "bottom": 129.1875,
+            "left": 165.671875
+          }
+        },
+        {
+          "text": "Voyage",
+          "action": "map-tab",
+          "value": "voyage",
+          "rect": {
+            "x": 291.21875,
+            "y": 85.1875,
+            "width": 52.15625,
+            "height": 44,
+            "top": 85.1875,
+            "right": 343.375,
+            "bottom": 129.1875,
+            "left": 291.21875
+          }
+        },
+        {
+          "text": "Current pass",
+          "action": "local-scale",
+          "value": "pass",
+          "rect": {
+            "x": 57.59375,
+            "y": 147.1875,
+            "width": 83.53125,
+            "height": 44,
+            "top": 147.1875,
+            "right": 141.125,
+            "bottom": 191.1875,
+            "left": 57.59375
+          }
+        },
+        {
+          "text": "Whole encounter",
+          "action": "local-scale",
+          "value": "system",
+          "rect": {
+            "x": 165.125,
+            "y": 147.1875,
+            "width": 104.421875,
+            "height": 44,
+            "top": 147.1875,
+            "right": 269.546875,
+            "bottom": 191.1875,
+            "left": 165.125
+          }
+        },
+        {
+          "text": "Earth15,191 km",
+          "action": "destination",
+          "value": "earth",
+          "rect": {
+            "x": 878.46875,
+            "y": 231.234375,
+            "width": 487.921875,
+            "height": 48,
+            "top": 231.234375,
+            "right": 1366.390625,
+            "bottom": 279.234375,
+            "left": 878.46875
+          }
+        },
+        {
+          "text": "Moon414,966 km",
+          "action": "destination",
+          "value": "moon",
+          "rect": {
+            "x": 878.46875,
+            "y": 279.234375,
+            "width": 487.921875,
+            "height": 48,
+            "top": 279.234375,
+            "right": 1366.390625,
+            "bottom": 327.234375,
+            "left": 878.46875
+          }
+        },
+        {
+          "text": "Hide bearings",
+          "action": "free-flight",
+          "rect": {
+            "x": 878.46875,
+            "y": 327.234375,
+            "width": 487.921875,
+            "height": 44,
+            "top": 327.234375,
+            "right": 1366.390625,
+            "bottom": 371.234375,
+            "left": 878.46875
+          }
+        },
+        {
+          "text": "Begin a Moon pass→",
+          "action": "study",
+          "value": "moon",
+          "rect": {
+            "x": 878.46875,
+            "y": 424.734375,
+            "width": 487.921875,
+            "height": 49,
+            "top": 424.734375,
+            "right": 1366.390625,
+            "bottom": 473.734375,
+            "left": 878.46875
+          }
+        },
+        {
+          "text": "Earth’s shadow edge→",
+          "action": "study",
+          "value": "earth-shadow",
+          "rect": {
+            "x": 878.46875,
+            "y": 473.734375,
+            "width": 487.921875,
+            "height": 49,
+            "top": 473.734375,
+            "right": 1366.390625,
+            "bottom": 522.734375,
+            "left": 878.46875
+          }
+        },
+        {
+          "text": "Earth beyond the MoonUse the Moon study for a close pass, then frame Earth beyond its limb.Locate subject",
+          "action": "opportunity",
+          "value": "earthrise",
+          "rect": {
+            "x": 878.46875,
+            "y": 614.328125,
+            "width": 487.921875,
+            "height": 108,
+            "top": 614.328125,
+            "right": 1366.390625,
+            "bottom": 722.328125,
+            "left": 878.46875
+          }
+        },
+        {
+          "text": "The edge of Earth’s shadowChoose Earth’s shadow edge to coast across the eclipse boundary.Locate subject",
+          "action": "opportunity",
+          "value": "shadow",
+          "rect": {
+            "x": 878.46875,
+            "y": 722.328125,
+            "width": 487.921875,
+            "height": 108,
+            "top": 722.328125,
+            "right": 1366.390625,
+            "bottom": 830.328125,
+            "left": 878.46875
+          }
+        },
+        {
+          "text": "Flight review",
+          "action": "review",
+          "rect": {
+            "x": 57.59375,
+            "y": 832.40625,
+            "width": 88.890625,
+            "height": 44,
+            "top": 832.40625,
+            "right": 146.484375,
+            "bottom": 876.40625,
+            "left": 57.59375
+          }
+        },
+        {
+          "text": "Revisit encounter",
+          "action": "restart",
+          "rect": {
+            "x": 171.484375,
+            "y": 832.40625,
+            "width": 122.03125,
+            "height": 44,
+            "top": 832.40625,
+            "right": 293.515625,
+            "bottom": 876.40625,
+            "left": 171.484375
+          }
+        },
+        {
+          "text": "Continue to Jupiter →",
+          "action": "depart",
+          "rect": {
+            "x": 1151.375,
+            "y": 828.8125,
+            "width": 231.03125,
+            "height": 51.1875,
+            "top": 828.8125,
+            "right": 1382.40625,
+            "bottom": 880,
+            "left": 1151.375
+          }
+        }
+      ]
+    },
+    {
+      "chapter": 0,
+      "width": 1024,
+      "height": 640,
+      "text": "Encounter\nSolar system\nVoyage\nCurrent pass\nWhole encounter\nEarth\nVoyager 1\n10,000 km · projected distance\n\nCoast forecast · 2 h 0 min\nOne linear scale. Body symbols enlarged.\n\nLocate a subject\n\nSet a bearing; keep flying freely.\n\nEarth\n15,191 km\nMoon\n414,966 km\nHide bearings\nExplore a viewpoint\nBegin a Moon pass\n→\nEarth’s shadow edge\n→\n\nBegins a separate local pass. Your journal is kept.\n\nMore compositions\nFlight review\nRevisit encounter\nContinue to Jupiter\n→",
+      "controls": [
+        {
+          "text": "Encounter",
+          "action": "map-tab",
+          "value": "local",
+          "rect": {
+            "x": 40.953125,
+            "y": 61,
+            "width": 76.078125,
+            "height": 44,
+            "top": 61,
+            "right": 117.03125,
+            "bottom": 105,
+            "left": 40.953125
+          }
+        },
+        {
+          "text": "Solar system",
+          "action": "map-tab",
+          "value": "solar",
+          "rect": {
+            "x": 149.03125,
+            "y": 61,
+            "width": 93.546875,
+            "height": 44,
+            "top": 61,
+            "right": 242.578125,
+            "bottom": 105,
+            "left": 149.03125
+          }
+        },
+        {
+          "text": "Voyage",
+          "action": "map-tab",
+          "value": "voyage",
+          "rect": {
+            "x": 274.578125,
+            "y": 61,
+            "width": 52.15625,
+            "height": 44,
+            "top": 61,
+            "right": 326.734375,
+            "bottom": 105,
+            "left": 274.578125
+          }
+        },
+        {
+          "text": "Current pass",
+          "action": "local-scale",
+          "value": "pass",
+          "rect": {
+            "x": 40.953125,
+            "y": 117,
+            "width": 83.53125,
+            "height": 44,
+            "top": 117,
+            "right": 124.484375,
+            "bottom": 161,
+            "left": 40.953125
+          }
+        },
+        {
+          "text": "Whole encounter",
+          "action": "local-scale",
+          "value": "system",
+          "rect": {
+            "x": 148.484375,
+            "y": 117,
+            "width": 104.421875,
+            "height": 44,
+            "top": 117,
+            "right": 252.90625,
+            "bottom": 161,
+            "left": 148.484375
+          }
+        },
+        {
+          "text": "Earth15,191 km",
+          "action": "destination",
+          "value": "earth",
+          "rect": {
+            "x": 623.875,
+            "y": 182.890625,
+            "width": 343.171875,
+            "height": 48,
+            "top": 182.890625,
+            "right": 967.046875,
+            "bottom": 230.890625,
+            "left": 623.875
+          }
+        },
+        {
+          "text": "Moon414,966 km",
+          "action": "destination",
+          "value": "moon",
+          "rect": {
+            "x": 623.875,
+            "y": 230.890625,
+            "width": 343.171875,
+            "height": 48,
+            "top": 230.890625,
+            "right": 967.046875,
+            "bottom": 278.890625,
+            "left": 623.875
+          }
+        },
+        {
+          "text": "Hide bearings",
+          "action": "free-flight",
+          "rect": {
+            "x": 623.875,
+            "y": 278.890625,
+            "width": 343.171875,
+            "height": 44,
+            "top": 278.890625,
+            "right": 967.046875,
+            "bottom": 322.890625,
+            "left": 623.875
+          }
+        },
+        {
+          "text": "Begin a Moon pass→",
+          "action": "study",
+          "value": "moon",
+          "rect": {
+            "x": 623.875,
+            "y": 364.390625,
+            "width": 343.171875,
+            "height": 44,
+            "top": 364.390625,
+            "right": 967.046875,
+            "bottom": 408.390625,
+            "left": 623.875
+          }
+        },
+        {
+          "text": "Earth’s shadow edge→",
+          "action": "study",
+          "value": "earth-shadow",
+          "rect": {
+            "x": 623.875,
+            "y": 408.390625,
+            "width": 343.171875,
+            "height": 44,
+            "top": 408.390625,
+            "right": 967.046875,
+            "bottom": 452.390625,
+            "left": 623.875
+          }
+        },
+        {
+          "text": "Earth beyond the MoonUse the Moon study for a close pass, then frame Earth beyond its limb.Locate subject",
+          "action": "opportunity",
+          "value": "earthrise",
+          "rect": {
+            "x": 623.875,
+            "y": 529.984375,
+            "width": 343.171875,
+            "height": 132,
+            "top": 529.984375,
+            "right": 967.046875,
+            "bottom": 661.984375,
+            "left": 623.875
+          }
+        },
+        {
+          "text": "The edge of Earth’s shadowChoose Earth’s shadow edge to coast across the eclipse boundary.Locate subject",
+          "action": "opportunity",
+          "value": "shadow",
+          "rect": {
+            "x": 623.875,
+            "y": 661.984375,
+            "width": 343.171875,
+            "height": 132,
+            "top": 661.984375,
+            "right": 967.046875,
+            "bottom": 793.984375,
+            "left": 623.875
+          }
+        },
+        {
+          "text": "Flight review",
+          "action": "review",
+          "rect": {
+            "x": 40.953125,
+            "y": 579.703125,
+            "width": 83.953125,
+            "height": 44,
+            "top": 579.703125,
+            "right": 124.90625,
+            "bottom": 623.703125,
+            "left": 40.953125
+          }
+        },
+        {
+          "text": "Revisit encounter",
+          "action": "restart",
+          "rect": {
+            "x": 142.90625,
+            "y": 579.703125,
+            "width": 115.25,
+            "height": 44,
+            "top": 579.703125,
+            "right": 258.15625,
+            "bottom": 623.703125,
+            "left": 142.90625
+          }
+        },
+        {
+          "text": "Continue to Jupiter →",
+          "action": "depart",
+          "rect": {
+            "x": 768.9375,
+            "y": 577.40625,
+            "width": 214.109375,
+            "height": 48.59375,
+            "top": 577.40625,
+            "right": 983.046875,
+            "bottom": 626,
+            "left": 768.9375
+          }
+        }
+      ]
+    },
+    {
+      "chapter": 0,
+      "width": 800,
+      "height": 600,
+      "text": "Encounter\nSolar system\nVoyage\nCurrent pass\nWhole encounter\nEarth\nVoyager 1\n10,000 km · projected distance\n\nCoast forecast · 2 h 0 min\nOne linear scale. Body symbols enlarged.\n\nLocate a subject\n\nSet a bearing; keep flying freely.\n\nEarth\n15,191 km\nMoon\n414,966 km\nHide bearings\nExplore a viewpoint\nBegin a Moon pass\n→\nEarth’s shadow edge\n→\n\nBegins a separate local pass. Your journal is kept.\n\nMore compositions\nFlight review\nRevisit encounter\nContinue to Jupiter\n→",
+      "controls": [
+        {
+          "text": "Encounter",
+          "action": "map-tab",
+          "value": "local",
+          "rect": {
+            "x": 40,
+            "y": 61,
+            "width": 76.078125,
+            "height": 44,
+            "top": 61,
+            "right": 116.078125,
+            "bottom": 105,
+            "left": 40
+          }
+        },
+        {
+          "text": "Solar system",
+          "action": "map-tab",
+          "value": "solar",
+          "rect": {
+            "x": 148.078125,
+            "y": 61,
+            "width": 93.546875,
+            "height": 44,
+            "top": 61,
+            "right": 241.625,
+            "bottom": 105,
+            "left": 148.078125
+          }
+        },
+        {
+          "text": "Voyage",
+          "action": "map-tab",
+          "value": "voyage",
+          "rect": {
+            "x": 273.625,
+            "y": 61,
+            "width": 52.15625,
+            "height": 44,
+            "top": 61,
+            "right": 325.78125,
+            "bottom": 105,
+            "left": 273.625
+          }
+        },
+        {
+          "text": "Current pass",
+          "action": "local-scale",
+          "value": "pass",
+          "rect": {
+            "x": 40,
+            "y": 117,
+            "width": 83.53125,
+            "height": 44,
+            "top": 117,
+            "right": 123.53125,
+            "bottom": 161,
+            "left": 40
+          }
+        },
+        {
+          "text": "Whole encounter",
+          "action": "local-scale",
+          "value": "system",
+          "rect": {
+            "x": 147.53125,
+            "y": 117,
+            "width": 104.421875,
+            "height": 44,
+            "top": 117,
+            "right": 251.953125,
+            "bottom": 161,
+            "left": 147.53125
+          }
+        },
+        {
+          "text": "Earth15,191 km",
+          "action": "destination",
+          "value": "earth",
+          "rect": {
+            "x": 42,
+            "y": 568.046875,
+            "width": 702,
+            "height": 48,
+            "top": 568.046875,
+            "right": 744,
+            "bottom": 616.046875,
+            "left": 42
+          }
+        },
+        {
+          "text": "Moon414,966 km",
+          "action": "destination",
+          "value": "moon",
+          "rect": {
+            "x": 42,
+            "y": 616.046875,
+            "width": 702,
+            "height": 48,
+            "top": 616.046875,
+            "right": 744,
+            "bottom": 664.046875,
+            "left": 42
+          }
+        },
+        {
+          "text": "Hide bearings",
+          "action": "free-flight",
+          "rect": {
+            "x": 42,
+            "y": 664.046875,
+            "width": 702,
+            "height": 44,
+            "top": 664.046875,
+            "right": 744,
+            "bottom": 708.046875,
+            "left": 42
+          }
+        },
+        {
+          "text": "Begin a Moon pass→",
+          "action": "study",
+          "value": "moon",
+          "rect": {
+            "x": 42,
+            "y": 761.546875,
+            "width": 702,
+            "height": 49,
+            "top": 761.546875,
+            "right": 744,
+            "bottom": 810.546875,
+            "left": 42
+          }
+        },
+        {
+          "text": "Earth’s shadow edge→",
+          "action": "study",
+          "value": "earth-shadow",
+          "rect": {
+            "x": 42,
+            "y": 810.546875,
+            "width": 702,
+            "height": 49,
+            "top": 810.546875,
+            "right": 744,
+            "bottom": 859.546875,
+            "left": 42
+          }
+        },
+        {
+          "text": "Earth beyond the MoonUse the Moon study for a close pass, then frame Earth beyond its limb.Locate subject",
+          "action": "opportunity",
+          "value": "earthrise",
+          "rect": {
+            "x": 42,
+            "y": 951.140625,
+            "width": 702,
+            "height": 108,
+            "top": 951.140625,
+            "right": 744,
+            "bottom": 1059.140625,
+            "left": 42
+          }
+        },
+        {
+          "text": "The edge of Earth’s shadowChoose Earth’s shadow edge to coast across the eclipse boundary.Locate subject",
+          "action": "opportunity",
+          "value": "shadow",
+          "rect": {
+            "x": 42,
+            "y": 1059.140625,
+            "width": 702,
+            "height": 108,
+            "top": 1059.140625,
+            "right": 744,
+            "bottom": 1167.140625,
+            "left": 42
+          }
+        },
+        {
+          "text": "Flight review",
+          "action": "review",
+          "rect": {
+            "x": 40,
+            "y": 544,
+            "width": 79.015625,
+            "height": 44,
+            "top": 544,
+            "right": 119.015625,
+            "bottom": 588,
+            "left": 40
+          }
+        },
+        {
+          "text": "Revisit encounter",
+          "action": "restart",
+          "rect": {
+            "x": 135.015625,
+            "y": 544,
+            "width": 108.46875,
+            "height": 44,
+            "top": 544,
+            "right": 243.484375,
+            "bottom": 588,
+            "left": 135.015625
+          }
+        },
+        {
+          "text": "Continue to Jupiter →",
+          "action": "depart",
+          "rect": {
+            "x": 574.8125,
+            "y": 542,
+            "width": 185.1875,
+            "height": 46,
+            "top": 542,
+            "right": 760,
+            "bottom": 588,
+            "left": 574.8125
+          }
+        }
+      ]
+    },
+    {
+      "chapter": 1,
+      "width": 1440,
+      "height": 900,
+      "text": "Encounter\nSolar system\nVoyage\nCurrent pass\nWhole encounter\nJupiter\nIo\nVoyager 1\n100,000 km · projected distance\n\nCoast forecast · 2 h 0 min\nOne linear scale. Body symbols enlarged.\n\nLocate a subject\n\nSet a bearing; keep flying freely.\n\nJupiter\n245,609 km\nIo\n434,740 km\nHide bearings\nExplore a viewpoint\nBegin a Io pass\n→\n\nBegins a separate local pass. Your journal is kept.\n\nMore compositions\nFlight review\nRevisit encounter\nInstrument recording\nContinue to Saturn\n→",
+      "controls": [
+        {
+          "text": "Encounter",
+          "action": "map-tab",
+          "value": "local",
+          "rect": {
+            "x": 57.59375,
+            "y": 85.1875,
+            "width": 76.078125,
+            "height": 44,
+            "top": 85.1875,
+            "right": 133.671875,
+            "bottom": 129.1875,
+            "left": 57.59375
+          }
+        },
+        {
+          "text": "Solar system",
+          "action": "map-tab",
+          "value": "solar",
+          "rect": {
+            "x": 165.671875,
+            "y": 85.1875,
+            "width": 93.546875,
+            "height": 44,
+            "top": 85.1875,
+            "right": 259.21875,
+            "bottom": 129.1875,
+            "left": 165.671875
+          }
+        },
+        {
+          "text": "Voyage",
+          "action": "map-tab",
+          "value": "voyage",
+          "rect": {
+            "x": 291.21875,
+            "y": 85.1875,
+            "width": 52.15625,
+            "height": 44,
+            "top": 85.1875,
+            "right": 343.375,
+            "bottom": 129.1875,
+            "left": 291.21875
+          }
+        },
+        {
+          "text": "Current pass",
+          "action": "local-scale",
+          "value": "pass",
+          "rect": {
+            "x": 57.59375,
+            "y": 147.1875,
+            "width": 83.53125,
+            "height": 44,
+            "top": 147.1875,
+            "right": 141.125,
+            "bottom": 191.1875,
+            "left": 57.59375
+          }
+        },
+        {
+          "text": "Whole encounter",
+          "action": "local-scale",
+          "value": "system",
+          "rect": {
+            "x": 165.125,
+            "y": 147.1875,
+            "width": 104.421875,
+            "height": 44,
+            "top": 147.1875,
+            "right": 269.546875,
+            "bottom": 191.1875,
+            "left": 165.125
+          }
+        },
+        {
+          "text": "Jupiter245,609 km",
+          "action": "destination",
+          "value": "jupiter",
+          "rect": {
+            "x": 878.46875,
+            "y": 231.234375,
+            "width": 487.921875,
+            "height": 48,
+            "top": 231.234375,
+            "right": 1366.390625,
+            "bottom": 279.234375,
+            "left": 878.46875
+          }
+        },
+        {
+          "text": "Io434,740 km",
+          "action": "destination",
+          "value": "io",
+          "rect": {
+            "x": 878.46875,
+            "y": 279.234375,
+            "width": 487.921875,
+            "height": 48,
+            "top": 279.234375,
+            "right": 1366.390625,
+            "bottom": 327.234375,
+            "left": 878.46875
+          }
+        },
+        {
+          "text": "Hide bearings",
+          "action": "free-flight",
+          "rect": {
+            "x": 878.46875,
+            "y": 327.234375,
+            "width": 487.921875,
+            "height": 44,
+            "top": 327.234375,
+            "right": 1366.390625,
+            "bottom": 371.234375,
+            "left": 878.46875
+          }
+        },
+        {
+          "text": "Begin a Io pass→",
+          "action": "study",
+          "value": "io",
+          "rect": {
+            "x": 878.46875,
+            "y": 424.734375,
+            "width": 487.921875,
+            "height": 49,
+            "top": 424.734375,
+            "right": 1366.390625,
+            "bottom": 473.734375,
+            "left": 878.46875
+          }
+        },
+        {
+          "text": "Io against the giantUse the Io study to frame the moon with Jupiter beyond.Locate subject",
+          "action": "opportunity",
+          "value": "io-pair",
+          "rect": {
+            "x": 878.46875,
+            "y": 565.328125,
+            "width": 487.921875,
+            "height": 108,
+            "top": 565.328125,
+            "right": 1366.390625,
+            "bottom": 673.328125,
+            "left": 878.46875
+          }
+        },
+        {
+          "text": "Flight review",
+          "action": "review",
+          "rect": {
+            "x": 57.59375,
+            "y": 832.40625,
+            "width": 88.890625,
+            "height": 44,
+            "top": 832.40625,
+            "right": 146.484375,
+            "bottom": 876.40625,
+            "left": 57.59375
+          }
+        },
+        {
+          "text": "Revisit encounter",
+          "action": "restart",
+          "rect": {
+            "x": 171.484375,
+            "y": 832.40625,
+            "width": 122.03125,
+            "height": 44,
+            "top": 832.40625,
+            "right": 293.515625,
+            "bottom": 876.40625,
+            "left": 171.484375
+          }
+        },
+        {
+          "text": "Instrument recording",
+          "action": "recording",
+          "value": "jupiter",
+          "rect": {
+            "x": 318.515625,
+            "y": 832.40625,
+            "width": 147.625,
+            "height": 44,
+            "top": 832.40625,
+            "right": 466.140625,
+            "bottom": 876.40625,
+            "left": 318.515625
+          }
+        },
+        {
+          "text": "Continue to Saturn →",
+          "action": "depart",
+          "rect": {
+            "x": 1157.265625,
+            "y": 828.8125,
+            "width": 225.140625,
+            "height": 51.1875,
+            "top": 828.8125,
+            "right": 1382.40625,
+            "bottom": 880,
+            "left": 1157.265625
+          }
+        }
+      ]
+    },
+    {
+      "chapter": 1,
+      "width": 1024,
+      "height": 640,
+      "text": "Encounter\nSolar system\nVoyage\nCurrent pass\nWhole encounter\nJupiter\nIo\nVoyager 1\n100,000 km · projected distance\n\nCoast forecast · 2 h 0 min\nOne linear scale. Body symbols enlarged.\n\nLocate a subject\n\nSet a bearing; keep flying freely.\n\nJupiter\n245,609 km\nIo\n434,740 km\nHide bearings\nExplore a viewpoint\nBegin a Io pass\n→\n\nBegins a separate local pass. Your journal is kept.\n\nMore compositions\nFlight review\nRevisit encounter\nInstrument recording\nContinue to Saturn\n→",
+      "controls": [
+        {
+          "text": "Encounter",
+          "action": "map-tab",
+          "value": "local",
+          "rect": {
+            "x": 40.953125,
+            "y": 61,
+            "width": 76.078125,
+            "height": 44,
+            "top": 61,
+            "right": 117.03125,
+            "bottom": 105,
+            "left": 40.953125
+          }
+        },
+        {
+          "text": "Solar system",
+          "action": "map-tab",
+          "value": "solar",
+          "rect": {
+            "x": 149.03125,
+            "y": 61,
+            "width": 93.546875,
+            "height": 44,
+            "top": 61,
+            "right": 242.578125,
+            "bottom": 105,
+            "left": 149.03125
+          }
+        },
+        {
+          "text": "Voyage",
+          "action": "map-tab",
+          "value": "voyage",
+          "rect": {
+            "x": 274.578125,
+            "y": 61,
+            "width": 52.15625,
+            "height": 44,
+            "top": 61,
+            "right": 326.734375,
+            "bottom": 105,
+            "left": 274.578125
+          }
+        },
+        {
+          "text": "Current pass",
+          "action": "local-scale",
+          "value": "pass",
+          "rect": {
+            "x": 40.953125,
+            "y": 117,
+            "width": 83.53125,
+            "height": 44,
+            "top": 117,
+            "right": 124.484375,
+            "bottom": 161,
+            "left": 40.953125
+          }
+        },
+        {
+          "text": "Whole encounter",
+          "action": "local-scale",
+          "value": "system",
+          "rect": {
+            "x": 148.484375,
+            "y": 117,
+            "width": 104.421875,
+            "height": 44,
+            "top": 117,
+            "right": 252.90625,
+            "bottom": 161,
+            "left": 148.484375
+          }
+        },
+        {
+          "text": "Jupiter245,609 km",
+          "action": "destination",
+          "value": "jupiter",
+          "rect": {
+            "x": 623.875,
+            "y": 182.890625,
+            "width": 343.171875,
+            "height": 48,
+            "top": 182.890625,
+            "right": 967.046875,
+            "bottom": 230.890625,
+            "left": 623.875
+          }
+        },
+        {
+          "text": "Io434,740 km",
+          "action": "destination",
+          "value": "io",
+          "rect": {
+            "x": 623.875,
+            "y": 230.890625,
+            "width": 343.171875,
+            "height": 48,
+            "top": 230.890625,
+            "right": 967.046875,
+            "bottom": 278.890625,
+            "left": 623.875
+          }
+        },
+        {
+          "text": "Hide bearings",
+          "action": "free-flight",
+          "rect": {
+            "x": 623.875,
+            "y": 278.890625,
+            "width": 343.171875,
+            "height": 44,
+            "top": 278.890625,
+            "right": 967.046875,
+            "bottom": 322.890625,
+            "left": 623.875
+          }
+        },
+        {
+          "text": "Begin a Io pass→",
+          "action": "study",
+          "value": "io",
+          "rect": {
+            "x": 623.875,
+            "y": 364.390625,
+            "width": 343.171875,
+            "height": 44,
+            "top": 364.390625,
+            "right": 967.046875,
+            "bottom": 408.390625,
+            "left": 623.875
+          }
+        },
+        {
+          "text": "Io against the giantUse the Io study to frame the moon with Jupiter beyond.Locate subject",
+          "action": "opportunity",
+          "value": "io-pair",
+          "rect": {
+            "x": 623.875,
+            "y": 485.984375,
+            "width": 343.171875,
+            "height": 132,
+            "top": 485.984375,
+            "right": 967.046875,
+            "bottom": 617.984375,
+            "left": 623.875
+          }
+        },
+        {
+          "text": "Flight review",
+          "action": "review",
+          "rect": {
+            "x": 40.953125,
+            "y": 579.703125,
+            "width": 83.953125,
+            "height": 44,
+            "top": 579.703125,
+            "right": 124.90625,
+            "bottom": 623.703125,
+            "left": 40.953125
+          }
+        },
+        {
+          "text": "Revisit encounter",
+          "action": "restart",
+          "rect": {
+            "x": 142.90625,
+            "y": 579.703125,
+            "width": 115.25,
+            "height": 44,
+            "top": 579.703125,
+            "right": 258.15625,
+            "bottom": 623.703125,
+            "left": 142.90625
+          }
+        },
+        {
+          "text": "Instrument recording",
+          "action": "recording",
+          "value": "jupiter",
+          "rect": {
+            "x": 276.15625,
+            "y": 579.703125,
+            "width": 139.421875,
+            "height": 44,
+            "top": 579.703125,
+            "right": 415.578125,
+            "bottom": 623.703125,
+            "left": 276.15625
+          }
+        },
+        {
+          "text": "Continue to Saturn →",
+          "action": "depart",
+          "rect": {
+            "x": 774.328125,
+            "y": 577.40625,
+            "width": 208.71875,
+            "height": 48.59375,
+            "top": 577.40625,
+            "right": 983.046875,
+            "bottom": 626,
+            "left": 774.328125
+          }
+        }
+      ]
+    },
+    {
+      "chapter": 1,
+      "width": 800,
+      "height": 600,
+      "text": "Encounter\nSolar system\nVoyage\nCurrent pass\nWhole encounter\nJupiter\nIo\nVoyager 1\n100,000 km · projected distance\n\nCoast forecast · 2 h 0 min\nOne linear scale. Body symbols enlarged.\n\nLocate a subject\n\nSet a bearing; keep flying freely.\n\nJupiter\n245,609 km\nIo\n434,740 km\nHide bearings\nExplore a viewpoint\nBegin a Io pass\n→\n\nBegins a separate local pass. Your journal is kept.\n\nMore compositions\nFlight review\nRevisit encounter\nInstrument recording\nContinue to Saturn\n→",
+      "controls": [
+        {
+          "text": "Encounter",
+          "action": "map-tab",
+          "value": "local",
+          "rect": {
+            "x": 40,
+            "y": 61,
+            "width": 76.078125,
+            "height": 44,
+            "top": 61,
+            "right": 116.078125,
+            "bottom": 105,
+            "left": 40
+          }
+        },
+        {
+          "text": "Solar system",
+          "action": "map-tab",
+          "value": "solar",
+          "rect": {
+            "x": 148.078125,
+            "y": 61,
+            "width": 93.546875,
+            "height": 44,
+            "top": 61,
+            "right": 241.625,
+            "bottom": 105,
+            "left": 148.078125
+          }
+        },
+        {
+          "text": "Voyage",
+          "action": "map-tab",
+          "value": "voyage",
+          "rect": {
+            "x": 273.625,
+            "y": 61,
+            "width": 52.15625,
+            "height": 44,
+            "top": 61,
+            "right": 325.78125,
+            "bottom": 105,
+            "left": 273.625
+          }
+        },
+        {
+          "text": "Current pass",
+          "action": "local-scale",
+          "value": "pass",
+          "rect": {
+            "x": 40,
+            "y": 117,
+            "width": 83.53125,
+            "height": 44,
+            "top": 117,
+            "right": 123.53125,
+            "bottom": 161,
+            "left": 40
+          }
+        },
+        {
+          "text": "Whole encounter",
+          "action": "local-scale",
+          "value": "system",
+          "rect": {
+            "x": 147.53125,
+            "y": 117,
+            "width": 104.421875,
+            "height": 44,
+            "top": 117,
+            "right": 251.953125,
+            "bottom": 161,
+            "left": 147.53125
+          }
+        },
+        {
+          "text": "Jupiter245,609 km",
+          "action": "destination",
+          "value": "jupiter",
+          "rect": {
+            "x": 42,
+            "y": 568.046875,
+            "width": 702,
+            "height": 48,
+            "top": 568.046875,
+            "right": 744,
+            "bottom": 616.046875,
+            "left": 42
+          }
+        },
+        {
+          "text": "Io434,740 km",
+          "action": "destination",
+          "value": "io",
+          "rect": {
+            "x": 42,
+            "y": 616.046875,
+            "width": 702,
+            "height": 48,
+            "top": 616.046875,
+            "right": 744,
+            "bottom": 664.046875,
+            "left": 42
+          }
+        },
+        {
+          "text": "Hide bearings",
+          "action": "free-flight",
+          "rect": {
+            "x": 42,
+            "y": 664.046875,
+            "width": 702,
+            "height": 44,
+            "top": 664.046875,
+            "right": 744,
+            "bottom": 708.046875,
+            "left": 42
+          }
+        },
+        {
+          "text": "Begin a Io pass→",
+          "action": "study",
+          "value": "io",
+          "rect": {
+            "x": 42,
+            "y": 761.546875,
+            "width": 702,
+            "height": 49,
+            "top": 761.546875,
+            "right": 744,
+            "bottom": 810.546875,
+            "left": 42
+          }
+        },
+        {
+          "text": "Io against the giantUse the Io study to frame the moon with Jupiter beyond.Locate subject",
+          "action": "opportunity",
+          "value": "io-pair",
+          "rect": {
+            "x": 42,
+            "y": 902.140625,
+            "width": 702,
+            "height": 108,
+            "top": 902.140625,
+            "right": 744,
+            "bottom": 1010.140625,
+            "left": 42
+          }
+        },
+        {
+          "text": "Flight review",
+          "action": "review",
+          "rect": {
+            "x": 40,
+            "y": 544,
+            "width": 79.015625,
+            "height": 44,
+            "top": 544,
+            "right": 119.015625,
+            "bottom": 588,
+            "left": 40
+          }
+        },
+        {
+          "text": "Revisit encounter",
+          "action": "restart",
+          "rect": {
+            "x": 135.015625,
+            "y": 544,
+            "width": 108.46875,
+            "height": 44,
+            "top": 544,
+            "right": 243.484375,
+            "bottom": 588,
+            "left": 135.015625
+          }
+        },
+        {
+          "text": "Instrument recording",
+          "action": "recording",
+          "value": "jupiter",
+          "rect": {
+            "x": 259.484375,
+            "y": 544,
+            "width": 131.21875,
+            "height": 44,
+            "top": 544,
+            "right": 390.703125,
+            "bottom": 588,
+            "left": 259.484375
+          }
+        },
+        {
+          "text": "Continue to Saturn →",
+          "action": "depart",
+          "rect": {
+            "x": 579.71875,
+            "y": 542,
+            "width": 180.28125,
+            "height": 46,
+            "top": 542,
+            "right": 760,
+            "bottom": 588,
+            "left": 579.71875
+          }
+        }
+      ]
+    },
+    {
+      "chapter": 2,
+      "width": 1440,
+      "height": 900,
+      "text": "Encounter\nSolar system\nVoyage\nCurrent pass\nWhole encounter\nSaturn\nVoyager 1\n100,000 km · projected distance\n\nCoast forecast · 2 h 0 min\nOne linear scale. Body symbols enlarged.\n\nLocate a subject\n\nSet a bearing; keep flying freely.\n\nSaturn\n298,494 km\nTitan\n962,333 km\nHide bearings\nExplore a viewpoint\nBegin a Titan pass\n→\nSaturn’s ring plane\n→\nSaturn’s north pole\n→\n\nBegins a separate local pass. Your journal is kept.\n\nMore compositions\nFlight review\nRevisit encounter\nContinue to Pale Blue Dot\n→",
+      "controls": [
+        {
+          "text": "Encounter",
+          "action": "map-tab",
+          "value": "local",
+          "rect": {
+            "x": 57.59375,
+            "y": 85.1875,
+            "width": 76.078125,
+            "height": 44,
+            "top": 85.1875,
+            "right": 133.671875,
+            "bottom": 129.1875,
+            "left": 57.59375
+          }
+        },
+        {
+          "text": "Solar system",
+          "action": "map-tab",
+          "value": "solar",
+          "rect": {
+            "x": 165.671875,
+            "y": 85.1875,
+            "width": 93.546875,
+            "height": 44,
+            "top": 85.1875,
+            "right": 259.21875,
+            "bottom": 129.1875,
+            "left": 165.671875
+          }
+        },
+        {
+          "text": "Voyage",
+          "action": "map-tab",
+          "value": "voyage",
+          "rect": {
+            "x": 291.21875,
+            "y": 85.1875,
+            "width": 52.15625,
+            "height": 44,
+            "top": 85.1875,
+            "right": 343.375,
+            "bottom": 129.1875,
+            "left": 291.21875
+          }
+        },
+        {
+          "text": "Current pass",
+          "action": "local-scale",
+          "value": "pass",
+          "rect": {
+            "x": 57.59375,
+            "y": 147.1875,
+            "width": 83.53125,
+            "height": 44,
+            "top": 147.1875,
+            "right": 141.125,
+            "bottom": 191.1875,
+            "left": 57.59375
+          }
+        },
+        {
+          "text": "Whole encounter",
+          "action": "local-scale",
+          "value": "system",
+          "rect": {
+            "x": 165.125,
+            "y": 147.1875,
+            "width": 104.421875,
+            "height": 44,
+            "top": 147.1875,
+            "right": 269.546875,
+            "bottom": 191.1875,
+            "left": 165.125
+          }
+        },
+        {
+          "text": "Saturn298,494 km",
+          "action": "destination",
+          "value": "saturn",
+          "rect": {
+            "x": 878.46875,
+            "y": 231.234375,
+            "width": 487.921875,
+            "height": 48,
+            "top": 231.234375,
+            "right": 1366.390625,
+            "bottom": 279.234375,
+            "left": 878.46875
+          }
+        },
+        {
+          "text": "Titan962,333 km",
+          "action": "destination",
+          "value": "titan",
+          "rect": {
+            "x": 878.46875,
+            "y": 279.234375,
+            "width": 487.921875,
+            "height": 48,
+            "top": 279.234375,
+            "right": 1366.390625,
+            "bottom": 327.234375,
+            "left": 878.46875
+          }
+        },
+        {
+          "text": "Hide bearings",
+          "action": "free-flight",
+          "rect": {
+            "x": 878.46875,
+            "y": 327.234375,
+            "width": 487.921875,
+            "height": 44,
+            "top": 327.234375,
+            "right": 1366.390625,
+            "bottom": 371.234375,
+            "left": 878.46875
+          }
+        },
+        {
+          "text": "Begin a Titan pass→",
+          "action": "study",
+          "value": "titan",
+          "rect": {
+            "x": 878.46875,
+            "y": 424.734375,
+            "width": 487.921875,
+            "height": 49,
+            "top": 424.734375,
+            "right": 1366.390625,
+            "bottom": 473.734375,
+            "left": 878.46875
+          }
+        },
+        {
+          "text": "Saturn’s ring plane→",
+          "action": "study",
+          "value": "ring-plane",
+          "rect": {
+            "x": 878.46875,
+            "y": 473.734375,
+            "width": 487.921875,
+            "height": 49,
+            "top": 473.734375,
+            "right": 1366.390625,
+            "bottom": 522.734375,
+            "left": 878.46875
+          }
+        },
+        {
+          "text": "Saturn’s north pole→",
+          "action": "study",
+          "value": "north-pole",
+          "rect": {
+            "x": 878.46875,
+            "y": 522.734375,
+            "width": 487.921875,
+            "height": 49,
+            "top": 522.734375,
+            "right": 1366.390625,
+            "bottom": 571.734375,
+            "left": 878.46875
+          }
+        },
+        {
+          "text": "Rings become a lineChoose Saturn’s ring plane for a pass outside the main rings.Locate subject",
+          "action": "opportunity",
+          "value": "ring-edge",
+          "rect": {
+            "x": 878.46875,
+            "y": 663.328125,
+            "width": 487.921875,
+            "height": 108,
+            "top": 663.328125,
+            "right": 1366.390625,
+            "bottom": 771.328125,
+            "left": 878.46875
+          }
+        },
+        {
+          "text": "Light through Titan’s hazeUse the Titan study to explore its sunlit haze from the night side.Locate subject",
+          "action": "opportunity",
+          "value": "titan-light",
+          "rect": {
+            "x": 878.46875,
+            "y": 771.328125,
+            "width": 487.921875,
+            "height": 108,
+            "top": 771.328125,
+            "right": 1366.390625,
+            "bottom": 879.328125,
+            "left": 878.46875
+          }
+        },
+        {
+          "text": "Flight review",
+          "action": "review",
+          "rect": {
+            "x": 57.59375,
+            "y": 832.40625,
+            "width": 88.890625,
+            "height": 44,
+            "top": 832.40625,
+            "right": 146.484375,
+            "bottom": 876.40625,
+            "left": 57.59375
+          }
+        },
+        {
+          "text": "Revisit encounter",
+          "action": "restart",
+          "rect": {
+            "x": 171.484375,
+            "y": 832.40625,
+            "width": 122.03125,
+            "height": 44,
+            "top": 832.40625,
+            "right": 293.515625,
+            "bottom": 876.40625,
+            "left": 171.484375
+          }
+        },
+        {
+          "text": "Continue to Pale Blue Dot →",
+          "action": "depart",
+          "rect": {
+            "x": 1096.859375,
+            "y": 828.8125,
+            "width": 285.546875,
+            "height": 51.1875,
+            "top": 828.8125,
+            "right": 1382.40625,
+            "bottom": 880,
+            "left": 1096.859375
+          }
+        }
+      ]
+    },
+    {
+      "chapter": 2,
+      "width": 1024,
+      "height": 640,
+      "text": "Encounter\nSolar system\nVoyage\nCurrent pass\nWhole encounter\nSaturn\nVoyager 1\n100,000 km · projected distance\n\nCoast forecast · 2 h 0 min\nOne linear scale. Body symbols enlarged.\n\nLocate a subject\n\nSet a bearing; keep flying freely.\n\nSaturn\n298,494 km\nTitan\n962,333 km\nHide bearings\nExplore a viewpoint\nBegin a Titan pass\n→\nSaturn’s ring plane\n→\nSaturn’s north pole\n→\n\nBegins a separate local pass. Your journal is kept.\n\nMore compositions\nFlight review\nRevisit encounter\nContinue to Pale Blue Dot\n→",
+      "controls": [
+        {
+          "text": "Encounter",
+          "action": "map-tab",
+          "value": "local",
+          "rect": {
+            "x": 40.953125,
+            "y": 61,
+            "width": 76.078125,
+            "height": 44,
+            "top": 61,
+            "right": 117.03125,
+            "bottom": 105,
+            "left": 40.953125
+          }
+        },
+        {
+          "text": "Solar system",
+          "action": "map-tab",
+          "value": "solar",
+          "rect": {
+            "x": 149.03125,
+            "y": 61,
+            "width": 93.546875,
+            "height": 44,
+            "top": 61,
+            "right": 242.578125,
+            "bottom": 105,
+            "left": 149.03125
+          }
+        },
+        {
+          "text": "Voyage",
+          "action": "map-tab",
+          "value": "voyage",
+          "rect": {
+            "x": 274.578125,
+            "y": 61,
+            "width": 52.15625,
+            "height": 44,
+            "top": 61,
+            "right": 326.734375,
+            "bottom": 105,
+            "left": 274.578125
+          }
+        },
+        {
+          "text": "Current pass",
+          "action": "local-scale",
+          "value": "pass",
+          "rect": {
+            "x": 40.953125,
+            "y": 117,
+            "width": 83.53125,
+            "height": 44,
+            "top": 117,
+            "right": 124.484375,
+            "bottom": 161,
+            "left": 40.953125
+          }
+        },
+        {
+          "text": "Whole encounter",
+          "action": "local-scale",
+          "value": "system",
+          "rect": {
+            "x": 148.484375,
+            "y": 117,
+            "width": 104.421875,
+            "height": 44,
+            "top": 117,
+            "right": 252.90625,
+            "bottom": 161,
+            "left": 148.484375
+          }
+        },
+        {
+          "text": "Saturn298,494 km",
+          "action": "destination",
+          "value": "saturn",
+          "rect": {
+            "x": 623.875,
+            "y": 182.890625,
+            "width": 343.171875,
+            "height": 48,
+            "top": 182.890625,
+            "right": 967.046875,
+            "bottom": 230.890625,
+            "left": 623.875
+          }
+        },
+        {
+          "text": "Titan962,333 km",
+          "action": "destination",
+          "value": "titan",
+          "rect": {
+            "x": 623.875,
+            "y": 230.890625,
+            "width": 343.171875,
+            "height": 48,
+            "top": 230.890625,
+            "right": 967.046875,
+            "bottom": 278.890625,
+            "left": 623.875
+          }
+        },
+        {
+          "text": "Hide bearings",
+          "action": "free-flight",
+          "rect": {
+            "x": 623.875,
+            "y": 278.890625,
+            "width": 343.171875,
+            "height": 44,
+            "top": 278.890625,
+            "right": 967.046875,
+            "bottom": 322.890625,
+            "left": 623.875
+          }
+        },
+        {
+          "text": "Begin a Titan pass→",
+          "action": "study",
+          "value": "titan",
+          "rect": {
+            "x": 623.875,
+            "y": 364.390625,
+            "width": 343.171875,
+            "height": 44,
+            "top": 364.390625,
+            "right": 967.046875,
+            "bottom": 408.390625,
+            "left": 623.875
+          }
+        },
+        {
+          "text": "Saturn’s ring plane→",
+          "action": "study",
+          "value": "ring-plane",
+          "rect": {
+            "x": 623.875,
+            "y": 408.390625,
+            "width": 343.171875,
+            "height": 44,
+            "top": 408.390625,
+            "right": 967.046875,
+            "bottom": 452.390625,
+            "left": 623.875
+          }
+        },
+        {
+          "text": "Saturn’s north pole→",
+          "action": "study",
+          "value": "north-pole",
+          "rect": {
+            "x": 623.875,
+            "y": 452.390625,
+            "width": 343.171875,
+            "height": 44,
+            "top": 452.390625,
+            "right": 967.046875,
+            "bottom": 496.390625,
+            "left": 623.875
+          }
+        },
+        {
+          "text": "Rings become a lineChoose Saturn’s ring plane for a pass outside the main rings.Locate subject",
+          "action": "opportunity",
+          "value": "ring-edge",
+          "rect": {
+            "x": 623.875,
+            "y": 573.984375,
+            "width": 343.171875,
+            "height": 132,
+            "top": 573.984375,
+            "right": 967.046875,
+            "bottom": 705.984375,
+            "left": 623.875
+          }
+        },
+        {
+          "text": "Light through Titan’s hazeUse the Titan study to explore its sunlit haze from the night side.Locate subject",
+          "action": "opportunity",
+          "value": "titan-light",
+          "rect": {
+            "x": 623.875,
+            "y": 705.984375,
+            "width": 343.171875,
+            "height": 132,
+            "top": 705.984375,
+            "right": 967.046875,
+            "bottom": 837.984375,
+            "left": 623.875
+          }
+        },
+        {
+          "text": "Flight review",
+          "action": "review",
+          "rect": {
+            "x": 40.953125,
+            "y": 579.703125,
+            "width": 83.953125,
+            "height": 44,
+            "top": 579.703125,
+            "right": 124.90625,
+            "bottom": 623.703125,
+            "left": 40.953125
+          }
+        },
+        {
+          "text": "Revisit encounter",
+          "action": "restart",
+          "rect": {
+            "x": 142.90625,
+            "y": 579.703125,
+            "width": 115.25,
+            "height": 44,
+            "top": 579.703125,
+            "right": 258.15625,
+            "bottom": 623.703125,
+            "left": 142.90625
+          }
+        },
+        {
+          "text": "Continue to Pale Blue Dot →",
+          "action": "depart",
+          "rect": {
+            "x": 718.953125,
+            "y": 577.40625,
+            "width": 264.09375,
+            "height": 48.59375,
+            "top": 577.40625,
+            "right": 983.046875,
+            "bottom": 626,
+            "left": 718.953125
+          }
+        }
+      ]
+    },
+    {
+      "chapter": 2,
+      "width": 800,
+      "height": 600,
+      "text": "Encounter\nSolar system\nVoyage\nCurrent pass\nWhole encounter\nSaturn\nVoyager 1\n100,000 km · projected distance\n\nCoast forecast · 2 h 0 min\nOne linear scale. Body symbols enlarged.\n\nLocate a subject\n\nSet a bearing; keep flying freely.\n\nSaturn\n298,494 km\nTitan\n962,333 km\nHide bearings\nExplore a viewpoint\nBegin a Titan pass\n→\nSaturn’s ring plane\n→\nSaturn’s north pole\n→\n\nBegins a separate local pass. Your journal is kept.\n\nMore compositions\nFlight review\nRevisit encounter\nContinue to Pale Blue Dot\n→",
+      "controls": [
+        {
+          "text": "Encounter",
+          "action": "map-tab",
+          "value": "local",
+          "rect": {
+            "x": 40,
+            "y": 61,
+            "width": 76.078125,
+            "height": 44,
+            "top": 61,
+            "right": 116.078125,
+            "bottom": 105,
+            "left": 40
+          }
+        },
+        {
+          "text": "Solar system",
+          "action": "map-tab",
+          "value": "solar",
+          "rect": {
+            "x": 148.078125,
+            "y": 61,
+            "width": 93.546875,
+            "height": 44,
+            "top": 61,
+            "right": 241.625,
+            "bottom": 105,
+            "left": 148.078125
+          }
+        },
+        {
+          "text": "Voyage",
+          "action": "map-tab",
+          "value": "voyage",
+          "rect": {
+            "x": 273.625,
+            "y": 61,
+            "width": 52.15625,
+            "height": 44,
+            "top": 61,
+            "right": 325.78125,
+            "bottom": 105,
+            "left": 273.625
+          }
+        },
+        {
+          "text": "Current pass",
+          "action": "local-scale",
+          "value": "pass",
+          "rect": {
+            "x": 40,
+            "y": 117,
+            "width": 83.53125,
+            "height": 44,
+            "top": 117,
+            "right": 123.53125,
+            "bottom": 161,
+            "left": 40
+          }
+        },
+        {
+          "text": "Whole encounter",
+          "action": "local-scale",
+          "value": "system",
+          "rect": {
+            "x": 147.53125,
+            "y": 117,
+            "width": 104.421875,
+            "height": 44,
+            "top": 117,
+            "right": 251.953125,
+            "bottom": 161,
+            "left": 147.53125
+          }
+        },
+        {
+          "text": "Saturn298,494 km",
+          "action": "destination",
+          "value": "saturn",
+          "rect": {
+            "x": 42,
+            "y": 568.046875,
+            "width": 702,
+            "height": 48,
+            "top": 568.046875,
+            "right": 744,
+            "bottom": 616.046875,
+            "left": 42
+          }
+        },
+        {
+          "text": "Titan962,333 km",
+          "action": "destination",
+          "value": "titan",
+          "rect": {
+            "x": 42,
+            "y": 616.046875,
+            "width": 702,
+            "height": 48,
+            "top": 616.046875,
+            "right": 744,
+            "bottom": 664.046875,
+            "left": 42
+          }
+        },
+        {
+          "text": "Hide bearings",
+          "action": "free-flight",
+          "rect": {
+            "x": 42,
+            "y": 664.046875,
+            "width": 702,
+            "height": 44,
+            "top": 664.046875,
+            "right": 744,
+            "bottom": 708.046875,
+            "left": 42
+          }
+        },
+        {
+          "text": "Begin a Titan pass→",
+          "action": "study",
+          "value": "titan",
+          "rect": {
+            "x": 42,
+            "y": 761.546875,
+            "width": 702,
+            "height": 49,
+            "top": 761.546875,
+            "right": 744,
+            "bottom": 810.546875,
+            "left": 42
+          }
+        },
+        {
+          "text": "Saturn’s ring plane→",
+          "action": "study",
+          "value": "ring-plane",
+          "rect": {
+            "x": 42,
+            "y": 810.546875,
+            "width": 702,
+            "height": 49,
+            "top": 810.546875,
+            "right": 744,
+            "bottom": 859.546875,
+            "left": 42
+          }
+        },
+        {
+          "text": "Saturn’s north pole→",
+          "action": "study",
+          "value": "north-pole",
+          "rect": {
+            "x": 42,
+            "y": 859.546875,
+            "width": 702,
+            "height": 49,
+            "top": 859.546875,
+            "right": 744,
+            "bottom": 908.546875,
+            "left": 42
+          }
+        },
+        {
+          "text": "Rings become a lineChoose Saturn’s ring plane for a pass outside the main rings.Locate subject",
+          "action": "opportunity",
+          "value": "ring-edge",
+          "rect": {
+            "x": 42,
+            "y": 1000.140625,
+            "width": 702,
+            "height": 108,
+            "top": 1000.140625,
+            "right": 744,
+            "bottom": 1108.140625,
+            "left": 42
+          }
+        },
+        {
+          "text": "Light through Titan’s hazeUse the Titan study to explore its sunlit haze from the night side.Locate subject",
+          "action": "opportunity",
+          "value": "titan-light",
+          "rect": {
+            "x": 42,
+            "y": 1108.140625,
+            "width": 702,
+            "height": 108,
+            "top": 1108.140625,
+            "right": 744,
+            "bottom": 1216.140625,
+            "left": 42
+          }
+        },
+        {
+          "text": "Flight review",
+          "action": "review",
+          "rect": {
+            "x": 40,
+            "y": 544,
+            "width": 79.015625,
+            "height": 44,
+            "top": 544,
+            "right": 119.015625,
+            "bottom": 588,
+            "left": 40
+          }
+        },
+        {
+          "text": "Revisit encounter",
+          "action": "restart",
+          "rect": {
+            "x": 135.015625,
+            "y": 544,
+            "width": 108.46875,
+            "height": 44,
+            "top": 544,
+            "right": 243.484375,
+            "bottom": 588,
+            "left": 135.015625
+          }
+        },
+        {
+          "text": "Continue to Pale Blue Dot →",
+          "action": "depart",
+          "rect": {
+            "x": 529.375,
+            "y": 542,
+            "width": 230.625,
+            "height": 46,
+            "top": 542,
+            "right": 760,
+            "bottom": 588,
+            "left": 529.375
+          }
+        }
+      ]
+    }
+  ],
+  "before": {
+    "p": [
+      -1421176444.7574577,
+      31058199.367675334,
+      72694289.96106811
+    ],
+    "q": [
+      -0.04187300771707857,
+      0.9489169842359795,
+      0.15041486041717653,
+      0.274187122270359
+    ],
+    "opportunity": null,
+    "study": null
+  },
+  "after": {
+    "p": [
+      -1421176446.8121634,
+      31058202.030154444,
+      72694289.68492663
+    ],
+    "q": [
+      -0.04187300771707857,
+      0.9489169842359795,
+      0.15041486041717653,
+      0.274187122270359
+    ],
+    "opportunity": "ring-edge",
+    "study": null
+  }
+}

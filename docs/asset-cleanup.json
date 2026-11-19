@@ -1,0 +1,96 @@
+{
+  "reason": "Superseded downloaded or generated intermediates; full-size dimensions, model geometry and catalogue values remain in the runtime copies. Original music can be regenerated with docs/compose-score.py. Source links are in docs/CREDITS.md.",
+  "bytesRemoved": 104019655,
+  "files": [
+    {
+      "file": "assets/textures/earth.jpg",
+      "bytes": 4565076,
+      "sha256": "88ab060b6e7d241cfc590c69f528fab2b3247b738d40124cb590999a6fe44abc"
+    },
+    {
+      "file": "assets/textures/earth-clouds.jpg",
+      "bytes": 11619184,
+      "sha256": "c792eca228989d36ebb45d3ea6ff1198be5e21a25d70d2fbcb2124ffd14ba7f5"
+    },
+    {
+      "file": "assets/textures/moon.jpg",
+      "bytes": 1053869,
+      "sha256": "2764ba6535ea0481a062846ee033cc7a909dae05b31a8fd13f3e98f3a7fd92bd"
+    },
+    {
+      "file": "assets/textures/jupiter.jpg",
+      "bytes": 3080980,
+      "sha256": "0bd844bf20822c4e3e80882b077859833c0dac44c7e4e1e0cd63d1b1b6d43085"
+    },
+    {
+      "file": "assets/textures/io.jpg",
+      "bytes": 1738678,
+      "sha256": "103c2ecd08f8ad7853dfebabc82001969c4e2b6cde5217ce8a7e6a2956b64dab"
+    },
+    {
+      "file": "assets/textures/saturn.jpg",
+      "bytes": 1098204,
+      "sha256": "0d39a4a490c87c3edabe00a3881a29bb3418364178c79c534fe0986e97e09853"
+    },
+    {
+      "file": "assets/audio/departure.wav",
+      "bytes": 12288044,
+      "sha256": "97ae9177c083009dca50e0c7262b327e10d4f53fae804b39a94d053f8a9eef28"
+    },
+    {
+      "file": "assets/audio/departure.m4a",
+      "bytes": 1935681,
+      "sha256": "72702f7249ef84d97263f4de7b7161e1c5e50fccabb8b44750147801e55ec516"
+    },
+    {
+      "file": "assets/audio/encounter.wav",
+      "bytes": 12288044,
+      "sha256": "434a7b1186b47d55098bde16e154b418dacb18a3cb56ae0457088a1fc2823b7e"
+    },
+    {
+      "file": "assets/audio/encounter.m4a",
+      "bytes": 1937701,
+      "sha256": "f8f00b0d58ed06af1a53ea52ba8c46bf68a746b52c4a329ac99d6205e9319377"
+    },
+    {
+      "file": "assets/audio/rings.wav",
+      "bytes": 12288044,
+      "sha256": "c97c1520f4bd974c0d0cd0c5a8f22f433465f12131c019fc1a342e932a7ced9a"
+    },
+    {
+      "file": "assets/audio/rings.m4a",
+      "bytes": 1936635,
+      "sha256": "ada2786599fd55b6bdbf91c7ab9c22ac3a46deca4b505c2fad73b1c6c01aca55"
+    },
+    {
+      "file": "assets/audio/distance.wav",
+      "bytes": 12288044,
+      "sha256": "32e5e80f58a10f8e5582632bfe3e7dfa3c485465112f6412fb3e034a7930d239"
+    },
+    {
+      "file": "assets/audio/distance.m4a",
+      "bytes": 1937559,
+      "sha256": "05bce5cf7e4128ae1b0626e6b128e740248980baa29183a0a305498171204b69"
+    },
+    {
+      "file": "assets/models/voyager.glb",
+      "bytes": 3128204,
+      "sha256": "5338241f2e89e9cfe3ebb82f519b4cad64c97e66883cccba6fdda98667aec731"
+    },
+    {
+      "file": "assets/models/io.glb",
+      "bytes": 17479700,
+      "sha256": "118a6bf7eda476ea6b454039f621778189141a82acb3ad0aaa762f1771c5a723"
+    },
+    {
+      "file": "assets/stars.json",
+      "bytes": 656721,
+      "sha256": "0297b8fa3adfbce1dc26566f61c4abcc1df4f29c6a28729ca06b56d1c6d25602"
+    },
+    {
+      "file": "assets/archive/interstellar-plasma.mp4",
+      "bytes": 2699287,
+      "sha256": "7d62c16b9ea30aab763b98bb6a4441018b8dd04b315c97795b63290abbbd383d"
+    }
+  ]
+}

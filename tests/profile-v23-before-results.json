@@ -1,0 +1,74 @@
+{
+  "viewport": [
+    1440,
+    900
+  ],
+  "dpr": 2,
+  "rows": [
+    {
+      "view": "probe",
+      "passes": {
+        "final resolve": {
+          "samples": 39,
+          "medianMs": 20.551624,
+          "p95Ms": 22.043375
+        },
+        "cloud resolve + atmosphere": {
+          "samples": 39,
+          "medianMs": 19.833208,
+          "p95Ms": 21.503625
+        },
+        "cloud volume": {
+          "samples": 39,
+          "medianMs": 17.306624,
+          "p95Ms": 18.945249
+        },
+        "surface": {
+          "samples": 39,
+          "medianMs": 13.173,
+          "p95Ms": 17.308291
+        },
+        "sky": {
+          "samples": 39,
+          "medianMs": 1.206541,
+          "p95Ms": 1.395333
+        }
+      }
+    },
+    {
+      "view": "chase",
+      "passes": {
+        "final resolve": {
+          "samples": 39,
+          "medianMs": 1.5965,
+          "p95Ms": 4.264499
+        },
+        "spacecraft": {
+          "samples": 39,
+          "medianMs": 0.333708,
+          "p95Ms": 3.124541
+        },
+        "cloud resolve + atmosphere": {
+          "samples": 39,
+          "medianMs": 17.044,
+          "p95Ms": 21.765291
+        },
+        "cloud volume": {
+          "samples": 39,
+          "medianMs": 14.094999,
+          "p95Ms": 18.934374
+        },
+        "surface": {
+          "samples": 39,
+          "medianMs": 13.491708,
+          "p95Ms": 18.119541
+        },
+        "sky": {
+          "samples": 39,
+          "medianMs": 1.203208,
+          "p95Ms": 1.414874
+        }
+      }
+    }
+  ]
+}

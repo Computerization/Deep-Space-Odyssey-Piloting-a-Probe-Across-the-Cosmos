@@ -1,0 +1,946 @@
+{
+  "version": "0.34.0",
+  "previousImageCompared": true,
+  "interpretation": "Matched views and geographic reflection regression; not a claim of photographic equivalence.",
+  "outcomes": [
+    {
+      "name": "Chrome",
+      "engineVersion": "158.0.8127.37",
+      "resources": {
+        "colour": [
+          8192,
+          4096
+        ],
+        "water": [
+          4096,
+          2048
+        ],
+        "scalar": true,
+        "linear": true,
+        "repeat": true
+      },
+      "views": [
+        {
+          "label": "day",
+          "radius": 2.35,
+          "phase": 35,
+          "captures": {
+            "previous": {
+              "calls": 6,
+              "triangles": 219650
+            },
+            "candidate": {
+              "calls": 6,
+              "triangles": 219650
+            }
+          }
+        },
+        {
+          "label": "terminator",
+          "radius": 2.35,
+          "phase": 90,
+          "captures": {
+            "previous": {
+              "calls": 6,
+              "triangles": 219650
+            },
+            "candidate": {
+              "calls": 6,
+              "triangles": 219650
+            }
+          }
+        },
+        {
+          "label": "crescent",
+          "radius": 2.35,
+          "phase": 150,
+          "captures": {
+            "previous": {
+              "calls": 7,
+              "triangles": 292866
+            },
+            "candidate": {
+              "calls": 7,
+              "triangles": 292866
+            }
+          }
+        },
+        {
+          "label": "close",
+          "radius": 1.05,
+          "phase": 50,
+          "captures": {
+            "previous": {
+              "calls": 6,
+              "triangles": 219650
+            },
+            "candidate": {
+              "calls": 6,
+              "triangles": 219650
+            }
+          }
+        },
+        {
+          "label": "grazing",
+          "radius": 1.08,
+          "phase": 90,
+          "captures": {
+            "previous": {
+              "calls": 6,
+              "triangles": 219650
+            },
+            "candidate": {
+              "calls": 6,
+              "triangles": 219650
+            }
+          }
+        },
+        {
+          "label": "night",
+          "radius": 2.35,
+          "phase": 175,
+          "captures": {
+            "previous": {
+              "calls": 10,
+              "triangles": 516610
+            },
+            "candidate": {
+              "calls": 10,
+              "triangles": 516610
+            }
+          }
+        }
+      ],
+      "glint": [
+        {
+          "label": "Pacific",
+          "lon": -140,
+          "lat": 0,
+          "water": true,
+          "pixels": {
+            "water-map": [
+              104,
+              104,
+              106
+            ],
+            "colour-rule": [
+              0,
+              3,
+              19
+            ],
+            "off": [
+              0,
+              3,
+              19
+            ]
+          },
+          "signal": 97.33333333333333,
+          "colourSignal": 0
+        },
+        {
+          "label": "Atlantic",
+          "lon": -30,
+          "lat": 0,
+          "water": true,
+          "pixels": {
+            "water-map": [
+              104,
+              104,
+              106
+            ],
+            "colour-rule": [
+              0,
+              3,
+              19
+            ],
+            "off": [
+              0,
+              3,
+              19
+            ]
+          },
+          "signal": 97.33333333333333,
+          "colourSignal": 0
+        },
+        {
+          "label": "Sahara",
+          "lon": 20,
+          "lat": 22,
+          "water": false,
+          "pixels": {
+            "water-map": [
+              180,
+              140,
+              84
+            ],
+            "colour-rule": [
+              180,
+              140,
+              84
+            ],
+            "off": [
+              180,
+              140,
+              84
+            ]
+          },
+          "signal": 0,
+          "colourSignal": 0
+        },
+        {
+          "label": "Amazon",
+          "lon": -64,
+          "lat": -4,
+          "water": false,
+          "pixels": {
+            "water-map": [
+              19,
+              38,
+              0
+            ],
+            "colour-rule": [
+              19,
+              38,
+              0
+            ],
+            "off": [
+              19,
+              38,
+              0
+            ]
+          },
+          "signal": 0,
+          "colourSignal": 0
+        },
+        {
+          "label": "Australia",
+          "lon": 134,
+          "lat": -25,
+          "water": false,
+          "pixels": {
+            "water-map": [
+              131,
+              75,
+              23
+            ],
+            "colour-rule": [
+              131,
+              75,
+              23
+            ],
+            "off": [
+              131,
+              75,
+              23
+            ]
+          },
+          "signal": 0,
+          "colourSignal": 0
+        },
+        {
+          "label": "Lake Superior",
+          "lon": -87,
+          "lat": 47.7,
+          "water": true,
+          "pixels": {
+            "water-map": [
+              104,
+              104,
+              105
+            ],
+            "colour-rule": [
+              0,
+              4,
+              8
+            ],
+            "off": [
+              0,
+              4,
+              8
+            ]
+          },
+          "signal": 100.33333333333333,
+          "colourSignal": 0
+        },
+        {
+          "label": "Caspian Sea",
+          "lon": 51,
+          "lat": 42,
+          "water": true,
+          "pixels": {
+            "water-map": [
+              104,
+              104,
+              104
+            ],
+            "colour-rule": [
+              0,
+              4,
+              3
+            ],
+            "off": [
+              0,
+              4,
+              3
+            ]
+          },
+          "signal": 101.66666666666667,
+          "colourSignal": 0
+        },
+        {
+          "label": "Greenland",
+          "lon": -42,
+          "lat": 74,
+          "water": false,
+          "pixels": {
+            "water-map": [
+              235,
+              239,
+              239
+            ],
+            "colour-rule": [
+              238,
+              242,
+              242
+            ],
+            "off": [
+              235,
+              239,
+              239
+            ]
+          },
+          "signal": 0,
+          "colourSignal": 3
+        }
+      ],
+      "errors": [],
+      "passed": true
+    },
+    {
+      "name": "Firefox",
+      "engineVersion": "153.0",
+      "resources": {
+        "colour": [
+          8192,
+          4096
+        ],
+        "water": [
+          4096,
+          2048
+        ],
+        "scalar": true,
+        "linear": true,
+        "repeat": true
+      },
+      "views": [
+        {
+          "label": "day",
+          "radius": 2.35,
+          "phase": 35,
+          "captures": {
+            "previous": {
+              "calls": 6,
+              "triangles": 219650
+            },
+            "candidate": {
+              "calls": 6,
+              "triangles": 219650
+            }
+          }
+        },
+        {
+          "label": "terminator",
+          "radius": 2.35,
+          "phase": 90,
+          "captures": {
+            "previous": {
+              "calls": 6,
+              "triangles": 219650
+            },
+            "candidate": {
+              "calls": 6,
+              "triangles": 219650
+            }
+          }
+        },
+        {
+          "label": "crescent",
+          "radius": 2.35,
+          "phase": 150,
+          "captures": {
+            "previous": {
+              "calls": 7,
+              "triangles": 292866
+            },
+            "candidate": {
+              "calls": 7,
+              "triangles": 292866
+            }
+          }
+        },
+        {
+          "label": "close",
+          "radius": 1.05,
+          "phase": 50,
+          "captures": {
+            "previous": {
+              "calls": 6,
+              "triangles": 219650
+            },
+            "candidate": {
+              "calls": 6,
+              "triangles": 219650
+            }
+          }
+        },
+        {
+          "label": "grazing",
+          "radius": 1.08,
+          "phase": 90,
+          "captures": {
+            "previous": {
+              "calls": 6,
+              "triangles": 219650
+            },
+            "candidate": {
+              "calls": 6,
+              "triangles": 219650
+            }
+          }
+        },
+        {
+          "label": "night",
+          "radius": 2.35,
+          "phase": 175,
+          "captures": {
+            "previous": {
+              "calls": 10,
+              "triangles": 516610
+            },
+            "candidate": {
+              "calls": 10,
+              "triangles": 516610
+            }
+          }
+        }
+      ],
+      "glint": [
+        {
+          "label": "Pacific",
+          "lon": -140,
+          "lat": 0,
+          "water": true,
+          "pixels": {
+            "water-map": [
+              104,
+              104,
+              106
+            ],
+            "colour-rule": [
+              0,
+              3,
+              19
+            ],
+            "off": [
+              0,
+              3,
+              19
+            ]
+          },
+          "signal": 97.33333333333333,
+          "colourSignal": 0
+        },
+        {
+          "label": "Atlantic",
+          "lon": -30,
+          "lat": 0,
+          "water": true,
+          "pixels": {
+            "water-map": [
+              104,
+              104,
+              106
+            ],
+            "colour-rule": [
+              0,
+              3,
+              19
+            ],
+            "off": [
+              0,
+              3,
+              19
+            ]
+          },
+          "signal": 97.33333333333333,
+          "colourSignal": 0
+        },
+        {
+          "label": "Sahara",
+          "lon": 20,
+          "lat": 22,
+          "water": false,
+          "pixels": {
+            "water-map": [
+              180,
+              140,
+              84
+            ],
+            "colour-rule": [
+              180,
+              140,
+              84
+            ],
+            "off": [
+              180,
+              140,
+              84
+            ]
+          },
+          "signal": 0,
+          "colourSignal": 0
+        },
+        {
+          "label": "Amazon",
+          "lon": -64,
+          "lat": -4,
+          "water": false,
+          "pixels": {
+            "water-map": [
+              19,
+              38,
+              0
+            ],
+            "colour-rule": [
+              19,
+              38,
+              0
+            ],
+            "off": [
+              19,
+              38,
+              0
+            ]
+          },
+          "signal": 0,
+          "colourSignal": 0
+        },
+        {
+          "label": "Australia",
+          "lon": 134,
+          "lat": -25,
+          "water": false,
+          "pixels": {
+            "water-map": [
+              131,
+              76,
+              22
+            ],
+            "colour-rule": [
+              131,
+              76,
+              22
+            ],
+            "off": [
+              131,
+              76,
+              22
+            ]
+          },
+          "signal": 0,
+          "colourSignal": 0
+        },
+        {
+          "label": "Lake Superior",
+          "lon": -87,
+          "lat": 47.7,
+          "water": true,
+          "pixels": {
+            "water-map": [
+              104,
+              104,
+              105
+            ],
+            "colour-rule": [
+              0,
+              4,
+              8
+            ],
+            "off": [
+              0,
+              4,
+              8
+            ]
+          },
+          "signal": 100.33333333333333,
+          "colourSignal": 0
+        },
+        {
+          "label": "Caspian Sea",
+          "lon": 51,
+          "lat": 42,
+          "water": true,
+          "pixels": {
+            "water-map": [
+              104,
+              104,
+              104
+            ],
+            "colour-rule": [
+              0,
+              4,
+              3
+            ],
+            "off": [
+              0,
+              4,
+              3
+            ]
+          },
+          "signal": 101.66666666666667,
+          "colourSignal": 0
+        },
+        {
+          "label": "Greenland",
+          "lon": -42,
+          "lat": 74,
+          "water": false,
+          "pixels": {
+            "water-map": [
+              235,
+              239,
+              239
+            ],
+            "colour-rule": [
+              238,
+              242,
+              242
+            ],
+            "off": [
+              235,
+              239,
+              239
+            ]
+          },
+          "signal": 0,
+          "colourSignal": 3
+        }
+      ],
+      "errors": [],
+      "passed": true
+    },
+    {
+      "name": "WebKit",
+      "engineVersion": "26.5",
+      "resources": {
+        "colour": [
+          8192,
+          4096
+        ],
+        "water": [
+          4096,
+          2048
+        ],
+        "scalar": true,
+        "linear": true,
+        "repeat": true
+      },
+      "views": [
+        {
+          "label": "day",
+          "radius": 2.35,
+          "phase": 35,
+          "captures": {
+            "previous": {
+              "calls": 6,
+              "triangles": 219650
+            },
+            "candidate": {
+              "calls": 6,
+              "triangles": 219650
+            }
+          }
+        },
+        {
+          "label": "terminator",
+          "radius": 2.35,
+          "phase": 90,
+          "captures": {
+            "previous": {
+              "calls": 6,
+              "triangles": 219650
+            },
+            "candidate": {
+              "calls": 6,
+              "triangles": 219650
+            }
+          }
+        },
+        {
+          "label": "crescent",
+          "radius": 2.35,
+          "phase": 150,
+          "captures": {
+            "previous": {
+              "calls": 7,
+              "triangles": 292866
+            },
+            "candidate": {
+              "calls": 7,
+              "triangles": 292866
+            }
+          }
+        },
+        {
+          "label": "close",
+          "radius": 1.05,
+          "phase": 50,
+          "captures": {
+            "previous": {
+              "calls": 6,
+              "triangles": 219650
+            },
+            "candidate": {
+              "calls": 6,
+              "triangles": 219650
+            }
+          }
+        },
+        {
+          "label": "grazing",
+          "radius": 1.08,
+          "phase": 90,
+          "captures": {
+            "previous": {
+              "calls": 6,
+              "triangles": 219650
+            },
+            "candidate": {
+              "calls": 6,
+              "triangles": 219650
+            }
+          }
+        },
+        {
+          "label": "night",
+          "radius": 2.35,
+          "phase": 175,
+          "captures": {
+            "previous": {
+              "calls": 10,
+              "triangles": 516610
+            },
+            "candidate": {
+              "calls": 10,
+              "triangles": 516610
+            }
+          }
+        }
+      ],
+      "glint": [
+        {
+          "label": "Pacific",
+          "lon": -140,
+          "lat": 0,
+          "water": true,
+          "pixels": {
+            "water-map": [
+              104,
+              104,
+              106
+            ],
+            "colour-rule": [
+              0,
+              3,
+              19
+            ],
+            "off": [
+              0,
+              3,
+              19
+            ]
+          },
+          "signal": 97.33333333333333,
+          "colourSignal": 0
+        },
+        {
+          "label": "Atlantic",
+          "lon": -30,
+          "lat": 0,
+          "water": true,
+          "pixels": {
+            "water-map": [
+              104,
+              104,
+              106
+            ],
+            "colour-rule": [
+              0,
+              3,
+              19
+            ],
+            "off": [
+              0,
+              3,
+              19
+            ]
+          },
+          "signal": 97.33333333333333,
+          "colourSignal": 0
+        },
+        {
+          "label": "Sahara",
+          "lon": 20,
+          "lat": 22,
+          "water": false,
+          "pixels": {
+            "water-map": [
+              180,
+              140,
+              84
+            ],
+            "colour-rule": [
+              180,
+              140,
+              84
+            ],
+            "off": [
+              180,
+              140,
+              84
+            ]
+          },
+          "signal": 0,
+          "colourSignal": 0
+        },
+        {
+          "label": "Amazon",
+          "lon": -64,
+          "lat": -4,
+          "water": false,
+          "pixels": {
+            "water-map": [
+              19,
+              38,
+              0
+            ],
+            "colour-rule": [
+              19,
+              38,
+              0
+            ],
+            "off": [
+              19,
+              38,
+              0
+            ]
+          },
+          "signal": 0,
+          "colourSignal": 0
+        },
+        {
+          "label": "Australia",
+          "lon": 134,
+          "lat": -25,
+          "water": false,
+          "pixels": {
+            "water-map": [
+              131,
+              76,
+              22
+            ],
+            "colour-rule": [
+              131,
+              76,
+              22
+            ],
+            "off": [
+              131,
+              76,
+              22
+            ]
+          },
+          "signal": 0,
+          "colourSignal": 0
+        },
+        {
+          "label": "Lake Superior",
+          "lon": -87,
+          "lat": 47.7,
+          "water": true,
+          "pixels": {
+            "water-map": [
+              104,
+              104,
+              105
+            ],
+            "colour-rule": [
+              0,
+              4,
+              8
+            ],
+            "off": [
+              0,
+              4,
+              8
+            ]
+          },
+          "signal": 100.33333333333333,
+          "colourSignal": 0
+        },
+        {
+          "label": "Caspian Sea",
+          "lon": 51,
+          "lat": 42,
+          "water": true,
+          "pixels": {
+            "water-map": [
+              104,
+              104,
+              104
+            ],
+            "colour-rule": [
+              0,
+              4,
+              3
+            ],
+            "off": [
+              0,
+              4,
+              3
+            ]
+          },
+          "signal": 101.66666666666667,
+          "colourSignal": 0
+        },
+        {
+          "label": "Greenland",
+          "lon": -42,
+          "lat": 74,
+          "water": false,
+          "pixels": {
+            "water-map": [
+              235,
+              239,
+              239
+            ],
+            "colour-rule": [
+              238,
+              242,
+              242
+            ],
+            "off": [
+              235,
+              239,
+              239
+            ]
+          },
+          "signal": 0,
+          "colourSignal": 3
+        }
+      ],
+      "errors": [],
+      "passed": true
+    }
+  ]
+}

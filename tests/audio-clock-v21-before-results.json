@@ -1,0 +1,47 @@
+{
+  "before": {
+    "time": 8.384,
+    "channels": [
+      {
+        "id": "departure",
+        "gain": 0.9831466674804688,
+        "paused": false
+      },
+      {
+        "id": "encounter",
+        "gain": 0.18257085978984833,
+        "paused": false
+      }
+    ]
+  },
+  "during": {
+    "time": 8.384,
+    "channels": [
+      {
+        "id": "departure",
+        "gain": 0.9831466674804688,
+        "paused": true
+      },
+      {
+        "id": "encounter",
+        "gain": 0.18257085978984833,
+        "paused": false
+      }
+    ]
+  },
+  "after": {
+    "time": 8.410666666666666,
+    "channels": [
+      {
+        "id": "departure",
+        "gain": 0.981336772441864,
+        "paused": true
+      },
+      {
+        "id": "encounter",
+        "gain": 0.19206705689430237,
+        "paused": false
+      }
+    ]
+  }
+}

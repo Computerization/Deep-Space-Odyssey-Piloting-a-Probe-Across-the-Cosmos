@@ -1,0 +1,39 @@
+{
+  "version": "0.100.0",
+  "chromeOnly": true,
+  "method": "Same Chrome/Metal process, 1280x800 DPR2, High, 58-degree lens, fixed Earth view at 1.55 radii. 20 warmup draws per variant, then 60 alternating ABBA draws (30 each). Each full-frame CPU interval ends with a one-pixel GPU readback; includes synchronization and program switching. Not live frame rates.",
+  "referenceShaderSha256": "c3fef1c563562ccada5e384d40eabd0dae97a86c6ddbe820bf458c57f52338c3",
+  "candidateShaderSha256": "c265b0974350990db8b07b61b07b288b89688f4184934c1a99148cbb86728309",
+  "pairedCosts": {
+    "previous": {
+      "samples": 30,
+      "median": 89.59999996423721,
+      "mean": 89.15333332419395
+    },
+    "current": {
+      "samples": 30,
+      "median": 84.19999998807907,
+      "mean": 86.22333333094915
+    }
+  },
+  "imageComparison": [
+    {
+      "scene": "earth",
+      "meanError": 1.6276041666666666e-07,
+      "maxError": 1.0,
+      "differentChannels": 2
+    },
+    {
+      "scene": "earth-near",
+      "meanError": 0.0,
+      "maxError": 0.0,
+      "differentChannels": 0
+    },
+    {
+      "scene": "jupiter",
+      "meanError": 0.0,
+      "maxError": 0.0,
+      "differentChannels": 0
+    }
+  ]
+}

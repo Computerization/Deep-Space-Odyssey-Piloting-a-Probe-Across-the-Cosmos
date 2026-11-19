@@ -1,0 +1,382 @@
+{
+  "version": "0.88.0",
+  "previous": "/private/tmp/cosmos-v88-previous/Cosmos",
+  "candidateNormal": "assets/textures/moon-normal.avif",
+  "candidateHeight": "assets/textures/moon-height.webp",
+  "normalChannels": "oct",
+  "previousChannels": "oct",
+  "encodingOnly": true,
+  "steps": 48,
+  "hashes": {
+    "/private/tmp/cosmos-v88-previous/Cosmos/assets/textures/moon-normal.avif": "1a5f40ab56c609eb8473b4ea84e9e83576c0133e04ec4138330766286cd70513",
+    "src/rendering/shaders.js": "91c5c280d16d26f13152c66762fac22460e6b0473c48c0da3e335a81d0b572b3",
+    "src/world.js": "fafc2b0385a86036dfe75d7b2e4606b82d7ed35d87efdbfdd497d40989e0b2f8",
+    "assets/textures/moon-normal.avif": "7e9170917cb332c129fd62c76aabfe1cc9bf65eebe24ebcf4ffdf79da97d6ff0",
+    "assets/textures/moon-height.webp": "3cbbc1667418cef9bd6b30ed521fa74bbde1bea8d8d3bf3354061610fb130720",
+    "/private/tmp/cosmos-v88-lunar-reference/normal-oct-5760.png": "41eb0efea8e9c911956788e28b923c50c58eebcd05dfa8d8c702e7863a862014",
+    "/private/tmp/cosmos-v88-lunar-reference/height-reference.bin": "7ecf94e316db68672c57066046b3c070bb18fec3877a07f73ac3ac552ec68e25"
+  },
+  "reference": "Lossless octahedral normals from the identical NASA-derived field. Same shader, height, geometry and polar maps isolate encoding error; no photographic-equivalence claim.",
+  "outcomes": [
+    {
+      "name": "Chrome",
+      "engineVersion": "158.0.8127.37",
+      "fields": {
+        "previous": {
+          "angleDegrees": {
+            "mean": 0.6739572153100262,
+            "p95": 1.4653009176254272,
+            "max": 5.267175674438477
+          },
+          "heightErrorMetres": {
+            "mean": 13.900799578277656,
+            "p95": 31.241119384765625,
+            "max": 42.008846282958984
+          },
+          "normalDimensions": [
+            5760,
+            2880
+          ],
+          "normalFormat": 1030,
+          "normalMipBytes": 0
+        },
+        "candidate": {
+          "angleDegrees": {
+            "mean": 0.45335671251343235,
+            "p95": 0.9777787327766418,
+            "max": 3.8555490970611572
+          },
+          "heightErrorMetres": {
+            "mean": 13.900799578277656,
+            "p95": 31.241119384765625,
+            "max": 42.008846282958984
+          },
+          "normalDimensions": [
+            5760,
+            2880
+          ],
+          "normalFormat": 1030,
+          "normalMipBytes": 0
+        }
+      },
+      "views": [
+        {
+          "label": "study",
+          "metrics": {
+            "previous": {
+              "rmse": 0.9441988696018739,
+              "max": 13,
+              "count": 136632
+            },
+            "candidate": {
+              "rmse": 0.5978950429186896,
+              "max": 9,
+              "count": 136632
+            }
+          }
+        },
+        {
+          "label": "close",
+          "metrics": {
+            "previous": {
+              "rmse": 1.633250898560614,
+              "max": 35,
+              "count": 1197390
+            },
+            "candidate": {
+              "rmse": 1.0875565325313319,
+              "max": 20,
+              "count": 1197390
+            }
+          }
+        },
+        {
+          "label": "full",
+          "metrics": {
+            "previous": {
+              "rmse": 0.43039586452153245,
+              "max": 33,
+              "count": 1772484
+            },
+            "candidate": {
+              "rmse": 0.3246494790743007,
+              "max": 20,
+              "count": 1772484
+            }
+          }
+        },
+        {
+          "label": "crescent",
+          "metrics": {
+            "previous": {
+              "rmse": 2.081031556604239,
+              "max": 101,
+              "count": 65127
+            },
+            "candidate": {
+              "rmse": 1.282192891024269,
+              "max": 40,
+              "count": 65127
+            }
+          }
+        },
+        {
+          "label": "polar",
+          "metrics": {
+            "previous": {
+              "rmse": 2.1173319258034162,
+              "max": 43,
+              "count": 1252254
+            },
+            "candidate": {
+              "rmse": 1.3452728505751441,
+              "max": 29,
+              "count": 1252254
+            }
+          }
+        }
+      ],
+      "errors": []
+    },
+    {
+      "name": "Firefox",
+      "engineVersion": "153.0",
+      "fields": {
+        "previous": {
+          "angleDegrees": {
+            "mean": 0.6738678902693935,
+            "p95": 1.465290904045105,
+            "max": 5.374931335449219
+          },
+          "heightErrorMetres": {
+            "mean": 13.902044287229728,
+            "p95": 31.19856071472168,
+            "max": 42.44631576538086
+          },
+          "normalDimensions": [
+            5760,
+            2880
+          ],
+          "normalFormat": 1030,
+          "normalMipBytes": 0
+        },
+        "candidate": {
+          "angleDegrees": {
+            "mean": 0.4532493094602559,
+            "p95": 0.9769430160522461,
+            "max": 3.8555490970611572
+          },
+          "heightErrorMetres": {
+            "mean": 13.902044287229728,
+            "p95": 31.19856071472168,
+            "max": 42.44631576538086
+          },
+          "normalDimensions": [
+            5760,
+            2880
+          ],
+          "normalFormat": 1030,
+          "normalMipBytes": 0
+        }
+      },
+      "views": [
+        {
+          "label": "study",
+          "metrics": {
+            "previous": {
+              "rmse": 0.9428375051088462,
+              "max": 13,
+              "count": 136632
+            },
+            "candidate": {
+              "rmse": 0.6003443787929648,
+              "max": 8,
+              "count": 136632
+            }
+          }
+        },
+        {
+          "label": "close",
+          "metrics": {
+            "previous": {
+              "rmse": 1.632396778894518,
+              "max": 36,
+              "count": 1197480
+            },
+            "candidate": {
+              "rmse": 1.0865922727243815,
+              "max": 20,
+              "count": 1197480
+            }
+          }
+        },
+        {
+          "label": "full",
+          "metrics": {
+            "previous": {
+              "rmse": 0.43064681716255787,
+              "max": 34,
+              "count": 1772484
+            },
+            "candidate": {
+              "rmse": 0.32462688672313317,
+              "max": 20,
+              "count": 1772484
+            }
+          }
+        },
+        {
+          "label": "crescent",
+          "metrics": {
+            "previous": {
+              "rmse": 2.0764127757652098,
+              "max": 101,
+              "count": 65100
+            },
+            "candidate": {
+              "rmse": 1.2834644934671093,
+              "max": 40,
+              "count": 65100
+            }
+          }
+        },
+        {
+          "label": "polar",
+          "metrics": {
+            "previous": {
+              "rmse": 2.116476977492826,
+              "max": 43,
+              "count": 1252314
+            },
+            "candidate": {
+              "rmse": 1.3452165826774292,
+              "max": 29,
+              "count": 1252314
+            }
+          }
+        }
+      ],
+      "errors": []
+    },
+    {
+      "name": "WebKit",
+      "engineVersion": "26.5",
+      "fields": {
+        "previous": {
+          "angleDegrees": {
+            "mean": 0.694566720694342,
+            "p95": 1.5556058883666992,
+            "max": 4.707204341888428
+          },
+          "heightErrorMetres": {
+            "mean": 13.900799578277656,
+            "p95": 31.241119384765625,
+            "max": 42.008846282958984
+          },
+          "normalDimensions": [
+            5760,
+            2880
+          ],
+          "normalFormat": 1030,
+          "normalMipBytes": 0
+        },
+        "candidate": {
+          "angleDegrees": {
+            "mean": 0.45335671251343235,
+            "p95": 0.9777787327766418,
+            "max": 3.8555490970611572
+          },
+          "heightErrorMetres": {
+            "mean": 13.900799578277656,
+            "p95": 31.241119384765625,
+            "max": 42.008846282958984
+          },
+          "normalDimensions": [
+            5760,
+            2880
+          ],
+          "normalFormat": 1030,
+          "normalMipBytes": 0
+        }
+      },
+      "views": [
+        {
+          "label": "study",
+          "metrics": {
+            "previous": {
+              "rmse": 1.683481256171088,
+              "max": 19,
+              "count": 136632
+            },
+            "candidate": {
+              "rmse": 0.5976011828319242,
+              "max": 9,
+              "count": 136632
+            }
+          }
+        },
+        {
+          "label": "close",
+          "metrics": {
+            "previous": {
+              "rmse": 2.107524689825493,
+              "max": 41,
+              "count": 1197144
+            },
+            "candidate": {
+              "rmse": 1.0869457300594596,
+              "max": 20,
+              "count": 1197144
+            }
+          }
+        },
+        {
+          "label": "full",
+          "metrics": {
+            "previous": {
+              "rmse": 0.6284951109017944,
+              "max": 60,
+              "count": 1772484
+            },
+            "candidate": {
+              "rmse": 0.3246494790743007,
+              "max": 20,
+              "count": 1772484
+            }
+          }
+        },
+        {
+          "label": "crescent",
+          "metrics": {
+            "previous": {
+              "rmse": 3.8940115314157016,
+              "max": 101,
+              "count": 65103
+            },
+            "candidate": {
+              "rmse": 1.2814047231867525,
+              "max": 40,
+              "count": 65103
+            }
+          }
+        },
+        {
+          "label": "polar",
+          "metrics": {
+            "previous": {
+              "rmse": 2.5638095673385695,
+              "max": 56,
+              "count": 1255356
+            },
+            "candidate": {
+              "rmse": 1.343828481189589,
+              "max": 29,
+              "count": 1255356
+            }
+          }
+        }
+      ],
+      "errors": []
+    }
+  ]
+}

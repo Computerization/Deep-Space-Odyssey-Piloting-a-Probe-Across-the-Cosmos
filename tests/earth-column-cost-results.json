@@ -1,0 +1,141 @@
+{
+  "version": "0.46.0",
+  "cost": [
+    {
+      "label": "day",
+      "mode": "previous",
+      "samples": 120,
+      "gpuMedianMs": 13.7225,
+      "gpuP95Ms": 33.091333,
+      "cpuMedianMs": 0.30000001192092896,
+      "pixels": [
+        1000,
+        625
+      ],
+      "calls": 7,
+      "memory": {
+        "geometries": 20,
+        "textures": 27
+      }
+    },
+    {
+      "label": "day",
+      "mode": "candidate",
+      "samples": 120,
+      "gpuMedianMs": 11.94075,
+      "gpuP95Ms": 28.548833,
+      "cpuMedianMs": 0.4000000059604645,
+      "pixels": [
+        1000,
+        625
+      ],
+      "calls": 7,
+      "memory": {
+        "geometries": 20,
+        "textures": 27
+      }
+    },
+    {
+      "label": "day",
+      "mode": "candidate",
+      "samples": 120,
+      "gpuMedianMs": 13.308666,
+      "gpuP95Ms": 26.729166,
+      "cpuMedianMs": 0.30000001192092896,
+      "pixels": [
+        1000,
+        625
+      ],
+      "calls": 7,
+      "memory": {
+        "geometries": 20,
+        "textures": 27
+      }
+    },
+    {
+      "label": "day",
+      "mode": "previous",
+      "samples": 120,
+      "gpuMedianMs": 13.304749,
+      "gpuP95Ms": 27.131125,
+      "cpuMedianMs": 0.3999999761581421,
+      "pixels": [
+        1000,
+        625
+      ],
+      "calls": 7,
+      "memory": {
+        "geometries": 20,
+        "textures": 27
+      }
+    },
+    {
+      "label": "close",
+      "mode": "previous",
+      "samples": 120,
+      "gpuMedianMs": 15.768499,
+      "gpuP95Ms": 19.955833,
+      "cpuMedianMs": 0.30000001192092896,
+      "pixels": [
+        1000,
+        625
+      ],
+      "calls": 7,
+      "memory": {
+        "geometries": 20,
+        "textures": 27
+      }
+    },
+    {
+      "label": "close",
+      "mode": "candidate",
+      "samples": 120,
+      "gpuMedianMs": 16.099875,
+      "gpuP95Ms": 35.141125,
+      "cpuMedianMs": 0.3999999761581421,
+      "pixels": [
+        1000,
+        625
+      ],
+      "calls": 7,
+      "memory": {
+        "geometries": 20,
+        "textures": 27
+      }
+    },
+    {
+      "label": "close",
+      "mode": "candidate",
+      "samples": 120,
+      "gpuMedianMs": 15.278541,
+      "gpuP95Ms": 31.624875,
+      "cpuMedianMs": 0.30000001192092896,
+      "pixels": [
+        1000,
+        625
+      ],
+      "calls": 7,
+      "memory": {
+        "geometries": 20,
+        "textures": 27
+      }
+    },
+    {
+      "label": "close",
+      "mode": "previous",
+      "samples": 120,
+      "gpuMedianMs": 19.869249,
+      "gpuP95Ms": 41.497625,
+      "cpuMedianMs": 0.30000001192092896,
+      "pixels": [
+        1000,
+        625
+      ],
+      "calls": 7,
+      "memory": {
+        "geometries": 20,
+        "textures": 27
+      }
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "engine": "Chrome",
+  "label": "v107-final",
+  "views": [
+    {
+      "body": "earth",
+      "kind": "globe",
+      "file": "tests/screenshots/portrait-Chrome-v107-final-earth-globe.png"
+    },
+    {
+      "body": "earth",
+      "kind": "crescent",
+      "file": "tests/screenshots/portrait-Chrome-v107-final-earth-crescent.png"
+    },
+    {
+      "body": "earth",
+      "kind": "near",
+      "file": "tests/screenshots/portrait-Chrome-v107-final-earth-near.png"
+    },
+    {
+      "body": "earth",
+      "kind": "terminator",
+      "file": "tests/screenshots/portrait-Chrome-v107-final-earth-terminator.png"
+    },
+    {
+      "body": "earth",
+      "kind": "backlit",
+      "file": "tests/screenshots/portrait-Chrome-v107-final-earth-backlit.png"
+    },
+    {
+      "body": "earth",
+      "kind": "limb",
+      "file": "tests/screenshots/portrait-Chrome-v107-final-earth-limb.png"
+    },
+    {
+      "body": "moon",
+      "kind": "globe",
+      "file": "tests/screenshots/portrait-Chrome-v107-final-moon-globe.png"
+    },
+    {
+      "body": "moon",
+      "kind": "crescent",
+      "file": "tests/screenshots/portrait-Chrome-v107-final-moon-crescent.png"
+    },
+    {
+      "body": "moon",
+      "kind": "near",
+      "file": "tests/screenshots/portrait-Chrome-v107-final-moon-near.png"
+    },
+    {
+      "body": "moon",
+      "kind": "terminator",
+      "file": "tests/screenshots/portrait-Chrome-v107-final-moon-terminator.png"
+    },
+    {
+      "body": "moon",
+      "kind": "backlit",
+      "file": "tests/screenshots/portrait-Chrome-v107-final-moon-backlit.png"
+    },
+    {
+      "body": "moon",
+      "kind": "limb",
+      "file": "tests/screenshots/portrait-Chrome-v107-final-moon-limb.png"
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,397 @@
+@font-face{font-family:Barlow;src:url('../../assets/fonts/barlow-semicondensed-regular.ttf') format('truetype');font-weight:400;font-display:swap}
+@font-face{font-family:Barlow;src:url('../../assets/fonts/barlow-semicondensed-medium.ttf') format('truetype');font-weight:500;font-display:swap}
+:root{--sans:Barlow,'Avenir Next',sans-serif;--serif:'Iowan Old Style',Palatino,serif;--paper:#ecece5;--muted:#acb2b4;--line:#ffffff23;--gutter:4vw}
+button{text-shadow:inherit;font-weight:400;min-height:44px;min-width:44px;border-radius:0;transition:color .16s,opacity .16s,background-color .12s}button:hover{color:#fff}button:active:not(:disabled){background-color:#ffffff12}.primary,.text-button{font:22px/1.3 var(--sans);padding:10px 0;color:#c7ccca}.primary{color:#f2f0e5}.text-button{font-size:19px}.eyebrow{font:12px var(--mono);color:var(--muted);letter-spacing:.04em}
+/* The scene is the title image; a narrow column contains navigation. */
+#landing{background:linear-gradient(90deg,#0009,transparent 65%)}.landing-copy{left:6vw;bottom:17vh;max-width:520px}.landing-description{font:400 clamp(66px,7.4vw,108px)/1 var(--sans);letter-spacing:.14em;margin:0 0 25px}.landing-years{font:22px var(--sans);margin:0 0 40px;color:#dbdfd8}.landing-years span{display:block;margin-top:10px;font:12px var(--mono);letter-spacing:.08em;color:#a8b0b1}.launch-actions{width:280px;gap:0}.launch-actions button{position:relative;text-align:left;font:24px var(--sans);padding:9px 0;min-height:48px;color:#aeb7b8}.launch-actions button.primary{color:#f4f1e5;font-weight:500}.launch-actions button::before,.pause-menu button::before{content:'';position:absolute;left:-18px;top:calc(50% - 9px);width:2px;height:18px;background:currentColor;opacity:0;transition:opacity .15s}.launch-actions button:hover,.launch-actions button:is(:focus-visible,:where(.gamepad-nav) :focus),.pause-menu button:hover,.pause-menu button:is(:focus-visible,:where(.gamepad-nav) :focus){color:white;outline:0}.launch-actions button:is(:hover,:is(:focus-visible,:where(.gamepad-nav) :focus))::before,.pause-menu button:is(:hover,:is(:focus-visible,:where(.gamepad-nav) :focus))::before{opacity:1}#resume-context{font:15px var(--sans);color:#aab4b8;margin-top:16px}.landing-footer{left:6vw;bottom:4vh;font:16px var(--sans)}
+/* Flight instruments occupy the margins, with one contextual reading area. */
+.hud-top{top:28px;left:var(--gutter);right:var(--gutter)}.chapter-heading h2{font:400 30px/1.15 var(--serif);letter-spacing:-.015em}.chapter-heading p{font:12px/1.6 var(--mono);margin-top:10px;color:#b4bec0;max-width:480px}.flight-nav{gap:20px}.flight-nav button{font:17px var(--sans);padding:8px 6px}.flight-nav svg{width:18px;height:18px;stroke-width:1.5;filter:drop-shadow(0 1px 3px #000)}#pause-button,#controls-button{width:44px}#controls-button{font:22px var(--serif)}
+.hud-top,.hud-bottom,#flight-hint{text-shadow:0 1px 3px #000}.hud-top::before,.hud-bottom::before{content:'';position:absolute;z-index:-1;pointer-events:none;inset:-40px -4vw;background:linear-gradient(#0008,transparent)}.hud-bottom::before{inset:-30px -4vw -40px;background:linear-gradient(transparent,#000b)}
+.hud-bottom{left:var(--gutter);right:var(--gutter);bottom:25px;gap:30px}.telemetry{gap:35px;align-items:flex-start}.telemetry strong{font:21px/1.25 var(--mono);letter-spacing:-.045em}.telemetry strong small{font:11px var(--mono);color:#bec6c6}.telemetry span{font:14px var(--sans);margin-top:6px;color:#bbc4c4}.time-control{display:flex;align-items:center;gap:0;margin:-10px -8px -8px}.time-control button{min-width:44px;height:44px;padding:8px;font:21px var(--sans);color:#b9c6c9}.time-control #time-toggle{min-width:64px;color:#f1eee3}.telemetry .rate strong{font-size:19px}.telemetry .rate{min-width:165px}#time-limit{display:block;min-height:17px;margin-top:5px;font:13px/1.3 var(--sans);color:#a8b6bb}.log-shortcut button{font:16px var(--sans);padding:8px 0}.log-shortcut{font:16px var(--sans);gap:28px}
+.objective{left:var(--gutter);bottom:140px;width:420px;max-width:42vw}.objective h3{font:400 28px/1.2 var(--serif);margin-bottom:10px;letter-spacing:-.01em}.objective>p{font:17px/1.5 var(--sans);color:#c4cbcd;max-width:420px}.objective::before{content:'';position:absolute;inset:-25px -50px -25px -4vw;z-index:-1;pointer-events:none;background:radial-gradient(ellipse at left,#000a,transparent 73%)}#observe-action{font:16px var(--sans);gap:12px;padding:8px 0;margin-top:10px}#observe-key{font:12px var(--mono);color:#e4e6df}#depart{font:16px/1.3 var(--sans);margin-top:5px;padding:8px 0;gap:16px;color:#bbc6c7}#depart::after{content:'→';margin-left:0}#depart:is(:hover,:focus-visible){color:#fff}#crosshair{opacity:.3}#waypoint{padding:6px 0;min-height:44px;text-align:left;gap:10px;max-width:230px;color:#d6e1e4;opacity:.85}.waypoint-shape{width:8px;height:8px;border:1px solid #cbd5d9}#waypoint.offscreen .waypoint-shape{border-width:0 1px 1px 0;transform:rotate(var(--bearing-angle,-45deg))}#waypoint-name{font:15px var(--sans)}#waypoint:is(:hover,:focus-visible):not(:disabled) #waypoint-name{text-decoration:underline;text-underline-offset:4px}#waypoint:disabled{opacity:.85}#waypoint-distance{font:11px var(--mono);margin-top:5px;color:#c0ccd1}#flight-hint{font:14px var(--sans);color:#c2ccce}#safety{font:16px var(--sans);color:#d6d1bd;max-width:560px}#toast{font:16px/1.5 var(--sans);max-width:600px;color:#d5dddd;text-shadow:0 1px 8px #000}
+/* Propulsion feedback appears only during a command and a brief coast. */
+#thrust-feedback{position:absolute;left:var(--gutter);bottom:110px;display:flex;align-items:baseline;gap:18px;text-shadow:0 1px 4px #000;font:16px/1.5 var(--sans);color:#d6dedb}#thrust-impulse{font:12px var(--mono);color:#b9c5c6}
+/* Document-like menus: text, alignment and a single selection rule. */
+.panel{background:#05090df5;backdrop-filter:blur(6px)}.panel-inner{width:min(1180px,100%);padding:60px 6vw 65px}.panel h2{font:400 clamp(35px,3.6vw,52px)/1.15 var(--serif);letter-spacing:-.02em;margin:0 0 28px}.panel h3{font:400 25px/1.3 var(--sans);margin:24px 0 15px}.panel p{font:18px/1.6 var(--sans);color:#bdc6ca}.panel .lead{font:26px/1.4 var(--serif);color:#e3e5df;max-width:760px}.panel .small-note{font:14px/1.55 var(--sans);color:#a4b2b9}.close-button{font:28px var(--sans);width:44px;height:44px;right:4vw;top:35px}.panel-actions{gap:30px;margin:25px 0}.panel-actions .primary::after,.departure-choice .primary::after{content:'→';margin-left:20px}.panel[data-view=pause]{background:linear-gradient(90deg,#020608ef,#020608b0 34%,transparent 70%);backdrop-filter:none}.panel[data-view=pause] .panel-inner{width:100%;max-width:none;padding:9vh 7vw}.panel[data-view=pause] h2{font:17px var(--sans);letter-spacing:.14em;text-transform:uppercase;color:#a2b1b7;margin-bottom:22px}.pause-menu{gap:0}.pause-menu button{position:relative;font:29px/1.2 var(--sans);min-width:250px;min-height:52px;padding:9px 0;text-align:left;color:#b6c0c5}.pause-menu button:first-child{color:#f4f3e9;margin-bottom:10px}.pause-menu button[data-action=guide]{margin-top:18px}.pause-menu button:is([data-action=guide],[data-action=settings],[data-action=home]){font-size:22px;min-height:44px}.pause-menu button[data-action=home]{color:#93a2a9}
+.map-tabs{gap:30px;border-bottom:1px solid var(--line);margin-bottom:25px}.map-tabs button{font:19px var(--sans);padding:10px 0;border-bottom:1px solid transparent;margin-bottom:-1px;color:#9cabb2}.map-tabs button[aria-pressed=true]{border-bottom-color:#d6dfdb;color:#f1eee4}.chart-toolbar{gap:24px}.chart-toolbar button{font:12px var(--mono);padding:10px 0;min-width:44px;color:#9eafb7}.chart-toolbar button[aria-pressed=true]{color:#f1eee4;border-bottom:1px solid #bec9c5}.solar-chart-layout{display:grid;grid-template-columns:minmax(0,1.8fr) minmax(220px,1fr);gap:35px;align-items:start}.chart-grid{stroke:#bdd2dc29;stroke-width:.7}.chart-object{fill:#aabdc6}.chart-object.selected{fill:#f4eee0}.chart-object:focus{outline:none;fill:white}.chart-object:is(:focus,:hover) .chart-hit{stroke:#d1ded9;stroke-width:.7}.chart-object text{font:14px var(--sans)}.chart-scale-label{font:10px var(--mono);fill:#9badb6}.chart-scale-bar{stroke:#9ab0bb;stroke-width:1;fill:none}.chart-inspector h3{font-size:30px;margin:12px 0 20px}.chart-inspector .eyebrow{font:13px var(--sans);margin:20px 0 0}.chart-inspector dt{font:14px var(--sans);color:#9aaab2;margin-top:15px}.chart-inspector dd{font:15px var(--mono);margin-top:6px}.chart-inspector .chart-disclosure{font:14px/1.55 var(--sans);margin:20px 0}.chart-object-list{gap:0 14px;border-top:1px solid var(--line);padding-top:8px}.chart-object-list button{font:17px var(--sans);color:#a5b3bb;padding:6px 0}.chart-object-list button[aria-pressed=true]{color:#f0eee5}
+.local-chart text{fill:#bac8cd;font:14px var(--sans)}.local-chart [role=button]:is(:hover,:focus) circle:last-of-type{fill:#fff;stroke:#fff;stroke-width:1}.exploration-map .small-note{margin:5px 25px}.exploration-map h3{margin-top:0}.encounter-studies{margin-top:26px;border-top:1px solid var(--line);padding-top:10px}.encounter-studies summary{font:20px/1.4 var(--sans);padding:12px 0;cursor:pointer}.encounter-studies[open] summary{color:var(--paper)}.study-entry{display:flex;align-items:center;justify-content:space-between;width:100%;text-align:left;padding:12px 0;font:24px var(--sans);border-bottom:1px solid var(--line)}.destination-row{padding:14px 0;border-bottom:1px solid var(--line)}.destination-row strong{font:22px var(--sans);font-weight:400}.destination-row span{font:12px var(--mono);color:#a8b9c0}.departure-choice{border-top:1px solid var(--line);padding-top:12px;margin-top:25px}.voyage-note{max-width:680px}.voyage-chapters{margin-top:25px}.route-row{grid-template-columns:36px 1fr minmax(245px,auto);gap:20px;padding:15px 0;border-bottom:1px solid var(--line)}.route-row strong{font:26px var(--sans);font-weight:400}.route-row small{text-align:right;font:12px/1.5 var(--mono);color:#aab9c1;margin-top:6px}.route-number{font:12px var(--mono);color:#8498a2}.milestone-kind{font:15px var(--sans);color:#a4b3bb;margin-top:4px}.route-row[aria-current=true]{border-left:2px solid #dddccb;padding-left:18px;margin-left:-20px;width:calc(100% + 20px)}
+.controls-list{font:17px/1.5 var(--sans);gap:4px 25px}.controls-list dt,.controls-list dd{padding:8px 0}.field-notes{margin-top:40px;max-width:760px}.field-notes article{border-top:1px solid var(--line);padding:25px 0}.field-notes h4{font:25px var(--sans);margin:0 0 10px}.gallery h3{font-size:24px}.gallery p{font-size:17px}.photo-data,.photograph-toolbar>span{font:12px/1.7 var(--mono)!important;color:#adbdc2!important}.photograph-toolbar button,.photograph-toolbar a,.field-delete,.recording-link{font:17px var(--sans);padding:10px 0;min-height:44px}.panel[data-view=photograph] .panel-inner{width:min(1440px,94%);padding-top:45px}.panel[data-view=photograph] h2{font-size:32px;padding-right:50px}
+#cruise-scale{left:42%;right:6%;bottom:145px;font:13px var(--sans)}#cruise-distance{font:15px/1.5 var(--sans);color:#becbd1;margin:8px 0}
+#hud:not(.exploration-experience) .objective{max-width:34vw}
+/* Flight review keeps the actual scene visible above its time instrument. */
+.panel[data-view=review]{background:linear-gradient(transparent 30%,#020609bb 58%,#020609 83%);backdrop-filter:none}.panel[data-view=review] .panel-inner{position:absolute;bottom:0;left:0;right:0;max-width:1100px;padding:35px 6vw}.panel[data-view=review] h2{font-size:30px;margin-bottom:8px}.panel[data-view=review] .close-button{top:28px}.review-intro{margin:0 0 15px}.review-track label{display:flex;justify-content:space-between;font:16px var(--sans);color:#bbc7cd}.review-track strong{font:16px var(--mono);color:#eeeee3}.review-track input{width:100%;display:block;margin:4px 0}.review-ends{display:flex;justify-content:space-between;font:12px var(--mono);color:#9fb0b8}.review-footer{display:flex;align-items:center;gap:28px;margin-top:12px}.review-footer>span{font:14px var(--mono);margin-right:auto}.review-footer button{font-size:21px}
+
+/* Settings leave the photographed scene visible at its actual exposure. */
+:is(.panel[data-view=settings],.panel[data-view=camera]){overflow:hidden;--settings-width:min(540px,55vw);background:linear-gradient(90deg,#030709f5 0, #030709f5 calc(var(--settings-width) - 20px),transparent calc(var(--settings-width) + 120px));backdrop-filter:none}
+:is(.panel[data-view=settings],.panel[data-view=camera]) .panel-inner{width:var(--settings-width);height:100dvh;margin:0;padding:5vh 28px 28px 6vw;display:flex;flex-direction:column}
+:is(.panel[data-view=settings],.panel[data-view=camera]) h2{font-size:36px;margin:0 45px 20px 0}
+:is(.panel[data-view=settings],.panel[data-view=camera]) .close-button{top:calc(5vh - 2px);right:22px}
+.settings-content fieldset{border:0;padding:0;margin:0;min-width:0}
+.setting{font:19px var(--sans);padding:7px 0;gap:12px}
+.setting-range{display:grid;grid-template-columns:1fr auto}
+.setting output{font:13px var(--mono);color:#d5dcd6;font-variant-numeric:tabular-nums}
+:is(.setting,.review-track) input[type=range]{grid-column:1/-1;appearance:none;-webkit-appearance:none;width:100%;height:32px;margin:-10px 0 -5px;background:transparent;cursor:pointer;border-radius:0;color:#dce1d7}
+:is(.setting,.review-track) input[type=range]::-webkit-slider-runnable-track{height:2px;background:linear-gradient(90deg,#c4cec7 var(--range-fill),#ffffff30 var(--range-fill))}
+:is(.setting,.review-track) input[type=range]::-webkit-slider-thumb{appearance:none;-webkit-appearance:none;width:5px;height:16px;margin-top:-7px;background:#e9e9df;border:0;border-radius:0}
+:is(.setting,.review-track) input[type=range]::-moz-range-track{height:2px;background:#ffffff30;border:0}
+:is(.setting,.review-track) input[type=range]::-moz-range-progress{height:2px;background:#c4cec7}
+:is(.setting,.review-track) input[type=range]::-moz-range-thumb{width:5px;height:16px;background:#e9e9df;border:0;border-radius:0}
+:is(.setting,.review-track) input[type=range]:is(:hover,:is(:focus-visible,:where(.gamepad-nav) :focus)){color:#fff}
+:is(.setting,.review-track) input[type=range]:is(:focus-visible,:where(.gamepad-nav) :focus){outline:none}.setting-range:has(input:is(:focus-visible,:where(.gamepad-nav) :focus)){outline:1px solid #e9e9df;outline-offset:4px}
+.setting select{appearance:none;-webkit-appearance:none;font:18px var(--sans);padding:8px 32px 8px 12px;min-width:135px;min-height:44px;height:44px;border:0;border-bottom:1px solid #73848b;background:#0a1116;color:#e2e5de;border-radius:0;cursor:pointer;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='8' viewBox='0 0 10 8'%3E%3Cpath d='M1 2l4 4 4-4' fill='none' stroke='%23dce2dc' stroke-width='1.2'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 12px center}
+.settings-content :is(#quality-note,#motion-note){margin:3px 0 0;min-height:40px;font-size:15px;line-height:1.35;max-width:340px}
+.settings-actions{flex:none;justify-content:space-between;gap:20px;margin:12px 0 0;border-top:1px solid var(--line);padding-top:8px}
+.settings-actions .primary::after{content:none}
+.settings-actions .text-button{font-size:17px;color:#aab7bb}
+.review-track input[type=range]{margin:4px 0;min-height:44px;cursor:pointer}.review-track:has(input:disabled){opacity:.65}
+.review-track input[type=range]:is(:focus-visible,:where(.gamepad-nav) :focus)::-webkit-slider-thumb{outline:2px solid #e9e9df;outline-offset:3px}
+.review-track input[type=range]:is(:focus-visible,:where(.gamepad-nav) :focus)::-moz-range-thumb{outline:2px solid #e9e9df;outline-offset:3px}
+/* Selection stays aligned with the text; no button moves or expands. */
+:is(.route-row,.study-entry,.destination-row):is(:hover,:is(:focus-visible,:where(.gamepad-nav) :focus)){background-color:#ffffff06;box-shadow:inset 2px 0 #cbd4cb}
+:is(.text-button,.flight-nav button,.log-shortcut button,.photograph-toolbar button,.chart-object-list button):hover{text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:6px}
+.controls-list dd{font:13px/1.9 var(--mono);color:#d1d8d4;text-align:right;align-self:center}
+:is(.panel[data-view=settings],.panel[data-view=camera]) .setting input[type=range]{min-height:44px}
+@media(max-height:700px){.setting-range{row-gap:0}:is(.panel[data-view=settings],.panel[data-view=camera]) .panel-inner{padding-top:24px}:is(.panel[data-view=settings],.panel[data-view=camera]) h2{font-size:30px;margin-bottom:10px}:is(.panel[data-view=settings],.panel[data-view=camera]) .close-button{top:18px}.panel-inner{padding-top:35px}.panel[data-view=pause] .panel-inner{padding-top:5vh}.pause-menu button{font-size:26px;min-height:47px}.panel[data-view=pause] h2{margin-bottom:15px}.landing-copy{bottom:14vh}.landing-description{font-size:66px}.landing-years{margin-bottom:22px}.launch-actions button{min-height:44px;font-size:23px}.objective{bottom:138px}.objective h3{font-size:20px}.objective>p{font-size:17px}.hud-top{top:22px}#flight-hint{bottom:105px;font-size:13px}.route-row{padding:11px 0}}
+@media(max-width:1100px){.solar-chart-layout{grid-template-columns:minmax(0,1.4fr) minmax(200px,1fr);gap:25px}.flight-nav{gap:10px}.chapter-heading p{max-width:390px}.objective{max-width:42vw}.log-shortcut{gap:18px}}
+@media(max-width:800px){:is(.panel[data-view=settings],.panel[data-view=camera]){--settings-width:min(440px,78vw)}:is(.panel[data-view=settings],.panel[data-view=camera]) .panel-inner{padding-left:5vw;padding-right:24px}.landing-copy{max-width:85vw}.landing-description{font-size:62px}.flight-nav{gap:2px}.flight-nav button{font-size:15px}.chapter-heading h2{font-size:24px}.chapter-heading p{max-width:350px;font-size:10px}.objective{max-width:45vw;bottom:140px}.solar-chart-layout{display:block}.chart-inspector{margin-top:20px}.log-shortcut{gap:12px}.telemetry{gap:18px}.telemetry strong{font-size:18px}.log-shortcut button{font-size:14px}.hud-bottom{gap:10px}#flight-hint{font-size:12px}.review-footer{gap:15px;flex-wrap:wrap}.review-footer>span{width:100%;margin:0}.review-footer button{font-size:18px}}
+
+@media(max-width:800px){.route-row{grid-template-columns:25px 1fr}.route-row small{grid-column:2;text-align:left;margin-top:0}.route-row{gap:5px 15px}}
+
+/* Resolved-world bearings sit outside the image, joined by one quiet leader. */
+#bearing-leader{position:absolute;inset:0;pointer-events:none}#bearing-leader svg{width:100%;height:100%;overflow:hidden}#bearing-stem{stroke:#cbd5d966;stroke-width:1;fill:none}#waypoint.resolved{transform:none;text-align:left;display:block;max-width:230px}#waypoint.resolved .waypoint-shape{display:none}
+
+/* Flight tools share one baseline; photography stays directly reachable. */
+.log-shortcut{gap:26px;align-items:center}
+.log-shortcut button{position:relative;min-height:44px;font:17px/1.3 var(--sans);color:#bcc6c7}
+.log-shortcut button:is(:hover,:focus-visible){color:#fff}
+#photo-button{display:flex;align-items:center;gap:12px;padding:8px 0;min-width:0;color:#e4e7de}
+#photo-key{font:11px var(--mono);color:#aeb9bb;font-weight:400}
+.log-shortcut button::after{content:'';position:absolute;left:0;right:0;bottom:3px;height:1px;background:currentColor;opacity:0;transition:opacity .15s}
+.log-shortcut button:hover::after{opacity:.55}
+.objective #observe-action{font-size:16px;margin:10px 0 0;padding:8px 0}
+#photo-receipt{position:absolute;right:var(--gutter);bottom:112px;display:flex;align-items:center;gap:16px;padding:0;text-align:left;text-shadow:0 1px 5px #000;max-width:300px}
+#photo-receipt-image{width:96px;height:64px;object-fit:contain;background:#000;border:1px solid #ffffff30}
+#photo-receipt-status{display:block;font:14px/1.4 var(--sans);color:#bac5c6;margin-bottom:5px}
+.photo-receipt-open{font:18px/1.3 var(--sans);color:#e5e8df;white-space:nowrap}
+.photo-receipt-open>span{margin-left:10px}
+#photo-receipt:hover .photo-receipt-open{text-decoration:underline;text-underline-offset:5px}
+@media(max-width:800px){.log-shortcut{gap:18px}.log-shortcut button{font-size:16px}#photo-button{gap:8px}#photo-receipt{gap:10px;bottom:115px}#photo-receipt-image{width:72px;height:48px}.photo-receipt-open{font-size:16px}#photo-receipt-status{font-size:13px}}
+/* Photograph review keeps the captured frame at the full viewport size. */
+.panel[data-view=photograph]{background:#000;backdrop-filter:none;overflow:hidden}
+.panel[data-view=photograph] .panel-inner{width:100%;height:100dvh;padding:0}
+.panel[data-view=photograph] h2{position:absolute;z-index:2;top:24px;left:4vw;right:90px;font-size:24px;line-height:1.3;letter-spacing:0;margin:0;padding:0;text-shadow:0 1px 5px #000}
+.panel[data-view=photograph] .close-button{z-index:3;top:17px;right:4vw;text-shadow:0 1px 5px #000}
+.panel[data-view=photograph] #full-photograph{position:absolute;inset:0;width:100%;height:100%;object-fit:contain}
+.photograph-view::before{content:'';position:absolute;z-index:1;inset:0;pointer-events:none;background:linear-gradient(#0009,transparent 100px,transparent calc(100% - 145px),#000d)}
+.panel[data-view=photograph] .photograph-toolbar{position:absolute;z-index:2;left:4vw;right:4vw;bottom:65px;margin:0;gap:20px;text-shadow:0 1px 5px #000}
+.panel[data-view=photograph] #photograph-description{position:absolute;z-index:2;left:4vw;right:4vw;bottom:24px;font:14px/1.5 var(--sans);color:#bac6c9;margin:0;text-shadow:0 1px 5px #000}
+@media(max-width:800px){.panel[data-view=photograph] .photograph-toolbar{gap:12px}.panel[data-view=photograph] .photograph-toolbar a{margin-left:auto}.panel[data-view=photograph] h2{font-size:22px}}
+
+/* The atlas keeps navigation at the edge and gives the chart the remaining height. */
+.panel[data-view=map]{overflow:hidden;backdrop-filter:none;background:#05090df7}
+.panel[data-view=map] .panel-inner{width:min(1440px,100%);height:100dvh;padding:30px 4vw 20px;display:flex;flex-direction:column}
+.panel[data-view=map] h2{font-size:36px;line-height:1.2;letter-spacing:0;margin:0 60px 12px 0;flex:none}
+.panel[data-view=map] .close-button{top:25px;right:4vw}
+.panel[data-view=map] #panel-content{min-height:0;display:flex;flex:1;flex-direction:column}
+.panel[data-view=map] .map-tabs{flex:none;margin:0 0 18px;gap:32px}
+.atlas-body{min-height:0;flex:1;overflow:auto;overscroll-behavior:contain;scrollbar-width:thin;padding:0 8px 5px 0;scroll-padding:10px}
+.atlas-footer{flex:none;display:flex;align-items:center;justify-content:space-between;gap:20px;border-top:1px solid var(--line);padding-top:12px;margin-top:14px}
+.atlas-secondary{display:flex;align-items:center;gap:25px;flex-wrap:wrap}
+.chart-playback{display:flex;align-items:center;gap:10px;flex-wrap:wrap}.chart-playback button{font:18px var(--sans);min-width:44px;min-height:44px;padding:8px 0}.chart-playback #chart-play{min-width:120px;text-align:left}.chart-playback output{font:16px var(--sans);color:#a9b8bd;margin-left:6px}
+
+.atlas-footer .text-button{font-size:18px;white-space:nowrap}
+.atlas-footer .primary{font-size:24px;white-space:nowrap;gap:28px}
+.atlas-body .exploration-map,.atlas-body .solar-chart-layout{height:100%;grid-template-columns:minmax(0,1.5fr) minmax(290px,1fr);gap:5vw;align-items:stretch}
+.atlas-body .exploration-map{grid-template-columns:minmax(290px,1fr) minmax(0,1.5fr)}
+.encounter-plot,.solar-plot{min-height:0;display:flex;flex-direction:column}
+.atlas-plot{min-height:0;flex:1}
+.atlas-plot svg{width:100%;height:100%;display:block;overflow:hidden}
+.encounter-plot .small-note{margin:10px 0 0;font:14px/1.5 var(--sans);color:#97a8af}
+.encounter-inspector,.atlas-body .chart-inspector{min-height:0;overflow:auto;scrollbar-width:thin;padding:0 8px 8px 2px;scroll-padding:10px}
+.encounter-inspector h3{font:25px/1.25 var(--sans);margin:7px 0 6px}
+.encounter-inspector .atlas-instruction{font:17px/1.4 var(--sans);margin:0 0 16px;color:#aab8bc}
+.encounter-inspector .destination-row{min-height:48px;padding:10px 8px 10px 0}
+.encounter-inspector .destination-row strong{font:22px var(--sans);color:#bcc7c8}
+.encounter-inspector .destination-row[aria-pressed=true]{box-shadow:inset 2px 0 #d8ded5;padding-left:12px}
+.encounter-inspector .destination-row[aria-pressed=true] strong{color:#f1eee4}
+.encounter-inspector [data-action=free-flight]{border-bottom:0;min-height:44px}
+.encounter-inspector [data-action=free-flight] strong{font-size:17px;color:#a9b8bd}
+.encounter-inspector .encounter-studies{margin-top:0}
+.encounter-bearings{margin-top:26px}
+.encounter-inspector .encounter-studies h3{margin:0 0 8px}
+.encounter-inspector .study-entry{min-height:48px;padding:12px 0;font-size:23px;line-height:1.3;gap:18px}
+.study-entry>span:last-child{flex:none}
+.study-entry[aria-current=location]{color:var(--paper)}
+.encounter-inspector .small-note{font-size:14px;line-height:1.4;margin:12px 0 0}
+
+
+
+
+.atlas-body .chart-inspector .eyebrow{margin:8px 0 0}
+.atlas-body .chart-inspector h3{font-size:28px;margin:6px 0 16px}
+.atlas-body .chart-inspector dl{display:grid;grid-template-columns:1fr 1fr;column-gap:24px}
+.atlas-body .chart-inspector dt{grid-row:auto;margin-top:0;font-size:14px}
+.atlas-body .chart-inspector dd{font-size:13px;margin:5px 0 17px}
+.atlas-body .chart-inspector dt:nth-of-type(1),.atlas-body .chart-inspector dd:nth-of-type(1){grid-column:1;grid-row:1}
+.atlas-body .chart-inspector dd:nth-of-type(1){grid-row:2}
+.atlas-body .chart-inspector dt:nth-of-type(2){grid-column:2;grid-row:1}
+.atlas-body .chart-inspector dd:nth-of-type(2){grid-column:2;grid-row:2}
+.atlas-body .chart-inspector dt:nth-of-type(3){grid-column:1;grid-row:3}
+.atlas-body .chart-inspector dd:nth-of-type(3){grid-column:1;grid-row:4}
+.atlas-body .chart-inspector dt:nth-of-type(4){grid-column:2;grid-row:3}
+.atlas-body .chart-inspector dd:nth-of-type(4){grid-column:2;grid-row:4}
+.atlas-body .chart-inspector .chart-disclosure{font-size:14px;line-height:1.4;margin:0 0 12px}
+.atlas-body .chart-object-list{grid-template-columns:repeat(3,1fr);gap:0 8px;padding-top:3px}
+.atlas-body .voyage-note{margin:4px 0 16px;font-size:17px}
+.atlas-body .voyage-chapters{margin:0}
+.atlas-body .route-row{padding:12px 4px;grid-template-columns:32px 1fr minmax(245px,auto)}
+.atlas-body .route-row[aria-current=true]{margin:0;width:100%;padding-left:12px}
+.atlas-body .route-row strong{font-size:24px}
+@media(max-height:720px) and (min-width:801px){
+ .panel[data-view=map] .panel-inner{padding-top:20px;padding-bottom:14px}
+ .panel[data-view=map] h2{font-size:30px;margin-bottom:5px}
+ .panel[data-view=map] .close-button{top:14px}
+ .panel[data-view=map] .map-tabs{margin-bottom:12px}
+ .atlas-footer{padding-top:8px;margin-top:8px}
+ .atlas-footer .primary{font-size:22px}.atlas-secondary{gap:18px}.atlas-footer .text-button{font-size:17px}
+ .encounter-inspector h3{font-size:22px;margin-top:2px}
+ .encounter-inspector .atlas-instruction{font-size:16px;margin-bottom:8px}
+ .encounter-bearings{margin-top:0}
+ .encounter-inspector .study-entry{font-size:21px;min-height:44px;padding:8px 0}
+ .encounter-inspector .small-note{margin-top:8px}
+  .atlas-body .route-row{padding:8px 4px}.atlas-body .route-row strong{font-size:22px}.atlas-body .milestone-kind{font-size:14px}
+}
+@media(max-width:800px){
+ .panel[data-view=map] .panel-inner{padding:20px 5vw 12px}
+ .panel[data-view=map] h2{font-size:30px;margin-bottom:5px}
+ .panel[data-view=map] .close-button{top:14px}
+ .panel[data-view=map] .map-tabs{margin-bottom:12px}
+ .atlas-body .exploration-map,.atlas-body .solar-chart-layout{display:block;height:auto}
+ .encounter-plot,.solar-plot{height:350px;margin-bottom:24px}
+ .encounter-plot{margin-top:24px}
+ .atlas-plot .local-chart{max-height:none}
+ .encounter-inspector,.atlas-body .chart-inspector{overflow:visible}
+ .atlas-body .chart-inspector{margin-top:0}
+ .atlas-footer{align-items:flex-end;gap:10px;margin-top:8px;padding-top:7px}
+ .atlas-secondary{gap:0 16px}.atlas-footer .text-button{font-size:16px}.atlas-footer .primary{font-size:20px;gap:16px;white-space:normal;text-align:right;justify-content:flex-end}
+ .atlas-body .route-row{grid-template-columns:25px 1fr}
+}
+
+.chart-voyage-trail,.chart-voyage-remaining{fill:none;stroke:#c9d4cc90;stroke-width:1;vector-effect:non-scaling-stroke;pointer-events:none}
+
+/* Optional references keep their heading and return action in place. */
+.reference-tabs{display:flex;align-items:center;gap:28px;border-bottom:1px solid var(--line);flex:none;margin-bottom:20px}
+.reference-tabs button{font:19px/1.3 var(--sans);padding:10px 0;color:#9eafb5;border-bottom:1px solid transparent;margin-bottom:-1px}
+.reference-tabs button[aria-pressed=true]{color:#eeeee5;border-bottom-color:#cfd8d0}
+.reference-tabs button span{font:12px var(--mono);margin-left:12px;color:#9babb1}
+.panel[data-view=guide]{--reference-width:min(560px,58vw);background:linear-gradient(90deg,#05090dfc 0,#05090dfc var(--reference-width),#05090dc9 calc(var(--reference-width) + 45px),transparent calc(var(--reference-width) + 190px));backdrop-filter:none;overflow:hidden}
+.panel[data-view=guide] .panel-inner{margin:0;width:var(--reference-width);height:100dvh;padding:30px 36px 24px 4vw;display:flex;flex-direction:column}
+.panel[data-view=guide] h2{font-size:34px;margin:0 45px 18px 0;letter-spacing:0}
+.panel[data-view=guide] .close-button{right:22px;top:23px}
+.panel[data-view=guide] #panel-content{display:flex;flex-direction:column;flex:1;min-height:0}
+.control-reference{min-height:0;flex:1;overflow:auto;scrollbar-width:thin;padding:0 10px 8px 0;scroll-padding:10px}
+.control-reference h3{font:16px var(--sans);color:#97a8b0;margin:5px 0 8px}
+.control-reference section+section{margin-top:22px}
+.control-reference .controls-list{margin:0;gap:0 24px;font-size:18px}
+.control-reference .controls-list dt,.control-reference .controls-list dd{padding:5px 0}
+.control-reference .controls-list dd{font:13px/1.5 var(--mono);max-width:175px}
+.control-more{margin-top:14px;border-top:1px solid var(--line);padding-top:6px}
+.control-more summary{font:17px/1.3 var(--sans);padding:10px 0;min-height:44px;cursor:pointer}
+.reference-footer{flex:none;border-top:1px solid var(--line);margin-top:14px;padding-top:12px}
+.panel .reference-footer p{font:16px/1.45 var(--sans);color:#a9b8ba;margin:0 0 10px}
+.reference-footer .primary{font-size:22px;justify-content:space-between;width:100%}
+/* The journal is a contact sheet; each photograph has one large target. */
+.panel[data-view=journal]{background:#05090df7;backdrop-filter:none;overflow:hidden}
+.panel[data-view=journal] .panel-inner{width:min(1600px,100%);height:100dvh;padding:30px 4vw 20px;display:flex;flex-direction:column}
+.panel[data-view=journal] h2{font-size:36px;margin:0 55px 12px 0;letter-spacing:0}
+.panel[data-view=journal] .close-button{top:25px;right:4vw}
+.panel[data-view=journal] #panel-content{display:flex;flex-direction:column;flex:1;min-height:0}
+.journal-body{min-height:0;flex:1;overflow:auto;scrollbar-width:thin;padding:6px 10px 12px 6px;margin-left:-6px;scroll-padding:10px}
+.journal-photos.gallery{grid-template-columns:repeat(3,minmax(0,1fr));gap:28px 26px}
+.journal-photos.gallery figure:only-child{display:block;grid-column:auto}
+.journal-photos .photo-open{background:transparent;cursor:pointer}
+.journal-photos .photo-open img{height:clamp(150px,24vh,260px);aspect-ratio:auto;object-fit:contain;transition:opacity .15s}
+.journal-photo-caption{display:block;padding:10px 0 0}
+.journal-photo-caption strong{font:21px/1.3 var(--sans);font-weight:400;display:block;color:#d6ddda}
+.journal-photo-caption>span{display:block;font:13px/1.4 var(--sans);color:#9fafb7;margin-top:4px}
+.journal-photos .photo-open:hover .journal-photo-caption strong{color:#fff}
+.journal-photos .photo-open:active img{opacity:.75}
+.journal-footer{flex:none;display:flex;align-items:center;justify-content:space-between;border-top:1px solid var(--line);margin-top:14px;padding-top:12px;gap:24px}
+.journal-footer .primary{font-size:23px;white-space:nowrap}
+.journal-notice{display:flex;align-items:center;gap:20px;font:17px var(--sans);color:#acbbbe}
+.journal-notice button{font-size:18px;color:#e7ece3}
+.journal-empty{padding:4vh 0;max-width:560px}
+.journal-empty .lead{font:30px var(--sans);margin:0 0 12px}
+.journal-notes.field-notes{max-width:780px;margin:0}
+.journal-notes article{padding:20px 0 26px}
+.journal-notes article:first-child{border:0;padding-top:0}
+.journal-notes h3{font-size:28px;margin:7px 0 12px}
+.journal-notes article>p:not(.eyebrow){font:20px/1.55 var(--serif);color:#cbd2cf;max-width:690px}
+.journal-notes summary{font:17px var(--sans);min-height:44px;padding:12px 0;cursor:pointer}
+.journal-archive{display:block;width:100%;max-width:540px;margin:20px 0}
+#photograph-remove{color:#aebbbd;margin-left:6px}
+@media(max-width:1000px){.journal-photos.gallery{grid-template-columns:repeat(2,minmax(0,1fr))}.panel[data-view=guide]{--reference-width:min(560px,78vw)}}
+@media(max-height:720px){.panel[data-view=guide] .panel-inner{padding-top:20px;padding-bottom:14px}.panel[data-view=guide] h2{font-size:30px;margin-bottom:8px}.panel[data-view=guide] .close-button{top:14px}.reference-tabs{margin-bottom:12px}.control-reference section+section,.control-more{margin-top:13px}.control-reference .controls-list dt,.control-reference .controls-list dd{padding:5px 0}.reference-footer{margin-top:8px;padding-top:8px}.panel .reference-footer p{font-size:14px;margin-bottom:4px}.journal-photo-caption strong{font-size:19px}}
+@media(max-width:600px){.panel[data-view=guide]{--reference-width:100vw}.panel[data-view=guide] .panel-inner{padding-left:6vw;padding-right:6vw}.journal-photos.gallery{grid-template-columns:1fr}.panel[data-view=journal] .panel-inner{padding:22px 5vw 14px}.journal-footer{gap:12px}.journal-footer .primary{font-size:19px}.journal-notice{font-size:15px;gap:12px}}
+@media(max-height:720px) and (min-width:801px){
+ .panel[data-view=guide]{--reference-width:min(900px,90vw)}
+ .control-reference{display:grid;grid-template-columns:1fr 1fr;gap:0 30px;align-content:start}
+ .control-reference section+section{margin-top:0}
+ .control-more{grid-column:1/-1}
+ .control-more .controls-list{max-width:600px}
+}
+
+/* Settings pages provide controller access to the same saved flight options. */
+:is(.panel[data-view=settings],.panel[data-view=camera]) #panel-content{display:flex;flex-direction:column;min-height:0;flex:1}
+:is(.panel[data-view=settings],.panel[data-view=camera]) .settings-content{min-height:0;flex:1;overflow:auto;scrollbar-width:thin;scroll-padding:12px;padding:4px 8px 10px 4px;margin-left:-4px}
+.settings-tabs{gap:28px}
+.setting-toggle{display:flex;align-items:center;justify-content:space-between;gap:18px;padding:15px 0;border-bottom:1px solid var(--line)}
+.setting-toggle>div{min-width:0}
+.setting-toggle span{font:20px/1.25 var(--sans)}
+.panel .setting-toggle p{font:15px/1.4 var(--sans);margin:6px 0 0;color:#a7b6ba}
+.setting-toggle button{flex:none;min-width:64px;min-height:44px;text-align:right;padding:8px 0 8px 12px;font:18px var(--sans);color:#e4e8dd}
+.setting-toggle button:hover{text-decoration:underline;text-underline-offset:5px}
+.setting-playback{padding-top:0;margin-bottom:15px}
+.settings-instruments{width:100%;justify-content:space-between;margin-top:16px;font-size:20px}
+.panel[data-view=instruments]{--instruments-width:min(590px,60vw);background:linear-gradient(90deg,#030709f5 0,#030709f5 calc(var(--instruments-width) - 20px),transparent calc(var(--instruments-width) + 130px));backdrop-filter:none;overflow:hidden}
+.panel[data-view=instruments] .panel-inner{width:var(--instruments-width);height:100dvh;margin:0;padding:5vh 32px 28px 5vw;display:flex;flex-direction:column}
+.panel[data-view=instruments] h2{font-size:34px;margin:0 45px 20px 0}
+.panel[data-view=instruments] .close-button{top:calc(5vh - 2px);right:22px}
+.panel[data-view=instruments] #panel-content{display:flex;flex-direction:column;min-height:0;flex:1}
+.panel .instruments-context{font:15px/1.5 var(--sans);color:#a7b7ba;margin:0 0 25px}
+.instrument-values{display:grid;grid-template-columns:1fr 1fr;gap:26px 25px;align-content:start;flex:1;min-height:0;overflow:auto;scrollbar-width:thin;margin:0;padding:0 6px 12px 0}
+.instrument-values>div{border-top:1px solid var(--line);padding-top:12px}
+.instrument-values dt{font:16px/1.4 var(--sans);color:#a9b8bd;margin:0 0 9px}
+.instrument-values dd{font:19px/1.5 var(--mono);color:#e9eade;margin:0;overflow-wrap:anywhere}
+.instruments-actions{flex:none;margin-top:16px;padding-top:12px;border-top:1px solid var(--line)}
+.instruments-actions .primary{font-size:22px;width:100%;justify-content:space-between}
+@media(max-height:700px){.setting-toggle{padding:10px 0}.panel .setting-toggle p{font-size:14px}.setting-toggle span{font-size:18px}.settings-instruments{margin-top:12px}.panel[data-view=instruments] .panel-inner{padding-top:24px;padding-bottom:18px}.panel[data-view=instruments] .close-button{top:18px}.panel[data-view=instruments] h2{font-size:30px;margin-bottom:14px}.instrument-values{gap:18px 20px}.instrument-values dd{font-size:17px}}
+@media(max-width:800px){.settings-tabs{gap:22px}.panel[data-view=instruments]{--instruments-width:min(580px,88vw)}.panel[data-view=instruments] .panel-inner{padding-left:5vw;padding-right:24px}}
+@media(max-width:600px){:is(.panel[data-view=settings],.panel[data-view=camera]){--settings-width:100vw}.panel[data-view=instruments]{--instruments-width:100vw}}
+
+/* Camera tools share the quiet, live-view column used by picture settings. */
+.camera-content{min-height:0;flex:1;overflow:auto;scrollbar-width:thin;padding:4px 6px 12px 0}
+.camera-content .reference-tabs{margin-bottom:28px}
+.camera-content .setting-range{margin-bottom:0}
+.camera-lens-ends{display:flex;justify-content:space-between;margin:0 0 30px;font-size:16px;color:#aab7bb}
+.camera-follow h3{font:23px var(--sans);margin:0 0 8px;color:#e8e7df}
+.camera-follow>p{font-size:17px;line-height:1.5;color:#bac5c6;margin:0 0 18px}
+.camera-follow button{display:flex;align-items:center;justify-content:space-between;gap:20px;width:100%;min-height:52px;padding:8px 0;border-bottom:1px solid var(--line);text-align:left;font-size:21px}
+.camera-follow button>span:last-child{font-size:17px;color:#b5c1c3}
+.camera-follow button[aria-pressed=true]{color:#fff}
+.camera-footer{flex:none;border-top:1px solid var(--line);padding-top:12px;margin-top:12px}
+.camera-footer .primary{width:100%;justify-content:space-between;min-height:44px;font-size:21px}
+.camera-footer .primary::after{content:none}
+@media(max-height:700px){.camera-content .reference-tabs{margin-bottom:16px}.camera-lens-ends{margin-bottom:18px}.camera-follow>p{margin-bottom:8px}.camera-follow button{min-height:46px}}
+
+.chart-voyage-remaining{stroke:#c9d4ccaa;stroke-dasharray:4 5}
+.chart-arrival circle{fill:none;stroke:#d5dfd7;stroke-width:1.2;vector-effect:non-scaling-stroke}.chart-arrival text{font:14px var(--sans);fill:#d5dfd7}
+.chart-route{border-top:1px solid var(--line);padding:12px 0 8px}.chart-route p{margin:0 0 8px;font:17px/1.4 var(--sans)}.chart-route p>span{color:#a5b3bb;font-size:14px}.chart-route p:first-child>span{display:block}.chart-route p:nth-child(2){font:13px var(--mono);color:#a5b3bb}.chart-route .chart-route-key{display:flex;gap:16px;flex-wrap:wrap;margin:12px 0 4px}.chart-route-key span{display:flex;align-items:center;gap:7px}.chart-route-key span:before{content:'';width:18px;border-top:1px solid #c9d4cc}.chart-route-key span:nth-child(2):before{border-top-style:dashed}.chart-route-key span:nth-child(3):before{width:6px;height:6px;border:1px solid #c9d4cc;border-radius:50%}
+
+/* Introduce flight tools gradually; exploration and lost-world bearings stay available. */
+#hud[data-introduction=look] :is(.telemetry,#chapter-date,#velocity-marker,#waypoint:not(.offscreen),#bearing-leader,#safety),
+#hud[data-introduction=flight] .rate,
+#hud:is([data-introduction=look],[data-introduction=flight],[data-introduction=time]) :is(.log-shortcut,#view-button,#depart),
+#hud[data-introduction]:not([data-introduction=""]) #flight-hint{visibility:hidden;pointer-events:none}
+/* The voyage has one standing invitation, a quiet science caption and one onward action. */
+#journey-direction{position:absolute;left:var(--gutter);bottom:135px;width:370px;max-width:40vw;text-shadow:0 2px 15px #000}
+#journey-marker{font:400 27px/1.2 var(--serif);letter-spacing:-.015em;margin:0 0 10px;text-shadow:0 1px 3px #000,0 2px 12px #000}
+#journey-caption{font:18px/1.45 var(--sans);color:#e3e8e5;margin:0;text-shadow:0 1px 3px #000,0 2px 12px #000}
+#journey-action{display:block;margin-top:15px;padding:8px 0;border-bottom:1px solid #8b969b;font:17px var(--sans)}
+#journey-action[hidden]{display:none}
+.story-flight .telemetry,.story-flight #flight-hint{display:none}
+.story-flight .objective{bottom:340px;width:350px;max-width:36vw}
+.story-flight .objective h3{font-size:22px}.story-flight .objective>p{font-size:16px}
+.story-flight #depart{position:fixed;right:var(--gutter);bottom:32px;font:23px/1.3 var(--serif);color:#e5e7e0}
+.story-flight .log-shortcut{bottom:85px;right:var(--gutter)}
+.story-flight.cinematic-flight>:not(.hud-top){visibility:hidden;pointer-events:none}
+.story-flight.cinematic-flight .chapter-heading,.story-flight.cinematic-flight .flight-nav>:not(#pause-button){visibility:hidden;pointer-events:none}
+#passage{position:fixed;inset:0;z-index:8;pointer-events:none;color:#eceee7}
+.steady-passages #passage:not(.launching){z-index:2;background:#05090c}
+.steady-passages .cinematic-flight .hud-top::before{display:none}
+.transfer-ends circle{fill:#05090c;stroke:#c9d5d8;stroke-width:1.5}
+#passage[hidden]{display:none}#passage-veil{position:absolute;inset:0;background:#020304;opacity:0}
+.passage-copy{position:absolute;left:var(--gutter);bottom:12%;max-width:650px;text-shadow:0 2px 18px #000}
+.passage-copy h2{font:400 clamp(35px,4.5vw,64px)/1.1 var(--serif);letter-spacing:-.025em;margin:10px 0 18px}
+#passage-caption{font:19px/1.5 var(--sans);color:#d0d6d5}#passage-detail{font:15px/1.5 var(--sans);color:#aebcbe}
+.passage-track{height:1px;background:#ffffff25;width:280px;margin-top:26px}.passage-track i{height:1px;display:block;background:#d9e2dd;width:0}
+#panel[data-view=ending] .panel-inner{max-width:660px;margin-left:var(--gutter);background:#050709c9;padding:40px}
+#panel[data-view=ending] h2{font:48px var(--serif)}.future-horizon{margin:35px 0;border-top:1px solid #ffffff35;padding-top:24px}.future-horizon strong{font:24px var(--serif)}
+.historic-earth{display:block;max-height:50vh;max-width:100%;margin:20px auto;object-fit:contain}
+@media(max-width:800px){#journey-direction{width:330px;max-width:64vw;bottom:140px}#journey-marker{font-size:23px}.story-flight .objective{bottom:330px;max-width:60vw}.story-flight #depart{font-size:20px}.passage-copy{right:var(--gutter)}}
+
+#launch-film{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;background:#030405}
+/* The film and its caption band dissolve together onto the live Earth view. */
+#passage.launching{--caption-band:160px}
+#passage.launching #launch-film{opacity:var(--film-opacity,1)}
+#passage.launching:has(#launch-film:not([hidden]))::before{content:"";position:absolute;inset:auto 0 0;height:var(--caption-band);background:#000;opacity:var(--film-opacity,1)}
+#passage.launching::after{content:"";position:absolute;inset:auto 0 0;height:var(--caption-band);background:linear-gradient(0deg,#020508db,transparent);opacity:calc(1 - var(--film-opacity,1))}
+#passage.launching :is(.passage-copy,#passage-keys){z-index:1}
+#passage.launching #launch-film{height:calc(100% - var(--caption-band))}
+#passage.launching .passage-copy{left:var(--gutter);bottom:24px;max-width:calc(100% - 300px);padding:0;background:none}
+#passage.launching .passage-copy h2{font-size:30px;margin:0 0 10px}
+#passage.launching #passage-caption{font-size:19px;margin:0 0 8px}
+#passage.launching #passage-detail{font-size:14px;margin:0}
+#passage.launching :is(.eyebrow,.passage-track){display:none}
+#passage.launching #passage-keys{bottom:28px}
+@media(max-width:800px){#passage.launching{--caption-band:190px}#passage.launching .passage-copy{bottom:55px;max-width:90vw}#passage.launching .passage-copy h2{font-size:25px}#passage.launching #passage-caption{font-size:17px}#passage.launching #passage-keys{bottom:12px}}
+.landing-premise{max-width:480px;font:20px/1.5 var(--sans);color:#c1c9c9;margin:-16px 0 26px}
+
+#flight-keys{position:absolute;left:var(--gutter);right:var(--gutter);bottom:28px;display:flex;flex-wrap:wrap;gap:5px 22px;font:15px/1.4 var(--sans);color:#c0cbcc;text-shadow:0 1px 6px #000}
+#flight-keys span{white-space:nowrap}
+.story-flight #journey-direction{bottom:145px;width:430px;max-width:46vw}
+.story-flight #depart{bottom:76px;font:19px/1.3 var(--sans)}
+.story-flight .log-shortcut{display:none}
+.story-flight .flight-nav{gap:18px}
+.story-flight .objective{bottom:370px}
+.mouse-flight #hud button{pointer-events:none}
+#passage-chart{position:absolute;width:min(78vw,1000px);left:50%;top:9%;transform:translateX(-50%);opacity:0}
+#passage-chart svg{width:100%;overflow:visible}
+#passage-chart text{font:15px Barlow,sans-serif;fill:#cbd3d3}
+.passage-orbits circle{fill:none;stroke:#b6c7ce28;stroke-width:1}
+.passage-route{fill:none;stroke:#c9d5d8;stroke-width:1.4}
+.passage-sun{fill:#f3e0b7}
+#passage-chart [data-world] circle{fill:#b9c8ce}
+#passage-chart [data-probe] circle{fill:#f3f4eb;stroke:#f3f4eb44;stroke-width:7}
+.passage-scale{stroke:#aab8bb;stroke-width:1;fill:none}
+#passage-keys{position:absolute;right:var(--gutter);bottom:30px;font:15px var(--sans);color:#bcc6c7}
+#passage-keys span{margin-left:28px}
+@media(max-width:1000px){#flight-keys{gap:14px;font-size:13px}.story-flight #journey-direction{max-width:57vw}.landing-premise{font-size:18px;max-width:420px}#passage-chart{width:94vw;top:12%}}
+@media(max-height:700px){.landing-copy{bottom:12vh}.landing-description{font-size:64px;margin-bottom:18px}.landing-years{margin-bottom:26px}.landing-premise{font-size:17px}.launch-actions button{font-size:21px;min-height:40px}#passage-chart{top:2%;width:min(90vw,115vh)}#passage-chart text{font-size:18px}.passage-copy{bottom:10%}.passage-copy h2{font-size:34px}}
+
+.historic-earth{width:455px;aspect-ratio:606/600}
+
+/* Arrival offers one action. The remaining tools appear after orientation. */
+.arrival-flight :is(#view-button,#map-button,#controls-button,#depart,#world-scale){visibility:hidden;pointer-events:none}
+#world-scale{font:15px/1.4 var(--sans);color:#d4dddb;margin-top:10px;letter-spacing:0;text-shadow:0 1px 4px #000}
+#waypoint-key{font:14px var(--mono);color:#dce1de;margin-left:12px;background:none;border:0;border-bottom:1px solid #aab5b7;padding:0 1px}
+#waypoint[aria-pressed=true] #waypoint-key{color:#fff;border-color:#fff}
+
+/* Keep the reading surface local to the words, including over sunlit clouds. */
+.story-flight #journey-direction{width:fit-content;max-width:min(420px,48vw);padding:11px 18px 12px 14px;border-left:1px solid #becdc580;background:linear-gradient(95deg,#070d12e8,#070d12d9 75%,#070d12a8);text-shadow:none}
+#journey-direction[hidden],#journey-direction:not(:has(:is(h3,p,button):not([hidden]))){display:none}
+#journey-marker{font-size:clamp(22px,2vw,28px);margin-bottom:5px}#journey-caption{font-size:17px;line-height:1.4}
+#journey-reading,#field-status{font:12px/1.4 var(--mono);color:#c1dbd7;letter-spacing:.02em}#journey-reading{margin:0 0 6px}
+#field-feedback:not([hidden]){display:flex;align-items:center;gap:12px;margin-top:10px}.field-meter{width:65px;height:2px;background:#7c898c80}.field-meter i{display:block;height:100%;background:#c0dfd7;transform-origin:left}
+#journey-action{margin-top:6px}#journey-direction :is(h3,p){text-shadow:none}
+.archive-layout{display:grid;grid-template-columns:auto minmax(220px,340px);gap:clamp(24px,4vw,64px);align-items:center}.archive-plate{position:relative;width:min(47vw,58vh);margin:0}.archive-plate .historic-earth{display:block;width:100%;height:auto;max-height:none;aspect-ratio:5230/5175;margin:0}
+/* Normalized coordinates of the dot in the bundled PIA23645 plate. Leave the dot uncovered. */
+#earth-locator{position:absolute;left:59.46%;top:51.96%;width:19px;height:19px;border:1px solid #fff9;border-radius:50%;transform:translate(-50%,-50%)}
+#locate-earth{padding:7px 0;border-bottom:1px solid #a0b6b3}#panel[data-view=signal] .panel-inner{max-width:820px}.signal-path{margin:32px 0 26px;display:flex;justify-content:space-between;flex-wrap:wrap;row-gap:12px;font:15px var(--mono);color:#c4d7d6}.signal-path b{font-weight:400}.signal-path>div{position:relative;width:100%;height:1px;background:#738487}.signal-path>div::before,.signal-path>div::after{content:'';position:absolute;top:-4px;height:9px;border-left:1px solid #c2cccf}.signal-path>div::after{right:0}#radio-pulse{position:absolute;top:-4px;width:9px;height:9px;background:#eee5bd;transform:translateX(-50%) rotate(45deg)}
+.signal-clock{display:grid;grid-template-columns:1fr auto;gap:8px;align-items:center;font:15px var(--mono);margin:20px 0}.signal-clock input{grid-column:1/-1;width:100%;accent-color:#c2d9d5}.signal-clock output{font-variant-numeric:tabular-nums}
+@media(max-width:850px){.story-flight #journey-direction{max-width:52vw;bottom:120px}.archive-layout{gap:20px}.archive-plate{width:min(40vw,52vh)}}
+@media(max-width:650px){.archive-layout{display:block}.archive-plate{width:min(65vw,40vh);margin-bottom:18px}}
+/* A studio plate shares the flight canvas. Its labels stay outside the model. */
+#craft-plate{position:absolute;left:44%;right:5vw;top:6vh;bottom:6vh;display:grid;grid-template-rows:auto minmax(0,1fr) auto auto auto;align-content:stretch}
+#craft-plate header{display:flex;justify-content:space-between;padding:0 0 12px;border-bottom:1px solid #556066;color:#a9b5b8;font:12px var(--mono);letter-spacing:.09em}
+#craft-stage{touch-action:none;cursor:grab;min-height:0}#craft-stage:active{cursor:grabbing}#craft-stage:focus-visible{outline:1px dashed #92a2a5;outline-offset:-4px}
+.craft-legend{border-top:1px solid #455056;padding-top:16px}.craft-legend h2{font:normal clamp(24px,2.4vw,38px)/1.1 var(--serif);margin:0 0 7px}.craft-legend p{margin:0;max-width:48ch;font:17px/1.35 var(--sans);color:#bdc8c9}
+#craft-views{display:flex;gap:clamp(12px,2vw,30px);margin-top:12px}#craft-views button{min-height:38px;padding:0;border-bottom:2px solid transparent;color:#a4b0b3;font:18px var(--sans)}#craft-views button[aria-pressed=true]{border-color:#e2cf99;color:#f0e6c9}
+#craft-gesture{font:12px/1.4 var(--mono);color:#a5afb0;margin:12px 0 0}#landing .landing-copy{max-width:min(36vw,520px)}
+@media(max-width:650px){#landing{overflow-y:auto}#landing .landing-copy{position:relative;left:auto;bottom:auto;max-width:none;margin:28px 6vw 24px}#landing .landing-description{font-size:48px;margin:0 0 8px}#landing .landing-years{margin:0 0 9px}#landing .landing-premise{margin:10px 0;font-size:16px}#landing .launch-actions{flex-direction:row;flex-wrap:wrap;gap:0 14px}#landing .launch-actions button{min-height:38px;font-size:18px}#craft-plate{position:relative;inset:auto;margin:0 6vw;min-height:370px;height:58vh}#landing .landing-footer{position:relative;left:auto;bottom:auto;margin:16px 6vw}}
+
+@media(max-width:850px) and (min-height:520px){
+ .story-flight.upper-field-guide #journey-direction{top:clamp(112px,20vh,136px);bottom:auto}
+ .story-flight #journey-direction{padding:8px 12px}
+ #journey-direction #journey-caption{font-size:16px}#journey-direction #journey-action{margin-top:3px;min-height:32px}
+}

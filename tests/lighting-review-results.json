@@ -1,0 +1,18 @@
+{
+  "views": [
+    "v4-titan-phase-30",
+    "v4-titan-phase-90",
+    "v4-titan-phase-150",
+    "v4-titan-phase-175",
+    "v4-earth-phase-30",
+    "v4-earth-phase-85",
+    "v4-earth-phase-110",
+    "v4-saturn-phase-30",
+    "v4-saturn-phase-145"
+  ],
+  "probeSolarIntensity": {
+    "earthNight": 0,
+    "earthDay": 3.7
+  },
+  "errors": []
+}

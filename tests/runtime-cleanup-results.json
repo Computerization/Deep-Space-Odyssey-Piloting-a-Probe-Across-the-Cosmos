@@ -1,0 +1,113 @@
+{
+  "version": "0.41.0",
+  "outcomes": [
+    {
+      "label": "before",
+      "views": [
+        {
+          "name": "earth",
+          "width": 1280,
+          "height": 800
+        },
+        {
+          "name": "earth",
+          "width": 1024,
+          "height": 640
+        },
+        {
+          "name": "jupiter",
+          "width": 1280,
+          "height": 800
+        },
+        {
+          "name": "jupiter",
+          "width": 1024,
+          "height": 640
+        },
+        {
+          "name": "polar",
+          "width": 1280,
+          "height": 800
+        },
+        {
+          "name": "polar",
+          "width": 1024,
+          "height": 640
+        }
+      ],
+      "passage": {
+        "frames": 30,
+        "lookups": 30,
+        "domElements": 147
+      },
+      "storage": {
+        "retained": true,
+        "createdAt": false,
+        "toast": "Photograph saved to your journal",
+        "receiptVisible": false,
+        "downloads": 0
+      },
+      "failure": {
+        "escaped": true,
+        "discovered": [
+          "earth-0"
+        ],
+        "buttonEnabled": true
+      },
+      "errors": []
+    },
+    {
+      "label": "after",
+      "views": [
+        {
+          "name": "earth",
+          "width": 1280,
+          "height": 800
+        },
+        {
+          "name": "earth",
+          "width": 1024,
+          "height": 640
+        },
+        {
+          "name": "jupiter",
+          "width": 1280,
+          "height": 800
+        },
+        {
+          "name": "jupiter",
+          "width": 1024,
+          "height": 640
+        },
+        {
+          "name": "polar",
+          "width": 1280,
+          "height": 800
+        },
+        {
+          "name": "polar",
+          "width": 1024,
+          "height": 640
+        }
+      ],
+      "passage": {
+        "frames": 30,
+        "lookups": 0,
+        "domElements": 115
+      },
+      "storage": {
+        "retained": true,
+        "createdAt": true,
+        "toast": "Photograph downloaded. Browser storage is unavailable; journal copy lasts this session.",
+        "receiptVisible": true,
+        "downloads": 1
+      },
+      "failure": {
+        "escaped": false,
+        "discovered": [],
+        "buttonEnabled": true
+      },
+      "errors": []
+    }
+  ]
+}

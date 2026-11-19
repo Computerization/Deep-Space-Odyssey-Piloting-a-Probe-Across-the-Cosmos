@@ -1,0 +1,75 @@
+{
+  "version": "0.97.0",
+  "results": [
+    {
+      "name": "Chrome",
+      "started": {
+        "position": [
+          144471999.63621333,
+          -17170670.609666828,
+          39616797.42938734
+        ],
+        "fov": 58
+      },
+      "photo": {
+        "width": 1440,
+        "height": 900,
+        "lit": 807485,
+        "physicalUnchanged": true,
+        "preservedBuffer": false
+      },
+      "audio": {
+        "started": true,
+        "state": "running",
+        "track": "rings",
+        "muted": false,
+        "feedbackVoices": 0,
+        "acousticFeedback": true,
+        "adaptiveGain": 0.9375749230384827,
+        "playing": [
+          "departure",
+          "rings"
+        ],
+        "duration": 240.0065
+      },
+      "radialStick": true,
+      "manualBearing": true,
+      "errors": []
+    },
+    {
+      "name": "WebKit",
+      "started": {
+        "position": [
+          144472000.1304175,
+          -17170671.992390722,
+          39616798.46239293
+        ],
+        "fov": 58
+      },
+      "photo": {
+        "width": 1440,
+        "height": 900,
+        "lit": 807281,
+        "physicalUnchanged": true,
+        "preservedBuffer": false
+      },
+      "audio": {
+        "started": true,
+        "state": "running",
+        "track": "rings",
+        "muted": false,
+        "feedbackVoices": 0,
+        "acousticFeedback": true,
+        "adaptiveGain": 0.9373502731323242,
+        "playing": [
+          "departure",
+          "rings"
+        ],
+        "duration": 242.32
+      },
+      "radialStick": true,
+      "manualBearing": true,
+      "errors": []
+    }
+  ]
+}

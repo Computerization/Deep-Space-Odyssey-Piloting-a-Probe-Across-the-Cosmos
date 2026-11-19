@@ -1,0 +1,4190 @@
+{
+  "version": "0.78.0",
+  "outcomes": [
+    {
+      "name": "Chrome",
+      "engineVersion": "158.0.8127.37",
+      "opening": {
+        "rate": 0,
+        "initial": "You are Voyager 1",
+        "earlyStudyExit": true,
+        "earlyControls": {
+          "timeFeedback": true,
+          "rateReturnKeepsControls": true,
+          "thrustFeedback": true,
+          "heldTimeFeedback": true,
+          "cameraFeedback": true,
+          "onwardChoiceVisible": true
+        },
+        "lostBearingVisible": true,
+        "cameraRecoveryPreservesFlight": true,
+        "thrustImpulse": 1.8216319139965575e-8,
+        "idleIntroduction": [
+          "look",
+          "flight",
+          "time",
+          "explore",
+          ""
+        ],
+        "layouts": [
+          {
+            "viewport": {
+              "width": 1440,
+              "height": 900
+            },
+            "reading": {
+              "left": 57.59375,
+              "right": 477.59375,
+              "top": 650.5,
+              "bottom": 760,
+              "height": 109.5,
+              "width": 420
+            },
+            "buttons": [
+              {
+                "id": "map-button",
+                "left": 1192.875,
+                "right": 1254.40625,
+                "top": 29,
+                "bottom": 73,
+                "height": 44,
+                "width": 61.53125
+              },
+              {
+                "id": "controls-button",
+                "left": 1274.40625,
+                "right": 1318.40625,
+                "top": 28,
+                "bottom": 74,
+                "height": 46,
+                "width": 44
+              },
+              {
+                "id": "pause-button",
+                "left": 1338.40625,
+                "right": 1382.40625,
+                "top": 29,
+                "bottom": 73,
+                "height": 44,
+                "width": 44
+              }
+            ],
+            "feedback": {
+              "left": 0,
+              "right": 0,
+              "top": 0,
+              "bottom": 0,
+              "height": 0,
+              "width": 0
+            },
+            "phase": "look"
+          },
+          {
+            "viewport": {
+              "width": 1440,
+              "height": 900
+            },
+            "reading": {
+              "left": 57.59375,
+              "right": 477.59375,
+              "top": 676,
+              "bottom": 760,
+              "height": 84,
+              "width": 420
+            },
+            "buttons": [
+              {
+                "id": "map-button",
+                "left": 1192.875,
+                "right": 1254.40625,
+                "top": 29,
+                "bottom": 73,
+                "height": 44,
+                "width": 61.53125
+              },
+              {
+                "id": "controls-button",
+                "left": 1274.40625,
+                "right": 1318.40625,
+                "top": 28,
+                "bottom": 74,
+                "height": 46,
+                "width": 44
+              },
+              {
+                "id": "pause-button",
+                "left": 1338.40625,
+                "right": 1382.40625,
+                "top": 29,
+                "bottom": 73,
+                "height": 44,
+                "width": 44
+              },
+              {
+                "id": "waypoint",
+                "left": 573.9375,
+                "right": 645.3125,
+                "top": 425.5,
+                "bottom": 474.5,
+                "height": 49,
+                "width": 71.375
+              }
+            ],
+            "feedback": {
+              "left": 0,
+              "right": 0,
+              "top": 0,
+              "bottom": 0,
+              "height": 0,
+              "width": 0
+            },
+            "phase": "flight"
+          },
+          {
+            "viewport": {
+              "width": 1440,
+              "height": 900
+            },
+            "reading": {
+              "left": 57.59375,
+              "right": 477.59375,
+              "top": 676,
+              "bottom": 760,
+              "height": 84,
+              "width": 420
+            },
+            "buttons": [
+              {
+                "id": "map-button",
+                "left": 1192.875,
+                "right": 1254.40625,
+                "top": 29,
+                "bottom": 73,
+                "height": 44,
+                "width": 61.53125
+              },
+              {
+                "id": "controls-button",
+                "left": 1274.40625,
+                "right": 1318.40625,
+                "top": 28,
+                "bottom": 74,
+                "height": 46,
+                "width": 44
+              },
+              {
+                "id": "pause-button",
+                "left": 1338.40625,
+                "right": 1382.40625,
+                "top": 29,
+                "bottom": 73,
+                "height": 44,
+                "width": 44
+              },
+              {
+                "id": "waypoint",
+                "left": 573.9375,
+                "right": 645.3125,
+                "top": 425.5,
+                "bottom": 474.5,
+                "height": 49,
+                "width": 71.375
+              },
+              {
+                "id": "slower-time",
+                "left": 174.125,
+                "right": 218.125,
+                "top": 794,
+                "bottom": 838,
+                "height": 44,
+                "width": 44
+              },
+              {
+                "id": "time-toggle",
+                "left": 218.125,
+                "right": 282.125,
+                "top": 794,
+                "bottom": 838,
+                "height": 44,
+                "width": 64
+              },
+              {
+                "id": "faster-time",
+                "left": 282.125,
+                "right": 326.125,
+                "top": 794,
+                "bottom": 838,
+                "height": 44,
+                "width": 44
+              }
+            ],
+            "feedback": {
+              "left": 0,
+              "right": 0,
+              "top": 0,
+              "bottom": 0,
+              "height": 0,
+              "width": 0
+            },
+            "phase": "time"
+          },
+          {
+            "viewport": {
+              "width": 1440,
+              "height": 900
+            },
+            "reading": {
+              "left": 57.59375,
+              "right": 477.59375,
+              "top": 676,
+              "bottom": 760,
+              "height": 84,
+              "width": 420
+            },
+            "buttons": [
+              {
+                "id": "depart",
+                "left": 57.59375,
+                "right": 208.953125,
+                "top": 88.390625,
+                "bottom": 132.390625,
+                "height": 44,
+                "width": 151.359375
+              },
+              {
+                "id": "view-button",
+                "left": 1069.3125,
+                "right": 1172.875,
+                "top": 29,
+                "bottom": 73,
+                "height": 44,
+                "width": 103.5625
+              },
+              {
+                "id": "map-button",
+                "left": 1192.875,
+                "right": 1254.40625,
+                "top": 29,
+                "bottom": 73,
+                "height": 44,
+                "width": 61.53125
+              },
+              {
+                "id": "controls-button",
+                "left": 1274.40625,
+                "right": 1318.40625,
+                "top": 28,
+                "bottom": 74,
+                "height": 46,
+                "width": 44
+              },
+              {
+                "id": "pause-button",
+                "left": 1338.40625,
+                "right": 1382.40625,
+                "top": 29,
+                "bottom": 73,
+                "height": 44,
+                "width": 44
+              },
+              {
+                "id": "waypoint",
+                "left": 573.9375,
+                "right": 645.3125,
+                "top": 425.5,
+                "bottom": 474.5,
+                "height": 49,
+                "width": 71.375
+              },
+              {
+                "id": "slower-time",
+                "left": 174.125,
+                "right": 218.125,
+                "top": 794,
+                "bottom": 838,
+                "height": 44,
+                "width": 44
+              },
+              {
+                "id": "time-toggle",
+                "left": 218.125,
+                "right": 282.125,
+                "top": 794,
+                "bottom": 838,
+                "height": 44,
+                "width": 64
+              },
+              {
+                "id": "faster-time",
+                "left": 282.125,
+                "right": 326.125,
+                "top": 794,
+                "bottom": 838,
+                "height": 44,
+                "width": 44
+              },
+              {
+                "id": "photo-button",
+                "left": 1101.671875,
+                "right": 1196.46875,
+                "top": 831,
+                "bottom": 875,
+                "height": 44,
+                "width": 94.796875
+              },
+              {
+                "id": "review-button",
+                "left": 1222.46875,
+                "right": 1306.421875,
+                "top": 831,
+                "bottom": 875,
+                "height": 44,
+                "width": 83.953125
+              },
+              {
+                "id": "log-button",
+                "left": 1332.421875,
+                "right": 1382.40625,
+                "top": 831,
+                "bottom": 875,
+                "height": 44,
+                "width": 49.984375
+              }
+            ],
+            "feedback": {
+              "left": 0,
+              "right": 0,
+              "top": 0,
+              "bottom": 0,
+              "height": 0,
+              "width": 0
+            },
+            "phase": "explore"
+          },
+          {
+            "viewport": {
+              "width": 1024,
+              "height": 640
+            },
+            "reading": {
+              "left": 40.953125,
+              "right": 460.953125,
+              "top": 418,
+              "bottom": 502,
+              "height": 84,
+              "width": 420
+            },
+            "buttons": [
+              {
+                "id": "map-button",
+                "left": 813.515625,
+                "right": 875.046875,
+                "top": 23,
+                "bottom": 67,
+                "height": 44,
+                "width": 61.53125
+              },
+              {
+                "id": "controls-button",
+                "left": 885.046875,
+                "right": 929.046875,
+                "top": 22,
+                "bottom": 68,
+                "height": 46,
+                "width": 44
+              },
+              {
+                "id": "pause-button",
+                "left": 939.046875,
+                "right": 983.046875,
+                "top": 23,
+                "bottom": 67,
+                "height": 44,
+                "width": 44
+              }
+            ],
+            "feedback": {
+              "left": 0,
+              "right": 0,
+              "top": 0,
+              "bottom": 0,
+              "height": 0,
+              "width": 0
+            },
+            "phase": "look"
+          },
+          {
+            "viewport": {
+              "width": 1024,
+              "height": 640
+            },
+            "reading": {
+              "left": 40.953125,
+              "right": 460.953125,
+              "top": 418,
+              "bottom": 502,
+              "height": 84,
+              "width": 420
+            },
+            "buttons": [
+              {
+                "id": "map-button",
+                "left": 813.515625,
+                "right": 875.046875,
+                "top": 23,
+                "bottom": 67,
+                "height": 44,
+                "width": 61.53125
+              },
+              {
+                "id": "controls-button",
+                "left": 885.046875,
+                "right": 929.046875,
+                "top": 22,
+                "bottom": 68,
+                "height": 46,
+                "width": 44
+              },
+              {
+                "id": "pause-button",
+                "left": 939.046875,
+                "right": 983.046875,
+                "top": 23,
+                "bottom": 67,
+                "height": 44,
+                "width": 44
+              },
+              {
+                "id": "waypoint",
+                "left": 380.28125,
+                "right": 451.65625,
+                "top": 295.5,
+                "bottom": 344.5,
+                "height": 49,
+                "width": 71.375
+              }
+            ],
+            "feedback": {
+              "left": 0,
+              "right": 0,
+              "top": 0,
+              "bottom": 0,
+              "height": 0,
+              "width": 0
+            },
+            "phase": "flight"
+          },
+          {
+            "viewport": {
+              "width": 1024,
+              "height": 640
+            },
+            "reading": {
+              "left": 40.953125,
+              "right": 460.953125,
+              "top": 418,
+              "bottom": 502,
+              "height": 84,
+              "width": 420
+            },
+            "buttons": [
+              {
+                "id": "map-button",
+                "left": 813.515625,
+                "right": 875.046875,
+                "top": 23,
+                "bottom": 67,
+                "height": 44,
+                "width": 61.53125
+              },
+              {
+                "id": "controls-button",
+                "left": 885.046875,
+                "right": 929.046875,
+                "top": 22,
+                "bottom": 68,
+                "height": 46,
+                "width": 44
+              },
+              {
+                "id": "pause-button",
+                "left": 939.046875,
+                "right": 983.046875,
+                "top": 23,
+                "bottom": 67,
+                "height": 44,
+                "width": 44
+              },
+              {
+                "id": "waypoint",
+                "left": 380.28125,
+                "right": 451.65625,
+                "top": 295.5,
+                "bottom": 344.5,
+                "height": 49,
+                "width": 71.375
+              },
+              {
+                "id": "slower-time",
+                "left": 157.484375,
+                "right": 201.484375,
+                "top": 534,
+                "bottom": 578,
+                "height": 44,
+                "width": 44
+              },
+              {
+                "id": "time-toggle",
+                "left": 201.484375,
+                "right": 265.484375,
+                "top": 534,
+                "bottom": 578,
+                "height": 44,
+                "width": 64
+              },
+              {
+                "id": "faster-time",
+                "left": 265.484375,
+                "right": 309.484375,
+                "top": 534,
+                "bottom": 578,
+                "height": 44,
+                "width": 44
+              }
+            ],
+            "feedback": {
+              "left": 0,
+              "right": 0,
+              "top": 0,
+              "bottom": 0,
+              "height": 0,
+              "width": 0
+            },
+            "phase": "time"
+          },
+          {
+            "viewport": {
+              "width": 1024,
+              "height": 640
+            },
+            "reading": {
+              "left": 40.953125,
+              "right": 460.953125,
+              "top": 418,
+              "bottom": 502,
+              "height": 84,
+              "width": 420
+            },
+            "buttons": [
+              {
+                "id": "depart",
+                "left": 40.953125,
+                "right": 192.3125,
+                "top": 82.390625,
+                "bottom": 126.390625,
+                "height": 44,
+                "width": 151.359375
+              },
+              {
+                "id": "view-button",
+                "left": 699.953125,
+                "right": 803.515625,
+                "top": 23,
+                "bottom": 67,
+                "height": 44,
+                "width": 103.5625
+              },
+              {
+                "id": "map-button",
+                "left": 813.515625,
+                "right": 875.046875,
+                "top": 23,
+                "bottom": 67,
+                "height": 44,
+                "width": 61.53125
+              },
+              {
+                "id": "controls-button",
+                "left": 885.046875,
+                "right": 929.046875,
+                "top": 22,
+                "bottom": 68,
+                "height": 46,
+                "width": 44
+              },
+              {
+                "id": "pause-button",
+                "left": 939.046875,
+                "right": 983.046875,
+                "top": 23,
+                "bottom": 67,
+                "height": 44,
+                "width": 44
+              },
+              {
+                "id": "waypoint",
+                "left": 380.28125,
+                "right": 451.65625,
+                "top": 295.5,
+                "bottom": 344.5,
+                "height": 49,
+                "width": 71.375
+              },
+              {
+                "id": "slower-time",
+                "left": 157.484375,
+                "right": 201.484375,
+                "top": 534,
+                "bottom": 578,
+                "height": 44,
+                "width": 44
+              },
+              {
+                "id": "time-toggle",
+                "left": 201.484375,
+                "right": 265.484375,
+                "top": 534,
+                "bottom": 578,
+                "height": 44,
+                "width": 64
+              },
+              {
+                "id": "faster-time",
+                "left": 265.484375,
+                "right": 309.484375,
+                "top": 534,
+                "bottom": 578,
+                "height": 44,
+                "width": 44
+              },
+              {
+                "id": "photo-button",
+                "left": 702.3125,
+                "right": 797.109375,
+                "top": 571,
+                "bottom": 615,
+                "height": 44,
+                "width": 94.796875
+              },
+              {
+                "id": "review-button",
+                "left": 823.109375,
+                "right": 907.0625,
+                "top": 571,
+                "bottom": 615,
+                "height": 44,
+                "width": 83.953125
+              },
+              {
+                "id": "log-button",
+                "left": 933.0625,
+                "right": 983.046875,
+                "top": 571,
+                "bottom": 615,
+                "height": 44,
+                "width": 49.984375
+              }
+            ],
+            "feedback": {
+              "left": 0,
+              "right": 0,
+              "top": 0,
+              "bottom": 0,
+              "height": 0,
+              "width": 0
+            },
+            "phase": "explore"
+          },
+          {
+            "viewport": {
+              "width": 800,
+              "height": 600
+            },
+            "reading": {
+              "left": 32,
+              "right": 392,
+              "top": 376,
+              "bottom": 460,
+              "height": 84,
+              "width": 360
+            },
+            "buttons": [
+              {
+                "id": "map-button",
+                "left": 620.296875,
+                "right": 676,
+                "top": 23,
+                "bottom": 67,
+                "height": 44,
+                "width": 55.703125
+              },
+              {
+                "id": "controls-button",
+                "left": 678,
+                "right": 722,
+                "top": 22,
+                "bottom": 68,
+                "height": 46,
+                "width": 44
+              },
+              {
+                "id": "pause-button",
+                "left": 724,
+                "right": 768,
+                "top": 23,
+                "bottom": 67,
+                "height": 44,
+                "width": 44
+              }
+            ],
+            "feedback": {
+              "left": 0,
+              "right": 0,
+              "top": 0,
+              "bottom": 0,
+              "height": 0,
+              "width": 0
+            },
+            "phase": "look"
+          },
+          {
+            "viewport": {
+              "width": 800,
+              "height": 600
+            },
+            "reading": {
+              "left": 32,
+              "right": 392,
+              "top": 376,
+              "bottom": 460,
+              "height": 84,
+              "width": 360
+            },
+            "buttons": [
+              {
+                "id": "map-button",
+                "left": 620.296875,
+                "right": 676,
+                "top": 23,
+                "bottom": 67,
+                "height": 44,
+                "width": 55.703125
+              },
+              {
+                "id": "controls-button",
+                "left": 678,
+                "right": 722,
+                "top": 22,
+                "bottom": 68,
+                "height": 46,
+                "width": 44
+              },
+              {
+                "id": "pause-button",
+                "left": 724,
+                "right": 768,
+                "top": 23,
+                "bottom": 67,
+                "height": 44,
+                "width": 44
+              },
+              {
+                "id": "waypoint",
+                "left": 270.5,
+                "right": 341.875,
+                "top": 275.5,
+                "bottom": 324.5,
+                "height": 49,
+                "width": 71.375
+              }
+            ],
+            "feedback": {
+              "left": 0,
+              "right": 0,
+              "top": 0,
+              "bottom": 0,
+              "height": 0,
+              "width": 0
+            },
+            "phase": "flight"
+          },
+          {
+            "viewport": {
+              "width": 800,
+              "height": 600
+            },
+            "reading": {
+              "left": 32,
+              "right": 392,
+              "top": 376,
+              "bottom": 460,
+              "height": 84,
+              "width": 360
+            },
+            "buttons": [
+              {
+                "id": "map-button",
+                "left": 620.296875,
+                "right": 676,
+                "top": 23,
+                "bottom": 67,
+                "height": 44,
+                "width": 55.703125
+              },
+              {
+                "id": "controls-button",
+                "left": 678,
+                "right": 722,
+                "top": 22,
+                "bottom": 68,
+                "height": 46,
+                "width": 44
+              },
+              {
+                "id": "pause-button",
+                "left": 724,
+                "right": 768,
+                "top": 23,
+                "bottom": 67,
+                "height": 44,
+                "width": 44
+              },
+              {
+                "id": "waypoint",
+                "left": 270.5,
+                "right": 341.875,
+                "top": 275.5,
+                "bottom": 324.5,
+                "height": 49,
+                "width": 71.375
+              },
+              {
+                "id": "slower-time",
+                "left": 131.53125,
+                "right": 175.53125,
+                "top": 494,
+                "bottom": 538,
+                "height": 44,
+                "width": 44
+              },
+              {
+                "id": "time-toggle",
+                "left": 175.53125,
+                "right": 239.53125,
+                "top": 494,
+                "bottom": 538,
+                "height": 44,
+                "width": 64
+              },
+              {
+                "id": "faster-time",
+                "left": 239.53125,
+                "right": 283.53125,
+                "top": 494,
+                "bottom": 538,
+                "height": 44,
+                "width": 44
+              }
+            ],
+            "feedback": {
+              "left": 0,
+              "right": 0,
+              "top": 0,
+              "bottom": 0,
+              "height": 0,
+              "width": 0
+            },
+            "phase": "time"
+          },
+          {
+            "viewport": {
+              "width": 800,
+              "height": 600
+            },
+            "reading": {
+              "left": 32,
+              "right": 392,
+              "top": 376,
+              "bottom": 460,
+              "height": 84,
+              "width": 360
+            },
+            "buttons": [
+              {
+                "id": "depart",
+                "left": 32,
+                "right": 183.359375,
+                "top": 77.1875,
+                "bottom": 121.1875,
+                "height": 44,
+                "width": 151.359375
+              },
+              {
+                "id": "view-button",
+                "left": 525.5,
+                "right": 618.296875,
+                "top": 23,
+                "bottom": 67,
+                "height": 44,
+                "width": 92.796875
+              },
+              {
+                "id": "map-button",
+                "left": 620.296875,
+                "right": 676,
+                "top": 23,
+                "bottom": 67,
+                "height": 44,
+                "width": 55.703125
+              },
+              {
+                "id": "controls-button",
+                "left": 678,
+                "right": 722,
+                "top": 22,
+                "bottom": 68,
+                "height": 46,
+                "width": 44
+              },
+              {
+                "id": "pause-button",
+                "left": 724,
+                "right": 768,
+                "top": 23,
+                "bottom": 67,
+                "height": 44,
+                "width": 44
+              },
+              {
+                "id": "waypoint",
+                "left": 270.5,
+                "right": 341.875,
+                "top": 275.5,
+                "bottom": 324.5,
+                "height": 49,
+                "width": 71.375
+              },
+              {
+                "id": "slower-time",
+                "left": 131.53125,
+                "right": 175.53125,
+                "top": 494,
+                "bottom": 538,
+                "height": 44,
+                "width": 44
+              },
+              {
+                "id": "time-toggle",
+                "left": 175.53125,
+                "right": 239.53125,
+                "top": 494,
+                "bottom": 538,
+                "height": 44,
+                "width": 64
+              },
+              {
+                "id": "faster-time",
+                "left": 239.53125,
+                "right": 283.53125,
+                "top": 494,
+                "bottom": 538,
+                "height": 44,
+                "width": 44
+              },
+              {
+                "id": "photo-button",
+                "left": 519.640625,
+                "right": 605.9375,
+                "top": 531,
+                "bottom": 575,
+                "height": 44,
+                "width": 86.296875
+              },
+              {
+                "id": "review-button",
+                "left": 623.9375,
+                "right": 702.953125,
+                "top": 531,
+                "bottom": 575,
+                "height": 44,
+                "width": 79.015625
+              },
+              {
+                "id": "log-button",
+                "left": 720.953125,
+                "right": 768,
+                "top": 531,
+                "bottom": 575,
+                "height": 44,
+                "width": 47.046875
+              }
+            ],
+            "feedback": {
+              "left": 0,
+              "right": 0,
+              "top": 0,
+              "bottom": 0,
+              "height": 0,
+              "width": 0
+            },
+            "phase": "explore"
+          }
+        ]
+      },
+      "version": "0.78.0",
+      "nativeHUDButtonSpace": true,
+      "pointerReturnsToFlightKeys": true,
+      "panelReturnRestoresFlightKeys": true,
+      "keyboardArrows": true,
+      "nativeRangeKeys": true,
+      "tabFocusTrap": true,
+      "flightShortcutsDoNotChangePausedFlight": true,
+      "syntheticXboxNavigation": true,
+      "controllerRangesAndSelects": true,
+      "controllerSoundToggle": true,
+      "controllerReviewAndCancellation": true,
+      "closedDetailsSkipped": true,
+      "scienceRevisit": {
+        "note": "0:0",
+        "unreadDuringInvitation": true,
+        "returnedAfterInvitation": true,
+        "readAfterVisibleDwell": true,
+        "physicalStatePreserved": true
+      },
+      "encounterLayouts": [
+        {
+          "chapter": 0,
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          },
+          "top": 147.1875,
+          "footerTop": 815.8125,
+          "footerBottom": 880,
+          "studies": [
+            {
+              "id": "moon",
+              "text": "Earth beyond the Moon→",
+              "top": 226.234375,
+              "bottom": 281.125,
+              "height": 54.890625,
+              "left": 59.59375,
+              "right": 547.515625
+            },
+            {
+              "id": "earth-shadow",
+              "text": "The edge of Earth’s shadow→",
+              "top": 281.125,
+              "bottom": 336.015625,
+              "height": 54.890625,
+              "left": 59.59375,
+              "right": 547.515625
+            }
+          ],
+          "firstAction": "study",
+          "duplicateEntries": 0
+        },
+        {
+          "chapter": 0,
+          "viewport": {
+            "width": 1024,
+            "height": 640
+          },
+          "top": 117,
+          "footerTop": 568.40625,
+          "footerBottom": 626,
+          "studies": [
+            {
+              "id": "moon",
+              "text": "Earth beyond the Moon→",
+              "top": 182.890625,
+              "bottom": 227.1875,
+              "height": 44.296875,
+              "left": 42.953125,
+              "right": 386.109375
+            },
+            {
+              "id": "earth-shadow",
+              "text": "The edge of Earth’s shadow→",
+              "top": 227.1875,
+              "bottom": 271.484375,
+              "height": 44.296875,
+              "left": 42.953125,
+              "right": 386.109375
+            }
+          ],
+          "firstAction": "study",
+          "duplicateEntries": 0
+        },
+        {
+          "chapter": 0,
+          "viewport": {
+            "width": 800,
+            "height": 600
+          },
+          "top": 117,
+          "footerTop": 534,
+          "footerBottom": 588,
+          "studies": [
+            {
+              "id": "moon",
+              "text": "Earth beyond the Moon→",
+              "top": 196.046875,
+              "bottom": 250.9375,
+              "height": 54.890625,
+              "left": 42,
+              "right": 744
+            },
+            {
+              "id": "earth-shadow",
+              "text": "The edge of Earth’s shadow→",
+              "top": 250.9375,
+              "bottom": 305.828125,
+              "height": 54.890625,
+              "left": 42,
+              "right": 744
+            }
+          ],
+          "firstAction": "study",
+          "duplicateEntries": 0
+        },
+        {
+          "chapter": 1,
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          },
+          "top": 147.1875,
+          "footerTop": 815.8125,
+          "footerBottom": 880,
+          "studies": [
+            {
+              "id": "io",
+              "text": "Io against the giant→",
+              "top": 226.234375,
+              "bottom": 281.125,
+              "height": 54.890625,
+              "left": 59.59375,
+              "right": 547.515625
+            }
+          ],
+          "firstAction": "study",
+          "duplicateEntries": 0
+        },
+        {
+          "chapter": 1,
+          "viewport": {
+            "width": 1024,
+            "height": 640
+          },
+          "top": 117,
+          "footerTop": 568.40625,
+          "footerBottom": 626,
+          "studies": [
+            {
+              "id": "io",
+              "text": "Io against the giant→",
+              "top": 182.890625,
+              "bottom": 227.1875,
+              "height": 44.296875,
+              "left": 42.953125,
+              "right": 386.109375
+            }
+          ],
+          "firstAction": "study",
+          "duplicateEntries": 0
+        },
+        {
+          "chapter": 1,
+          "viewport": {
+            "width": 800,
+            "height": 600
+          },
+          "top": 117,
+          "footerTop": 534,
+          "footerBottom": 588,
+          "studies": [
+            {
+              "id": "io",
+              "text": "Io against the giant→",
+              "top": 196.046875,
+              "bottom": 250.9375,
+              "height": 54.890625,
+              "left": 42,
+              "right": 744
+            }
+          ],
+          "firstAction": "study",
+          "duplicateEntries": 0
+        },
+        {
+          "chapter": 2,
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          },
+          "top": 147.1875,
+          "footerTop": 815.8125,
+          "footerBottom": 880,
+          "studies": [
+            {
+              "id": "titan",
+              "text": "Light through Titan’s haze→",
+              "top": 226.234375,
+              "bottom": 281.125,
+              "height": 54.890625,
+              "left": 59.59375,
+              "right": 547.515625
+            },
+            {
+              "id": "ring-plane",
+              "text": "Along the ring plane→",
+              "top": 281.125,
+              "bottom": 336.015625,
+              "height": 54.890625,
+              "left": 59.59375,
+              "right": 547.515625
+            },
+            {
+              "id": "north-pole",
+              "text": "Saturn’s polar clouds→",
+              "top": 336.015625,
+              "bottom": 390.90625,
+              "height": 54.890625,
+              "left": 59.59375,
+              "right": 547.515625
+            }
+          ],
+          "firstAction": "study",
+          "duplicateEntries": 0
+        },
+        {
+          "chapter": 2,
+          "viewport": {
+            "width": 1024,
+            "height": 640
+          },
+          "top": 117,
+          "footerTop": 568.40625,
+          "footerBottom": 626,
+          "studies": [
+            {
+              "id": "titan",
+              "text": "Light through Titan’s haze→",
+              "top": 182.890625,
+              "bottom": 227.1875,
+              "height": 44.296875,
+              "left": 42.953125,
+              "right": 386.109375
+            },
+            {
+              "id": "ring-plane",
+              "text": "Along the ring plane→",
+              "top": 227.1875,
+              "bottom": 271.484375,
+              "height": 44.296875,
+              "left": 42.953125,
+              "right": 386.109375
+            },
+            {
+              "id": "north-pole",
+              "text": "Saturn’s polar clouds→",
+              "top": 271.484375,
+              "bottom": 315.78125,
+              "height": 44.296875,
+              "left": 42.953125,
+              "right": 386.109375
+            }
+          ],
+          "firstAction": "study",
+          "duplicateEntries": 0
+        },
+        {
+          "chapter": 2,
+          "viewport": {
+            "width": 800,
+            "height": 600
+          },
+          "top": 117,
+          "footerTop": 534,
+          "footerBottom": 588,
+          "studies": [
+            {
+              "id": "titan",
+              "text": "Light through Titan’s haze→",
+              "top": 196.046875,
+              "bottom": 250.9375,
+              "height": 54.890625,
+              "left": 42,
+              "right": 744
+            },
+            {
+              "id": "ring-plane",
+              "text": "Along the ring plane→",
+              "top": 250.9375,
+              "bottom": 305.828125,
+              "height": 54.890625,
+              "left": 42,
+              "right": 744
+            },
+            {
+              "id": "north-pole",
+              "text": "Saturn’s polar clouds→",
+              "top": 305.828125,
+              "bottom": 360.71875,
+              "height": 54.890625,
+              "left": 42,
+              "right": 744
+            }
+          ],
+          "firstAction": "study",
+          "duplicateEntries": 0
+        }
+      ],
+      "studyVisits": [
+        {
+          "id": "moon",
+          "epoch": 0,
+          "photos": 2,
+          "activation": "Enter",
+          "bearingPreservesFlight": true,
+          "bearingUsesExistingMarker": true
+        },
+        {
+          "id": "earth-shadow",
+          "epoch": 0,
+          "photos": 2,
+          "activation": "Enter",
+          "bearingPreservesFlight": true,
+          "bearingUsesExistingMarker": true
+        },
+        {
+          "id": "io",
+          "epoch": 1,
+          "photos": 2,
+          "activation": "synthetic Xbox A",
+          "bearingPreservesFlight": true,
+          "bearingUsesExistingMarker": true
+        },
+        {
+          "id": "titan",
+          "epoch": 3,
+          "photos": 2,
+          "activation": "Enter",
+          "bearingPreservesFlight": true,
+          "bearingUsesExistingMarker": true
+        },
+        {
+          "id": "ring-plane",
+          "epoch": 2,
+          "photos": 2,
+          "activation": "Space",
+          "bearingPreservesFlight": true,
+          "bearingUsesExistingMarker": true
+        },
+        {
+          "id": "north-pole",
+          "epoch": 2,
+          "photos": 2,
+          "activation": "Enter",
+          "bearingPreservesFlight": true,
+          "bearingUsesExistingMarker": true
+        }
+      ],
+      "contextualExploreVoyageEntry": true,
+      "compactPauseFits": true,
+      "physicalXboxTested": false,
+      "errors": []
+    },
+    {
+      "name": "Firefox",
+      "engineVersion": "153.0",
+      "opening": {
+        "rate": 0,
+        "initial": "You are Voyager 1",
+        "earlyStudyExit": true,
+        "earlyControls": {
+          "timeFeedback": true,
+          "rateReturnKeepsControls": true,
+          "thrustFeedback": true,
+          "heldTimeFeedback": true,
+          "cameraFeedback": true,
+          "onwardChoiceVisible": true
+        },
+        "lostBearingVisible": true,
+        "cameraRecoveryPreservesFlight": true,
+        "thrustImpulse": 1.8172687470372734e-8,
+        "idleIntroduction": [
+          "look",
+          "flight",
+          "time",
+          "explore",
+          ""
+        ],
+        "layouts": [
+          {
+            "viewport": {
+              "width": 1440,
+              "height": 900
+            },
+            "reading": {
+              "left": 0,
+              "right": 0,
+              "top": 0,
+              "bottom": 0,
+              "height": 0,
+              "width": 0
+            },
+            "buttons": [
+              {
+                "id": "map-button",
+                "left": 1192.88330078125,
+                "right": 1254.3999633789062,
+                "top": 29.5,
+                "bottom": 73.5,
+                "height": 44,
+                "width": 61.51666259765625
+              },
+              {
+                "id": "controls-button",
+                "left": 1274.4000244140625,
+                "right": 1318.4000244140625,
+                "top": 28,
+                "bottom": 75,
+                "height": 47,
+                "width": 44
+              },
+              {
+                "id": "pause-button",
+                "left": 1338.4000244140625,
+                "right": 1382.4000244140625,
+                "top": 29.5,
+                "bottom": 73.5,
+                "height": 44,
+                "width": 44
+              }
+            ],
+            "feedback": {
+              "left": 0,
+              "right": 0,
+              "top": 0,
+              "bottom": 0,
+              "height": 0,
+              "width": 0
+            },
+            "phase": "look"
+          },
+          {
+            "viewport": {
+              "width": 1440,
+              "height": 900
+            },
+            "reading": {
+              "left": 57.600006103515625,
+              "right": 477.6000061035156,
+              "top": 676,
+              "bottom": 760,
+              "height": 84,
+              "width": 420
+            },
+            "buttons": [
+              {
+                "id": "map-button",
+                "left": 1192.88330078125,
+                "right": 1254.3999633789062,
+                "top": 29.5,
+                "bottom": 73.5,
+                "height": 44,
+                "width": 61.51666259765625
+              },
+              {
+                "id": "controls-button",
+                "left": 1274.4000244140625,
+                "right": 1318.4000244140625,
+                "top": 28,
+                "bottom": 75,
+                "height": 47,
+                "width": 44
+              },
+              {
+                "id": "pause-button",
+                "left": 1338.4000244140625,
+                "right": 1382.4000244140625,
+                "top": 29.5,
+                "bottom": 73.5,
+                "height": 44,
+                "width": 44
+              },
+              {
+                "id": "waypoint",
+                "left": 573.9666748046875,
+                "right": 645.3166809082031,
+                "top": 424,
+                "bottom": 476,
+                "height": 52,
+                "width": 71.35000610351562
+              }
+            ],
+            "feedback": {
+              "left": 0,
+              "right": 0,
+              "top": 0,
+              "bottom": 0,
+              "height": 0,
+              "width": 0
+            },
+            "phase": "flight"
+          },
+          {
+            "viewport": {
+              "width": 1440,
+              "height": 900
+            },
+            "reading": {
+              "left": 57.600006103515625,
+              "right": 477.6000061035156,
+              "top": 676,
+              "bottom": 760,
+              "height": 84,
+              "width": 420
+            },
+            "buttons": [
+              {
+                "id": "map-button",
+                "left": 1192.88330078125,
+                "right": 1254.3999633789062,
+                "top": 29.5,
+                "bottom": 73.5,
+                "height": 44,
+                "width": 61.51666259765625
+              },
+              {
+                "id": "controls-button",
+                "left": 1274.4000244140625,
+                "right": 1318.4000244140625,
+                "top": 28,
+                "bottom": 75,
+                "height": 47,
+                "width": 44
+              },
+              {
+                "id": "pause-button",
+                "left": 1338.4000244140625,
+                "right": 1382.4000244140625,
+                "top": 29.5,
+                "bottom": 73.5,
+                "height": 44,
+                "width": 44
+              },
+              {
+                "id": "waypoint",
+                "left": 573.9666748046875,
+                "right": 645.3166809082031,
+                "top": 424,
+                "bottom": 476,
+                "height": 52,
+                "width": 71.35000610351562
+              },
+              {
+                "id": "slower-time",
+                "left": 174.14999389648438,
+                "right": 218.14999389648438,
+                "top": 794,
+                "bottom": 838,
+                "height": 44,
+                "width": 44
+              },
+              {
+                "id": "time-toggle",
+                "left": 218.14999389648438,
+                "right": 282.1499938964844,
+                "top": 794,
+                "bottom": 838,
+                "height": 44,
+                "width": 64
+              },
+              {
+                "id": "faster-time",
+                "left": 282.1499938964844,
+                "right": 326.1499938964844,
+                "top": 794,
+                "bottom": 838,
+                "height": 44,
+                "width": 44
+              }
+            ],
+            "feedback": {
+              "left": 0,
+              "right": 0,
+              "top": 0,
+              "bottom": 0,
+              "height": 0,
+              "width": 0
+            },
+            "phase": "time"
+          },
+          {
+            "viewport": {
+              "width": 1440,
+              "height": 900
+            },
+            "reading": {
+              "left": 57.600006103515625,
+              "right": 477.6000061035156,
+              "top": 676,
+              "bottom": 760,
+              "height": 84,
+              "width": 420
+            },
+            "buttons": [
+              {
+                "id": "depart",
+                "left": 57.600006103515625,
+                "right": 208.96665954589844,
+                "top": 88.39999389648438,
+                "bottom": 132.39999389648438,
+                "height": 44,
+                "width": 151.3666534423828
+              },
+              {
+                "id": "view-button",
+                "left": 1069.3333740234375,
+                "right": 1172.8833770751953,
+                "top": 29.5,
+                "bottom": 73.5,
+                "height": 44,
+                "width": 103.55000305175781
+              },
+              {
+                "id": "map-button",
+                "left": 1192.88330078125,
+                "right": 1254.3999633789062,
+                "top": 29.5,
+                "bottom": 73.5,
+                "height": 44,
+                "width": 61.51666259765625
+              },
+              {
+                "id": "controls-button",
+                "left": 1274.4000244140625,
+                "right": 1318.4000244140625,
+                "top": 28,
+                "bottom": 75,
+                "height": 47,
+                "width": 44
+              },
+              {
+                "id": "pause-button",
+                "left": 1338.4000244140625,
+                "right": 1382.4000244140625,
+                "top": 29.5,
+                "bottom": 73.5,
+                "height": 44,
+                "width": 44
+              },
+              {
+                "id": "waypoint",
+                "left": 573.9666748046875,
+                "right": 645.3166809082031,
+                "top": 424,
+                "bottom": 476,
+                "height": 52,
+                "width": 71.35000610351562
+              },
+              {
+                "id": "slower-time",
+                "left": 174.14999389648438,
+                "right": 218.14999389648438,
+                "top": 794,
+                "bottom": 838,
+                "height": 44,
+                "width": 44
+              },
+              {
+                "id": "time-toggle",
+                "left": 218.14999389648438,
+                "right": 282.1499938964844,
+                "top": 794,
+                "bottom": 838,
+                "height": 44,
+                "width": 64
+              },
+              {
+                "id": "faster-time",
+                "left": 282.1499938964844,
+                "right": 326.1499938964844,
+                "top": 794,
+                "bottom": 838,
+                "height": 44,
+                "width": 44
+              },
+              {
+                "id": "photo-button",
+                "left": 1101.6500244140625,
+                "right": 1196.4500274658203,
+                "top": 831,
+                "bottom": 875,
+                "height": 44,
+                "width": 94.80000305175781
+              },
+              {
+                "id": "review-button",
+                "left": 1222.449951171875,
+                "right": 1306.3999481201172,
+                "top": 831,
+                "bottom": 875,
+                "height": 44,
+                "width": 83.94999694824219
+              },
+              {
+                "id": "log-button",
+                "left": 1332.4000244140625,
+                "right": 1382.4000244140625,
+                "top": 831,
+                "bottom": 875,
+                "height": 44,
+                "width": 50
+              }
+            ],
+            "feedback": {
+              "left": 0,
+              "right": 0,
+              "top": 0,
+              "bottom": 0,
+              "height": 0,
+              "width": 0
+            },
+            "phase": "explore"
+          },
+          {
+            "viewport": {
+              "width": 1024,
+              "height": 640
+            },
+            "reading": {
+              "left": 40.94999694824219,
+              "right": 460.9499969482422,
+              "top": 418,
+              "bottom": 502,
+              "height": 84,
+              "width": 420
+            },
+            "buttons": [
+              {
+                "id": "map-button",
+                "left": 813.5333251953125,
+                "right": 875.0499877929688,
+                "top": 23.5,
+                "bottom": 67.5,
+                "height": 44,
+                "width": 61.51666259765625
+              },
+              {
+                "id": "controls-button",
+                "left": 885.0499877929688,
+                "right": 929.0499877929688,
+                "top": 22,
+                "bottom": 69,
+                "height": 47,
+                "width": 44
+              },
+              {
+                "id": "pause-button",
+                "left": 939.0499877929688,
+                "right": 983.0499877929688,
+                "top": 23.5,
+                "bottom": 67.5,
+                "height": 44,
+                "width": 44
+              }
+            ],
+            "feedback": {
+              "left": 0,
+              "right": 0,
+              "top": 0,
+              "bottom": 0,
+              "height": 0,
+              "width": 0
+            },
+            "phase": "look"
+          },
+          {
+            "viewport": {
+              "width": 1024,
+              "height": 640
+            },
+            "reading": {
+              "left": 40.94999694824219,
+              "right": 460.9499969482422,
+              "top": 418,
+              "bottom": 502,
+              "height": 84,
+              "width": 420
+            },
+            "buttons": [
+              {
+                "id": "map-button",
+                "left": 813.5333251953125,
+                "right": 875.0499877929688,
+                "top": 23.5,
+                "bottom": 67.5,
+                "height": 44,
+                "width": 61.51666259765625
+              },
+              {
+                "id": "controls-button",
+                "left": 885.0499877929688,
+                "right": 929.0499877929688,
+                "top": 22,
+                "bottom": 69,
+                "height": 47,
+                "width": 44
+              },
+              {
+                "id": "pause-button",
+                "left": 939.0499877929688,
+                "right": 983.0499877929688,
+                "top": 23.5,
+                "bottom": 67.5,
+                "height": 44,
+                "width": 44
+              },
+              {
+                "id": "waypoint",
+                "left": 380.316650390625,
+                "right": 451.6666564941406,
+                "top": 294,
+                "bottom": 346,
+                "height": 52,
+                "width": 71.35000610351562
+              }
+            ],
+            "feedback": {
+              "left": 0,
+              "right": 0,
+              "top": 0,
+              "bottom": 0,
+              "height": 0,
+              "width": 0
+            },
+            "phase": "flight"
+          },
+          {
+            "viewport": {
+              "width": 1024,
+              "height": 640
+            },
+            "reading": {
+              "left": 40.94999694824219,
+              "right": 460.9499969482422,
+              "top": 418,
+              "bottom": 502,
+              "height": 84,
+              "width": 420
+            },
+            "buttons": [
+              {
+                "id": "map-button",
+                "left": 813.5333251953125,
+                "right": 875.0499877929688,
+                "top": 23.5,
+                "bottom": 67.5,
+                "height": 44,
+                "width": 61.51666259765625
+              },
+              {
+                "id": "controls-button",
+                "left": 885.0499877929688,
+                "right": 929.0499877929688,
+                "top": 22,
+                "bottom": 69,
+                "height": 47,
+                "width": 44
+              },
+              {
+                "id": "pause-button",
+                "left": 939.0499877929688,
+                "right": 983.0499877929688,
+                "top": 23.5,
+                "bottom": 67.5,
+                "height": 44,
+                "width": 44
+              },
+              {
+                "id": "waypoint",
+                "left": 380.316650390625,
+                "right": 451.6666564941406,
+                "top": 294,
+                "bottom": 346,
+                "height": 52,
+                "width": 71.35000610351562
+              },
+              {
+                "id": "slower-time",
+                "left": 157.5,
+                "right": 201.5,
+                "top": 534,
+                "bottom": 578,
+                "height": 44,
+                "width": 44
+              },
+              {
+                "id": "time-toggle",
+                "left": 201.5,
+                "right": 265.5,
+                "top": 534,
+                "bottom": 578,
+                "height": 44,
+                "width": 64
+              },
+              {
+                "id": "faster-time",
+                "left": 265.5,
+                "right": 309.5,
+                "top": 534,
+                "bottom": 578,
+                "height": 44,
+                "width": 44
+              }
+            ],
+            "feedback": {
+              "left": 0,
+              "right": 0,
+              "top": 0,
+              "bottom": 0,
+              "height": 0,
+              "width": 0
+            },
+            "phase": "time"
+          },
+          {
+            "viewport": {
+              "width": 1024,
+              "height": 640
+            },
+            "reading": {
+              "left": 40.94999694824219,
+              "right": 460.9499969482422,
+              "top": 418,
+              "bottom": 502,
+              "height": 84,
+              "width": 420
+            },
+            "buttons": [
+              {
+                "id": "depart",
+                "left": 40.94999694824219,
+                "right": 192.31666564941406,
+                "top": 82.39999389648438,
+                "bottom": 126.39999389648438,
+                "height": 44,
+                "width": 151.36666870117188
+              },
+              {
+                "id": "view-button",
+                "left": 699.9833374023438,
+                "right": 803.5333404541016,
+                "top": 23.5,
+                "bottom": 67.5,
+                "height": 44,
+                "width": 103.55000305175781
+              },
+              {
+                "id": "map-button",
+                "left": 813.5333251953125,
+                "right": 875.0499877929688,
+                "top": 23.5,
+                "bottom": 67.5,
+                "height": 44,
+                "width": 61.51666259765625
+              },
+              {
+                "id": "controls-button",
+                "left": 885.0499877929688,
+                "right": 929.0499877929688,
+                "top": 22,
+                "bottom": 69,
+                "height": 47,
+                "width": 44
+              },
+              {
+                "id": "pause-button",
+                "left": 939.0499877929688,
+                "right": 983.0499877929688,
+                "top": 23.5,
+                "bottom": 67.5,
+                "height": 44,
+                "width": 44
+              },
+              {
+                "id": "waypoint",
+                "left": 380.316650390625,
+                "right": 451.6666564941406,
+                "top": 294,
+                "bottom": 346,
+                "height": 52,
+                "width": 71.35000610351562
+              },
+              {
+                "id": "slower-time",
+                "left": 157.5,
+                "right": 201.5,
+                "top": 534,
+                "bottom": 578,
+                "height": 44,
+                "width": 44
+              },
+              {
+                "id": "time-toggle",
+                "left": 201.5,
+                "right": 265.5,
+                "top": 534,
+                "bottom": 578,
+                "height": 44,
+                "width": 64
+              },
+              {
+                "id": "faster-time",
+                "left": 265.5,
+                "right": 309.5,
+                "top": 534,
+                "bottom": 578,
+                "height": 44,
+                "width": 44
+              },
+              {
+                "id": "photo-button",
+                "left": 702.2999877929688,
+                "right": 797.0999908447266,
+                "top": 571,
+                "bottom": 615,
+                "height": 44,
+                "width": 94.80000305175781
+              },
+              {
+                "id": "review-button",
+                "left": 823.0999755859375,
+                "right": 907.0499725341797,
+                "top": 571,
+                "bottom": 615,
+                "height": 44,
+                "width": 83.94999694824219
+              },
+              {
+                "id": "log-button",
+                "left": 933.0499877929688,
+                "right": 983.0499877929688,
+                "top": 571,
+                "bottom": 615,
+                "height": 44,
+                "width": 50
+              }
+            ],
+            "feedback": {
+              "left": 0,
+              "right": 0,
+              "top": 0,
+              "bottom": 0,
+              "height": 0,
+              "width": 0
+            },
+            "phase": "explore"
+          },
+          {
+            "viewport": {
+              "width": 800,
+              "height": 600
+            },
+            "reading": {
+              "left": 32,
+              "right": 392,
+              "top": 376,
+              "bottom": 460,
+              "height": 84,
+              "width": 360
+            },
+            "buttons": [
+              {
+                "id": "map-button",
+                "left": 620.316650390625,
+                "right": 675.9999847412109,
+                "top": 23.5,
+                "bottom": 67.5,
+                "height": 44,
+                "width": 55.68333435058594
+              },
+              {
+                "id": "controls-button",
+                "left": 678,
+                "right": 722,
+                "top": 22,
+                "bottom": 69,
+                "height": 47,
+                "width": 44
+              },
+              {
+                "id": "pause-button",
+                "left": 724,
+                "right": 768,
+                "top": 23.5,
+                "bottom": 67.5,
+                "height": 44,
+                "width": 44
+              }
+            ],
+            "feedback": {
+              "left": 0,
+              "right": 0,
+              "top": 0,
+              "bottom": 0,
+              "height": 0,
+              "width": 0
+            },
+            "phase": "look"
+          },
+          {
+            "viewport": {
+              "width": 800,
+              "height": 600
+            },
+            "reading": {
+              "left": 32,
+              "right": 392,
+              "top": 376,
+              "bottom": 460,
+              "height": 84,
+              "width": 360
+            },
+            "buttons": [
+              {
+                "id": "map-button",
+                "left": 620.316650390625,
+                "right": 675.9999847412109,
+                "top": 23.5,
+                "bottom": 67.5,
+                "height": 44,
+                "width": 55.68333435058594
+              },
+              {
+                "id": "controls-button",
+                "left": 678,
+                "right": 722,
+                "top": 22,
+                "bottom": 69,
+                "height": 47,
+                "width": 44
+              },
+              {
+                "id": "pause-button",
+                "left": 724,
+                "right": 768,
+                "top": 23.5,
+                "bottom": 67.5,
+                "height": 44,
+                "width": 44
+              },
+              {
+                "id": "waypoint",
+                "left": 270.5333251953125,
+                "right": 341.88331604003906,
+                "top": 274,
+                "bottom": 326,
+                "height": 52,
+                "width": 71.34999084472656
+              }
+            ],
+            "feedback": {
+              "left": 0,
+              "right": 0,
+              "top": 0,
+              "bottom": 0,
+              "height": 0,
+              "width": 0
+            },
+            "phase": "flight"
+          },
+          {
+            "viewport": {
+              "width": 800,
+              "height": 600
+            },
+            "reading": {
+              "left": 32,
+              "right": 392,
+              "top": 376,
+              "bottom": 460,
+              "height": 84,
+              "width": 360
+            },
+            "buttons": [
+              {
+                "id": "map-button",
+                "left": 620.316650390625,
+                "right": 675.9999847412109,
+                "top": 23.5,
+                "bottom": 67.5,
+                "height": 44,
+                "width": 55.68333435058594
+              },
+              {
+                "id": "controls-button",
+                "left": 678,
+                "right": 722,
+                "top": 22,
+                "bottom": 69,
+                "height": 47,
+                "width": 44
+              },
+              {
+                "id": "pause-button",
+                "left": 724,
+                "right": 768,
+                "top": 23.5,
+                "bottom": 67.5,
+                "height": 44,
+                "width": 44
+              },
+              {
+                "id": "waypoint",
+                "left": 270.5333251953125,
+                "right": 341.88331604003906,
+                "top": 274,
+                "bottom": 326,
+                "height": 52,
+                "width": 71.34999084472656
+              },
+              {
+                "id": "slower-time",
+                "left": 131.5500030517578,
+                "right": 175.5500030517578,
+                "top": 494,
+                "bottom": 538,
+                "height": 44,
+                "width": 44
+              },
+              {
+                "id": "time-toggle",
+                "left": 175.5500030517578,
+                "right": 239.5500030517578,
+                "top": 494,
+                "bottom": 538,
+                "height": 44,
+                "width": 64
+              },
+              {
+                "id": "faster-time",
+                "left": 239.5500030517578,
+                "right": 283.5500030517578,
+                "top": 494,
+                "bottom": 538,
+                "height": 44,
+                "width": 44
+              }
+            ],
+            "feedback": {
+              "left": 0,
+              "right": 0,
+              "top": 0,
+              "bottom": 0,
+              "height": 0,
+              "width": 0
+            },
+            "phase": "time"
+          },
+          {
+            "viewport": {
+              "width": 800,
+              "height": 600
+            },
+            "reading": {
+              "left": 32,
+              "right": 392,
+              "top": 376,
+              "bottom": 460,
+              "height": 84,
+              "width": 360
+            },
+            "buttons": [
+              {
+                "id": "depart",
+                "left": 32,
+                "right": 183.36666870117188,
+                "top": 77.19999694824219,
+                "bottom": 121.19999694824219,
+                "height": 44,
+                "width": 151.36666870117188
+              },
+              {
+                "id": "view-button",
+                "left": 525.5166625976562,
+                "right": 618.3166656494141,
+                "top": 23.5,
+                "bottom": 67.5,
+                "height": 44,
+                "width": 92.80000305175781
+              },
+              {
+                "id": "map-button",
+                "left": 620.316650390625,
+                "right": 675.9999847412109,
+                "top": 23.5,
+                "bottom": 67.5,
+                "height": 44,
+                "width": 55.68333435058594
+              },
+              {
+                "id": "controls-button",
+                "left": 678,
+                "right": 722,
+                "top": 22,
+                "bottom": 69,
+                "height": 47,
+                "width": 44
+              },
+              {
+                "id": "pause-button",
+                "left": 724,
+                "right": 768,
+                "top": 23.5,
+                "bottom": 67.5,
+                "height": 44,
+                "width": 44
+              },
+              {
+                "id": "waypoint",
+                "left": 270.5333251953125,
+                "right": 341.88331604003906,
+                "top": 274,
+                "bottom": 326,
+                "height": 52,
+                "width": 71.34999084472656
+              },
+              {
+                "id": "slower-time",
+                "left": 131.5500030517578,
+                "right": 175.5500030517578,
+                "top": 494,
+                "bottom": 538,
+                "height": 44,
+                "width": 44
+              },
+              {
+                "id": "time-toggle",
+                "left": 175.5500030517578,
+                "right": 239.5500030517578,
+                "top": 494,
+                "bottom": 538,
+                "height": 44,
+                "width": 64
+              },
+              {
+                "id": "faster-time",
+                "left": 239.5500030517578,
+                "right": 283.5500030517578,
+                "top": 494,
+                "bottom": 538,
+                "height": 44,
+                "width": 44
+              },
+              {
+                "id": "photo-button",
+                "left": 519.5999755859375,
+                "right": 605.8999633789062,
+                "top": 531,
+                "bottom": 575,
+                "height": 44,
+                "width": 86.29998779296875
+              },
+              {
+                "id": "review-button",
+                "left": 623.9000244140625,
+                "right": 702.9333648681641,
+                "top": 531,
+                "bottom": 575,
+                "height": 44,
+                "width": 79.03334045410156
+              },
+              {
+                "id": "log-button",
+                "left": 720.933349609375,
+                "right": 768.0000152587891,
+                "top": 531,
+                "bottom": 575,
+                "height": 44,
+                "width": 47.06666564941406
+              }
+            ],
+            "feedback": {
+              "left": 0,
+              "right": 0,
+              "top": 0,
+              "bottom": 0,
+              "height": 0,
+              "width": 0
+            },
+            "phase": "explore"
+          }
+        ]
+      },
+      "version": "0.78.0",
+      "nativeHUDButtonSpace": true,
+      "pointerReturnsToFlightKeys": true,
+      "panelReturnRestoresFlightKeys": true,
+      "keyboardArrows": true,
+      "nativeRangeKeys": true,
+      "tabFocusTrap": true,
+      "flightShortcutsDoNotChangePausedFlight": true,
+      "syntheticXboxNavigation": true,
+      "controllerRangesAndSelects": true,
+      "controllerSoundToggle": true,
+      "controllerReviewAndCancellation": true,
+      "closedDetailsSkipped": true,
+      "scienceRevisit": {
+        "note": "0:0",
+        "unreadDuringInvitation": true,
+        "returnedAfterInvitation": true,
+        "readAfterVisibleDwell": true,
+        "physicalStatePreserved": true
+      },
+      "encounterLayouts": [
+        {
+          "chapter": 0,
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          },
+          "top": 147.1999969482422,
+          "footerTop": 815.7999877929688,
+          "footerBottom": 879.9999847412109,
+          "studies": [
+            {
+              "id": "moon",
+              "text": "Earth beyond the Moon→",
+              "top": 226.25,
+              "bottom": 281.1499938964844,
+              "height": 54.899993896484375,
+              "left": 59.600006103515625,
+              "right": 547.5166625976562
+            },
+            {
+              "id": "earth-shadow",
+              "text": "The edge of Earth’s shadow→",
+              "top": 281.1499938964844,
+              "bottom": 336.0500030517578,
+              "height": 54.90000915527344,
+              "left": 59.600006103515625,
+              "right": 547.5166625976562
+            }
+          ],
+          "firstAction": "study",
+          "duplicateEntries": 0
+        },
+        {
+          "chapter": 0,
+          "viewport": {
+            "width": 1024,
+            "height": 640
+          },
+          "top": 117,
+          "footerTop": 568.4000244140625,
+          "footerBottom": 626.0000305175781,
+          "studies": [
+            {
+              "id": "moon",
+              "text": "Earth beyond the Moon→",
+              "top": 182.89999389648438,
+              "bottom": 227.1999969482422,
+              "height": 44.30000305175781,
+              "left": 42.94999694824219,
+              "right": 386.11668395996094
+            },
+            {
+              "id": "earth-shadow",
+              "text": "The edge of Earth’s shadow→",
+              "top": 227.1999969482422,
+              "bottom": 271.5,
+              "height": 44.30000305175781,
+              "left": 42.94999694824219,
+              "right": 386.11668395996094
+            }
+          ],
+          "firstAction": "study",
+          "duplicateEntries": 0
+        },
+        {
+          "chapter": 0,
+          "viewport": {
+            "width": 800,
+            "height": 600
+          },
+          "top": 117,
+          "footerTop": 534,
+          "footerBottom": 588,
+          "studies": [
+            {
+              "id": "moon",
+              "text": "Earth beyond the Moon→",
+              "top": 196.0500030517578,
+              "bottom": 250.9499969482422,
+              "height": 54.899993896484375,
+              "left": 42,
+              "right": 744
+            },
+            {
+              "id": "earth-shadow",
+              "text": "The edge of Earth’s shadow→",
+              "top": 250.9499969482422,
+              "bottom": 305.8500061035156,
+              "height": 54.90000915527344,
+              "left": 42,
+              "right": 744
+            }
+          ],
+          "firstAction": "study",
+          "duplicateEntries": 0
+        },
+        {
+          "chapter": 1,
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          },
+          "top": 147.1999969482422,
+          "footerTop": 815.7999877929688,
+          "footerBottom": 879.9999847412109,
+          "studies": [
+            {
+              "id": "io",
+              "text": "Io against the giant→",
+              "top": 226.25,
+              "bottom": 281.1499938964844,
+              "height": 54.899993896484375,
+              "left": 59.600006103515625,
+              "right": 547.5166625976562
+            }
+          ],
+          "firstAction": "study",
+          "duplicateEntries": 0
+        },
+        {
+          "chapter": 1,
+          "viewport": {
+            "width": 1024,
+            "height": 640
+          },
+          "top": 117,
+          "footerTop": 568.4000244140625,
+          "footerBottom": 626.0000305175781,
+          "studies": [
+            {
+              "id": "io",
+              "text": "Io against the giant→",
+              "top": 182.89999389648438,
+              "bottom": 227.1999969482422,
+              "height": 44.30000305175781,
+              "left": 42.94999694824219,
+              "right": 386.11668395996094
+            }
+          ],
+          "firstAction": "study",
+          "duplicateEntries": 0
+        },
+        {
+          "chapter": 1,
+          "viewport": {
+            "width": 800,
+            "height": 600
+          },
+          "top": 117,
+          "footerTop": 534,
+          "footerBottom": 588,
+          "studies": [
+            {
+              "id": "io",
+              "text": "Io against the giant→",
+              "top": 196.0500030517578,
+              "bottom": 250.9499969482422,
+              "height": 54.899993896484375,
+              "left": 42,
+              "right": 744
+            }
+          ],
+          "firstAction": "study",
+          "duplicateEntries": 0
+        },
+        {
+          "chapter": 2,
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          },
+          "top": 147.1999969482422,
+          "footerTop": 815.7999877929688,
+          "footerBottom": 879.9999847412109,
+          "studies": [
+            {
+              "id": "titan",
+              "text": "Light through Titan’s haze→",
+              "top": 226.25,
+              "bottom": 281.1499938964844,
+              "height": 54.899993896484375,
+              "left": 59.600006103515625,
+              "right": 547.5166625976562
+            },
+            {
+              "id": "ring-plane",
+              "text": "Along the ring plane→",
+              "top": 281.1499938964844,
+              "bottom": 336.0500030517578,
+              "height": 54.90000915527344,
+              "left": 59.600006103515625,
+              "right": 547.5166625976562
+            },
+            {
+              "id": "north-pole",
+              "text": "Saturn’s polar clouds→",
+              "top": 336.04998779296875,
+              "bottom": 390.9499816894531,
+              "height": 54.899993896484375,
+              "left": 59.600006103515625,
+              "right": 547.5166625976562
+            }
+          ],
+          "firstAction": "study",
+          "duplicateEntries": 0
+        },
+        {
+          "chapter": 2,
+          "viewport": {
+            "width": 1024,
+            "height": 640
+          },
+          "top": 117,
+          "footerTop": 568.4000244140625,
+          "footerBottom": 626.0000305175781,
+          "studies": [
+            {
+              "id": "titan",
+              "text": "Light through Titan’s haze→",
+              "top": 182.89999389648438,
+              "bottom": 227.1999969482422,
+              "height": 44.30000305175781,
+              "left": 42.94999694824219,
+              "right": 386.11668395996094
+            },
+            {
+              "id": "ring-plane",
+              "text": "Along the ring plane→",
+              "top": 227.1999969482422,
+              "bottom": 271.5,
+              "height": 44.30000305175781,
+              "left": 42.94999694824219,
+              "right": 386.11668395996094
+            },
+            {
+              "id": "north-pole",
+              "text": "Saturn’s polar clouds→",
+              "top": 271.5,
+              "bottom": 315.8000030517578,
+              "height": 44.30000305175781,
+              "left": 42.94999694824219,
+              "right": 386.11668395996094
+            }
+          ],
+          "firstAction": "study",
+          "duplicateEntries": 0
+        },
+        {
+          "chapter": 2,
+          "viewport": {
+            "width": 800,
+            "height": 600
+          },
+          "top": 117,
+          "footerTop": 534,
+          "footerBottom": 588,
+          "studies": [
+            {
+              "id": "titan",
+              "text": "Light through Titan’s haze→",
+              "top": 196.0500030517578,
+              "bottom": 250.9499969482422,
+              "height": 54.899993896484375,
+              "left": 42,
+              "right": 744
+            },
+            {
+              "id": "ring-plane",
+              "text": "Along the ring plane→",
+              "top": 250.9499969482422,
+              "bottom": 305.8500061035156,
+              "height": 54.90000915527344,
+              "left": 42,
+              "right": 744
+            },
+            {
+              "id": "north-pole",
+              "text": "Saturn’s polar clouds→",
+              "top": 305.8500061035156,
+              "bottom": 360.75,
+              "height": 54.899993896484375,
+              "left": 42,
+              "right": 744
+            }
+          ],
+          "firstAction": "study",
+          "duplicateEntries": 0
+        }
+      ],
+      "studyVisits": [
+        {
+          "id": "moon",
+          "epoch": 0,
+          "photos": 2,
+          "activation": "Enter",
+          "bearingPreservesFlight": true,
+          "bearingUsesExistingMarker": true
+        },
+        {
+          "id": "earth-shadow",
+          "epoch": 0,
+          "photos": 2,
+          "activation": "Enter",
+          "bearingPreservesFlight": true,
+          "bearingUsesExistingMarker": true
+        },
+        {
+          "id": "io",
+          "epoch": 1,
+          "photos": 2,
+          "activation": "synthetic Xbox A",
+          "bearingPreservesFlight": true,
+          "bearingUsesExistingMarker": true
+        },
+        {
+          "id": "titan",
+          "epoch": 3,
+          "photos": 2,
+          "activation": "Enter",
+          "bearingPreservesFlight": true,
+          "bearingUsesExistingMarker": true
+        },
+        {
+          "id": "ring-plane",
+          "epoch": 2,
+          "photos": 2,
+          "activation": "Space",
+          "bearingPreservesFlight": true,
+          "bearingUsesExistingMarker": true
+        },
+        {
+          "id": "north-pole",
+          "epoch": 2,
+          "photos": 2,
+          "activation": "Enter",
+          "bearingPreservesFlight": true,
+          "bearingUsesExistingMarker": true
+        }
+      ],
+      "contextualExploreVoyageEntry": true,
+      "compactPauseFits": true,
+      "physicalXboxTested": false,
+      "errors": []
+    },
+    {
+      "name": "WebKit",
+      "engineVersion": "26.5",
+      "opening": {
+        "rate": 0,
+        "initial": "You are Voyager 1",
+        "earlyStudyExit": true,
+        "earlyControls": {
+          "timeFeedback": true,
+          "rateReturnKeepsControls": true,
+          "thrustFeedback": true,
+          "heldTimeFeedback": true,
+          "cameraFeedback": true,
+          "onwardChoiceVisible": true
+        },
+        "lostBearingVisible": true,
+        "cameraRecoveryPreservesFlight": true,
+        "thrustImpulse": 3.5996319038574356e-8,
+        "idleIntroduction": [
+          "look",
+          "flight",
+          "time",
+          "explore",
+          ""
+        ],
+        "layouts": [
+          {
+            "viewport": {
+              "width": 1440,
+              "height": 900
+            },
+            "reading": {
+              "left": 57.59375,
+              "right": 477.59375,
+              "top": 650.5,
+              "bottom": 760,
+              "height": 109.5,
+              "width": 420
+            },
+            "buttons": [
+              {
+                "id": "map-button",
+                "left": 1192.875,
+                "right": 1254.40625,
+                "top": 29,
+                "bottom": 73,
+                "height": 44,
+                "width": 61.53125
+              },
+              {
+                "id": "controls-button",
+                "left": 1274.40625,
+                "right": 1318.40625,
+                "top": 28,
+                "bottom": 74,
+                "height": 46,
+                "width": 44
+              },
+              {
+                "id": "pause-button",
+                "left": 1338.40625,
+                "right": 1382.40625,
+                "top": 29,
+                "bottom": 73,
+                "height": 44,
+                "width": 44
+              }
+            ],
+            "feedback": {
+              "left": 0,
+              "right": 0,
+              "top": 0,
+              "bottom": 0,
+              "height": 0,
+              "width": 0
+            },
+            "phase": "look"
+          },
+          {
+            "viewport": {
+              "width": 1440,
+              "height": 900
+            },
+            "reading": {
+              "left": 57.59375,
+              "right": 477.59375,
+              "top": 676,
+              "bottom": 760,
+              "height": 84,
+              "width": 420
+            },
+            "buttons": [
+              {
+                "id": "map-button",
+                "left": 1192.875,
+                "right": 1254.40625,
+                "top": 29,
+                "bottom": 73,
+                "height": 44,
+                "width": 61.53125
+              },
+              {
+                "id": "controls-button",
+                "left": 1274.40625,
+                "right": 1318.40625,
+                "top": 28,
+                "bottom": 74,
+                "height": 46,
+                "width": 44
+              },
+              {
+                "id": "pause-button",
+                "left": 1338.40625,
+                "right": 1382.40625,
+                "top": 29,
+                "bottom": 73,
+                "height": 44,
+                "width": 44
+              },
+              {
+                "id": "waypoint",
+                "left": 573.9375,
+                "right": 645.3125,
+                "top": 425.5,
+                "bottom": 474.5,
+                "height": 49,
+                "width": 71.375
+              }
+            ],
+            "feedback": {
+              "left": 0,
+              "right": 0,
+              "top": 0,
+              "bottom": 0,
+              "height": 0,
+              "width": 0
+            },
+            "phase": "flight"
+          },
+          {
+            "viewport": {
+              "width": 1440,
+              "height": 900
+            },
+            "reading": {
+              "left": 57.59375,
+              "right": 477.59375,
+              "top": 676,
+              "bottom": 760,
+              "height": 84,
+              "width": 420
+            },
+            "buttons": [
+              {
+                "id": "map-button",
+                "left": 1192.875,
+                "right": 1254.40625,
+                "top": 29,
+                "bottom": 73,
+                "height": 44,
+                "width": 61.53125
+              },
+              {
+                "id": "controls-button",
+                "left": 1274.40625,
+                "right": 1318.40625,
+                "top": 28,
+                "bottom": 74,
+                "height": 46,
+                "width": 44
+              },
+              {
+                "id": "pause-button",
+                "left": 1338.40625,
+                "right": 1382.40625,
+                "top": 29,
+                "bottom": 73,
+                "height": 44,
+                "width": 44
+              },
+              {
+                "id": "waypoint",
+                "left": 573.9375,
+                "right": 645.3125,
+                "top": 425.5,
+                "bottom": 474.5,
+                "height": 49,
+                "width": 71.375
+              },
+              {
+                "id": "slower-time",
+                "left": 174.125,
+                "right": 218.125,
+                "top": 794,
+                "bottom": 838,
+                "height": 44,
+                "width": 44
+              },
+              {
+                "id": "time-toggle",
+                "left": 218.125,
+                "right": 282.125,
+                "top": 794,
+                "bottom": 838,
+                "height": 44,
+                "width": 64
+              },
+              {
+                "id": "faster-time",
+                "left": 282.125,
+                "right": 326.125,
+                "top": 794,
+                "bottom": 838,
+                "height": 44,
+                "width": 44
+              }
+            ],
+            "feedback": {
+              "left": 0,
+              "right": 0,
+              "top": 0,
+              "bottom": 0,
+              "height": 0,
+              "width": 0
+            },
+            "phase": "time"
+          },
+          {
+            "viewport": {
+              "width": 1440,
+              "height": 900
+            },
+            "reading": {
+              "left": 57.59375,
+              "right": 477.59375,
+              "top": 676,
+              "bottom": 760,
+              "height": 84,
+              "width": 420
+            },
+            "buttons": [
+              {
+                "id": "depart",
+                "left": 57.59375,
+                "right": 208.953125,
+                "top": 88.390625,
+                "bottom": 132.390625,
+                "height": 44,
+                "width": 151.359375
+              },
+              {
+                "id": "view-button",
+                "left": 1069.3125,
+                "right": 1172.875,
+                "top": 29,
+                "bottom": 73,
+                "height": 44,
+                "width": 103.5625
+              },
+              {
+                "id": "map-button",
+                "left": 1192.875,
+                "right": 1254.40625,
+                "top": 29,
+                "bottom": 73,
+                "height": 44,
+                "width": 61.53125
+              },
+              {
+                "id": "controls-button",
+                "left": 1274.40625,
+                "right": 1318.40625,
+                "top": 28,
+                "bottom": 74,
+                "height": 46,
+                "width": 44
+              },
+              {
+                "id": "pause-button",
+                "left": 1338.40625,
+                "right": 1382.40625,
+                "top": 29,
+                "bottom": 73,
+                "height": 44,
+                "width": 44
+              },
+              {
+                "id": "waypoint",
+                "left": 573.9375,
+                "right": 645.3125,
+                "top": 425.5,
+                "bottom": 474.5,
+                "height": 49,
+                "width": 71.375
+              },
+              {
+                "id": "slower-time",
+                "left": 174.125,
+                "right": 218.125,
+                "top": 794,
+                "bottom": 838,
+                "height": 44,
+                "width": 44
+              },
+              {
+                "id": "time-toggle",
+                "left": 218.125,
+                "right": 282.125,
+                "top": 794,
+                "bottom": 838,
+                "height": 44,
+                "width": 64
+              },
+              {
+                "id": "faster-time",
+                "left": 282.125,
+                "right": 326.125,
+                "top": 794,
+                "bottom": 838,
+                "height": 44,
+                "width": 44
+              },
+              {
+                "id": "photo-button",
+                "left": 1101.671875,
+                "right": 1196.46875,
+                "top": 831,
+                "bottom": 875,
+                "height": 44,
+                "width": 94.796875
+              },
+              {
+                "id": "review-button",
+                "left": 1222.46875,
+                "right": 1306.421875,
+                "top": 831,
+                "bottom": 875,
+                "height": 44,
+                "width": 83.953125
+              },
+              {
+                "id": "log-button",
+                "left": 1332.421875,
+                "right": 1382.40625,
+                "top": 831,
+                "bottom": 875,
+                "height": 44,
+                "width": 49.984375
+              }
+            ],
+            "feedback": {
+              "left": 0,
+              "right": 0,
+              "top": 0,
+              "bottom": 0,
+              "height": 0,
+              "width": 0
+            },
+            "phase": "explore"
+          },
+          {
+            "viewport": {
+              "width": 1024,
+              "height": 640
+            },
+            "reading": {
+              "left": 40.953125,
+              "right": 460.953125,
+              "top": 418,
+              "bottom": 502,
+              "height": 84,
+              "width": 420
+            },
+            "buttons": [
+              {
+                "id": "map-button",
+                "left": 813.515625,
+                "right": 875.046875,
+                "top": 23,
+                "bottom": 67,
+                "height": 44,
+                "width": 61.53125
+              },
+              {
+                "id": "controls-button",
+                "left": 885.046875,
+                "right": 929.046875,
+                "top": 22,
+                "bottom": 68,
+                "height": 46,
+                "width": 44
+              },
+              {
+                "id": "pause-button",
+                "left": 939.046875,
+                "right": 983.046875,
+                "top": 23,
+                "bottom": 67,
+                "height": 44,
+                "width": 44
+              }
+            ],
+            "feedback": {
+              "left": 0,
+              "right": 0,
+              "top": 0,
+              "bottom": 0,
+              "height": 0,
+              "width": 0
+            },
+            "phase": "look"
+          },
+          {
+            "viewport": {
+              "width": 1024,
+              "height": 640
+            },
+            "reading": {
+              "left": 40.953125,
+              "right": 460.953125,
+              "top": 418,
+              "bottom": 502,
+              "height": 84,
+              "width": 420
+            },
+            "buttons": [
+              {
+                "id": "map-button",
+                "left": 813.515625,
+                "right": 875.046875,
+                "top": 23,
+                "bottom": 67,
+                "height": 44,
+                "width": 61.53125
+              },
+              {
+                "id": "controls-button",
+                "left": 885.046875,
+                "right": 929.046875,
+                "top": 22,
+                "bottom": 68,
+                "height": 46,
+                "width": 44
+              },
+              {
+                "id": "pause-button",
+                "left": 939.046875,
+                "right": 983.046875,
+                "top": 23,
+                "bottom": 67,
+                "height": 44,
+                "width": 44
+              },
+              {
+                "id": "waypoint",
+                "left": 380.28125,
+                "right": 451.65625,
+                "top": 295.5,
+                "bottom": 344.5,
+                "height": 49,
+                "width": 71.375
+              }
+            ],
+            "feedback": {
+              "left": 0,
+              "right": 0,
+              "top": 0,
+              "bottom": 0,
+              "height": 0,
+              "width": 0
+            },
+            "phase": "flight"
+          },
+          {
+            "viewport": {
+              "width": 1024,
+              "height": 640
+            },
+            "reading": {
+              "left": 40.953125,
+              "right": 460.953125,
+              "top": 418,
+              "bottom": 502,
+              "height": 84,
+              "width": 420
+            },
+            "buttons": [
+              {
+                "id": "map-button",
+                "left": 813.515625,
+                "right": 875.046875,
+                "top": 23,
+                "bottom": 67,
+                "height": 44,
+                "width": 61.53125
+              },
+              {
+                "id": "controls-button",
+                "left": 885.046875,
+                "right": 929.046875,
+                "top": 22,
+                "bottom": 68,
+                "height": 46,
+                "width": 44
+              },
+              {
+                "id": "pause-button",
+                "left": 939.046875,
+                "right": 983.046875,
+                "top": 23,
+                "bottom": 67,
+                "height": 44,
+                "width": 44
+              },
+              {
+                "id": "waypoint",
+                "left": 380.28125,
+                "right": 451.65625,
+                "top": 295.5,
+                "bottom": 344.5,
+                "height": 49,
+                "width": 71.375
+              },
+              {
+                "id": "slower-time",
+                "left": 157.484375,
+                "right": 201.484375,
+                "top": 534,
+                "bottom": 578,
+                "height": 44,
+                "width": 44
+              },
+              {
+                "id": "time-toggle",
+                "left": 201.484375,
+                "right": 265.484375,
+                "top": 534,
+                "bottom": 578,
+                "height": 44,
+                "width": 64
+              },
+              {
+                "id": "faster-time",
+                "left": 265.484375,
+                "right": 309.484375,
+                "top": 534,
+                "bottom": 578,
+                "height": 44,
+                "width": 44
+              }
+            ],
+            "feedback": {
+              "left": 0,
+              "right": 0,
+              "top": 0,
+              "bottom": 0,
+              "height": 0,
+              "width": 0
+            },
+            "phase": "time"
+          },
+          {
+            "viewport": {
+              "width": 1024,
+              "height": 640
+            },
+            "reading": {
+              "left": 40.953125,
+              "right": 460.953125,
+              "top": 418,
+              "bottom": 502,
+              "height": 84,
+              "width": 420
+            },
+            "buttons": [
+              {
+                "id": "depart",
+                "left": 40.953125,
+                "right": 192.3125,
+                "top": 82.390625,
+                "bottom": 126.390625,
+                "height": 44,
+                "width": 151.359375
+              },
+              {
+                "id": "view-button",
+                "left": 699.953125,
+                "right": 803.515625,
+                "top": 23,
+                "bottom": 67,
+                "height": 44,
+                "width": 103.5625
+              },
+              {
+                "id": "map-button",
+                "left": 813.515625,
+                "right": 875.046875,
+                "top": 23,
+                "bottom": 67,
+                "height": 44,
+                "width": 61.53125
+              },
+              {
+                "id": "controls-button",
+                "left": 885.046875,
+                "right": 929.046875,
+                "top": 22,
+                "bottom": 68,
+                "height": 46,
+                "width": 44
+              },
+              {
+                "id": "pause-button",
+                "left": 939.046875,
+                "right": 983.046875,
+                "top": 23,
+                "bottom": 67,
+                "height": 44,
+                "width": 44
+              },
+              {
+                "id": "waypoint",
+                "left": 380.28125,
+                "right": 451.65625,
+                "top": 295.5,
+                "bottom": 344.5,
+                "height": 49,
+                "width": 71.375
+              },
+              {
+                "id": "slower-time",
+                "left": 157.484375,
+                "right": 201.484375,
+                "top": 534,
+                "bottom": 578,
+                "height": 44,
+                "width": 44
+              },
+              {
+                "id": "time-toggle",
+                "left": 201.484375,
+                "right": 265.484375,
+                "top": 534,
+                "bottom": 578,
+                "height": 44,
+                "width": 64
+              },
+              {
+                "id": "faster-time",
+                "left": 265.484375,
+                "right": 309.484375,
+                "top": 534,
+                "bottom": 578,
+                "height": 44,
+                "width": 44
+              },
+              {
+                "id": "photo-button",
+                "left": 702.3125,
+                "right": 797.109375,
+                "top": 571,
+                "bottom": 615,
+                "height": 44,
+                "width": 94.796875
+              },
+              {
+                "id": "review-button",
+                "left": 823.109375,
+                "right": 907.0625,
+                "top": 571,
+                "bottom": 615,
+                "height": 44,
+                "width": 83.953125
+              },
+              {
+                "id": "log-button",
+                "left": 933.0625,
+                "right": 983.046875,
+                "top": 571,
+                "bottom": 615,
+                "height": 44,
+                "width": 49.984375
+              }
+            ],
+            "feedback": {
+              "left": 0,
+              "right": 0,
+              "top": 0,
+              "bottom": 0,
+              "height": 0,
+              "width": 0
+            },
+            "phase": "explore"
+          },
+          {
+            "viewport": {
+              "width": 800,
+              "height": 600
+            },
+            "reading": {
+              "left": 32,
+              "right": 392,
+              "top": 376,
+              "bottom": 460,
+              "height": 84,
+              "width": 360
+            },
+            "buttons": [
+              {
+                "id": "map-button",
+                "left": 620.296875,
+                "right": 676,
+                "top": 23,
+                "bottom": 67,
+                "height": 44,
+                "width": 55.703125
+              },
+              {
+                "id": "controls-button",
+                "left": 678,
+                "right": 722,
+                "top": 22,
+                "bottom": 68,
+                "height": 46,
+                "width": 44
+              },
+              {
+                "id": "pause-button",
+                "left": 724,
+                "right": 768,
+                "top": 23,
+                "bottom": 67,
+                "height": 44,
+                "width": 44
+              }
+            ],
+            "feedback": {
+              "left": 0,
+              "right": 0,
+              "top": 0,
+              "bottom": 0,
+              "height": 0,
+              "width": 0
+            },
+            "phase": "look"
+          },
+          {
+            "viewport": {
+              "width": 800,
+              "height": 600
+            },
+            "reading": {
+              "left": 32,
+              "right": 392,
+              "top": 376,
+              "bottom": 460,
+              "height": 84,
+              "width": 360
+            },
+            "buttons": [
+              {
+                "id": "map-button",
+                "left": 620.296875,
+                "right": 676,
+                "top": 23,
+                "bottom": 67,
+                "height": 44,
+                "width": 55.703125
+              },
+              {
+                "id": "controls-button",
+                "left": 678,
+                "right": 722,
+                "top": 22,
+                "bottom": 68,
+                "height": 46,
+                "width": 44
+              },
+              {
+                "id": "pause-button",
+                "left": 724,
+                "right": 768,
+                "top": 23,
+                "bottom": 67,
+                "height": 44,
+                "width": 44
+              },
+              {
+                "id": "waypoint",
+                "left": 270.5,
+                "right": 341.875,
+                "top": 275.5,
+                "bottom": 324.5,
+                "height": 49,
+                "width": 71.375
+              }
+            ],
+            "feedback": {
+              "left": 0,
+              "right": 0,
+              "top": 0,
+              "bottom": 0,
+              "height": 0,
+              "width": 0
+            },
+            "phase": "flight"
+          },
+          {
+            "viewport": {
+              "width": 800,
+              "height": 600
+            },
+            "reading": {
+              "left": 32,
+              "right": 392,
+              "top": 376,
+              "bottom": 460,
+              "height": 84,
+              "width": 360
+            },
+            "buttons": [
+              {
+                "id": "map-button",
+                "left": 620.296875,
+                "right": 676,
+                "top": 23,
+                "bottom": 67,
+                "height": 44,
+                "width": 55.703125
+              },
+              {
+                "id": "controls-button",
+                "left": 678,
+                "right": 722,
+                "top": 22,
+                "bottom": 68,
+                "height": 46,
+                "width": 44
+              },
+              {
+                "id": "pause-button",
+                "left": 724,
+                "right": 768,
+                "top": 23,
+                "bottom": 67,
+                "height": 44,
+                "width": 44
+              },
+              {
+                "id": "waypoint",
+                "left": 270.5,
+                "right": 341.875,
+                "top": 275.5,
+                "bottom": 324.5,
+                "height": 49,
+                "width": 71.375
+              },
+              {
+                "id": "slower-time",
+                "left": 131.53125,
+                "right": 175.53125,
+                "top": 494,
+                "bottom": 538,
+                "height": 44,
+                "width": 44
+              },
+              {
+                "id": "time-toggle",
+                "left": 175.53125,
+                "right": 239.53125,
+                "top": 494,
+                "bottom": 538,
+                "height": 44,
+                "width": 64
+              },
+              {
+                "id": "faster-time",
+                "left": 239.53125,
+                "right": 283.53125,
+                "top": 494,
+                "bottom": 538,
+                "height": 44,
+                "width": 44
+              }
+            ],
+            "feedback": {
+              "left": 0,
+              "right": 0,
+              "top": 0,
+              "bottom": 0,
+              "height": 0,
+              "width": 0
+            },
+            "phase": "time"
+          },
+          {
+            "viewport": {
+              "width": 800,
+              "height": 600
+            },
+            "reading": {
+              "left": 32,
+              "right": 392,
+              "top": 376,
+              "bottom": 460,
+              "height": 84,
+              "width": 360
+            },
+            "buttons": [
+              {
+                "id": "depart",
+                "left": 32,
+                "right": 183.359375,
+                "top": 77.1875,
+                "bottom": 121.1875,
+                "height": 44,
+                "width": 151.359375
+              },
+              {
+                "id": "view-button",
+                "left": 525.5,
+                "right": 618.296875,
+                "top": 23,
+                "bottom": 67,
+                "height": 44,
+                "width": 92.796875
+              },
+              {
+                "id": "map-button",
+                "left": 620.296875,
+                "right": 676,
+                "top": 23,
+                "bottom": 67,
+                "height": 44,
+                "width": 55.703125
+              },
+              {
+                "id": "controls-button",
+                "left": 678,
+                "right": 722,
+                "top": 22,
+                "bottom": 68,
+                "height": 46,
+                "width": 44
+              },
+              {
+                "id": "pause-button",
+                "left": 724,
+                "right": 768,
+                "top": 23,
+                "bottom": 67,
+                "height": 44,
+                "width": 44
+              },
+              {
+                "id": "waypoint",
+                "left": 270.5,
+                "right": 341.875,
+                "top": 275.5,
+                "bottom": 324.5,
+                "height": 49,
+                "width": 71.375
+              },
+              {
+                "id": "slower-time",
+                "left": 131.53125,
+                "right": 175.53125,
+                "top": 494,
+                "bottom": 538,
+                "height": 44,
+                "width": 44
+              },
+              {
+                "id": "time-toggle",
+                "left": 175.53125,
+                "right": 239.53125,
+                "top": 494,
+                "bottom": 538,
+                "height": 44,
+                "width": 64
+              },
+              {
+                "id": "faster-time",
+                "left": 239.53125,
+                "right": 283.53125,
+                "top": 494,
+                "bottom": 538,
+                "height": 44,
+                "width": 44
+              },
+              {
+                "id": "photo-button",
+                "left": 519.640625,
+                "right": 605.9375,
+                "top": 531,
+                "bottom": 575,
+                "height": 44,
+                "width": 86.296875
+              },
+              {
+                "id": "review-button",
+                "left": 623.9375,
+                "right": 702.953125,
+                "top": 531,
+                "bottom": 575,
+                "height": 44,
+                "width": 79.015625
+              },
+              {
+                "id": "log-button",
+                "left": 720.953125,
+                "right": 768,
+                "top": 531,
+                "bottom": 575,
+                "height": 44,
+                "width": 47.046875
+              }
+            ],
+            "feedback": {
+              "left": 0,
+              "right": 0,
+              "top": 0,
+              "bottom": 0,
+              "height": 0,
+              "width": 0
+            },
+            "phase": "explore"
+          }
+        ]
+      },
+      "version": "0.78.0",
+      "nativeHUDButtonSpace": true,
+      "pointerReturnsToFlightKeys": true,
+      "panelReturnRestoresFlightKeys": true,
+      "keyboardArrows": true,
+      "nativeRangeKeys": true,
+      "tabFocusTrap": true,
+      "flightShortcutsDoNotChangePausedFlight": true,
+      "syntheticXboxNavigation": true,
+      "controllerRangesAndSelects": true,
+      "controllerSoundToggle": true,
+      "controllerReviewAndCancellation": true,
+      "closedDetailsSkipped": true,
+      "scienceRevisit": {
+        "note": "0:0",
+        "unreadDuringInvitation": true,
+        "returnedAfterInvitation": true,
+        "readAfterVisibleDwell": true,
+        "physicalStatePreserved": true
+      },
+      "encounterLayouts": [
+        {
+          "chapter": 0,
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          },
+          "top": 147.1875,
+          "footerTop": 815.8125,
+          "footerBottom": 880,
+          "studies": [
+            {
+              "id": "moon",
+              "text": "Earth beyond the Moon→",
+              "top": 226.234375,
+              "bottom": 281.125,
+              "height": 54.890625,
+              "left": 59.59375,
+              "right": 547.515625
+            },
+            {
+              "id": "earth-shadow",
+              "text": "The edge of Earth’s shadow→",
+              "top": 281.125,
+              "bottom": 336.015625,
+              "height": 54.890625,
+              "left": 59.59375,
+              "right": 547.515625
+            }
+          ],
+          "firstAction": "study",
+          "duplicateEntries": 0
+        },
+        {
+          "chapter": 0,
+          "viewport": {
+            "width": 1024,
+            "height": 640
+          },
+          "top": 117,
+          "footerTop": 568.40625,
+          "footerBottom": 626,
+          "studies": [
+            {
+              "id": "moon",
+              "text": "Earth beyond the Moon→",
+              "top": 182.890625,
+              "bottom": 227.1875,
+              "height": 44.296875,
+              "left": 42.953125,
+              "right": 386.109375
+            },
+            {
+              "id": "earth-shadow",
+              "text": "The edge of Earth’s shadow→",
+              "top": 227.1875,
+              "bottom": 271.484375,
+              "height": 44.296875,
+              "left": 42.953125,
+              "right": 386.109375
+            }
+          ],
+          "firstAction": "study",
+          "duplicateEntries": 0
+        },
+        {
+          "chapter": 0,
+          "viewport": {
+            "width": 800,
+            "height": 600
+          },
+          "top": 117,
+          "footerTop": 534,
+          "footerBottom": 588,
+          "studies": [
+            {
+              "id": "moon",
+              "text": "Earth beyond the Moon→",
+              "top": 196.046875,
+              "bottom": 250.9375,
+              "height": 54.890625,
+              "left": 42,
+              "right": 744
+            },
+            {
+              "id": "earth-shadow",
+              "text": "The edge of Earth’s shadow→",
+              "top": 250.9375,
+              "bottom": 305.828125,
+              "height": 54.890625,
+              "left": 42,
+              "right": 744
+            }
+          ],
+          "firstAction": "study",
+          "duplicateEntries": 0
+        },
+        {
+          "chapter": 1,
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          },
+          "top": 147.1875,
+          "footerTop": 815.8125,
+          "footerBottom": 880,
+          "studies": [
+            {
+              "id": "io",
+              "text": "Io against the giant→",
+              "top": 226.234375,
+              "bottom": 281.125,
+              "height": 54.890625,
+              "left": 59.59375,
+              "right": 547.515625
+            }
+          ],
+          "firstAction": "study",
+          "duplicateEntries": 0
+        },
+        {
+          "chapter": 1,
+          "viewport": {
+            "width": 1024,
+            "height": 640
+          },
+          "top": 117,
+          "footerTop": 568.40625,
+          "footerBottom": 626,
+          "studies": [
+            {
+              "id": "io",
+              "text": "Io against the giant→",
+              "top": 182.890625,
+              "bottom": 227.1875,
+              "height": 44.296875,
+              "left": 42.953125,
+              "right": 386.109375
+            }
+          ],
+          "firstAction": "study",
+          "duplicateEntries": 0
+        },
+        {
+          "chapter": 1,
+          "viewport": {
+            "width": 800,
+            "height": 600
+          },
+          "top": 117,
+          "footerTop": 534,
+          "footerBottom": 588,
+          "studies": [
+            {
+              "id": "io",
+              "text": "Io against the giant→",
+              "top": 196.046875,
+              "bottom": 250.9375,
+              "height": 54.890625,
+              "left": 42,
+              "right": 744
+            }
+          ],
+          "firstAction": "study",
+          "duplicateEntries": 0
+        },
+        {
+          "chapter": 2,
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          },
+          "top": 147.1875,
+          "footerTop": 815.8125,
+          "footerBottom": 880,
+          "studies": [
+            {
+              "id": "titan",
+              "text": "Light through Titan’s haze→",
+              "top": 226.234375,
+              "bottom": 281.125,
+              "height": 54.890625,
+              "left": 59.59375,
+              "right": 547.515625
+            },
+            {
+              "id": "ring-plane",
+              "text": "Along the ring plane→",
+              "top": 281.125,
+              "bottom": 336.015625,
+              "height": 54.890625,
+              "left": 59.59375,
+              "right": 547.515625
+            },
+            {
+              "id": "north-pole",
+              "text": "Saturn’s polar clouds→",
+              "top": 336.015625,
+              "bottom": 390.90625,
+              "height": 54.890625,
+              "left": 59.59375,
+              "right": 547.515625
+            }
+          ],
+          "firstAction": "study",
+          "duplicateEntries": 0
+        },
+        {
+          "chapter": 2,
+          "viewport": {
+            "width": 1024,
+            "height": 640
+          },
+          "top": 117,
+          "footerTop": 568.40625,
+          "footerBottom": 626,
+          "studies": [
+            {
+              "id": "titan",
+              "text": "Light through Titan’s haze→",
+              "top": 182.890625,
+              "bottom": 227.1875,
+              "height": 44.296875,
+              "left": 42.953125,
+              "right": 386.109375
+            },
+            {
+              "id": "ring-plane",
+              "text": "Along the ring plane→",
+              "top": 227.1875,
+              "bottom": 271.484375,
+              "height": 44.296875,
+              "left": 42.953125,
+              "right": 386.109375
+            },
+            {
+              "id": "north-pole",
+              "text": "Saturn’s polar clouds→",
+              "top": 271.484375,
+              "bottom": 315.78125,
+              "height": 44.296875,
+              "left": 42.953125,
+              "right": 386.109375
+            }
+          ],
+          "firstAction": "study",
+          "duplicateEntries": 0
+        },
+        {
+          "chapter": 2,
+          "viewport": {
+            "width": 800,
+            "height": 600
+          },
+          "top": 117,
+          "footerTop": 534,
+          "footerBottom": 588,
+          "studies": [
+            {
+              "id": "titan",
+              "text": "Light through Titan’s haze→",
+              "top": 196.046875,
+              "bottom": 250.9375,
+              "height": 54.890625,
+              "left": 42,
+              "right": 744
+            },
+            {
+              "id": "ring-plane",
+              "text": "Along the ring plane→",
+              "top": 250.9375,
+              "bottom": 305.828125,
+              "height": 54.890625,
+              "left": 42,
+              "right": 744
+            },
+            {
+              "id": "north-pole",
+              "text": "Saturn’s polar clouds→",
+              "top": 305.828125,
+              "bottom": 360.71875,
+              "height": 54.890625,
+              "left": 42,
+              "right": 744
+            }
+          ],
+          "firstAction": "study",
+          "duplicateEntries": 0
+        }
+      ],
+      "studyVisits": [
+        {
+          "id": "moon",
+          "epoch": 0,
+          "photos": 2,
+          "activation": "Enter",
+          "bearingPreservesFlight": true,
+          "bearingUsesExistingMarker": true
+        },
+        {
+          "id": "earth-shadow",
+          "epoch": 0,
+          "photos": 2,
+          "activation": "Enter",
+          "bearingPreservesFlight": true,
+          "bearingUsesExistingMarker": true
+        },
+        {
+          "id": "io",
+          "epoch": 1,
+          "photos": 2,
+          "activation": "synthetic Xbox A",
+          "bearingPreservesFlight": true,
+          "bearingUsesExistingMarker": true
+        },
+        {
+          "id": "titan",
+          "epoch": 3,
+          "photos": 2,
+          "activation": "Enter",
+          "bearingPreservesFlight": true,
+          "bearingUsesExistingMarker": true
+        },
+        {
+          "id": "ring-plane",
+          "epoch": 2,
+          "photos": 2,
+          "activation": "Space",
+          "bearingPreservesFlight": true,
+          "bearingUsesExistingMarker": true
+        },
+        {
+          "id": "north-pole",
+          "epoch": 2,
+          "photos": 2,
+          "activation": "Enter",
+          "bearingPreservesFlight": true,
+          "bearingUsesExistingMarker": true
+        }
+      ],
+      "contextualExploreVoyageEntry": true,
+      "compactPauseFits": true,
+      "physicalXboxTested": false,
+      "errors": []
+    }
+  ]
+}

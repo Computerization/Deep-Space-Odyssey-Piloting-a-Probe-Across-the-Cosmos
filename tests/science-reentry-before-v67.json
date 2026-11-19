@@ -1,0 +1,18 @@
+{
+  "before": {
+    "seen": [],
+    "active": "0:0",
+    "reading": 0,
+    "time": 14.949900000000014,
+    "caption": "The blue rim is sunlight scattered by Earth’s atmosphere. Almost all of the air we breathe lies in a layer remarkably thin beside the planet."
+  },
+  "after": {
+    "seen": [
+      "0:0"
+    ],
+    "active": "0:0",
+    "reading": 5.066500000000007,
+    "time": 5.033200000000008,
+    "caption": "Sunlit oceans, a thin atmosphere, and the world Voyager left behind."
+  }
+}

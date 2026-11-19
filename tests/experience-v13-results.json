@@ -1,0 +1,54 @@
+{
+  "version": "0.13.0",
+  "mutePersists": true,
+  "cancelPreservesFlight": true,
+  "reviewRestoresAllPhysics": true,
+  "branchHistoryBounded": true,
+  "snapshotCount": 30,
+  "restored": {
+    "p": [
+      144472013.8703407,
+      -17170675.828623302,
+      39616789.088083945
+    ],
+    "v": [
+      -3.456858676386725,
+      9.671249567780723,
+      -7.224977431753134
+    ],
+    "t": 0,
+    "fuel": 104,
+    "held": true,
+    "history": 1,
+    "preview": null
+  },
+  "compactMenuFits": true,
+  "targets": [
+    {
+      "id": "controls-button",
+      "w": 44,
+      "h": 46
+    },
+    {
+      "id": "pause-button",
+      "w": 44,
+      "h": 44
+    },
+    {
+      "id": "slower-time",
+      "w": 44,
+      "h": 44
+    },
+    {
+      "id": "time-toggle",
+      "w": 64,
+      "h": 44
+    },
+    {
+      "id": "faster-time",
+      "w": 44,
+      "h": 44
+    }
+  ],
+  "errors": []
+}

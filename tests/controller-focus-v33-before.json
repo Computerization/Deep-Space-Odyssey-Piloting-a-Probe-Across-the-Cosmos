@@ -1,0 +1,41 @@
+{
+  "runtime": "Delivered v32 package",
+  "outcomes": [
+    {
+      "name": "Chrome",
+      "device": "gamepad",
+      "action": "review",
+      "nativeFocus": false,
+      "outline": "none",
+      "selectionMark": "0",
+      "afterTab": {
+        "id": "flight-precision",
+        "tag": "BUTTON"
+      }
+    },
+    {
+      "name": "Firefox",
+      "device": "gamepad",
+      "action": "review",
+      "nativeFocus": false,
+      "outline": "none",
+      "selectionMark": "0",
+      "afterTab": {
+        "id": "flight-precision",
+        "tag": "BUTTON"
+      }
+    },
+    {
+      "name": "WebKit",
+      "device": "gamepad",
+      "action": "review",
+      "nativeFocus": false,
+      "outline": "none",
+      "selectionMark": "0",
+      "afterTab": {
+        "id": "",
+        "tag": "BODY"
+      }
+    }
+  ]
+}

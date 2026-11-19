@@ -1,0 +1,350 @@
+{
+  "version": "0.79.0",
+  "readback": true,
+  "shaderSourceSha256": "22763e9313096acdab12beed13a2b6c310349d385bef7c00eae42f4974bc7667",
+  "candidateShader": "runtime",
+  "candidateShaderSha256": "8469cbaba7d9b7aa8748da5ae6917373c53edaa60e9f0d08a5ec63b9118ea9ea",
+  "completeFieldComparison": true,
+  "previousShader": "/private/tmp/cosmos-v79-previous/Cosmos/src/rendering/earth-shaders.js",
+  "lowPowerModeConfigured": true,
+  "method": "120 unmeasured renders per variant before ABBA windows; 20 warmup and 120 measured renders per window; fixed ultra 1280 x 800, no frame cache or adaptive resolution. CPU elapsed intervals include completed drawing witnessed by a one-pixel readback; synchronization cost is included.",
+  "samples": [
+    {
+      "label": "day",
+      "mode": "previous",
+      "yaw": 0,
+      "fov": 58,
+      "readback": true,
+      "cpuSamples": 120,
+      "cpuP95Ms": 26.69999998807907,
+      "cloudProgram": 24,
+      "detailWeight": 0,
+      "gpuSamples": 0,
+      "gpuMedianMs": null,
+      "gpuP95Ms": null,
+      "cpuMedianMs": 18.600000023841858,
+      "drawCalls": 7,
+      "triangles": 292866,
+      "pixels": [
+        1280,
+        800
+      ]
+    },
+    {
+      "label": "day",
+      "mode": "candidate",
+      "yaw": 0,
+      "fov": 58,
+      "readback": true,
+      "cpuSamples": 120,
+      "cpuP95Ms": 29,
+      "cloudProgram": 7,
+      "detailWeight": 0,
+      "gpuSamples": 0,
+      "gpuMedianMs": null,
+      "gpuP95Ms": null,
+      "cpuMedianMs": 19.900000005960464,
+      "drawCalls": 7,
+      "triangles": 292866,
+      "pixels": [
+        1280,
+        800
+      ]
+    },
+    {
+      "label": "day",
+      "mode": "candidate",
+      "yaw": 0,
+      "fov": 58,
+      "readback": true,
+      "cpuSamples": 120,
+      "cpuP95Ms": 20.200000017881393,
+      "cloudProgram": 7,
+      "detailWeight": 0,
+      "gpuSamples": 0,
+      "gpuMedianMs": null,
+      "gpuP95Ms": null,
+      "cpuMedianMs": 18.900000005960464,
+      "drawCalls": 7,
+      "triangles": 292866,
+      "pixels": [
+        1280,
+        800
+      ]
+    },
+    {
+      "label": "day",
+      "mode": "previous",
+      "yaw": 0,
+      "fov": 58,
+      "readback": true,
+      "cpuSamples": 120,
+      "cpuP95Ms": 23.599999994039536,
+      "cloudProgram": 24,
+      "detailWeight": 0,
+      "gpuSamples": 0,
+      "gpuMedianMs": null,
+      "gpuP95Ms": null,
+      "cpuMedianMs": 19,
+      "drawCalls": 7,
+      "triangles": 292866,
+      "pixels": [
+        1280,
+        800
+      ]
+    },
+    {
+      "label": "close",
+      "mode": "previous",
+      "yaw": 0,
+      "fov": 58,
+      "readback": true,
+      "cpuSamples": 120,
+      "cpuP95Ms": 18.900000005960464,
+      "cloudProgram": 24,
+      "detailWeight": 0,
+      "gpuSamples": 0,
+      "gpuMedianMs": null,
+      "gpuP95Ms": null,
+      "cpuMedianMs": 18.099999994039536,
+      "drawCalls": 7,
+      "triangles": 292866,
+      "pixels": [
+        1280,
+        800
+      ]
+    },
+    {
+      "label": "close",
+      "mode": "candidate",
+      "yaw": 0,
+      "fov": 58,
+      "readback": true,
+      "cpuSamples": 120,
+      "cpuP95Ms": 20.100000023841858,
+      "cloudProgram": 7,
+      "detailWeight": 0,
+      "gpuSamples": 0,
+      "gpuMedianMs": null,
+      "gpuP95Ms": null,
+      "cpuMedianMs": 18.299999982118607,
+      "drawCalls": 7,
+      "triangles": 292866,
+      "pixels": [
+        1280,
+        800
+      ]
+    },
+    {
+      "label": "close",
+      "mode": "candidate",
+      "yaw": 0,
+      "fov": 58,
+      "readback": true,
+      "cpuSamples": 120,
+      "cpuP95Ms": 19,
+      "cloudProgram": 7,
+      "detailWeight": 0,
+      "gpuSamples": 0,
+      "gpuMedianMs": null,
+      "gpuP95Ms": null,
+      "cpuMedianMs": 18.099999994039536,
+      "drawCalls": 7,
+      "triangles": 292866,
+      "pixels": [
+        1280,
+        800
+      ]
+    },
+    {
+      "label": "close",
+      "mode": "previous",
+      "yaw": 0,
+      "fov": 58,
+      "readback": true,
+      "cpuSamples": 120,
+      "cpuP95Ms": 18.900000005960464,
+      "cloudProgram": 24,
+      "detailWeight": 0,
+      "gpuSamples": 0,
+      "gpuMedianMs": null,
+      "gpuP95Ms": null,
+      "cpuMedianMs": 18.099999994039536,
+      "drawCalls": 7,
+      "triangles": 292866,
+      "pixels": [
+        1280,
+        800
+      ]
+    },
+    {
+      "label": "grazing",
+      "mode": "previous",
+      "yaw": 0,
+      "fov": 58,
+      "readback": true,
+      "cpuSamples": 120,
+      "cpuP95Ms": 28,
+      "cloudProgram": 24,
+      "detailWeight": 0,
+      "gpuSamples": 0,
+      "gpuMedianMs": null,
+      "gpuP95Ms": null,
+      "cpuMedianMs": 23.5,
+      "drawCalls": 7,
+      "triangles": 292866,
+      "pixels": [
+        1280,
+        800
+      ]
+    },
+    {
+      "label": "grazing",
+      "mode": "candidate",
+      "yaw": 0,
+      "fov": 58,
+      "readback": true,
+      "cpuSamples": 120,
+      "cpuP95Ms": 26.200000017881393,
+      "cloudProgram": 7,
+      "detailWeight": 0,
+      "gpuSamples": 0,
+      "gpuMedianMs": null,
+      "gpuP95Ms": null,
+      "cpuMedianMs": 23.900000005960464,
+      "drawCalls": 7,
+      "triangles": 292866,
+      "pixels": [
+        1280,
+        800
+      ]
+    },
+    {
+      "label": "grazing",
+      "mode": "candidate",
+      "yaw": 0,
+      "fov": 58,
+      "readback": true,
+      "cpuSamples": 120,
+      "cpuP95Ms": 25.799999982118607,
+      "cloudProgram": 7,
+      "detailWeight": 0,
+      "gpuSamples": 0,
+      "gpuMedianMs": null,
+      "gpuP95Ms": null,
+      "cpuMedianMs": 23.599999994039536,
+      "drawCalls": 7,
+      "triangles": 292866,
+      "pixels": [
+        1280,
+        800
+      ]
+    },
+    {
+      "label": "grazing",
+      "mode": "previous",
+      "yaw": 0,
+      "fov": 58,
+      "readback": true,
+      "cpuSamples": 120,
+      "cpuP95Ms": 24.30000001192093,
+      "cloudProgram": 24,
+      "detailWeight": 0,
+      "gpuSamples": 0,
+      "gpuMedianMs": null,
+      "gpuP95Ms": null,
+      "cpuMedianMs": 23.19999998807907,
+      "drawCalls": 7,
+      "triangles": 292866,
+      "pixels": [
+        1280,
+        800
+      ]
+    },
+    {
+      "label": "resolved-limb",
+      "mode": "previous",
+      "yaw": 1.2645,
+      "fov": 4,
+      "readback": true,
+      "cpuSamples": 120,
+      "cpuP95Ms": 31.900000005960464,
+      "cloudProgram": 25,
+      "detailWeight": 1,
+      "gpuSamples": 0,
+      "gpuMedianMs": null,
+      "gpuP95Ms": null,
+      "cpuMedianMs": 23.599999994039536,
+      "drawCalls": 7,
+      "triangles": 292866,
+      "pixels": [
+        1280,
+        800
+      ]
+    },
+    {
+      "label": "resolved-limb",
+      "mode": "candidate",
+      "yaw": 1.2645,
+      "fov": 4,
+      "readback": true,
+      "cpuSamples": 120,
+      "cpuP95Ms": 25.900000005960464,
+      "cloudProgram": 15,
+      "detailWeight": 1,
+      "gpuSamples": 0,
+      "gpuMedianMs": null,
+      "gpuP95Ms": null,
+      "cpuMedianMs": 23.5,
+      "drawCalls": 7,
+      "triangles": 292866,
+      "pixels": [
+        1280,
+        800
+      ]
+    },
+    {
+      "label": "resolved-limb",
+      "mode": "candidate",
+      "yaw": 1.2645,
+      "fov": 4,
+      "readback": true,
+      "cpuSamples": 120,
+      "cpuP95Ms": 25.799999982118607,
+      "cloudProgram": 15,
+      "detailWeight": 1,
+      "gpuSamples": 0,
+      "gpuMedianMs": null,
+      "gpuP95Ms": null,
+      "cpuMedianMs": 23.099999994039536,
+      "drawCalls": 7,
+      "triangles": 292866,
+      "pixels": [
+        1280,
+        800
+      ]
+    },
+    {
+      "label": "resolved-limb",
+      "mode": "previous",
+      "yaw": 1.2645,
+      "fov": 4,
+      "readback": true,
+      "cpuSamples": 120,
+      "cpuP95Ms": 34.20000001788139,
+      "cloudProgram": 25,
+      "detailWeight": 1,
+      "gpuSamples": 0,
+      "gpuMedianMs": null,
+      "gpuP95Ms": null,
+      "cpuMedianMs": 23,
+      "drawCalls": 7,
+      "triangles": 292866,
+      "pixels": [
+        1280,
+        800
+      ]
+    }
+  ],
+  "errors": []
+}

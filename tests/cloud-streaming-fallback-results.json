@@ -1,0 +1,81 @@
+{
+  "origin": "http://127.0.0.1:4173",
+  "runnerSha256": "955e37cb46ea50ff1999660845e158c0265ddc3b4cc142e988f6a23751fd4146",
+  "results": [
+    {
+      "name": "Chrome",
+      "browser": "158.0.8127.37",
+      "limit": 2048,
+      "views": [
+        {
+          "label": "day",
+          "preserved": true,
+          "weight": 0,
+          "cache": 0,
+          "loads": 0,
+          "base": 8192,
+          "resources": {
+            "geometries": 22,
+            "textures": 29
+          },
+          "graphicsError": 0
+        },
+        {
+          "label": "close",
+          "preserved": true,
+          "weight": 0,
+          "cache": 0,
+          "loads": 0,
+          "base": 8192,
+          "resources": {
+            "geometries": 22,
+            "textures": 29
+          },
+          "graphicsError": 0
+        },
+        {
+          "label": "transition",
+          "preserved": true,
+          "weight": 0,
+          "cache": 0,
+          "loads": 0,
+          "base": 8192,
+          "resources": {
+            "geometries": 22,
+            "textures": 29
+          },
+          "graphicsError": 0
+        },
+        {
+          "label": "pole",
+          "preserved": true,
+          "weight": 0,
+          "cache": 0,
+          "loads": 0,
+          "base": 8192,
+          "resources": {
+            "geometries": 22,
+            "textures": 29
+          },
+          "graphicsError": 0
+        },
+        {
+          "label": "seam",
+          "preserved": true,
+          "weight": 0,
+          "cache": 0,
+          "loads": 0,
+          "base": 8192,
+          "resources": {
+            "geometries": 22,
+            "textures": 29
+          },
+          "graphicsError": 0
+        }
+      ],
+      "fallbackOnly": true,
+      "requests": 0,
+      "errors": []
+    }
+  ]
+}

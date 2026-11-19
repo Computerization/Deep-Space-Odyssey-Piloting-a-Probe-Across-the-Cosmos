@@ -1,0 +1,721 @@
+{
+  "files": {
+    "candidate": "assets/textures/earth-clouds.avif",
+    "control": "/private/tmp/cosmos-cloud-release-source/hybrid-8192.png",
+    "caseFile": "/private/tmp/cosmos-cloud-release-source/cases.json"
+  },
+  "hashes": {
+    "candidate": "52c8504370bc943b07f743083125ee4eca883524d770ab80757ba43ef4927d47",
+    "control": "fb9530aa94ac7e2818babf9fc7eb5f415b0ca8544d0ce4915be2ca20494e2228",
+    "cases": "e59d9b3e4b77101f3e472df79503451f2cf963c36194557a2fcd167d0ec80186"
+  },
+  "channels": 1,
+  "method": "Coverage R, sampled by the actual GPU at native source pixels. Same-source 8K control. Metrics are observations, not a release-acceptance gate or proof of photographic realism.",
+  "outcomes": [
+    {
+      "name": "Chrome",
+      "engineVersion": "158.0.8127.37",
+      "maps": {
+        "control": {
+          "sourceDimensions": [
+            8192,
+            4096
+          ],
+          "uploadedDimensions": [
+            8192,
+            4096
+          ],
+          "format": 1028,
+          "compressed": false,
+          "mips": 0
+        },
+        "candidate": {
+          "sourceDimensions": [
+            16384,
+            8192
+          ],
+          "uploadedDimensions": [
+            16384,
+            8192
+          ],
+          "format": 1028,
+          "compressed": false,
+          "mips": 0
+        }
+      },
+      "regions": [
+        {
+          "name": "trade-wind",
+          "control": {
+            "rmse": [
+              7.622421412310458
+            ],
+            "gradientRMSE": [
+              7.283666168145607
+            ],
+            "max": [
+              80
+            ]
+          },
+          "candidate": {
+            "rmse": [
+              3.2499593096411092
+            ],
+            "gradientRMSE": [
+              4.409493253031723
+            ],
+            "max": [
+              24
+            ]
+          }
+        },
+        {
+          "name": "southern-front",
+          "control": {
+            "rmse": [
+              7.02674877623057
+            ],
+            "gradientRMSE": [
+              7.767431157764236
+            ],
+            "max": [
+              152
+            ]
+          },
+          "candidate": {
+            "rmse": [
+              3.2826974733933243
+            ],
+            "gradientRMSE": [
+              4.576092097471391
+            ],
+            "max": [
+              24
+            ]
+          }
+        },
+        {
+          "name": "northern-cyclone",
+          "control": {
+            "rmse": [
+              7.11565728038535
+            ],
+            "gradientRMSE": [
+              7.827196060235238
+            ],
+            "max": [
+              137
+            ]
+          },
+          "candidate": {
+            "rmse": [
+              3.548874883600875
+            ],
+            "gradientRMSE": [
+              4.8961975583105835
+            ],
+            "max": [
+              25
+            ]
+          }
+        },
+        {
+          "name": "fine-stratus",
+          "control": {
+            "rmse": [
+              3.0978721617165776
+            ],
+            "gradientRMSE": [
+              3.4691520727757608
+            ],
+            "max": [
+              174
+            ]
+          },
+          "candidate": {
+            "rmse": [
+              1.8334882266184416
+            ],
+            "gradientRMSE": [
+              2.309949383204757
+            ],
+            "max": [
+              34
+            ]
+          }
+        },
+        {
+          "name": "polar-transition",
+          "control": {
+            "rmse": [
+              8.903013049379512
+            ],
+            "gradientRMSE": [
+              8.863311200048072
+            ],
+            "max": [
+              117
+            ]
+          },
+          "candidate": {
+            "rmse": [
+              2.876870251903805
+            ],
+            "gradientRMSE": [
+              4.010389160239791
+            ],
+            "max": [
+              32
+            ]
+          }
+        },
+        {
+          "name": "south-pole",
+          "control": {
+            "rmse": [
+              0.47524257957395205
+            ],
+            "gradientRMSE": [
+              0.4850378765446824
+            ],
+            "max": [
+              6
+            ]
+          },
+          "candidate": {
+            "rmse": [
+              0.7278459486284827
+            ],
+            "gradientRMSE": [
+              0.6063677374392338
+            ],
+            "max": [
+              4
+            ]
+          }
+        },
+        {
+          "name": "longitude-seam",
+          "control": {
+            "rmse": [
+              7.507687168352084
+            ],
+            "gradientRMSE": [
+              8.226895066176306
+            ],
+            "max": [
+              111
+            ]
+          },
+          "candidate": {
+            "rmse": [
+              3.1633663714673026
+            ],
+            "gradientRMSE": [
+              4.363369243253204
+            ],
+            "max": [
+              27
+            ]
+          }
+        },
+        {
+          "name": "equatorial",
+          "control": {
+            "rmse": [
+              8.084960878521711
+            ],
+            "gradientRMSE": [
+              9.712113771251879
+            ],
+            "max": [
+              89
+            ]
+          },
+          "candidate": {
+            "rmse": [
+              3.810690528590258
+            ],
+            "gradientRMSE": [
+              5.367092915019032
+            ],
+            "max": [
+              27
+            ]
+          }
+        }
+      ],
+      "errors": []
+    },
+    {
+      "name": "Firefox",
+      "engineVersion": "153.0",
+      "maps": {
+        "control": {
+          "sourceDimensions": [
+            8192,
+            4096
+          ],
+          "uploadedDimensions": [
+            8192,
+            4096
+          ],
+          "format": 1028,
+          "compressed": false,
+          "mips": 0
+        },
+        "candidate": {
+          "sourceDimensions": [
+            16384,
+            8192
+          ],
+          "uploadedDimensions": [
+            8192,
+            4096
+          ],
+          "format": 1028,
+          "compressed": false,
+          "mips": 0
+        }
+      },
+      "regions": [
+        {
+          "name": "trade-wind",
+          "control": {
+            "rmse": [
+              7.622421412310458
+            ],
+            "gradientRMSE": [
+              7.283666168145607
+            ],
+            "max": [
+              80
+            ]
+          },
+          "candidate": {
+            "rmse": [
+              9.408162105366083
+            ],
+            "gradientRMSE": [
+              7.879446851725795
+            ],
+            "max": [
+              119
+            ]
+          }
+        },
+        {
+          "name": "southern-front",
+          "control": {
+            "rmse": [
+              7.02674877623057
+            ],
+            "gradientRMSE": [
+              7.767431157764236
+            ],
+            "max": [
+              152
+            ]
+          },
+          "candidate": {
+            "rmse": [
+              8.358031738357305
+            ],
+            "gradientRMSE": [
+              8.160894045246696
+            ],
+            "max": [
+              142
+            ]
+          }
+        },
+        {
+          "name": "northern-cyclone",
+          "control": {
+            "rmse": [
+              7.11565728038535
+            ],
+            "gradientRMSE": [
+              7.827196060235238
+            ],
+            "max": [
+              137
+            ]
+          },
+          "candidate": {
+            "rmse": [
+              9.368073070281326
+            ],
+            "gradientRMSE": [
+              8.532164917823113
+            ],
+            "max": [
+              136
+            ]
+          }
+        },
+        {
+          "name": "fine-stratus",
+          "control": {
+            "rmse": [
+              3.0978721617165776
+            ],
+            "gradientRMSE": [
+              3.4691520727757608
+            ],
+            "max": [
+              174
+            ]
+          },
+          "candidate": {
+            "rmse": [
+              4.034817164681549
+            ],
+            "gradientRMSE": [
+              3.744657397735978
+            ],
+            "max": [
+              167
+            ]
+          }
+        },
+        {
+          "name": "polar-transition",
+          "control": {
+            "rmse": [
+              8.903013049379512
+            ],
+            "gradientRMSE": [
+              8.863311200048072
+            ],
+            "max": [
+              117
+            ]
+          },
+          "candidate": {
+            "rmse": [
+              10.631726817046452
+            ],
+            "gradientRMSE": [
+              9.556732541197968
+            ],
+            "max": [
+              158
+            ]
+          }
+        },
+        {
+          "name": "south-pole",
+          "control": {
+            "rmse": [
+              0.47524257957395205
+            ],
+            "gradientRMSE": [
+              0.4850378765446824
+            ],
+            "max": [
+              6
+            ]
+          },
+          "candidate": {
+            "rmse": [
+              0.9664791933870072
+            ],
+            "gradientRMSE": [
+              0.6053162635060871
+            ],
+            "max": [
+              9
+            ]
+          }
+        },
+        {
+          "name": "longitude-seam",
+          "control": {
+            "rmse": [
+              7.507687168352084
+            ],
+            "gradientRMSE": [
+              8.226895066176306
+            ],
+            "max": [
+              111
+            ]
+          },
+          "candidate": {
+            "rmse": [
+              9.224750320377636
+            ],
+            "gradientRMSE": [
+              8.827651724681745
+            ],
+            "max": [
+              119
+            ]
+          }
+        },
+        {
+          "name": "equatorial",
+          "control": {
+            "rmse": [
+              8.084960878521711
+            ],
+            "gradientRMSE": [
+              9.712113771251879
+            ],
+            "max": [
+              89
+            ]
+          },
+          "candidate": {
+            "rmse": [
+              10.47980434128307
+            ],
+            "gradientRMSE": [
+              10.600644546029217
+            ],
+            "max": [
+              108
+            ]
+          }
+        }
+      ],
+      "errors": []
+    },
+    {
+      "name": "WebKit",
+      "engineVersion": "26.5",
+      "maps": {
+        "control": {
+          "sourceDimensions": [
+            8192,
+            4096
+          ],
+          "uploadedDimensions": [
+            8192,
+            4096
+          ],
+          "format": 1028,
+          "compressed": false,
+          "mips": 0
+        },
+        "candidate": {
+          "sourceDimensions": [
+            16384,
+            8192
+          ],
+          "uploadedDimensions": [
+            16384,
+            8192
+          ],
+          "format": 1028,
+          "compressed": false,
+          "mips": 0
+        }
+      },
+      "regions": [
+        {
+          "name": "trade-wind",
+          "control": {
+            "rmse": [
+              7.622421412310458
+            ],
+            "gradientRMSE": [
+              7.283666168145607
+            ],
+            "max": [
+              80
+            ]
+          },
+          "candidate": {
+            "rmse": [
+              3.2499593096411092
+            ],
+            "gradientRMSE": [
+              4.409493253031723
+            ],
+            "max": [
+              24
+            ]
+          }
+        },
+        {
+          "name": "southern-front",
+          "control": {
+            "rmse": [
+              7.02674877623057
+            ],
+            "gradientRMSE": [
+              7.767431157764236
+            ],
+            "max": [
+              152
+            ]
+          },
+          "candidate": {
+            "rmse": [
+              3.2826974733933243
+            ],
+            "gradientRMSE": [
+              4.576092097471391
+            ],
+            "max": [
+              24
+            ]
+          }
+        },
+        {
+          "name": "northern-cyclone",
+          "control": {
+            "rmse": [
+              7.11565728038535
+            ],
+            "gradientRMSE": [
+              7.827196060235238
+            ],
+            "max": [
+              137
+            ]
+          },
+          "candidate": {
+            "rmse": [
+              3.548874883600875
+            ],
+            "gradientRMSE": [
+              4.8961975583105835
+            ],
+            "max": [
+              25
+            ]
+          }
+        },
+        {
+          "name": "fine-stratus",
+          "control": {
+            "rmse": [
+              3.0978721617165776
+            ],
+            "gradientRMSE": [
+              3.4691520727757608
+            ],
+            "max": [
+              174
+            ]
+          },
+          "candidate": {
+            "rmse": [
+              1.8334882266184416
+            ],
+            "gradientRMSE": [
+              2.309949383204757
+            ],
+            "max": [
+              34
+            ]
+          }
+        },
+        {
+          "name": "polar-transition",
+          "control": {
+            "rmse": [
+              8.903013049379512
+            ],
+            "gradientRMSE": [
+              8.863311200048072
+            ],
+            "max": [
+              117
+            ]
+          },
+          "candidate": {
+            "rmse": [
+              2.876870251903805
+            ],
+            "gradientRMSE": [
+              4.010389160239791
+            ],
+            "max": [
+              32
+            ]
+          }
+        },
+        {
+          "name": "south-pole",
+          "control": {
+            "rmse": [
+              0.47524257957395205
+            ],
+            "gradientRMSE": [
+              0.4850378765446824
+            ],
+            "max": [
+              6
+            ]
+          },
+          "candidate": {
+            "rmse": [
+              0.7278459486284827
+            ],
+            "gradientRMSE": [
+              0.6063677374392338
+            ],
+            "max": [
+              4
+            ]
+          }
+        },
+        {
+          "name": "longitude-seam",
+          "control": {
+            "rmse": [
+              7.507687168352084
+            ],
+            "gradientRMSE": [
+              8.226895066176306
+            ],
+            "max": [
+              111
+            ]
+          },
+          "candidate": {
+            "rmse": [
+              3.1633663714673026
+            ],
+            "gradientRMSE": [
+              4.363369243253204
+            ],
+            "max": [
+              27
+            ]
+          }
+        },
+        {
+          "name": "equatorial",
+          "control": {
+            "rmse": [
+              8.084960878521711
+            ],
+            "gradientRMSE": [
+              9.712113771251879
+            ],
+            "max": [
+              89
+            ]
+          },
+          "candidate": {
+            "rmse": [
+              3.810690528590258
+            ],
+            "gradientRMSE": [
+              5.367092915019032
+            ],
+            "max": [
+              27
+            ]
+          }
+        }
+      ],
+      "errors": []
+    }
+  ]
+}

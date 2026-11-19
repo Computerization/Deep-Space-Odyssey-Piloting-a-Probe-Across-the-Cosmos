@@ -1,0 +1,102 @@
+{
+  "version": "0.97.0",
+  "method": "GPU-sampled source crops at native pixels; colour and first-difference errors against source crops. The comparison directory supplies the lower-resolution image. This measures retained image detail, not photographic scene equivalence.",
+  "caseFile": "tests/fixtures/surface-detail/moon-cases.json",
+  "textureLimit": 8192,
+  "hashes": {
+    "moon.ktx2": "3505c2755ed964a3b01f1691460badfdddfc7b03429fe6b8316ab9a12dd66e87",
+    "moon.avif": "d13810b205de4512f985ae8e570e036b9c3809fea1b0a8c336a53e769c5a3120"
+  },
+  "runtimeHashes": {
+    "src/world.js": "8950fdbb234873c267e68d123256d49a77c8fda33d215917f7bb9ec60b114db3",
+    "src/mission.js": "d5d4826dbf00408df1189651f4d5ba2e66564642a0734931fefa97160cf4b4b8",
+    "src/rendering/shaders.js": "9c1ea43709647b495cf166f69dd97cbbfec774288df16a04a6a9c900188a7dc2",
+    "src/rendering/scene-factory.js": "6e7fc258ec9e4fadba1d66d0b2617805c46b86a3a4c0322a414be309963a2fe4"
+  },
+  "outcomes": [
+    {
+      "name": "Chrome",
+      "engineVersion": "158.0.8127.37",
+      "results": [
+        {
+          "name": "moon-tycho",
+          "previous": {
+            "rmse": 4.541894002935072,
+            "gradientRmse": 4.515973392609518,
+            "width": 8192,
+            "height": 4096,
+            "format": 36492,
+            "mips": 14,
+            "bytes": 44739280,
+            "compressed": true
+          },
+          "candidate": {
+            "rmse": 4.673315307466331,
+            "gradientRmse": 4.5645344028792785,
+            "width": 8192,
+            "height": 4096,
+            "format": 37492,
+            "mips": 14,
+            "bytes": 22369640,
+            "compressed": true
+          }
+        },
+        {
+          "name": "moon-copernicus",
+          "previous": {
+            "rmse": 3.7720581088902407,
+            "gradientRmse": 3.659346984773167,
+            "width": 8192,
+            "height": 4096,
+            "format": 36492,
+            "mips": 14,
+            "bytes": 44739280,
+            "compressed": true
+          },
+          "candidate": {
+            "rmse": 3.930270331060831,
+            "gradientRmse": 3.7147602201421677,
+            "width": 8192,
+            "height": 4096,
+            "format": 37492,
+            "mips": 14,
+            "bytes": 22369640,
+            "compressed": true
+          }
+        },
+        {
+          "name": "moon-far-side",
+          "previous": {
+            "rmse": 4.819136542245283,
+            "gradientRmse": 4.3337349357908685,
+            "width": 8192,
+            "height": 4096,
+            "format": 36492,
+            "mips": 14,
+            "bytes": 44739280,
+            "compressed": true
+          },
+          "candidate": {
+            "rmse": 5.12394509145431,
+            "gradientRmse": 4.45330705936037,
+            "width": 8192,
+            "height": 4096,
+            "format": 37492,
+            "mips": 14,
+            "bytes": 22369640,
+            "compressed": true
+          }
+        }
+      ],
+      "closeViews": [
+        {
+          "body": "moon",
+          "fov": 18,
+          "physicalStatePreserved": true
+        }
+      ],
+      "projectionChecks": [],
+      "errors": []
+    }
+  ]
+}

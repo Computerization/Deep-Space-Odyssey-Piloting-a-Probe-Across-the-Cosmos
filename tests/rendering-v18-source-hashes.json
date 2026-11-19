@@ -1,0 +1,6 @@
+{
+  "src/world.js": "343d777dca9d9cc4bfdce9e572a85def0d6bc1c25dc1f4cb1c86b7520c0121f4",
+  "src/input.js": "dd3ed9d17bc471757132a2429a76fe7e263a32ba0720ccf9d5eb81a559e76b84",
+  "src/rendering/shaders.js": "afbe1ad2bb49e79f8b91b531dcbd9eb2f0d13ee59d670cedf28ed32f3f36729e",
+  "src/rendering/ringshine.js": "f41231e2fdd52c3d8e212c476d8a56ea1f4b95876de629f7fa69c4bb0a9acfd2"
+}

@@ -1,0 +1,19 @@
+{
+  "version": "0.57.0",
+  "views": [
+    {
+      "mode": "rings",
+      "photo": "Deep space",
+      "caption": "",
+      "solid": false,
+      "outerSphere": true
+    },
+    {
+      "mode": "off-plane",
+      "photo": "Deep space",
+      "caption": "",
+      "solid": false,
+      "outerSphere": true
+    }
+  ]
+}

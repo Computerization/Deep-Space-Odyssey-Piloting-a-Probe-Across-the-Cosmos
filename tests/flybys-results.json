@@ -1,0 +1,65 @@
+{
+  "results": [
+    {
+      "id": "lunar",
+      "approachSeconds": 33.36666666666667,
+      "passSeconds": 41.333333333333336,
+      "task": 0,
+      "result": "The lunar traverse100%TRACKING QUALITY · PERSONAL BEST2,285 kmCLOSEST ALTITUDEThree views collected along 9,276 km of flight. Your images are in the journal.Continue the main routeFly againSee photographsThe Moon has no substantial atmosphere to soften its limb. Moving past it changes your perspective and apparent angular size. This optional local flight is an exploration route, rather than Voyager 1’s historical trajectory.",
+      "midpoint": {
+        "position": [
+          144584895.00325316,
+          -17047017.64008134,
+          39241258.77934771
+        ],
+        "attitude": [
+          -0.08341896279552156,
+          -0.5206433009650125,
+          -0.05120767596964036,
+          0.8481448011561251
+        ]
+      }
+    },
+    {
+      "id": "clouds",
+      "approachSeconds": 7.7,
+      "passSeconds": 46.233333333333334,
+      "task": 0,
+      "result": "Across the cloud tops100%TRACKING QUALITY · PERSONAL BEST87,680 kmCLOSEST ALTITUDEThree views collected along 339,993 km of flight. Your images are in the journal.Continue the main routeFly againSee photographsJupiter’s cloud bands belong to a deep atmosphere. The nearest part of this survey remains tens of thousands of kilometres above the reference cloud radius. The cloud map is a spacecraft-derived mosaic; this flight does not enter the atmosphere.",
+      "midpoint": {
+        "position": [
+          -482018007.51276463,
+          257124079.22022784,
+          -572400787.0228558
+        ],
+        "attitude": [
+          0.04271550606952576,
+          0.6244845685024517,
+          -0.0342377317206714,
+          0.7791162859099755
+        ]
+      }
+    },
+    {
+      "id": "ringlight",
+      "approachSeconds": 7.633333333333334,
+      "passSeconds": 46.43333333333333,
+      "task": 0,
+      "result": "Along the ring edge100%TRACKING QUALITY · PERSONAL BEST125,055 kmCLOSEST ALTITUDEThree views collected along 341,299 km of flight. Your images are in the journal.Continue the main routeFly againSee photographsThis pass stays outside the main rings. Their thin geometry changes the view dramatically as you move. The flight is a designed exploration route, with the ring dimensions and solar illumination retained.",
+      "midpoint": {
+        "position": [
+          -1421173620.8451872,
+          31202138.70477667,
+          72231515.14578566
+        ],
+        "attitude": [
+          0.00526784524982696,
+          0.9040041265026388,
+          -0.011143555241983072,
+          0.4273460076439158
+        ]
+      }
+    }
+  ],
+  "errors": []
+}

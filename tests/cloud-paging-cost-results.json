@@ -1,0 +1,166 @@
+{
+  "results": [
+    {
+      "mode": "baseline",
+      "label": "day",
+      "preserved": true,
+      "graphicsError": 0,
+      "frameMedian": 16.700000000000728,
+      "frameP95": 33.400000000001455,
+      "gpuMedian": 42.494249,
+      "gpuSamples": 40,
+      "cloudScale": 0.75,
+      "dimensions": [
+        2000,
+        1250
+      ],
+      "resources": {
+        "geometries": 22,
+        "textures": 29
+      },
+      "programs": 23
+    },
+    {
+      "mode": "baseline",
+      "label": "close",
+      "preserved": true,
+      "graphicsError": 0,
+      "frameMedian": 33.29999999999927,
+      "frameP95": 33.400000000001455,
+      "gpuMedian": 56.602291,
+      "gpuSamples": 40,
+      "cloudScale": 0.75,
+      "dimensions": [
+        2000,
+        1250
+      ],
+      "resources": {
+        "geometries": 22,
+        "textures": 29
+      },
+      "programs": 23
+    },
+    {
+      "mode": "candidate",
+      "label": "day",
+      "preserved": true,
+      "graphicsError": 0,
+      "frameMedian": 16.800000000000182,
+      "frameP95": 33.399999999999636,
+      "gpuMedian": 45.502416,
+      "gpuSamples": 40,
+      "cloudScale": 0.75,
+      "dimensions": [
+        2000,
+        1250
+      ],
+      "resources": {
+        "geometries": 22,
+        "textures": 29
+      },
+      "programs": 23
+    },
+    {
+      "mode": "candidate",
+      "label": "close",
+      "preserved": true,
+      "graphicsError": 0,
+      "frameMedian": 33.30000000000109,
+      "frameP95": 50.100000000000364,
+      "gpuMedian": 71.440375,
+      "gpuSamples": 40,
+      "cloudScale": 0.75,
+      "dimensions": [
+        2000,
+        1250
+      ],
+      "resources": {
+        "geometries": 22,
+        "textures": 30
+      },
+      "programs": 23
+    },
+    {
+      "mode": "candidate",
+      "label": "day",
+      "preserved": true,
+      "graphicsError": 0,
+      "frameMedian": 16.700000000000728,
+      "frameP95": 33.400000000000546,
+      "gpuMedian": 42.348624,
+      "gpuSamples": 40,
+      "cloudScale": 0.75,
+      "dimensions": [
+        2000,
+        1250
+      ],
+      "resources": {
+        "geometries": 22,
+        "textures": 29
+      },
+      "programs": 23
+    },
+    {
+      "mode": "candidate",
+      "label": "close",
+      "preserved": true,
+      "graphicsError": 0,
+      "frameMedian": 33.30000000000109,
+      "frameP95": 50,
+      "gpuMedian": 69.700124,
+      "gpuSamples": 40,
+      "cloudScale": 0.75,
+      "dimensions": [
+        2000,
+        1250
+      ],
+      "resources": {
+        "geometries": 22,
+        "textures": 30
+      },
+      "programs": 23
+    },
+    {
+      "mode": "baseline",
+      "label": "day",
+      "preserved": true,
+      "graphicsError": 0,
+      "frameMedian": 16.700000000000728,
+      "frameP95": 83.29999999999927,
+      "gpuMedian": 44.346208,
+      "gpuSamples": 40,
+      "cloudScale": 0.75,
+      "dimensions": [
+        2000,
+        1250
+      ],
+      "resources": {
+        "geometries": 22,
+        "textures": 29
+      },
+      "programs": 23
+    },
+    {
+      "mode": "baseline",
+      "label": "close",
+      "preserved": true,
+      "graphicsError": 0,
+      "frameMedian": 33.29999999999927,
+      "frameP95": 33.400000000001455,
+      "gpuMedian": 56.138791,
+      "gpuSamples": 40,
+      "cloudScale": 0.75,
+      "dimensions": [
+        2000,
+        1250
+      ],
+      "resources": {
+        "geometries": 22,
+        "textures": 29
+      },
+      "programs": 23
+    }
+  ],
+  "errors": [],
+  "method": "Fresh Chrome Metal contexts, baseline / candidate / candidate / baseline, 1000 x 625 DPR2, High at fixed .75 cloud scale. Detail fully loaded before 24 warm and 40 measured frames. GPU query intervals and frame intervals are reported separately; this is a short local comparison, not endurance."
+}

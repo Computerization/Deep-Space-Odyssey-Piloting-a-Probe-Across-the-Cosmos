@@ -1,0 +1,128 @@
+{
+  "engine": "Chrome",
+  "checks": [
+    {
+      "study": "moon",
+      "samples": [
+        {
+          "progress": 0.11110000000000012,
+          "local": true,
+          "showWorlds": true,
+          "veil": 0,
+          "range": 1.7355242721095892
+        },
+        {
+          "progress": 0.2222111111111109,
+          "local": true,
+          "showWorlds": true,
+          "veil": 0,
+          "range": 5.01550843799597
+        },
+        {
+          "progress": 0.3351777777777773,
+          "local": true,
+          "showWorlds": true,
+          "veil": 0,
+          "range": 12.922072928986005
+        },
+        {
+          "progress": 0.4462777777777769,
+          "local": true,
+          "showWorlds": true,
+          "veil": 0,
+          "range": 25.969793348987352
+        },
+        {
+          "progress": 0.5703444444444435,
+          "local": true,
+          "showWorlds": true,
+          "veil": 0,
+          "range": 43.19215443884661
+        },
+        {
+          "progress": 0.6814444444444434,
+          "local": true,
+          "showWorlds": true,
+          "veil": 0,
+          "range": 55.73923832185171
+        },
+        {
+          "progress": 0.7925555555555545,
+          "local": true,
+          "showWorlds": true,
+          "veil": 0,
+          "range": 62.5092681666255
+        },
+        {
+          "progress": 0.9055111111111099,
+          "local": true,
+          "showWorlds": true,
+          "veil": 0,
+          "range": 64.36145405535278
+        }
+      ]
+    },
+    {
+      "study": "io",
+      "samples": [
+        {
+          "progress": 0.11296666666666656,
+          "local": true,
+          "showWorlds": true,
+          "veil": 0,
+          "range": 2.5208463757621056
+        },
+        {
+          "progress": 0.2240777777777777,
+          "local": true,
+          "showWorlds": true,
+          "veil": 0,
+          "range": 3.6955063452031798
+        },
+        {
+          "progress": 0.3351777777777774,
+          "local": true,
+          "showWorlds": true,
+          "veil": 0,
+          "range": 4.727049008914913
+        },
+        {
+          "progress": 0.4462777777777761,
+          "local": true,
+          "showWorlds": true,
+          "veil": 0,
+          "range": 5.309109312851487
+        },
+        {
+          "progress": 0.5685111111111089,
+          "local": true,
+          "showWorlds": true,
+          "veil": 0,
+          "range": 5.6604100808136355
+        },
+        {
+          "progress": 0.6796111111111083,
+          "local": true,
+          "showWorlds": true,
+          "veil": 0,
+          "range": 5.936812754250288
+        },
+        {
+          "progress": 0.790711111111108,
+          "local": true,
+          "showWorlds": true,
+          "veil": 0,
+          "range": 6.087802853142508
+        },
+        {
+          "progress": 0.9036666666666631,
+          "local": true,
+          "showWorlds": true,
+          "veil": 0,
+          "range": 6.056828586338111
+        }
+      ]
+    }
+  ],
+  "errors": []
+}

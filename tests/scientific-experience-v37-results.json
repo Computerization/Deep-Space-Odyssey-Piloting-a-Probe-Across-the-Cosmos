@@ -1,0 +1,139 @@
+{
+  "version": "0.37.0",
+  "milestone": {
+    "title": "One light-day from Earth",
+    "date": "18 November 2026 · 10:16:07 UTC · predicted",
+    "lightHours": 24.000000000108695
+  },
+  "timeHoldPreservesMomentum": true,
+  "gravityAndThrust": {
+    "initial": 12.557198692389601,
+    "final": 12.55713918343796,
+    "fuelSpent": 0.004120580518929273,
+    "acceleration": 0.0000010908030518411888,
+    "seconds": 10.000000000000076
+  },
+  "freedom": {
+    "photos": 1,
+    "notes": [
+      "0:0"
+    ],
+    "stage": "encounter",
+    "velocity": 12.557198692389601
+  },
+  "boundaries": [
+    {
+      "c": 0,
+      "held": true,
+      "range": 2499999.9900000007,
+      "radius": 2500000,
+      "speed": 17,
+      "preserved": true
+    },
+    {
+      "c": 1,
+      "held": true,
+      "range": 4999999.990000055,
+      "radius": 5000000,
+      "speed": 17.000000000000004,
+      "preserved": true
+    },
+    {
+      "c": 2,
+      "held": true,
+      "range": 5999999.989999943,
+      "radius": 6000000,
+      "speed": 17,
+      "preserved": true
+    },
+    {
+      "c": 3,
+      "held": true,
+      "range": 2499999.9900000724,
+      "radius": 2500000,
+      "speed": 17,
+      "preserved": true
+    },
+    {
+      "c": 4,
+      "held": true,
+      "range": 4999999.990000416,
+      "radius": 5000000,
+      "speed": 17,
+      "preserved": true
+    },
+    {
+      "c": 5,
+      "held": true,
+      "range": 4999999.990000241,
+      "radius": 5000000,
+      "speed": 17,
+      "preserved": true
+    }
+  ],
+  "passages": [
+    {
+      "c": 0,
+      "speed": 39.996141597468956,
+      "elapsed": 500000.0001043081,
+      "held": true,
+      "arrival": 1,
+      "frames": 19
+    },
+    {
+      "c": 1,
+      "speed": 36.08045687875858,
+      "elapsed": 500000.0001043081,
+      "held": true,
+      "arrival": 2,
+      "frames": 22
+    },
+    {
+      "c": 2,
+      "speed": 30.724456790104153,
+      "elapsed": 500000.0001043081,
+      "held": true,
+      "arrival": 3,
+      "frames": 117
+    },
+    {
+      "c": 3,
+      "speed": 17.88278858265243,
+      "elapsed": 500000.0001043081,
+      "held": true,
+      "arrival": 4,
+      "frames": 285
+    },
+    {
+      "c": 4,
+      "speed": 17.03647019881879,
+      "elapsed": 500000.0001043081,
+      "held": true,
+      "arrival": 5,
+      "frames": 180
+    }
+  ],
+  "transitSaveRestore": {
+    "stage": "transit",
+    "progress": 0.0009356766471132425,
+    "rate": 6,
+    "held": true
+  },
+  "chartSelection": true,
+  "compactMenuFits": true,
+  "controller": "Synthetic Xbox standard mapping: time hold and camera switch",
+  "audio": {
+    "started": true,
+    "state": "running",
+    "track": "rings",
+    "muted": false,
+    "feedbackVoices": 0,
+    "acousticFeedback": true,
+    "adaptiveGain": 0.8968452215194702,
+    "playing": [
+      "encounter",
+      "rings"
+    ]
+  },
+  "errors": []
+}

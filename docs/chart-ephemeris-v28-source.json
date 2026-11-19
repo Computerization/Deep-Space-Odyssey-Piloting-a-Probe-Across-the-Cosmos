@@ -1,0 +1,434 @@
+{
+  "sourcePage": "https://ssd.jpl.nasa.gov/horizons/",
+  "apiDocumentation": "https://ssd-api.jpl.nasa.gov/doc/horizons.html",
+  "runtimeBytes": 405399,
+  "sha256": "8e96063ed5bfcfc49fc87546674d1b814c271f002accbb8d734e521a0189ab6c",
+  "metadata": {
+    "version": 1,
+    "source": "NASA/JPL Horizons",
+    "frame": "ICRF heliocentric geometric",
+    "timeScale": "UTC (Horizons UT)",
+    "positionUnitKm": 10,
+    "velocityUnitKmS": 1e-06,
+    "objects": {
+      "mercury": {
+        "offset": 0,
+        "count": 8989,
+        "start": 2443387.5,
+        "step": 2
+      },
+      "venus": {
+        "offset": 215736,
+        "count": 2248,
+        "start": 2443387.5,
+        "step": 8
+      },
+      "earth": {
+        "offset": 269688,
+        "count": 2248,
+        "start": 2443387.5,
+        "step": 8
+      },
+      "mars": {
+        "offset": 323640,
+        "count": 1125,
+        "start": 2443387.5,
+        "step": 16
+      },
+      "jupiter": {
+        "offset": 350640,
+        "count": 563,
+        "start": 2443387.5,
+        "step": 32
+      },
+      "saturn": {
+        "offset": 364152,
+        "count": 563,
+        "start": 2443387.5,
+        "step": 32
+      },
+      "uranus": {
+        "offset": 377664,
+        "count": 563,
+        "start": 2443387.5,
+        "step": 32
+      },
+      "neptune": {
+        "offset": 391176,
+        "count": 563,
+        "start": 2443387.5,
+        "step": 32
+      }
+    }
+  },
+  "provenance": {
+    "mercury": {
+      "samples": {
+        "sha256": "6572f7a576069178884cc2962e37db194b00da0db446e4beb2e53a4da5d41117",
+        "parameters": {
+          "format": "json",
+          "COMMAND": "'199'",
+          "OBJ_DATA": "'NO'",
+          "MAKE_EPHEM": "'YES'",
+          "EPHEM_TYPE": "'VECTORS'",
+          "CENTER": "'500@10'",
+          "TIME_TYPE": "'UT'",
+          "OUT_UNITS": "'KM-S'",
+          "VEC_TABLE": "'2'",
+          "REF_PLANE": "'FRAME'",
+          "REF_SYSTEM": "'ICRF'",
+          "VEC_CORR": "'NONE'",
+          "CSV_FORMAT": "'YES'",
+          "START_TIME": "'JD2443387.5'",
+          "STOP_TIME": "'JD2461363.5'",
+          "STEP_SIZE": "'2 d'"
+        },
+        "header": "000000E+09  0.613610000000000E+05\nCalling TDBMUT with LBND,LMJD= 0.848318400000000E+09  0.613630000000000E+05\n\n*******************************************************************************\nEphemeris / API_USER Sat Nov 14 18:09:06 2026 Pasadena, USA      / Horizons\n*******************************************************************************\nTarget body name: Mercury (199)                   {source: DE441}\nCenter body name: Sun (10)                        {source: DE441}\nCenter-site name: BODY CENTER\n*******************************************************************************\nStart time      : A.D. 1977-Sep-01 00:00:00.0000 UT \nStop  time      : A.D. 2026-Nov-19 00:00:00.0000 UT \nStep-size       : 2880 minutes\n*******************************************************************************\nCenter geodetic : 0.0, 0.0, 0.0                   {E-lon(deg),Lat(deg),Alt(km)}\nCenter cylindric: 0.0, 0.0, 0.0                   {E-lon(deg),Dxy(km),Dz(km)}\nCenter radii    : 695700.0, 695700.0, 695700.0 km {Equator_a, b, pole_c}\nOutput units    : KM-S\nCalendar mode   : Mixed Julian/Gregorian\nOutput type     : GEOMETRIC cartesian states\nOutput format   : 2 (position and velocity)\nEOP file        : eop.261113.p270209\nEOP coverage    : DATA-BASED 1962-JAN-20 TO 2026-NOV-13. PREDICTS-> 2027-FEB-08\nReference frame : ICRF\n*******************************************************************************\n            JDUT ,            Calendar Date (UT ),                      X,                      Y,                      Z,                     VX,                     VY,                     VZ,\n**************************************************************************************************************************************************************************************************\n"
+      },
+      "checks": {
+        "sha256": "c98b9403099d5da697601a702e748868f8934afaa07a5dbe180b666af026b4e4",
+        "parameters": {
+          "format": "json",
+          "COMMAND": "'199'",
+          "OBJ_DATA": "'NO'",
+          "MAKE_EPHEM": "'YES'",
+          "EPHEM_TYPE": "'VECTORS'",
+          "CENTER": "'500@10'",
+          "TIME_TYPE": "'UT'",
+          "OUT_UNITS": "'KM-S'",
+          "VEC_TABLE": "'2'",
+          "REF_PLANE": "'FRAME'",
+          "REF_SYSTEM": "'ICRF'",
+          "VEC_CORR": "'NONE'",
+          "CSV_FORMAT": "'YES'",
+          "TLIST": "'2443392.250000000,2443594.500000000,2443938.003773148,2444156.500000000,2444555.736805555,2444556.490625000,2444718.500000000,2445280.500000000,2445842.500000000,2446404.500000000,2446964.500000000,2447526.500000000,2447936.700000000,2448088.500000000,2448650.500000000,2449212.500000000,2449774.500000000,2450336.500000000,2450896.500000000,2451458.500000000,2452020.500000000,2452582.500000000,2453144.500000000,2453706.500000000,2454266.500000000,2454828.500000000,2455390.500000000,2455952.500000000,2456164.500000000,2456514.500000000,2457076.500000000,2457638.500000000,2458198.500000000,2458760.500000000,2459322.500000000,2459884.500000000,2460446.500000000,2461008.500000000,2461362.927858796'"
+        },
+        "header": "E+09  0.610080000000000E+05\nCalling TDBMUT with LBND,LMJD= 0.848268966999972E+09  0.613624278587960E+05\n\n*******************************************************************************\nEphemeris / API_USER Sat Nov 14 18:09:08 2026 Pasadena, USA      / Horizons\n*******************************************************************************\nTarget body name: Mercury (199)                   {source: DE441}\nCenter body name: Sun (10)                        {source: DE441}\nCenter-site name: BODY CENTER\n*******************************************************************************\nStart time      : A.D. 1977-Sep-05 18:00:00.0000 UT \nStop  time      : A.D. 2026-Nov-18 10:16:07.0000 UT \nStep-size       : DISCRETE TIME-LIST\n*******************************************************************************\nCenter geodetic : 0.0, 0.0, 0.0                   {E-lon(deg),Lat(deg),Alt(km)}\nCenter cylindric: 0.0, 0.0, 0.0                   {E-lon(deg),Dxy(km),Dz(km)}\nCenter radii    : 695700.0, 695700.0, 695700.0 km {Equator_a, b, pole_c}\nOutput units    : KM-S\nCalendar mode   : Mixed Julian/Gregorian\nOutput type     : GEOMETRIC cartesian states\nOutput format   : 2 (position and velocity)\nEOP file        : eop.261113.p270209\nEOP coverage    : DATA-BASED 1962-JAN-20 TO 2026-NOV-13. PREDICTS-> 2027-FEB-08\nReference frame : ICRF\n*******************************************************************************\n            JDUT ,            Calendar Date (UT ),                      X,                      Y,                      Z,                     VX,                     VY,                     VZ,\n**************************************************************************************************************************************************************************************************\n"
+      },
+      "count": 8989,
+      "stepDays": 2
+    },
+    "venus": {
+      "samples": {
+        "sha256": "7647326e569937f1ca36b7e22cf3b6dcd9fdf4b98b49f6576481cbedcdd0409b",
+        "parameters": {
+          "format": "json",
+          "COMMAND": "'299'",
+          "OBJ_DATA": "'NO'",
+          "MAKE_EPHEM": "'YES'",
+          "EPHEM_TYPE": "'VECTORS'",
+          "CENTER": "'500@10'",
+          "TIME_TYPE": "'UT'",
+          "OUT_UNITS": "'KM-S'",
+          "VEC_TABLE": "'2'",
+          "REF_PLANE": "'FRAME'",
+          "REF_SYSTEM": "'ICRF'",
+          "VEC_CORR": "'NONE'",
+          "CSV_FORMAT": "'YES'",
+          "START_TIME": "'JD2443387.5'",
+          "STOP_TIME": "'JD2461363.5'",
+          "STEP_SIZE": "'8 d'"
+        },
+        "header": "00000E+09  0.613550000000000E+05\nCalling TDBMUT with LBND,LMJD= 0.848318400000000E+09  0.613630000000000E+05\n\n*******************************************************************************\nEphemeris / API_USER Sat Nov 14 18:09:09 2026 Pasadena, USA      / Horizons\n*******************************************************************************\nTarget body name: Venus (299)                     {source: DE441}\nCenter body name: Sun (10)                        {source: DE441}\nCenter-site name: BODY CENTER\n*******************************************************************************\nStart time      : A.D. 1977-Sep-01 00:00:00.0000 UT \nStop  time      : A.D. 2026-Nov-19 00:00:00.0000 UT \nStep-size       : 11520 minutes\n*******************************************************************************\nCenter geodetic : 0.0, 0.0, 0.0                   {E-lon(deg),Lat(deg),Alt(km)}\nCenter cylindric: 0.0, 0.0, 0.0                   {E-lon(deg),Dxy(km),Dz(km)}\nCenter radii    : 695700.0, 695700.0, 695700.0 km {Equator_a, b, pole_c}\nOutput units    : KM-S\nCalendar mode   : Mixed Julian/Gregorian\nOutput type     : GEOMETRIC cartesian states\nOutput format   : 2 (position and velocity)\nEOP file        : eop.261113.p270209\nEOP coverage    : DATA-BASED 1962-JAN-20 TO 2026-NOV-13. PREDICTS-> 2027-FEB-08\nReference frame : ICRF\n*******************************************************************************\n            JDUT ,            Calendar Date (UT ),                      X,                      Y,                      Z,                     VX,                     VY,                     VZ,\n**************************************************************************************************************************************************************************************************\n"
+      },
+      "checks": {
+        "sha256": "e67add5986af25efd57dc82eebaf6873fc347db6388fa6bbef7b5774796c8527",
+        "parameters": {
+          "format": "json",
+          "COMMAND": "'299'",
+          "OBJ_DATA": "'NO'",
+          "MAKE_EPHEM": "'YES'",
+          "EPHEM_TYPE": "'VECTORS'",
+          "CENTER": "'500@10'",
+          "TIME_TYPE": "'UT'",
+          "OUT_UNITS": "'KM-S'",
+          "VEC_TABLE": "'2'",
+          "REF_PLANE": "'FRAME'",
+          "REF_SYSTEM": "'ICRF'",
+          "VEC_CORR": "'NONE'",
+          "CSV_FORMAT": "'YES'",
+          "TLIST": "'2443392.250000000,2443591.500000000,2443938.003773148,2444159.500000000,2444555.736805555,2444556.490625000,2444719.500000000,2445279.500000000,2445839.500000000,2446399.500000000,2446967.500000000,2447527.500000000,2447936.700000000,2448087.500000000,2448647.500000000,2449207.500000000,2449775.500000000,2450335.500000000,2450895.500000000,2451455.500000000,2452015.500000000,2452575.500000000,2453143.500000000,2453703.500000000,2454263.500000000,2454823.500000000,2455383.500000000,2455951.500000000,2456164.500000000,2456511.500000000,2457071.500000000,2457631.500000000,2458191.500000000,2458759.500000000,2459319.500000000,2459879.500000000,2460439.500000000,2460999.500000000,2461362.927858796'"
+        },
+        "header": "E+09  0.609990000000000E+05\nCalling TDBMUT with LBND,LMJD= 0.848268966999972E+09  0.613624278587960E+05\n\n*******************************************************************************\nEphemeris / API_USER Sat Nov 14 18:09:10 2026 Pasadena, USA      / Horizons\n*******************************************************************************\nTarget body name: Venus (299)                     {source: DE441}\nCenter body name: Sun (10)                        {source: DE441}\nCenter-site name: BODY CENTER\n*******************************************************************************\nStart time      : A.D. 1977-Sep-05 18:00:00.0000 UT \nStop  time      : A.D. 2026-Nov-18 10:16:07.0000 UT \nStep-size       : DISCRETE TIME-LIST\n*******************************************************************************\nCenter geodetic : 0.0, 0.0, 0.0                   {E-lon(deg),Lat(deg),Alt(km)}\nCenter cylindric: 0.0, 0.0, 0.0                   {E-lon(deg),Dxy(km),Dz(km)}\nCenter radii    : 695700.0, 695700.0, 695700.0 km {Equator_a, b, pole_c}\nOutput units    : KM-S\nCalendar mode   : Mixed Julian/Gregorian\nOutput type     : GEOMETRIC cartesian states\nOutput format   : 2 (position and velocity)\nEOP file        : eop.261113.p270209\nEOP coverage    : DATA-BASED 1962-JAN-20 TO 2026-NOV-13. PREDICTS-> 2027-FEB-08\nReference frame : ICRF\n*******************************************************************************\n            JDUT ,            Calendar Date (UT ),                      X,                      Y,                      Z,                     VX,                     VY,                     VZ,\n**************************************************************************************************************************************************************************************************\n"
+      },
+      "count": 2248,
+      "stepDays": 8
+    },
+    "earth": {
+      "samples": {
+        "sha256": "4e0bca59b26a6a3b54a4d85b98b63be5afe440fd89aa4cc4a19d88eda580d136",
+        "parameters": {
+          "format": "json",
+          "COMMAND": "'399'",
+          "OBJ_DATA": "'NO'",
+          "MAKE_EPHEM": "'YES'",
+          "EPHEM_TYPE": "'VECTORS'",
+          "CENTER": "'500@10'",
+          "TIME_TYPE": "'UT'",
+          "OUT_UNITS": "'KM-S'",
+          "VEC_TABLE": "'2'",
+          "REF_PLANE": "'FRAME'",
+          "REF_SYSTEM": "'ICRF'",
+          "VEC_CORR": "'NONE'",
+          "CSV_FORMAT": "'YES'",
+          "START_TIME": "'JD2443387.5'",
+          "STOP_TIME": "'JD2461363.5'",
+          "STEP_SIZE": "'8 d'"
+        },
+        "header": "00000E+09  0.613550000000000E+05\nCalling TDBMUT with LBND,LMJD= 0.848318400000000E+09  0.613630000000000E+05\n\n*******************************************************************************\nEphemeris / API_USER Sat Nov 14 18:09:11 2026 Pasadena, USA      / Horizons\n*******************************************************************************\nTarget body name: Earth (399)                     {source: DE441}\nCenter body name: Sun (10)                        {source: DE441}\nCenter-site name: BODY CENTER\n*******************************************************************************\nStart time      : A.D. 1977-Sep-01 00:00:00.0000 UT \nStop  time      : A.D. 2026-Nov-19 00:00:00.0000 UT \nStep-size       : 11520 minutes\n*******************************************************************************\nCenter geodetic : 0.0, 0.0, 0.0                   {E-lon(deg),Lat(deg),Alt(km)}\nCenter cylindric: 0.0, 0.0, 0.0                   {E-lon(deg),Dxy(km),Dz(km)}\nCenter radii    : 695700.0, 695700.0, 695700.0 km {Equator_a, b, pole_c}\nOutput units    : KM-S\nCalendar mode   : Mixed Julian/Gregorian\nOutput type     : GEOMETRIC cartesian states\nOutput format   : 2 (position and velocity)\nEOP file        : eop.261113.p270209\nEOP coverage    : DATA-BASED 1962-JAN-20 TO 2026-NOV-13. PREDICTS-> 2027-FEB-08\nReference frame : ICRF\n*******************************************************************************\n            JDUT ,            Calendar Date (UT ),                      X,                      Y,                      Z,                     VX,                     VY,                     VZ,\n**************************************************************************************************************************************************************************************************\n"
+      },
+      "checks": {
+        "sha256": "37c91e114a4e2460da86131f628ffbf270b22f8cdfbbf0b84ff39632e4f4e4f9",
+        "parameters": {
+          "format": "json",
+          "COMMAND": "'399'",
+          "OBJ_DATA": "'NO'",
+          "MAKE_EPHEM": "'YES'",
+          "EPHEM_TYPE": "'VECTORS'",
+          "CENTER": "'500@10'",
+          "TIME_TYPE": "'UT'",
+          "OUT_UNITS": "'KM-S'",
+          "VEC_TABLE": "'2'",
+          "REF_PLANE": "'FRAME'",
+          "REF_SYSTEM": "'ICRF'",
+          "VEC_CORR": "'NONE'",
+          "CSV_FORMAT": "'YES'",
+          "TLIST": "'2443392.250000000,2443591.500000000,2443938.003773148,2444159.500000000,2444555.736805555,2444556.490625000,2444719.500000000,2445279.500000000,2445839.500000000,2446399.500000000,2446967.500000000,2447527.500000000,2447936.700000000,2448087.500000000,2448647.500000000,2449207.500000000,2449775.500000000,2450335.500000000,2450895.500000000,2451455.500000000,2452015.500000000,2452575.500000000,2453143.500000000,2453703.500000000,2454263.500000000,2454823.500000000,2455383.500000000,2455951.500000000,2456164.500000000,2456511.500000000,2457071.500000000,2457631.500000000,2458191.500000000,2458759.500000000,2459319.500000000,2459879.500000000,2460439.500000000,2460999.500000000,2461362.927858796'"
+        },
+        "header": "E+09  0.609990000000000E+05\nCalling TDBMUT with LBND,LMJD= 0.848268966999972E+09  0.613624278587960E+05\n\n*******************************************************************************\nEphemeris / API_USER Sat Nov 14 18:09:13 2026 Pasadena, USA      / Horizons\n*******************************************************************************\nTarget body name: Earth (399)                     {source: DE441}\nCenter body name: Sun (10)                        {source: DE441}\nCenter-site name: BODY CENTER\n*******************************************************************************\nStart time      : A.D. 1977-Sep-05 18:00:00.0000 UT \nStop  time      : A.D. 2026-Nov-18 10:16:07.0000 UT \nStep-size       : DISCRETE TIME-LIST\n*******************************************************************************\nCenter geodetic : 0.0, 0.0, 0.0                   {E-lon(deg),Lat(deg),Alt(km)}\nCenter cylindric: 0.0, 0.0, 0.0                   {E-lon(deg),Dxy(km),Dz(km)}\nCenter radii    : 695700.0, 695700.0, 695700.0 km {Equator_a, b, pole_c}\nOutput units    : KM-S\nCalendar mode   : Mixed Julian/Gregorian\nOutput type     : GEOMETRIC cartesian states\nOutput format   : 2 (position and velocity)\nEOP file        : eop.261113.p270209\nEOP coverage    : DATA-BASED 1962-JAN-20 TO 2026-NOV-13. PREDICTS-> 2027-FEB-08\nReference frame : ICRF\n*******************************************************************************\n            JDUT ,            Calendar Date (UT ),                      X,                      Y,                      Z,                     VX,                     VY,                     VZ,\n**************************************************************************************************************************************************************************************************\n"
+      },
+      "count": 2248,
+      "stepDays": 8
+    },
+    "mars": {
+      "samples": {
+        "sha256": "b3ea029d9519660a51513c46795027fb7976c3129318f64eb8e28bc5c7393b4f",
+        "parameters": {
+          "format": "json",
+          "COMMAND": "'499'",
+          "OBJ_DATA": "'NO'",
+          "MAKE_EPHEM": "'YES'",
+          "EPHEM_TYPE": "'VECTORS'",
+          "CENTER": "'500@10'",
+          "TIME_TYPE": "'UT'",
+          "OUT_UNITS": "'KM-S'",
+          "VEC_TABLE": "'2'",
+          "REF_PLANE": "'FRAME'",
+          "REF_SYSTEM": "'ICRF'",
+          "VEC_CORR": "'NONE'",
+          "CSV_FORMAT": "'YES'",
+          "START_TIME": "'JD2443387.5'",
+          "STOP_TIME": "'JD2461371.5'",
+          "STEP_SIZE": "'16 d'"
+        },
+        "header": "0000E+09  0.613550000000000E+05\nCalling TDBMUT with LBND,LMJD= 0.849009600000000E+09  0.613710000000000E+05\n\n*******************************************************************************\nEphemeris / API_USER Sat Nov 14 18:09:13 2026 Pasadena, USA      / Horizons\n*******************************************************************************\nTarget body name: Mars (499)                      {source: mar099}\nCenter body name: Sun (10)                        {source: DE441}\nCenter-site name: BODY CENTER\n*******************************************************************************\nStart time      : A.D. 1977-Sep-01 00:00:00.0000 UT \nStop  time      : A.D. 2026-Nov-27 00:00:00.0000 UT \nStep-size       : 23040 minutes\n*******************************************************************************\nCenter geodetic : 0.0, 0.0, 0.0                   {E-lon(deg),Lat(deg),Alt(km)}\nCenter cylindric: 0.0, 0.0, 0.0                   {E-lon(deg),Dxy(km),Dz(km)}\nCenter radii    : 695700.0, 695700.0, 695700.0 km {Equator_a, b, pole_c}\nOutput units    : KM-S\nCalendar mode   : Mixed Julian/Gregorian\nOutput type     : GEOMETRIC cartesian states\nOutput format   : 2 (position and velocity)\nEOP file        : eop.261113.p270209\nEOP coverage    : DATA-BASED 1962-JAN-20 TO 2026-NOV-13. PREDICTS-> 2027-FEB-08\nReference frame : ICRF\n*******************************************************************************\n            JDUT ,            Calendar Date (UT ),                      X,                      Y,                      Z,                     VX,                     VY,                     VZ,\n**************************************************************************************************************************************************************************************************\n"
+      },
+      "checks": {
+        "sha256": "9e87c4ef23c534b7b1bfcc4c115c6949228ffb7eeea7ae20e1ed04012f5ed51e",
+        "parameters": {
+          "format": "json",
+          "COMMAND": "'499'",
+          "OBJ_DATA": "'NO'",
+          "MAKE_EPHEM": "'YES'",
+          "EPHEM_TYPE": "'VECTORS'",
+          "CENTER": "'500@10'",
+          "TIME_TYPE": "'UT'",
+          "OUT_UNITS": "'KM-S'",
+          "VEC_TABLE": "'2'",
+          "REF_PLANE": "'FRAME'",
+          "REF_SYSTEM": "'ICRF'",
+          "VEC_CORR": "'NONE'",
+          "CSV_FORMAT": "'YES'",
+          "TLIST": "'2443392.250000000,2443587.500000000,2443938.003773148,2444163.500000000,2444555.736805555,2444556.490625000,2444723.500000000,2445283.500000000,2445843.500000000,2446403.500000000,2446963.500000000,2447523.500000000,2447936.700000000,2448083.500000000,2448643.500000000,2449203.500000000,2449779.500000000,2450339.500000000,2450899.500000000,2451459.500000000,2452019.500000000,2452579.500000000,2453139.500000000,2453699.500000000,2454259.500000000,2454819.500000000,2455379.500000000,2455955.500000000,2456164.500000000,2456515.500000000,2457075.500000000,2457635.500000000,2458195.500000000,2458755.500000000,2459315.500000000,2459875.500000000,2460435.500000000,2460995.500000000,2461362.927858796'"
+        },
+        "header": "+09  0.609950000000000E+05\nCalling TDBMUT with LBND,LMJD= 0.848268966999972E+09  0.613624278587960E+05\n\n*******************************************************************************\nEphemeris / API_USER Sat Nov 14 18:09:15 2026 Pasadena, USA      / Horizons\n*******************************************************************************\nTarget body name: Mars (499)                      {source: mar099}\nCenter body name: Sun (10)                        {source: DE441}\nCenter-site name: BODY CENTER\n*******************************************************************************\nStart time      : A.D. 1977-Sep-05 18:00:00.0000 UT \nStop  time      : A.D. 2026-Nov-18 10:16:07.0000 UT \nStep-size       : DISCRETE TIME-LIST\n*******************************************************************************\nCenter geodetic : 0.0, 0.0, 0.0                   {E-lon(deg),Lat(deg),Alt(km)}\nCenter cylindric: 0.0, 0.0, 0.0                   {E-lon(deg),Dxy(km),Dz(km)}\nCenter radii    : 695700.0, 695700.0, 695700.0 km {Equator_a, b, pole_c}\nOutput units    : KM-S\nCalendar mode   : Mixed Julian/Gregorian\nOutput type     : GEOMETRIC cartesian states\nOutput format   : 2 (position and velocity)\nEOP file        : eop.261113.p270209\nEOP coverage    : DATA-BASED 1962-JAN-20 TO 2026-NOV-13. PREDICTS-> 2027-FEB-08\nReference frame : ICRF\n*******************************************************************************\n            JDUT ,            Calendar Date (UT ),                      X,                      Y,                      Z,                     VX,                     VY,                     VZ,\n**************************************************************************************************************************************************************************************************\n"
+      },
+      "count": 1125,
+      "stepDays": 16
+    },
+    "jupiter": {
+      "samples": {
+        "sha256": "b5480bc3693b200087a7a108ad0a05017d3cb10a2c836ca070053e901fe848c1",
+        "parameters": {
+          "format": "json",
+          "COMMAND": "'599'",
+          "OBJ_DATA": "'NO'",
+          "MAKE_EPHEM": "'YES'",
+          "EPHEM_TYPE": "'VECTORS'",
+          "CENTER": "'500@10'",
+          "TIME_TYPE": "'UT'",
+          "OUT_UNITS": "'KM-S'",
+          "VEC_TABLE": "'2'",
+          "REF_PLANE": "'FRAME'",
+          "REF_SYSTEM": "'ICRF'",
+          "VEC_CORR": "'NONE'",
+          "CSV_FORMAT": "'YES'",
+          "START_TIME": "'JD2443387.5'",
+          "STOP_TIME": "'JD2461371.5'",
+          "STEP_SIZE": "'32 d'"
+        },
+        "header": "390000000000E+05\nCalling TDBMUT with LBND,LMJD= 0.849009600000000E+09  0.613710000000000E+05\n\n*******************************************************************************\nEphemeris / API_USER Sat Nov 14 18:09:16 2026 Pasadena, USA      / Horizons\n*******************************************************************************\nTarget body name: Jupiter (599)                   {source: jup365_merged}\nCenter body name: Sun (10)                        {source: jup365_merged}\nCenter-site name: BODY CENTER\n*******************************************************************************\nStart time      : A.D. 1977-Sep-01 00:00:00.0000 UT \nStop  time      : A.D. 2026-Nov-27 00:00:00.0000 UT \nStep-size       : 46080 minutes\n*******************************************************************************\nCenter geodetic : 0.0, 0.0, 0.0                   {E-lon(deg),Lat(deg),Alt(km)}\nCenter cylindric: 0.0, 0.0, 0.0                   {E-lon(deg),Dxy(km),Dz(km)}\nCenter radii    : 695700.0, 695700.0, 695700.0 km {Equator_a, b, pole_c}\nOutput units    : KM-S\nCalendar mode   : Mixed Julian/Gregorian\nOutput type     : GEOMETRIC cartesian states\nOutput format   : 2 (position and velocity)\nEOP file        : eop.261113.p270209\nEOP coverage    : DATA-BASED 1962-JAN-20 TO 2026-NOV-13. PREDICTS-> 2027-FEB-08\nReference frame : ICRF\n*******************************************************************************\n            JDUT ,            Calendar Date (UT ),                      X,                      Y,                      Z,                     VX,                     VY,                     VZ,\n**************************************************************************************************************************************************************************************************\n"
+      },
+      "checks": {
+        "sha256": "c174d689e82a26a9e35df36ca3318f7d1161101530679370150f4fc53834a09f",
+        "parameters": {
+          "format": "json",
+          "COMMAND": "'599'",
+          "OBJ_DATA": "'NO'",
+          "MAKE_EPHEM": "'YES'",
+          "EPHEM_TYPE": "'VECTORS'",
+          "CENTER": "'500@10'",
+          "TIME_TYPE": "'UT'",
+          "OUT_UNITS": "'KM-S'",
+          "VEC_TABLE": "'2'",
+          "REF_PLANE": "'FRAME'",
+          "REF_SYSTEM": "'ICRF'",
+          "VEC_CORR": "'NONE'",
+          "CSV_FORMAT": "'YES'",
+          "TLIST": "'2443392.250000000,2443595.500000000,2443938.003773148,2444171.500000000,2444555.736805555,2444556.490625000,2444715.500000000,2445291.500000000,2445835.500000000,2446411.500000000,2446955.500000000,2447531.500000000,2447936.700000000,2448075.500000000,2448651.500000000,2449195.500000000,2449771.500000000,2450315.500000000,2450891.500000000,2451435.500000000,2452011.500000000,2452555.500000000,2453131.500000000,2453707.500000000,2454251.500000000,2454827.500000000,2455371.500000000,2455947.500000000,2456164.500000000,2456491.500000000,2457067.500000000,2457611.500000000,2458187.500000000,2458731.500000000,2459307.500000000,2459851.500000000,2460427.500000000,2460971.500000000,2461362.927858796'"
+        },
+        "header": "0000000E+05\nCalling TDBMUT with LBND,LMJD= 0.848268966999972E+09  0.613624278587960E+05\n\n*******************************************************************************\nEphemeris / API_USER Sat Nov 14 18:09:17 2026 Pasadena, USA      / Horizons\n*******************************************************************************\nTarget body name: Jupiter (599)                   {source: jup365_merged}\nCenter body name: Sun (10)                        {source: jup365_merged}\nCenter-site name: BODY CENTER\n*******************************************************************************\nStart time      : A.D. 1977-Sep-05 18:00:00.0000 UT \nStop  time      : A.D. 2026-Nov-18 10:16:07.0000 UT \nStep-size       : DISCRETE TIME-LIST\n*******************************************************************************\nCenter geodetic : 0.0, 0.0, 0.0                   {E-lon(deg),Lat(deg),Alt(km)}\nCenter cylindric: 0.0, 0.0, 0.0                   {E-lon(deg),Dxy(km),Dz(km)}\nCenter radii    : 695700.0, 695700.0, 695700.0 km {Equator_a, b, pole_c}\nOutput units    : KM-S\nCalendar mode   : Mixed Julian/Gregorian\nOutput type     : GEOMETRIC cartesian states\nOutput format   : 2 (position and velocity)\nEOP file        : eop.261113.p270209\nEOP coverage    : DATA-BASED 1962-JAN-20 TO 2026-NOV-13. PREDICTS-> 2027-FEB-08\nReference frame : ICRF\n*******************************************************************************\n            JDUT ,            Calendar Date (UT ),                      X,                      Y,                      Z,                     VX,                     VY,                     VZ,\n**************************************************************************************************************************************************************************************************\n"
+      },
+      "count": 563,
+      "stepDays": 32
+    },
+    "saturn": {
+      "samples": {
+        "sha256": "1d142bbe1a3182ad7563758b5f66400da68b7473eb8d9e867c18ae1a1c0c7775",
+        "parameters": {
+          "format": "json",
+          "COMMAND": "'699'",
+          "OBJ_DATA": "'NO'",
+          "MAKE_EPHEM": "'YES'",
+          "EPHEM_TYPE": "'VECTORS'",
+          "CENTER": "'500@10'",
+          "TIME_TYPE": "'UT'",
+          "OUT_UNITS": "'KM-S'",
+          "VEC_TABLE": "'2'",
+          "REF_PLANE": "'FRAME'",
+          "REF_SYSTEM": "'ICRF'",
+          "VEC_CORR": "'NONE'",
+          "CSV_FORMAT": "'YES'",
+          "START_TIME": "'JD2443387.5'",
+          "STOP_TIME": "'JD2461371.5'",
+          "STEP_SIZE": "'32 d'"
+        },
+        "header": "000E+09  0.613390000000000E+05\nCalling TDBMUT with LBND,LMJD= 0.849009600000000E+09  0.613710000000000E+05\n\n*******************************************************************************\nEphemeris / API_USER Sat Nov 14 18:09:18 2026 Pasadena, USA      / Horizons\n*******************************************************************************\nTarget body name: Saturn (699)                    {source: sat441l}\nCenter body name: Sun (10)                        {source: DE441}\nCenter-site name: BODY CENTER\n*******************************************************************************\nStart time      : A.D. 1977-Sep-01 00:00:00.0000 UT \nStop  time      : A.D. 2026-Nov-27 00:00:00.0000 UT \nStep-size       : 46080 minutes\n*******************************************************************************\nCenter geodetic : 0.0, 0.0, 0.0                   {E-lon(deg),Lat(deg),Alt(km)}\nCenter cylindric: 0.0, 0.0, 0.0                   {E-lon(deg),Dxy(km),Dz(km)}\nCenter radii    : 695700.0, 695700.0, 695700.0 km {Equator_a, b, pole_c}\nOutput units    : KM-S\nCalendar mode   : Mixed Julian/Gregorian\nOutput type     : GEOMETRIC cartesian states\nOutput format   : 2 (position and velocity)\nEOP file        : eop.261113.p270209\nEOP coverage    : DATA-BASED 1962-JAN-20 TO 2026-NOV-13. PREDICTS-> 2027-FEB-08\nReference frame : ICRF\n*******************************************************************************\n            JDUT ,            Calendar Date (UT ),                      X,                      Y,                      Z,                     VX,                     VY,                     VZ,\n**************************************************************************************************************************************************************************************************\n"
+      },
+      "checks": {
+        "sha256": "b4513ade39a9ec00855f9a3d475f041c1747f508197a6579d7e620dc64b8c3c2",
+        "parameters": {
+          "format": "json",
+          "COMMAND": "'699'",
+          "OBJ_DATA": "'NO'",
+          "MAKE_EPHEM": "'YES'",
+          "EPHEM_TYPE": "'VECTORS'",
+          "CENTER": "'500@10'",
+          "TIME_TYPE": "'UT'",
+          "OUT_UNITS": "'KM-S'",
+          "VEC_TABLE": "'2'",
+          "REF_PLANE": "'FRAME'",
+          "REF_SYSTEM": "'ICRF'",
+          "VEC_CORR": "'NONE'",
+          "CSV_FORMAT": "'YES'",
+          "TLIST": "'2443392.250000000,2443595.500000000,2443938.003773148,2444171.500000000,2444555.736805555,2444556.490625000,2444715.500000000,2445291.500000000,2445835.500000000,2446411.500000000,2446955.500000000,2447531.500000000,2447936.700000000,2448075.500000000,2448651.500000000,2449195.500000000,2449771.500000000,2450315.500000000,2450891.500000000,2451435.500000000,2452011.500000000,2452555.500000000,2453131.500000000,2453707.500000000,2454251.500000000,2454827.500000000,2455371.500000000,2455947.500000000,2456164.500000000,2456491.500000000,2457067.500000000,2457611.500000000,2458187.500000000,2458731.500000000,2459307.500000000,2459851.500000000,2460427.500000000,2460971.500000000,2461362.927858796'"
+        },
+        "header": "09  0.609710000000000E+05\nCalling TDBMUT with LBND,LMJD= 0.848268966999972E+09  0.613624278587960E+05\n\n*******************************************************************************\nEphemeris / API_USER Sat Nov 14 18:09:19 2026 Pasadena, USA      / Horizons\n*******************************************************************************\nTarget body name: Saturn (699)                    {source: sat441l}\nCenter body name: Sun (10)                        {source: DE441}\nCenter-site name: BODY CENTER\n*******************************************************************************\nStart time      : A.D. 1977-Sep-05 18:00:00.0000 UT \nStop  time      : A.D. 2026-Nov-18 10:16:07.0000 UT \nStep-size       : DISCRETE TIME-LIST\n*******************************************************************************\nCenter geodetic : 0.0, 0.0, 0.0                   {E-lon(deg),Lat(deg),Alt(km)}\nCenter cylindric: 0.0, 0.0, 0.0                   {E-lon(deg),Dxy(km),Dz(km)}\nCenter radii    : 695700.0, 695700.0, 695700.0 km {Equator_a, b, pole_c}\nOutput units    : KM-S\nCalendar mode   : Mixed Julian/Gregorian\nOutput type     : GEOMETRIC cartesian states\nOutput format   : 2 (position and velocity)\nEOP file        : eop.261113.p270209\nEOP coverage    : DATA-BASED 1962-JAN-20 TO 2026-NOV-13. PREDICTS-> 2027-FEB-08\nReference frame : ICRF\n*******************************************************************************\n            JDUT ,            Calendar Date (UT ),                      X,                      Y,                      Z,                     VX,                     VY,                     VZ,\n**************************************************************************************************************************************************************************************************\n"
+      },
+      "count": 563,
+      "stepDays": 32
+    },
+    "uranus": {
+      "samples": {
+        "sha256": "0c56e470647f435f61c6b51802498fc21a0aa6d977d7c3038c98c25163f2be46",
+        "parameters": {
+          "format": "json",
+          "COMMAND": "'799'",
+          "OBJ_DATA": "'NO'",
+          "MAKE_EPHEM": "'YES'",
+          "EPHEM_TYPE": "'VECTORS'",
+          "CENTER": "'500@10'",
+          "TIME_TYPE": "'UT'",
+          "OUT_UNITS": "'KM-S'",
+          "VEC_TABLE": "'2'",
+          "REF_PLANE": "'FRAME'",
+          "REF_SYSTEM": "'ICRF'",
+          "VEC_CORR": "'NONE'",
+          "CSV_FORMAT": "'YES'",
+          "START_TIME": "'JD2443387.5'",
+          "STOP_TIME": "'JD2461371.5'",
+          "STEP_SIZE": "'32 d'"
+        },
+        "header": "390000000000E+05\nCalling TDBMUT with LBND,LMJD= 0.849009600000000E+09  0.613710000000000E+05\n\n*******************************************************************************\nEphemeris / API_USER Sat Nov 14 18:09:20 2026 Pasadena, USA      / Horizons\n*******************************************************************************\nTarget body name: Uranus (799)                    {source: ura184_merged}\nCenter body name: Sun (10)                        {source: ura184_merged}\nCenter-site name: BODY CENTER\n*******************************************************************************\nStart time      : A.D. 1977-Sep-01 00:00:00.0000 UT \nStop  time      : A.D. 2026-Nov-27 00:00:00.0000 UT \nStep-size       : 46080 minutes\n*******************************************************************************\nCenter geodetic : 0.0, 0.0, 0.0                   {E-lon(deg),Lat(deg),Alt(km)}\nCenter cylindric: 0.0, 0.0, 0.0                   {E-lon(deg),Dxy(km),Dz(km)}\nCenter radii    : 695700.0, 695700.0, 695700.0 km {Equator_a, b, pole_c}\nOutput units    : KM-S\nCalendar mode   : Mixed Julian/Gregorian\nOutput type     : GEOMETRIC cartesian states\nOutput format   : 2 (position and velocity)\nEOP file        : eop.261113.p270209\nEOP coverage    : DATA-BASED 1962-JAN-20 TO 2026-NOV-13. PREDICTS-> 2027-FEB-08\nReference frame : ICRF\n*******************************************************************************\n            JDUT ,            Calendar Date (UT ),                      X,                      Y,                      Z,                     VX,                     VY,                     VZ,\n**************************************************************************************************************************************************************************************************\n"
+      },
+      "checks": {
+        "sha256": "55fac30b3a2de83a92a04c9aba8a0ad40731661e2e1c5e48f3e092e3944e7b4b",
+        "parameters": {
+          "format": "json",
+          "COMMAND": "'799'",
+          "OBJ_DATA": "'NO'",
+          "MAKE_EPHEM": "'YES'",
+          "EPHEM_TYPE": "'VECTORS'",
+          "CENTER": "'500@10'",
+          "TIME_TYPE": "'UT'",
+          "OUT_UNITS": "'KM-S'",
+          "VEC_TABLE": "'2'",
+          "REF_PLANE": "'FRAME'",
+          "REF_SYSTEM": "'ICRF'",
+          "VEC_CORR": "'NONE'",
+          "CSV_FORMAT": "'YES'",
+          "TLIST": "'2443392.250000000,2443595.500000000,2443938.003773148,2444171.500000000,2444555.736805555,2444556.490625000,2444715.500000000,2445291.500000000,2445835.500000000,2446411.500000000,2446955.500000000,2447531.500000000,2447936.700000000,2448075.500000000,2448651.500000000,2449195.500000000,2449771.500000000,2450315.500000000,2450891.500000000,2451435.500000000,2452011.500000000,2452555.500000000,2453131.500000000,2453707.500000000,2454251.500000000,2454827.500000000,2455371.500000000,2455947.500000000,2456164.500000000,2456491.500000000,2457067.500000000,2457611.500000000,2458187.500000000,2458731.500000000,2459307.500000000,2459851.500000000,2460427.500000000,2460971.500000000,2461362.927858796'"
+        },
+        "header": "0000000E+05\nCalling TDBMUT with LBND,LMJD= 0.848268966999972E+09  0.613624278587960E+05\n\n*******************************************************************************\nEphemeris / API_USER Sat Nov 14 18:09:21 2026 Pasadena, USA      / Horizons\n*******************************************************************************\nTarget body name: Uranus (799)                    {source: ura184_merged}\nCenter body name: Sun (10)                        {source: ura184_merged}\nCenter-site name: BODY CENTER\n*******************************************************************************\nStart time      : A.D. 1977-Sep-05 18:00:00.0000 UT \nStop  time      : A.D. 2026-Nov-18 10:16:07.0000 UT \nStep-size       : DISCRETE TIME-LIST\n*******************************************************************************\nCenter geodetic : 0.0, 0.0, 0.0                   {E-lon(deg),Lat(deg),Alt(km)}\nCenter cylindric: 0.0, 0.0, 0.0                   {E-lon(deg),Dxy(km),Dz(km)}\nCenter radii    : 695700.0, 695700.0, 695700.0 km {Equator_a, b, pole_c}\nOutput units    : KM-S\nCalendar mode   : Mixed Julian/Gregorian\nOutput type     : GEOMETRIC cartesian states\nOutput format   : 2 (position and velocity)\nEOP file        : eop.261113.p270209\nEOP coverage    : DATA-BASED 1962-JAN-20 TO 2026-NOV-13. PREDICTS-> 2027-FEB-08\nReference frame : ICRF\n*******************************************************************************\n            JDUT ,            Calendar Date (UT ),                      X,                      Y,                      Z,                     VX,                     VY,                     VZ,\n**************************************************************************************************************************************************************************************************\n"
+      },
+      "count": 563,
+      "stepDays": 32
+    },
+    "neptune": {
+      "samples": {
+        "sha256": "3701d8378168da325697b381483fd3933c9fd496851d50215b3dee7b45e7d0aa",
+        "parameters": {
+          "format": "json",
+          "COMMAND": "'899'",
+          "OBJ_DATA": "'NO'",
+          "MAKE_EPHEM": "'YES'",
+          "EPHEM_TYPE": "'VECTORS'",
+          "CENTER": "'500@10'",
+          "TIME_TYPE": "'UT'",
+          "OUT_UNITS": "'KM-S'",
+          "VEC_TABLE": "'2'",
+          "REF_PLANE": "'FRAME'",
+          "REF_SYSTEM": "'ICRF'",
+          "VEC_CORR": "'NONE'",
+          "CSV_FORMAT": "'YES'",
+          "START_TIME": "'JD2443387.5'",
+          "STOP_TIME": "'JD2461371.5'",
+          "STEP_SIZE": "'32 d'"
+        },
+        "header": "390000000000E+05\nCalling TDBMUT with LBND,LMJD= 0.849009600000000E+09  0.613710000000000E+05\n\n*******************************************************************************\nEphemeris / API_USER Sat Nov 14 18:09:22 2026 Pasadena, USA      / Horizons\n*******************************************************************************\nTarget body name: Neptune (899)                   {source: nep098_merged}\nCenter body name: Sun (10)                        {source: nep098_merged}\nCenter-site name: BODY CENTER\n*******************************************************************************\nStart time      : A.D. 1977-Sep-01 00:00:00.0000 UT \nStop  time      : A.D. 2026-Nov-27 00:00:00.0000 UT \nStep-size       : 46080 minutes\n*******************************************************************************\nCenter geodetic : 0.0, 0.0, 0.0                   {E-lon(deg),Lat(deg),Alt(km)}\nCenter cylindric: 0.0, 0.0, 0.0                   {E-lon(deg),Dxy(km),Dz(km)}\nCenter radii    : 695700.0, 695700.0, 695700.0 km {Equator_a, b, pole_c}\nOutput units    : KM-S\nCalendar mode   : Mixed Julian/Gregorian\nOutput type     : GEOMETRIC cartesian states\nOutput format   : 2 (position and velocity)\nEOP file        : eop.261113.p270209\nEOP coverage    : DATA-BASED 1962-JAN-20 TO 2026-NOV-13. PREDICTS-> 2027-FEB-08\nReference frame : ICRF\n*******************************************************************************\n            JDUT ,            Calendar Date (UT ),                      X,                      Y,                      Z,                     VX,                     VY,                     VZ,\n**************************************************************************************************************************************************************************************************\n"
+      },
+      "checks": {
+        "sha256": "31fbb898da9701538747479e0471dae80c6af13fc0359d7b8f2575b57bfd703c",
+        "parameters": {
+          "format": "json",
+          "COMMAND": "'899'",
+          "OBJ_DATA": "'NO'",
+          "MAKE_EPHEM": "'YES'",
+          "EPHEM_TYPE": "'VECTORS'",
+          "CENTER": "'500@10'",
+          "TIME_TYPE": "'UT'",
+          "OUT_UNITS": "'KM-S'",
+          "VEC_TABLE": "'2'",
+          "REF_PLANE": "'FRAME'",
+          "REF_SYSTEM": "'ICRF'",
+          "VEC_CORR": "'NONE'",
+          "CSV_FORMAT": "'YES'",
+          "TLIST": "'2443392.250000000,2443595.500000000,2443938.003773148,2444171.500000000,2444555.736805555,2444556.490625000,2444715.500000000,2445291.500000000,2445835.500000000,2446411.500000000,2446955.500000000,2447531.500000000,2447936.700000000,2448075.500000000,2448651.500000000,2449195.500000000,2449771.500000000,2450315.500000000,2450891.500000000,2451435.500000000,2452011.500000000,2452555.500000000,2453131.500000000,2453707.500000000,2454251.500000000,2454827.500000000,2455371.500000000,2455947.500000000,2456164.500000000,2456491.500000000,2457067.500000000,2457611.500000000,2458187.500000000,2458731.500000000,2459307.500000000,2459851.500000000,2460427.500000000,2460971.500000000,2461362.927858796'"
+        },
+        "header": "0000000E+05\nCalling TDBMUT with LBND,LMJD= 0.848268966999972E+09  0.613624278587960E+05\n\n*******************************************************************************\nEphemeris / API_USER Sat Nov 14 18:09:23 2026 Pasadena, USA      / Horizons\n*******************************************************************************\nTarget body name: Neptune (899)                   {source: nep098_merged}\nCenter body name: Sun (10)                        {source: nep098_merged}\nCenter-site name: BODY CENTER\n*******************************************************************************\nStart time      : A.D. 1977-Sep-05 18:00:00.0000 UT \nStop  time      : A.D. 2026-Nov-18 10:16:07.0000 UT \nStep-size       : DISCRETE TIME-LIST\n*******************************************************************************\nCenter geodetic : 0.0, 0.0, 0.0                   {E-lon(deg),Lat(deg),Alt(km)}\nCenter cylindric: 0.0, 0.0, 0.0                   {E-lon(deg),Dxy(km),Dz(km)}\nCenter radii    : 695700.0, 695700.0, 695700.0 km {Equator_a, b, pole_c}\nOutput units    : KM-S\nCalendar mode   : Mixed Julian/Gregorian\nOutput type     : GEOMETRIC cartesian states\nOutput format   : 2 (position and velocity)\nEOP file        : eop.261113.p270209\nEOP coverage    : DATA-BASED 1962-JAN-20 TO 2026-NOV-13. PREDICTS-> 2027-FEB-08\nReference frame : ICRF\n*******************************************************************************\n            JDUT ,            Calendar Date (UT ),                      X,                      Y,                      Z,                     VX,                     VY,                     VZ,\n**************************************************************************************************************************************************************************************************\n"
+      },
+      "count": 563,
+      "stepDays": 32
+    }
+  }
+}

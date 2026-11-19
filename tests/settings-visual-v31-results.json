@@ -1,0 +1,67 @@
+{
+  "version": "0.31.0",
+  "issue": "Image preview appeared to omit text; original screenshots and repeated captures contain the title, content and footer.",
+  "runtimeChangeForThisInvestigation": false,
+  "captures": [
+    {
+      "page": "sound",
+      "regions": {
+        "title": {
+          "brightPixels": 1089,
+          "repeatBrightPixels": 1089,
+          "meanPixelDifference": 0.0005252525252525252
+        },
+        "page": {
+          "brightPixels": 3519,
+          "repeatBrightPixels": 3519,
+          "meanPixelDifference": 0.0
+        },
+        "footer": {
+          "brightPixels": 385,
+          "repeatBrightPixels": 385,
+          "meanPixelDifference": 0.0
+        }
+      }
+    },
+    {
+      "page": "picture",
+      "regions": {
+        "title": {
+          "brightPixels": 1089,
+          "repeatBrightPixels": 1089,
+          "meanPixelDifference": 0.0005252525252525252
+        },
+        "page": {
+          "brightPixels": 2263,
+          "repeatBrightPixels": 2263,
+          "meanPixelDifference": 0.0
+        },
+        "footer": {
+          "brightPixels": 385,
+          "repeatBrightPixels": 385,
+          "meanPixelDifference": 0.0
+        }
+      }
+    },
+    {
+      "page": "flight",
+      "regions": {
+        "title": {
+          "brightPixels": 1089,
+          "repeatBrightPixels": 1089,
+          "meanPixelDifference": 0.0005252525252525252
+        },
+        "page": {
+          "brightPixels": 5482,
+          "repeatBrightPixels": 5482,
+          "meanPixelDifference": 0.0
+        },
+        "footer": {
+          "brightPixels": 385,
+          "repeatBrightPixels": 385,
+          "meanPixelDifference": 0.0
+        }
+      }
+    }
+  ]
+}
