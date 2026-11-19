@@ -11,12 +11,12 @@
     {
       "name": "dated",
       "worldDraws": 0,
-      "progressDelta": 0.04630000000000001
+      "progressDelta": 0.04167000000000011
     },
     {
       "name": "local",
       "worldDraws": 0,
-      "progressDelta": 0.04628888888888896
+      "progressDelta": 0.05951428571428578
     }
   ],
   "errors": []

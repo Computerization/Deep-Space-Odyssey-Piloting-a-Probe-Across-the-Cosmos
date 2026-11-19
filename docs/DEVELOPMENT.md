@@ -1,5 +1,7 @@
 # Current development entry point (0.113)
 
+`node tests/gravity-camera-passage.mjs` exercises the default external view, C/K switching without physical-state changes, the interactive fall estimate, cinematic passage, skip and compact layout in Chrome. `assisted-flight.test.mjs` checks inverse-square gravity, differential-frame cancellation, coasting and braking. A Node CPU-only microbenchmark against 0.113 measured a median 0.24 µs per 60 Hz integration frame of additional gravity work over 20,000 frames; this does not measure GPU frame time.
+
 `node tests/voyage-comfort.mjs` checks the fixed departure view against the actual flight handover, submenu focus and momentum while paused, live and saved motion preferences, dated and local chart layout, and matching flight states in both presentations. It counts 3D world draws during moving, opaque chart passages. `encounter-discovery.test.mjs` covers lost framing, short corrections and changing subjects.
 
 `node tests/studio-loading.mjs` holds back the cruise ephemeris, checks that the model can already be rotated or inspected, and releases the data before flight. `node tests/spacecraft-framing.mjs` compares the framing hull to the transformed studio mesh in 512 directions. Use `--write` only after changing the model or inspection reflector.

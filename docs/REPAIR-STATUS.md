@@ -1,5 +1,7 @@
 # Cosmos — current delivery status
 
+Revision 0.114 starts flight in third person, makes first/third-person switching explicit, and preserves the selected view through encounters. Local flight adds fixed-epoch spherical gravity with differential external forces; an adjustable instrument estimates fall under constant local acceleration. Thrust, follow mode and flight limits remain assisted. Standard passages use the existing 3D spacecraft and worlds with brief dissolves, dated mission notes, and an optional skip; steady passages retain their low-motion charts. Physical gravity parameters come from JPL. Local coasting and the laboratory estimate are reconstructions, not historical Voyager propulsion or trajectory.
+
 Revision 0.113 retains earned observation time across a brief correction to the same view. Back from a Pause submenu restores its parent and focus; explicit flight actions still resume. The optional steady passage camera uses the first piloted Earth view after the launch film and an opaque chart during dated or local transfers. Covered passages skip 3D draws. Preferences, checkpoint format and manual flight are independent.
 
 Revision 0.112 lets the opening model appear before flight data is ready. Orthographic framing checks 87 extreme vertices instead of scanning all 27,714 vertices of the inspected mesh; it draws the same reflector and hardware. Local exploration shares visibility and range measurements. Paused passages keep their text and chart still, including on reload; Space resumes the passage. Field notes describe what the pilot can see, and resolved-world labels leave the cloud bands clear.
@@ -17,7 +19,7 @@ Revision 0.108 reduces the cost of flying close to Earth. The renderer checks th
 - NASA launch film, a compressed orbital departure and the complete Voyager route: Earth → Jupiter → Titan → Saturn → Pale Blue Dot → interstellar space → one light-day → future outlook.
 - Mouse steering without dragging; WASD translation, QE roll, RF vertical movement, Shift faster assisted flight, Space counter-thrust and Esc pause. Thrust builds momentum; release preserves coasting.
 - Optional viewpoint sequences make changing position meaningful: horizons, crescent phases, cloud bands, ring-plane crossings and nearby moons. Viewing a revealed phenomenon records its explanation; photos remain optional. N remains available without completing discoveries.
-- Interplanetary passages show historical dates, elapsed distance and a projected JPL route diagram. Optional Moon/Io transfers follow a continuous curved path at the same encounter date.
+- Interplanetary passages show historical dates and mission notes over a reconstructed 3D view; steady mode shows the projected JPL route diagram. Optional Moon/Io transfers follow a continuous curved path at the same encounter date.
 - Earth regional imagery increases from 32K to 64K using the original NASA sources; four tiles still form one 4096² patch and the decoded cache remains bounded. Io retains an 11,444 × 5,722 georeferenced source grid. The existing Moon imagery and relief remain.
 - Jupiter and Saturn have a reconstructed upper cloud deck with extinction and self-shadow. Cloud structure follows source imagery; inferred height does not add measured image information. Saturn retains its ring lighting and polar imagery.
 

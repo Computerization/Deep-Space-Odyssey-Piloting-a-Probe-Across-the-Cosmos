@@ -76,6 +76,7 @@ export const SOURCES=[
  ['Historical closest-approach times','NASA NSSDCA; spacecraft UTC','https://nssdc.gsfc.nasa.gov/planetary/voyager-periapse-old.html'],
  ['Voyager 1 launch photograph','NASA archive · 5 September 1977','https://www.nasa.gov/technology/45-years-ago-voyager-1-begins-its-epic-journey-to-the-outer-planets-and-beyond/'],
  ['Voyager mission history','NASA / JPL','https://science.nasa.gov/mission/voyager/voyager-1/'],
+ ['Gravity parameters','NASA / JPL — planetary and satellite gravitational parameters','https://ssd.jpl.nasa.gov/astro_par.html'],
  ['Historic positions','JPL Horizons — ICRF heliocentric vectors','https://ssd.jpl.nasa.gov/horizons/'],
  ['Voyager spacecraft model','NASA 3D Resources','https://science.nasa.gov/resource/voyager-3d-model/'],
  ['Planetary maps','Solar System Scope / INOVE, CC BY 4.0; based on NASA imagery','https://www.solarsystemscope.com/textures/'],
