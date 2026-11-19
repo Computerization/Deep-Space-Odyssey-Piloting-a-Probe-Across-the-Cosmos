@@ -1,0 +1,47 @@
+{
+  "referenceHeightSamples": 128,
+  "runtimeHeightSamples": 14,
+  "sameCurrentColorMap": true,
+  "scope": "Initial lunar study, 1280 x 800, native texture-level height field; denser numerical reference, not spacecraft-image equivalence.",
+  "results": [
+    {
+      "browser": "Chrome",
+      "comparedPixels": 75814,
+      "old": {
+        "meanAbsolute8Bit": 0.5469350427801374,
+        "rms8Bit": 6.545474036464155
+      },
+      "current": {
+        "meanAbsolute8Bit": 0.11878193121762912,
+        "rms8Bit": 2.3795265985146608
+      },
+      "rmsReductionPercent": 63.6462296655893
+    },
+    {
+      "browser": "Firefox",
+      "comparedPixels": 75812,
+      "old": {
+        "meanAbsolute8Bit": 0.5469934399127667,
+        "rms8Bit": 6.546056762875787
+      },
+      "current": {
+        "meanAbsolute8Bit": 0.11874109639634886,
+        "rms8Bit": 2.37868198816996
+      },
+      "rmsReductionPercent": 63.66236844049352
+    },
+    {
+      "browser": "WebKit",
+      "comparedPixels": 75587,
+      "old": {
+        "meanAbsolute8Bit": 0.5134172101904648,
+        "rms8Bit": 6.365150201107222
+      },
+      "current": {
+        "meanAbsolute8Bit": 0.11029233421972914,
+        "rms8Bit": 2.2849476956846493
+      },
+      "rmsReductionPercent": 64.10221874595857
+    }
+  ]
+}

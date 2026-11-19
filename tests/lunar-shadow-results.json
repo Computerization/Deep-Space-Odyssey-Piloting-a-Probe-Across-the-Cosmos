@@ -1,0 +1,710 @@
+{
+  "version": "0.95.0",
+  "previous": "/private/tmp/cosmos-v95-previous/Cosmos",
+  "previousShaderSha256": "701487cdd182379a4c813f7ff50b11e416329adc2fccc2dcff7346ac03db0532",
+  "reference": "Fourfold display sampling of unchanged source terrain rays; twofold convergence control. Tests rendering integration, not photographic equivalence.",
+  "outcomes": [
+    {
+      "name": "Chrome",
+      "engineVersion": "158.0.8127.37",
+      "readyMs": 8923,
+      "views": [
+        {
+          "label": "study",
+          "metrics": {
+            "previous": {
+              "rmse": 12.335639816343743,
+              "count": 90096,
+              "max": 196
+            },
+            "candidate": {
+              "rmse": 9.873513007101522,
+              "count": 90096,
+              "max": 134
+            },
+            "convergence": {
+              "rmse": 5.060330175456796,
+              "count": 90096,
+              "max": 77
+            }
+          }
+        },
+        {
+          "label": "close",
+          "metrics": {
+            "previous": {
+              "rmse": 5.207332067084122,
+              "count": 773073,
+              "max": 125
+            },
+            "candidate": {
+              "rmse": 4.795696795527879,
+              "count": 773073,
+              "max": 125
+            },
+            "convergence": {
+              "rmse": 1.8166991914618298,
+              "count": 773073,
+              "max": 52
+            }
+          }
+        },
+        {
+          "label": "detail",
+          "metrics": {
+            "previous": {
+              "rmse": 9.508331998681303,
+              "count": 1194858,
+              "max": 146
+            },
+            "candidate": {
+              "rmse": 9.508331998681303,
+              "count": 1194858,
+              "max": 146
+            },
+            "convergence": {
+              "rmse": 9.434865650836675,
+              "count": 1194858,
+              "max": 138
+            }
+          }
+        },
+        {
+          "label": "crescent",
+          "metrics": {
+            "previous": {
+              "rmse": 20.384919933125598,
+              "count": 45651,
+              "max": 214
+            },
+            "candidate": {
+              "rmse": 15.774954952120451,
+              "count": 45651,
+              "max": 184
+            },
+            "convergence": {
+              "rmse": 7.829351494527942,
+              "count": 45651,
+              "max": 107
+            }
+          }
+        },
+        {
+          "label": "full",
+          "metrics": {
+            "previous": {
+              "rmse": 6.0499153193692266,
+              "count": 1112940,
+              "max": 175
+            },
+            "candidate": {
+              "rmse": 4.783782884233667,
+              "count": 1112940,
+              "max": 127
+            },
+            "convergence": {
+              "rmse": 2.2602527756126065,
+              "count": 1112940,
+              "max": 75
+            }
+          }
+        },
+        {
+          "label": "north",
+          "metrics": {
+            "previous": {
+              "rmse": 8.88350180712176,
+              "count": 706152,
+              "max": 222
+            },
+            "candidate": {
+              "rmse": 7.098901787367105,
+              "count": 706152,
+              "max": 158
+            },
+            "convergence": {
+              "rmse": 3.375618501790499,
+              "count": 706152,
+              "max": 129
+            }
+          }
+        },
+        {
+          "label": "south",
+          "metrics": {
+            "previous": {
+              "rmse": 7.686532780603314,
+              "count": 710505,
+              "max": 216
+            },
+            "candidate": {
+              "rmse": 6.116616416769299,
+              "count": 710505,
+              "max": 186
+            },
+            "convergence": {
+              "rmse": 2.9698887396150533,
+              "count": 710505,
+              "max": 136
+            }
+          }
+        }
+      ],
+      "motion": {
+        "steps": 8,
+        "spatialError": {
+          "previous": 35473921.698868886,
+          "candidate": 22230800.511312477
+        },
+        "changeError": {
+          "previous": 22064392.869098805,
+          "candidate": 11748407.65754425
+        },
+        "pixels": 239946
+      },
+      "cost": {
+        "pixels": [
+          1600,
+          1000
+        ],
+        "method": "CPU submission windows, five warm-up plus twelve draws including gl.finish; driver completion is not established and these values are not GPU time or FPS",
+        "rows": [
+          {
+            "mode": "previous",
+            "medianMs": 0.10000002384185791,
+            "maxMs": 0.20000001788139343
+          },
+          {
+            "mode": "candidate",
+            "medianMs": 0.10000002384185791,
+            "maxMs": 0.20000001788139343
+          },
+          {
+            "mode": "candidate",
+            "medianMs": 0.09999999403953552,
+            "maxMs": 0.20000001788139343
+          },
+          {
+            "mode": "previous",
+            "medianMs": 0.09999999403953552,
+            "maxMs": 0.10000002384185791
+          }
+        ]
+      },
+      "lifecycle": {
+        "heldUpdates": 0,
+        "initialUpdates": 1,
+        "updates": 1,
+        "textureReused": true,
+        "rows": [
+          {
+            "chapter": 1,
+            "ready": 0,
+            "updates": 1
+          },
+          {
+            "chapter": 2,
+            "ready": 0,
+            "updates": 1
+          },
+          {
+            "chapter": 3,
+            "ready": 0,
+            "updates": 1
+          },
+          {
+            "chapter": 4,
+            "ready": 0,
+            "updates": 1
+          },
+          {
+            "chapter": 5,
+            "ready": 0,
+            "updates": 1
+          },
+          {
+            "chapter": 0,
+            "ready": 1,
+            "updates": 1
+          }
+        ],
+        "size": [
+          5760,
+          2880
+        ],
+        "maxSamplers": 16,
+        "graphicsError": 0
+      },
+      "errors": [],
+      "passed": true
+    },
+    {
+      "name": "Firefox",
+      "engineVersion": "153.0",
+      "readyMs": 19317,
+      "views": [
+        {
+          "label": "study",
+          "metrics": {
+            "previous": {
+              "rmse": 12.324453997163332,
+              "count": 90111,
+              "max": 196
+            },
+            "candidate": {
+              "rmse": 9.852907153891442,
+              "count": 90111,
+              "max": 132
+            },
+            "convergence": {
+              "rmse": 5.071743939480088,
+              "count": 90111,
+              "max": 84
+            }
+          }
+        },
+        {
+          "label": "close",
+          "metrics": {
+            "previous": {
+              "rmse": 5.226997618488884,
+              "count": 773085,
+              "max": 125
+            },
+            "candidate": {
+              "rmse": 4.817160271544213,
+              "count": 773085,
+              "max": 125
+            },
+            "convergence": {
+              "rmse": 1.829070849199463,
+              "count": 773085,
+              "max": 52
+            }
+          }
+        },
+        {
+          "label": "detail",
+          "metrics": {
+            "previous": {
+              "rmse": 9.510886280950528,
+              "count": 1194852,
+              "max": 145
+            },
+            "candidate": {
+              "rmse": 9.510886280950528,
+              "count": 1194852,
+              "max": 145
+            },
+            "convergence": {
+              "rmse": 9.437828660740875,
+              "count": 1194852,
+              "max": 138
+            }
+          }
+        },
+        {
+          "label": "crescent",
+          "metrics": {
+            "previous": {
+              "rmse": 20.413185963403567,
+              "count": 45627,
+              "max": 214
+            },
+            "candidate": {
+              "rmse": 15.798877567854591,
+              "count": 45627,
+              "max": 184
+            },
+            "convergence": {
+              "rmse": 7.836998534919994,
+              "count": 45627,
+              "max": 107
+            }
+          }
+        },
+        {
+          "label": "full",
+          "metrics": {
+            "previous": {
+              "rmse": 6.070564324467372,
+              "count": 1112940,
+              "max": 175
+            },
+            "candidate": {
+              "rmse": 4.808336782204646,
+              "count": 1112940,
+              "max": 127
+            },
+            "convergence": {
+              "rmse": 2.26965748208589,
+              "count": 1112940,
+              "max": 75
+            }
+          }
+        },
+        {
+          "label": "north",
+          "metrics": {
+            "previous": {
+              "rmse": 8.891369640900875,
+              "count": 706149,
+              "max": 221
+            },
+            "candidate": {
+              "rmse": 7.10798079314605,
+              "count": 706149,
+              "max": 158
+            },
+            "convergence": {
+              "rmse": 3.382260313122535,
+              "count": 706149,
+              "max": 129
+            }
+          }
+        },
+        {
+          "label": "south",
+          "metrics": {
+            "previous": {
+              "rmse": 7.707320955372215,
+              "count": 710508,
+              "max": 217
+            },
+            "candidate": {
+              "rmse": 6.13748988223443,
+              "count": 710508,
+              "max": 186
+            },
+            "convergence": {
+              "rmse": 2.982197436623361,
+              "count": 710508,
+              "max": 136
+            }
+          }
+        }
+      ],
+      "motion": {
+        "steps": 8,
+        "spatialError": {
+          "previous": 35615024.248066604,
+          "candidate": 22291225.726945985
+        },
+        "changeError": {
+          "previous": 22139299.17893708,
+          "candidate": 11778289.360619055
+        },
+        "pixels": 240024
+      },
+      "cost": {
+        "pixels": [
+          1600,
+          1000
+        ],
+        "method": "CPU submission windows, five warm-up plus twelve draws including gl.finish; driver completion is not established and these values are not GPU time or FPS",
+        "rows": [
+          {
+            "mode": "previous",
+            "medianMs": 5,
+            "maxMs": 9
+          },
+          {
+            "mode": "candidate",
+            "medianMs": 5,
+            "maxMs": 16
+          },
+          {
+            "mode": "candidate",
+            "medianMs": 11,
+            "maxMs": 15
+          },
+          {
+            "mode": "previous",
+            "medianMs": 9,
+            "maxMs": 14
+          }
+        ]
+      },
+      "lifecycle": {
+        "heldUpdates": 0,
+        "initialUpdates": 1,
+        "updates": 1,
+        "textureReused": true,
+        "rows": [
+          {
+            "chapter": 1,
+            "ready": 0,
+            "updates": 1
+          },
+          {
+            "chapter": 2,
+            "ready": 0,
+            "updates": 1
+          },
+          {
+            "chapter": 3,
+            "ready": 0,
+            "updates": 1
+          },
+          {
+            "chapter": 4,
+            "ready": 0,
+            "updates": 1
+          },
+          {
+            "chapter": 5,
+            "ready": 0,
+            "updates": 1
+          },
+          {
+            "chapter": 0,
+            "ready": 1,
+            "updates": 1
+          }
+        ],
+        "size": [
+          5760,
+          2880
+        ],
+        "maxSamplers": 16,
+        "graphicsError": 0
+      },
+      "errors": [],
+      "passed": true
+    },
+    {
+      "name": "WebKit",
+      "engineVersion": "26.5",
+      "readyMs": 8211,
+      "views": [
+        {
+          "label": "study",
+          "metrics": {
+            "previous": {
+              "rmse": 12.34183860918027,
+              "count": 90099,
+              "max": 196
+            },
+            "candidate": {
+              "rmse": 9.876967093294917,
+              "count": 90099,
+              "max": 134
+            },
+            "convergence": {
+              "rmse": 5.073891019897738,
+              "count": 90099,
+              "max": 77
+            }
+          }
+        },
+        {
+          "label": "close",
+          "metrics": {
+            "previous": {
+              "rmse": 5.207332067084122,
+              "count": 773073,
+              "max": 125
+            },
+            "candidate": {
+              "rmse": 4.795696795527879,
+              "count": 773073,
+              "max": 125
+            },
+            "convergence": {
+              "rmse": 1.8166991914618298,
+              "count": 773073,
+              "max": 52
+            }
+          }
+        },
+        {
+          "label": "detail",
+          "metrics": {
+            "previous": {
+              "rmse": 9.508331998681303,
+              "count": 1194858,
+              "max": 146
+            },
+            "candidate": {
+              "rmse": 9.508331998681303,
+              "count": 1194858,
+              "max": 146
+            },
+            "convergence": {
+              "rmse": 9.434865650836675,
+              "count": 1194858,
+              "max": 138
+            }
+          }
+        },
+        {
+          "label": "crescent",
+          "metrics": {
+            "previous": {
+              "rmse": 20.384919933125598,
+              "count": 45651,
+              "max": 214
+            },
+            "candidate": {
+              "rmse": 15.774954952120451,
+              "count": 45651,
+              "max": 184
+            },
+            "convergence": {
+              "rmse": 7.829351494527942,
+              "count": 45651,
+              "max": 107
+            }
+          }
+        },
+        {
+          "label": "full",
+          "metrics": {
+            "previous": {
+              "rmse": 6.0499153193692266,
+              "count": 1112940,
+              "max": 175
+            },
+            "candidate": {
+              "rmse": 4.783782884233667,
+              "count": 1112940,
+              "max": 127
+            },
+            "convergence": {
+              "rmse": 2.2602527756126065,
+              "count": 1112940,
+              "max": 75
+            }
+          }
+        },
+        {
+          "label": "north",
+          "metrics": {
+            "previous": {
+              "rmse": 8.882913230065391,
+              "count": 706992,
+              "max": 222
+            },
+            "candidate": {
+              "rmse": 7.0890505682445415,
+              "count": 706992,
+              "max": 158
+            },
+            "convergence": {
+              "rmse": 3.3774412317938154,
+              "count": 706992,
+              "max": 129
+            }
+          }
+        },
+        {
+          "label": "south",
+          "metrics": {
+            "previous": {
+              "rmse": 7.688899758866066,
+              "count": 711129,
+              "max": 216
+            },
+            "candidate": {
+              "rmse": 6.114943233620268,
+              "count": 711129,
+              "max": 186
+            },
+            "convergence": {
+              "rmse": 2.970748751339595,
+              "count": 711129,
+              "max": 136
+            }
+          }
+        }
+      ],
+      "motion": {
+        "steps": 8,
+        "spatialError": {
+          "previous": 35528928.37425172,
+          "candidate": 22242516.376004864
+        },
+        "changeError": {
+          "previous": 22080902.20693959,
+          "candidate": 11750815.754222484
+        },
+        "pixels": 239951
+      },
+      "cost": {
+        "pixels": [
+          1600,
+          1000
+        ],
+        "method": "CPU submission windows, five warm-up plus twelve draws including gl.finish; driver completion is not established and these values are not GPU time or FPS",
+        "rows": [
+          {
+            "mode": "previous",
+            "medianMs": 0,
+            "maxMs": 1
+          },
+          {
+            "mode": "candidate",
+            "medianMs": 0,
+            "maxMs": 1
+          },
+          {
+            "mode": "candidate",
+            "medianMs": 0,
+            "maxMs": 1
+          },
+          {
+            "mode": "previous",
+            "medianMs": 0,
+            "maxMs": 1
+          }
+        ]
+      },
+      "lifecycle": {
+        "heldUpdates": 0,
+        "initialUpdates": 1,
+        "updates": 1,
+        "textureReused": true,
+        "rows": [
+          {
+            "chapter": 1,
+            "ready": 0,
+            "updates": 1
+          },
+          {
+            "chapter": 2,
+            "ready": 0,
+            "updates": 1
+          },
+          {
+            "chapter": 3,
+            "ready": 0,
+            "updates": 1
+          },
+          {
+            "chapter": 4,
+            "ready": 0,
+            "updates": 1
+          },
+          {
+            "chapter": 5,
+            "ready": 0,
+            "updates": 1
+          },
+          {
+            "chapter": 0,
+            "ready": 1,
+            "updates": 1
+          }
+        ],
+        "size": [
+          5760,
+          2880
+        ],
+        "maxSamplers": 16,
+        "graphicsError": 0
+      },
+      "errors": [],
+      "passed": true
+    }
+  ]
+}

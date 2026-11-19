@@ -1,0 +1,36 @@
+{
+  "sourceUrl": "https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia21/pia21611/PIA21611.tif",
+  "sourcePage": "https://science.nasa.gov/photojournal/saturns-hexagon-as-summer-solstice-approaches/",
+  "credit": "NASA/JPL-Caltech/Space Science Institute/Hampton University",
+  "observation": "25 June 2013; left panel of PIA21611",
+  "publishedNativeScaleKmPerPixel": 80,
+  "sourceSha256": "548d41082eecd6511088a7202c5a7d0ac56cc1bd84917c484e948b2d809a6d78",
+  "baseSha256": "9b230075ad122ecfc4f28dd5e20afeda9042034812bcb773ba37d99ce7c4fd64",
+  "sourceDimensions": [
+    2048,
+    1024
+  ],
+  "outputDimensions": [
+    4096,
+    2048
+  ],
+  "projection": "Ellipsoidal polar stereographic; graphic latitude mapped to oblate parametric UV",
+  "jetReferenceLatitudeGraphic": 78,
+  "detectedMeanJetRadiusPixels": 375.0,
+  "effectiveRegisteredKmPerPixel": 37.267965441008805,
+  "registration": "Approximate: published composite lacks georeferencing; use the observed mean hexagon colour edge and published jet latitude. Absolute longitude and Voyager-era weather are not reconstructed.",
+  "latitudeBlendGraphic": [
+    74.5,
+    77
+  ],
+  "sourceEdgeFadePixels": [
+    6,
+    28
+  ],
+  "lightingCorrection": "Subtract the first azimuthal harmonic of linear RGB per latitude. This is inferred gradient removal, not an atmospheric retrieval.",
+  "lowerLatitudePixelsPreservedBeforeEncoding": true,
+  "polarSeamDifferenceBeforeEncoding": 0,
+  "usesProceduralWeather": false,
+  "outputSha256": "8fb1f7e58de07f65ac21ecc26964d5a3a68b3674e710ea5b7de0ed674f390e1f",
+  "outputBytes": 243883
+}

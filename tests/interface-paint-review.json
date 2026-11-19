@@ -1,0 +1,4750 @@
+{
+  "version": "0.66.0",
+  "cssSha256": {
+    "previous": "c070c8ebb412e2dba48705e017c5a83118487767a18b2bd6f83be09ef30955f8",
+    "current": "d962c73318f027d28a99187e867da42ee101c8c390a8b70f946b20e76741f722"
+  },
+  "method": "Actual held compositions before/current stylesheet, after existing color transitions have settled. Capture interface paint while retaining the same scene canvas, physical pose and visible control geometry. No input remapping or runtime test hook added.",
+  "reviews": [
+    {
+      "name": "Chrome",
+      "engineVersion": "158.0.8127.37",
+      "label": "earth",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "variants": [
+        {
+          "mode": "previous",
+          "physicalUnchanged": true,
+          "scenePixelsUnchanged": true,
+          "buttons": {
+            "view-button": {
+              "rect": [
+                1069.3125,
+                29,
+                103.5625,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "Probe camera"
+            },
+            "map-button": {
+              "rect": [
+                1192.875,
+                29,
+                61.53125,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "Explore"
+            },
+            "controls-button": {
+              "rect": [
+                1274.40625,
+                28,
+                44,
+                46
+              ],
+              "shadow": "none",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "?"
+            },
+            "time-toggle": {
+              "rect": [
+                218.125,
+                794,
+                64,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(241, 238, 227)",
+              "opacity": "1",
+              "text": "Held"
+            },
+            "photo-button": {
+              "rect": [
+                1101.671875,
+                831,
+                94.796875,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(228, 231, 222)",
+              "opacity": "1",
+              "text": "PhotographP"
+            },
+            "review-button": {
+              "rect": [
+                1222.46875,
+                831,
+                83.953125,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(188, 198, 199)",
+              "opacity": "1",
+              "text": "Flight review"
+            },
+            "log-button": {
+              "rect": [
+                1332.421875,
+                831,
+                49.984375,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(188, 198, 199)",
+              "opacity": "1",
+              "text": "Journal"
+            }
+          },
+          "pauseFilter": "none",
+          "buttonCount": 14
+        },
+        {
+          "mode": "current",
+          "physicalUnchanged": true,
+          "scenePixelsUnchanged": true,
+          "buttons": {
+            "view-button": {
+              "rect": [
+                1069.3125,
+                29,
+                103.5625,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "Probe camera"
+            },
+            "map-button": {
+              "rect": [
+                1192.875,
+                29,
+                61.53125,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "Explore"
+            },
+            "controls-button": {
+              "rect": [
+                1274.40625,
+                28,
+                44,
+                46
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "?"
+            },
+            "time-toggle": {
+              "rect": [
+                218.125,
+                794,
+                64,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(241, 238, 227)",
+              "opacity": "1",
+              "text": "Held"
+            },
+            "photo-button": {
+              "rect": [
+                1101.671875,
+                831,
+                94.796875,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(228, 231, 222)",
+              "opacity": "1",
+              "text": "PhotographP"
+            },
+            "review-button": {
+              "rect": [
+                1222.46875,
+                831,
+                83.953125,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(188, 198, 199)",
+              "opacity": "1",
+              "text": "Flight review"
+            },
+            "log-button": {
+              "rect": [
+                1332.421875,
+                831,
+                49.984375,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(188, 198, 199)",
+              "opacity": "1",
+              "text": "Journal"
+            }
+          },
+          "pauseFilter": "drop-shadow(rgb(0, 0, 0) 0px 1px 3px)",
+          "buttonCount": 14
+        }
+      ]
+    },
+    {
+      "name": "Chrome",
+      "engineVersion": "158.0.8127.37",
+      "label": "lunar-detail",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "variants": [
+        {
+          "mode": "previous",
+          "physicalUnchanged": true,
+          "scenePixelsUnchanged": true,
+          "buttons": {
+            "view-button": {
+              "rect": [
+                1069.3125,
+                29,
+                103.5625,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "Probe camera"
+            },
+            "map-button": {
+              "rect": [
+                1192.875,
+                29,
+                61.53125,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "Explore"
+            },
+            "controls-button": {
+              "rect": [
+                1274.40625,
+                28,
+                44,
+                46
+              ],
+              "shadow": "none",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "?"
+            },
+            "time-toggle": {
+              "rect": [
+                217.40625,
+                794,
+                64,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(241, 238, 227)",
+              "opacity": "1",
+              "text": "Held"
+            },
+            "photo-button": {
+              "rect": [
+                1101.671875,
+                831,
+                94.796875,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(228, 231, 222)",
+              "opacity": "1",
+              "text": "PhotographP"
+            },
+            "review-button": {
+              "rect": [
+                1222.46875,
+                831,
+                83.953125,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(188, 198, 199)",
+              "opacity": "1",
+              "text": "Flight review"
+            },
+            "log-button": {
+              "rect": [
+                1332.421875,
+                831,
+                49.984375,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(188, 198, 199)",
+              "opacity": "1",
+              "text": "Journal"
+            }
+          },
+          "pauseFilter": "none",
+          "buttonCount": 14
+        },
+        {
+          "mode": "current",
+          "physicalUnchanged": true,
+          "scenePixelsUnchanged": true,
+          "buttons": {
+            "view-button": {
+              "rect": [
+                1069.3125,
+                29,
+                103.5625,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "Probe camera"
+            },
+            "map-button": {
+              "rect": [
+                1192.875,
+                29,
+                61.53125,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "Explore"
+            },
+            "controls-button": {
+              "rect": [
+                1274.40625,
+                28,
+                44,
+                46
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "?"
+            },
+            "time-toggle": {
+              "rect": [
+                217.40625,
+                794,
+                64,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(241, 238, 227)",
+              "opacity": "1",
+              "text": "Held"
+            },
+            "photo-button": {
+              "rect": [
+                1101.671875,
+                831,
+                94.796875,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(228, 231, 222)",
+              "opacity": "1",
+              "text": "PhotographP"
+            },
+            "review-button": {
+              "rect": [
+                1222.46875,
+                831,
+                83.953125,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(188, 198, 199)",
+              "opacity": "1",
+              "text": "Flight review"
+            },
+            "log-button": {
+              "rect": [
+                1332.421875,
+                831,
+                49.984375,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(188, 198, 199)",
+              "opacity": "1",
+              "text": "Journal"
+            }
+          },
+          "pauseFilter": "drop-shadow(rgb(0, 0, 0) 0px 1px 3px)",
+          "buttonCount": 14
+        }
+      ]
+    },
+    {
+      "name": "Chrome",
+      "engineVersion": "158.0.8127.37",
+      "label": "rings",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "variants": [
+        {
+          "mode": "previous",
+          "physicalUnchanged": true,
+          "scenePixelsUnchanged": true,
+          "buttons": {
+            "view-button": {
+              "rect": [
+                1069.3125,
+                29,
+                103.5625,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "Probe camera"
+            },
+            "map-button": {
+              "rect": [
+                1192.875,
+                29,
+                61.53125,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "Explore"
+            },
+            "controls-button": {
+              "rect": [
+                1274.40625,
+                28,
+                44,
+                46
+              ],
+              "shadow": "none",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "?"
+            },
+            "time-toggle": {
+              "rect": [
+                224.46875,
+                794,
+                64,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(241, 238, 227)",
+              "opacity": "1",
+              "text": "Held"
+            },
+            "photo-button": {
+              "rect": [
+                1101.671875,
+                831,
+                94.796875,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(228, 231, 222)",
+              "opacity": "1",
+              "text": "PhotographP"
+            },
+            "review-button": {
+              "rect": [
+                1222.46875,
+                831,
+                83.953125,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(188, 198, 199)",
+              "opacity": "1",
+              "text": "Flight review"
+            },
+            "log-button": {
+              "rect": [
+                1332.421875,
+                831,
+                49.984375,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(188, 198, 199)",
+              "opacity": "1",
+              "text": "Journal"
+            }
+          },
+          "pauseFilter": "none",
+          "buttonCount": 14
+        },
+        {
+          "mode": "current",
+          "physicalUnchanged": true,
+          "scenePixelsUnchanged": true,
+          "buttons": {
+            "view-button": {
+              "rect": [
+                1069.3125,
+                29,
+                103.5625,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "Probe camera"
+            },
+            "map-button": {
+              "rect": [
+                1192.875,
+                29,
+                61.53125,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "Explore"
+            },
+            "controls-button": {
+              "rect": [
+                1274.40625,
+                28,
+                44,
+                46
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "?"
+            },
+            "time-toggle": {
+              "rect": [
+                224.46875,
+                794,
+                64,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(241, 238, 227)",
+              "opacity": "1",
+              "text": "Held"
+            },
+            "photo-button": {
+              "rect": [
+                1101.671875,
+                831,
+                94.796875,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(228, 231, 222)",
+              "opacity": "1",
+              "text": "PhotographP"
+            },
+            "review-button": {
+              "rect": [
+                1222.46875,
+                831,
+                83.953125,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(188, 198, 199)",
+              "opacity": "1",
+              "text": "Flight review"
+            },
+            "log-button": {
+              "rect": [
+                1332.421875,
+                831,
+                49.984375,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(188, 198, 199)",
+              "opacity": "1",
+              "text": "Journal"
+            }
+          },
+          "pauseFilter": "drop-shadow(rgb(0, 0, 0) 0px 1px 3px)",
+          "buttonCount": 14
+        }
+      ]
+    },
+    {
+      "name": "Chrome",
+      "engineVersion": "158.0.8127.37",
+      "label": "polar-clouds",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "variants": [
+        {
+          "mode": "previous",
+          "physicalUnchanged": true,
+          "scenePixelsUnchanged": true,
+          "buttons": {
+            "view-button": {
+              "rect": [
+                1069.3125,
+                29,
+                103.5625,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "Probe camera"
+            },
+            "map-button": {
+              "rect": [
+                1192.875,
+                29,
+                61.53125,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "Explore"
+            },
+            "controls-button": {
+              "rect": [
+                1274.40625,
+                28,
+                44,
+                46
+              ],
+              "shadow": "none",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "?"
+            },
+            "time-toggle": {
+              "rect": [
+                224.46875,
+                794,
+                64,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(241, 238, 227)",
+              "opacity": "1",
+              "text": "Held"
+            },
+            "photo-button": {
+              "rect": [
+                1101.671875,
+                831,
+                94.796875,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(228, 231, 222)",
+              "opacity": "1",
+              "text": "PhotographP"
+            },
+            "review-button": {
+              "rect": [
+                1222.46875,
+                831,
+                83.953125,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(188, 198, 199)",
+              "opacity": "1",
+              "text": "Flight review"
+            },
+            "log-button": {
+              "rect": [
+                1332.421875,
+                831,
+                49.984375,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(188, 198, 199)",
+              "opacity": "1",
+              "text": "Journal"
+            }
+          },
+          "pauseFilter": "none",
+          "buttonCount": 14
+        },
+        {
+          "mode": "current",
+          "physicalUnchanged": true,
+          "scenePixelsUnchanged": true,
+          "buttons": {
+            "view-button": {
+              "rect": [
+                1069.3125,
+                29,
+                103.5625,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "Probe camera"
+            },
+            "map-button": {
+              "rect": [
+                1192.875,
+                29,
+                61.53125,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "Explore"
+            },
+            "controls-button": {
+              "rect": [
+                1274.40625,
+                28,
+                44,
+                46
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "?"
+            },
+            "time-toggle": {
+              "rect": [
+                224.46875,
+                794,
+                64,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(241, 238, 227)",
+              "opacity": "1",
+              "text": "Held"
+            },
+            "photo-button": {
+              "rect": [
+                1101.671875,
+                831,
+                94.796875,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(228, 231, 222)",
+              "opacity": "1",
+              "text": "PhotographP"
+            },
+            "review-button": {
+              "rect": [
+                1222.46875,
+                831,
+                83.953125,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(188, 198, 199)",
+              "opacity": "1",
+              "text": "Flight review"
+            },
+            "log-button": {
+              "rect": [
+                1332.421875,
+                831,
+                49.984375,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(188, 198, 199)",
+              "opacity": "1",
+              "text": "Journal"
+            }
+          },
+          "pauseFilter": "drop-shadow(rgb(0, 0, 0) 0px 1px 3px)",
+          "buttonCount": 14
+        }
+      ]
+    },
+    {
+      "name": "Chrome",
+      "engineVersion": "158.0.8127.37",
+      "label": "earth",
+      "viewport": {
+        "width": 800,
+        "height": 600
+      },
+      "variants": [
+        {
+          "mode": "previous",
+          "physicalUnchanged": true,
+          "scenePixelsUnchanged": true,
+          "buttons": {
+            "view-button": {
+              "rect": [
+                525.5,
+                23,
+                92.796875,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "Probe camera"
+            },
+            "map-button": {
+              "rect": [
+                620.296875,
+                23,
+                55.703125,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "Explore"
+            },
+            "controls-button": {
+              "rect": [
+                678,
+                22,
+                44,
+                46
+              ],
+              "shadow": "none",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "?"
+            },
+            "time-toggle": {
+              "rect": [
+                175.53125,
+                494,
+                64,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(241, 238, 227)",
+              "opacity": "1",
+              "text": "Held"
+            },
+            "photo-button": {
+              "rect": [
+                519.640625,
+                531,
+                86.296875,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(228, 231, 222)",
+              "opacity": "1",
+              "text": "PhotographP"
+            },
+            "review-button": {
+              "rect": [
+                623.9375,
+                531,
+                79.015625,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(188, 198, 199)",
+              "opacity": "1",
+              "text": "Flight review"
+            },
+            "log-button": {
+              "rect": [
+                720.953125,
+                531,
+                47.046875,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(188, 198, 199)",
+              "opacity": "1",
+              "text": "Journal"
+            }
+          },
+          "pauseFilter": "none",
+          "buttonCount": 14
+        },
+        {
+          "mode": "current",
+          "physicalUnchanged": true,
+          "scenePixelsUnchanged": true,
+          "buttons": {
+            "view-button": {
+              "rect": [
+                525.5,
+                23,
+                92.796875,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "Probe camera"
+            },
+            "map-button": {
+              "rect": [
+                620.296875,
+                23,
+                55.703125,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "Explore"
+            },
+            "controls-button": {
+              "rect": [
+                678,
+                22,
+                44,
+                46
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "?"
+            },
+            "time-toggle": {
+              "rect": [
+                175.53125,
+                494,
+                64,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(241, 238, 227)",
+              "opacity": "1",
+              "text": "Held"
+            },
+            "photo-button": {
+              "rect": [
+                519.640625,
+                531,
+                86.296875,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(228, 231, 222)",
+              "opacity": "1",
+              "text": "PhotographP"
+            },
+            "review-button": {
+              "rect": [
+                623.9375,
+                531,
+                79.015625,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(188, 198, 199)",
+              "opacity": "1",
+              "text": "Flight review"
+            },
+            "log-button": {
+              "rect": [
+                720.953125,
+                531,
+                47.046875,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(188, 198, 199)",
+              "opacity": "1",
+              "text": "Journal"
+            }
+          },
+          "pauseFilter": "drop-shadow(rgb(0, 0, 0) 0px 1px 3px)",
+          "buttonCount": 14
+        }
+      ]
+    },
+    {
+      "name": "Chrome",
+      "engineVersion": "158.0.8127.37",
+      "label": "lunar-detail",
+      "viewport": {
+        "width": 800,
+        "height": 600
+      },
+      "variants": [
+        {
+          "mode": "previous",
+          "physicalUnchanged": true,
+          "scenePixelsUnchanged": true,
+          "buttons": {
+            "view-button": {
+              "rect": [
+                525.5,
+                23,
+                92.796875,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "Probe camera"
+            },
+            "map-button": {
+              "rect": [
+                620.296875,
+                23,
+                55.703125,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "Explore"
+            },
+            "controls-button": {
+              "rect": [
+                678,
+                22,
+                44,
+                46
+              ],
+              "shadow": "none",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "?"
+            },
+            "time-toggle": {
+              "rect": [
+                174.8125,
+                494,
+                64,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(241, 238, 227)",
+              "opacity": "1",
+              "text": "Held"
+            },
+            "photo-button": {
+              "rect": [
+                519.640625,
+                531,
+                86.296875,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(228, 231, 222)",
+              "opacity": "1",
+              "text": "PhotographP"
+            },
+            "review-button": {
+              "rect": [
+                623.9375,
+                531,
+                79.015625,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(188, 198, 199)",
+              "opacity": "1",
+              "text": "Flight review"
+            },
+            "log-button": {
+              "rect": [
+                720.953125,
+                531,
+                47.046875,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(188, 198, 199)",
+              "opacity": "1",
+              "text": "Journal"
+            }
+          },
+          "pauseFilter": "none",
+          "buttonCount": 14
+        },
+        {
+          "mode": "current",
+          "physicalUnchanged": true,
+          "scenePixelsUnchanged": true,
+          "buttons": {
+            "view-button": {
+              "rect": [
+                525.5,
+                23,
+                92.796875,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "Probe camera"
+            },
+            "map-button": {
+              "rect": [
+                620.296875,
+                23,
+                55.703125,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "Explore"
+            },
+            "controls-button": {
+              "rect": [
+                678,
+                22,
+                44,
+                46
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "?"
+            },
+            "time-toggle": {
+              "rect": [
+                174.8125,
+                494,
+                64,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(241, 238, 227)",
+              "opacity": "1",
+              "text": "Held"
+            },
+            "photo-button": {
+              "rect": [
+                519.640625,
+                531,
+                86.296875,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(228, 231, 222)",
+              "opacity": "1",
+              "text": "PhotographP"
+            },
+            "review-button": {
+              "rect": [
+                623.9375,
+                531,
+                79.015625,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(188, 198, 199)",
+              "opacity": "1",
+              "text": "Flight review"
+            },
+            "log-button": {
+              "rect": [
+                720.953125,
+                531,
+                47.046875,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(188, 198, 199)",
+              "opacity": "1",
+              "text": "Journal"
+            }
+          },
+          "pauseFilter": "drop-shadow(rgb(0, 0, 0) 0px 1px 3px)",
+          "buttonCount": 14
+        }
+      ]
+    },
+    {
+      "name": "Chrome",
+      "engineVersion": "158.0.8127.37",
+      "label": "rings",
+      "viewport": {
+        "width": 800,
+        "height": 600
+      },
+      "variants": [
+        {
+          "mode": "previous",
+          "physicalUnchanged": true,
+          "scenePixelsUnchanged": true,
+          "buttons": {
+            "view-button": {
+              "rect": [
+                525.5,
+                23,
+                92.796875,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "Probe camera"
+            },
+            "map-button": {
+              "rect": [
+                620.296875,
+                23,
+                55.703125,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "Explore"
+            },
+            "controls-button": {
+              "rect": [
+                678,
+                22,
+                44,
+                46
+              ],
+              "shadow": "none",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "?"
+            },
+            "time-toggle": {
+              "rect": [
+                181.875,
+                494,
+                64,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(241, 238, 227)",
+              "opacity": "1",
+              "text": "Held"
+            },
+            "photo-button": {
+              "rect": [
+                519.640625,
+                531,
+                86.296875,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(228, 231, 222)",
+              "opacity": "1",
+              "text": "PhotographP"
+            },
+            "review-button": {
+              "rect": [
+                623.9375,
+                531,
+                79.015625,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(188, 198, 199)",
+              "opacity": "1",
+              "text": "Flight review"
+            },
+            "log-button": {
+              "rect": [
+                720.953125,
+                531,
+                47.046875,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(188, 198, 199)",
+              "opacity": "1",
+              "text": "Journal"
+            }
+          },
+          "pauseFilter": "none",
+          "buttonCount": 14
+        },
+        {
+          "mode": "current",
+          "physicalUnchanged": true,
+          "scenePixelsUnchanged": true,
+          "buttons": {
+            "view-button": {
+              "rect": [
+                525.5,
+                23,
+                92.796875,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "Probe camera"
+            },
+            "map-button": {
+              "rect": [
+                620.296875,
+                23,
+                55.703125,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "Explore"
+            },
+            "controls-button": {
+              "rect": [
+                678,
+                22,
+                44,
+                46
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "?"
+            },
+            "time-toggle": {
+              "rect": [
+                181.875,
+                494,
+                64,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(241, 238, 227)",
+              "opacity": "1",
+              "text": "Held"
+            },
+            "photo-button": {
+              "rect": [
+                519.640625,
+                531,
+                86.296875,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(228, 231, 222)",
+              "opacity": "1",
+              "text": "PhotographP"
+            },
+            "review-button": {
+              "rect": [
+                623.9375,
+                531,
+                79.015625,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(188, 198, 199)",
+              "opacity": "1",
+              "text": "Flight review"
+            },
+            "log-button": {
+              "rect": [
+                720.953125,
+                531,
+                47.046875,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(188, 198, 199)",
+              "opacity": "1",
+              "text": "Journal"
+            }
+          },
+          "pauseFilter": "drop-shadow(rgb(0, 0, 0) 0px 1px 3px)",
+          "buttonCount": 14
+        }
+      ]
+    },
+    {
+      "name": "Chrome",
+      "engineVersion": "158.0.8127.37",
+      "label": "polar-clouds",
+      "viewport": {
+        "width": 800,
+        "height": 600
+      },
+      "variants": [
+        {
+          "mode": "previous",
+          "physicalUnchanged": true,
+          "scenePixelsUnchanged": true,
+          "buttons": {
+            "view-button": {
+              "rect": [
+                525.5,
+                23,
+                92.796875,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "Probe camera"
+            },
+            "map-button": {
+              "rect": [
+                620.296875,
+                23,
+                55.703125,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "Explore"
+            },
+            "controls-button": {
+              "rect": [
+                678,
+                22,
+                44,
+                46
+              ],
+              "shadow": "none",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "?"
+            },
+            "time-toggle": {
+              "rect": [
+                181.875,
+                494,
+                64,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(241, 238, 227)",
+              "opacity": "1",
+              "text": "Held"
+            },
+            "photo-button": {
+              "rect": [
+                519.640625,
+                531,
+                86.296875,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(228, 231, 222)",
+              "opacity": "1",
+              "text": "PhotographP"
+            },
+            "review-button": {
+              "rect": [
+                623.9375,
+                531,
+                79.015625,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(188, 198, 199)",
+              "opacity": "1",
+              "text": "Flight review"
+            },
+            "log-button": {
+              "rect": [
+                720.953125,
+                531,
+                47.046875,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(188, 198, 199)",
+              "opacity": "1",
+              "text": "Journal"
+            }
+          },
+          "pauseFilter": "none",
+          "buttonCount": 14
+        },
+        {
+          "mode": "current",
+          "physicalUnchanged": true,
+          "scenePixelsUnchanged": true,
+          "buttons": {
+            "view-button": {
+              "rect": [
+                525.5,
+                23,
+                92.796875,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "Probe camera"
+            },
+            "map-button": {
+              "rect": [
+                620.296875,
+                23,
+                55.703125,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "Explore"
+            },
+            "controls-button": {
+              "rect": [
+                678,
+                22,
+                44,
+                46
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "?"
+            },
+            "time-toggle": {
+              "rect": [
+                181.875,
+                494,
+                64,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(241, 238, 227)",
+              "opacity": "1",
+              "text": "Held"
+            },
+            "photo-button": {
+              "rect": [
+                519.640625,
+                531,
+                86.296875,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(228, 231, 222)",
+              "opacity": "1",
+              "text": "PhotographP"
+            },
+            "review-button": {
+              "rect": [
+                623.9375,
+                531,
+                79.015625,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(188, 198, 199)",
+              "opacity": "1",
+              "text": "Flight review"
+            },
+            "log-button": {
+              "rect": [
+                720.953125,
+                531,
+                47.046875,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(188, 198, 199)",
+              "opacity": "1",
+              "text": "Journal"
+            }
+          },
+          "pauseFilter": "drop-shadow(rgb(0, 0, 0) 0px 1px 3px)",
+          "buttonCount": 14
+        }
+      ]
+    },
+    {
+      "name": "Chrome",
+      "errors": []
+    },
+    {
+      "name": "Firefox",
+      "engineVersion": "153.0",
+      "label": "earth",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "variants": [
+        {
+          "mode": "previous",
+          "physicalUnchanged": true,
+          "scenePixelsUnchanged": true,
+          "buttons": {
+            "view-button": {
+              "rect": [
+                1069.3333740234375,
+                29.5,
+                103.55000305175781,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "Probe camera"
+            },
+            "map-button": {
+              "rect": [
+                1192.88330078125,
+                29.5,
+                61.51666259765625,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "Explore"
+            },
+            "controls-button": {
+              "rect": [
+                1274.4000244140625,
+                28,
+                44,
+                47
+              ],
+              "shadow": "none",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "?"
+            },
+            "time-toggle": {
+              "rect": [
+                218.14999389648438,
+                794,
+                64,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(241, 238, 227)",
+              "opacity": "1",
+              "text": "Held"
+            },
+            "photo-button": {
+              "rect": [
+                1101.6500244140625,
+                831,
+                94.80000305175781,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(228, 231, 222)",
+              "opacity": "1",
+              "text": "PhotographP"
+            },
+            "review-button": {
+              "rect": [
+                1222.449951171875,
+                831,
+                83.94999694824219,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(188, 198, 199)",
+              "opacity": "1",
+              "text": "Flight review"
+            },
+            "log-button": {
+              "rect": [
+                1332.4000244140625,
+                831,
+                50,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(188, 198, 199)",
+              "opacity": "1",
+              "text": "Journal"
+            }
+          },
+          "pauseFilter": "none",
+          "buttonCount": 14
+        },
+        {
+          "mode": "current",
+          "physicalUnchanged": true,
+          "scenePixelsUnchanged": true,
+          "buttons": {
+            "view-button": {
+              "rect": [
+                1069.3333740234375,
+                29.5,
+                103.55000305175781,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "Probe camera"
+            },
+            "map-button": {
+              "rect": [
+                1192.88330078125,
+                29.5,
+                61.51666259765625,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "Explore"
+            },
+            "controls-button": {
+              "rect": [
+                1274.4000244140625,
+                28,
+                44,
+                47
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "?"
+            },
+            "time-toggle": {
+              "rect": [
+                218.14999389648438,
+                794,
+                64,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(241, 238, 227)",
+              "opacity": "1",
+              "text": "Held"
+            },
+            "photo-button": {
+              "rect": [
+                1101.6500244140625,
+                831,
+                94.80000305175781,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(228, 231, 222)",
+              "opacity": "1",
+              "text": "PhotographP"
+            },
+            "review-button": {
+              "rect": [
+                1222.449951171875,
+                831,
+                83.94999694824219,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(188, 198, 199)",
+              "opacity": "1",
+              "text": "Flight review"
+            },
+            "log-button": {
+              "rect": [
+                1332.4000244140625,
+                831,
+                50,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(188, 198, 199)",
+              "opacity": "1",
+              "text": "Journal"
+            }
+          },
+          "pauseFilter": "drop-shadow(rgb(0, 0, 0) 0px 1px 3px)",
+          "buttonCount": 14
+        }
+      ]
+    },
+    {
+      "name": "Firefox",
+      "engineVersion": "153.0",
+      "label": "lunar-detail",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "variants": [
+        {
+          "mode": "previous",
+          "physicalUnchanged": true,
+          "scenePixelsUnchanged": true,
+          "buttons": {
+            "view-button": {
+              "rect": [
+                1069.3333740234375,
+                29.5,
+                103.55000305175781,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "Probe camera"
+            },
+            "map-button": {
+              "rect": [
+                1192.88330078125,
+                29.5,
+                61.51666259765625,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "Explore"
+            },
+            "controls-button": {
+              "rect": [
+                1274.4000244140625,
+                28,
+                44,
+                47
+              ],
+              "shadow": "none",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "?"
+            },
+            "time-toggle": {
+              "rect": [
+                217.4166717529297,
+                794,
+                64,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(241, 238, 227)",
+              "opacity": "1",
+              "text": "Held"
+            },
+            "photo-button": {
+              "rect": [
+                1101.6500244140625,
+                831,
+                94.80000305175781,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(228, 231, 222)",
+              "opacity": "1",
+              "text": "PhotographP"
+            },
+            "review-button": {
+              "rect": [
+                1222.449951171875,
+                831,
+                83.94999694824219,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(188, 198, 199)",
+              "opacity": "1",
+              "text": "Flight review"
+            },
+            "log-button": {
+              "rect": [
+                1332.4000244140625,
+                831,
+                50,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(188, 198, 199)",
+              "opacity": "1",
+              "text": "Journal"
+            }
+          },
+          "pauseFilter": "none",
+          "buttonCount": 14
+        },
+        {
+          "mode": "current",
+          "physicalUnchanged": true,
+          "scenePixelsUnchanged": true,
+          "buttons": {
+            "view-button": {
+              "rect": [
+                1069.3333740234375,
+                29.5,
+                103.55000305175781,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "Probe camera"
+            },
+            "map-button": {
+              "rect": [
+                1192.88330078125,
+                29.5,
+                61.51666259765625,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "Explore"
+            },
+            "controls-button": {
+              "rect": [
+                1274.4000244140625,
+                28,
+                44,
+                47
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "?"
+            },
+            "time-toggle": {
+              "rect": [
+                217.4166717529297,
+                794,
+                64,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(241, 238, 227)",
+              "opacity": "1",
+              "text": "Held"
+            },
+            "photo-button": {
+              "rect": [
+                1101.6500244140625,
+                831,
+                94.80000305175781,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(228, 231, 222)",
+              "opacity": "1",
+              "text": "PhotographP"
+            },
+            "review-button": {
+              "rect": [
+                1222.449951171875,
+                831,
+                83.94999694824219,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(188, 198, 199)",
+              "opacity": "1",
+              "text": "Flight review"
+            },
+            "log-button": {
+              "rect": [
+                1332.4000244140625,
+                831,
+                50,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(188, 198, 199)",
+              "opacity": "1",
+              "text": "Journal"
+            }
+          },
+          "pauseFilter": "drop-shadow(rgb(0, 0, 0) 0px 1px 3px)",
+          "buttonCount": 14
+        }
+      ]
+    },
+    {
+      "name": "Firefox",
+      "engineVersion": "153.0",
+      "label": "rings",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "variants": [
+        {
+          "mode": "previous",
+          "physicalUnchanged": true,
+          "scenePixelsUnchanged": true,
+          "buttons": {
+            "view-button": {
+              "rect": [
+                1069.3333740234375,
+                29.5,
+                103.55000305175781,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "Probe camera"
+            },
+            "map-button": {
+              "rect": [
+                1192.88330078125,
+                29.5,
+                61.51666259765625,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "Explore"
+            },
+            "controls-button": {
+              "rect": [
+                1274.4000244140625,
+                28,
+                44,
+                47
+              ],
+              "shadow": "none",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "?"
+            },
+            "time-toggle": {
+              "rect": [
+                224.48333740234375,
+                794,
+                64,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(241, 238, 227)",
+              "opacity": "1",
+              "text": "Held"
+            },
+            "photo-button": {
+              "rect": [
+                1101.6500244140625,
+                831,
+                94.80000305175781,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(228, 231, 222)",
+              "opacity": "1",
+              "text": "PhotographP"
+            },
+            "review-button": {
+              "rect": [
+                1222.449951171875,
+                831,
+                83.94999694824219,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(188, 198, 199)",
+              "opacity": "1",
+              "text": "Flight review"
+            },
+            "log-button": {
+              "rect": [
+                1332.4000244140625,
+                831,
+                50,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(188, 198, 199)",
+              "opacity": "1",
+              "text": "Journal"
+            }
+          },
+          "pauseFilter": "none",
+          "buttonCount": 14
+        },
+        {
+          "mode": "current",
+          "physicalUnchanged": true,
+          "scenePixelsUnchanged": true,
+          "buttons": {
+            "view-button": {
+              "rect": [
+                1069.3333740234375,
+                29.5,
+                103.55000305175781,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "Probe camera"
+            },
+            "map-button": {
+              "rect": [
+                1192.88330078125,
+                29.5,
+                61.51666259765625,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "Explore"
+            },
+            "controls-button": {
+              "rect": [
+                1274.4000244140625,
+                28,
+                44,
+                47
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "?"
+            },
+            "time-toggle": {
+              "rect": [
+                224.48333740234375,
+                794,
+                64,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(241, 238, 227)",
+              "opacity": "1",
+              "text": "Held"
+            },
+            "photo-button": {
+              "rect": [
+                1101.6500244140625,
+                831,
+                94.80000305175781,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(228, 231, 222)",
+              "opacity": "1",
+              "text": "PhotographP"
+            },
+            "review-button": {
+              "rect": [
+                1222.449951171875,
+                831,
+                83.94999694824219,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(188, 198, 199)",
+              "opacity": "1",
+              "text": "Flight review"
+            },
+            "log-button": {
+              "rect": [
+                1332.4000244140625,
+                831,
+                50,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(188, 198, 199)",
+              "opacity": "1",
+              "text": "Journal"
+            }
+          },
+          "pauseFilter": "drop-shadow(rgb(0, 0, 0) 0px 1px 3px)",
+          "buttonCount": 14
+        }
+      ]
+    },
+    {
+      "name": "Firefox",
+      "engineVersion": "153.0",
+      "label": "polar-clouds",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "variants": [
+        {
+          "mode": "previous",
+          "physicalUnchanged": true,
+          "scenePixelsUnchanged": true,
+          "buttons": {
+            "view-button": {
+              "rect": [
+                1069.3333740234375,
+                29.5,
+                103.55000305175781,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "Probe camera"
+            },
+            "map-button": {
+              "rect": [
+                1192.88330078125,
+                29.5,
+                61.51666259765625,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "Explore"
+            },
+            "controls-button": {
+              "rect": [
+                1274.4000244140625,
+                28,
+                44,
+                47
+              ],
+              "shadow": "none",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "?"
+            },
+            "time-toggle": {
+              "rect": [
+                224.48333740234375,
+                794,
+                64,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(241, 238, 227)",
+              "opacity": "1",
+              "text": "Held"
+            },
+            "photo-button": {
+              "rect": [
+                1101.6500244140625,
+                831,
+                94.80000305175781,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(228, 231, 222)",
+              "opacity": "1",
+              "text": "PhotographP"
+            },
+            "review-button": {
+              "rect": [
+                1222.449951171875,
+                831,
+                83.94999694824219,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(188, 198, 199)",
+              "opacity": "1",
+              "text": "Flight review"
+            },
+            "log-button": {
+              "rect": [
+                1332.4000244140625,
+                831,
+                50,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(188, 198, 199)",
+              "opacity": "1",
+              "text": "Journal"
+            }
+          },
+          "pauseFilter": "none",
+          "buttonCount": 14
+        },
+        {
+          "mode": "current",
+          "physicalUnchanged": true,
+          "scenePixelsUnchanged": true,
+          "buttons": {
+            "view-button": {
+              "rect": [
+                1069.3333740234375,
+                29.5,
+                103.55000305175781,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "Probe camera"
+            },
+            "map-button": {
+              "rect": [
+                1192.88330078125,
+                29.5,
+                61.51666259765625,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "Explore"
+            },
+            "controls-button": {
+              "rect": [
+                1274.4000244140625,
+                28,
+                44,
+                47
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "?"
+            },
+            "time-toggle": {
+              "rect": [
+                224.48333740234375,
+                794,
+                64,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(241, 238, 227)",
+              "opacity": "1",
+              "text": "Held"
+            },
+            "photo-button": {
+              "rect": [
+                1101.6500244140625,
+                831,
+                94.80000305175781,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(228, 231, 222)",
+              "opacity": "1",
+              "text": "PhotographP"
+            },
+            "review-button": {
+              "rect": [
+                1222.449951171875,
+                831,
+                83.94999694824219,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(188, 198, 199)",
+              "opacity": "1",
+              "text": "Flight review"
+            },
+            "log-button": {
+              "rect": [
+                1332.4000244140625,
+                831,
+                50,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(188, 198, 199)",
+              "opacity": "1",
+              "text": "Journal"
+            }
+          },
+          "pauseFilter": "drop-shadow(rgb(0, 0, 0) 0px 1px 3px)",
+          "buttonCount": 14
+        }
+      ]
+    },
+    {
+      "name": "Firefox",
+      "engineVersion": "153.0",
+      "label": "earth",
+      "viewport": {
+        "width": 800,
+        "height": 600
+      },
+      "variants": [
+        {
+          "mode": "previous",
+          "physicalUnchanged": true,
+          "scenePixelsUnchanged": true,
+          "buttons": {
+            "view-button": {
+              "rect": [
+                525.5166625976562,
+                23.5,
+                92.80000305175781,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "Probe camera"
+            },
+            "map-button": {
+              "rect": [
+                620.316650390625,
+                23.5,
+                55.68333435058594,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "Explore"
+            },
+            "controls-button": {
+              "rect": [
+                678,
+                22,
+                44,
+                47
+              ],
+              "shadow": "none",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "?"
+            },
+            "time-toggle": {
+              "rect": [
+                175.5500030517578,
+                494,
+                64,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(241, 238, 227)",
+              "opacity": "1",
+              "text": "Held"
+            },
+            "photo-button": {
+              "rect": [
+                519.5999755859375,
+                531,
+                86.29998779296875,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(228, 231, 222)",
+              "opacity": "1",
+              "text": "PhotographP"
+            },
+            "review-button": {
+              "rect": [
+                623.9000244140625,
+                531,
+                79.03334045410156,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(188, 198, 199)",
+              "opacity": "1",
+              "text": "Flight review"
+            },
+            "log-button": {
+              "rect": [
+                720.933349609375,
+                531,
+                47.06666564941406,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(188, 198, 199)",
+              "opacity": "1",
+              "text": "Journal"
+            }
+          },
+          "pauseFilter": "none",
+          "buttonCount": 14
+        },
+        {
+          "mode": "current",
+          "physicalUnchanged": true,
+          "scenePixelsUnchanged": true,
+          "buttons": {
+            "view-button": {
+              "rect": [
+                525.5166625976562,
+                23.5,
+                92.80000305175781,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "Probe camera"
+            },
+            "map-button": {
+              "rect": [
+                620.316650390625,
+                23.5,
+                55.68333435058594,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "Explore"
+            },
+            "controls-button": {
+              "rect": [
+                678,
+                22,
+                44,
+                47
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "?"
+            },
+            "time-toggle": {
+              "rect": [
+                175.5500030517578,
+                494,
+                64,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(241, 238, 227)",
+              "opacity": "1",
+              "text": "Held"
+            },
+            "photo-button": {
+              "rect": [
+                519.5999755859375,
+                531,
+                86.29998779296875,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(228, 231, 222)",
+              "opacity": "1",
+              "text": "PhotographP"
+            },
+            "review-button": {
+              "rect": [
+                623.9000244140625,
+                531,
+                79.03334045410156,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(188, 198, 199)",
+              "opacity": "1",
+              "text": "Flight review"
+            },
+            "log-button": {
+              "rect": [
+                720.933349609375,
+                531,
+                47.06666564941406,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(188, 198, 199)",
+              "opacity": "1",
+              "text": "Journal"
+            }
+          },
+          "pauseFilter": "drop-shadow(rgb(0, 0, 0) 0px 1px 3px)",
+          "buttonCount": 14
+        }
+      ]
+    },
+    {
+      "name": "Firefox",
+      "engineVersion": "153.0",
+      "label": "lunar-detail",
+      "viewport": {
+        "width": 800,
+        "height": 600
+      },
+      "variants": [
+        {
+          "mode": "previous",
+          "physicalUnchanged": true,
+          "scenePixelsUnchanged": true,
+          "buttons": {
+            "view-button": {
+              "rect": [
+                525.5166625976562,
+                23.5,
+                92.80000305175781,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "Probe camera"
+            },
+            "map-button": {
+              "rect": [
+                620.316650390625,
+                23.5,
+                55.68333435058594,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "Explore"
+            },
+            "controls-button": {
+              "rect": [
+                678,
+                22,
+                44,
+                47
+              ],
+              "shadow": "none",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "?"
+            },
+            "time-toggle": {
+              "rect": [
+                174.81666564941406,
+                494,
+                64,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(241, 238, 227)",
+              "opacity": "1",
+              "text": "Held"
+            },
+            "photo-button": {
+              "rect": [
+                519.5999755859375,
+                531,
+                86.29998779296875,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(228, 231, 222)",
+              "opacity": "1",
+              "text": "PhotographP"
+            },
+            "review-button": {
+              "rect": [
+                623.9000244140625,
+                531,
+                79.03334045410156,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(188, 198, 199)",
+              "opacity": "1",
+              "text": "Flight review"
+            },
+            "log-button": {
+              "rect": [
+                720.933349609375,
+                531,
+                47.06666564941406,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(188, 198, 199)",
+              "opacity": "1",
+              "text": "Journal"
+            }
+          },
+          "pauseFilter": "none",
+          "buttonCount": 14
+        },
+        {
+          "mode": "current",
+          "physicalUnchanged": true,
+          "scenePixelsUnchanged": true,
+          "buttons": {
+            "view-button": {
+              "rect": [
+                525.5166625976562,
+                23.5,
+                92.80000305175781,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "Probe camera"
+            },
+            "map-button": {
+              "rect": [
+                620.316650390625,
+                23.5,
+                55.68333435058594,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "Explore"
+            },
+            "controls-button": {
+              "rect": [
+                678,
+                22,
+                44,
+                47
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "?"
+            },
+            "time-toggle": {
+              "rect": [
+                174.81666564941406,
+                494,
+                64,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(241, 238, 227)",
+              "opacity": "1",
+              "text": "Held"
+            },
+            "photo-button": {
+              "rect": [
+                519.5999755859375,
+                531,
+                86.29998779296875,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(228, 231, 222)",
+              "opacity": "1",
+              "text": "PhotographP"
+            },
+            "review-button": {
+              "rect": [
+                623.9000244140625,
+                531,
+                79.03334045410156,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(188, 198, 199)",
+              "opacity": "1",
+              "text": "Flight review"
+            },
+            "log-button": {
+              "rect": [
+                720.933349609375,
+                531,
+                47.06666564941406,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(188, 198, 199)",
+              "opacity": "1",
+              "text": "Journal"
+            }
+          },
+          "pauseFilter": "drop-shadow(rgb(0, 0, 0) 0px 1px 3px)",
+          "buttonCount": 14
+        }
+      ]
+    },
+    {
+      "name": "Firefox",
+      "engineVersion": "153.0",
+      "label": "rings",
+      "viewport": {
+        "width": 800,
+        "height": 600
+      },
+      "variants": [
+        {
+          "mode": "previous",
+          "physicalUnchanged": true,
+          "scenePixelsUnchanged": true,
+          "buttons": {
+            "view-button": {
+              "rect": [
+                525.5166625976562,
+                23.5,
+                92.80000305175781,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "Probe camera"
+            },
+            "map-button": {
+              "rect": [
+                620.316650390625,
+                23.5,
+                55.68333435058594,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "Explore"
+            },
+            "controls-button": {
+              "rect": [
+                678,
+                22,
+                44,
+                47
+              ],
+              "shadow": "none",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "?"
+            },
+            "time-toggle": {
+              "rect": [
+                181.88333129882812,
+                494,
+                64,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(241, 238, 227)",
+              "opacity": "1",
+              "text": "Held"
+            },
+            "photo-button": {
+              "rect": [
+                519.5999755859375,
+                531,
+                86.29998779296875,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(228, 231, 222)",
+              "opacity": "1",
+              "text": "PhotographP"
+            },
+            "review-button": {
+              "rect": [
+                623.9000244140625,
+                531,
+                79.03334045410156,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(188, 198, 199)",
+              "opacity": "1",
+              "text": "Flight review"
+            },
+            "log-button": {
+              "rect": [
+                720.933349609375,
+                531,
+                47.06666564941406,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(188, 198, 199)",
+              "opacity": "1",
+              "text": "Journal"
+            }
+          },
+          "pauseFilter": "none",
+          "buttonCount": 14
+        },
+        {
+          "mode": "current",
+          "physicalUnchanged": true,
+          "scenePixelsUnchanged": true,
+          "buttons": {
+            "view-button": {
+              "rect": [
+                525.5166625976562,
+                23.5,
+                92.80000305175781,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "Probe camera"
+            },
+            "map-button": {
+              "rect": [
+                620.316650390625,
+                23.5,
+                55.68333435058594,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "Explore"
+            },
+            "controls-button": {
+              "rect": [
+                678,
+                22,
+                44,
+                47
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "?"
+            },
+            "time-toggle": {
+              "rect": [
+                181.88333129882812,
+                494,
+                64,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(241, 238, 227)",
+              "opacity": "1",
+              "text": "Held"
+            },
+            "photo-button": {
+              "rect": [
+                519.5999755859375,
+                531,
+                86.29998779296875,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(228, 231, 222)",
+              "opacity": "1",
+              "text": "PhotographP"
+            },
+            "review-button": {
+              "rect": [
+                623.9000244140625,
+                531,
+                79.03334045410156,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(188, 198, 199)",
+              "opacity": "1",
+              "text": "Flight review"
+            },
+            "log-button": {
+              "rect": [
+                720.933349609375,
+                531,
+                47.06666564941406,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(188, 198, 199)",
+              "opacity": "1",
+              "text": "Journal"
+            }
+          },
+          "pauseFilter": "drop-shadow(rgb(0, 0, 0) 0px 1px 3px)",
+          "buttonCount": 14
+        }
+      ]
+    },
+    {
+      "name": "Firefox",
+      "engineVersion": "153.0",
+      "label": "polar-clouds",
+      "viewport": {
+        "width": 800,
+        "height": 600
+      },
+      "variants": [
+        {
+          "mode": "previous",
+          "physicalUnchanged": true,
+          "scenePixelsUnchanged": true,
+          "buttons": {
+            "view-button": {
+              "rect": [
+                525.5166625976562,
+                23.5,
+                92.80000305175781,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "Probe camera"
+            },
+            "map-button": {
+              "rect": [
+                620.316650390625,
+                23.5,
+                55.68333435058594,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "Explore"
+            },
+            "controls-button": {
+              "rect": [
+                678,
+                22,
+                44,
+                47
+              ],
+              "shadow": "none",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "?"
+            },
+            "time-toggle": {
+              "rect": [
+                181.88333129882812,
+                494,
+                64,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(241, 238, 227)",
+              "opacity": "1",
+              "text": "Held"
+            },
+            "photo-button": {
+              "rect": [
+                519.5999755859375,
+                531,
+                86.29998779296875,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(228, 231, 222)",
+              "opacity": "1",
+              "text": "PhotographP"
+            },
+            "review-button": {
+              "rect": [
+                623.9000244140625,
+                531,
+                79.03334045410156,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(188, 198, 199)",
+              "opacity": "1",
+              "text": "Flight review"
+            },
+            "log-button": {
+              "rect": [
+                720.933349609375,
+                531,
+                47.06666564941406,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(188, 198, 199)",
+              "opacity": "1",
+              "text": "Journal"
+            }
+          },
+          "pauseFilter": "none",
+          "buttonCount": 14
+        },
+        {
+          "mode": "current",
+          "physicalUnchanged": true,
+          "scenePixelsUnchanged": true,
+          "buttons": {
+            "view-button": {
+              "rect": [
+                525.5166625976562,
+                23.5,
+                92.80000305175781,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "Probe camera"
+            },
+            "map-button": {
+              "rect": [
+                620.316650390625,
+                23.5,
+                55.68333435058594,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "Explore"
+            },
+            "controls-button": {
+              "rect": [
+                678,
+                22,
+                44,
+                47
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "?"
+            },
+            "time-toggle": {
+              "rect": [
+                181.88333129882812,
+                494,
+                64,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(241, 238, 227)",
+              "opacity": "1",
+              "text": "Held"
+            },
+            "photo-button": {
+              "rect": [
+                519.5999755859375,
+                531,
+                86.29998779296875,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(228, 231, 222)",
+              "opacity": "1",
+              "text": "PhotographP"
+            },
+            "review-button": {
+              "rect": [
+                623.9000244140625,
+                531,
+                79.03334045410156,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(188, 198, 199)",
+              "opacity": "1",
+              "text": "Flight review"
+            },
+            "log-button": {
+              "rect": [
+                720.933349609375,
+                531,
+                47.06666564941406,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(188, 198, 199)",
+              "opacity": "1",
+              "text": "Journal"
+            }
+          },
+          "pauseFilter": "drop-shadow(rgb(0, 0, 0) 0px 1px 3px)",
+          "buttonCount": 14
+        }
+      ]
+    },
+    {
+      "name": "Firefox",
+      "errors": []
+    },
+    {
+      "name": "WebKit",
+      "engineVersion": "26.5",
+      "label": "earth",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "variants": [
+        {
+          "mode": "previous",
+          "physicalUnchanged": true,
+          "scenePixelsUnchanged": true,
+          "buttons": {
+            "view-button": {
+              "rect": [
+                1069.3125,
+                29,
+                103.5625,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "Probe camera"
+            },
+            "map-button": {
+              "rect": [
+                1192.875,
+                29,
+                61.53125,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "Explore"
+            },
+            "controls-button": {
+              "rect": [
+                1274.40625,
+                28,
+                44,
+                46
+              ],
+              "shadow": "none",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "?"
+            },
+            "time-toggle": {
+              "rect": [
+                218.125,
+                794,
+                64,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(241, 238, 227)",
+              "opacity": "1",
+              "text": "Held"
+            },
+            "photo-button": {
+              "rect": [
+                1101.671875,
+                831,
+                94.796875,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(228, 231, 222)",
+              "opacity": "1",
+              "text": "PhotographP"
+            },
+            "review-button": {
+              "rect": [
+                1222.46875,
+                831,
+                83.953125,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(188, 198, 199)",
+              "opacity": "1",
+              "text": "Flight review"
+            },
+            "log-button": {
+              "rect": [
+                1332.421875,
+                831,
+                49.984375,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(188, 198, 199)",
+              "opacity": "1",
+              "text": "Journal"
+            }
+          },
+          "pauseFilter": "none",
+          "buttonCount": 14
+        },
+        {
+          "mode": "current",
+          "physicalUnchanged": true,
+          "scenePixelsUnchanged": true,
+          "buttons": {
+            "view-button": {
+              "rect": [
+                1069.3125,
+                29,
+                103.5625,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "Probe camera"
+            },
+            "map-button": {
+              "rect": [
+                1192.875,
+                29,
+                61.53125,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "Explore"
+            },
+            "controls-button": {
+              "rect": [
+                1274.40625,
+                28,
+                44,
+                46
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "?"
+            },
+            "time-toggle": {
+              "rect": [
+                218.125,
+                794,
+                64,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(241, 238, 227)",
+              "opacity": "1",
+              "text": "Held"
+            },
+            "photo-button": {
+              "rect": [
+                1101.671875,
+                831,
+                94.796875,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(228, 231, 222)",
+              "opacity": "1",
+              "text": "PhotographP"
+            },
+            "review-button": {
+              "rect": [
+                1222.46875,
+                831,
+                83.953125,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(188, 198, 199)",
+              "opacity": "1",
+              "text": "Flight review"
+            },
+            "log-button": {
+              "rect": [
+                1332.421875,
+                831,
+                49.984375,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(188, 198, 199)",
+              "opacity": "1",
+              "text": "Journal"
+            }
+          },
+          "pauseFilter": "drop-shadow(rgb(0, 0, 0) 0px 1px 3px)",
+          "buttonCount": 14
+        }
+      ]
+    },
+    {
+      "name": "WebKit",
+      "engineVersion": "26.5",
+      "label": "lunar-detail",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "variants": [
+        {
+          "mode": "previous",
+          "physicalUnchanged": true,
+          "scenePixelsUnchanged": true,
+          "buttons": {
+            "view-button": {
+              "rect": [
+                1069.3125,
+                29,
+                103.5625,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "Probe camera"
+            },
+            "map-button": {
+              "rect": [
+                1192.875,
+                29,
+                61.53125,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "Explore"
+            },
+            "controls-button": {
+              "rect": [
+                1274.40625,
+                28,
+                44,
+                46
+              ],
+              "shadow": "none",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "?"
+            },
+            "time-toggle": {
+              "rect": [
+                217.40625,
+                794,
+                64,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(241, 238, 227)",
+              "opacity": "1",
+              "text": "Held"
+            },
+            "photo-button": {
+              "rect": [
+                1101.671875,
+                831,
+                94.796875,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(228, 231, 222)",
+              "opacity": "1",
+              "text": "PhotographP"
+            },
+            "review-button": {
+              "rect": [
+                1222.46875,
+                831,
+                83.953125,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(188, 198, 199)",
+              "opacity": "1",
+              "text": "Flight review"
+            },
+            "log-button": {
+              "rect": [
+                1332.421875,
+                831,
+                49.984375,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(188, 198, 199)",
+              "opacity": "1",
+              "text": "Journal"
+            }
+          },
+          "pauseFilter": "none",
+          "buttonCount": 14
+        },
+        {
+          "mode": "current",
+          "physicalUnchanged": true,
+          "scenePixelsUnchanged": true,
+          "buttons": {
+            "view-button": {
+              "rect": [
+                1069.3125,
+                29,
+                103.5625,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "Probe camera"
+            },
+            "map-button": {
+              "rect": [
+                1192.875,
+                29,
+                61.53125,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "Explore"
+            },
+            "controls-button": {
+              "rect": [
+                1274.40625,
+                28,
+                44,
+                46
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "?"
+            },
+            "time-toggle": {
+              "rect": [
+                217.40625,
+                794,
+                64,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(241, 238, 227)",
+              "opacity": "1",
+              "text": "Held"
+            },
+            "photo-button": {
+              "rect": [
+                1101.671875,
+                831,
+                94.796875,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(228, 231, 222)",
+              "opacity": "1",
+              "text": "PhotographP"
+            },
+            "review-button": {
+              "rect": [
+                1222.46875,
+                831,
+                83.953125,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(188, 198, 199)",
+              "opacity": "1",
+              "text": "Flight review"
+            },
+            "log-button": {
+              "rect": [
+                1332.421875,
+                831,
+                49.984375,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(188, 198, 199)",
+              "opacity": "1",
+              "text": "Journal"
+            }
+          },
+          "pauseFilter": "drop-shadow(rgb(0, 0, 0) 0px 1px 3px)",
+          "buttonCount": 14
+        }
+      ]
+    },
+    {
+      "name": "WebKit",
+      "engineVersion": "26.5",
+      "label": "rings",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "variants": [
+        {
+          "mode": "previous",
+          "physicalUnchanged": true,
+          "scenePixelsUnchanged": true,
+          "buttons": {
+            "view-button": {
+              "rect": [
+                1069.3125,
+                29,
+                103.5625,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "Probe camera"
+            },
+            "map-button": {
+              "rect": [
+                1192.875,
+                29,
+                61.53125,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "Explore"
+            },
+            "controls-button": {
+              "rect": [
+                1274.40625,
+                28,
+                44,
+                46
+              ],
+              "shadow": "none",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "?"
+            },
+            "time-toggle": {
+              "rect": [
+                224.46875,
+                794,
+                64,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(241, 238, 227)",
+              "opacity": "1",
+              "text": "Held"
+            },
+            "photo-button": {
+              "rect": [
+                1101.671875,
+                831,
+                94.796875,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(228, 231, 222)",
+              "opacity": "1",
+              "text": "PhotographP"
+            },
+            "review-button": {
+              "rect": [
+                1222.46875,
+                831,
+                83.953125,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(188, 198, 199)",
+              "opacity": "1",
+              "text": "Flight review"
+            },
+            "log-button": {
+              "rect": [
+                1332.421875,
+                831,
+                49.984375,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(188, 198, 199)",
+              "opacity": "1",
+              "text": "Journal"
+            }
+          },
+          "pauseFilter": "none",
+          "buttonCount": 14
+        },
+        {
+          "mode": "current",
+          "physicalUnchanged": true,
+          "scenePixelsUnchanged": true,
+          "buttons": {
+            "view-button": {
+              "rect": [
+                1069.3125,
+                29,
+                103.5625,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "Probe camera"
+            },
+            "map-button": {
+              "rect": [
+                1192.875,
+                29,
+                61.53125,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "Explore"
+            },
+            "controls-button": {
+              "rect": [
+                1274.40625,
+                28,
+                44,
+                46
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "?"
+            },
+            "time-toggle": {
+              "rect": [
+                224.46875,
+                794,
+                64,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(241, 238, 227)",
+              "opacity": "1",
+              "text": "Held"
+            },
+            "photo-button": {
+              "rect": [
+                1101.671875,
+                831,
+                94.796875,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(228, 231, 222)",
+              "opacity": "1",
+              "text": "PhotographP"
+            },
+            "review-button": {
+              "rect": [
+                1222.46875,
+                831,
+                83.953125,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(188, 198, 199)",
+              "opacity": "1",
+              "text": "Flight review"
+            },
+            "log-button": {
+              "rect": [
+                1332.421875,
+                831,
+                49.984375,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(188, 198, 199)",
+              "opacity": "1",
+              "text": "Journal"
+            }
+          },
+          "pauseFilter": "drop-shadow(rgb(0, 0, 0) 0px 1px 3px)",
+          "buttonCount": 14
+        }
+      ]
+    },
+    {
+      "name": "WebKit",
+      "engineVersion": "26.5",
+      "label": "polar-clouds",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "variants": [
+        {
+          "mode": "previous",
+          "physicalUnchanged": true,
+          "scenePixelsUnchanged": true,
+          "buttons": {
+            "view-button": {
+              "rect": [
+                1069.3125,
+                29,
+                103.5625,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "Probe camera"
+            },
+            "map-button": {
+              "rect": [
+                1192.875,
+                29,
+                61.53125,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "Explore"
+            },
+            "controls-button": {
+              "rect": [
+                1274.40625,
+                28,
+                44,
+                46
+              ],
+              "shadow": "none",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "?"
+            },
+            "time-toggle": {
+              "rect": [
+                224.46875,
+                794,
+                64,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(241, 238, 227)",
+              "opacity": "1",
+              "text": "Held"
+            },
+            "photo-button": {
+              "rect": [
+                1101.671875,
+                831,
+                94.796875,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(228, 231, 222)",
+              "opacity": "1",
+              "text": "PhotographP"
+            },
+            "review-button": {
+              "rect": [
+                1222.46875,
+                831,
+                83.953125,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(188, 198, 199)",
+              "opacity": "1",
+              "text": "Flight review"
+            },
+            "log-button": {
+              "rect": [
+                1332.421875,
+                831,
+                49.984375,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(188, 198, 199)",
+              "opacity": "1",
+              "text": "Journal"
+            }
+          },
+          "pauseFilter": "none",
+          "buttonCount": 14
+        },
+        {
+          "mode": "current",
+          "physicalUnchanged": true,
+          "scenePixelsUnchanged": true,
+          "buttons": {
+            "view-button": {
+              "rect": [
+                1069.3125,
+                29,
+                103.5625,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "Probe camera"
+            },
+            "map-button": {
+              "rect": [
+                1192.875,
+                29,
+                61.53125,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "Explore"
+            },
+            "controls-button": {
+              "rect": [
+                1274.40625,
+                28,
+                44,
+                46
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "?"
+            },
+            "time-toggle": {
+              "rect": [
+                224.46875,
+                794,
+                64,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(241, 238, 227)",
+              "opacity": "1",
+              "text": "Held"
+            },
+            "photo-button": {
+              "rect": [
+                1101.671875,
+                831,
+                94.796875,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(228, 231, 222)",
+              "opacity": "1",
+              "text": "PhotographP"
+            },
+            "review-button": {
+              "rect": [
+                1222.46875,
+                831,
+                83.953125,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(188, 198, 199)",
+              "opacity": "1",
+              "text": "Flight review"
+            },
+            "log-button": {
+              "rect": [
+                1332.421875,
+                831,
+                49.984375,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(188, 198, 199)",
+              "opacity": "1",
+              "text": "Journal"
+            }
+          },
+          "pauseFilter": "drop-shadow(rgb(0, 0, 0) 0px 1px 3px)",
+          "buttonCount": 14
+        }
+      ]
+    },
+    {
+      "name": "WebKit",
+      "engineVersion": "26.5",
+      "label": "earth",
+      "viewport": {
+        "width": 800,
+        "height": 600
+      },
+      "variants": [
+        {
+          "mode": "previous",
+          "physicalUnchanged": true,
+          "scenePixelsUnchanged": true,
+          "buttons": {
+            "view-button": {
+              "rect": [
+                525.5,
+                23,
+                92.796875,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "Probe camera"
+            },
+            "map-button": {
+              "rect": [
+                620.296875,
+                23,
+                55.703125,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "Explore"
+            },
+            "controls-button": {
+              "rect": [
+                678,
+                22,
+                44,
+                46
+              ],
+              "shadow": "none",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "?"
+            },
+            "time-toggle": {
+              "rect": [
+                175.53125,
+                494,
+                64,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(241, 238, 227)",
+              "opacity": "1",
+              "text": "Held"
+            },
+            "photo-button": {
+              "rect": [
+                519.640625,
+                531,
+                86.296875,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(228, 231, 222)",
+              "opacity": "1",
+              "text": "PhotographP"
+            },
+            "review-button": {
+              "rect": [
+                623.9375,
+                531,
+                79.015625,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(188, 198, 199)",
+              "opacity": "1",
+              "text": "Flight review"
+            },
+            "log-button": {
+              "rect": [
+                720.953125,
+                531,
+                47.046875,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(188, 198, 199)",
+              "opacity": "1",
+              "text": "Journal"
+            }
+          },
+          "pauseFilter": "none",
+          "buttonCount": 14
+        },
+        {
+          "mode": "current",
+          "physicalUnchanged": true,
+          "scenePixelsUnchanged": true,
+          "buttons": {
+            "view-button": {
+              "rect": [
+                525.5,
+                23,
+                92.796875,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "Probe camera"
+            },
+            "map-button": {
+              "rect": [
+                620.296875,
+                23,
+                55.703125,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "Explore"
+            },
+            "controls-button": {
+              "rect": [
+                678,
+                22,
+                44,
+                46
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "?"
+            },
+            "time-toggle": {
+              "rect": [
+                175.53125,
+                494,
+                64,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(241, 238, 227)",
+              "opacity": "1",
+              "text": "Held"
+            },
+            "photo-button": {
+              "rect": [
+                519.640625,
+                531,
+                86.296875,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(228, 231, 222)",
+              "opacity": "1",
+              "text": "PhotographP"
+            },
+            "review-button": {
+              "rect": [
+                623.9375,
+                531,
+                79.015625,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(188, 198, 199)",
+              "opacity": "1",
+              "text": "Flight review"
+            },
+            "log-button": {
+              "rect": [
+                720.953125,
+                531,
+                47.046875,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(188, 198, 199)",
+              "opacity": "1",
+              "text": "Journal"
+            }
+          },
+          "pauseFilter": "drop-shadow(rgb(0, 0, 0) 0px 1px 3px)",
+          "buttonCount": 14
+        }
+      ]
+    },
+    {
+      "name": "WebKit",
+      "engineVersion": "26.5",
+      "label": "lunar-detail",
+      "viewport": {
+        "width": 800,
+        "height": 600
+      },
+      "variants": [
+        {
+          "mode": "previous",
+          "physicalUnchanged": true,
+          "scenePixelsUnchanged": true,
+          "buttons": {
+            "view-button": {
+              "rect": [
+                525.5,
+                23,
+                92.796875,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "Probe camera"
+            },
+            "map-button": {
+              "rect": [
+                620.296875,
+                23,
+                55.703125,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "Explore"
+            },
+            "controls-button": {
+              "rect": [
+                678,
+                22,
+                44,
+                46
+              ],
+              "shadow": "none",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "?"
+            },
+            "time-toggle": {
+              "rect": [
+                174.8125,
+                494,
+                64,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(241, 238, 227)",
+              "opacity": "1",
+              "text": "Held"
+            },
+            "photo-button": {
+              "rect": [
+                519.640625,
+                531,
+                86.296875,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(228, 231, 222)",
+              "opacity": "1",
+              "text": "PhotographP"
+            },
+            "review-button": {
+              "rect": [
+                623.9375,
+                531,
+                79.015625,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(188, 198, 199)",
+              "opacity": "1",
+              "text": "Flight review"
+            },
+            "log-button": {
+              "rect": [
+                720.953125,
+                531,
+                47.046875,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(188, 198, 199)",
+              "opacity": "1",
+              "text": "Journal"
+            }
+          },
+          "pauseFilter": "none",
+          "buttonCount": 14
+        },
+        {
+          "mode": "current",
+          "physicalUnchanged": true,
+          "scenePixelsUnchanged": true,
+          "buttons": {
+            "view-button": {
+              "rect": [
+                525.5,
+                23,
+                92.796875,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "Probe camera"
+            },
+            "map-button": {
+              "rect": [
+                620.296875,
+                23,
+                55.703125,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "Explore"
+            },
+            "controls-button": {
+              "rect": [
+                678,
+                22,
+                44,
+                46
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "?"
+            },
+            "time-toggle": {
+              "rect": [
+                174.8125,
+                494,
+                64,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(241, 238, 227)",
+              "opacity": "1",
+              "text": "Held"
+            },
+            "photo-button": {
+              "rect": [
+                519.640625,
+                531,
+                86.296875,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(228, 231, 222)",
+              "opacity": "1",
+              "text": "PhotographP"
+            },
+            "review-button": {
+              "rect": [
+                623.9375,
+                531,
+                79.015625,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(188, 198, 199)",
+              "opacity": "1",
+              "text": "Flight review"
+            },
+            "log-button": {
+              "rect": [
+                720.953125,
+                531,
+                47.046875,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(188, 198, 199)",
+              "opacity": "1",
+              "text": "Journal"
+            }
+          },
+          "pauseFilter": "drop-shadow(rgb(0, 0, 0) 0px 1px 3px)",
+          "buttonCount": 14
+        }
+      ]
+    },
+    {
+      "name": "WebKit",
+      "engineVersion": "26.5",
+      "label": "rings",
+      "viewport": {
+        "width": 800,
+        "height": 600
+      },
+      "variants": [
+        {
+          "mode": "previous",
+          "physicalUnchanged": true,
+          "scenePixelsUnchanged": true,
+          "buttons": {
+            "view-button": {
+              "rect": [
+                525.5,
+                23,
+                92.796875,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "Probe camera"
+            },
+            "map-button": {
+              "rect": [
+                620.296875,
+                23,
+                55.703125,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "Explore"
+            },
+            "controls-button": {
+              "rect": [
+                678,
+                22,
+                44,
+                46
+              ],
+              "shadow": "none",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "?"
+            },
+            "time-toggle": {
+              "rect": [
+                181.875,
+                494,
+                64,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(241, 238, 227)",
+              "opacity": "1",
+              "text": "Held"
+            },
+            "photo-button": {
+              "rect": [
+                519.640625,
+                531,
+                86.296875,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(228, 231, 222)",
+              "opacity": "1",
+              "text": "PhotographP"
+            },
+            "review-button": {
+              "rect": [
+                623.9375,
+                531,
+                79.015625,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(188, 198, 199)",
+              "opacity": "1",
+              "text": "Flight review"
+            },
+            "log-button": {
+              "rect": [
+                720.953125,
+                531,
+                47.046875,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(188, 198, 199)",
+              "opacity": "1",
+              "text": "Journal"
+            }
+          },
+          "pauseFilter": "none",
+          "buttonCount": 14
+        },
+        {
+          "mode": "current",
+          "physicalUnchanged": true,
+          "scenePixelsUnchanged": true,
+          "buttons": {
+            "view-button": {
+              "rect": [
+                525.5,
+                23,
+                92.796875,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "Probe camera"
+            },
+            "map-button": {
+              "rect": [
+                620.296875,
+                23,
+                55.703125,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "Explore"
+            },
+            "controls-button": {
+              "rect": [
+                678,
+                22,
+                44,
+                46
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "?"
+            },
+            "time-toggle": {
+              "rect": [
+                181.875,
+                494,
+                64,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(241, 238, 227)",
+              "opacity": "1",
+              "text": "Held"
+            },
+            "photo-button": {
+              "rect": [
+                519.640625,
+                531,
+                86.296875,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(228, 231, 222)",
+              "opacity": "1",
+              "text": "PhotographP"
+            },
+            "review-button": {
+              "rect": [
+                623.9375,
+                531,
+                79.015625,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(188, 198, 199)",
+              "opacity": "1",
+              "text": "Flight review"
+            },
+            "log-button": {
+              "rect": [
+                720.953125,
+                531,
+                47.046875,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(188, 198, 199)",
+              "opacity": "1",
+              "text": "Journal"
+            }
+          },
+          "pauseFilter": "drop-shadow(rgb(0, 0, 0) 0px 1px 3px)",
+          "buttonCount": 14
+        }
+      ]
+    },
+    {
+      "name": "WebKit",
+      "engineVersion": "26.5",
+      "label": "polar-clouds",
+      "viewport": {
+        "width": 800,
+        "height": 600
+      },
+      "variants": [
+        {
+          "mode": "previous",
+          "physicalUnchanged": true,
+          "scenePixelsUnchanged": true,
+          "buttons": {
+            "view-button": {
+              "rect": [
+                525.5,
+                23,
+                92.796875,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "Probe camera"
+            },
+            "map-button": {
+              "rect": [
+                620.296875,
+                23,
+                55.703125,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "Explore"
+            },
+            "controls-button": {
+              "rect": [
+                678,
+                22,
+                44,
+                46
+              ],
+              "shadow": "none",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "?"
+            },
+            "time-toggle": {
+              "rect": [
+                181.875,
+                494,
+                64,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(241, 238, 227)",
+              "opacity": "1",
+              "text": "Held"
+            },
+            "photo-button": {
+              "rect": [
+                519.640625,
+                531,
+                86.296875,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(228, 231, 222)",
+              "opacity": "1",
+              "text": "PhotographP"
+            },
+            "review-button": {
+              "rect": [
+                623.9375,
+                531,
+                79.015625,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(188, 198, 199)",
+              "opacity": "1",
+              "text": "Flight review"
+            },
+            "log-button": {
+              "rect": [
+                720.953125,
+                531,
+                47.046875,
+                44
+              ],
+              "shadow": "none",
+              "color": "rgb(188, 198, 199)",
+              "opacity": "1",
+              "text": "Journal"
+            }
+          },
+          "pauseFilter": "none",
+          "buttonCount": 14
+        },
+        {
+          "mode": "current",
+          "physicalUnchanged": true,
+          "scenePixelsUnchanged": true,
+          "buttons": {
+            "view-button": {
+              "rect": [
+                525.5,
+                23,
+                92.796875,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "Probe camera"
+            },
+            "map-button": {
+              "rect": [
+                620.296875,
+                23,
+                55.703125,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "Explore"
+            },
+            "controls-button": {
+              "rect": [
+                678,
+                22,
+                44,
+                46
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(236, 236, 229)",
+              "opacity": "1",
+              "text": "?"
+            },
+            "time-toggle": {
+              "rect": [
+                181.875,
+                494,
+                64,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(241, 238, 227)",
+              "opacity": "1",
+              "text": "Held"
+            },
+            "photo-button": {
+              "rect": [
+                519.640625,
+                531,
+                86.296875,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(228, 231, 222)",
+              "opacity": "1",
+              "text": "PhotographP"
+            },
+            "review-button": {
+              "rect": [
+                623.9375,
+                531,
+                79.015625,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(188, 198, 199)",
+              "opacity": "1",
+              "text": "Flight review"
+            },
+            "log-button": {
+              "rect": [
+                720.953125,
+                531,
+                47.046875,
+                44
+              ],
+              "shadow": "rgb(0, 0, 0) 0px 1px 3px",
+              "color": "rgb(188, 198, 199)",
+              "opacity": "1",
+              "text": "Journal"
+            }
+          },
+          "pauseFilter": "drop-shadow(rgb(0, 0, 0) 0px 1px 3px)",
+          "buttonCount": 14
+        }
+      ]
+    },
+    {
+      "name": "WebKit",
+      "errors": []
+    }
+  ]
+}

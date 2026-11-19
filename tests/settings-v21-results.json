@@ -1,0 +1,473 @@
+{
+  "version": "0.21.0",
+  "outcomes": [
+    {
+      "name": "Chrome",
+      "engineVersion": "158.0.8127.37",
+      "exposure": {
+        "dark": {
+          "luma": 23.08621458333355,
+          "renderCount": 10,
+          "exposure": 0.35
+        },
+        "bright": {
+          "luma": 56.70763305555582,
+          "renderCount": 11,
+          "exposure": 1.5
+        }
+      },
+      "physicalStateHeld": true,
+      "staticViewStopsRendering": true,
+      "persistedValues": true,
+      "muteStateVisibleAndPersisted": true,
+      "muteButtonAndKeyboardSynced": true,
+      "keyboardValues": true,
+      "nativeFullscreenVerified": true,
+      "fit": [
+        {
+          "size": {
+            "width": 1024,
+            "height": 640
+          },
+          "boxes": [
+            {
+              "id": "settings-sound",
+              "width": 44,
+              "height": 44,
+              "right": 512,
+              "bottom": 112.5
+            },
+            {
+              "id": "volume",
+              "width": 450.5625,
+              "height": 44,
+              "right": 512,
+              "bottom": 178.5
+            },
+            {
+              "id": "feedback",
+              "width": 450.5625,
+              "height": 44,
+              "right": 512,
+              "bottom": 244.5
+            },
+            {
+              "id": "exposure",
+              "width": 450.5625,
+              "height": 44,
+              "right": 512,
+              "bottom": 332.5
+            },
+            {
+              "id": "quality",
+              "width": 135,
+              "height": 44,
+              "right": 512,
+              "bottom": 385.5
+            },
+            {
+              "id": "sensitivity",
+              "width": 450.5625,
+              "height": 44,
+              "right": 512,
+              "bottom": 521.5
+            },
+            {
+              "id": "resume",
+              "width": 44,
+              "height": 48.59375,
+              "right": 105.4375,
+              "bottom": 593.09375
+            },
+            {
+              "id": "fullscreen",
+              "width": 71.390625,
+              "height": 44,
+              "right": 512,
+              "bottom": 590.796875
+            }
+          ]
+        },
+        {
+          "size": {
+            "width": 800,
+            "height": 600
+          },
+          "boxes": [
+            {
+              "id": "settings-sound",
+              "width": 44,
+              "height": 44,
+              "right": 416,
+              "bottom": 112.5
+            },
+            {
+              "id": "volume",
+              "width": 376,
+              "height": 44,
+              "right": 416,
+              "bottom": 178.5
+            },
+            {
+              "id": "feedback",
+              "width": 376,
+              "height": 44,
+              "right": 416,
+              "bottom": 244.5
+            },
+            {
+              "id": "exposure",
+              "width": 376,
+              "height": 44,
+              "right": 416,
+              "bottom": 332.5
+            },
+            {
+              "id": "quality",
+              "width": 135,
+              "height": 44,
+              "right": 416,
+              "bottom": 385.5
+            },
+            {
+              "id": "sensitivity",
+              "width": 376,
+              "height": 44,
+              "right": 416,
+              "bottom": 521.5
+            },
+            {
+              "id": "resume",
+              "width": 44,
+              "height": 48.59375,
+              "right": 84,
+              "bottom": 593.09375
+            },
+            {
+              "id": "fullscreen",
+              "width": 71.390625,
+              "height": 44,
+              "right": 416,
+              "bottom": 590.796875
+            }
+          ]
+        }
+      ],
+      "guideClarifiesIndependentPhoto": true,
+      "errors": [],
+      "passed": true
+    },
+    {
+      "name": "Firefox",
+      "engineVersion": "153.0",
+      "exposure": {
+        "dark": {
+          "luma": 22.906714907407526,
+          "renderCount": 14,
+          "exposure": 0.35
+        },
+        "bright": {
+          "luma": 56.563895879629676,
+          "renderCount": 15,
+          "exposure": 1.5
+        }
+      },
+      "physicalStateHeld": true,
+      "staticViewStopsRendering": true,
+      "persistedValues": true,
+      "muteStateVisibleAndPersisted": true,
+      "muteButtonAndKeyboardSynced": true,
+      "keyboardValues": true,
+      "nativeFullscreenVerified": true,
+      "fit": [
+        {
+          "size": {
+            "width": 1024,
+            "height": 640
+          },
+          "boxes": [
+            {
+              "id": "settings-sound",
+              "width": 44,
+              "height": 44,
+              "right": 512,
+              "bottom": 112.5
+            },
+            {
+              "id": "volume",
+              "width": 450.566650390625,
+              "height": 44,
+              "right": 511.99998474121094,
+              "bottom": 178.5
+            },
+            {
+              "id": "feedback",
+              "width": 450.566650390625,
+              "height": 44,
+              "right": 511.99998474121094,
+              "bottom": 244.5
+            },
+            {
+              "id": "exposure",
+              "width": 450.566650390625,
+              "height": 44,
+              "right": 511.99998474121094,
+              "bottom": 333.5
+            },
+            {
+              "id": "quality",
+              "width": 135,
+              "height": 44,
+              "right": 512,
+              "bottom": 386.5
+            },
+            {
+              "id": "sensitivity",
+              "width": 450.566650390625,
+              "height": 44,
+              "right": 511.99998474121094,
+              "bottom": 523.5
+            },
+            {
+              "id": "resume",
+              "width": 44,
+              "height": 48.600006103515625,
+              "right": 105.43333435058594,
+              "bottom": 595.1000061035156
+            },
+            {
+              "id": "fullscreen",
+              "width": 71.36666870117188,
+              "height": 44,
+              "right": 512,
+              "bottom": 592.7999877929688
+            }
+          ]
+        },
+        {
+          "size": {
+            "width": 800,
+            "height": 600
+          },
+          "boxes": [
+            {
+              "id": "settings-sound",
+              "width": 44,
+              "height": 44,
+              "right": 416,
+              "bottom": 112.5
+            },
+            {
+              "id": "volume",
+              "width": 376,
+              "height": 44,
+              "right": 416,
+              "bottom": 178.5
+            },
+            {
+              "id": "feedback",
+              "width": 376,
+              "height": 44,
+              "right": 416,
+              "bottom": 244.5
+            },
+            {
+              "id": "exposure",
+              "width": 376,
+              "height": 44,
+              "right": 416,
+              "bottom": 333.5
+            },
+            {
+              "id": "quality",
+              "width": 135,
+              "height": 44,
+              "right": 416,
+              "bottom": 386.5
+            },
+            {
+              "id": "sensitivity",
+              "width": 376,
+              "height": 44,
+              "right": 416,
+              "bottom": 523.5
+            },
+            {
+              "id": "resume",
+              "width": 44,
+              "height": 48.600006103515625,
+              "right": 84,
+              "bottom": 595.1000061035156
+            },
+            {
+              "id": "fullscreen",
+              "width": 71.36666870117188,
+              "height": 44,
+              "right": 416,
+              "bottom": 592.7999877929688
+            }
+          ]
+        }
+      ],
+      "guideClarifiesIndependentPhoto": true,
+      "errors": [],
+      "passed": true
+    },
+    {
+      "name": "WebKit",
+      "engineVersion": "26.5",
+      "exposure": {
+        "dark": {
+          "luma": 23.009491203703824,
+          "renderCount": 17,
+          "exposure": 0.35
+        },
+        "bright": {
+          "luma": 56.65413120370369,
+          "renderCount": 18,
+          "exposure": 1.5
+        }
+      },
+      "physicalStateHeld": true,
+      "staticViewStopsRendering": true,
+      "persistedValues": true,
+      "muteStateVisibleAndPersisted": true,
+      "muteButtonAndKeyboardSynced": true,
+      "keyboardValues": true,
+      "nativeFullscreenVerified": true,
+      "fit": [
+        {
+          "size": {
+            "width": 1024,
+            "height": 640
+          },
+          "boxes": [
+            {
+              "id": "settings-sound",
+              "width": 44,
+              "height": 44,
+              "right": 512,
+              "bottom": 112.5
+            },
+            {
+              "id": "volume",
+              "width": 450.5625,
+              "height": 44,
+              "right": 512,
+              "bottom": 178.5
+            },
+            {
+              "id": "feedback",
+              "width": 450.5625,
+              "height": 44,
+              "right": 512,
+              "bottom": 244.5
+            },
+            {
+              "id": "exposure",
+              "width": 450.5625,
+              "height": 44,
+              "right": 512,
+              "bottom": 332.5
+            },
+            {
+              "id": "quality",
+              "width": 135,
+              "height": 44,
+              "right": 512,
+              "bottom": 385.5
+            },
+            {
+              "id": "sensitivity",
+              "width": 450.5625,
+              "height": 44,
+              "right": 512,
+              "bottom": 521.5
+            },
+            {
+              "id": "resume",
+              "width": 44,
+              "height": 48.59375,
+              "right": 105.4375,
+              "bottom": 593.09375
+            },
+            {
+              "id": "fullscreen",
+              "width": 71.390625,
+              "height": 44,
+              "right": 512,
+              "bottom": 590.796875
+            }
+          ]
+        },
+        {
+          "size": {
+            "width": 800,
+            "height": 600
+          },
+          "boxes": [
+            {
+              "id": "settings-sound",
+              "width": 44,
+              "height": 44,
+              "right": 416,
+              "bottom": 112.5
+            },
+            {
+              "id": "volume",
+              "width": 376,
+              "height": 44,
+              "right": 416,
+              "bottom": 178.5
+            },
+            {
+              "id": "feedback",
+              "width": 376,
+              "height": 44,
+              "right": 416,
+              "bottom": 244.5
+            },
+            {
+              "id": "exposure",
+              "width": 376,
+              "height": 44,
+              "right": 416,
+              "bottom": 332.5
+            },
+            {
+              "id": "quality",
+              "width": 135,
+              "height": 44,
+              "right": 416,
+              "bottom": 385.5
+            },
+            {
+              "id": "sensitivity",
+              "width": 376,
+              "height": 44,
+              "right": 416,
+              "bottom": 521.5
+            },
+            {
+              "id": "resume",
+              "width": 44,
+              "height": 48.59375,
+              "right": 84,
+              "bottom": 593.09375
+            },
+            {
+              "id": "fullscreen",
+              "width": 71.390625,
+              "height": 44,
+              "right": 416,
+              "bottom": 590.796875
+            }
+          ]
+        }
+      ],
+      "guideClarifiesIndependentPhoto": true,
+      "errors": [],
+      "passed": true
+    }
+  ]
+}

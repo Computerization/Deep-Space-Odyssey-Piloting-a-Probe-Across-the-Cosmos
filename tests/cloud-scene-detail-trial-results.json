@@ -1,0 +1,1049 @@
+{
+  "method": "Separate Chrome contexts render 8K lossless control, 12K AVIF candidate and exact 16K reference with common 2K regional height, shaders, physical state and render budgets. Reference uses raw R8 bytes over local HTTP after oversized automation-intercept transfers closed the browser. No claim about the precise cause of those failures.",
+  "hashes": {
+    "control": "fb9530aa94ac7e2818babf9fc7eb5f415b0ca8544d0ce4915be2ca20494e2228",
+    "candidate": "d2d43a652f0b6fea527e25d892a88a5985ed09d9e126414ac27cb950c690bc7e",
+    "reference": "16b937e7b4a35ff4b20eea3683c228d6b1ce3725295378af60fac88e501f87f8",
+    "src/world.js": "726b300f85d32142b490f6dcdab3838bb4ea0e7cb6d040c2093176e7dbcb2614",
+    "src/rendering/scene-factory.js": "fef4e76b46d289bc942f2e8b477353964d748bc971720b34bf08f3847c3e11e0",
+    "src/rendering/earth-shaders.js": "0f9d37e6e4be394d4432d324edd61120ab8996c9e19e7e18c5b4bb307de2708b",
+    "assets/textures/earth-cloud-height.png": "e459fde568e5666da55abfaeffb18dc88ae13fc29d91d442d7f0318fd16d19bb",
+    "referenceR8": "3d409156891d4add85a2c374a2ab06ce60c0acac02c92cd1a7f5f09523f664e6"
+  },
+  "sourceFiles": {
+    "control": "/private/tmp/cosmos-cloud-detail-final/hybrid-8192.png",
+    "candidate": "/private/tmp/cosmos-v90-cloud-candidate/Cosmos/assets/textures/earth-clouds.avif",
+    "reference": "/private/tmp/cosmos-cloud-detail-final/hybrid-16384.png"
+  },
+  "views": [
+    {
+      "label": "day",
+      "quality": "ultra",
+      "metrics": {
+        "control": {
+          "rmse": 0.4050162136554718,
+          "gradientRMSE": 0.5563007593154907,
+          "max": 18.0
+        },
+        "candidate": {
+          "rmse": 1.9808531999588013,
+          "gradientRMSE": 2.6593315601348877,
+          "max": 65.0
+        }
+      },
+      "repeats": {
+        "control": {
+          "rmse": 0.0,
+          "gradientRMSE": 0.0,
+          "max": 0.0
+        },
+        "candidate": {
+          "rmse": 0.0,
+          "gradientRMSE": 0.0,
+          "max": 0.0
+        },
+        "reference": {
+          "rmse": 0.0,
+          "gradientRMSE": 0.0,
+          "max": 0.0
+        }
+      },
+      "imageHashes": {
+        "control": [
+          "cbfb8c5058e544abcd0f6816c2bd88040094b7f3ba7454805423570cdba018b4",
+          "cbfb8c5058e544abcd0f6816c2bd88040094b7f3ba7454805423570cdba018b4"
+        ],
+        "candidate": [
+          "b500a1bff4ad1966cf8fc0996c68d95306764242b7ff900b0d2c5a15da88ed78",
+          "b500a1bff4ad1966cf8fc0996c68d95306764242b7ff900b0d2c5a15da88ed78"
+        ],
+        "reference": [
+          "9d3409a81c33c4a4d6c5b55006ae4b923999c7e8a981df22fccc739b77f70298",
+          "9d3409a81c33c4a4d6c5b55006ae4b923999c7e8a981df22fccc739b77f70298"
+        ]
+      },
+      "physicalStatePreserved": true,
+      "resources": {
+        "calls": 7,
+        "triangles": 292866,
+        "textures": 29,
+        "geometries": 22,
+        "programs": 23
+      }
+    },
+    {
+      "label": "close",
+      "quality": "ultra",
+      "metrics": {
+        "control": {
+          "rmse": 6.853431224822998,
+          "gradientRMSE": 2.6717844009399414,
+          "max": 165.0
+        },
+        "candidate": {
+          "rmse": 4.995959758758545,
+          "gradientRMSE": 2.26375150680542,
+          "max": 114.0
+        }
+      },
+      "repeats": {
+        "control": {
+          "rmse": 0.0,
+          "gradientRMSE": 0.0,
+          "max": 0.0
+        },
+        "candidate": {
+          "rmse": 0.0,
+          "gradientRMSE": 0.0,
+          "max": 0.0
+        },
+        "reference": {
+          "rmse": 0.0,
+          "gradientRMSE": 0.0,
+          "max": 0.0
+        }
+      },
+      "imageHashes": {
+        "control": [
+          "79f5f4c99fce31107d6140deefcff9c012d8f4854e7866e774333ec36842b216",
+          "79f5f4c99fce31107d6140deefcff9c012d8f4854e7866e774333ec36842b216"
+        ],
+        "candidate": [
+          "e988a57caf1631844c08318edcc85e6c8552da683c7e3dcc8aa0559082a89a6f",
+          "e988a57caf1631844c08318edcc85e6c8552da683c7e3dcc8aa0559082a89a6f"
+        ],
+        "reference": [
+          "7ee4c0f5ae8fb64090b1cdd6db0b0f01a3472a4e4f382150606523c0cd8c83e4",
+          "7ee4c0f5ae8fb64090b1cdd6db0b0f01a3472a4e4f382150606523c0cd8c83e4"
+        ]
+      },
+      "physicalStatePreserved": true,
+      "resources": {
+        "calls": 7,
+        "triangles": 292866,
+        "textures": 29,
+        "geometries": 22,
+        "programs": 23
+      }
+    },
+    {
+      "label": "grazing",
+      "quality": "ultra",
+      "metrics": {
+        "control": {
+          "rmse": 1.8019068241119385,
+          "gradientRMSE": 0.8107246160507202,
+          "max": 64.0
+        },
+        "candidate": {
+          "rmse": 1.5003111362457275,
+          "gradientRMSE": 0.7464353442192078,
+          "max": 50.0
+        }
+      },
+      "repeats": {
+        "control": {
+          "rmse": 0.0,
+          "gradientRMSE": 0.0,
+          "max": 0.0
+        },
+        "candidate": {
+          "rmse": 0.0,
+          "gradientRMSE": 0.0,
+          "max": 0.0
+        },
+        "reference": {
+          "rmse": 0.0,
+          "gradientRMSE": 0.0,
+          "max": 0.0
+        }
+      },
+      "imageHashes": {
+        "control": [
+          "8f77de5ecef4114b08161cfcfe917b237e1a4018237accbd43abd4aacf7f0995",
+          "8f77de5ecef4114b08161cfcfe917b237e1a4018237accbd43abd4aacf7f0995"
+        ],
+        "candidate": [
+          "d3faa51e59d4515c118f7039e40d6a0191d35b457544f022c05f523fe85c86bd",
+          "d3faa51e59d4515c118f7039e40d6a0191d35b457544f022c05f523fe85c86bd"
+        ],
+        "reference": [
+          "62b8c602b09d3dede2164c080d864a317a931312a93c5063659b0f5d539ef8e3",
+          "62b8c602b09d3dede2164c080d864a317a931312a93c5063659b0f5d539ef8e3"
+        ]
+      },
+      "physicalStatePreserved": true,
+      "resources": {
+        "calls": 7,
+        "triangles": 292866,
+        "textures": 29,
+        "geometries": 22,
+        "programs": 23
+      }
+    },
+    {
+      "label": "resolved-limb",
+      "quality": "ultra",
+      "metrics": {
+        "control": {
+          "rmse": 2.254615545272827,
+          "gradientRMSE": 0.5465377569198608,
+          "max": 59.0
+        },
+        "candidate": {
+          "rmse": 1.7319698333740234,
+          "gradientRMSE": 0.4833015203475952,
+          "max": 52.0
+        }
+      },
+      "repeats": {
+        "control": {
+          "rmse": 0.0,
+          "gradientRMSE": 0.0,
+          "max": 0.0
+        },
+        "candidate": {
+          "rmse": 0.0,
+          "gradientRMSE": 0.0,
+          "max": 0.0
+        },
+        "reference": {
+          "rmse": 0.0,
+          "gradientRMSE": 0.0,
+          "max": 0.0
+        }
+      },
+      "imageHashes": {
+        "control": [
+          "2d13417e94486620967fa6092efa554f2f279912036287b5713c6293f0b68414",
+          "2d13417e94486620967fa6092efa554f2f279912036287b5713c6293f0b68414"
+        ],
+        "candidate": [
+          "2a5a099c8edb7120dfab3c3c665d80375895d3c813b23cba6b3929428876809f",
+          "2a5a099c8edb7120dfab3c3c665d80375895d3c813b23cba6b3929428876809f"
+        ],
+        "reference": [
+          "f7294c88436704afcfab83907b08aaf6ffb5c84d9fbd2f5545d55a4dca18e2bf",
+          "f7294c88436704afcfab83907b08aaf6ffb5c84d9fbd2f5545d55a4dca18e2bf"
+        ]
+      },
+      "physicalStatePreserved": true,
+      "resources": {
+        "calls": 7,
+        "triangles": 292866,
+        "textures": 29,
+        "geometries": 22,
+        "programs": 23
+      }
+    },
+    {
+      "label": "pole",
+      "quality": "ultra",
+      "metrics": {
+        "control": {
+          "rmse": 1.8901621103286743,
+          "gradientRMSE": 0.5712662935256958,
+          "max": 35.0
+        },
+        "candidate": {
+          "rmse": 1.4863098859786987,
+          "gradientRMSE": 0.7654402256011963,
+          "max": 27.0
+        }
+      },
+      "repeats": {
+        "control": {
+          "rmse": 0.0,
+          "gradientRMSE": 0.0,
+          "max": 0.0
+        },
+        "candidate": {
+          "rmse": 0.0,
+          "gradientRMSE": 0.0,
+          "max": 0.0
+        },
+        "reference": {
+          "rmse": 0.0,
+          "gradientRMSE": 0.0,
+          "max": 0.0
+        }
+      },
+      "imageHashes": {
+        "control": [
+          "a7f8472ff16d7b8561c04f8eedfd4832c34cb73891bea7d8f04a8780c01d25da",
+          "a7f8472ff16d7b8561c04f8eedfd4832c34cb73891bea7d8f04a8780c01d25da"
+        ],
+        "candidate": [
+          "e8c3ac999f03a57224e869cb00ed4cc03fd4b34f257259dee8af84c84a48df61",
+          "e8c3ac999f03a57224e869cb00ed4cc03fd4b34f257259dee8af84c84a48df61"
+        ],
+        "reference": [
+          "a66c906fe33ac7082b6b4bb90c1a997d28e68929e3f46171a93200935ac3a165",
+          "a66c906fe33ac7082b6b4bb90c1a997d28e68929e3f46171a93200935ac3a165"
+        ]
+      },
+      "physicalStatePreserved": true,
+      "resources": {
+        "calls": 7,
+        "triangles": 292866,
+        "textures": 29,
+        "geometries": 22,
+        "programs": 23
+      }
+    },
+    {
+      "label": "day",
+      "quality": "high",
+      "metrics": {
+        "control": {
+          "rmse": 0.2449846863746643,
+          "gradientRMSE": 0.27618563175201416,
+          "max": 7.0
+        },
+        "candidate": {
+          "rmse": 1.803327202796936,
+          "gradientRMSE": 1.5765401124954224,
+          "max": 51.0
+        }
+      },
+      "repeats": {
+        "control": {
+          "rmse": 0.0,
+          "gradientRMSE": 0.0,
+          "max": 0.0
+        },
+        "candidate": {
+          "rmse": 0.0,
+          "gradientRMSE": 0.0,
+          "max": 0.0
+        },
+        "reference": {
+          "rmse": 0.0,
+          "gradientRMSE": 0.0,
+          "max": 0.0
+        }
+      },
+      "imageHashes": {
+        "control": [
+          "c6b02141348c06e911bb32cdc1d83e91ac7c358d4a1b2e192c029b4de983671d",
+          "c6b02141348c06e911bb32cdc1d83e91ac7c358d4a1b2e192c029b4de983671d"
+        ],
+        "candidate": [
+          "8c1839b9aae2312e5b4c01dea454cf664bfca45428ec0577bc60426833701258",
+          "8c1839b9aae2312e5b4c01dea454cf664bfca45428ec0577bc60426833701258"
+        ],
+        "reference": [
+          "2dab88735afccae00c21cdc12775a8440909d354e06858737d72132ce25ca4a1",
+          "2dab88735afccae00c21cdc12775a8440909d354e06858737d72132ce25ca4a1"
+        ]
+      },
+      "physicalStatePreserved": true,
+      "resources": {
+        "calls": 8,
+        "triangles": 366082,
+        "textures": 29,
+        "geometries": 22,
+        "programs": 23
+      }
+    },
+    {
+      "label": "close",
+      "quality": "high",
+      "metrics": {
+        "control": {
+          "rmse": 6.7059407234191895,
+          "gradientRMSE": 2.512343168258667,
+          "max": 158.0
+        },
+        "candidate": {
+          "rmse": 4.836464881896973,
+          "gradientRMSE": 2.0900237560272217,
+          "max": 107.0
+        }
+      },
+      "repeats": {
+        "control": {
+          "rmse": 0.0,
+          "gradientRMSE": 0.0,
+          "max": 0.0
+        },
+        "candidate": {
+          "rmse": 0.0,
+          "gradientRMSE": 0.0,
+          "max": 0.0
+        },
+        "reference": {
+          "rmse": 0.0,
+          "gradientRMSE": 0.0,
+          "max": 0.0
+        }
+      },
+      "imageHashes": {
+        "control": [
+          "e55942277ef2f5bd3393f544497e464b60ff62a09c67742a99e2d3f0ee60752b",
+          "e55942277ef2f5bd3393f544497e464b60ff62a09c67742a99e2d3f0ee60752b"
+        ],
+        "candidate": [
+          "3463a511e6ff8d3d34eb3bea2a5891349e6512b1fa8deea52c3a417c8d0adc03",
+          "3463a511e6ff8d3d34eb3bea2a5891349e6512b1fa8deea52c3a417c8d0adc03"
+        ],
+        "reference": [
+          "67f183e2b16dd7793c4f60f301dd7cb8842c525303e5512b090c5eaba960e5f4",
+          "67f183e2b16dd7793c4f60f301dd7cb8842c525303e5512b090c5eaba960e5f4"
+        ]
+      },
+      "physicalStatePreserved": true,
+      "resources": {
+        "calls": 8,
+        "triangles": 366082,
+        "textures": 29,
+        "geometries": 22,
+        "programs": 23
+      }
+    },
+    {
+      "label": "grazing",
+      "quality": "high",
+      "metrics": {
+        "control": {
+          "rmse": 1.761124610900879,
+          "gradientRMSE": 0.772390604019165,
+          "max": 56.0
+        },
+        "candidate": {
+          "rmse": 1.4594260454177856,
+          "gradientRMSE": 0.7082953453063965,
+          "max": 44.0
+        }
+      },
+      "repeats": {
+        "control": {
+          "rmse": 0.0,
+          "gradientRMSE": 0.0,
+          "max": 0.0
+        },
+        "candidate": {
+          "rmse": 0.0,
+          "gradientRMSE": 0.0,
+          "max": 0.0
+        },
+        "reference": {
+          "rmse": 0.0,
+          "gradientRMSE": 0.0,
+          "max": 0.0
+        }
+      },
+      "imageHashes": {
+        "control": [
+          "d85a9efc60a4528aad7fee70984087da788deb28ce0ebad4c14f9028e4934b48",
+          "d85a9efc60a4528aad7fee70984087da788deb28ce0ebad4c14f9028e4934b48"
+        ],
+        "candidate": [
+          "8d7ddbaf7c194706b79b38882dc0b2f94de494ba9c539d1ea9a06909f0aa05a6",
+          "8d7ddbaf7c194706b79b38882dc0b2f94de494ba9c539d1ea9a06909f0aa05a6"
+        ],
+        "reference": [
+          "8b6f055a4c1706200297eb43a41141c7c5a0802491ea53b3cc88a60ced04fa5d",
+          "8b6f055a4c1706200297eb43a41141c7c5a0802491ea53b3cc88a60ced04fa5d"
+        ]
+      },
+      "physicalStatePreserved": true,
+      "resources": {
+        "calls": 8,
+        "triangles": 366082,
+        "textures": 29,
+        "geometries": 22,
+        "programs": 23
+      }
+    },
+    {
+      "label": "resolved-limb",
+      "quality": "high",
+      "metrics": {
+        "control": {
+          "rmse": 2.254579544067383,
+          "gradientRMSE": 0.5287092328071594,
+          "max": 59.0
+        },
+        "candidate": {
+          "rmse": 1.730542778968811,
+          "gradientRMSE": 0.4692284166812897,
+          "max": 52.0
+        }
+      },
+      "repeats": {
+        "control": {
+          "rmse": 0.0,
+          "gradientRMSE": 0.0,
+          "max": 0.0
+        },
+        "candidate": {
+          "rmse": 0.0,
+          "gradientRMSE": 0.0,
+          "max": 0.0
+        },
+        "reference": {
+          "rmse": 0.0,
+          "gradientRMSE": 0.0,
+          "max": 0.0
+        }
+      },
+      "imageHashes": {
+        "control": [
+          "a622f7a693060d9816924a907d63349e57bc0ae4a8db95cfd9f31b141d644075",
+          "a622f7a693060d9816924a907d63349e57bc0ae4a8db95cfd9f31b141d644075"
+        ],
+        "candidate": [
+          "6633c8cddee817724df58609ca35716bff7453cdc46747bb4e3d5b0644f15b0b",
+          "6633c8cddee817724df58609ca35716bff7453cdc46747bb4e3d5b0644f15b0b"
+        ],
+        "reference": [
+          "df191c7bc91fb7254a831934d5cff1e695034a837c4d2a585df2ad6b17e4a484",
+          "df191c7bc91fb7254a831934d5cff1e695034a837c4d2a585df2ad6b17e4a484"
+        ]
+      },
+      "physicalStatePreserved": true,
+      "resources": {
+        "calls": 8,
+        "triangles": 366082,
+        "textures": 29,
+        "geometries": 22,
+        "programs": 23
+      }
+    },
+    {
+      "label": "pole",
+      "quality": "high",
+      "metrics": {
+        "control": {
+          "rmse": 1.6331337690353394,
+          "gradientRMSE": 0.5197104811668396,
+          "max": 35.0
+        },
+        "candidate": {
+          "rmse": 1.4673094749450684,
+          "gradientRMSE": 0.684870719909668,
+          "max": 25.0
+        }
+      },
+      "repeats": {
+        "control": {
+          "rmse": 0.0,
+          "gradientRMSE": 0.0,
+          "max": 0.0
+        },
+        "candidate": {
+          "rmse": 0.0,
+          "gradientRMSE": 0.0,
+          "max": 0.0
+        },
+        "reference": {
+          "rmse": 0.0,
+          "gradientRMSE": 0.0,
+          "max": 0.0
+        }
+      },
+      "imageHashes": {
+        "control": [
+          "0ebd076d8c353430d3275f0af0c4dabbc8e7fab1421d8c20a9c54f658e32ea93",
+          "0ebd076d8c353430d3275f0af0c4dabbc8e7fab1421d8c20a9c54f658e32ea93"
+        ],
+        "candidate": [
+          "11d8d1f5ddf64a33a9b9054f978a20000840b6ee622ffba6759244561f527e1b",
+          "11d8d1f5ddf64a33a9b9054f978a20000840b6ee622ffba6759244561f527e1b"
+        ],
+        "reference": [
+          "358227d4648a5b35eca64abd6a9c0fc6fd17f281c1ee8ce18919466ad893cfc7",
+          "358227d4648a5b35eca64abd6a9c0fc6fd17f281c1ee8ce18919466ad893cfc7"
+        ]
+      },
+      "physicalStatePreserved": true,
+      "resources": {
+        "calls": 8,
+        "triangles": 366082,
+        "textures": 29,
+        "geometries": 22,
+        "programs": 23
+      }
+    }
+  ],
+  "images": "/private/tmp/cosmos-cloud-scene-detail",
+  "errors": [],
+  "lossless12KDiagnostic": {
+    "views": 6,
+    "report": "/private/tmp/cosmos-cloud-scene-detail/report-lossless12k.json",
+    "dayRMSE": {
+      "ultra": 1.9639,
+      "high": 1.7982
+    },
+    "compressedDayRMSE": {
+      "ultra": 1.981,
+      "high": 1.803
+    },
+    "finding": "The wide-view regression remains in the lossless 12K source. It is principally a resolution/filter-footprint effect rather than AVIF compression error. A native 16K candidate is being tested."
+  },
+  "native16KTrial": {
+    "report": {
+      "files": {
+        "control": "/private/tmp/cosmos-cloud-detail-final/hybrid-8192.png",
+        "candidate": "/private/tmp/cosmos-v90-cloud-candidate/Cosmos/assets/textures/earth-clouds.avif",
+        "reference": "/private/tmp/cosmos-cloud-detail-final/hybrid-16384.png",
+        "lossless12k": "/private/tmp/cosmos-cloud-detail-final/hybrid-12288.png",
+        "candidate16k": "/private/tmp/cosmos-cloud-detail-final/cloud-r-16k-q65.avif"
+      },
+      "hashes": {
+        "control": "fb9530aa94ac7e2818babf9fc7eb5f415b0ca8544d0ce4915be2ca20494e2228",
+        "candidate": "d2d43a652f0b6fea527e25d892a88a5985ed09d9e126414ac27cb950c690bc7e",
+        "reference": "16b937e7b4a35ff4b20eea3683c228d6b1ce3725295378af60fac88e501f87f8",
+        "lossless12k": "1a0ef1278cb4fa83d660dd8863fe0ef213f1750632fca3bd0fc2d1a0ce8a291a",
+        "candidate16k": "52c8504370bc943b07f743083125ee4eca883524d770ab80757ba43ef4927d47",
+        "src/world.js": "726b300f85d32142b490f6dcdab3838bb4ea0e7cb6d040c2093176e7dbcb2614",
+        "src/rendering/scene-factory.js": "fef4e76b46d289bc942f2e8b477353964d748bc971720b34bf08f3847c3e11e0",
+        "src/rendering/earth-shaders.js": "0f9d37e6e4be394d4432d324edd61120ab8996c9e19e7e18c5b4bb307de2708b",
+        "assets/textures/earth-cloud-height.png": "e459fde568e5666da55abfaeffb18dc88ae13fc29d91d442d7f0318fd16d19bb"
+      },
+      "outcomes": [
+        {
+          "mode": "candidate16k",
+          "engineVersion": "158.0.8127.37",
+          "views": [
+            {
+              "label": "day",
+              "quality": "ultra",
+              "physicalStatePreserved": true,
+              "physical": "[[144474457.83116025,-17171778.480158877,39596214.79159133],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[0.01577675287351146,0.9401668523387668,0.043949052387549814,-0.33749942907569486],0,104]",
+              "dimensions": [
+                16384,
+                8192
+              ],
+              "heightDimensions": [
+                2048,
+                1024
+              ],
+              "formats": [
+                1028,
+                1028
+              ],
+              "resources": {
+                "calls": 7,
+                "triangles": 292866,
+                "textures": 29,
+                "geometries": 22,
+                "programs": 23
+              },
+              "graphicsError": 0
+            },
+            {
+              "label": "close",
+              "quality": "ultra",
+              "physicalStatePreserved": true,
+              "physical": "[[144479587.10025,-17172534.136202186,39602438.405753665],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[0.015776752873507754,0.9401668523386231,0.04394905238747942,-0.33749942907610453],0,104]",
+              "dimensions": [
+                16384,
+                8192
+              ],
+              "heightDimensions": [
+                2048,
+                1024
+              ],
+              "formats": [
+                1028,
+                1028
+              ],
+              "resources": {
+                "calls": 7,
+                "triangles": 292866,
+                "textures": 29,
+                "geometries": 22,
+                "programs": 23
+              },
+              "graphicsError": 0
+            },
+            {
+              "label": "grazing",
+              "quality": "ultra",
+              "physicalStatePreserved": true,
+              "physical": "[[144485770.13998637,-17173176.74134138,39601087.63578384],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[0,0.9910648321723687,0,0.13338102725333403],0,104]",
+              "dimensions": [
+                16384,
+                8192
+              ],
+              "heightDimensions": [
+                2048,
+                1024
+              ],
+              "formats": [
+                1028,
+                1028
+              ],
+              "resources": {
+                "calls": 7,
+                "triangles": 292866,
+                "textures": 29,
+                "geometries": 22,
+                "programs": 23
+              },
+              "graphicsError": 0
+            },
+            {
+              "label": "resolved-limb",
+              "quality": "ultra",
+              "physicalStatePreserved": true,
+              "physical": "[[144479708.26408678,-17172551.98634494,39602585.420261435],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[-0.013245085538195603,0.5589833843869272,0.04477714647098312,-0.8278630024601528],0,104]",
+              "dimensions": [
+                16384,
+                8192
+              ],
+              "heightDimensions": [
+                2048,
+                1024
+              ],
+              "formats": [
+                1028,
+                1028
+              ],
+              "resources": {
+                "calls": 7,
+                "triangles": 292866,
+                "textures": 29,
+                "geometries": 22,
+                "programs": 23
+              },
+              "graphicsError": 0
+            },
+            {
+              "label": "pole",
+              "quality": "ultra",
+              "physicalStatePreserved": true,
+              "physical": "[[144484182.72183335,-17166483.777149543,39607730.92803345],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[-0.4911976443599027,0.5086500507965005,0.4911976443599027,0.5086500507965005],0,104]",
+              "dimensions": [
+                16384,
+                8192
+              ],
+              "heightDimensions": [
+                2048,
+                1024
+              ],
+              "formats": [
+                1028,
+                1028
+              ],
+              "resources": {
+                "calls": 7,
+                "triangles": 292866,
+                "textures": 29,
+                "geometries": 22,
+                "programs": 23
+              },
+              "graphicsError": 0
+            },
+            {
+              "label": "day",
+              "quality": "high",
+              "physicalStatePreserved": true,
+              "physical": "[[144474457.83116025,-17171778.480158877,39596214.79159133],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[0.01577675287351146,0.9401668523387668,0.043949052387549814,-0.33749942907569486],0,104]",
+              "dimensions": [
+                16384,
+                8192
+              ],
+              "heightDimensions": [
+                2048,
+                1024
+              ],
+              "formats": [
+                1028,
+                1028
+              ],
+              "resources": {
+                "calls": 8,
+                "triangles": 366082,
+                "textures": 29,
+                "geometries": 22,
+                "programs": 23
+              },
+              "graphicsError": 0
+            },
+            {
+              "label": "close",
+              "quality": "high",
+              "physicalStatePreserved": true,
+              "physical": "[[144479587.10025,-17172534.136202186,39602438.405753665],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[0.015776752873507754,0.9401668523386231,0.04394905238747942,-0.33749942907610453],0,104]",
+              "dimensions": [
+                16384,
+                8192
+              ],
+              "heightDimensions": [
+                2048,
+                1024
+              ],
+              "formats": [
+                1028,
+                1028
+              ],
+              "resources": {
+                "calls": 8,
+                "triangles": 366082,
+                "textures": 29,
+                "geometries": 22,
+                "programs": 23
+              },
+              "graphicsError": 0
+            },
+            {
+              "label": "grazing",
+              "quality": "high",
+              "physicalStatePreserved": true,
+              "physical": "[[144485770.13998637,-17173176.74134138,39601087.63578384],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[0,0.9910648321723687,0,0.13338102725333403],0,104]",
+              "dimensions": [
+                16384,
+                8192
+              ],
+              "heightDimensions": [
+                2048,
+                1024
+              ],
+              "formats": [
+                1028,
+                1028
+              ],
+              "resources": {
+                "calls": 8,
+                "triangles": 366082,
+                "textures": 29,
+                "geometries": 22,
+                "programs": 23
+              },
+              "graphicsError": 0
+            },
+            {
+              "label": "resolved-limb",
+              "quality": "high",
+              "physicalStatePreserved": true,
+              "physical": "[[144479708.26408678,-17172551.98634494,39602585.420261435],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[-0.013245085538195603,0.5589833843869272,0.04477714647098312,-0.8278630024601528],0,104]",
+              "dimensions": [
+                16384,
+                8192
+              ],
+              "heightDimensions": [
+                2048,
+                1024
+              ],
+              "formats": [
+                1028,
+                1028
+              ],
+              "resources": {
+                "calls": 8,
+                "triangles": 366082,
+                "textures": 29,
+                "geometries": 22,
+                "programs": 23
+              },
+              "graphicsError": 0
+            },
+            {
+              "label": "pole",
+              "quality": "high",
+              "physicalStatePreserved": true,
+              "physical": "[[144484182.72183335,-17166483.777149543,39607730.92803345],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[-0.4911976443599027,0.5086500507965005,0.4911976443599027,0.5086500507965005],0,104]",
+              "dimensions": [
+                16384,
+                8192
+              ],
+              "heightDimensions": [
+                2048,
+                1024
+              ],
+              "formats": [
+                1028,
+                1028
+              ],
+              "resources": {
+                "calls": 8,
+                "triangles": 366082,
+                "textures": 29,
+                "geometries": 22,
+                "programs": 23
+              },
+              "graphicsError": 0
+            }
+          ],
+          "errors": []
+        }
+      ]
+    },
+    "views": [
+      {
+        "label": "day",
+        "quality": "ultra",
+        "metrics": {
+          "rmse": 0.3406100571155548,
+          "gradientRMSE": 0.44847458600997925,
+          "max": 7.0
+        },
+        "control": {
+          "rmse": 0.4050162136554718,
+          "gradientRMSE": 0.5563007593154907,
+          "max": 18.0
+        },
+        "physicalStatePreserved": true,
+        "repeatIdentical": true,
+        "imageSha256": "c1b8cba8587aa10442353fb904fd34ad17ec2e6baa3cf9242b5bb75bf9561978"
+      },
+      {
+        "label": "close",
+        "quality": "ultra",
+        "metrics": {
+          "rmse": 2.667712450027466,
+          "gradientRMSE": 1.2222554683685303,
+          "max": 58.0
+        },
+        "control": {
+          "rmse": 6.853431224822998,
+          "gradientRMSE": 2.6717844009399414,
+          "max": 165.0
+        },
+        "physicalStatePreserved": true,
+        "repeatIdentical": true,
+        "imageSha256": "fdbb6ad3c3b26a8e4d07197e5aae6aa62aa741f932a8307b8f5bc6f091ff6fa8"
+      },
+      {
+        "label": "grazing",
+        "quality": "ultra",
+        "metrics": {
+          "rmse": 0.9283072352409363,
+          "gradientRMSE": 0.5341792702674866,
+          "max": 35.0
+        },
+        "control": {
+          "rmse": 1.8019068241119385,
+          "gradientRMSE": 0.8107246160507202,
+          "max": 64.0
+        },
+        "physicalStatePreserved": true,
+        "repeatIdentical": true,
+        "imageSha256": "d8d144509137a94f4355083fb0eccf30779e836d0cba019b203ee0174e77d254"
+      },
+      {
+        "label": "resolved-limb",
+        "quality": "ultra",
+        "metrics": {
+          "rmse": 1.0946617126464844,
+          "gradientRMSE": 0.386532723903656,
+          "max": 25.0
+        },
+        "control": {
+          "rmse": 2.254615545272827,
+          "gradientRMSE": 0.5465377569198608,
+          "max": 59.0
+        },
+        "physicalStatePreserved": true,
+        "repeatIdentical": true,
+        "imageSha256": "b0a564fa27efeac6100f7440bba9f471a20ef902df29cd27bf27ce046922cc98"
+      },
+      {
+        "label": "pole",
+        "quality": "ultra",
+        "metrics": {
+          "rmse": 0.958837628364563,
+          "gradientRMSE": 0.6897058486938477,
+          "max": 14.0
+        },
+        "control": {
+          "rmse": 1.8901621103286743,
+          "gradientRMSE": 0.5712662935256958,
+          "max": 35.0
+        },
+        "physicalStatePreserved": true,
+        "repeatIdentical": true,
+        "imageSha256": "8568f220e5721e4b2bf20c86e23a78d912adb5c4ca919a22458cfab5214c6328"
+      },
+      {
+        "label": "day",
+        "quality": "high",
+        "metrics": {
+          "rmse": 0.2492547184228897,
+          "gradientRMSE": 0.2787543535232544,
+          "max": 7.0
+        },
+        "control": {
+          "rmse": 0.2449846863746643,
+          "gradientRMSE": 0.27618563175201416,
+          "max": 7.0
+        },
+        "physicalStatePreserved": true,
+        "repeatIdentical": true,
+        "imageSha256": "cc620b9ce702ef0f253d30c9a5b23c6079f9de28041d6ed485781cdaa9c28e4e"
+      },
+      {
+        "label": "close",
+        "quality": "high",
+        "metrics": {
+          "rmse": 2.597212076187134,
+          "gradientRMSE": 1.1593761444091797,
+          "max": 54.0
+        },
+        "control": {
+          "rmse": 6.7059407234191895,
+          "gradientRMSE": 2.512343168258667,
+          "max": 158.0
+        },
+        "physicalStatePreserved": true,
+        "repeatIdentical": true,
+        "imageSha256": "cbe4cf6c742a450de351e41fc5ac92eafcc0bea4633563133414b8e8e6fd4b86"
+      },
+      {
+        "label": "grazing",
+        "quality": "high",
+        "metrics": {
+          "rmse": 0.907472550868988,
+          "gradientRMSE": 0.5190789699554443,
+          "max": 35.0
+        },
+        "control": {
+          "rmse": 1.761124610900879,
+          "gradientRMSE": 0.772390604019165,
+          "max": 56.0
+        },
+        "physicalStatePreserved": true,
+        "repeatIdentical": true,
+        "imageSha256": "54008b4d394621cc5753274bfda178a9b105aa579141b782ab7c389d63d3be30"
+      },
+      {
+        "label": "resolved-limb",
+        "quality": "high",
+        "metrics": {
+          "rmse": 1.0937944650650024,
+          "gradientRMSE": 0.3833288550376892,
+          "max": 25.0
+        },
+        "control": {
+          "rmse": 2.254579544067383,
+          "gradientRMSE": 0.5287092328071594,
+          "max": 59.0
+        },
+        "physicalStatePreserved": true,
+        "repeatIdentical": true,
+        "imageSha256": "49e757caa05ea6e6e9716b54c6180083c485d9e0181c8fc164ae01aeea1892b8"
+      },
+      {
+        "label": "pole",
+        "quality": "high",
+        "metrics": {
+          "rmse": 0.8963209390640259,
+          "gradientRMSE": 0.6157242059707642,
+          "max": 13.0
+        },
+        "control": {
+          "rmse": 1.6331337690353394,
+          "gradientRMSE": 0.5197104811668396,
+          "max": 35.0
+        },
+        "physicalStatePreserved": true,
+        "repeatIdentical": true,
+        "imageSha256": "3e52be09e76eaefce8cc5f9822b3e6b7ce10261970117e771f5a7ad210a39814"
+      }
+    ],
+    "bytes": 12448672
+  }
+}

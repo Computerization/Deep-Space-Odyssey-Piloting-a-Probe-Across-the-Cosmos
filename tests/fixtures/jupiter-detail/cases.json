@@ -1,0 +1,58 @@
+[
+  {
+    "name": "red-spot",
+    "body": "jupiter",
+    "rect": [
+      5250,
+      2030,
+      512,
+      384
+    ],
+    "size": [
+      7200,
+      3600
+    ]
+  },
+  {
+    "name": "northern-storms",
+    "body": "jupiter",
+    "rect": [
+      3850,
+      810,
+      512,
+      384
+    ],
+    "size": [
+      7200,
+      3600
+    ]
+  },
+  {
+    "name": "equatorial-clouds",
+    "body": "jupiter",
+    "rect": [
+      1900,
+      1470,
+      512,
+      384
+    ],
+    "size": [
+      7200,
+      3600
+    ]
+  },
+  {
+    "name": "southern-ovals",
+    "body": "jupiter",
+    "rect": [
+      3500,
+      2490,
+      512,
+      384
+    ],
+    "size": [
+      7200,
+      3600
+    ]
+  }
+]

@@ -1,0 +1,50 @@
+{
+  "sourcePage": "https://science.nasa.gov/earth/earth-observatory/blue-marble-next-generation/base-map/",
+  "sourceEpoch": "September 2004",
+  "sourceDimensions": [
+    86400,
+    43200
+  ],
+  "dimensions": [
+    65536,
+    32768
+  ],
+  "tileEdge": 2048,
+  "tiles": 512,
+  "bytes": 54267344,
+  "encoding": "AVIF quality 60, 4:4:4; full-resolution JPEG decode for 64K, then Lanczos reduction. No sharpening or invented detail.",
+  "sources": [
+    {
+      "tile": "world.200409.3x21600x21600.A1.jpg",
+      "sha256": "a8a71afa554fb5810756d42b71ad6e18c6fbfdb16176adc91654793b0211deff"
+    },
+    {
+      "tile": "world.200409.3x21600x21600.A2.jpg",
+      "sha256": "f158edd3ec90b78405d230482ccdbfe40d777877b5b1ef2eefbed2071c17baa7"
+    },
+    {
+      "tile": "world.200409.3x21600x21600.B1.jpg",
+      "sha256": "42167660a4f09cbbf5219682967a14510ba9c44a9e0ecffd1aaacd28b5f8fdb4"
+    },
+    {
+      "tile": "world.200409.3x21600x21600.B2.jpg",
+      "sha256": "78036a95153a5db851c568a29567518d0f61a2b5c06135780981c3f208a3950a"
+    },
+    {
+      "tile": "world.200409.3x21600x21600.C1.jpg",
+      "sha256": "905c30a23836312bbb19f0087ff2e18fa54dca606b06e30bb12ddfb0340ec46e"
+    },
+    {
+      "tile": "world.200409.3x21600x21600.C2.jpg",
+      "sha256": "2f2e84bdb740ea408e9709c77d78bd87d63dbfc726c9c91d0c41c3510daca46d"
+    },
+    {
+      "tile": "world.200409.3x21600x21600.D1.jpg",
+      "sha256": "54fa2c1b6417e05cc2af635abe88b1254af51e035285a787ba79e85d8ba29cf6"
+    },
+    {
+      "tile": "world.200409.3x21600x21600.D2.jpg",
+      "sha256": "739fcda45577910b4c6f2d71693e133a14f4a10b14ac37456b190f6dc4505be9"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "src/flight-instruments.js": "b87cf4960216469f321595a5d433f7ffc5816993d6e3b0d610c8eec30fa0f026",
+  "src/flight-controller.js": "2162d046da1c427eb971e4d130736635f35ffdd9322fa60807ea53bcffaa5aec",
+  "src/flight-history.js": "5d4c89aeabd6f54659643640ca4e93fd74b55cbb3d2cd5f711aab2749b2dcf88",
+  "src/ui/flight-hud.js": "7eafe7de6ecec6859b5c374e5a1c9be5028dc6a4c55d0ebe6635a0682947a5ea",
+  "src/ui/flight.css": "2eedacb8d4a3da23a3e4eefdd8f12fe22557051933f4e9e8ce43e940d903cc96",
+  "src/rendering/shaders.js": "e05e1105ed3b72d1f3252802c852498ec686e9a9f4688058d8f99c5ab02d6246",
+  "index.html": "108e1da4979b3e4ec67a28db36aaf935dad1a9b284dabee9dc04663d9b08c1c8"
+}

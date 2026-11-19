@@ -1,0 +1,13 @@
+{
+  "version": "0.32.0",
+  "comparedAgainst": "0.31.0",
+  "runtimeFiles": 80,
+  "changed": [
+    {
+      "path": "src/rendering/shaders.js",
+      "previous": "137e4f3b130b431cb9b5dbaae8dcbff664b9634f9a99b496e4e165d318f13ca0",
+      "current": "9670563c394160ed7bc485a007b7ef61ed10b5a588e9684af51b6ec5a8f847bb"
+    }
+  ],
+  "unchangedRuntimeFiles": 79
+}

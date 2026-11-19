@@ -1,0 +1,96 @@
+{
+  "name": "WebKit",
+  "errors": [],
+  "scenes": [
+    {
+      "label": "Earth",
+      "lit": 848,
+      "chapter": 0,
+      "study": null,
+      "date": "5 September 1977 · Departure study · 18:00 UTC"
+    },
+    {
+      "label": "Moon",
+      "lit": 190,
+      "chapter": 0,
+      "study": "moon",
+      "date": "5 September 1977 · 18:00:00 UTC · observation study"
+    },
+    {
+      "label": "Jupiter",
+      "lit": 305,
+      "chapter": 1,
+      "study": null,
+      "date": "5 March 1979 · 12:05:26 UTC"
+    },
+    {
+      "label": "Io",
+      "lit": 116,
+      "chapter": 1,
+      "study": "io",
+      "date": "5 March 1979 · 12:05:26 UTC · observation study"
+    },
+    {
+      "label": "Saturn",
+      "lit": 404,
+      "chapter": 2,
+      "study": null,
+      "date": "12 November 1980 · 23:46:30 UTC"
+    },
+    {
+      "label": "Titan",
+      "lit": 112,
+      "chapter": 2,
+      "study": "titan",
+      "date": "12 November 1980 · 05:41:00 UTC · observation study"
+    },
+    {
+      "label": "Light-day",
+      "lit": 1,
+      "chapter": 5,
+      "study": null,
+      "date": "18 November 2026 · 10:16:07 UTC · predicted"
+    }
+  ],
+  "engineVersion": "26.5",
+  "playableBeforeAudioReady": true,
+  "graphics": {
+    "version": "WebGL 2.0",
+    "renderer": "WebKit WebGL",
+    "floatBuffer": true,
+    "maxSamples": 4
+  },
+  "timeHoldAndAttitude": true,
+  "chartSelection": true,
+  "audio": {
+    "state": "running",
+    "rms": 0,
+    "tracks": [
+      {
+        "name": "departure",
+        "duration": 120,
+        "channels": 2
+      },
+      {
+        "name": "encounter",
+        "duration": 120,
+        "channels": 2
+      },
+      {
+        "name": "rings",
+        "duration": 120,
+        "channels": 2
+      },
+      {
+        "name": "distance",
+        "duration": 120,
+        "channels": 2
+      }
+    ]
+  },
+  "passed": false,
+  "failure": {
+    "stage": "audio",
+    "message": "The expression evaluated to a falsy value:\n\n  assert.ok(result.audio.rms>1e-5)\n"
+  }
+}

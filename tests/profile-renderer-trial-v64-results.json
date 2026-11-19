@@ -1,0 +1,177 @@
+{
+  "version": "0.63.0",
+  "worldSha256": "7d85d0c9348684af73fbf5f00c3926bf275305a963500ae42965cb0c0b860ec0",
+  "referenceWorldSha256": "73c17de1202163e5b946f6d5e518bae07320ad1b395eae14f2a8d385ac19b58c",
+  "method": "Fixed High scene ratio 1.25 and cloud scale .75 at 1280 x 800 DPR 2. Warm 120 draws per variant, then ABBA full-frame GPU windows with 20 warmup and 120 measured draws. Includes the final output resolve.",
+  "samples": [
+    {
+      "label": "Earth",
+      "mode": "previous",
+      "gpuSamples": 120,
+      "gpuMedianMs": 12.480625,
+      "gpuP95Ms": 14.454291,
+      "cpuMedianMs": 0.5,
+      "output": [
+        1600,
+        1000
+      ],
+      "scene": [
+        1600,
+        1000
+      ],
+      "calls": 8,
+      "memory": {
+        "geometries": 15,
+        "textures": 24
+      }
+    },
+    {
+      "label": "Earth",
+      "mode": "current",
+      "gpuSamples": 120,
+      "gpuMedianMs": 12.184541,
+      "gpuP95Ms": 13.414333,
+      "cpuMedianMs": 0.5,
+      "output": [
+        2560,
+        1600
+      ],
+      "scene": [
+        1600,
+        1000
+      ],
+      "calls": 8,
+      "memory": {
+        "geometries": 15,
+        "textures": 24
+      }
+    },
+    {
+      "label": "Earth",
+      "mode": "current",
+      "gpuSamples": 120,
+      "gpuMedianMs": 12.206499,
+      "gpuP95Ms": 13.492375,
+      "cpuMedianMs": 0.5,
+      "output": [
+        2560,
+        1600
+      ],
+      "scene": [
+        1600,
+        1000
+      ],
+      "calls": 8,
+      "memory": {
+        "geometries": 15,
+        "textures": 24
+      }
+    },
+    {
+      "label": "Earth",
+      "mode": "previous",
+      "gpuSamples": 120,
+      "gpuMedianMs": 12.535541,
+      "gpuP95Ms": 14.009875,
+      "cpuMedianMs": 0.5,
+      "output": [
+        1600,
+        1000
+      ],
+      "scene": [
+        1600,
+        1000
+      ],
+      "calls": 8,
+      "memory": {
+        "geometries": 15,
+        "textures": 24
+      }
+    },
+    {
+      "label": "Saturn",
+      "mode": "previous",
+      "gpuSamples": 120,
+      "gpuMedianMs": 5.415375,
+      "gpuP95Ms": 5.682541,
+      "cpuMedianMs": 0.7999999821186066,
+      "output": [
+        1600,
+        1000
+      ],
+      "scene": [
+        1600,
+        1000
+      ],
+      "calls": 10,
+      "memory": {
+        "geometries": 20,
+        "textures": 25
+      }
+    },
+    {
+      "label": "Saturn",
+      "mode": "current",
+      "gpuSamples": 120,
+      "gpuMedianMs": 8.95075,
+      "gpuP95Ms": 10.891041,
+      "cpuMedianMs": 0.699999988079071,
+      "output": [
+        2560,
+        1600
+      ],
+      "scene": [
+        1600,
+        1000
+      ],
+      "calls": 10,
+      "memory": {
+        "geometries": 20,
+        "textures": 25
+      }
+    },
+    {
+      "label": "Saturn",
+      "mode": "current",
+      "gpuSamples": 120,
+      "gpuMedianMs": 5.937166,
+      "gpuP95Ms": 9.713374,
+      "cpuMedianMs": 0.7999999821186066,
+      "output": [
+        2560,
+        1600
+      ],
+      "scene": [
+        1600,
+        1000
+      ],
+      "calls": 10,
+      "memory": {
+        "geometries": 20,
+        "textures": 25
+      }
+    },
+    {
+      "label": "Saturn",
+      "mode": "previous",
+      "gpuSamples": 120,
+      "gpuMedianMs": 5.759833,
+      "gpuP95Ms": 9.844708,
+      "cpuMedianMs": 0.800000011920929,
+      "output": [
+        1600,
+        1000
+      ],
+      "scene": [
+        1600,
+        1000
+      ],
+      "calls": 10,
+      "memory": {
+        "geometries": 20,
+        "textures": 25
+      }
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,48 @@
+{
+  "version": "0.30.0",
+  "comparedAgainst": "0.29.0",
+  "runtimeFiles": 79,
+  "changed": [
+    {
+      "path": "style.css",
+      "previous": "297d22eb59939c2c44aa48acdaf7c829b91cde811a90496a4777c1eb134c35c0",
+      "current": "c9c917b697f34ab3f98612ed1acb1e537a918533be5b1e2cccd508af92f9603b"
+    },
+    {
+      "path": "src/ui/flight.css",
+      "previous": "641a228f313fbd3ef00a64f0dec1ebbf24a453c65f9a325ded6eeaa79dc102e2",
+      "current": "de98059c92fc50b6ec07081cce5bad2cd21dbae210377fbec610788853f4a1ce"
+    },
+    {
+      "path": "src/ui/controls.js",
+      "previous": null,
+      "current": "3a3a157caa1e6c7df227257d928d3ee54cc8f7712d72be6495a19b8c814ffa68"
+    },
+    {
+      "path": "src/ui/journal.js",
+      "previous": null,
+      "current": "80d35b35d54a8234911cf3e0362f4cddd6abbc5f7cc50ca63d57955640279dc7"
+    },
+    {
+      "path": "src/ui/experience-guide.js",
+      "previous": "29e6cc41843d381834ae8f3a635aca0154c84da716d979c287f2d59dc971552c",
+      "current": "757209ce8e6b4f057ea13e3cc7cf22d550ee6885e27c8ac71e0bfd388d50e059"
+    },
+    {
+      "path": "src/main.js",
+      "previous": "b90474bf54b6720ab6ffa38002951ebd92737224e86e44c0580a60245ef8a894",
+      "current": "8b342f6179d6c8acc5cd44e54451bc5673ae7f1265d9e060f6b4cab2d4535e5a"
+    },
+    {
+      "path": "src/ui/photo-viewer.js",
+      "previous": "04991d6f101e5fea8b5de86559b898c711b6d1ed862d2f3adcf35c92316d6434",
+      "current": "b5ca342b459dc9a436305df22e4c584d35075af146b5f58e5b12546826c714df"
+    },
+    {
+      "path": "src/observations.js",
+      "previous": "d3feb9ec1377e6ef89d22c3cbf2ea7145197705e15fb5863e4f4aa3942b42274",
+      "current": "77a5b27102948f7e52a6e25378e44a25dd09ace53535bf8bb217ad8d464d883b"
+    }
+  ],
+  "unchangedRuntimeFiles": 71
+}

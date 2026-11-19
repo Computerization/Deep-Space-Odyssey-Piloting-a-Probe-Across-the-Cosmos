@@ -1,0 +1,89 @@
+{
+  "version": "0.33.0",
+  "outcomes": [
+    {
+      "name": "Chrome",
+      "engineVersion": "158.0.8127.37",
+      "pause": {
+        "action": "review",
+        "nativeFocus": false,
+        "selectionMark": 1,
+        "gamepad": true
+      },
+      "tab": {
+        "outline": "solid",
+        "width": "1px"
+      },
+      "range": {
+        "outline": "solid",
+        "value": 1
+      },
+      "reference": {
+        "tag": "BUTTON",
+        "outline": "solid",
+        "gamepad": true
+      },
+      "pointerClearsControllerFocus": true,
+      "keyboardRestoresNativeFocus": true,
+      "landingAndPanelTabOrder": true,
+      "physicalXboxTested": false,
+      "errors": []
+    },
+    {
+      "name": "Firefox",
+      "engineVersion": "153.0",
+      "pause": {
+        "action": "review",
+        "nativeFocus": false,
+        "selectionMark": 1,
+        "gamepad": true
+      },
+      "tab": {
+        "outline": "solid",
+        "width": "1px"
+      },
+      "range": {
+        "outline": "solid",
+        "value": 1
+      },
+      "reference": {
+        "tag": "BUTTON",
+        "outline": "solid",
+        "gamepad": true
+      },
+      "pointerClearsControllerFocus": true,
+      "keyboardRestoresNativeFocus": true,
+      "landingAndPanelTabOrder": true,
+      "physicalXboxTested": false,
+      "errors": []
+    },
+    {
+      "name": "WebKit",
+      "engineVersion": "26.5",
+      "pause": {
+        "action": "review",
+        "nativeFocus": false,
+        "selectionMark": 1,
+        "gamepad": true
+      },
+      "tab": {
+        "outline": "solid",
+        "width": "1px"
+      },
+      "range": {
+        "outline": "solid",
+        "value": 1
+      },
+      "reference": {
+        "tag": "BUTTON",
+        "outline": "solid",
+        "gamepad": true
+      },
+      "pointerClearsControllerFocus": true,
+      "keyboardRestoresNativeFocus": true,
+      "landingAndPanelTabOrder": true,
+      "physicalXboxTested": false,
+      "errors": []
+    }
+  ]
+}

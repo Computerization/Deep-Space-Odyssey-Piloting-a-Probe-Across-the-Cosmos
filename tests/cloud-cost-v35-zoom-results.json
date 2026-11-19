@@ -1,0 +1,72 @@
+{
+  "version": "0.35.0",
+  "lowPowerModeConfigured": true,
+  "method": "240 unmeasured renders per variant before ABBA full-frame GPU queries; 40 warmup and 160 measured renders per window; fixed ultra 1280 x 800, no frame cache or adaptive resolution.",
+  "samples": [
+    {
+      "label": "resolved-limb",
+      "mode": "previous",
+      "yaw": 1.2645,
+      "fov": 4,
+      "gpuSamples": 160,
+      "gpuMedianMs": 14.197666,
+      "gpuP95Ms": 27.679999,
+      "cpuMedianMs": 0.30000001192092896,
+      "drawCalls": 6,
+      "triangles": 219650,
+      "pixels": [
+        1280,
+        800
+      ]
+    },
+    {
+      "label": "resolved-limb",
+      "mode": "candidate",
+      "yaw": 1.2645,
+      "fov": 4,
+      "gpuSamples": 160,
+      "gpuMedianMs": 33.556458,
+      "gpuP95Ms": 43.271375,
+      "cpuMedianMs": 0.29999998211860657,
+      "drawCalls": 6,
+      "triangles": 219650,
+      "pixels": [
+        1280,
+        800
+      ]
+    },
+    {
+      "label": "resolved-limb",
+      "mode": "candidate",
+      "yaw": 1.2645,
+      "fov": 4,
+      "gpuSamples": 160,
+      "gpuMedianMs": 33.565666,
+      "gpuP95Ms": 38.075999,
+      "cpuMedianMs": 0.29999998211860657,
+      "drawCalls": 6,
+      "triangles": 219650,
+      "pixels": [
+        1280,
+        800
+      ]
+    },
+    {
+      "label": "resolved-limb",
+      "mode": "previous",
+      "yaw": 1.2645,
+      "fov": 4,
+      "gpuSamples": 160,
+      "gpuMedianMs": 13.356125,
+      "gpuP95Ms": 25.610541,
+      "cpuMedianMs": 0.20000001788139343,
+      "drawCalls": 6,
+      "triangles": 219650,
+      "pixels": [
+        1280,
+        800
+      ]
+    }
+  ],
+  "errors": []
+}

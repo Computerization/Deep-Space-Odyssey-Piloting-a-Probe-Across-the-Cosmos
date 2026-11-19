@@ -1,0 +1,22 @@
+{
+  "bearingPreservesPose": true,
+  "manualCoast": true,
+  "outOfOrder": {
+    "distanceFromSuggestion": 26140.516564048212,
+    "oldRadius": 7645.2,
+    "discovered": [
+      "earth-2"
+    ],
+    "next": 0
+  },
+  "field": {
+    "explored": [
+      "explore-moon-1"
+    ],
+    "task": 0
+  },
+  "saveRestored": true,
+  "softBoundary": true,
+  "unlockedDeparture": true,
+  "errors": []
+}

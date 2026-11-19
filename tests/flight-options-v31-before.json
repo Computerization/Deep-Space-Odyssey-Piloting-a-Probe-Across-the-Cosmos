@@ -1,0 +1,7 @@
+{
+  "version": "0.30.0",
+  "pause": "Resume flightFlight reviewVoyageJournalTake photographControlsSettingsTitle screen",
+  "settings": "\n  SoundOnMaster volume60%Instrument feedback70%\n  PictureExposure1.00×\n   QualityUltraHighBalancedPerformance\n   Adjusts resolution during flight to keep movement smooth.\n  \n  FlightLook sensitivity1.0×\n DoneFull screen",
+  "flightOptions": 0,
+  "instrumentAction": 0
+}

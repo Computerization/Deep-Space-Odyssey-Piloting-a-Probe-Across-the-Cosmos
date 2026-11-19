@@ -1,0 +1,49 @@
+{
+  "engine": "Chrome",
+  "label": "v107-psf",
+  "views": [
+    {
+      "body": "moon",
+      "kind": "globe",
+      "file": "tests/screenshots/portrait-Chrome-v107-psf-moon-globe.png"
+    },
+    {
+      "body": "moon",
+      "kind": "crescent",
+      "file": "tests/screenshots/portrait-Chrome-v107-psf-moon-crescent.png"
+    },
+    {
+      "body": "moon",
+      "kind": "near",
+      "file": "tests/screenshots/portrait-Chrome-v107-psf-moon-near.png"
+    }
+  ],
+  "stars": [
+    {
+      "shift": -0.45,
+      "flux": 19.783477783203125,
+      "centroid": 7.042163505665122
+    },
+    {
+      "shift": -0.17,
+      "flux": 19.795379638671875,
+      "centroid": 7.315713476347211
+    },
+    {
+      "shift": 0,
+      "flux": 19.804382801055908,
+      "centroid": 7.481130661040655
+    },
+    {
+      "shift": 0.22,
+      "flux": 19.815789222717285,
+      "centroid": 7.6922193718744225
+    },
+    {
+      "shift": 0.45,
+      "flux": 19.828153610229492,
+      "centroid": 7.920579668656054
+    }
+  ],
+  "errors": []
+}

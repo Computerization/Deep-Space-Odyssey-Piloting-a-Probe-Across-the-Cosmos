@@ -1,0 +1,490 @@
+{
+  "version": "0.21.0",
+  "simulatedDeviceSuspension": true,
+  "subjectiveListeningReviewed": false,
+  "outcomes": [
+    {
+      "name": "Chrome",
+      "engineVersion": "158.0.8127.37",
+      "before": {
+        "time": 8.234666666666667,
+        "state": "suspended",
+        "channels": [
+          {
+            "id": "departure",
+            "gain": 0.998607337474823,
+            "paused": false,
+            "retireAt": 15.484
+          },
+          {
+            "id": "encounter",
+            "gain": 0.052470214664936066,
+            "paused": false,
+            "retireAt": null
+          },
+          {
+            "id": "rings",
+            "gain": 0,
+            "paused": true,
+            "retireAt": 15.484
+          },
+          {
+            "id": "distance",
+            "gain": 0,
+            "paused": true,
+            "retireAt": 15.484
+          }
+        ]
+      },
+      "suspended": {
+        "time": 8.234666666666667,
+        "state": "suspended",
+        "channels": [
+          {
+            "id": "departure",
+            "gain": 0.998607337474823,
+            "paused": false,
+            "retireAt": 15.484
+          },
+          {
+            "id": "encounter",
+            "gain": 0.052470214664936066,
+            "paused": false,
+            "retireAt": null
+          },
+          {
+            "id": "rings",
+            "gain": 0,
+            "paused": true,
+            "retireAt": 15.484
+          },
+          {
+            "id": "distance",
+            "gain": 0,
+            "paused": true,
+            "retireAt": 15.484
+          }
+        ]
+      },
+      "resumed": {
+        "time": 8.309333333333333,
+        "state": "running",
+        "channels": [
+          {
+            "id": "departure",
+            "gain": 0.9976612329483032,
+            "paused": false,
+            "retireAt": 15.484
+          },
+          {
+            "id": "encounter",
+            "gain": 0.06807933002710342,
+            "paused": false,
+            "retireAt": null
+          },
+          {
+            "id": "rings",
+            "gain": 0,
+            "paused": true,
+            "retireAt": 15.484
+          },
+          {
+            "id": "distance",
+            "gain": 0,
+            "paused": true,
+            "retireAt": 15.484
+          }
+        ]
+      },
+      "settled": {
+        "time": 15.914666666666667,
+        "state": "running",
+        "channels": [
+          {
+            "id": "departure",
+            "gain": 0,
+            "paused": true,
+            "retireAt": null
+          },
+          {
+            "id": "encounter",
+            "gain": 1,
+            "paused": false,
+            "retireAt": null
+          },
+          {
+            "id": "rings",
+            "gain": 0,
+            "paused": true,
+            "retireAt": null
+          },
+          {
+            "id": "distance",
+            "gain": 0,
+            "paused": true,
+            "retireAt": null
+          }
+        ]
+      },
+      "reselected": {
+        "time": 23.877333333333333,
+        "state": "running",
+        "channels": [
+          {
+            "id": "departure",
+            "gain": 0,
+            "paused": true,
+            "retireAt": null
+          },
+          {
+            "id": "encounter",
+            "gain": 1,
+            "paused": false,
+            "retireAt": null
+          },
+          {
+            "id": "rings",
+            "gain": 0,
+            "paused": true,
+            "retireAt": null
+          },
+          {
+            "id": "distance",
+            "gain": 0,
+            "paused": true,
+            "retireAt": null
+          }
+        ]
+      },
+      "rms": 0.017188034483326328,
+      "current": "encounter",
+      "channelCount": 4,
+      "nativeHold": true,
+      "activePowerAfterResume": 0.9999627309048678,
+      "errors": [],
+      "passed": true
+    },
+    {
+      "name": "Firefox",
+      "engineVersion": "153.0",
+      "before": {
+        "time": 8.229333333333333,
+        "state": "suspended",
+        "channels": [
+          {
+            "id": "departure",
+            "gain": 0.9986070990562439,
+            "paused": false,
+            "retireAt": 15.478666666666665
+          },
+          {
+            "id": "encounter",
+            "gain": 0.052474573254585266,
+            "paused": false,
+            "retireAt": null
+          },
+          {
+            "id": "rings",
+            "gain": 0,
+            "paused": true,
+            "retireAt": 15.478666666666665
+          },
+          {
+            "id": "distance",
+            "gain": 0,
+            "paused": true,
+            "retireAt": 15.478666666666665
+          }
+        ]
+      },
+      "suspended": {
+        "time": 8.229333333333333,
+        "state": "suspended",
+        "channels": [
+          {
+            "id": "departure",
+            "gain": 0.9986070990562439,
+            "paused": false,
+            "retireAt": 15.478666666666665
+          },
+          {
+            "id": "encounter",
+            "gain": 0.052474573254585266,
+            "paused": false,
+            "retireAt": null
+          },
+          {
+            "id": "rings",
+            "gain": 0,
+            "paused": true,
+            "retireAt": 15.478666666666665
+          },
+          {
+            "id": "distance",
+            "gain": 0,
+            "paused": true,
+            "retireAt": 15.478666666666665
+          }
+        ]
+      },
+      "resumed": {
+        "time": 8.341333333333333,
+        "state": "running",
+        "channels": [
+          {
+            "id": "departure",
+            "gain": 0.9971051216125488,
+            "paused": false,
+            "retireAt": 15.478666666666665
+          },
+          {
+            "id": "encounter",
+            "gain": 0.07588280737400055,
+            "paused": false,
+            "retireAt": null
+          },
+          {
+            "id": "rings",
+            "gain": 0,
+            "paused": true,
+            "retireAt": 15.478666666666665
+          },
+          {
+            "id": "distance",
+            "gain": 0,
+            "paused": true,
+            "retireAt": 15.478666666666665
+          }
+        ]
+      },
+      "settled": {
+        "time": 15.952,
+        "state": "running",
+        "channels": [
+          {
+            "id": "departure",
+            "gain": 0,
+            "paused": true,
+            "retireAt": null
+          },
+          {
+            "id": "encounter",
+            "gain": 1,
+            "paused": false,
+            "retireAt": null
+          },
+          {
+            "id": "rings",
+            "gain": 0,
+            "paused": true,
+            "retireAt": null
+          },
+          {
+            "id": "distance",
+            "gain": 0,
+            "paused": true,
+            "retireAt": null
+          }
+        ]
+      },
+      "reselected": {
+        "time": 23.978666666666665,
+        "state": "running",
+        "channels": [
+          {
+            "id": "departure",
+            "gain": 0,
+            "paused": true,
+            "retireAt": null
+          },
+          {
+            "id": "encounter",
+            "gain": 1,
+            "paused": false,
+            "retireAt": null
+          },
+          {
+            "id": "rings",
+            "gain": 0,
+            "paused": true,
+            "retireAt": null
+          },
+          {
+            "id": "distance",
+            "gain": 0,
+            "paused": true,
+            "retireAt": null
+          }
+        ]
+      },
+      "rms": 0.035644059564140164,
+      "current": "encounter",
+      "channelCount": 4,
+      "nativeHold": false,
+      "activePowerAfterResume": 0.9999768240009355,
+      "errors": [],
+      "passed": true
+    },
+    {
+      "name": "WebKit",
+      "engineVersion": "26.5",
+      "before": {
+        "time": 8.28,
+        "state": "suspended",
+        "channels": [
+          {
+            "id": "departure",
+            "gain": 0.998607337474823,
+            "paused": false,
+            "retireAt": 15.529333333333334
+          },
+          {
+            "id": "encounter",
+            "gain": 0.052470214664936066,
+            "paused": false,
+            "retireAt": null
+          },
+          {
+            "id": "rings",
+            "gain": 0,
+            "paused": true,
+            "retireAt": 15.529333333333334
+          },
+          {
+            "id": "distance",
+            "gain": 0,
+            "paused": true,
+            "retireAt": 15.529333333333334
+          }
+        ]
+      },
+      "suspended": {
+        "time": 8.28,
+        "state": "suspended",
+        "channels": [
+          {
+            "id": "departure",
+            "gain": 0.998607337474823,
+            "paused": false,
+            "retireAt": 15.529333333333334
+          },
+          {
+            "id": "encounter",
+            "gain": 0.052470214664936066,
+            "paused": false,
+            "retireAt": null
+          },
+          {
+            "id": "rings",
+            "gain": 0,
+            "paused": true,
+            "retireAt": 15.529333333333334
+          },
+          {
+            "id": "distance",
+            "gain": 0,
+            "paused": true,
+            "retireAt": 15.529333333333334
+          }
+        ]
+      },
+      "resumed": {
+        "time": 8.381333333333334,
+        "state": "running",
+        "channels": [
+          {
+            "id": "departure",
+            "gain": 0.9972834587097168,
+            "paused": false,
+            "retireAt": 15.529333333333334
+          },
+          {
+            "id": "encounter",
+            "gain": 0.07365155220031738,
+            "paused": false,
+            "retireAt": null
+          },
+          {
+            "id": "rings",
+            "gain": 0,
+            "paused": true,
+            "retireAt": 15.529333333333334
+          },
+          {
+            "id": "distance",
+            "gain": 0,
+            "paused": true,
+            "retireAt": 15.529333333333334
+          }
+        ]
+      },
+      "settled": {
+        "time": 15.981333333333334,
+        "state": "running",
+        "channels": [
+          {
+            "id": "departure",
+            "gain": 0,
+            "paused": true,
+            "retireAt": null
+          },
+          {
+            "id": "encounter",
+            "gain": 1,
+            "paused": false,
+            "retireAt": null
+          },
+          {
+            "id": "rings",
+            "gain": 0,
+            "paused": true,
+            "retireAt": null
+          },
+          {
+            "id": "distance",
+            "gain": 0,
+            "paused": true,
+            "retireAt": null
+          }
+        ]
+      },
+      "reselected": {
+        "time": 24.082666666666668,
+        "state": "running",
+        "channels": [
+          {
+            "id": "departure",
+            "gain": 0,
+            "paused": true,
+            "retireAt": null
+          },
+          {
+            "id": "encounter",
+            "gain": 1,
+            "paused": false,
+            "retireAt": null
+          },
+          {
+            "id": "rings",
+            "gain": 0,
+            "paused": true,
+            "retireAt": null
+          },
+          {
+            "id": "distance",
+            "gain": 0,
+            "paused": true,
+            "retireAt": null
+          }
+        ]
+      },
+      "rms": 0.018793838940753458,
+      "current": "encounter",
+      "channelCount": 4,
+      "nativeHold": true,
+      "activePowerAfterResume": 0.9999988481575315,
+      "errors": [],
+      "passed": true
+    }
+  ]
+}

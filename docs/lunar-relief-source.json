@@ -1,0 +1,31 @@
+{
+  "source": "https://svs.gsfc.nasa.gov/vis/a000000/a004700/a004720/ldem_16_uint.tif",
+  "sourcePage": "https://svs.gsfc.nasa.gov/4720/",
+  "sourceSha256": "45a2b32d56e81ed30db07fead8abc842b249b6511219d9ca2c53f81bc2dc5d62",
+  "dimensions": [
+    5760,
+    2880
+  ],
+  "heightBoundsKm": [
+    -8.981499671936035,
+    10.685500144958496
+  ],
+  "verticalExaggeration": 1,
+  "heightEncoding": "R8 lossless, -10 to +11 km",
+  "normalEncoding": "Upper-hemisphere octahedral RG8, AVIF quality 90, identity RGB 4:4:4, full range; linear data in the renderer",
+  "normalEncoder": "libavif 1.4.2 / AOM, depth 8, speed 6, CICP 1/13/0",
+  "normalMethod": "Spherical central differences of unquantized height at pixel centres; half-turn pole continuation",
+  "silhouette": "513 x 289 runtime vertices sampled from the same height image at texel centres; longitude wrapping and averaged pole heights; physical vertical scale",
+  "encodingReference": "https://jcgt.org/published/0003/02/01/",
+  "limitations": "Finite-difference slopes, source interpolation and polar sampling remain approximations. Height R8 rounding error is at most 41.18 m. No vertical exaggeration or synthetic craters.",
+  "files": {
+    "moon-normal.avif": {
+      "bytes": 5214645,
+      "sha256": "7e9170917cb332c129fd62c76aabfe1cc9bf65eebe24ebcf4ffdf79da97d6ff0"
+    },
+    "moon-height.webp": {
+      "bytes": 3785626,
+      "sha256": "3cbbc1667418cef9bd6b30ed521fa74bbde1bea8d8d3bf3354061610fb130720"
+    }
+  }
+}

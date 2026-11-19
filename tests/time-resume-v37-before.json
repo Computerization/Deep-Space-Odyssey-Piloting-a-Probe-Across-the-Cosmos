@@ -1,0 +1,124 @@
+{
+  "version": "0.36.0",
+  "outcomes": [
+    {
+      "name": "Chrome",
+      "engineVersion": "158.0.8127.37",
+      "states": [
+        {
+          "label": "review-keyboard",
+          "reviewed": {
+            "paused": true,
+            "rate": 0,
+            "seconds": 0,
+            "position": [
+              144472013.8703407,
+              -17170675.828623302,
+              39616789.088083945
+            ],
+            "velocity": [
+              -3.456858676386725,
+              9.671249567780723,
+              -7.224977431753134
+            ],
+            "fuel": 104,
+            "boundary": false
+          },
+          "keyDown": {
+            "paused": true,
+            "rate": 0,
+            "seconds": 0,
+            "position": [
+              144472013.8703407,
+              -17170675.828623302,
+              39616789.088083945
+            ],
+            "velocity": [
+              -3.456858676386725,
+              9.671249567780723,
+              -7.224977431753134
+            ],
+            "fuel": 104,
+            "boundary": false
+          },
+          "keyUp": {
+            "paused": true,
+            "rate": 0,
+            "seconds": 0,
+            "position": [
+              144472013.8703407,
+              -17170675.828623302,
+              39616789.088083945
+            ],
+            "velocity": [
+              -3.456858676386725,
+              9.671249567780723,
+              -7.224977431753134
+            ],
+            "fuel": 104,
+            "boundary": false
+          }
+        },
+        {
+          "label": "review-gamepad",
+          "reviewed": {
+            "paused": true,
+            "rate": 0,
+            "seconds": 0,
+            "position": [
+              144472013.8703407,
+              -17170675.828623302,
+              39616789.088083945
+            ],
+            "velocity": [
+              -3.456858676386725,
+              9.671249567780723,
+              -7.224977431753134
+            ],
+            "fuel": 104,
+            "boundary": false
+          },
+          "down": {
+            "paused": true,
+            "rate": 0,
+            "seconds": 0,
+            "position": [
+              144472013.8703407,
+              -17170675.828623302,
+              39616789.088083945
+            ],
+            "velocity": [
+              -3.456858676386725,
+              9.671249567780723,
+              -7.224977431753134
+            ],
+            "fuel": 104,
+            "boundary": false
+          },
+          "up": {
+            "paused": true,
+            "rate": 0,
+            "seconds": 0,
+            "position": [
+              144472013.8703407,
+              -17170675.828623302,
+              39616789.088083945
+            ],
+            "velocity": [
+              -3.456858676386725,
+              9.671249567780723,
+              -7.224977431753134
+            ],
+            "fuel": 104,
+            "boundary": false
+          }
+        }
+      ],
+      "panelBackPreservesHold": true,
+      "boundaryHoldPreserved": true,
+      "physicalControllerTested": false,
+      "errors": [],
+      "passed": true
+    }
+  ]
+}

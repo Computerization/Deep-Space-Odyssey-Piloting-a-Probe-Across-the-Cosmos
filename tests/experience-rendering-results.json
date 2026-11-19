@@ -1,0 +1,61 @@
+{
+  "version": "0.97.0",
+  "method": "Completed frame readback, interleaved cloud scale comparison at fixed physical pose. These diagnostic intervals are not display FPS.",
+  "rows": [
+    {
+      "scale": 0.75,
+      "medianMs": 55.599999994039536,
+      "p95Ms": 71.19999998807907,
+      "scene": [
+        2880,
+        1800
+      ],
+      "cloud": [
+        1620,
+        1013
+      ]
+    },
+    {
+      "scale": 0.5,
+      "medianMs": 39.5,
+      "p95Ms": 59.30000001192093,
+      "scene": [
+        2880,
+        1800
+      ],
+      "cloud": [
+        1080,
+        675
+      ]
+    },
+    {
+      "scale": 0.5,
+      "medianMs": 40.19999998807907,
+      "p95Ms": 42.30000001192093,
+      "scene": [
+        2880,
+        1800
+      ],
+      "cloud": [
+        1080,
+        675
+      ]
+    },
+    {
+      "scale": 0.75,
+      "medianMs": 52.69999998807907,
+      "p95Ms": 53.099999994039536,
+      "scene": [
+        2880,
+        1800
+      ],
+      "cloud": [
+        1620,
+        1013
+      ]
+    }
+  ],
+  "settledUsesNativeScene": true,
+  "physicalUnchanged": true,
+  "glError": 0
+}

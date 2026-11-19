@@ -1,0 +1,736 @@
+{
+  "resolution": [
+    32768,
+    16384
+  ],
+  "tileSize": 2048,
+  "padding": 8,
+  "columns": 16,
+  "rows": 8,
+  "firstRow": 1,
+  "lastRow": 6,
+  "sourceAtlasSha256": "22c69645ae1143dc8802256965db9c32fe200641e0d7cdea5b6d0f2d06eade6c",
+  "priorSourceSha256": "c792eca228989d36ebb45d3ea6ff1198be5e21a25d70d2fbcb2124ffd14ba7f5",
+  "baseSourceSha256": "fb9530aa94ac7e2818babf9fc7eb5f415b0ca8544d0ce4915be2ca20494e2228",
+  "base": {
+    "file": "assets/textures/earth-clouds.avif",
+    "dimensions": [
+      8192,
+      4096
+    ],
+    "bytes": 5190195,
+    "sha256": "f65c0b5505f046b87f4367a8ad63a2f007c22595a04cb92d65cd821ccdc1a28b"
+  },
+  "tiles": [
+    {
+      "x": 0,
+      "y": 1,
+      "file": "assets/textures/cloud-detail/00-01.avif",
+      "bytes": 156203,
+      "sha256": "0ab91eaa5477640b25ced42594cacd6d4bcf12aabf287f9d039143f6a88a9fe4"
+    },
+    {
+      "x": 1,
+      "y": 1,
+      "file": "assets/textures/cloud-detail/01-01.avif",
+      "bytes": 145702,
+      "sha256": "5a479c324df2822d36aa15f8c49d018aff4ba4f997a291d91ae28fa58da6174f"
+    },
+    {
+      "x": 2,
+      "y": 1,
+      "file": "assets/textures/cloud-detail/02-01.avif",
+      "bytes": 214884,
+      "sha256": "53ef38c2865f5bdf7ced1a391ce2bc989ea363e51834abbddea46ed4a88b27ae"
+    },
+    {
+      "x": 3,
+      "y": 1,
+      "file": "assets/textures/cloud-detail/03-01.avif",
+      "bytes": 160488,
+      "sha256": "99b310b815511cd43eaa7e942ad9e40b0c5919cd3fe11def518a97e9006c00e7"
+    },
+    {
+      "x": 4,
+      "y": 1,
+      "file": "assets/textures/cloud-detail/04-01.avif",
+      "bytes": 173584,
+      "sha256": "8dd5f5847174985a63b98b3e303cafc716e4969f062cc25a75bfb961f96e14a1"
+    },
+    {
+      "x": 5,
+      "y": 1,
+      "file": "assets/textures/cloud-detail/05-01.avif",
+      "bytes": 133281,
+      "sha256": "bf28dc802b85eb4e66ba9aac9b9edd0376ee9308d95910e7b949d1b9c0d5cee1"
+    },
+    {
+      "x": 6,
+      "y": 1,
+      "file": "assets/textures/cloud-detail/06-01.avif",
+      "bytes": 142167,
+      "sha256": "b30ae9ca80bc4bc47fda04d868de43e6f3a36046a8d315857e6ae8d270ab04a6"
+    },
+    {
+      "x": 7,
+      "y": 1,
+      "file": "assets/textures/cloud-detail/07-01.avif",
+      "bytes": 158527,
+      "sha256": "caceb9e7dc40c49166ed47ad4d201fe429523df0f7449e612e06ee511f2ce7cf"
+    },
+    {
+      "x": 8,
+      "y": 1,
+      "file": "assets/textures/cloud-detail/08-01.avif",
+      "bytes": 178623,
+      "sha256": "abdc004ea772f3733b79588bdb54e9568c8b5c47277116e480f5852225855de6"
+    },
+    {
+      "x": 9,
+      "y": 1,
+      "file": "assets/textures/cloud-detail/09-01.avif",
+      "bytes": 182273,
+      "sha256": "4f94d5f484074be7e8cb5745052ba05df071c75c0dec8c85e4088b87e3c29562"
+    },
+    {
+      "x": 10,
+      "y": 1,
+      "file": "assets/textures/cloud-detail/10-01.avif",
+      "bytes": 146432,
+      "sha256": "5f54002c9a9a7805ef53b2e6964598c0e4c51786ef89413438523774439edfeb"
+    },
+    {
+      "x": 11,
+      "y": 1,
+      "file": "assets/textures/cloud-detail/11-01.avif",
+      "bytes": 164638,
+      "sha256": "858fa5deb854ff9b45f196aa71c584477a594552c7073d52e43379bdaa96cd67"
+    },
+    {
+      "x": 12,
+      "y": 1,
+      "file": "assets/textures/cloud-detail/12-01.avif",
+      "bytes": 217946,
+      "sha256": "27fe9151d7cb0f00fa19e6ee835bf5e1fcd06afc0d1e066273a287f492c01648"
+    },
+    {
+      "x": 13,
+      "y": 1,
+      "file": "assets/textures/cloud-detail/13-01.avif",
+      "bytes": 219997,
+      "sha256": "149a860d1d94a00cb72b84843342728758c044cd6d0bab4cf2c9bcec3d2ae929"
+    },
+    {
+      "x": 14,
+      "y": 1,
+      "file": "assets/textures/cloud-detail/14-01.avif",
+      "bytes": 127929,
+      "sha256": "618856d8f59c44d8f2733cce4985ab31f2586f899c17aa39fb2fc097d0e05e77"
+    },
+    {
+      "x": 15,
+      "y": 1,
+      "file": "assets/textures/cloud-detail/15-01.avif",
+      "bytes": 123514,
+      "sha256": "28be4a6c431fd9cf46948205a8fefadacd6dc97d8a64b50f6fd5e4c4d40450e8"
+    },
+    {
+      "x": 0,
+      "y": 2,
+      "file": "assets/textures/cloud-detail/00-02.avif",
+      "bytes": 200555,
+      "sha256": "889101d7379b1eef880926e546d0537242fb20c9eef1b11dc642561f68fc5fa8"
+    },
+    {
+      "x": 1,
+      "y": 2,
+      "file": "assets/textures/cloud-detail/01-02.avif",
+      "bytes": 269364,
+      "sha256": "0fda5bab3b28b69d18a713a94a0a2206be8fae4ab5fb0c7e098d4fac2d6194a2"
+    },
+    {
+      "x": 2,
+      "y": 2,
+      "file": "assets/textures/cloud-detail/02-02.avif",
+      "bytes": 229488,
+      "sha256": "da68a66fa8e0e525fcb5806a2f052705f6012d1233eda60327926d4dd6df413f"
+    },
+    {
+      "x": 3,
+      "y": 2,
+      "file": "assets/textures/cloud-detail/03-02.avif",
+      "bytes": 214972,
+      "sha256": "dba7fefa0d34913539008426776004ac2c48c8269dc75e0c308a90105991178c"
+    },
+    {
+      "x": 4,
+      "y": 2,
+      "file": "assets/textures/cloud-detail/04-02.avif",
+      "bytes": 259880,
+      "sha256": "c699750420e81ac780216a3d990469c708e805411b0fad7fe64900b826e7c839"
+    },
+    {
+      "x": 5,
+      "y": 2,
+      "file": "assets/textures/cloud-detail/05-02.avif",
+      "bytes": 189855,
+      "sha256": "d07fa571076b7102359b5555b864be1bc18641a97229aa66cedac95bad814a27"
+    },
+    {
+      "x": 6,
+      "y": 2,
+      "file": "assets/textures/cloud-detail/06-02.avif",
+      "bytes": 212148,
+      "sha256": "c92ac033ab9c806e85cf6b462d65ffaddd82fad30cec74bd4eede3904ac43286"
+    },
+    {
+      "x": 7,
+      "y": 2,
+      "file": "assets/textures/cloud-detail/07-02.avif",
+      "bytes": 215755,
+      "sha256": "bf16a9adca036eb429ea048d8ecee3f431536b2af296345ad2c68189cd218db8"
+    },
+    {
+      "x": 8,
+      "y": 2,
+      "file": "assets/textures/cloud-detail/08-02.avif",
+      "bytes": 93081,
+      "sha256": "d1b87e632a8426ef06fef293e4ca90450c62d74758edf297089b567de62eaa5c"
+    },
+    {
+      "x": 9,
+      "y": 2,
+      "file": "assets/textures/cloud-detail/09-02.avif",
+      "bytes": 117593,
+      "sha256": "653287ad4593219a17322e37bfb3949d649c3b67b7ce6168f7507640457d8f53"
+    },
+    {
+      "x": 10,
+      "y": 2,
+      "file": "assets/textures/cloud-detail/10-02.avif",
+      "bytes": 79310,
+      "sha256": "c3748789cd38acb58bf8214eba325d3c7e7b1fb82ef74dc931ec2f1630731fdf"
+    },
+    {
+      "x": 11,
+      "y": 2,
+      "file": "assets/textures/cloud-detail/11-02.avif",
+      "bytes": 300675,
+      "sha256": "12dbf79e1f35e5b532e3606d4669a0cf0e9a6aa3c3565309cc2288674b4ead03"
+    },
+    {
+      "x": 12,
+      "y": 2,
+      "file": "assets/textures/cloud-detail/12-02.avif",
+      "bytes": 289160,
+      "sha256": "3ea52ee2e52b5fe4d9ac892257dc98c2dfffe20b9650b0659500bd2e7099d343"
+    },
+    {
+      "x": 13,
+      "y": 2,
+      "file": "assets/textures/cloud-detail/13-02.avif",
+      "bytes": 271647,
+      "sha256": "c4fb273afb422cc1b440a3dfc912f763b50d7fd05eeed547908bacccfeb42441"
+    },
+    {
+      "x": 14,
+      "y": 2,
+      "file": "assets/textures/cloud-detail/14-02.avif",
+      "bytes": 215385,
+      "sha256": "d90ab4c623b34a8389013494132bda78945cfd20d6b7ecf943733b04056434f3"
+    },
+    {
+      "x": 15,
+      "y": 2,
+      "file": "assets/textures/cloud-detail/15-02.avif",
+      "bytes": 193866,
+      "sha256": "749de265c568440b06b80527913f69162ee492bf3afefa0a5e26351e693f5a45"
+    },
+    {
+      "x": 0,
+      "y": 3,
+      "file": "assets/textures/cloud-detail/00-03.avif",
+      "bytes": 242504,
+      "sha256": "1181c8902cd52b940d722a8a651449f67a12a42110654b7382f2b6a3a668e155"
+    },
+    {
+      "x": 1,
+      "y": 3,
+      "file": "assets/textures/cloud-detail/01-03.avif",
+      "bytes": 262401,
+      "sha256": "6cd6c574c5b6f30cb12bf84acd3f2e491b81cfac81df9bb5d1540251153a17f0"
+    },
+    {
+      "x": 2,
+      "y": 3,
+      "file": "assets/textures/cloud-detail/02-03.avif",
+      "bytes": 260902,
+      "sha256": "2f6490aecba966e1bcc64ed103fca91b04766d795e02f83e29e79f33652da45c"
+    },
+    {
+      "x": 3,
+      "y": 3,
+      "file": "assets/textures/cloud-detail/03-03.avif",
+      "bytes": 213495,
+      "sha256": "31a53ce74784970f2abf8a32757752bcaed40a93de1497c2e17c1ef6cb98090d"
+    },
+    {
+      "x": 4,
+      "y": 3,
+      "file": "assets/textures/cloud-detail/04-03.avif",
+      "bytes": 276304,
+      "sha256": "62239c798f82cdf7608c1f3dea3d63632af317c2c29785a4dc903d52f75443d9"
+    },
+    {
+      "x": 5,
+      "y": 3,
+      "file": "assets/textures/cloud-detail/05-03.avif",
+      "bytes": 290116,
+      "sha256": "ad1b6f5519682a2e03cb777c2f90b63a75ed1aa315e04771f9b8dc0c3cf58243"
+    },
+    {
+      "x": 6,
+      "y": 3,
+      "file": "assets/textures/cloud-detail/06-03.avif",
+      "bytes": 239155,
+      "sha256": "8af7c702379789315bd5fb83921580fcadf0eddc3bd5f4982b181c3d49849df3"
+    },
+    {
+      "x": 7,
+      "y": 3,
+      "file": "assets/textures/cloud-detail/07-03.avif",
+      "bytes": 202286,
+      "sha256": "5b4a067f283f01a1becac42e10e1a9820cb1b4f1ff588acd47490bfb8ad1af2d"
+    },
+    {
+      "x": 8,
+      "y": 3,
+      "file": "assets/textures/cloud-detail/08-03.avif",
+      "bytes": 208499,
+      "sha256": "4e25108ddd76f18365ca4dfb4b5173f4c7a621235e3cf563ec72456512d4143d"
+    },
+    {
+      "x": 9,
+      "y": 3,
+      "file": "assets/textures/cloud-detail/09-03.avif",
+      "bytes": 225779,
+      "sha256": "96470e92ac25db6c0e553712355a7fa4ec9d86ea155d93482d7548f89397e3f9"
+    },
+    {
+      "x": 10,
+      "y": 3,
+      "file": "assets/textures/cloud-detail/10-03.avif",
+      "bytes": 176123,
+      "sha256": "5051d9cfd551164c87de516c777ca870209f46d128d2ce6a7c8f070b7bda27f5"
+    },
+    {
+      "x": 11,
+      "y": 3,
+      "file": "assets/textures/cloud-detail/11-03.avif",
+      "bytes": 226800,
+      "sha256": "ac667f0ea1dd904474346d9be12ac978db7229df30ccf7bc3cbd2a8c73c5a62a"
+    },
+    {
+      "x": 12,
+      "y": 3,
+      "file": "assets/textures/cloud-detail/12-03.avif",
+      "bytes": 259824,
+      "sha256": "fb6f74cbedf199b0e46078716e43dd8eb4d07a7099ad3f988a76ff34181f1e74"
+    },
+    {
+      "x": 13,
+      "y": 3,
+      "file": "assets/textures/cloud-detail/13-03.avif",
+      "bytes": 205910,
+      "sha256": "a28ccf6c4746ab35bdae42038d0df9b30d98f2c3e33db03d00b478adc64525c0"
+    },
+    {
+      "x": 14,
+      "y": 3,
+      "file": "assets/textures/cloud-detail/14-03.avif",
+      "bytes": 209858,
+      "sha256": "b7bb0ee263ea980711dee2db40cfbffb299fdc7f546ace3099536918879199ca"
+    },
+    {
+      "x": 15,
+      "y": 3,
+      "file": "assets/textures/cloud-detail/15-03.avif",
+      "bytes": 232585,
+      "sha256": "85ace6157b8037cc200f97d1a4ccf34dd2459dd5a34610d16ffe4388c86739d6"
+    },
+    {
+      "x": 0,
+      "y": 4,
+      "file": "assets/textures/cloud-detail/00-04.avif",
+      "bytes": 295145,
+      "sha256": "baa8c72aa4e794b33368ccd820d75453f15eff3bc37d0a082908ae7b53313f89"
+    },
+    {
+      "x": 1,
+      "y": 4,
+      "file": "assets/textures/cloud-detail/01-04.avif",
+      "bytes": 256800,
+      "sha256": "2a9c7313b78ba9a21c61c60ded3bffc3736eaefc0fed12213ff7993e57332685"
+    },
+    {
+      "x": 2,
+      "y": 4,
+      "file": "assets/textures/cloud-detail/02-04.avif",
+      "bytes": 261654,
+      "sha256": "6961990eb75309721a8a2d17eaa6b9ac9238bcade3d26a8e9b1d7ce9bdbb6bb0"
+    },
+    {
+      "x": 3,
+      "y": 4,
+      "file": "assets/textures/cloud-detail/03-04.avif",
+      "bytes": 310200,
+      "sha256": "ddd912fcc7bbd60fd64cece47f905f54d13541277c56a1ec720668b906284257"
+    },
+    {
+      "x": 4,
+      "y": 4,
+      "file": "assets/textures/cloud-detail/04-04.avif",
+      "bytes": 262839,
+      "sha256": "d82ba6f3540de1e24f58dcfaa3f44e4029bc8820dff7b7b1536ab9d06e6f7508"
+    },
+    {
+      "x": 5,
+      "y": 4,
+      "file": "assets/textures/cloud-detail/05-04.avif",
+      "bytes": 152879,
+      "sha256": "51d04d7a20fc049bec840ee9400000cbbb8f8d98af787192ff12fad97006b2c8"
+    },
+    {
+      "x": 6,
+      "y": 4,
+      "file": "assets/textures/cloud-detail/06-04.avif",
+      "bytes": 262527,
+      "sha256": "cb932af9af09d2174f3724374f6bd284a307f408960047eda08ae4b7eb356d5b"
+    },
+    {
+      "x": 7,
+      "y": 4,
+      "file": "assets/textures/cloud-detail/07-04.avif",
+      "bytes": 234804,
+      "sha256": "33dce57154c2b0ce9417b718e00346613a1d91e8b8499eb1771a1dfadbe39c49"
+    },
+    {
+      "x": 8,
+      "y": 4,
+      "file": "assets/textures/cloud-detail/08-04.avif",
+      "bytes": 156531,
+      "sha256": "453a6acca1074f369119c9bf8e810f94d493000d6a77c985193fa9554481d080"
+    },
+    {
+      "x": 9,
+      "y": 4,
+      "file": "assets/textures/cloud-detail/09-04.avif",
+      "bytes": 246409,
+      "sha256": "5e067c43b6f0b85d16b90f9fb6ba881751a68677d688e85ed8d155ebcc3e1487"
+    },
+    {
+      "x": 10,
+      "y": 4,
+      "file": "assets/textures/cloud-detail/10-04.avif",
+      "bytes": 298988,
+      "sha256": "c9750b3ee200ec04825e3b169ff1a396a38eeda8cf7d6272baf5ae07f6dcedc1"
+    },
+    {
+      "x": 11,
+      "y": 4,
+      "file": "assets/textures/cloud-detail/11-04.avif",
+      "bytes": 314290,
+      "sha256": "2221fcf12dbc0257c7c99dd62ed914a4667e16c22233383cd5cf81ae77f65028"
+    },
+    {
+      "x": 12,
+      "y": 4,
+      "file": "assets/textures/cloud-detail/12-04.avif",
+      "bytes": 270982,
+      "sha256": "7c43d28b46ddeea10fec0bf5f831b614ef7ea9e0c89c4819850e04aa552d0739"
+    },
+    {
+      "x": 13,
+      "y": 4,
+      "file": "assets/textures/cloud-detail/13-04.avif",
+      "bytes": 176661,
+      "sha256": "4bd0b9099ed23d9837728b61fbee292089e03957fa9cb7241cce509bdc3ddd11"
+    },
+    {
+      "x": 14,
+      "y": 4,
+      "file": "assets/textures/cloud-detail/14-04.avif",
+      "bytes": 222575,
+      "sha256": "2f0d2d332a9834dbc78a1d8f0ba6258ee572f025bd1886ded2b69c8b155df688"
+    },
+    {
+      "x": 15,
+      "y": 4,
+      "file": "assets/textures/cloud-detail/15-04.avif",
+      "bytes": 254636,
+      "sha256": "f1a455047c79df8cfbe7bd4e024f9b545bf46061eaed54e7ece8cdecfa22bf6c"
+    },
+    {
+      "x": 0,
+      "y": 5,
+      "file": "assets/textures/cloud-detail/00-05.avif",
+      "bytes": 244632,
+      "sha256": "d4e242ff2ec7b4bc606b2ad7707ed96309cbf4c9376bad394b912c9a9d7bde67"
+    },
+    {
+      "x": 1,
+      "y": 5,
+      "file": "assets/textures/cloud-detail/01-05.avif",
+      "bytes": 187669,
+      "sha256": "8e1e4f0437e7f183e1bd248bc76aba5df999aa01dfe19314c94e7e22e0e281c4"
+    },
+    {
+      "x": 2,
+      "y": 5,
+      "file": "assets/textures/cloud-detail/02-05.avif",
+      "bytes": 244880,
+      "sha256": "dec720f1c8609d7d5bd745f1f8a240555d7425b7b61812139b34808fec13c4d6"
+    },
+    {
+      "x": 3,
+      "y": 5,
+      "file": "assets/textures/cloud-detail/03-05.avif",
+      "bytes": 266559,
+      "sha256": "fc836cb901f9169ce9a29f1451b401f425829f878b400085377b4695018668c3"
+    },
+    {
+      "x": 4,
+      "y": 5,
+      "file": "assets/textures/cloud-detail/04-05.avif",
+      "bytes": 245843,
+      "sha256": "41491dd0a789c3a692ef589772483af469332ab1eac27140969ef3b22dd79a9d"
+    },
+    {
+      "x": 5,
+      "y": 5,
+      "file": "assets/textures/cloud-detail/05-05.avif",
+      "bytes": 204020,
+      "sha256": "d97f0c7b010477e7cd39805ceb2ad543426e9ad7c539d8b149e5a7b5f897662e"
+    },
+    {
+      "x": 6,
+      "y": 5,
+      "file": "assets/textures/cloud-detail/06-05.avif",
+      "bytes": 205181,
+      "sha256": "a7b72ae4b8f57faa82c5a1804b843bdb2c15f923efe9e04309ba8bd2d1d43bb3"
+    },
+    {
+      "x": 7,
+      "y": 5,
+      "file": "assets/textures/cloud-detail/07-05.avif",
+      "bytes": 206200,
+      "sha256": "ae75f594b76f181e92441b671d7a5c6e8a29468f0f9e88cdd5f91aed6eb150b4"
+    },
+    {
+      "x": 8,
+      "y": 5,
+      "file": "assets/textures/cloud-detail/08-05.avif",
+      "bytes": 218297,
+      "sha256": "081fe28125592e9b098eaa0937f829ea25b079ba58ccb9a21f58d4a6beb33905"
+    },
+    {
+      "x": 9,
+      "y": 5,
+      "file": "assets/textures/cloud-detail/09-05.avif",
+      "bytes": 293027,
+      "sha256": "5b15401a48f39a5fb66a8963cfc92bee5b5f58ce891bc9bda065dd466a6b10b9"
+    },
+    {
+      "x": 10,
+      "y": 5,
+      "file": "assets/textures/cloud-detail/10-05.avif",
+      "bytes": 288364,
+      "sha256": "7ddb507774cfddce85e6633d89568c82ba041a47572a80247a75c022114430ba"
+    },
+    {
+      "x": 11,
+      "y": 5,
+      "file": "assets/textures/cloud-detail/11-05.avif",
+      "bytes": 240998,
+      "sha256": "62aa3c66e67e82425b877f1899ba589059d32647b8123da7c13b978670cb1c55"
+    },
+    {
+      "x": 12,
+      "y": 5,
+      "file": "assets/textures/cloud-detail/12-05.avif",
+      "bytes": 280468,
+      "sha256": "7daf9135da004ce5bd7df49c086f7742a5670b9397d1fb1e2e1bfc3493701734"
+    },
+    {
+      "x": 13,
+      "y": 5,
+      "file": "assets/textures/cloud-detail/13-05.avif",
+      "bytes": 266303,
+      "sha256": "2f9107c4f01b4c07f3548cf1079d4301d2ae1091e0cf7e3d87935ada96479744"
+    },
+    {
+      "x": 14,
+      "y": 5,
+      "file": "assets/textures/cloud-detail/14-05.avif",
+      "bytes": 186810,
+      "sha256": "55730eefad7e751d801208f6ce19fa4773ac1ebdf93219e0aed992e867320b91"
+    },
+    {
+      "x": 15,
+      "y": 5,
+      "file": "assets/textures/cloud-detail/15-05.avif",
+      "bytes": 238485,
+      "sha256": "7c867557b0ab8ed4235a925a17c90ed656c1a2cf73d53efacb2b644a9d54e998"
+    },
+    {
+      "x": 0,
+      "y": 6,
+      "file": "assets/textures/cloud-detail/00-06.avif",
+      "bytes": 148292,
+      "sha256": "d7ec4960f280e1e6b85142bbac24aa0e94a0762278dea0aa8f17ca56eb87ff71"
+    },
+    {
+      "x": 1,
+      "y": 6,
+      "file": "assets/textures/cloud-detail/01-06.avif",
+      "bytes": 122537,
+      "sha256": "4cc7333cca99025f7e5b370d0fd1e5171f6d6f6f2ffbca192020f3aee3db1e61"
+    },
+    {
+      "x": 2,
+      "y": 6,
+      "file": "assets/textures/cloud-detail/02-06.avif",
+      "bytes": 149911,
+      "sha256": "0e7f5d9f79b053bd7c2694d9f2062f019a282fb5c224c8569155aa60a004c86d"
+    },
+    {
+      "x": 3,
+      "y": 6,
+      "file": "assets/textures/cloud-detail/03-06.avif",
+      "bytes": 148853,
+      "sha256": "bcfff49c834f4fc5d09d16e900b2d535edd432bd362f9c3d49eafab050bba70d"
+    },
+    {
+      "x": 4,
+      "y": 6,
+      "file": "assets/textures/cloud-detail/04-06.avif",
+      "bytes": 165507,
+      "sha256": "69774ad797412a43da40ce6d992b8cd995745bf916754bf617c635933d8d9e6a"
+    },
+    {
+      "x": 5,
+      "y": 6,
+      "file": "assets/textures/cloud-detail/05-06.avif",
+      "bytes": 125112,
+      "sha256": "ea792a47ee7075d6550ac1a8bc7aeb6ffcfb4932cb54d99c14f403090610ecac"
+    },
+    {
+      "x": 6,
+      "y": 6,
+      "file": "assets/textures/cloud-detail/06-06.avif",
+      "bytes": 135051,
+      "sha256": "3c962a6a633e0844659013421c7a73c1494fde1a0958c9e89838fbb4bcd6a4f9"
+    },
+    {
+      "x": 7,
+      "y": 6,
+      "file": "assets/textures/cloud-detail/07-06.avif",
+      "bytes": 155066,
+      "sha256": "bfc3c0620f698f1bc7026299f597d48ecf0fda2ae11901f4742061c920e3950d"
+    },
+    {
+      "x": 8,
+      "y": 6,
+      "file": "assets/textures/cloud-detail/08-06.avif",
+      "bytes": 129167,
+      "sha256": "9604172a804bf17f66b35bab2e3e9cf5242e2b31ad39135ac1d4b4bebb47daf1"
+    },
+    {
+      "x": 9,
+      "y": 6,
+      "file": "assets/textures/cloud-detail/09-06.avif",
+      "bytes": 127516,
+      "sha256": "f017a3b87daf47e88612ea95fc5bfed6e33f46a448c49ac4ac069261ef28d709"
+    },
+    {
+      "x": 10,
+      "y": 6,
+      "file": "assets/textures/cloud-detail/10-06.avif",
+      "bytes": 183026,
+      "sha256": "ed8b9e9a96bb78afe2b310b607970852add56910c6d3e33db5d967ebbb4ea0eb"
+    },
+    {
+      "x": 11,
+      "y": 6,
+      "file": "assets/textures/cloud-detail/11-06.avif",
+      "bytes": 100001,
+      "sha256": "c5ff6cdf8458496908118127e298c4a439bca8ae86ff3f4d3de3c2acaf92a9a9"
+    },
+    {
+      "x": 12,
+      "y": 6,
+      "file": "assets/textures/cloud-detail/12-06.avif",
+      "bytes": 118901,
+      "sha256": "bda1bcb422ada5a7cb48758f03a5bc407049ec50ae7475baf2be59f3a08ad5b8"
+    },
+    {
+      "x": 13,
+      "y": 6,
+      "file": "assets/textures/cloud-detail/13-06.avif",
+      "bytes": 183574,
+      "sha256": "3ad784db7774a2a0a9f1251572187ec597dbaabe4fd36d0d3c40dd13cb779bc5"
+    },
+    {
+      "x": 14,
+      "y": 6,
+      "file": "assets/textures/cloud-detail/14-06.avif",
+      "bytes": 187582,
+      "sha256": "ce44b718c0946c25632bca9dcd1112424e6a1cf456f72abce7506a5dbb3d9709"
+    },
+    {
+      "x": 15,
+      "y": 6,
+      "file": "assets/textures/cloud-detail/15-06.avif",
+      "bytes": 178989,
+      "sha256": "8d9e9ca934bb88a38492292b6ce4e9838e6b8d0a6977a3c5299cbdc4de3944e2"
+    }
+  ],
+  "encoding": {
+    "codec": "libavif / AOM",
+    "tileQuality": 55,
+    "baseQuality": 70,
+    "speed": 4,
+    "depth": 8,
+    "chroma": "400",
+    "range": "full",
+    "cicp": "1/13/6"
+  },
+  "source": "Toni Sagrist\u00e0 / Gaia Sky NASA-derived cloud atlas, native level-4 grid; INOVE / Solar System Scope polar composite under CC BY 4.0.",
+  "sourceTransitionAbsoluteLatitude": [
+    50,
+    60
+  ],
+  "limits": "Grid dimensions are not measured observational resolution. Coverage is an image-derived proxy. Regional height remains inferred. Padding protects encoded interiors; independently compressed tile joins still require visual/motion verification.",
+  "totalBytes": 25076399,
+  "version": "0.91.0",
+  "height": {
+    "file": "assets/textures/earth-cloud-height.png",
+    "dimensions": [
+      2048,
+      1024
+    ],
+    "bytes": 1377699,
+    "sha256": "e459fde568e5666da55abfaeffb18dc88ae13fc29d91d442d7f0318fd16d19bb",
+    "meaning": "unchanged inferred regional height proxy"
+  },
+  "runtime": {
+    "patchSize": [
+      4096,
+      4096
+    ],
+    "residentPatches": 1,
+    "decodedTileCacheLimit": 8,
+    "minimumTextureSizeForPatch": 4096,
+    "fallback": "8K base resized by the existing loader; no local patch on smaller devices"
+  }
+}

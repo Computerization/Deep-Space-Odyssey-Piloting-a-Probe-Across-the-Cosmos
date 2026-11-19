@@ -1,0 +1,194 @@
+{
+  "method": "Chrome/Metal, High, fixed camera/time and warmed resident textures. 20 warm-ups, then 80 ABBA full frames when benchmarking. Sync includes a one-pixel readback; GPU is the complete render timer where available. RGBA8 comparisons include the whole display buffer.",
+  "dpr": 2,
+  "reference": "0.107.0",
+  "candidate": "0.108.0",
+  "records": [
+    {
+      "shot": "arrival",
+      "samples": 0,
+      "cloudPatch": 1,
+      "pixels": [
+        2560,
+        1600
+      ],
+      "layered": true,
+      "resolved": 0,
+      "changedChannels": 0,
+      "maxError": 0,
+      "reference": {
+        "sync": {
+          "count": 40,
+          "medianMs": 34.89999997615814,
+          "p95Ms": 40.799999952316284
+        },
+        "gpu": {
+          "count": 40,
+          "medianMs": 33.812624,
+          "p95Ms": 39.297624
+        }
+      },
+      "candidate": {
+        "sync": {
+          "count": 40,
+          "medianMs": 30.80000001192093,
+          "p95Ms": 34.89999997615814
+        },
+        "gpu": {
+          "count": 40,
+          "medianMs": 29.853666,
+          "p95Ms": 33.693
+        }
+      }
+    },
+    {
+      "shot": "turn",
+      "samples": 0,
+      "cloudPatch": 1,
+      "pixels": [
+        2560,
+        1600
+      ],
+      "layered": true,
+      "resolved": 0,
+      "changedChannels": 0,
+      "maxError": 0,
+      "reference": {
+        "sync": {
+          "count": 40,
+          "medianMs": 40.59999996423721,
+          "p95Ms": 43.80000001192093
+        },
+        "gpu": {
+          "count": 40,
+          "medianMs": 39.770375,
+          "p95Ms": 43.042416
+        }
+      },
+      "candidate": {
+        "sync": {
+          "count": 40,
+          "medianMs": 35.69999998807907,
+          "p95Ms": 39.5
+        },
+        "gpu": {
+          "count": 40,
+          "medianMs": 34.800083,
+          "p95Ms": 38.383
+        }
+      }
+    },
+    {
+      "shot": "orbit",
+      "samples": 0,
+      "cloudPatch": 1,
+      "pixels": [
+        2560,
+        1600
+      ],
+      "layered": true,
+      "resolved": 0,
+      "changedChannels": 0,
+      "maxError": 0,
+      "reference": {
+        "sync": {
+          "count": 40,
+          "medianMs": 34,
+          "p95Ms": 47.80000001192093
+        },
+        "gpu": {
+          "count": 40,
+          "medianMs": 33.034375,
+          "p95Ms": 46.655291
+        }
+      },
+      "candidate": {
+        "sync": {
+          "count": 40,
+          "medianMs": 30.899999976158142,
+          "p95Ms": 36
+        },
+        "gpu": {
+          "count": 40,
+          "medianMs": 29.968999,
+          "p95Ms": 34.832583
+        }
+      }
+    },
+    {
+      "shot": "night",
+      "samples": 0,
+      "cloudPatch": 1,
+      "pixels": [
+        2560,
+        1600
+      ],
+      "layered": true,
+      "resolved": 0,
+      "changedChannels": 0,
+      "maxError": 0,
+      "reference": {
+        "sync": {
+          "count": 40,
+          "medianMs": 31.400000035762787,
+          "p95Ms": 54.200000047683716
+        },
+        "gpu": {
+          "count": 40,
+          "medianMs": 30.466708,
+          "p95Ms": 52.669833
+        }
+      },
+      "candidate": {
+        "sync": {
+          "count": 40,
+          "medianMs": 28.69999998807907,
+          "p95Ms": 110.10000002384186
+        },
+        "gpu": {
+          "count": 40,
+          "medianMs": 27.552,
+          "p95Ms": 108.57275
+        }
+      }
+    },
+    {
+      "shot": "zoom",
+      "samples": 0,
+      "cloudPatch": 1,
+      "pixels": [
+        2560,
+        1600
+      ],
+      "layered": true,
+      "resolved": 1,
+      "changedChannels": 0,
+      "maxError": 0,
+      "reference": {
+        "sync": {
+          "count": 40,
+          "medianMs": 84.19999998807907,
+          "p95Ms": 137.89999997615814
+        },
+        "gpu": {
+          "count": 40,
+          "medianMs": 83.474874,
+          "p95Ms": 136.525666
+        }
+      },
+      "candidate": {
+        "sync": {
+          "count": 40,
+          "medianMs": 78.30000001192093,
+          "p95Ms": 102.10000002384186
+        },
+        "gpu": {
+          "count": 40,
+          "medianMs": 77.354749,
+          "p95Ms": 101.152124
+        }
+      }
+    }
+  ],
+  "errors": []
+}

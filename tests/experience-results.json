@@ -1,0 +1,24 @@
+{
+  "input": {
+    "shortcut": 0,
+    "keyboardRatio": 0.5,
+    "padRatio": 0.5,
+    "smallWheel": 58,
+    "accumulatedWheel": 54
+  },
+  "reframing": {
+    "before": 0.999900000000001,
+    "paused": 0.999900000000001,
+    "recorded": 1
+  },
+  "controllerPhotoBrowsing": true,
+  "photoControlsFitLaptop": true,
+  "photoViewer": true,
+  "lateJournalCannotReopen": true,
+  "pointerUnlockPauses": true,
+  "defaultResume": true,
+  "resumeWithoutTitleCard": true,
+  "selectedDestinationCoast": true,
+  "mergedNearbyMarkers": true,
+  "errors": []
+}

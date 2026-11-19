@@ -1,0 +1,187 @@
+{
+  "engine": "Chrome",
+  "label": "v105-sweep",
+  "views": [
+    {
+      "body": "earth",
+      "kind": "globe",
+      "file": "tests/screenshots/portrait-Chrome-v105-sweep-earth-globe.png"
+    },
+    {
+      "body": "earth",
+      "kind": "crescent",
+      "file": "tests/screenshots/portrait-Chrome-v105-sweep-earth-crescent.png"
+    },
+    {
+      "body": "earth",
+      "kind": "near",
+      "file": "tests/screenshots/portrait-Chrome-v105-sweep-earth-near.png"
+    },
+    {
+      "body": "earth",
+      "kind": "terminator",
+      "file": "tests/screenshots/portrait-Chrome-v105-sweep-earth-terminator.png"
+    },
+    {
+      "body": "earth",
+      "kind": "backlit",
+      "file": "tests/screenshots/portrait-Chrome-v105-sweep-earth-backlit.png"
+    },
+    {
+      "body": "earth",
+      "kind": "limb",
+      "file": "tests/screenshots/portrait-Chrome-v105-sweep-earth-limb.png"
+    },
+    {
+      "body": "moon",
+      "kind": "globe",
+      "file": "tests/screenshots/portrait-Chrome-v105-sweep-moon-globe.png"
+    },
+    {
+      "body": "moon",
+      "kind": "crescent",
+      "file": "tests/screenshots/portrait-Chrome-v105-sweep-moon-crescent.png"
+    },
+    {
+      "body": "moon",
+      "kind": "near",
+      "file": "tests/screenshots/portrait-Chrome-v105-sweep-moon-near.png"
+    },
+    {
+      "body": "moon",
+      "kind": "terminator",
+      "file": "tests/screenshots/portrait-Chrome-v105-sweep-moon-terminator.png"
+    },
+    {
+      "body": "moon",
+      "kind": "backlit",
+      "file": "tests/screenshots/portrait-Chrome-v105-sweep-moon-backlit.png"
+    },
+    {
+      "body": "moon",
+      "kind": "limb",
+      "file": "tests/screenshots/portrait-Chrome-v105-sweep-moon-limb.png"
+    },
+    {
+      "body": "io",
+      "kind": "globe",
+      "file": "tests/screenshots/portrait-Chrome-v105-sweep-io-globe.png"
+    },
+    {
+      "body": "io",
+      "kind": "crescent",
+      "file": "tests/screenshots/portrait-Chrome-v105-sweep-io-crescent.png"
+    },
+    {
+      "body": "io",
+      "kind": "near",
+      "file": "tests/screenshots/portrait-Chrome-v105-sweep-io-near.png"
+    },
+    {
+      "body": "io",
+      "kind": "terminator",
+      "file": "tests/screenshots/portrait-Chrome-v105-sweep-io-terminator.png"
+    },
+    {
+      "body": "io",
+      "kind": "backlit",
+      "file": "tests/screenshots/portrait-Chrome-v105-sweep-io-backlit.png"
+    },
+    {
+      "body": "io",
+      "kind": "limb",
+      "file": "tests/screenshots/portrait-Chrome-v105-sweep-io-limb.png"
+    },
+    {
+      "body": "jupiter",
+      "kind": "globe",
+      "file": "tests/screenshots/portrait-Chrome-v105-sweep-jupiter-globe.png"
+    },
+    {
+      "body": "jupiter",
+      "kind": "crescent",
+      "file": "tests/screenshots/portrait-Chrome-v105-sweep-jupiter-crescent.png"
+    },
+    {
+      "body": "jupiter",
+      "kind": "near",
+      "file": "tests/screenshots/portrait-Chrome-v105-sweep-jupiter-near.png"
+    },
+    {
+      "body": "jupiter",
+      "kind": "terminator",
+      "file": "tests/screenshots/portrait-Chrome-v105-sweep-jupiter-terminator.png"
+    },
+    {
+      "body": "jupiter",
+      "kind": "backlit",
+      "file": "tests/screenshots/portrait-Chrome-v105-sweep-jupiter-backlit.png"
+    },
+    {
+      "body": "jupiter",
+      "kind": "limb",
+      "file": "tests/screenshots/portrait-Chrome-v105-sweep-jupiter-limb.png"
+    },
+    {
+      "body": "saturn",
+      "kind": "globe",
+      "file": "tests/screenshots/portrait-Chrome-v105-sweep-saturn-globe.png"
+    },
+    {
+      "body": "saturn",
+      "kind": "crescent",
+      "file": "tests/screenshots/portrait-Chrome-v105-sweep-saturn-crescent.png"
+    },
+    {
+      "body": "saturn",
+      "kind": "near",
+      "file": "tests/screenshots/portrait-Chrome-v105-sweep-saturn-near.png"
+    },
+    {
+      "body": "saturn",
+      "kind": "terminator",
+      "file": "tests/screenshots/portrait-Chrome-v105-sweep-saturn-terminator.png"
+    },
+    {
+      "body": "saturn",
+      "kind": "backlit",
+      "file": "tests/screenshots/portrait-Chrome-v105-sweep-saturn-backlit.png"
+    },
+    {
+      "body": "saturn",
+      "kind": "limb",
+      "file": "tests/screenshots/portrait-Chrome-v105-sweep-saturn-limb.png"
+    },
+    {
+      "body": "titan",
+      "kind": "globe",
+      "file": "tests/screenshots/portrait-Chrome-v105-sweep-titan-globe.png"
+    },
+    {
+      "body": "titan",
+      "kind": "crescent",
+      "file": "tests/screenshots/portrait-Chrome-v105-sweep-titan-crescent.png"
+    },
+    {
+      "body": "titan",
+      "kind": "near",
+      "file": "tests/screenshots/portrait-Chrome-v105-sweep-titan-near.png"
+    },
+    {
+      "body": "titan",
+      "kind": "terminator",
+      "file": "tests/screenshots/portrait-Chrome-v105-sweep-titan-terminator.png"
+    },
+    {
+      "body": "titan",
+      "kind": "backlit",
+      "file": "tests/screenshots/portrait-Chrome-v105-sweep-titan-backlit.png"
+    },
+    {
+      "body": "titan",
+      "kind": "limb",
+      "file": "tests/screenshots/portrait-Chrome-v105-sweep-titan-limb.png"
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,382 @@
+{
+  "version": "0.93.0",
+  "capHash": "d1ab87bbaecc4455ef964a626d01c3ba478432c9aadff063b8f944ee830ed919",
+  "viewsOnly": true,
+  "outcomes": [
+    {
+      "name": "Chrome",
+      "engineVersion": "158.0.8127.37",
+      "geometry": {
+        "dims": {
+          "previous": [
+            4096,
+            2048
+          ],
+          "candidate": [
+            4096,
+            2048
+          ]
+        },
+        "sunElevation": 3.8694769012492896
+      },
+      "views": [
+        {
+          "label": "encounter",
+          "draws": {
+            "previous": {
+              "calls": 5,
+              "triangles": 77314
+            },
+            "candidate": {
+              "calls": 5,
+              "triangles": 77314
+            }
+          }
+        },
+        {
+          "label": "north",
+          "draws": {
+            "previous": {
+              "calls": 5,
+              "triangles": 77314
+            },
+            "candidate": {
+              "calls": 5,
+              "triangles": 77314
+            }
+          }
+        },
+        {
+          "label": "north-detail",
+          "draws": {
+            "previous": {
+              "calls": 5,
+              "triangles": 77314
+            },
+            "candidate": {
+              "calls": 5,
+              "triangles": 77314
+            }
+          }
+        },
+        {
+          "label": "north-side",
+          "draws": {
+            "previous": {
+              "calls": 5,
+              "triangles": 77314
+            },
+            "candidate": {
+              "calls": 5,
+              "triangles": 77314
+            }
+          }
+        },
+        {
+          "label": "north-exact",
+          "draws": {
+            "previous": {
+              "calls": 5,
+              "triangles": 77314
+            },
+            "candidate": {
+              "calls": 5,
+              "triangles": 77314
+            }
+          }
+        },
+        {
+          "label": "north-rotated",
+          "draws": {
+            "previous": {
+              "calls": 5,
+              "triangles": 77314
+            },
+            "candidate": {
+              "calls": 5,
+              "triangles": 77314
+            }
+          }
+        },
+        {
+          "label": "south",
+          "draws": {
+            "previous": {
+              "calls": 5,
+              "triangles": 77314
+            },
+            "candidate": {
+              "calls": 5,
+              "triangles": 77314
+            }
+          }
+        },
+        {
+          "label": "rings",
+          "draws": {
+            "previous": {
+              "calls": 5,
+              "triangles": 77314
+            },
+            "candidate": {
+              "calls": 5,
+              "triangles": 77314
+            }
+          }
+        }
+      ],
+      "errors": [],
+      "passed": true
+    },
+    {
+      "name": "Firefox",
+      "engineVersion": "153.0",
+      "geometry": {
+        "dims": {
+          "previous": [
+            4096,
+            2048
+          ],
+          "candidate": [
+            4096,
+            2048
+          ]
+        },
+        "sunElevation": 3.8694769012492896
+      },
+      "views": [
+        {
+          "label": "encounter",
+          "draws": {
+            "previous": {
+              "calls": 5,
+              "triangles": 77314
+            },
+            "candidate": {
+              "calls": 5,
+              "triangles": 77314
+            }
+          }
+        },
+        {
+          "label": "north",
+          "draws": {
+            "previous": {
+              "calls": 5,
+              "triangles": 77314
+            },
+            "candidate": {
+              "calls": 5,
+              "triangles": 77314
+            }
+          }
+        },
+        {
+          "label": "north-detail",
+          "draws": {
+            "previous": {
+              "calls": 5,
+              "triangles": 77314
+            },
+            "candidate": {
+              "calls": 5,
+              "triangles": 77314
+            }
+          }
+        },
+        {
+          "label": "north-side",
+          "draws": {
+            "previous": {
+              "calls": 5,
+              "triangles": 77314
+            },
+            "candidate": {
+              "calls": 5,
+              "triangles": 77314
+            }
+          }
+        },
+        {
+          "label": "north-exact",
+          "draws": {
+            "previous": {
+              "calls": 5,
+              "triangles": 77314
+            },
+            "candidate": {
+              "calls": 5,
+              "triangles": 77314
+            }
+          }
+        },
+        {
+          "label": "north-rotated",
+          "draws": {
+            "previous": {
+              "calls": 5,
+              "triangles": 77314
+            },
+            "candidate": {
+              "calls": 5,
+              "triangles": 77314
+            }
+          }
+        },
+        {
+          "label": "south",
+          "draws": {
+            "previous": {
+              "calls": 5,
+              "triangles": 77314
+            },
+            "candidate": {
+              "calls": 5,
+              "triangles": 77314
+            }
+          }
+        },
+        {
+          "label": "rings",
+          "draws": {
+            "previous": {
+              "calls": 5,
+              "triangles": 77314
+            },
+            "candidate": {
+              "calls": 5,
+              "triangles": 77314
+            }
+          }
+        }
+      ],
+      "errors": [],
+      "passed": true
+    },
+    {
+      "name": "WebKit",
+      "engineVersion": "26.5",
+      "geometry": {
+        "dims": {
+          "previous": [
+            4096,
+            2048
+          ],
+          "candidate": [
+            4096,
+            2048
+          ]
+        },
+        "sunElevation": 3.8694769012492896
+      },
+      "views": [
+        {
+          "label": "encounter",
+          "draws": {
+            "previous": {
+              "calls": 5,
+              "triangles": 77314
+            },
+            "candidate": {
+              "calls": 5,
+              "triangles": 77314
+            }
+          }
+        },
+        {
+          "label": "north",
+          "draws": {
+            "previous": {
+              "calls": 5,
+              "triangles": 77314
+            },
+            "candidate": {
+              "calls": 5,
+              "triangles": 77314
+            }
+          }
+        },
+        {
+          "label": "north-detail",
+          "draws": {
+            "previous": {
+              "calls": 5,
+              "triangles": 77314
+            },
+            "candidate": {
+              "calls": 5,
+              "triangles": 77314
+            }
+          }
+        },
+        {
+          "label": "north-side",
+          "draws": {
+            "previous": {
+              "calls": 5,
+              "triangles": 77314
+            },
+            "candidate": {
+              "calls": 5,
+              "triangles": 77314
+            }
+          }
+        },
+        {
+          "label": "north-exact",
+          "draws": {
+            "previous": {
+              "calls": 5,
+              "triangles": 77314
+            },
+            "candidate": {
+              "calls": 5,
+              "triangles": 77314
+            }
+          }
+        },
+        {
+          "label": "north-rotated",
+          "draws": {
+            "previous": {
+              "calls": 5,
+              "triangles": 77314
+            },
+            "candidate": {
+              "calls": 5,
+              "triangles": 77314
+            }
+          }
+        },
+        {
+          "label": "south",
+          "draws": {
+            "previous": {
+              "calls": 5,
+              "triangles": 77314
+            },
+            "candidate": {
+              "calls": 5,
+              "triangles": 77314
+            }
+          }
+        },
+        {
+          "label": "rings",
+          "draws": {
+            "previous": {
+              "calls": 5,
+              "triangles": 77314
+            },
+            "candidate": {
+              "calls": 5,
+              "triangles": 77314
+            }
+          }
+        }
+      ],
+      "errors": [],
+      "passed": true
+    }
+  ]
+}

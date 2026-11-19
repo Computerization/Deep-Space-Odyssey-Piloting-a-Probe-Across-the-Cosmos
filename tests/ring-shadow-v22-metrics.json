@@ -1,0 +1,29 @@
+[
+  {
+    "view": "encounter",
+    "pixels": 1591,
+    "baseRmse": 0.18153485140581477,
+    "currentRmse": 0.06519960070186927,
+    "baseMae": 0.12115699831158107,
+    "currentMae": 0.037231485931896326,
+    "rmseChangePercent": -64.08425148286383
+  },
+  {
+    "view": "detail",
+    "pixels": 8918,
+    "baseRmse": 0.11825100358434525,
+    "currentRmse": 0.03489052626063301,
+    "baseMae": 0.06775765251155406,
+    "currentMae": 0.01646812571182319,
+    "rmseChangePercent": -70.49451995919296
+  },
+  {
+    "view": "ring-plane",
+    "pixels": 1979,
+    "baseRmse": 0.15398150481948047,
+    "currentRmse": 0.05883805928474425,
+    "baseMae": 0.09923807825302935,
+    "currentMae": 0.03158854244072566,
+    "rmseChangePercent": -61.7888788957331
+  }
+]

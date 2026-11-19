@@ -1,0 +1,71 @@
+{
+  "ui": [
+    {
+      "url": "http://127.0.0.1:4188",
+      "hud": {
+        "mutations": 602,
+        "frames": 43
+      },
+      "pausedDraws": 116,
+      "errors": []
+    },
+    {
+      "url": "http://127.0.0.1:4173",
+      "hud": {
+        "mutations": 0,
+        "frames": 45
+      },
+      "pausedDraws": 0,
+      "errors": []
+    }
+  ],
+  "gpu": {
+    "full": {
+      "medianMs": 24.701666,
+      "p90Ms": 30.404416
+    },
+    "layered": {
+      "medianMs": 22.537458,
+      "p90Ms": 28.193166
+    }
+  },
+  "resolution": [
+    3200,
+    2000
+  ],
+  "cloudPixels": [
+    2400,
+    1500
+  ],
+  "images": [
+    {
+      "fixture": "departure",
+      "meanAbsolute": 1.3002745833333333,
+      "peak": 119,
+      "above8": 457438,
+      "photoMatches": true
+    },
+    {
+      "fixture": "limb",
+      "meanAbsolute": 0.7018603125,
+      "peak": 115,
+      "above8": 191739,
+      "photoMatches": true
+    },
+    {
+      "fixture": "crescent",
+      "meanAbsolute": 0.006821822916666667,
+      "peak": 97,
+      "above8": 2332,
+      "photoMatches": true
+    },
+    {
+      "fixture": "moon-occlusion",
+      "meanAbsolute": 0.5004935416666667,
+      "peak": 117,
+      "above8": 175572,
+      "photoMatches": true
+    }
+  ],
+  "errors": []
+}

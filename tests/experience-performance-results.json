@@ -1,0 +1,213 @@
+{
+  "version": "0.96.0",
+  "worldSha256": "8950fdbb234873c267e68d123256d49a77c8fda33d215917f7bb9ec60b114db3",
+  "sourceURL": "http://127.0.0.1:4173",
+  "viewport": [
+    1600,
+    1000
+  ],
+  "deviceScaleFactor": 2,
+  "readyMs": 4961,
+  "windowSeconds": 6,
+  "method": "Measured from each scene/camera selection, without a warm-up gap. Two rounds include all selected local studies in both views. Frame intervals include first-use stalls; CPU draw time excludes asynchronous GPU execution.",
+  "samples": [
+    {
+      "round": 0,
+      "name": "Earth shadow",
+      "view": "probe",
+      "seconds": 6.01390000000596,
+      "firstFrameMs": 15.800000011920929,
+      "resizes": [],
+      "slowFrames": [],
+      "canvasWrites": 0,
+      "firstDrawCpuMs": {
+        "sky": 0,
+        "world": 0.20000001788139343,
+        "clouds/prefilter": 0.19999998807907104,
+        "output": 0
+      },
+      "frames": 359,
+      "renders": 359,
+      "medianMs": 16.69999998807907,
+      "p95Ms": 17.30000001192093,
+      "maxIntervalMs": 50.5,
+      "maxRenderCpuMs": 1.699999988079071,
+      "over100ms": 0,
+      "simulationSeconds": 6.0165000000000175,
+      "held": false,
+      "ratio": 2,
+      "cloudScale": 1,
+      "pixels": [
+        3200,
+        2000
+      ],
+      "scenePixels": [
+        3200,
+        2000
+      ],
+      "before": {
+        "geometries": 22,
+        "textures": 31,
+        "programs": 24
+      },
+      "after": {
+        "geometries": 22,
+        "textures": 32,
+        "programs": 24
+      },
+      "audioTracks": 1,
+      "scorePlaying": true,
+      "contextLosses": 0
+    },
+    {
+      "round": 0,
+      "name": "Earth shadow",
+      "view": "chase",
+      "seconds": 6.011399999976158,
+      "firstFrameMs": 15.699999988079071,
+      "resizes": [],
+      "slowFrames": [],
+      "canvasWrites": 0,
+      "firstDrawCpuMs": {
+        "reflection": 0.5000000298023224,
+        "clouds/prefilter": 0.5999999940395355,
+        "sky": 0,
+        "world": 0.10000002384185791,
+        "probe": 1.0999999940395355,
+        "output": 0.20000001788139343
+      },
+      "frames": 361,
+      "renders": 361,
+      "medianMs": 16.69999998807907,
+      "p95Ms": 17.599999994039536,
+      "maxIntervalMs": 18.399999976158142,
+      "maxRenderCpuMs": 4.300000011920929,
+      "over100ms": 0,
+      "simulationSeconds": 6.016400000000023,
+      "held": false,
+      "ratio": 2,
+      "cloudScale": 1,
+      "pixels": [
+        3200,
+        2000
+      ],
+      "scenePixels": [
+        3200,
+        2000
+      ],
+      "before": {
+        "geometries": 22,
+        "textures": 32,
+        "programs": 24
+      },
+      "after": {
+        "geometries": 22,
+        "textures": 32,
+        "programs": 24
+      },
+      "audioTracks": 1,
+      "scorePlaying": true,
+      "contextLosses": 0
+    },
+    {
+      "round": 1,
+      "name": "Earth shadow",
+      "view": "probe",
+      "seconds": 6.009899999976158,
+      "firstFrameMs": 10.599999994039536,
+      "resizes": [],
+      "slowFrames": [],
+      "canvasWrites": 0,
+      "firstDrawCpuMs": {
+        "sky": 0.19999998807907104,
+        "world": 0.4000000059604645,
+        "clouds/prefilter": 0.09999999403953552,
+        "output": 0
+      },
+      "frames": 361,
+      "renders": 361,
+      "medianMs": 16.69999998807907,
+      "p95Ms": 17.30000001192093,
+      "maxIntervalMs": 17.80000001192093,
+      "maxRenderCpuMs": 1.5,
+      "over100ms": 0,
+      "simulationSeconds": 6.016500000000024,
+      "held": false,
+      "ratio": 2,
+      "cloudScale": 1,
+      "pixels": [
+        3200,
+        2000
+      ],
+      "scenePixels": [
+        3200,
+        2000
+      ],
+      "before": {
+        "geometries": 22,
+        "textures": 32,
+        "programs": 24
+      },
+      "after": {
+        "geometries": 22,
+        "textures": 32,
+        "programs": 24
+      },
+      "audioTracks": 1,
+      "scorePlaying": true,
+      "contextLosses": 0
+    },
+    {
+      "round": 1,
+      "name": "Earth shadow",
+      "view": "chase",
+      "seconds": 6.006300000011921,
+      "firstFrameMs": 7,
+      "resizes": [],
+      "slowFrames": [],
+      "canvasWrites": 0,
+      "firstDrawCpuMs": {
+        "reflection": 0.4000000059604645,
+        "clouds/prefilter": 0.40000003576278687,
+        "sky": 0,
+        "world": 0.09999999403953552,
+        "probe": 0.19999998807907104,
+        "output": 0
+      },
+      "frames": 361,
+      "renders": 361,
+      "medianMs": 16.69999998807907,
+      "p95Ms": 17.400000005960464,
+      "maxIntervalMs": 17.900000005960464,
+      "maxRenderCpuMs": 1.9000000059604645,
+      "over100ms": 0,
+      "simulationSeconds": 6.016400000000013,
+      "held": false,
+      "ratio": 2,
+      "cloudScale": 1,
+      "pixels": [
+        3200,
+        2000
+      ],
+      "scenePixels": [
+        3200,
+        2000
+      ],
+      "before": {
+        "geometries": 22,
+        "textures": 32,
+        "programs": 24
+      },
+      "after": {
+        "geometries": 22,
+        "textures": 32,
+        "programs": 24
+      },
+      "audioTracks": 1,
+      "scorePlaying": true,
+      "contextLosses": 0
+    }
+  ],
+  "errors": [],
+  "passed": true
+}

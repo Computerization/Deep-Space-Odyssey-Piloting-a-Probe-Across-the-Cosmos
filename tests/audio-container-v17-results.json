@@ -1,0 +1,41 @@
+{
+  "method": "Opus packet copy; original 120-second 48 kHz stereo float PCM matches byte for byte. A 5 ms input timestamp offset corrects the WebM-to-Ogg end granule, giving 120 seconds in browser decoders. FFmpeg includes 24 additional tail frames (0.5 ms).",
+  "tracks": [
+    {
+      "name": "departure",
+      "oldBytes": 1009556,
+      "newBytes": 975701,
+      "originalPcmSha256": "1ca968b7509dc4467a1e6a97c4cb2336f217c734f93b71e9aab0f0aa6bbbf35b",
+      "originalPcmIdentical": true,
+      "additionalTailFrames": 24,
+      "sampleRate": 48000
+    },
+    {
+      "name": "encounter",
+      "oldBytes": 1009678,
+      "newBytes": 975814,
+      "originalPcmSha256": "9b9388a98719e2cb230ff8a85cd77f4101b9adb0d4398f4c8e55a6650e6b10fc",
+      "originalPcmIdentical": true,
+      "additionalTailFrames": 24,
+      "sampleRate": 48000
+    },
+    {
+      "name": "rings",
+      "oldBytes": 1009540,
+      "newBytes": 975686,
+      "originalPcmSha256": "06feee1a4b9b203626d08ddc2b4dc26d5e8bc5ede6a4aa8d97b6f6439ec25011",
+      "originalPcmIdentical": true,
+      "additionalTailFrames": 24,
+      "sampleRate": 48000
+    },
+    {
+      "name": "distance",
+      "oldBytes": 1009548,
+      "newBytes": 975705,
+      "originalPcmSha256": "aec50cd34f4d8bc23654274bb424ab2db70102da602a618d62f0e36bc35047f5",
+      "originalPcmIdentical": true,
+      "additionalTailFrames": 24,
+      "sampleRate": 48000
+    }
+  ]
+}

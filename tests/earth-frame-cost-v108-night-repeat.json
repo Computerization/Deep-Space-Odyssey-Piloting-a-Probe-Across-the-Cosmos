@@ -1,0 +1,46 @@
+{
+  "method": "Chrome/Metal, High, fixed camera/time and warmed resident textures. 20 warm-ups, then 80 ABBA full frames when benchmarking. Sync includes a one-pixel readback; GPU is the complete render timer where available. RGBA8 comparisons include the whole display buffer.",
+  "dpr": 2,
+  "reference": "0.107.0",
+  "candidate": "0.108.0",
+  "records": [
+    {
+      "shot": "night",
+      "samples": 0,
+      "cloudPatch": 1,
+      "pixels": [
+        2560,
+        1600
+      ],
+      "layered": true,
+      "resolved": 0,
+      "changedChannels": 0,
+      "maxError": 0,
+      "reference": {
+        "sync": {
+          "count": 40,
+          "medianMs": 29.5,
+          "p95Ms": 30.200000047683716
+        },
+        "gpu": {
+          "count": 40,
+          "medianMs": 28.529583,
+          "p95Ms": 29.227958
+        }
+      },
+      "candidate": {
+        "sync": {
+          "count": 40,
+          "medianMs": 27.299999952316284,
+          "p95Ms": 28.80000001192093
+        },
+        "gpu": {
+          "count": 40,
+          "medianMs": 26.226458,
+          "p95Ms": 27.480375
+        }
+      }
+    }
+  ],
+  "errors": []
+}

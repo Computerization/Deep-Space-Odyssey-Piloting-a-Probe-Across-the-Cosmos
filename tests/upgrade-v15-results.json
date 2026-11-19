@@ -1,0 +1,11 @@
+{
+  "previous": "0.14.0",
+  "current": "0.15.0",
+  "oldSaveRestored": true,
+  "oldStudyReviewRestored": true,
+  "newStudyWorksOffline": true,
+  "oldCacheRemovedAtActivation": true,
+  "lateStaleCacheIsolated": true,
+  "offlineReload": true,
+  "errors": []
+}

@@ -1,0 +1,14 @@
+{
+  "version": "0.40.0",
+  "file": "Cosmos-Voyager-Demo.zip",
+  "bytes": 17066513,
+  "runtimeBytes": 19963603,
+  "runtimeFiles": 82,
+  "files": 122,
+  "sha256": "22330a14cae4ac14a79af502e4f6e6e56f1752a2735c66718456e2a0813fd62c",
+  "integrity": "all entry hashes verified",
+  "scope": "Editable runtime, launchers, licenses, essential documentation and unit checks. Historical browser QA remains in the workspace.",
+  "previousVersion": "0.39.0",
+  "previousVersionBytes": 17007261,
+  "bytesSavedSincePreviousVersion": -59252
+}

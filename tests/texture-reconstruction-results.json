@@ -1,0 +1,830 @@
+{
+  "cloudShaders": {
+    "byteIdentical": true,
+    "exports": [
+      "cloudFragment",
+      "cloudPremultipliedFragment",
+      "cloudReconstruction",
+      "earthAtmosphereFragment",
+      "earthCloudCompositeFragment",
+      "earthCloudDensity",
+      "earthOptics",
+      "earthTransmittanceFragment"
+    ],
+    "generatedVariants": 4
+  },
+  "version": "0.96.0",
+  "samplingSha256": "16eed6a8bae78dc693cc398befb871c426b7c9f9158f5df0e81a8fd5ed40d895",
+  "outcomes": [
+    {
+      "name": "Chrome",
+      "engineVersion": "158.0.8127.37",
+      "signal": {
+        "rows": [
+          {
+            "label": "magnified",
+            "weight": 1,
+            "maxError": 0.0013710260391235352,
+            "maxDifference": 0.041101813316345215,
+            "boundExcess": 2.7581757211514457e-8,
+            "constantError": 2.7581757211514457e-8,
+            "signalCount": 28160,
+            "linearRmse": 0.006389310382079119,
+            "candidateRmse": 0.0017910057593831519
+          },
+          {
+            "label": "transition",
+            "weight": 0.5214227405247815,
+            "maxError": 0.0009361443167823502,
+            "maxDifference": 0.013685405254364014,
+            "boundExcess": 0,
+            "constantError": 2.7581757211514457e-8,
+            "signalCount": 0,
+            "linearRmse": null,
+            "candidateRmse": null
+          },
+          {
+            "label": "seam",
+            "weight": 1,
+            "maxError": 0.0013710260391235352,
+            "maxDifference": 0.041101813316345215,
+            "boundExcess": 2.7581757211514457e-8,
+            "constantError": 2.7581757211514457e-8,
+            "signalCount": 0,
+            "linearRmse": null,
+            "candidateRmse": null
+          },
+          {
+            "label": "pole",
+            "weight": 1,
+            "maxError": 0.0013710260391235352,
+            "maxDifference": 0.041101813316345215,
+            "boundExcess": 2.7581757211514457e-8,
+            "constantError": 2.7581757211514457e-8,
+            "signalCount": 0,
+            "linearRmse": null,
+            "candidateRmse": null
+          },
+          {
+            "label": "native",
+            "weight": 0,
+            "maxError": 0,
+            "maxDifference": 0,
+            "boundExcess": 0,
+            "constantError": 2.7581757211514457e-8,
+            "signalCount": 0,
+            "linearRmse": null,
+            "candidateRmse": null
+          },
+          {
+            "label": "minified",
+            "weight": 0,
+            "maxError": 0,
+            "maxDifference": 0,
+            "boundExcess": 0,
+            "constantError": 2.7581757211514457e-8,
+            "signalCount": 0,
+            "linearRmse": null,
+            "candidateRmse": null
+          },
+          {
+            "label": "oblique",
+            "weight": 0,
+            "maxError": 0,
+            "maxDifference": 0,
+            "boundExcess": 0,
+            "constantError": 2.7581757211514457e-8,
+            "signalCount": 0,
+            "linearRmse": null,
+            "candidateRmse": null
+          }
+        ],
+        "graphicsError": 0
+      },
+      "views": [
+        {
+          "body": "earth",
+          "fov": 58,
+          "rmse": 0,
+          "max": 0,
+          "changed": 0,
+          "physicalStatePreserved": true,
+          "resources": {
+            "physical": "[[144472000.50022474,-17170673.02702009,39616799.23532744],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[-0.07126279522133337,-0.4435876540231736,-0.04220938256439128,0.8923956382899865],0,104]",
+            "calls": 7,
+            "triangles": 292866,
+            "memory": {
+              "geometries": 22,
+              "textures": 31
+            },
+            "graphicsError": 0
+          }
+        },
+        {
+          "body": "earth",
+          "fov": 4,
+          "rmse": 0,
+          "max": 0,
+          "changed": 0,
+          "physicalStatePreserved": true,
+          "resources": {
+            "physical": "[[144472000.50022474,-17170673.02702009,39616799.23532744],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[-0.07126279522133337,-0.4435876540231736,-0.04220938256439128,0.8923956382899865],0,104]",
+            "calls": 7,
+            "triangles": 292866,
+            "memory": {
+              "geometries": 22,
+              "textures": 32
+            },
+            "graphicsError": 0
+          }
+        },
+        {
+          "body": "moon",
+          "fov": 58,
+          "rmse": 0,
+          "max": 0,
+          "changed": 0,
+          "physicalStatePreserved": true,
+          "resources": {
+            "physical": "[[144588556.59819484,-17044972.0358249,39231631.71297881],[10.237389446305682,3.037423951302473,0.7358442428406566],[0.04112059190077635,0.9850362182276504,0.1659197453720225,-0.02198599093017598],0,104]",
+            "calls": 8,
+            "triangles": 586754,
+            "memory": {
+              "geometries": 22,
+              "textures": 32
+            },
+            "graphicsError": 0
+          }
+        },
+        {
+          "body": "moon",
+          "fov": 4,
+          "rmse": 0.8154723693572856,
+          "max": 8,
+          "changed": 1094992,
+          "physicalStatePreserved": true,
+          "resources": {
+            "physical": "[[144588556.59819484,-17044972.0358249,39231631.71297881],[10.237389446305682,3.037423951302473,0.7358442428406566],[0.04112059190077635,0.9850362182276504,0.1659197453720225,-0.02198599093017598],0,104]",
+            "calls": 4,
+            "triangles": 293890,
+            "memory": {
+              "geometries": 22,
+              "textures": 32
+            },
+            "graphicsError": 0
+          }
+        },
+        {
+          "body": "jupiter",
+          "fov": 58,
+          "rmse": 0,
+          "max": 0,
+          "changed": 0,
+          "physicalStatePreserved": true,
+          "resources": {
+            "physical": "[[-481937398.7984524,257105364.16577104,-572464012.7628912],[-3.221098704697907,7.102789759020862,-32.9551103524788],[0.06576744741113207,0.7477576399500091,-0.03818482407872372,0.659602208886154],0,104]",
+            "calls": 8,
+            "triangles": 152706,
+            "memory": {
+              "geometries": 22,
+              "textures": 33
+            },
+            "graphicsError": 0
+          }
+        },
+        {
+          "body": "jupiter",
+          "fov": 4,
+          "rmse": 0.5340578412286237,
+          "max": 3,
+          "changed": 748819,
+          "physicalStatePreserved": true,
+          "resources": {
+            "physical": "[[-481937398.7984524,257105364.16577104,-572464012.7628912],[-3.221098704697907,7.102789759020862,-32.9551103524788],[0.06576744741113207,0.7477576399500091,-0.03818482407872372,0.659602208886154],0,104]",
+            "calls": 4,
+            "triangles": 73218,
+            "memory": {
+              "geometries": 22,
+              "textures": 33
+            },
+            "graphicsError": 0
+          }
+        },
+        {
+          "body": "io",
+          "fov": 58,
+          "rmse": 0,
+          "max": 0,
+          "changed": 0,
+          "physicalStatePreserved": true,
+          "resources": {
+            "physical": "[[-482091035.14672375,257322853.1147911,-572812418.5907917],[-11.299587487551147,4.316279539280271,-7.612196664355879],[0.037402272241986875,0.923394288065775,0.2040300381754021,0.3229795695098699],0,104]",
+            "calls": 9,
+            "triangles": 225922,
+            "memory": {
+              "geometries": 22,
+              "textures": 33
+            },
+            "graphicsError": 0
+          }
+        },
+        {
+          "body": "io",
+          "fov": 4,
+          "rmse": 0.026267851073127395,
+          "max": 1,
+          "changed": 1863,
+          "physicalStatePreserved": true,
+          "resources": {
+            "physical": "[[-482091035.14672375,257322853.1147911,-572812418.5907917],[-11.299587487551147,4.316279539280271,-7.612196664355879],[0.037402272241986875,0.923394288065775,0.2040300381754021,0.3229795695098699],0,104]",
+            "calls": 4,
+            "triangles": 73218,
+            "memory": {
+              "geometries": 22,
+              "textures": 33
+            },
+            "graphicsError": 0
+          }
+        },
+        {
+          "body": "saturn",
+          "fov": 58,
+          "rmse": 0,
+          "max": 0,
+          "changed": 0,
+          "physicalStatePreserved": true,
+          "resources": {
+            "physical": "[[-1421176444.2564046,31058198.718411293,72694290.02840832],[-13.358976799736949,17.310551686639204,-1.7954174547722381],[-0.04187300771707857,0.9489169842359795,0.15041486041717653,0.274187122270359],0,104]",
+            "calls": 5,
+            "triangles": 77314,
+            "memory": {
+              "geometries": 22,
+              "textures": 33
+            },
+            "graphicsError": 0
+          }
+        },
+        {
+          "body": "saturn",
+          "fov": 4,
+          "rmse": 0.14127724253841897,
+          "max": 1,
+          "changed": 53890,
+          "physicalStatePreserved": true,
+          "resources": {
+            "physical": "[[-1421176444.2564046,31058198.718411293,72694290.02840832],[-13.358976799736949,17.310551686639204,-1.7954174547722381],[-0.04187300771707857,0.9489169842359795,0.15041486041717653,0.274187122270359],0,104]",
+            "calls": 5,
+            "triangles": 77314,
+            "memory": {
+              "geometries": 22,
+              "textures": 33
+            },
+            "graphicsError": 0
+          }
+        }
+      ],
+      "errors": [],
+      "passed": true
+    },
+    {
+      "name": "Firefox",
+      "engineVersion": "153.0",
+      "signal": {
+        "rows": [
+          {
+            "label": "magnified",
+            "weight": 1,
+            "maxError": 0.0013710260391235352,
+            "maxDifference": 0.041101813316345215,
+            "boundExcess": 2.7581757211514457e-8,
+            "constantError": 2.7581757211514457e-8,
+            "signalCount": 28160,
+            "linearRmse": 0.006389310382079119,
+            "candidateRmse": 0.0017910057593831523
+          },
+          {
+            "label": "transition",
+            "weight": 0.5214227405247815,
+            "maxError": 0.0009361443167823502,
+            "maxDifference": 0.013685405254364014,
+            "boundExcess": 0,
+            "constantError": 2.7581757211514457e-8,
+            "signalCount": 0,
+            "linearRmse": null,
+            "candidateRmse": null
+          },
+          {
+            "label": "seam",
+            "weight": 1,
+            "maxError": 0.0013710260391235352,
+            "maxDifference": 0.041101813316345215,
+            "boundExcess": 2.7581757211514457e-8,
+            "constantError": 2.7581757211514457e-8,
+            "signalCount": 0,
+            "linearRmse": null,
+            "candidateRmse": null
+          },
+          {
+            "label": "pole",
+            "weight": 1,
+            "maxError": 0.0013710260391235352,
+            "maxDifference": 0.041101813316345215,
+            "boundExcess": 2.7581757211514457e-8,
+            "constantError": 2.7581757211514457e-8,
+            "signalCount": 0,
+            "linearRmse": null,
+            "candidateRmse": null
+          },
+          {
+            "label": "native",
+            "weight": 0,
+            "maxError": 0,
+            "maxDifference": 0,
+            "boundExcess": 0,
+            "constantError": 2.7581757211514457e-8,
+            "signalCount": 0,
+            "linearRmse": null,
+            "candidateRmse": null
+          },
+          {
+            "label": "minified",
+            "weight": 0,
+            "maxError": 0,
+            "maxDifference": 0,
+            "boundExcess": 0,
+            "constantError": 2.7581757211514457e-8,
+            "signalCount": 0,
+            "linearRmse": null,
+            "candidateRmse": null
+          },
+          {
+            "label": "oblique",
+            "weight": 0,
+            "maxError": 0,
+            "maxDifference": 0,
+            "boundExcess": 0,
+            "constantError": 2.7581757211514457e-8,
+            "signalCount": 0,
+            "linearRmse": null,
+            "candidateRmse": null
+          }
+        ],
+        "graphicsError": 0
+      },
+      "views": [
+        {
+          "body": "earth",
+          "fov": 58,
+          "rmse": 0,
+          "max": 0,
+          "changed": 0,
+          "physicalStatePreserved": true,
+          "resources": {
+            "physical": "[[144472000.50022474,-17170673.02702009,39616799.23532744],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[-0.07126279522133337,-0.4435876540231736,-0.04220938256439128,0.8923956382899865],0,104]",
+            "calls": 7,
+            "triangles": 292866,
+            "memory": {
+              "geometries": 22,
+              "textures": 31
+            },
+            "graphicsError": 0
+          }
+        },
+        {
+          "body": "earth",
+          "fov": 4,
+          "rmse": 0,
+          "max": 0,
+          "changed": 0,
+          "physicalStatePreserved": true,
+          "resources": {
+            "physical": "[[144472000.50022474,-17170673.02702009,39616799.23532744],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[-0.07126279522133337,-0.4435876540231736,-0.04220938256439128,0.8923956382899865],0,104]",
+            "calls": 7,
+            "triangles": 292866,
+            "memory": {
+              "geometries": 22,
+              "textures": 32
+            },
+            "graphicsError": 0
+          }
+        },
+        {
+          "body": "moon",
+          "fov": 58,
+          "rmse": 0,
+          "max": 0,
+          "changed": 0,
+          "physicalStatePreserved": true,
+          "resources": {
+            "physical": "[[144588556.59819484,-17044972.0358249,39231631.71297881],[10.237389446305682,3.037423951302473,0.7358442428406566],[0.04112059190077635,0.9850362182276504,0.1659197453720225,-0.02198599093017598],0,104]",
+            "calls": 8,
+            "triangles": 586754,
+            "memory": {
+              "geometries": 22,
+              "textures": 32
+            },
+            "graphicsError": 0
+          }
+        },
+        {
+          "body": "moon",
+          "fov": 4,
+          "rmse": 0.8234532076476387,
+          "max": 8,
+          "changed": 1104022,
+          "physicalStatePreserved": true,
+          "resources": {
+            "physical": "[[144588556.59819484,-17044972.0358249,39231631.71297881],[10.237389446305682,3.037423951302473,0.7358442428406566],[0.04112059190077635,0.9850362182276504,0.1659197453720225,-0.02198599093017598],0,104]",
+            "calls": 4,
+            "triangles": 293890,
+            "memory": {
+              "geometries": 22,
+              "textures": 32
+            },
+            "graphicsError": 0
+          }
+        },
+        {
+          "body": "jupiter",
+          "fov": 58,
+          "rmse": 0,
+          "max": 0,
+          "changed": 0,
+          "physicalStatePreserved": true,
+          "resources": {
+            "physical": "[[-481937398.7984524,257105364.16577104,-572464012.7628912],[-3.221098704697907,7.102789759020862,-32.9551103524788],[0.06576744741113207,0.7477576399500091,-0.03818482407872372,0.659602208886154],0,104]",
+            "calls": 8,
+            "triangles": 152706,
+            "memory": {
+              "geometries": 22,
+              "textures": 33
+            },
+            "graphicsError": 0
+          }
+        },
+        {
+          "body": "jupiter",
+          "fov": 4,
+          "rmse": 0.5340550672120009,
+          "max": 3,
+          "changed": 748835,
+          "physicalStatePreserved": true,
+          "resources": {
+            "physical": "[[-481937398.7984524,257105364.16577104,-572464012.7628912],[-3.221098704697907,7.102789759020862,-32.9551103524788],[0.06576744741113207,0.7477576399500091,-0.03818482407872372,0.659602208886154],0,104]",
+            "calls": 4,
+            "triangles": 73218,
+            "memory": {
+              "geometries": 22,
+              "textures": 33
+            },
+            "graphicsError": 0
+          }
+        },
+        {
+          "body": "io",
+          "fov": 58,
+          "rmse": 0,
+          "max": 0,
+          "changed": 0,
+          "physicalStatePreserved": true,
+          "resources": {
+            "physical": "[[-482091035.14672375,257322853.1147911,-572812418.5907917],[-11.299587487551147,4.316279539280271,-7.612196664355879],[0.037402272241986875,0.923394288065775,0.2040300381754021,0.3229795695098699],0,104]",
+            "calls": 9,
+            "triangles": 225922,
+            "memory": {
+              "geometries": 22,
+              "textures": 33
+            },
+            "graphicsError": 0
+          }
+        },
+        {
+          "body": "io",
+          "fov": 4,
+          "rmse": 0.02623257799279644,
+          "max": 1,
+          "changed": 1858,
+          "physicalStatePreserved": true,
+          "resources": {
+            "physical": "[[-482091035.14672375,257322853.1147911,-572812418.5907917],[-11.299587487551147,4.316279539280271,-7.612196664355879],[0.037402272241986875,0.923394288065775,0.2040300381754021,0.3229795695098699],0,104]",
+            "calls": 4,
+            "triangles": 73218,
+            "memory": {
+              "geometries": 22,
+              "textures": 33
+            },
+            "graphicsError": 0
+          }
+        },
+        {
+          "body": "saturn",
+          "fov": 58,
+          "rmse": 0,
+          "max": 0,
+          "changed": 0,
+          "physicalStatePreserved": true,
+          "resources": {
+            "physical": "[[-1421176444.2564046,31058198.718411293,72694290.02840832],[-13.358976799736949,17.310551686639204,-1.7954174547722381],[-0.04187300771707857,0.9489169842359795,0.15041486041717653,0.274187122270359],0,104]",
+            "calls": 5,
+            "triangles": 77314,
+            "memory": {
+              "geometries": 22,
+              "textures": 33
+            },
+            "graphicsError": 0
+          }
+        },
+        {
+          "body": "saturn",
+          "fov": 4,
+          "rmse": 0.14141873729905546,
+          "max": 1,
+          "changed": 53998,
+          "physicalStatePreserved": true,
+          "resources": {
+            "physical": "[[-1421176444.2564046,31058198.718411293,72694290.02840832],[-13.358976799736949,17.310551686639204,-1.7954174547722381],[-0.04187300771707857,0.9489169842359795,0.15041486041717653,0.274187122270359],0,104]",
+            "calls": 5,
+            "triangles": 77314,
+            "memory": {
+              "geometries": 22,
+              "textures": 33
+            },
+            "graphicsError": 0
+          }
+        }
+      ],
+      "errors": [],
+      "passed": true
+    },
+    {
+      "name": "WebKit",
+      "engineVersion": "26.5",
+      "signal": {
+        "rows": [
+          {
+            "label": "magnified",
+            "weight": 1,
+            "maxError": 0.0013710260391235352,
+            "maxDifference": 0.041101813316345215,
+            "boundExcess": 2.7581757211514457e-8,
+            "constantError": 2.7581757211514457e-8,
+            "signalCount": 28160,
+            "linearRmse": 0.006389310382079119,
+            "candidateRmse": 0.0017910057593831525
+          },
+          {
+            "label": "transition",
+            "weight": 0.5214227405247815,
+            "maxError": 0.0009361443167823502,
+            "maxDifference": 0.013685405254364014,
+            "boundExcess": 0,
+            "constantError": 2.7581757211514457e-8,
+            "signalCount": 0,
+            "linearRmse": null,
+            "candidateRmse": null
+          },
+          {
+            "label": "seam",
+            "weight": 1,
+            "maxError": 0.0013710260391235352,
+            "maxDifference": 0.041101813316345215,
+            "boundExcess": 2.7581757211514457e-8,
+            "constantError": 2.7581757211514457e-8,
+            "signalCount": 0,
+            "linearRmse": null,
+            "candidateRmse": null
+          },
+          {
+            "label": "pole",
+            "weight": 1,
+            "maxError": 0.0013710260391235352,
+            "maxDifference": 0.041101813316345215,
+            "boundExcess": 2.7581757211514457e-8,
+            "constantError": 2.7581757211514457e-8,
+            "signalCount": 0,
+            "linearRmse": null,
+            "candidateRmse": null
+          },
+          {
+            "label": "native",
+            "weight": 0,
+            "maxError": 0,
+            "maxDifference": 0,
+            "boundExcess": 0,
+            "constantError": 2.7581757211514457e-8,
+            "signalCount": 0,
+            "linearRmse": null,
+            "candidateRmse": null
+          },
+          {
+            "label": "minified",
+            "weight": 0,
+            "maxError": 0,
+            "maxDifference": 0,
+            "boundExcess": 0,
+            "constantError": 2.7581757211514457e-8,
+            "signalCount": 0,
+            "linearRmse": null,
+            "candidateRmse": null
+          },
+          {
+            "label": "oblique",
+            "weight": 0,
+            "maxError": 0,
+            "maxDifference": 0,
+            "boundExcess": 0,
+            "constantError": 2.7581757211514457e-8,
+            "signalCount": 0,
+            "linearRmse": null,
+            "candidateRmse": null
+          }
+        ],
+        "graphicsError": 0
+      },
+      "views": [
+        {
+          "body": "earth",
+          "fov": 58,
+          "rmse": 0,
+          "max": 0,
+          "changed": 0,
+          "physicalStatePreserved": true,
+          "resources": {
+            "physical": "[[144472000.50022474,-17170673.02702009,39616799.23532744],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[-0.07126279522133337,-0.4435876540231736,-0.04220938256439128,0.8923956382899865],0,104]",
+            "calls": 7,
+            "triangles": 292866,
+            "memory": {
+              "geometries": 22,
+              "textures": 31
+            },
+            "graphicsError": 0
+          }
+        },
+        {
+          "body": "earth",
+          "fov": 4,
+          "rmse": 0,
+          "max": 0,
+          "changed": 0,
+          "physicalStatePreserved": true,
+          "resources": {
+            "physical": "[[144472000.50022474,-17170673.02702009,39616799.23532744],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[-0.07126279522133337,-0.4435876540231736,-0.04220938256439128,0.8923956382899865],0,104]",
+            "calls": 7,
+            "triangles": 292866,
+            "memory": {
+              "geometries": 22,
+              "textures": 32
+            },
+            "graphicsError": 0
+          }
+        },
+        {
+          "body": "moon",
+          "fov": 58,
+          "rmse": 0,
+          "max": 0,
+          "changed": 0,
+          "physicalStatePreserved": true,
+          "resources": {
+            "physical": "[[144588556.59819484,-17044972.0358249,39231631.71297881],[10.237389446305682,3.037423951302473,0.7358442428406566],[0.04112059190077635,0.9850362182276504,0.1659197453720225,-0.02198599093017598],0,104]",
+            "calls": 8,
+            "triangles": 586754,
+            "memory": {
+              "geometries": 22,
+              "textures": 32
+            },
+            "graphicsError": 0
+          }
+        },
+        {
+          "body": "moon",
+          "fov": 4,
+          "rmse": 0.8154723693572856,
+          "max": 8,
+          "changed": 1094992,
+          "physicalStatePreserved": true,
+          "resources": {
+            "physical": "[[144588556.59819484,-17044972.0358249,39231631.71297881],[10.237389446305682,3.037423951302473,0.7358442428406566],[0.04112059190077635,0.9850362182276504,0.1659197453720225,-0.02198599093017598],0,104]",
+            "calls": 4,
+            "triangles": 293890,
+            "memory": {
+              "geometries": 22,
+              "textures": 32
+            },
+            "graphicsError": 0
+          }
+        },
+        {
+          "body": "jupiter",
+          "fov": 58,
+          "rmse": 0,
+          "max": 0,
+          "changed": 0,
+          "physicalStatePreserved": true,
+          "resources": {
+            "physical": "[[-481937398.7984524,257105364.16577104,-572464012.7628912],[-3.221098704697907,7.102789759020862,-32.9551103524788],[0.06576744741113207,0.7477576399500091,-0.03818482407872372,0.659602208886154],0,104]",
+            "calls": 8,
+            "triangles": 152706,
+            "memory": {
+              "geometries": 22,
+              "textures": 33
+            },
+            "graphicsError": 0
+          }
+        },
+        {
+          "body": "jupiter",
+          "fov": 4,
+          "rmse": 0.5346275962449625,
+          "max": 3,
+          "changed": 750333,
+          "physicalStatePreserved": true,
+          "resources": {
+            "physical": "[[-481937398.7984524,257105364.16577104,-572464012.7628912],[-3.221098704697907,7.102789759020862,-32.9551103524788],[0.06576744741113207,0.7477576399500091,-0.03818482407872372,0.659602208886154],0,104]",
+            "calls": 4,
+            "triangles": 73218,
+            "memory": {
+              "geometries": 22,
+              "textures": 33
+            },
+            "graphicsError": 0
+          }
+        },
+        {
+          "body": "io",
+          "fov": 58,
+          "rmse": 0,
+          "max": 0,
+          "changed": 0,
+          "physicalStatePreserved": true,
+          "resources": {
+            "physical": "[[-482091035.14672375,257322853.1147911,-572812418.5907917],[-11.299587487551147,4.316279539280271,-7.612196664355879],[0.037402272241986875,0.923394288065775,0.2040300381754021,0.3229795695098699],0,104]",
+            "calls": 9,
+            "triangles": 225922,
+            "memory": {
+              "geometries": 22,
+              "textures": 33
+            },
+            "graphicsError": 0
+          }
+        },
+        {
+          "body": "io",
+          "fov": 4,
+          "rmse": 0.026267851073127395,
+          "max": 1,
+          "changed": 1863,
+          "physicalStatePreserved": true,
+          "resources": {
+            "physical": "[[-482091035.14672375,257322853.1147911,-572812418.5907917],[-11.299587487551147,4.316279539280271,-7.612196664355879],[0.037402272241986875,0.923394288065775,0.2040300381754021,0.3229795695098699],0,104]",
+            "calls": 4,
+            "triangles": 73218,
+            "memory": {
+              "geometries": 22,
+              "textures": 33
+            },
+            "graphicsError": 0
+          }
+        },
+        {
+          "body": "saturn",
+          "fov": 58,
+          "rmse": 0,
+          "max": 0,
+          "changed": 0,
+          "physicalStatePreserved": true,
+          "resources": {
+            "physical": "[[-1421176444.2564046,31058198.718411293,72694290.02840832],[-13.358976799736949,17.310551686639204,-1.7954174547722381],[-0.04187300771707857,0.9489169842359795,0.15041486041717653,0.274187122270359],0,104]",
+            "calls": 5,
+            "triangles": 77314,
+            "memory": {
+              "geometries": 22,
+              "textures": 33
+            },
+            "graphicsError": 0
+          }
+        },
+        {
+          "body": "saturn",
+          "fov": 4,
+          "rmse": 0.14037252026106978,
+          "max": 1,
+          "changed": 53202,
+          "physicalStatePreserved": true,
+          "resources": {
+            "physical": "[[-1421176444.2564046,31058198.718411293,72694290.02840832],[-13.358976799736949,17.310551686639204,-1.7954174547722381],[-0.04187300771707857,0.9489169842359795,0.15041486041717653,0.274187122270359],0,104]",
+            "calls": 5,
+            "triangles": 77314,
+            "memory": {
+              "geometries": 22,
+              "textures": 33
+            },
+            "graphicsError": 0
+          }
+        }
+      ],
+      "errors": [],
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,3851 @@
+{
+  "version": "0.37.0",
+  "outcomes": [
+    {
+      "name": "Chrome",
+      "engineVersion": "158.0.8127.37",
+      "layouts": [
+        {
+          "width": 1440,
+          "height": 900,
+          "label": "earth",
+          "buttons": [
+            {
+              "id": "view-button",
+              "left": 1072.171875,
+              "right": 1175.734375,
+              "top": 29,
+              "bottom": 73,
+              "width": 103.5625,
+              "height": 44,
+              "font": 17
+            },
+            {
+              "id": "map-button",
+              "left": 1195.734375,
+              "right": 1254.40625,
+              "top": 29,
+              "bottom": 73,
+              "width": 58.671875,
+              "height": 44,
+              "font": 17
+            },
+            {
+              "id": "controls-button",
+              "left": 1274.40625,
+              "right": 1318.40625,
+              "top": 28,
+              "bottom": 74,
+              "width": 44,
+              "height": 46,
+              "font": 22
+            },
+            {
+              "id": "pause-button",
+              "left": 1338.40625,
+              "right": 1382.40625,
+              "top": 29,
+              "bottom": 73,
+              "width": 44,
+              "height": 44,
+              "font": 17
+            },
+            {
+              "id": "slower-time",
+              "left": 174.125,
+              "right": 218.125,
+              "top": 794,
+              "bottom": 838,
+              "width": 44,
+              "height": 44,
+              "font": 21
+            },
+            {
+              "id": "time-toggle",
+              "left": 218.125,
+              "right": 282.125,
+              "top": 794,
+              "bottom": 838,
+              "width": 64,
+              "height": 44,
+              "font": 21
+            },
+            {
+              "id": "faster-time",
+              "left": 282.125,
+              "right": 326.125,
+              "top": 794,
+              "bottom": 838,
+              "width": 44,
+              "height": 44,
+              "font": 21
+            },
+            {
+              "id": "photo-button",
+              "left": 57.59375,
+              "right": 251.59375,
+              "top": 654.40625,
+              "bottom": 699,
+              "width": 194,
+              "height": 44.59375,
+              "font": 22
+            },
+            {
+              "id": "depart",
+              "left": 57.59375,
+              "right": 257.859375,
+              "top": 701,
+              "bottom": 745,
+              "width": 200.265625,
+              "height": 44,
+              "font": 18
+            },
+            {
+              "id": "review-button",
+              "left": 1228.34375,
+              "right": 1307.359375,
+              "top": 831,
+              "bottom": 875,
+              "width": 79.015625,
+              "height": 44,
+              "font": 16
+            },
+            {
+              "id": "log-button",
+              "left": 1335.359375,
+              "right": 1382.40625,
+              "top": 831,
+              "bottom": 875,
+              "width": 47.046875,
+              "height": 44,
+              "font": 16
+            }
+          ],
+          "boxes": {
+            ".chapter-heading": {
+              "left": 57.59375,
+              "right": 351.125,
+              "top": 28,
+              "bottom": 83.390625,
+              "width": 293.53125,
+              "height": 55.390625
+            },
+            ".flight-nav": {
+              "left": 1072.171875,
+              "right": 1382.40625,
+              "top": 28,
+              "bottom": 74,
+              "width": 310.234375,
+              "height": 46
+            },
+            ".telemetry": {
+              "left": 57.59375,
+              "right": 347.125,
+              "top": 804,
+              "bottom": 875,
+              "width": 289.53125,
+              "height": 71
+            },
+            ".log-shortcut": {
+              "left": 1228.34375,
+              "right": 1382.40625,
+              "top": 831,
+              "bottom": 875,
+              "width": 154.0625,
+              "height": 44
+            },
+            ".objective": {
+              "left": 57.59375,
+              "right": 417.59375,
+              "top": 550.609375,
+              "bottom": 745,
+              "width": 360,
+              "height": 194.390625
+            },
+            "#cruise-scale": null,
+            "#flight-hint": {
+              "left": 557.90625,
+              "right": 882.09375,
+              "top": 783,
+              "bottom": 800,
+              "width": 324.1875,
+              "height": 17
+            }
+          },
+          "bearing": {
+            "left": 235.3125,
+            "right": 319.921875,
+            "top": 431.5,
+            "bottom": 468.5,
+            "width": 84.609375,
+            "height": 37
+          },
+          "readingVisible": true,
+          "captionVisible": true,
+          "readingArea": 69980.625,
+          "captionFont": 17,
+          "photo": {
+            "left": 57.59375,
+            "right": 251.59375,
+            "top": 654.40625,
+            "bottom": 699,
+            "width": 194,
+            "height": 44.59375
+          },
+          "caption": "Sunlit oceans, a thin atmosphere, and the world Voyager left behind."
+        },
+        {
+          "width": 1440,
+          "height": 900,
+          "label": "science",
+          "buttons": [
+            {
+              "id": "view-button",
+              "left": 1072.171875,
+              "right": 1175.734375,
+              "top": 29,
+              "bottom": 73,
+              "width": 103.5625,
+              "height": 44,
+              "font": 17
+            },
+            {
+              "id": "map-button",
+              "left": 1195.734375,
+              "right": 1254.40625,
+              "top": 29,
+              "bottom": 73,
+              "width": 58.671875,
+              "height": 44,
+              "font": 17
+            },
+            {
+              "id": "controls-button",
+              "left": 1274.40625,
+              "right": 1318.40625,
+              "top": 28,
+              "bottom": 74,
+              "width": 44,
+              "height": 46,
+              "font": 22
+            },
+            {
+              "id": "pause-button",
+              "left": 1338.40625,
+              "right": 1382.40625,
+              "top": 29,
+              "bottom": 73,
+              "width": 44,
+              "height": 44,
+              "font": 17
+            },
+            {
+              "id": "slower-time",
+              "left": 174.125,
+              "right": 218.125,
+              "top": 794,
+              "bottom": 838,
+              "width": 44,
+              "height": 44,
+              "font": 21
+            },
+            {
+              "id": "time-toggle",
+              "left": 218.125,
+              "right": 282.125,
+              "top": 794,
+              "bottom": 838,
+              "width": 64,
+              "height": 44,
+              "font": 21
+            },
+            {
+              "id": "faster-time",
+              "left": 282.125,
+              "right": 326.125,
+              "top": 794,
+              "bottom": 838,
+              "width": 44,
+              "height": 44,
+              "font": 21
+            },
+            {
+              "id": "photo-button",
+              "left": 57.59375,
+              "right": 251.59375,
+              "top": 654.40625,
+              "bottom": 699,
+              "width": 194,
+              "height": 44.59375,
+              "font": 22
+            },
+            {
+              "id": "depart",
+              "left": 57.59375,
+              "right": 257.859375,
+              "top": 701,
+              "bottom": 745,
+              "width": 200.265625,
+              "height": 44,
+              "font": 18
+            },
+            {
+              "id": "review-button",
+              "left": 1228.34375,
+              "right": 1307.359375,
+              "top": 831,
+              "bottom": 875,
+              "width": 79.015625,
+              "height": 44,
+              "font": 16
+            },
+            {
+              "id": "log-button",
+              "left": 1335.359375,
+              "right": 1382.40625,
+              "top": 831,
+              "bottom": 875,
+              "width": 47.046875,
+              "height": 44,
+              "font": 16
+            }
+          ],
+          "boxes": {
+            ".chapter-heading": {
+              "left": 57.59375,
+              "right": 351.125,
+              "top": 28,
+              "bottom": 83.390625,
+              "width": 293.53125,
+              "height": 55.390625
+            },
+            ".flight-nav": {
+              "left": 1072.171875,
+              "right": 1382.40625,
+              "top": 28,
+              "bottom": 74,
+              "width": 310.234375,
+              "height": 46
+            },
+            ".telemetry": {
+              "left": 57.59375,
+              "right": 347.125,
+              "top": 804,
+              "bottom": 875,
+              "width": 289.53125,
+              "height": 71
+            },
+            ".log-shortcut": {
+              "left": 1228.34375,
+              "right": 1382.40625,
+              "top": 831,
+              "bottom": 875,
+              "width": 154.0625,
+              "height": 44
+            },
+            ".objective": {
+              "left": 57.59375,
+              "right": 417.59375,
+              "top": 525.109375,
+              "bottom": 745,
+              "width": 360,
+              "height": 219.890625
+            },
+            "#cruise-scale": null,
+            "#flight-hint": null
+          },
+          "bearing": {
+            "left": 235.3125,
+            "right": 319.921875,
+            "top": 431.5,
+            "bottom": 468.5,
+            "width": 84.609375,
+            "height": 37
+          },
+          "readingVisible": true,
+          "captionVisible": true,
+          "readingArea": 79160.625,
+          "captionFont": 17,
+          "photo": {
+            "left": 57.59375,
+            "right": 251.59375,
+            "top": 654.40625,
+            "bottom": 699,
+            "width": 194,
+            "height": 44.59375
+          },
+          "caption": "The blue rim is sunlight scattered by Earth’s atmosphere. Almost all of the air we breathe lies in a layer remarkably thin beside the planet."
+        },
+        {
+          "width": 1440,
+          "height": 900,
+          "label": "quiet",
+          "buttons": [
+            {
+              "id": "view-button",
+              "left": 1072.171875,
+              "right": 1175.734375,
+              "top": 29,
+              "bottom": 73,
+              "width": 103.5625,
+              "height": 44,
+              "font": 17
+            },
+            {
+              "id": "map-button",
+              "left": 1195.734375,
+              "right": 1254.40625,
+              "top": 29,
+              "bottom": 73,
+              "width": 58.671875,
+              "height": 44,
+              "font": 17
+            },
+            {
+              "id": "controls-button",
+              "left": 1274.40625,
+              "right": 1318.40625,
+              "top": 28,
+              "bottom": 74,
+              "width": 44,
+              "height": 46,
+              "font": 22
+            },
+            {
+              "id": "pause-button",
+              "left": 1338.40625,
+              "right": 1382.40625,
+              "top": 29,
+              "bottom": 73,
+              "width": 44,
+              "height": 44,
+              "font": 17
+            },
+            {
+              "id": "slower-time",
+              "left": 174.125,
+              "right": 218.125,
+              "top": 794,
+              "bottom": 838,
+              "width": 44,
+              "height": 44,
+              "font": 21
+            },
+            {
+              "id": "time-toggle",
+              "left": 218.125,
+              "right": 282.125,
+              "top": 794,
+              "bottom": 838,
+              "width": 64,
+              "height": 44,
+              "font": 21
+            },
+            {
+              "id": "faster-time",
+              "left": 282.125,
+              "right": 326.125,
+              "top": 794,
+              "bottom": 838,
+              "width": 44,
+              "height": 44,
+              "font": 21
+            },
+            {
+              "id": "photo-button",
+              "left": 57.59375,
+              "right": 251.59375,
+              "top": 654.40625,
+              "bottom": 699,
+              "width": 194,
+              "height": 44.59375,
+              "font": 22
+            },
+            {
+              "id": "depart",
+              "left": 57.59375,
+              "right": 257.859375,
+              "top": 701,
+              "bottom": 745,
+              "width": 200.265625,
+              "height": 44,
+              "font": 18
+            },
+            {
+              "id": "review-button",
+              "left": 1228.34375,
+              "right": 1307.359375,
+              "top": 831,
+              "bottom": 875,
+              "width": 79.015625,
+              "height": 44,
+              "font": 16
+            },
+            {
+              "id": "log-button",
+              "left": 1335.359375,
+              "right": 1382.40625,
+              "top": 831,
+              "bottom": 875,
+              "width": 47.046875,
+              "height": 44,
+              "font": 16
+            }
+          ],
+          "boxes": {
+            ".chapter-heading": {
+              "left": 57.59375,
+              "right": 351.125,
+              "top": 28,
+              "bottom": 83.390625,
+              "width": 293.53125,
+              "height": 55.390625
+            },
+            ".flight-nav": {
+              "left": 1072.171875,
+              "right": 1382.40625,
+              "top": 28,
+              "bottom": 74,
+              "width": 310.234375,
+              "height": 46
+            },
+            ".telemetry": {
+              "left": 57.59375,
+              "right": 347.125,
+              "top": 804,
+              "bottom": 875,
+              "width": 289.53125,
+              "height": 71
+            },
+            ".log-shortcut": {
+              "left": 1228.34375,
+              "right": 1382.40625,
+              "top": 831,
+              "bottom": 875,
+              "width": 154.0625,
+              "height": 44
+            },
+            ".objective": {
+              "left": 57.59375,
+              "right": 417.59375,
+              "top": 640.40625,
+              "bottom": 745,
+              "width": 360,
+              "height": 104.59375
+            },
+            "#cruise-scale": null,
+            "#flight-hint": null
+          },
+          "bearing": {
+            "left": 235.3125,
+            "right": 319.921875,
+            "top": 431.5,
+            "bottom": 468.5,
+            "width": 84.609375,
+            "height": 37
+          },
+          "readingVisible": true,
+          "captionVisible": false,
+          "readingArea": 37653.75,
+          "captionFont": 17,
+          "photo": {
+            "left": 57.59375,
+            "right": 251.59375,
+            "top": 654.40625,
+            "bottom": 699,
+            "width": 194,
+            "height": 44.59375
+          },
+          "caption": ""
+        },
+        {
+          "width": 1440,
+          "height": 900,
+          "label": "saturn",
+          "buttons": [
+            {
+              "id": "view-button",
+              "left": 1072.171875,
+              "right": 1175.734375,
+              "top": 29,
+              "bottom": 73,
+              "width": 103.5625,
+              "height": 44,
+              "font": 17
+            },
+            {
+              "id": "map-button",
+              "left": 1195.734375,
+              "right": 1254.40625,
+              "top": 29,
+              "bottom": 73,
+              "width": 58.671875,
+              "height": 44,
+              "font": 17
+            },
+            {
+              "id": "controls-button",
+              "left": 1274.40625,
+              "right": 1318.40625,
+              "top": 28,
+              "bottom": 74,
+              "width": 44,
+              "height": 46,
+              "font": 22
+            },
+            {
+              "id": "pause-button",
+              "left": 1338.40625,
+              "right": 1382.40625,
+              "top": 29,
+              "bottom": 73,
+              "width": 44,
+              "height": 44,
+              "font": 17
+            },
+            {
+              "id": "slower-time",
+              "left": 180.46875,
+              "right": 224.46875,
+              "top": 794,
+              "bottom": 838,
+              "width": 44,
+              "height": 44,
+              "font": 21
+            },
+            {
+              "id": "time-toggle",
+              "left": 224.46875,
+              "right": 288.46875,
+              "top": 794,
+              "bottom": 838,
+              "width": 64,
+              "height": 44,
+              "font": 21
+            },
+            {
+              "id": "faster-time",
+              "left": 288.46875,
+              "right": 332.46875,
+              "top": 794,
+              "bottom": 838,
+              "width": 44,
+              "height": 44,
+              "font": 21
+            },
+            {
+              "id": "photo-button",
+              "left": 57.59375,
+              "right": 251.59375,
+              "top": 654.40625,
+              "bottom": 699,
+              "width": 194,
+              "height": 44.59375,
+              "font": 22
+            },
+            {
+              "id": "depart",
+              "left": 57.59375,
+              "right": 298.765625,
+              "top": 701,
+              "bottom": 745,
+              "width": 241.171875,
+              "height": 44,
+              "font": 18
+            },
+            {
+              "id": "review-button",
+              "left": 1228.34375,
+              "right": 1307.359375,
+              "top": 831,
+              "bottom": 875,
+              "width": 79.015625,
+              "height": 44,
+              "font": 16
+            },
+            {
+              "id": "log-button",
+              "left": 1335.359375,
+              "right": 1382.40625,
+              "top": 831,
+              "bottom": 875,
+              "width": 47.046875,
+              "height": 44,
+              "font": 16
+            }
+          ],
+          "boxes": {
+            ".chapter-heading": {
+              "left": 57.59375,
+              "right": 280.46875,
+              "top": 28,
+              "bottom": 83.390625,
+              "width": 222.875,
+              "height": 55.390625
+            },
+            ".flight-nav": {
+              "left": 1072.171875,
+              "right": 1382.40625,
+              "top": 28,
+              "bottom": 74,
+              "width": 310.234375,
+              "height": 46
+            },
+            ".telemetry": {
+              "left": 57.59375,
+              "right": 353.46875,
+              "top": 804,
+              "bottom": 875,
+              "width": 295.875,
+              "height": 71
+            },
+            ".log-shortcut": {
+              "left": 1228.34375,
+              "right": 1382.40625,
+              "top": 831,
+              "bottom": 875,
+              "width": 154.0625,
+              "height": 44
+            },
+            ".objective": {
+              "left": 57.59375,
+              "right": 417.59375,
+              "top": 576.109375,
+              "bottom": 745,
+              "width": 360,
+              "height": 168.890625
+            },
+            "#cruise-scale": null,
+            "#flight-hint": {
+              "left": 557.90625,
+              "right": 882.09375,
+              "top": 783,
+              "bottom": 800,
+              "width": 324.1875,
+              "height": 17
+            }
+          },
+          "bearing": {
+            "left": 1176.125,
+            "right": 1267.53125,
+            "top": 431.5,
+            "bottom": 468.5,
+            "width": 91.40625,
+            "height": 37
+          },
+          "readingVisible": true,
+          "captionVisible": true,
+          "readingArea": 60800.625,
+          "captionFont": 17,
+          "photo": {
+            "left": 57.59375,
+            "right": 251.59375,
+            "top": 654.40625,
+            "bottom": 699,
+            "width": 194,
+            "height": 44.59375
+          },
+          "caption": "A plane of ice, its shadow, and Titan beyond the rings."
+        },
+        {
+          "width": 1440,
+          "height": 900,
+          "label": "titan",
+          "buttons": [
+            {
+              "id": "view-button",
+              "left": 1072.171875,
+              "right": 1175.734375,
+              "top": 29,
+              "bottom": 73,
+              "width": 103.5625,
+              "height": 44,
+              "font": 17
+            },
+            {
+              "id": "map-button",
+              "left": 1195.734375,
+              "right": 1254.40625,
+              "top": 29,
+              "bottom": 73,
+              "width": 58.671875,
+              "height": 44,
+              "font": 17
+            },
+            {
+              "id": "controls-button",
+              "left": 1274.40625,
+              "right": 1318.40625,
+              "top": 28,
+              "bottom": 74,
+              "width": 44,
+              "height": 46,
+              "font": 22
+            },
+            {
+              "id": "pause-button",
+              "left": 1338.40625,
+              "right": 1382.40625,
+              "top": 29,
+              "bottom": 73,
+              "width": 44,
+              "height": 44,
+              "font": 17
+            },
+            {
+              "id": "slower-time",
+              "left": 172.28125,
+              "right": 216.28125,
+              "top": 794,
+              "bottom": 838,
+              "width": 44,
+              "height": 44,
+              "font": 21
+            },
+            {
+              "id": "time-toggle",
+              "left": 216.28125,
+              "right": 280.28125,
+              "top": 794,
+              "bottom": 838,
+              "width": 64,
+              "height": 44,
+              "font": 21
+            },
+            {
+              "id": "faster-time",
+              "left": 280.28125,
+              "right": 324.28125,
+              "top": 794,
+              "bottom": 838,
+              "width": 44,
+              "height": 44,
+              "font": 21
+            },
+            {
+              "id": "photo-button",
+              "left": 57.59375,
+              "right": 251.59375,
+              "top": 654.40625,
+              "bottom": 699,
+              "width": 194,
+              "height": 44.59375,
+              "font": 22
+            },
+            {
+              "id": "depart",
+              "left": 57.59375,
+              "right": 298.765625,
+              "top": 701,
+              "bottom": 745,
+              "width": 241.171875,
+              "height": 44,
+              "font": 18
+            },
+            {
+              "id": "review-button",
+              "left": 1228.34375,
+              "right": 1307.359375,
+              "top": 831,
+              "bottom": 875,
+              "width": 79.015625,
+              "height": 44,
+              "font": 16
+            },
+            {
+              "id": "log-button",
+              "left": 1335.359375,
+              "right": 1382.40625,
+              "top": 831,
+              "bottom": 875,
+              "width": 47.046875,
+              "height": 44,
+              "font": 16
+            }
+          ],
+          "boxes": {
+            ".chapter-heading": {
+              "left": 57.59375,
+              "right": 383.03125,
+              "top": 28,
+              "bottom": 83.390625,
+              "width": 325.4375,
+              "height": 55.390625
+            },
+            ".flight-nav": {
+              "left": 1072.171875,
+              "right": 1382.40625,
+              "top": 28,
+              "bottom": 74,
+              "width": 310.234375,
+              "height": 46
+            },
+            ".telemetry": {
+              "left": 57.59375,
+              "right": 345.28125,
+              "top": 804,
+              "bottom": 875,
+              "width": 287.6875,
+              "height": 71
+            },
+            ".log-shortcut": {
+              "left": 1228.34375,
+              "right": 1382.40625,
+              "top": 831,
+              "bottom": 875,
+              "width": 154.0625,
+              "height": 44
+            },
+            ".objective": {
+              "left": 57.59375,
+              "right": 417.59375,
+              "top": 589.40625,
+              "bottom": 745,
+              "width": 360,
+              "height": 155.59375
+            },
+            "#cruise-scale": null,
+            "#flight-hint": {
+              "left": 557.90625,
+              "right": 882.09375,
+              "top": 783,
+              "bottom": 800,
+              "width": 324.1875,
+              "height": 17
+            }
+          },
+          "bearing": {
+            "left": 954.609375,
+            "right": 1037.234375,
+            "top": 431.5,
+            "bottom": 468.5,
+            "width": 82.625,
+            "height": 37
+          },
+          "readingVisible": true,
+          "captionVisible": true,
+          "readingArea": 56013.75,
+          "captionFont": 17,
+          "photo": {
+            "left": 57.59375,
+            "right": 251.59375,
+            "top": 654.40625,
+            "bottom": 699,
+            "width": 194,
+            "height": 44.59375
+          },
+          "caption": "Follow sunlight through the edge of Titan’s atmosphere."
+        },
+        {
+          "width": 1440,
+          "height": 900,
+          "label": "passage",
+          "buttons": [
+            {
+              "id": "view-button",
+              "left": 1072.171875,
+              "right": 1175.734375,
+              "top": 29,
+              "bottom": 73,
+              "width": 103.5625,
+              "height": 44,
+              "font": 17
+            },
+            {
+              "id": "map-button",
+              "left": 1195.734375,
+              "right": 1254.40625,
+              "top": 29,
+              "bottom": 73,
+              "width": 58.671875,
+              "height": 44,
+              "font": 17
+            },
+            {
+              "id": "controls-button",
+              "left": 1274.40625,
+              "right": 1318.40625,
+              "top": 28,
+              "bottom": 74,
+              "width": 44,
+              "height": 46,
+              "font": 22
+            },
+            {
+              "id": "pause-button",
+              "left": 1338.40625,
+              "right": 1382.40625,
+              "top": 29,
+              "bottom": 73,
+              "width": 44,
+              "height": 44,
+              "font": 17
+            },
+            {
+              "id": "slower-time",
+              "left": 165.03125,
+              "right": 209.03125,
+              "top": 794,
+              "bottom": 838,
+              "width": 44,
+              "height": 44,
+              "font": 21
+            },
+            {
+              "id": "time-toggle",
+              "left": 209.03125,
+              "right": 273.03125,
+              "top": 794,
+              "bottom": 838,
+              "width": 64,
+              "height": 44,
+              "font": 21
+            },
+            {
+              "id": "faster-time",
+              "left": 273.03125,
+              "right": 317.03125,
+              "top": 794,
+              "bottom": 838,
+              "width": 44,
+              "height": 44,
+              "font": 21
+            },
+            {
+              "id": "photo-button",
+              "left": 57.59375,
+              "right": 251.59375,
+              "top": 700.40625,
+              "bottom": 745,
+              "width": 194,
+              "height": 44.59375,
+              "font": 22
+            },
+            {
+              "id": "log-button",
+              "left": 1335.359375,
+              "right": 1382.40625,
+              "top": 831,
+              "bottom": 875,
+              "width": 47.046875,
+              "height": 44,
+              "font": 16
+            }
+          ],
+          "boxes": {
+            ".chapter-heading": {
+              "left": 57.59375,
+              "right": 236.515625,
+              "top": 28,
+              "bottom": 83.390625,
+              "width": 178.921875,
+              "height": 55.390625
+            },
+            ".flight-nav": {
+              "left": 1072.171875,
+              "right": 1382.40625,
+              "top": 28,
+              "bottom": 74,
+              "width": 310.234375,
+              "height": 46
+            },
+            ".telemetry": {
+              "left": 57.59375,
+              "right": 338.03125,
+              "top": 804,
+              "bottom": 875,
+              "width": 280.4375,
+              "height": 71
+            },
+            ".log-shortcut": {
+              "left": 1335.359375,
+              "right": 1382.40625,
+              "top": 831,
+              "bottom": 875,
+              "width": 47.046875,
+              "height": 44
+            },
+            ".objective": {
+              "left": 57.59375,
+              "right": 417.59375,
+              "top": 596.609375,
+              "bottom": 745,
+              "width": 360,
+              "height": 148.390625
+            },
+            "#cruise-scale": {
+              "left": 604.796875,
+              "right": 1353.609375,
+              "top": 680.5,
+              "bottom": 755,
+              "width": 748.8125,
+              "height": 74.5
+            },
+            "#flight-hint": null
+          },
+          "bearing": {
+            "left": 468.015625,
+            "right": 575.21875,
+            "top": 130,
+            "bottom": 167,
+            "width": 107.203125,
+            "height": 37
+          },
+          "readingVisible": true,
+          "captionVisible": true,
+          "readingArea": 53420.625,
+          "captionFont": 17,
+          "photo": {
+            "left": 57.59375,
+            "right": 251.59375,
+            "top": 700.40625,
+            "bottom": 745,
+            "width": 194,
+            "height": 44.59375
+          },
+          "caption": "2.8 years since departure. Time is held. Look around, or resume when ready."
+        },
+        {
+          "width": 1440,
+          "height": 900,
+          "label": "lightday",
+          "buttons": [
+            {
+              "id": "view-button",
+              "left": 1072.171875,
+              "right": 1175.734375,
+              "top": 29,
+              "bottom": 73,
+              "width": 103.5625,
+              "height": 44,
+              "font": 17
+            },
+            {
+              "id": "map-button",
+              "left": 1195.734375,
+              "right": 1254.40625,
+              "top": 29,
+              "bottom": 73,
+              "width": 58.671875,
+              "height": 44,
+              "font": 17
+            },
+            {
+              "id": "controls-button",
+              "left": 1274.40625,
+              "right": 1318.40625,
+              "top": 28,
+              "bottom": 74,
+              "width": 44,
+              "height": 46,
+              "font": 22
+            },
+            {
+              "id": "pause-button",
+              "left": 1338.40625,
+              "right": 1382.40625,
+              "top": 29,
+              "bottom": 73,
+              "width": 44,
+              "height": 44,
+              "font": 17
+            },
+            {
+              "id": "slower-time",
+              "left": 165.03125,
+              "right": 209.03125,
+              "top": 794,
+              "bottom": 838,
+              "width": 44,
+              "height": 44,
+              "font": 21
+            },
+            {
+              "id": "time-toggle",
+              "left": 209.03125,
+              "right": 273.03125,
+              "top": 794,
+              "bottom": 838,
+              "width": 64,
+              "height": 44,
+              "font": 21
+            },
+            {
+              "id": "faster-time",
+              "left": 273.03125,
+              "right": 317.03125,
+              "top": 794,
+              "bottom": 838,
+              "width": 44,
+              "height": 44,
+              "font": 21
+            },
+            {
+              "id": "photo-button",
+              "left": 57.59375,
+              "right": 251.59375,
+              "top": 700.40625,
+              "bottom": 745,
+              "width": 194,
+              "height": 44.59375,
+              "font": 22
+            },
+            {
+              "id": "review-button",
+              "left": 1228.34375,
+              "right": 1307.359375,
+              "top": 831,
+              "bottom": 875,
+              "width": 79.015625,
+              "height": 44,
+              "font": 16
+            },
+            {
+              "id": "log-button",
+              "left": 1335.359375,
+              "right": 1382.40625,
+              "top": 831,
+              "bottom": 875,
+              "width": 47.046875,
+              "height": 44,
+              "font": 16
+            }
+          ],
+          "boxes": {
+            ".chapter-heading": {
+              "left": 57.59375,
+              "right": 331.984375,
+              "top": 28,
+              "bottom": 83.390625,
+              "width": 274.390625,
+              "height": 55.390625
+            },
+            ".flight-nav": {
+              "left": 1072.171875,
+              "right": 1382.40625,
+              "top": 28,
+              "bottom": 74,
+              "width": 310.234375,
+              "height": 46
+            },
+            ".telemetry": {
+              "left": 57.59375,
+              "right": 338.03125,
+              "top": 804,
+              "bottom": 875,
+              "width": 280.4375,
+              "height": 71
+            },
+            ".log-shortcut": {
+              "left": 1228.34375,
+              "right": 1382.40625,
+              "top": 831,
+              "bottom": 875,
+              "width": 154.0625,
+              "height": 44
+            },
+            ".objective": {
+              "left": 57.59375,
+              "right": 417.59375,
+              "top": 596.609375,
+              "bottom": 745,
+              "width": 360,
+              "height": 148.390625
+            },
+            "#cruise-scale": null,
+            "#flight-hint": {
+              "left": 557.90625,
+              "right": 882.09375,
+              "top": 783,
+              "bottom": 800,
+              "width": 324.1875,
+              "height": 17
+            }
+          },
+          "bearing": {
+            "left": 110.1875,
+            "right": 212.796875,
+            "top": 397.53125,
+            "bottom": 434.53125,
+            "width": 102.609375,
+            "height": 37
+          },
+          "readingVisible": true,
+          "captionVisible": true,
+          "readingArea": 53420.625,
+          "captionFont": 17,
+          "photo": {
+            "left": 57.59375,
+            "right": 251.59375,
+            "top": 700.40625,
+            "bottom": 745,
+            "width": 194,
+            "height": 44.59375
+          },
+          "caption": "Twenty-four hours for a signal to reach Earth. Nearly fifty years to travel here."
+        },
+        {
+          "width": 1024,
+          "height": 640,
+          "label": "earth",
+          "buttons": [
+            {
+              "id": "view-button",
+              "left": 702.8125,
+              "right": 806.375,
+              "top": 23,
+              "bottom": 67,
+              "width": 103.5625,
+              "height": 44,
+              "font": 17
+            },
+            {
+              "id": "map-button",
+              "left": 816.375,
+              "right": 875.046875,
+              "top": 23,
+              "bottom": 67,
+              "width": 58.671875,
+              "height": 44,
+              "font": 17
+            },
+            {
+              "id": "controls-button",
+              "left": 885.046875,
+              "right": 929.046875,
+              "top": 22,
+              "bottom": 68,
+              "width": 44,
+              "height": 46,
+              "font": 22
+            },
+            {
+              "id": "pause-button",
+              "left": 939.046875,
+              "right": 983.046875,
+              "top": 23,
+              "bottom": 67,
+              "width": 44,
+              "height": 44,
+              "font": 17
+            },
+            {
+              "id": "slower-time",
+              "left": 157.484375,
+              "right": 201.484375,
+              "top": 534,
+              "bottom": 578,
+              "width": 44,
+              "height": 44,
+              "font": 21
+            },
+            {
+              "id": "time-toggle",
+              "left": 201.484375,
+              "right": 265.484375,
+              "top": 534,
+              "bottom": 578,
+              "width": 64,
+              "height": 44,
+              "font": 21
+            },
+            {
+              "id": "faster-time",
+              "left": 265.484375,
+              "right": 309.484375,
+              "top": 534,
+              "bottom": 578,
+              "width": 44,
+              "height": 44,
+              "font": 21
+            },
+            {
+              "id": "photo-button",
+              "left": 40.953125,
+              "right": 234.953125,
+              "top": 404.40625,
+              "bottom": 449,
+              "width": 194,
+              "height": 44.59375,
+              "font": 22
+            },
+            {
+              "id": "depart",
+              "left": 40.953125,
+              "right": 241.21875,
+              "top": 451,
+              "bottom": 495,
+              "width": 200.265625,
+              "height": 44,
+              "font": 18
+            },
+            {
+              "id": "review-button",
+              "left": 838.984375,
+              "right": 918,
+              "top": 571,
+              "bottom": 615,
+              "width": 79.015625,
+              "height": 44,
+              "font": 16
+            },
+            {
+              "id": "log-button",
+              "left": 936,
+              "right": 983.046875,
+              "top": 571,
+              "bottom": 615,
+              "width": 47.046875,
+              "height": 44,
+              "font": 16
+            }
+          ],
+          "boxes": {
+            ".chapter-heading": {
+              "left": 40.953125,
+              "right": 334.484375,
+              "top": 22,
+              "bottom": 77.390625,
+              "width": 293.53125,
+              "height": 55.390625
+            },
+            ".flight-nav": {
+              "left": 702.8125,
+              "right": 983.046875,
+              "top": 22,
+              "bottom": 68,
+              "width": 280.234375,
+              "height": 46
+            },
+            ".telemetry": {
+              "left": 40.953125,
+              "right": 330.484375,
+              "top": 544,
+              "bottom": 615,
+              "width": 289.53125,
+              "height": 71
+            },
+            ".log-shortcut": {
+              "left": 838.984375,
+              "right": 983.046875,
+              "top": 571,
+              "bottom": 615,
+              "width": 144.0625,
+              "height": 44
+            },
+            ".objective": {
+              "left": 40.953125,
+              "right": 350.953125,
+              "top": 306.015625,
+              "bottom": 495,
+              "width": 310,
+              "height": 188.984375
+            },
+            "#cruise-scale": null,
+            "#flight-hint": {
+              "left": 361.484375,
+              "right": 662.515625,
+              "top": 519,
+              "bottom": 535,
+              "width": 301.03125,
+              "height": 16
+            }
+          },
+          "bearing": {
+            "left": 803.703125,
+            "right": 888.3125,
+            "top": 301.5,
+            "bottom": 338.5,
+            "width": 84.609375,
+            "height": 37
+          },
+          "readingVisible": true,
+          "captionVisible": true,
+          "readingArea": 58585.15625,
+          "captionFont": 16,
+          "photo": {
+            "left": 40.953125,
+            "right": 234.953125,
+            "top": 404.40625,
+            "bottom": 449,
+            "width": 194,
+            "height": 44.59375
+          },
+          "caption": "Sunlit oceans, a thin atmosphere, and the world Voyager left behind."
+        },
+        {
+          "width": 1024,
+          "height": 640,
+          "label": "science",
+          "buttons": [
+            {
+              "id": "view-button",
+              "left": 702.8125,
+              "right": 806.375,
+              "top": 23,
+              "bottom": 67,
+              "width": 103.5625,
+              "height": 44,
+              "font": 17
+            },
+            {
+              "id": "map-button",
+              "left": 816.375,
+              "right": 875.046875,
+              "top": 23,
+              "bottom": 67,
+              "width": 58.671875,
+              "height": 44,
+              "font": 17
+            },
+            {
+              "id": "controls-button",
+              "left": 885.046875,
+              "right": 929.046875,
+              "top": 22,
+              "bottom": 68,
+              "width": 44,
+              "height": 46,
+              "font": 22
+            },
+            {
+              "id": "pause-button",
+              "left": 939.046875,
+              "right": 983.046875,
+              "top": 23,
+              "bottom": 67,
+              "width": 44,
+              "height": 44,
+              "font": 17
+            },
+            {
+              "id": "slower-time",
+              "left": 157.484375,
+              "right": 201.484375,
+              "top": 534,
+              "bottom": 578,
+              "width": 44,
+              "height": 44,
+              "font": 21
+            },
+            {
+              "id": "time-toggle",
+              "left": 201.484375,
+              "right": 265.484375,
+              "top": 534,
+              "bottom": 578,
+              "width": 64,
+              "height": 44,
+              "font": 21
+            },
+            {
+              "id": "faster-time",
+              "left": 265.484375,
+              "right": 309.484375,
+              "top": 534,
+              "bottom": 578,
+              "width": 44,
+              "height": 44,
+              "font": 21
+            },
+            {
+              "id": "photo-button",
+              "left": 40.953125,
+              "right": 234.953125,
+              "top": 404.40625,
+              "bottom": 449,
+              "width": 194,
+              "height": 44.59375,
+              "font": 22
+            },
+            {
+              "id": "depart",
+              "left": 40.953125,
+              "right": 241.21875,
+              "top": 451,
+              "bottom": 495,
+              "width": 200.265625,
+              "height": 44,
+              "font": 18
+            },
+            {
+              "id": "review-button",
+              "left": 838.984375,
+              "right": 918,
+              "top": 571,
+              "bottom": 615,
+              "width": 79.015625,
+              "height": 44,
+              "font": 16
+            },
+            {
+              "id": "log-button",
+              "left": 936,
+              "right": 983.046875,
+              "top": 571,
+              "bottom": 615,
+              "width": 47.046875,
+              "height": 44,
+              "font": 16
+            }
+          ],
+          "boxes": {
+            ".chapter-heading": {
+              "left": 40.953125,
+              "right": 334.484375,
+              "top": 22,
+              "bottom": 77.390625,
+              "width": 293.53125,
+              "height": 55.390625
+            },
+            ".flight-nav": {
+              "left": 702.8125,
+              "right": 983.046875,
+              "top": 22,
+              "bottom": 68,
+              "width": 280.234375,
+              "height": 46
+            },
+            ".telemetry": {
+              "left": 40.953125,
+              "right": 330.484375,
+              "top": 544,
+              "bottom": 615,
+              "width": 289.53125,
+              "height": 71
+            },
+            ".log-shortcut": {
+              "left": 838.984375,
+              "right": 983.046875,
+              "top": 571,
+              "bottom": 615,
+              "width": 144.0625,
+              "height": 44
+            },
+            ".objective": {
+              "left": 40.953125,
+              "right": 350.953125,
+              "top": 282.015625,
+              "bottom": 495,
+              "width": 310,
+              "height": 212.984375
+            },
+            "#cruise-scale": null,
+            "#flight-hint": null
+          },
+          "bearing": {
+            "left": 803.703125,
+            "right": 888.3125,
+            "top": 301.5,
+            "bottom": 338.5,
+            "width": 84.609375,
+            "height": 37
+          },
+          "readingVisible": true,
+          "captionVisible": true,
+          "readingArea": 66025.15625,
+          "captionFont": 16,
+          "photo": {
+            "left": 40.953125,
+            "right": 234.953125,
+            "top": 404.40625,
+            "bottom": 449,
+            "width": 194,
+            "height": 44.59375
+          },
+          "caption": "The blue rim is sunlight scattered by Earth’s atmosphere. Almost all of the air we breathe lies in a layer remarkably thin beside the planet."
+        },
+        {
+          "width": 1024,
+          "height": 640,
+          "label": "quiet",
+          "buttons": [
+            {
+              "id": "view-button",
+              "left": 702.8125,
+              "right": 806.375,
+              "top": 23,
+              "bottom": 67,
+              "width": 103.5625,
+              "height": 44,
+              "font": 17
+            },
+            {
+              "id": "map-button",
+              "left": 816.375,
+              "right": 875.046875,
+              "top": 23,
+              "bottom": 67,
+              "width": 58.671875,
+              "height": 44,
+              "font": 17
+            },
+            {
+              "id": "controls-button",
+              "left": 885.046875,
+              "right": 929.046875,
+              "top": 22,
+              "bottom": 68,
+              "width": 44,
+              "height": 46,
+              "font": 22
+            },
+            {
+              "id": "pause-button",
+              "left": 939.046875,
+              "right": 983.046875,
+              "top": 23,
+              "bottom": 67,
+              "width": 44,
+              "height": 44,
+              "font": 17
+            },
+            {
+              "id": "slower-time",
+              "left": 157.484375,
+              "right": 201.484375,
+              "top": 534,
+              "bottom": 578,
+              "width": 44,
+              "height": 44,
+              "font": 21
+            },
+            {
+              "id": "time-toggle",
+              "left": 201.484375,
+              "right": 265.484375,
+              "top": 534,
+              "bottom": 578,
+              "width": 64,
+              "height": 44,
+              "font": 21
+            },
+            {
+              "id": "faster-time",
+              "left": 265.484375,
+              "right": 309.484375,
+              "top": 534,
+              "bottom": 578,
+              "width": 44,
+              "height": 44,
+              "font": 21
+            },
+            {
+              "id": "photo-button",
+              "left": 40.953125,
+              "right": 234.953125,
+              "top": 404.40625,
+              "bottom": 449,
+              "width": 194,
+              "height": 44.59375,
+              "font": 22
+            },
+            {
+              "id": "depart",
+              "left": 40.953125,
+              "right": 241.21875,
+              "top": 451,
+              "bottom": 495,
+              "width": 200.265625,
+              "height": 44,
+              "font": 18
+            },
+            {
+              "id": "review-button",
+              "left": 838.984375,
+              "right": 918,
+              "top": 571,
+              "bottom": 615,
+              "width": 79.015625,
+              "height": 44,
+              "font": 16
+            },
+            {
+              "id": "log-button",
+              "left": 936,
+              "right": 983.046875,
+              "top": 571,
+              "bottom": 615,
+              "width": 47.046875,
+              "height": 44,
+              "font": 16
+            }
+          ],
+          "boxes": {
+            ".chapter-heading": {
+              "left": 40.953125,
+              "right": 334.484375,
+              "top": 22,
+              "bottom": 77.390625,
+              "width": 293.53125,
+              "height": 55.390625
+            },
+            ".flight-nav": {
+              "left": 702.8125,
+              "right": 983.046875,
+              "top": 22,
+              "bottom": 68,
+              "width": 280.234375,
+              "height": 46
+            },
+            ".telemetry": {
+              "left": 40.953125,
+              "right": 330.484375,
+              "top": 544,
+              "bottom": 615,
+              "width": 289.53125,
+              "height": 71
+            },
+            ".log-shortcut": {
+              "left": 838.984375,
+              "right": 983.046875,
+              "top": 571,
+              "bottom": 615,
+              "width": 144.0625,
+              "height": 44
+            },
+            ".objective": {
+              "left": 40.953125,
+              "right": 350.953125,
+              "top": 390.40625,
+              "bottom": 495,
+              "width": 310,
+              "height": 104.59375
+            },
+            "#cruise-scale": null,
+            "#flight-hint": null
+          },
+          "bearing": {
+            "left": 803.703125,
+            "right": 888.3125,
+            "top": 301.5,
+            "bottom": 338.5,
+            "width": 84.609375,
+            "height": 37
+          },
+          "readingVisible": true,
+          "captionVisible": false,
+          "readingArea": 32424.0625,
+          "captionFont": 16,
+          "photo": {
+            "left": 40.953125,
+            "right": 234.953125,
+            "top": 404.40625,
+            "bottom": 449,
+            "width": 194,
+            "height": 44.59375
+          },
+          "caption": ""
+        },
+        {
+          "width": 1024,
+          "height": 640,
+          "label": "saturn",
+          "buttons": [
+            {
+              "id": "view-button",
+              "left": 702.8125,
+              "right": 806.375,
+              "top": 23,
+              "bottom": 67,
+              "width": 103.5625,
+              "height": 44,
+              "font": 17
+            },
+            {
+              "id": "map-button",
+              "left": 816.375,
+              "right": 875.046875,
+              "top": 23,
+              "bottom": 67,
+              "width": 58.671875,
+              "height": 44,
+              "font": 17
+            },
+            {
+              "id": "controls-button",
+              "left": 885.046875,
+              "right": 929.046875,
+              "top": 22,
+              "bottom": 68,
+              "width": 44,
+              "height": 46,
+              "font": 22
+            },
+            {
+              "id": "pause-button",
+              "left": 939.046875,
+              "right": 983.046875,
+              "top": 23,
+              "bottom": 67,
+              "width": 44,
+              "height": 44,
+              "font": 17
+            },
+            {
+              "id": "slower-time",
+              "left": 163.828125,
+              "right": 207.828125,
+              "top": 534,
+              "bottom": 578,
+              "width": 44,
+              "height": 44,
+              "font": 21
+            },
+            {
+              "id": "time-toggle",
+              "left": 207.828125,
+              "right": 271.828125,
+              "top": 534,
+              "bottom": 578,
+              "width": 64,
+              "height": 44,
+              "font": 21
+            },
+            {
+              "id": "faster-time",
+              "left": 271.828125,
+              "right": 315.828125,
+              "top": 534,
+              "bottom": 578,
+              "width": 44,
+              "height": 44,
+              "font": 21
+            },
+            {
+              "id": "photo-button",
+              "left": 40.953125,
+              "right": 234.953125,
+              "top": 404.40625,
+              "bottom": 449,
+              "width": 194,
+              "height": 44.59375,
+              "font": 22
+            },
+            {
+              "id": "depart",
+              "left": 40.953125,
+              "right": 282.125,
+              "top": 451,
+              "bottom": 495,
+              "width": 241.171875,
+              "height": 44,
+              "font": 18
+            },
+            {
+              "id": "review-button",
+              "left": 838.984375,
+              "right": 918,
+              "top": 571,
+              "bottom": 615,
+              "width": 79.015625,
+              "height": 44,
+              "font": 16
+            },
+            {
+              "id": "log-button",
+              "left": 936,
+              "right": 983.046875,
+              "top": 571,
+              "bottom": 615,
+              "width": 47.046875,
+              "height": 44,
+              "font": 16
+            }
+          ],
+          "boxes": {
+            ".chapter-heading": {
+              "left": 40.953125,
+              "right": 263.828125,
+              "top": 22,
+              "bottom": 77.390625,
+              "width": 222.875,
+              "height": 55.390625
+            },
+            ".flight-nav": {
+              "left": 702.8125,
+              "right": 983.046875,
+              "top": 22,
+              "bottom": 68,
+              "width": 280.234375,
+              "height": 46
+            },
+            ".telemetry": {
+              "left": 40.953125,
+              "right": 336.828125,
+              "top": 544,
+              "bottom": 615,
+              "width": 295.875,
+              "height": 71
+            },
+            ".log-shortcut": {
+              "left": 838.984375,
+              "right": 983.046875,
+              "top": 571,
+              "bottom": 615,
+              "width": 144.0625,
+              "height": 44
+            },
+            ".objective": {
+              "left": 40.953125,
+              "right": 350.953125,
+              "top": 306.015625,
+              "bottom": 495,
+              "width": 310,
+              "height": 188.984375
+            },
+            "#cruise-scale": null,
+            "#flight-hint": {
+              "left": 361.484375,
+              "right": 662.515625,
+              "top": 519,
+              "bottom": 535,
+              "width": 301.03125,
+              "height": 16
+            }
+          },
+          "bearing": {
+            "left": 843.578125,
+            "right": 934.984375,
+            "top": 301.5,
+            "bottom": 338.5,
+            "width": 91.40625,
+            "height": 37
+          },
+          "readingVisible": true,
+          "captionVisible": true,
+          "readingArea": 58585.15625,
+          "captionFont": 16,
+          "photo": {
+            "left": 40.953125,
+            "right": 234.953125,
+            "top": 404.40625,
+            "bottom": 449,
+            "width": 194,
+            "height": 44.59375
+          },
+          "caption": "A plane of ice, its shadow, and Titan beyond the rings."
+        },
+        {
+          "width": 1024,
+          "height": 640,
+          "label": "titan",
+          "buttons": [
+            {
+              "id": "view-button",
+              "left": 702.8125,
+              "right": 806.375,
+              "top": 23,
+              "bottom": 67,
+              "width": 103.5625,
+              "height": 44,
+              "font": 17
+            },
+            {
+              "id": "map-button",
+              "left": 816.375,
+              "right": 875.046875,
+              "top": 23,
+              "bottom": 67,
+              "width": 58.671875,
+              "height": 44,
+              "font": 17
+            },
+            {
+              "id": "controls-button",
+              "left": 885.046875,
+              "right": 929.046875,
+              "top": 22,
+              "bottom": 68,
+              "width": 44,
+              "height": 46,
+              "font": 22
+            },
+            {
+              "id": "pause-button",
+              "left": 939.046875,
+              "right": 983.046875,
+              "top": 23,
+              "bottom": 67,
+              "width": 44,
+              "height": 44,
+              "font": 17
+            },
+            {
+              "id": "slower-time",
+              "left": 155.640625,
+              "right": 199.640625,
+              "top": 534,
+              "bottom": 578,
+              "width": 44,
+              "height": 44,
+              "font": 21
+            },
+            {
+              "id": "time-toggle",
+              "left": 199.640625,
+              "right": 263.640625,
+              "top": 534,
+              "bottom": 578,
+              "width": 64,
+              "height": 44,
+              "font": 21
+            },
+            {
+              "id": "faster-time",
+              "left": 263.640625,
+              "right": 307.640625,
+              "top": 534,
+              "bottom": 578,
+              "width": 44,
+              "height": 44,
+              "font": 21
+            },
+            {
+              "id": "photo-button",
+              "left": 40.953125,
+              "right": 234.953125,
+              "top": 404.40625,
+              "bottom": 449,
+              "width": 194,
+              "height": 44.59375,
+              "font": 22
+            },
+            {
+              "id": "depart",
+              "left": 40.953125,
+              "right": 282.125,
+              "top": 451,
+              "bottom": 495,
+              "width": 241.171875,
+              "height": 44,
+              "font": 18
+            },
+            {
+              "id": "review-button",
+              "left": 838.984375,
+              "right": 918,
+              "top": 571,
+              "bottom": 615,
+              "width": 79.015625,
+              "height": 44,
+              "font": 16
+            },
+            {
+              "id": "log-button",
+              "left": 936,
+              "right": 983.046875,
+              "top": 571,
+              "bottom": 615,
+              "width": 47.046875,
+              "height": 44,
+              "font": 16
+            }
+          ],
+          "boxes": {
+            ".chapter-heading": {
+              "left": 40.953125,
+              "right": 366.390625,
+              "top": 22,
+              "bottom": 77.390625,
+              "width": 325.4375,
+              "height": 55.390625
+            },
+            ".flight-nav": {
+              "left": 702.8125,
+              "right": 983.046875,
+              "top": 22,
+              "bottom": 68,
+              "width": 280.234375,
+              "height": 46
+            },
+            ".telemetry": {
+              "left": 40.953125,
+              "right": 328.640625,
+              "top": 544,
+              "bottom": 615,
+              "width": 287.6875,
+              "height": 71
+            },
+            ".log-shortcut": {
+              "left": 838.984375,
+              "right": 983.046875,
+              "top": 571,
+              "bottom": 615,
+              "width": 144.0625,
+              "height": 44
+            },
+            ".objective": {
+              "left": 40.953125,
+              "right": 350.953125,
+              "top": 342.40625,
+              "bottom": 495,
+              "width": 310,
+              "height": 152.59375
+            },
+            "#cruise-scale": null,
+            "#flight-hint": {
+              "left": 361.484375,
+              "right": 662.515625,
+              "top": 519,
+              "bottom": 535,
+              "width": 301.03125,
+              "height": 16
+            }
+          },
+          "bearing": {
+            "left": 686.046875,
+            "right": 768.671875,
+            "top": 301.5,
+            "bottom": 338.5,
+            "width": 82.625,
+            "height": 37
+          },
+          "readingVisible": true,
+          "captionVisible": true,
+          "readingArea": 47304.0625,
+          "captionFont": 16,
+          "photo": {
+            "left": 40.953125,
+            "right": 234.953125,
+            "top": 404.40625,
+            "bottom": 449,
+            "width": 194,
+            "height": 44.59375
+          },
+          "caption": "Follow sunlight through the edge of Titan’s atmosphere."
+        },
+        {
+          "width": 1024,
+          "height": 640,
+          "label": "passage",
+          "buttons": [
+            {
+              "id": "view-button",
+              "left": 702.8125,
+              "right": 806.375,
+              "top": 23,
+              "bottom": 67,
+              "width": 103.5625,
+              "height": 44,
+              "font": 17
+            },
+            {
+              "id": "map-button",
+              "left": 816.375,
+              "right": 875.046875,
+              "top": 23,
+              "bottom": 67,
+              "width": 58.671875,
+              "height": 44,
+              "font": 17
+            },
+            {
+              "id": "controls-button",
+              "left": 885.046875,
+              "right": 929.046875,
+              "top": 22,
+              "bottom": 68,
+              "width": 44,
+              "height": 46,
+              "font": 22
+            },
+            {
+              "id": "pause-button",
+              "left": 939.046875,
+              "right": 983.046875,
+              "top": 23,
+              "bottom": 67,
+              "width": 44,
+              "height": 44,
+              "font": 17
+            },
+            {
+              "id": "slower-time",
+              "left": 148.390625,
+              "right": 192.390625,
+              "top": 534,
+              "bottom": 578,
+              "width": 44,
+              "height": 44,
+              "font": 21
+            },
+            {
+              "id": "time-toggle",
+              "left": 192.390625,
+              "right": 256.390625,
+              "top": 534,
+              "bottom": 578,
+              "width": 64,
+              "height": 44,
+              "font": 21
+            },
+            {
+              "id": "faster-time",
+              "left": 256.390625,
+              "right": 300.390625,
+              "top": 534,
+              "bottom": 578,
+              "width": 44,
+              "height": 44,
+              "font": 21
+            },
+            {
+              "id": "photo-button",
+              "left": 40.953125,
+              "right": 234.953125,
+              "top": 450.40625,
+              "bottom": 495,
+              "width": 194,
+              "height": 44.59375,
+              "font": 22
+            },
+            {
+              "id": "log-button",
+              "left": 936,
+              "right": 983.046875,
+              "top": 571,
+              "bottom": 615,
+              "width": 47.046875,
+              "height": 44,
+              "font": 16
+            }
+          ],
+          "boxes": {
+            ".chapter-heading": {
+              "left": 40.953125,
+              "right": 219.875,
+              "top": 22,
+              "bottom": 77.390625,
+              "width": 178.921875,
+              "height": 55.390625
+            },
+            ".flight-nav": {
+              "left": 702.8125,
+              "right": 983.046875,
+              "top": 22,
+              "bottom": 68,
+              "width": 280.234375,
+              "height": 46
+            },
+            ".telemetry": {
+              "left": 40.953125,
+              "right": 321.390625,
+              "top": 544,
+              "bottom": 615,
+              "width": 280.4375,
+              "height": 71
+            },
+            ".log-shortcut": {
+              "left": 936,
+              "right": 983.046875,
+              "top": 571,
+              "bottom": 615,
+              "width": 47.046875,
+              "height": 44
+            },
+            ".objective": {
+              "left": 40.953125,
+              "right": 350.953125,
+              "top": 352.015625,
+              "bottom": 495,
+              "width": 310,
+              "height": 142.984375
+            },
+            "#cruise-scale": {
+              "left": 430.078125,
+              "right": 962.5625,
+              "top": 420.5,
+              "bottom": 495,
+              "width": 532.484375,
+              "height": 74.5
+            },
+            "#flight-hint": null
+          },
+          "bearing": {
+            "left": 331.359375,
+            "right": 438.5625,
+            "top": 87.09375,
+            "bottom": 124.09375,
+            "width": 107.203125,
+            "height": 37
+          },
+          "readingVisible": true,
+          "captionVisible": true,
+          "readingArea": 44325.15625,
+          "captionFont": 16,
+          "photo": {
+            "left": 40.953125,
+            "right": 234.953125,
+            "top": 450.40625,
+            "bottom": 495,
+            "width": 194,
+            "height": 44.59375
+          },
+          "caption": "2.8 years since departure. Time is held. Look around, or resume when ready."
+        },
+        {
+          "width": 1024,
+          "height": 640,
+          "label": "lightday",
+          "buttons": [
+            {
+              "id": "view-button",
+              "left": 702.8125,
+              "right": 806.375,
+              "top": 23,
+              "bottom": 67,
+              "width": 103.5625,
+              "height": 44,
+              "font": 17
+            },
+            {
+              "id": "map-button",
+              "left": 816.375,
+              "right": 875.046875,
+              "top": 23,
+              "bottom": 67,
+              "width": 58.671875,
+              "height": 44,
+              "font": 17
+            },
+            {
+              "id": "controls-button",
+              "left": 885.046875,
+              "right": 929.046875,
+              "top": 22,
+              "bottom": 68,
+              "width": 44,
+              "height": 46,
+              "font": 22
+            },
+            {
+              "id": "pause-button",
+              "left": 939.046875,
+              "right": 983.046875,
+              "top": 23,
+              "bottom": 67,
+              "width": 44,
+              "height": 44,
+              "font": 17
+            },
+            {
+              "id": "slower-time",
+              "left": 148.390625,
+              "right": 192.390625,
+              "top": 534,
+              "bottom": 578,
+              "width": 44,
+              "height": 44,
+              "font": 21
+            },
+            {
+              "id": "time-toggle",
+              "left": 192.390625,
+              "right": 256.390625,
+              "top": 534,
+              "bottom": 578,
+              "width": 64,
+              "height": 44,
+              "font": 21
+            },
+            {
+              "id": "faster-time",
+              "left": 256.390625,
+              "right": 300.390625,
+              "top": 534,
+              "bottom": 578,
+              "width": 44,
+              "height": 44,
+              "font": 21
+            },
+            {
+              "id": "photo-button",
+              "left": 40.953125,
+              "right": 234.953125,
+              "top": 450.40625,
+              "bottom": 495,
+              "width": 194,
+              "height": 44.59375,
+              "font": 22
+            },
+            {
+              "id": "review-button",
+              "left": 838.984375,
+              "right": 918,
+              "top": 571,
+              "bottom": 615,
+              "width": 79.015625,
+              "height": 44,
+              "font": 16
+            },
+            {
+              "id": "log-button",
+              "left": 936,
+              "right": 983.046875,
+              "top": 571,
+              "bottom": 615,
+              "width": 47.046875,
+              "height": 44,
+              "font": 16
+            }
+          ],
+          "boxes": {
+            ".chapter-heading": {
+              "left": 40.953125,
+              "right": 315.34375,
+              "top": 22,
+              "bottom": 77.390625,
+              "width": 274.390625,
+              "height": 55.390625
+            },
+            ".flight-nav": {
+              "left": 702.8125,
+              "right": 983.046875,
+              "top": 22,
+              "bottom": 68,
+              "width": 280.234375,
+              "height": 46
+            },
+            ".telemetry": {
+              "left": 40.953125,
+              "right": 321.390625,
+              "top": 544,
+              "bottom": 615,
+              "width": 280.4375,
+              "height": 71
+            },
+            ".log-shortcut": {
+              "left": 838.984375,
+              "right": 983.046875,
+              "top": 571,
+              "bottom": 615,
+              "width": 144.0625,
+              "height": 44
+            },
+            ".objective": {
+              "left": 40.953125,
+              "right": 350.953125,
+              "top": 352.015625,
+              "bottom": 495,
+              "width": 310,
+              "height": 142.984375
+            },
+            "#cruise-scale": null,
+            "#flight-hint": {
+              "left": 361.484375,
+              "right": 662.515625,
+              "top": 519,
+              "bottom": 535,
+              "width": 301.03125,
+              "height": 16
+            }
+          },
+          "bearing": {
+            "left": 76.90625,
+            "right": 179.515625,
+            "top": 277.34375,
+            "bottom": 314.34375,
+            "width": 102.609375,
+            "height": 37
+          },
+          "readingVisible": true,
+          "captionVisible": true,
+          "readingArea": 44325.15625,
+          "captionFont": 16,
+          "photo": {
+            "left": 40.953125,
+            "right": 234.953125,
+            "top": 450.40625,
+            "bottom": 495,
+            "width": 194,
+            "height": 44.59375
+          },
+          "caption": "Twenty-four hours for a signal to reach Earth. Nearly fifty years to travel here."
+        },
+        {
+          "width": 800,
+          "height": 600,
+          "label": "earth",
+          "buttons": [
+            {
+              "id": "view-button",
+              "left": 528.015625,
+              "right": 620.8125,
+              "top": 23,
+              "bottom": 67,
+              "width": 92.796875,
+              "height": 44,
+              "font": 15
+            },
+            {
+              "id": "map-button",
+              "left": 622.8125,
+              "right": 676,
+              "top": 23,
+              "bottom": 67,
+              "width": 53.1875,
+              "height": 44,
+              "font": 15
+            },
+            {
+              "id": "controls-button",
+              "left": 678,
+              "right": 722,
+              "top": 22,
+              "bottom": 68,
+              "width": 44,
+              "height": 46,
+              "font": 22
+            },
+            {
+              "id": "pause-button",
+              "left": 724,
+              "right": 768,
+              "top": 23,
+              "bottom": 67,
+              "width": 44,
+              "height": 44,
+              "font": 15
+            },
+            {
+              "id": "slower-time",
+              "left": 131.53125,
+              "right": 175.53125,
+              "top": 494,
+              "bottom": 538,
+              "width": 44,
+              "height": 44,
+              "font": 21
+            },
+            {
+              "id": "time-toggle",
+              "left": 175.53125,
+              "right": 239.53125,
+              "top": 494,
+              "bottom": 538,
+              "width": 64,
+              "height": 44,
+              "font": 21
+            },
+            {
+              "id": "faster-time",
+              "left": 239.53125,
+              "right": 283.53125,
+              "top": 494,
+              "bottom": 538,
+              "width": 44,
+              "height": 44,
+              "font": 21
+            },
+            {
+              "id": "photo-button",
+              "left": 32,
+              "right": 200,
+              "top": 350,
+              "bottom": 394,
+              "width": 168,
+              "height": 44,
+              "font": 20
+            },
+            {
+              "id": "depart",
+              "left": 32,
+              "right": 232.265625,
+              "top": 396,
+              "bottom": 440,
+              "width": 200.265625,
+              "height": 44,
+              "font": 18
+            },
+            {
+              "id": "review-button",
+              "left": 642.859375,
+              "right": 712,
+              "top": 531,
+              "bottom": 575,
+              "width": 69.140625,
+              "height": 44,
+              "font": 14
+            },
+            {
+              "id": "log-button",
+              "left": 724,
+              "right": 768,
+              "top": 531,
+              "bottom": 575,
+              "width": 44,
+              "height": 44,
+              "font": 14
+            }
+          ],
+          "boxes": {
+            ".chapter-heading": {
+              "left": 32,
+              "right": 292,
+              "top": 22,
+              "bottom": 88.1875,
+              "width": 260,
+              "height": 66.1875
+            },
+            ".flight-nav": {
+              "left": 528.015625,
+              "right": 768,
+              "top": 22,
+              "bottom": 68,
+              "width": 239.984375,
+              "height": 46
+            },
+            ".telemetry": {
+              "left": 32,
+              "right": 304.53125,
+              "top": 504,
+              "bottom": 575,
+              "width": 272.53125,
+              "height": 71
+            },
+            ".log-shortcut": {
+              "left": 642.859375,
+              "right": 768,
+              "top": 531,
+              "bottom": 575,
+              "width": 125.140625,
+              "height": 44
+            },
+            ".objective": {
+              "left": 32,
+              "right": 342,
+              "top": 251.609375,
+              "bottom": 440,
+              "width": 310,
+              "height": 188.390625
+            },
+            "#cruise-scale": null,
+            "#flight-hint": {
+              "left": 261.0625,
+              "right": 538.9375,
+              "top": 481,
+              "bottom": 495,
+              "width": 277.875,
+              "height": 14
+            }
+          },
+          "bearing": {
+            "left": 675.03125,
+            "right": 759.640625,
+            "top": 281.5,
+            "bottom": 318.5,
+            "width": 84.609375,
+            "height": 37
+          },
+          "readingVisible": true,
+          "captionVisible": true,
+          "readingArea": 58401.09375,
+          "captionFont": 16,
+          "photo": {
+            "left": 32,
+            "right": 200,
+            "top": 350,
+            "bottom": 394,
+            "width": 168,
+            "height": 44
+          },
+          "caption": "Sunlit oceans, a thin atmosphere, and the world Voyager left behind."
+        },
+        {
+          "width": 800,
+          "height": 600,
+          "label": "science",
+          "buttons": [
+            {
+              "id": "view-button",
+              "left": 528.015625,
+              "right": 620.8125,
+              "top": 23,
+              "bottom": 67,
+              "width": 92.796875,
+              "height": 44,
+              "font": 15
+            },
+            {
+              "id": "map-button",
+              "left": 622.8125,
+              "right": 676,
+              "top": 23,
+              "bottom": 67,
+              "width": 53.1875,
+              "height": 44,
+              "font": 15
+            },
+            {
+              "id": "controls-button",
+              "left": 678,
+              "right": 722,
+              "top": 22,
+              "bottom": 68,
+              "width": 44,
+              "height": 46,
+              "font": 22
+            },
+            {
+              "id": "pause-button",
+              "left": 724,
+              "right": 768,
+              "top": 23,
+              "bottom": 67,
+              "width": 44,
+              "height": 44,
+              "font": 15
+            },
+            {
+              "id": "slower-time",
+              "left": 131.53125,
+              "right": 175.53125,
+              "top": 494,
+              "bottom": 538,
+              "width": 44,
+              "height": 44,
+              "font": 21
+            },
+            {
+              "id": "time-toggle",
+              "left": 175.53125,
+              "right": 239.53125,
+              "top": 494,
+              "bottom": 538,
+              "width": 64,
+              "height": 44,
+              "font": 21
+            },
+            {
+              "id": "faster-time",
+              "left": 239.53125,
+              "right": 283.53125,
+              "top": 494,
+              "bottom": 538,
+              "width": 44,
+              "height": 44,
+              "font": 21
+            },
+            {
+              "id": "photo-button",
+              "left": 32,
+              "right": 200,
+              "top": 350,
+              "bottom": 394,
+              "width": 168,
+              "height": 44,
+              "font": 20
+            },
+            {
+              "id": "depart",
+              "left": 32,
+              "right": 232.265625,
+              "top": 396,
+              "bottom": 440,
+              "width": 200.265625,
+              "height": 44,
+              "font": 18
+            },
+            {
+              "id": "review-button",
+              "left": 642.859375,
+              "right": 712,
+              "top": 531,
+              "bottom": 575,
+              "width": 69.140625,
+              "height": 44,
+              "font": 14
+            },
+            {
+              "id": "log-button",
+              "left": 724,
+              "right": 768,
+              "top": 531,
+              "bottom": 575,
+              "width": 44,
+              "height": 44,
+              "font": 14
+            }
+          ],
+          "boxes": {
+            ".chapter-heading": {
+              "left": 32,
+              "right": 292,
+              "top": 22,
+              "bottom": 88.1875,
+              "width": 260,
+              "height": 66.1875
+            },
+            ".flight-nav": {
+              "left": 528.015625,
+              "right": 768,
+              "top": 22,
+              "bottom": 68,
+              "width": 239.984375,
+              "height": 46
+            },
+            ".telemetry": {
+              "left": 32,
+              "right": 304.53125,
+              "top": 504,
+              "bottom": 575,
+              "width": 272.53125,
+              "height": 71
+            },
+            ".log-shortcut": {
+              "left": 642.859375,
+              "right": 768,
+              "top": 531,
+              "bottom": 575,
+              "width": 125.140625,
+              "height": 44
+            },
+            ".objective": {
+              "left": 32,
+              "right": 342,
+              "top": 227.609375,
+              "bottom": 440,
+              "width": 310,
+              "height": 212.390625
+            },
+            "#cruise-scale": null,
+            "#flight-hint": null
+          },
+          "bearing": {
+            "left": 675.03125,
+            "right": 759.640625,
+            "top": 281.5,
+            "bottom": 318.5,
+            "width": 84.609375,
+            "height": 37
+          },
+          "readingVisible": true,
+          "captionVisible": true,
+          "readingArea": 65841.09375,
+          "captionFont": 16,
+          "photo": {
+            "left": 32,
+            "right": 200,
+            "top": 350,
+            "bottom": 394,
+            "width": 168,
+            "height": 44
+          },
+          "caption": "The blue rim is sunlight scattered by Earth’s atmosphere. Almost all of the air we breathe lies in a layer remarkably thin beside the planet."
+        },
+        {
+          "width": 800,
+          "height": 600,
+          "label": "quiet",
+          "buttons": [
+            {
+              "id": "view-button",
+              "left": 528.015625,
+              "right": 620.8125,
+              "top": 23,
+              "bottom": 67,
+              "width": 92.796875,
+              "height": 44,
+              "font": 15
+            },
+            {
+              "id": "map-button",
+              "left": 622.8125,
+              "right": 676,
+              "top": 23,
+              "bottom": 67,
+              "width": 53.1875,
+              "height": 44,
+              "font": 15
+            },
+            {
+              "id": "controls-button",
+              "left": 678,
+              "right": 722,
+              "top": 22,
+              "bottom": 68,
+              "width": 44,
+              "height": 46,
+              "font": 22
+            },
+            {
+              "id": "pause-button",
+              "left": 724,
+              "right": 768,
+              "top": 23,
+              "bottom": 67,
+              "width": 44,
+              "height": 44,
+              "font": 15
+            },
+            {
+              "id": "slower-time",
+              "left": 131.53125,
+              "right": 175.53125,
+              "top": 494,
+              "bottom": 538,
+              "width": 44,
+              "height": 44,
+              "font": 21
+            },
+            {
+              "id": "time-toggle",
+              "left": 175.53125,
+              "right": 239.53125,
+              "top": 494,
+              "bottom": 538,
+              "width": 64,
+              "height": 44,
+              "font": 21
+            },
+            {
+              "id": "faster-time",
+              "left": 239.53125,
+              "right": 283.53125,
+              "top": 494,
+              "bottom": 538,
+              "width": 44,
+              "height": 44,
+              "font": 21
+            },
+            {
+              "id": "photo-button",
+              "left": 32,
+              "right": 200,
+              "top": 350,
+              "bottom": 394,
+              "width": 168,
+              "height": 44,
+              "font": 20
+            },
+            {
+              "id": "depart",
+              "left": 32,
+              "right": 232.265625,
+              "top": 396,
+              "bottom": 440,
+              "width": 200.265625,
+              "height": 44,
+              "font": 18
+            },
+            {
+              "id": "review-button",
+              "left": 642.859375,
+              "right": 712,
+              "top": 531,
+              "bottom": 575,
+              "width": 69.140625,
+              "height": 44,
+              "font": 14
+            },
+            {
+              "id": "log-button",
+              "left": 724,
+              "right": 768,
+              "top": 531,
+              "bottom": 575,
+              "width": 44,
+              "height": 44,
+              "font": 14
+            }
+          ],
+          "boxes": {
+            ".chapter-heading": {
+              "left": 32,
+              "right": 292,
+              "top": 22,
+              "bottom": 88.1875,
+              "width": 260,
+              "height": 66.1875
+            },
+            ".flight-nav": {
+              "left": 528.015625,
+              "right": 768,
+              "top": 22,
+              "bottom": 68,
+              "width": 239.984375,
+              "height": 46
+            },
+            ".telemetry": {
+              "left": 32,
+              "right": 304.53125,
+              "top": 504,
+              "bottom": 575,
+              "width": 272.53125,
+              "height": 71
+            },
+            ".log-shortcut": {
+              "left": 642.859375,
+              "right": 768,
+              "top": 531,
+              "bottom": 575,
+              "width": 125.140625,
+              "height": 44
+            },
+            ".objective": {
+              "left": 32,
+              "right": 342,
+              "top": 336,
+              "bottom": 440,
+              "width": 310,
+              "height": 104
+            },
+            "#cruise-scale": null,
+            "#flight-hint": null
+          },
+          "bearing": {
+            "left": 675.03125,
+            "right": 759.640625,
+            "top": 281.5,
+            "bottom": 318.5,
+            "width": 84.609375,
+            "height": 37
+          },
+          "readingVisible": true,
+          "captionVisible": false,
+          "readingArea": 32240,
+          "captionFont": 16,
+          "photo": {
+            "left": 32,
+            "right": 200,
+            "top": 350,
+            "bottom": 394,
+            "width": 168,
+            "height": 44
+          },
+          "caption": ""
+        },
+        {
+          "width": 800,
+          "height": 600,
+          "label": "saturn",
+          "buttons": [
+            {
+              "id": "view-button",
+              "left": 528.015625,
+              "right": 620.8125,
+              "top": 23,
+              "bottom": 67,
+              "width": 92.796875,
+              "height": 44,
+              "font": 15
+            },
+            {
+              "id": "map-button",
+              "left": 622.8125,
+              "right": 676,
+              "top": 23,
+              "bottom": 67,
+              "width": 53.1875,
+              "height": 44,
+              "font": 15
+            },
+            {
+              "id": "controls-button",
+              "left": 678,
+              "right": 722,
+              "top": 22,
+              "bottom": 68,
+              "width": 44,
+              "height": 46,
+              "font": 22
+            },
+            {
+              "id": "pause-button",
+              "left": 724,
+              "right": 768,
+              "top": 23,
+              "bottom": 67,
+              "width": 44,
+              "height": 44,
+              "font": 15
+            },
+            {
+              "id": "slower-time",
+              "left": 137.875,
+              "right": 181.875,
+              "top": 494,
+              "bottom": 538,
+              "width": 44,
+              "height": 44,
+              "font": 21
+            },
+            {
+              "id": "time-toggle",
+              "left": 181.875,
+              "right": 245.875,
+              "top": 494,
+              "bottom": 538,
+              "width": 64,
+              "height": 44,
+              "font": 21
+            },
+            {
+              "id": "faster-time",
+              "left": 245.875,
+              "right": 289.875,
+              "top": 494,
+              "bottom": 538,
+              "width": 44,
+              "height": 44,
+              "font": 21
+            },
+            {
+              "id": "photo-button",
+              "left": 32,
+              "right": 200,
+              "top": 350,
+              "bottom": 394,
+              "width": 168,
+              "height": 44,
+              "font": 20
+            },
+            {
+              "id": "depart",
+              "left": 32,
+              "right": 273.171875,
+              "top": 396,
+              "bottom": 440,
+              "width": 241.171875,
+              "height": 44,
+              "font": 18
+            },
+            {
+              "id": "review-button",
+              "left": 642.859375,
+              "right": 712,
+              "top": 531,
+              "bottom": 575,
+              "width": 69.140625,
+              "height": 44,
+              "font": 14
+            },
+            {
+              "id": "log-button",
+              "left": 724,
+              "right": 768,
+              "top": 531,
+              "bottom": 575,
+              "width": 44,
+              "height": 44,
+              "font": 14
+            }
+          ],
+          "boxes": {
+            ".chapter-heading": {
+              "left": 32,
+              "right": 227.015625,
+              "top": 22,
+              "bottom": 72.1875,
+              "width": 195.015625,
+              "height": 50.1875
+            },
+            ".flight-nav": {
+              "left": 528.015625,
+              "right": 768,
+              "top": 22,
+              "bottom": 68,
+              "width": 239.984375,
+              "height": 46
+            },
+            ".telemetry": {
+              "left": 32,
+              "right": 310.875,
+              "top": 504,
+              "bottom": 575,
+              "width": 278.875,
+              "height": 71
+            },
+            ".log-shortcut": {
+              "left": 642.859375,
+              "right": 768,
+              "top": 531,
+              "bottom": 575,
+              "width": 125.140625,
+              "height": 44
+            },
+            ".objective": {
+              "left": 32,
+              "right": 342,
+              "top": 251.609375,
+              "bottom": 440,
+              "width": 310,
+              "height": 188.390625
+            },
+            "#cruise-scale": null,
+            "#flight-hint": {
+              "left": 261.0625,
+              "right": 538.9375,
+              "top": 481,
+              "bottom": 495,
+              "width": 277.875,
+              "height": 14
+            }
+          },
+          "bearing": {
+            "left": 676.59375,
+            "right": 768,
+            "top": 138,
+            "bottom": 175,
+            "width": 91.40625,
+            "height": 37
+          },
+          "readingVisible": true,
+          "captionVisible": true,
+          "readingArea": 58401.09375,
+          "captionFont": 16,
+          "photo": {
+            "left": 32,
+            "right": 200,
+            "top": 350,
+            "bottom": 394,
+            "width": 168,
+            "height": 44
+          },
+          "caption": "A plane of ice, its shadow, and Titan beyond the rings."
+        },
+        {
+          "width": 800,
+          "height": 600,
+          "label": "titan",
+          "buttons": [
+            {
+              "id": "view-button",
+              "left": 528.015625,
+              "right": 620.8125,
+              "top": 23,
+              "bottom": 67,
+              "width": 92.796875,
+              "height": 44,
+              "font": 15
+            },
+            {
+              "id": "map-button",
+              "left": 622.8125,
+              "right": 676,
+              "top": 23,
+              "bottom": 67,
+              "width": 53.1875,
+              "height": 44,
+              "font": 15
+            },
+            {
+              "id": "controls-button",
+              "left": 678,
+              "right": 722,
+              "top": 22,
+              "bottom": 68,
+              "width": 44,
+              "height": 46,
+              "font": 22
+            },
+            {
+              "id": "pause-button",
+              "left": 724,
+              "right": 768,
+              "top": 23,
+              "bottom": 67,
+              "width": 44,
+              "height": 44,
+              "font": 15
+            },
+            {
+              "id": "slower-time",
+              "left": 129.6875,
+              "right": 173.6875,
+              "top": 494,
+              "bottom": 538,
+              "width": 44,
+              "height": 44,
+              "font": 21
+            },
+            {
+              "id": "time-toggle",
+              "left": 173.6875,
+              "right": 237.6875,
+              "top": 494,
+              "bottom": 538,
+              "width": 64,
+              "height": 44,
+              "font": 21
+            },
+            {
+              "id": "faster-time",
+              "left": 237.6875,
+              "right": 281.6875,
+              "top": 494,
+              "bottom": 538,
+              "width": 44,
+              "height": 44,
+              "font": 21
+            },
+            {
+              "id": "photo-button",
+              "left": 32,
+              "right": 200,
+              "top": 350,
+              "bottom": 394,
+              "width": 168,
+              "height": 44,
+              "font": 20
+            },
+            {
+              "id": "depart",
+              "left": 32,
+              "right": 273.171875,
+              "top": 396,
+              "bottom": 440,
+              "width": 241.171875,
+              "height": 44,
+              "font": 18
+            },
+            {
+              "id": "review-button",
+              "left": 642.859375,
+              "right": 712,
+              "top": 531,
+              "bottom": 575,
+              "width": 69.140625,
+              "height": 44,
+              "font": 14
+            },
+            {
+              "id": "log-button",
+              "left": 724,
+              "right": 768,
+              "top": 531,
+              "bottom": 575,
+              "width": 44,
+              "height": 44,
+              "font": 14
+            }
+          ],
+          "boxes": {
+            ".chapter-heading": {
+              "left": 32,
+              "right": 292,
+              "top": 22,
+              "bottom": 88.1875,
+              "width": 260,
+              "height": 66.1875
+            },
+            ".flight-nav": {
+              "left": 528.015625,
+              "right": 768,
+              "top": 22,
+              "bottom": 68,
+              "width": 239.984375,
+              "height": 46
+            },
+            ".telemetry": {
+              "left": 32,
+              "right": 302.6875,
+              "top": 504,
+              "bottom": 575,
+              "width": 270.6875,
+              "height": 71
+            },
+            ".log-shortcut": {
+              "left": 642.859375,
+              "right": 768,
+              "top": 531,
+              "bottom": 575,
+              "width": 125.140625,
+              "height": 44
+            },
+            ".objective": {
+              "left": 32,
+              "right": 342,
+              "top": 288,
+              "bottom": 440,
+              "width": 310,
+              "height": 152
+            },
+            "#cruise-scale": null,
+            "#flight-hint": {
+              "left": 261.0625,
+              "right": 538.9375,
+              "top": 481,
+              "bottom": 495,
+              "width": 277.875,
+              "height": 14
+            }
+          },
+          "bearing": {
+            "left": 564.734375,
+            "right": 647.359375,
+            "top": 281.5,
+            "bottom": 318.5,
+            "width": 82.625,
+            "height": 37
+          },
+          "readingVisible": true,
+          "captionVisible": true,
+          "readingArea": 47120,
+          "captionFont": 16,
+          "photo": {
+            "left": 32,
+            "right": 200,
+            "top": 350,
+            "bottom": 394,
+            "width": 168,
+            "height": 44
+          },
+          "caption": "Follow sunlight through the edge of Titan’s atmosphere."
+        },
+        {
+          "width": 800,
+          "height": 600,
+          "label": "passage",
+          "buttons": [
+            {
+              "id": "view-button",
+              "left": 528.015625,
+              "right": 620.8125,
+              "top": 23,
+              "bottom": 67,
+              "width": 92.796875,
+              "height": 44,
+              "font": 15
+            },
+            {
+              "id": "map-button",
+              "left": 622.8125,
+              "right": 676,
+              "top": 23,
+              "bottom": 67,
+              "width": 53.1875,
+              "height": 44,
+              "font": 15
+            },
+            {
+              "id": "controls-button",
+              "left": 678,
+              "right": 722,
+              "top": 22,
+              "bottom": 68,
+              "width": 44,
+              "height": 46,
+              "font": 22
+            },
+            {
+              "id": "pause-button",
+              "left": 724,
+              "right": 768,
+              "top": 23,
+              "bottom": 67,
+              "width": 44,
+              "height": 44,
+              "font": 15
+            },
+            {
+              "id": "slower-time",
+              "left": 122.4375,
+              "right": 166.4375,
+              "top": 494,
+              "bottom": 538,
+              "width": 44,
+              "height": 44,
+              "font": 21
+            },
+            {
+              "id": "time-toggle",
+              "left": 166.4375,
+              "right": 230.4375,
+              "top": 494,
+              "bottom": 538,
+              "width": 64,
+              "height": 44,
+              "font": 21
+            },
+            {
+              "id": "faster-time",
+              "left": 230.4375,
+              "right": 274.4375,
+              "top": 494,
+              "bottom": 538,
+              "width": 44,
+              "height": 44,
+              "font": 21
+            },
+            {
+              "id": "photo-button",
+              "left": 32,
+              "right": 200,
+              "top": 396,
+              "bottom": 440,
+              "width": 168,
+              "height": 44,
+              "font": 20
+            },
+            {
+              "id": "log-button",
+              "left": 724,
+              "right": 768,
+              "top": 531,
+              "bottom": 575,
+              "width": 44,
+              "height": 44,
+              "font": 14
+            }
+          ],
+          "boxes": {
+            ".chapter-heading": {
+              "left": 32,
+              "right": 188.5625,
+              "top": 22,
+              "bottom": 72.1875,
+              "width": 156.5625,
+              "height": 50.1875
+            },
+            ".flight-nav": {
+              "left": 528.015625,
+              "right": 768,
+              "top": 22,
+              "bottom": 68,
+              "width": 239.984375,
+              "height": 46
+            },
+            ".telemetry": {
+              "left": 32,
+              "right": 295.4375,
+              "top": 504,
+              "bottom": 575,
+              "width": 263.4375,
+              "height": 71
+            },
+            ".log-shortcut": {
+              "left": 724,
+              "right": 768,
+              "top": 531,
+              "bottom": 575,
+              "width": 44,
+              "height": 44
+            },
+            ".objective": {
+              "left": 32,
+              "right": 342,
+              "top": 297.609375,
+              "bottom": 440,
+              "width": 310,
+              "height": 142.390625
+            },
+            "#cruise-scale": {
+              "left": 336,
+              "right": 752,
+              "top": 380.5,
+              "bottom": 455,
+              "width": 416,
+              "height": 74.5
+            },
+            "#flight-hint": null
+          },
+          "bearing": {
+            "left": 230.34375,
+            "right": 337.546875,
+            "top": 80.5,
+            "bottom": 117.5,
+            "width": 107.203125,
+            "height": 37
+          },
+          "readingVisible": true,
+          "captionVisible": true,
+          "readingArea": 44141.09375,
+          "captionFont": 16,
+          "photo": {
+            "left": 32,
+            "right": 200,
+            "top": 396,
+            "bottom": 440,
+            "width": 168,
+            "height": 44
+          },
+          "caption": "2.8 years since departure. Time is held. Look around, or resume when ready."
+        },
+        {
+          "width": 800,
+          "height": 600,
+          "label": "lightday",
+          "buttons": [
+            {
+              "id": "view-button",
+              "left": 528.015625,
+              "right": 620.8125,
+              "top": 23,
+              "bottom": 67,
+              "width": 92.796875,
+              "height": 44,
+              "font": 15
+            },
+            {
+              "id": "map-button",
+              "left": 622.8125,
+              "right": 676,
+              "top": 23,
+              "bottom": 67,
+              "width": 53.1875,
+              "height": 44,
+              "font": 15
+            },
+            {
+              "id": "controls-button",
+              "left": 678,
+              "right": 722,
+              "top": 22,
+              "bottom": 68,
+              "width": 44,
+              "height": 46,
+              "font": 22
+            },
+            {
+              "id": "pause-button",
+              "left": 724,
+              "right": 768,
+              "top": 23,
+              "bottom": 67,
+              "width": 44,
+              "height": 44,
+              "font": 15
+            },
+            {
+              "id": "slower-time",
+              "left": 122.4375,
+              "right": 166.4375,
+              "top": 494,
+              "bottom": 538,
+              "width": 44,
+              "height": 44,
+              "font": 21
+            },
+            {
+              "id": "time-toggle",
+              "left": 166.4375,
+              "right": 230.4375,
+              "top": 494,
+              "bottom": 538,
+              "width": 64,
+              "height": 44,
+              "font": 21
+            },
+            {
+              "id": "faster-time",
+              "left": 230.4375,
+              "right": 274.4375,
+              "top": 494,
+              "bottom": 538,
+              "width": 44,
+              "height": 44,
+              "font": 21
+            },
+            {
+              "id": "photo-button",
+              "left": 32,
+              "right": 200,
+              "top": 396,
+              "bottom": 440,
+              "width": 168,
+              "height": 44,
+              "font": 20
+            },
+            {
+              "id": "review-button",
+              "left": 642.859375,
+              "right": 712,
+              "top": 531,
+              "bottom": 575,
+              "width": 69.140625,
+              "height": 44,
+              "font": 14
+            },
+            {
+              "id": "log-button",
+              "left": 724,
+              "right": 768,
+              "top": 531,
+              "bottom": 575,
+              "width": 44,
+              "height": 44,
+              "font": 14
+            }
+          ],
+          "boxes": {
+            ".chapter-heading": {
+              "left": 32,
+              "right": 281.4375,
+              "top": 22,
+              "bottom": 72.1875,
+              "width": 249.4375,
+              "height": 50.1875
+            },
+            ".flight-nav": {
+              "left": 528.015625,
+              "right": 768,
+              "top": 22,
+              "bottom": 68,
+              "width": 239.984375,
+              "height": 46
+            },
+            ".telemetry": {
+              "left": 32,
+              "right": 295.4375,
+              "top": 504,
+              "bottom": 575,
+              "width": 263.4375,
+              "height": 71
+            },
+            ".log-shortcut": {
+              "left": 642.859375,
+              "right": 768,
+              "top": 531,
+              "bottom": 575,
+              "width": 125.140625,
+              "height": 44
+            },
+            ".objective": {
+              "left": 32,
+              "right": 342,
+              "top": 297.609375,
+              "bottom": 440,
+              "width": 310,
+              "height": 142.390625
+            },
+            "#cruise-scale": null,
+            "#flight-hint": {
+              "left": 261.0625,
+              "right": 538.9375,
+              "top": 481,
+              "bottom": 495,
+              "width": 277.875,
+              "height": 14
+            }
+          },
+          "bearing": {
+            "left": 59,
+            "right": 161.609375,
+            "top": 262.625,
+            "bottom": 299.625,
+            "width": 102.609375,
+            "height": 37
+          },
+          "readingVisible": true,
+          "captionVisible": true,
+          "readingArea": 44141.09375,
+          "captionFont": 16,
+          "photo": {
+            "left": 32,
+            "right": 200,
+            "top": 396,
+            "bottom": 440,
+            "width": 168,
+            "height": 44
+          },
+          "caption": "Twenty-four hours for a signal to reach Earth. Nearly fifty years to travel here."
+        }
+      ],
+      "photoAndPassageControls": false,
+      "errors": [],
+      "passed": true
+    }
+  ]
+}

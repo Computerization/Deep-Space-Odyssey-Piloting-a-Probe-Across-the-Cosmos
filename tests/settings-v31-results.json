@@ -1,0 +1,1427 @@
+{
+  "version": "0.31.0",
+  "outcomes": [
+    {
+      "name": "Chrome",
+      "engineVersion": "158.0.8127.37",
+      "exposure": {
+        "dark": {
+          "luma": 22.647209969135954,
+          "renderCount": 12,
+          "exposure": 0.35
+        },
+        "bright": {
+          "luma": 56.04209418209875,
+          "renderCount": 13,
+          "exposure": 1.5
+        }
+      },
+      "physicalStateHeld": true,
+      "staticViewStopsRendering": true,
+      "persistedValues": true,
+      "muteStateVisibleAndPersisted": true,
+      "muteButtonAndKeyboardSynced": true,
+      "keyboardValues": true,
+      "nativeFullscreenVerified": true,
+      "fit": [
+        {
+          "size": {
+            "width": 1024,
+            "height": 640
+          },
+          "tab": "sound",
+          "boxes": [
+            {
+              "id": "panel-close",
+              "width": 44,
+              "height": 44,
+              "right": 518,
+              "bottom": 62
+            },
+            {
+              "id": "settings-tab-sound",
+              "width": 46.03125,
+              "height": 45.6875,
+              "right": 107.46875,
+              "bottom": 114.1875
+            },
+            {
+              "id": "settings-tab-picture",
+              "width": 53.171875,
+              "height": 45.6875,
+              "right": 188.640625,
+              "bottom": 114.1875
+            },
+            {
+              "id": "settings-tab-flight",
+              "width": 44,
+              "height": 45.6875,
+              "right": 260.640625,
+              "bottom": 114.1875
+            },
+            {
+              "id": "settings-sound",
+              "width": 64,
+              "height": 44,
+              "right": 504,
+              "bottom": 184.1875
+            },
+            {
+              "id": "volume",
+              "width": 442.5625,
+              "height": 44,
+              "right": 504,
+              "bottom": 274.1875
+            },
+            {
+              "id": "feedback",
+              "width": 442.5625,
+              "height": 44,
+              "right": 504,
+              "bottom": 340.1875
+            },
+            {
+              "id": "resume",
+              "width": 44,
+              "height": 48.59375,
+              "right": 105.4375,
+              "bottom": 612
+            },
+            {
+              "id": "fullscreen",
+              "width": 71.390625,
+              "height": 44,
+              "right": 512,
+              "bottom": 609.703125
+            }
+          ]
+        },
+        {
+          "size": {
+            "width": 1024,
+            "height": 640
+          },
+          "tab": "picture",
+          "boxes": [
+            {
+              "id": "panel-close",
+              "width": 44,
+              "height": 44,
+              "right": 518,
+              "bottom": 62
+            },
+            {
+              "id": "settings-tab-sound",
+              "width": 46.03125,
+              "height": 45.6875,
+              "right": 107.46875,
+              "bottom": 114.1875
+            },
+            {
+              "id": "settings-tab-picture",
+              "width": 53.171875,
+              "height": 45.6875,
+              "right": 188.640625,
+              "bottom": 114.1875
+            },
+            {
+              "id": "settings-tab-flight",
+              "width": 44,
+              "height": 45.6875,
+              "right": 260.640625,
+              "bottom": 114.1875
+            },
+            {
+              "id": "exposure",
+              "width": 442.5625,
+              "height": 44,
+              "right": 504,
+              "bottom": 194.1875
+            },
+            {
+              "id": "quality",
+              "width": 135,
+              "height": 44,
+              "right": 504,
+              "bottom": 247.1875
+            },
+            {
+              "id": "resume",
+              "width": 44,
+              "height": 48.59375,
+              "right": 105.4375,
+              "bottom": 612
+            },
+            {
+              "id": "fullscreen",
+              "width": 71.390625,
+              "height": 44,
+              "right": 512,
+              "bottom": 609.703125
+            }
+          ]
+        },
+        {
+          "size": {
+            "width": 1024,
+            "height": 640
+          },
+          "tab": "flight",
+          "boxes": [
+            {
+              "id": "panel-close",
+              "width": 44,
+              "height": 44,
+              "right": 518,
+              "bottom": 62
+            },
+            {
+              "id": "settings-tab-sound",
+              "width": 46.03125,
+              "height": 45.6875,
+              "right": 107.46875,
+              "bottom": 114.1875
+            },
+            {
+              "id": "settings-tab-picture",
+              "width": 53.171875,
+              "height": 45.6875,
+              "right": 188.640625,
+              "bottom": 114.1875
+            },
+            {
+              "id": "settings-tab-flight",
+              "width": 44,
+              "height": 45.6875,
+              "right": 260.640625,
+              "bottom": 114.1875
+            },
+            {
+              "id": "sensitivity",
+              "width": 442.5625,
+              "height": 44,
+              "right": 504,
+              "bottom": 194.1875
+            },
+            {
+              "id": "flight-precision",
+              "width": 64,
+              "height": 44,
+              "right": 504,
+              "bottom": 252.234375
+            },
+            {
+              "id": "flight-showHud",
+              "width": 64,
+              "height": 44,
+              "right": 504,
+              "bottom": 321.328125
+            },
+            {
+              "id": "flight-guidance",
+              "width": 64,
+              "height": 44,
+              "right": 504,
+              "bottom": 390.421875
+            },
+            {
+              "id": "instruments",
+              "width": 442.5625,
+              "height": 46,
+              "right": 504,
+              "bottom": 461.46875
+            },
+            {
+              "id": "resume",
+              "width": 44,
+              "height": 48.59375,
+              "right": 105.4375,
+              "bottom": 612
+            },
+            {
+              "id": "fullscreen",
+              "width": 71.390625,
+              "height": 44,
+              "right": 512,
+              "bottom": 609.703125
+            }
+          ]
+        },
+        {
+          "size": {
+            "width": 800,
+            "height": 600
+          },
+          "tab": "sound",
+          "boxes": [
+            {
+              "id": "panel-close",
+              "width": 44,
+              "height": 44,
+              "right": 418,
+              "bottom": 62
+            },
+            {
+              "id": "settings-tab-sound",
+              "width": 46.03125,
+              "height": 45.6875,
+              "right": 86.03125,
+              "bottom": 114.1875
+            },
+            {
+              "id": "settings-tab-picture",
+              "width": 53.171875,
+              "height": 45.6875,
+              "right": 161.203125,
+              "bottom": 114.1875
+            },
+            {
+              "id": "settings-tab-flight",
+              "width": 44,
+              "height": 45.6875,
+              "right": 227.203125,
+              "bottom": 114.1875
+            },
+            {
+              "id": "settings-sound",
+              "width": 64,
+              "height": 44,
+              "right": 408,
+              "bottom": 184.1875
+            },
+            {
+              "id": "volume",
+              "width": 368,
+              "height": 44,
+              "right": 408,
+              "bottom": 274.1875
+            },
+            {
+              "id": "feedback",
+              "width": 368,
+              "height": 44,
+              "right": 408,
+              "bottom": 340.1875
+            },
+            {
+              "id": "resume",
+              "width": 44,
+              "height": 48.59375,
+              "right": 84,
+              "bottom": 572
+            },
+            {
+              "id": "fullscreen",
+              "width": 71.390625,
+              "height": 44,
+              "right": 416,
+              "bottom": 569.703125
+            }
+          ]
+        },
+        {
+          "size": {
+            "width": 800,
+            "height": 600
+          },
+          "tab": "picture",
+          "boxes": [
+            {
+              "id": "panel-close",
+              "width": 44,
+              "height": 44,
+              "right": 418,
+              "bottom": 62
+            },
+            {
+              "id": "settings-tab-sound",
+              "width": 46.03125,
+              "height": 45.6875,
+              "right": 86.03125,
+              "bottom": 114.1875
+            },
+            {
+              "id": "settings-tab-picture",
+              "width": 53.171875,
+              "height": 45.6875,
+              "right": 161.203125,
+              "bottom": 114.1875
+            },
+            {
+              "id": "settings-tab-flight",
+              "width": 44,
+              "height": 45.6875,
+              "right": 227.203125,
+              "bottom": 114.1875
+            },
+            {
+              "id": "exposure",
+              "width": 368,
+              "height": 44,
+              "right": 408,
+              "bottom": 194.1875
+            },
+            {
+              "id": "quality",
+              "width": 135,
+              "height": 44,
+              "right": 408,
+              "bottom": 247.1875
+            },
+            {
+              "id": "resume",
+              "width": 44,
+              "height": 48.59375,
+              "right": 84,
+              "bottom": 572
+            },
+            {
+              "id": "fullscreen",
+              "width": 71.390625,
+              "height": 44,
+              "right": 416,
+              "bottom": 569.703125
+            }
+          ]
+        },
+        {
+          "size": {
+            "width": 800,
+            "height": 600
+          },
+          "tab": "flight",
+          "boxes": [
+            {
+              "id": "panel-close",
+              "width": 44,
+              "height": 44,
+              "right": 418,
+              "bottom": 62
+            },
+            {
+              "id": "settings-tab-sound",
+              "width": 46.03125,
+              "height": 45.6875,
+              "right": 86.03125,
+              "bottom": 114.1875
+            },
+            {
+              "id": "settings-tab-picture",
+              "width": 53.171875,
+              "height": 45.6875,
+              "right": 161.203125,
+              "bottom": 114.1875
+            },
+            {
+              "id": "settings-tab-flight",
+              "width": 44,
+              "height": 45.6875,
+              "right": 227.203125,
+              "bottom": 114.1875
+            },
+            {
+              "id": "sensitivity",
+              "width": 368,
+              "height": 44,
+              "right": 408,
+              "bottom": 194.1875
+            },
+            {
+              "id": "flight-precision",
+              "width": 64,
+              "height": 44,
+              "right": 408,
+              "bottom": 252.234375
+            },
+            {
+              "id": "flight-showHud",
+              "width": 64,
+              "height": 44,
+              "right": 408,
+              "bottom": 321.328125
+            },
+            {
+              "id": "flight-guidance",
+              "width": 64,
+              "height": 44,
+              "right": 408,
+              "bottom": 390.421875
+            },
+            {
+              "id": "instruments",
+              "width": 368,
+              "height": 46,
+              "right": 408,
+              "bottom": 461.46875
+            },
+            {
+              "id": "resume",
+              "width": 44,
+              "height": 48.59375,
+              "right": 84,
+              "bottom": 572
+            },
+            {
+              "id": "fullscreen",
+              "width": 71.390625,
+              "height": 44,
+              "right": 416,
+              "bottom": 569.703125
+            }
+          ]
+        }
+      ],
+      "guideClarifiesIndependentPhoto": true,
+      "errors": [],
+      "passed": true
+    },
+    {
+      "name": "Firefox",
+      "engineVersion": "153.0",
+      "exposure": {
+        "dark": {
+          "luma": 22.50517368827176,
+          "renderCount": 17,
+          "exposure": 0.35
+        },
+        "bright": {
+          "luma": 55.99311722222207,
+          "renderCount": 18,
+          "exposure": 1.5
+        }
+      },
+      "physicalStateHeld": true,
+      "staticViewStopsRendering": true,
+      "persistedValues": true,
+      "muteStateVisibleAndPersisted": true,
+      "muteButtonAndKeyboardSynced": true,
+      "keyboardValues": true,
+      "nativeFullscreenVerified": true,
+      "fit": [
+        {
+          "size": {
+            "width": 1024,
+            "height": 640
+          },
+          "tab": "sound",
+          "boxes": [
+            {
+              "id": "panel-close",
+              "width": 44,
+              "height": 44,
+              "right": 518,
+              "bottom": 62
+            },
+            {
+              "id": "settings-tab-sound",
+              "width": 46.01666259765625,
+              "height": 45.69999694824219,
+              "right": 107.44999694824219,
+              "bottom": 114.19999694824219
+            },
+            {
+              "id": "settings-tab-picture",
+              "width": 53.133331298828125,
+              "height": 45.69999694824219,
+              "right": 188.5833282470703,
+              "bottom": 114.19999694824219
+            },
+            {
+              "id": "settings-tab-flight",
+              "width": 44,
+              "height": 45.69999694824219,
+              "right": 260.5833282470703,
+              "bottom": 114.19999694824219
+            },
+            {
+              "id": "settings-sound",
+              "width": 64,
+              "height": 44,
+              "right": 504,
+              "bottom": 184.1999969482422
+            },
+            {
+              "id": "volume",
+              "width": 442.566650390625,
+              "height": 44,
+              "right": 503.99998474121094,
+              "bottom": 274.1999969482422
+            },
+            {
+              "id": "feedback",
+              "width": 442.566650390625,
+              "height": 44,
+              "right": 503.99998474121094,
+              "bottom": 340.20001220703125
+            },
+            {
+              "id": "resume",
+              "width": 44,
+              "height": 48.600006103515625,
+              "right": 105.43333435058594,
+              "bottom": 612.0000305175781
+            },
+            {
+              "id": "fullscreen",
+              "width": 71.36666870117188,
+              "height": 44,
+              "right": 512,
+              "bottom": 609.7000122070312
+            }
+          ]
+        },
+        {
+          "size": {
+            "width": 1024,
+            "height": 640
+          },
+          "tab": "picture",
+          "boxes": [
+            {
+              "id": "panel-close",
+              "width": 44,
+              "height": 44,
+              "right": 518,
+              "bottom": 62
+            },
+            {
+              "id": "settings-tab-sound",
+              "width": 46.01666259765625,
+              "height": 45.69999694824219,
+              "right": 107.44999694824219,
+              "bottom": 114.19999694824219
+            },
+            {
+              "id": "settings-tab-picture",
+              "width": 53.133331298828125,
+              "height": 45.69999694824219,
+              "right": 188.5833282470703,
+              "bottom": 114.19999694824219
+            },
+            {
+              "id": "settings-tab-flight",
+              "width": 44,
+              "height": 45.69999694824219,
+              "right": 260.5833282470703,
+              "bottom": 114.19999694824219
+            },
+            {
+              "id": "exposure",
+              "width": 442.566650390625,
+              "height": 44,
+              "right": 503.99998474121094,
+              "bottom": 194.1999969482422
+            },
+            {
+              "id": "quality",
+              "width": 135,
+              "height": 44,
+              "right": 504,
+              "bottom": 247.1999969482422
+            },
+            {
+              "id": "resume",
+              "width": 44,
+              "height": 48.600006103515625,
+              "right": 105.43333435058594,
+              "bottom": 612.0000305175781
+            },
+            {
+              "id": "fullscreen",
+              "width": 71.36666870117188,
+              "height": 44,
+              "right": 512,
+              "bottom": 609.7000122070312
+            }
+          ]
+        },
+        {
+          "size": {
+            "width": 1024,
+            "height": 640
+          },
+          "tab": "flight",
+          "boxes": [
+            {
+              "id": "panel-close",
+              "width": 44,
+              "height": 44,
+              "right": 518,
+              "bottom": 62
+            },
+            {
+              "id": "settings-tab-sound",
+              "width": 46.01666259765625,
+              "height": 45.69999694824219,
+              "right": 107.44999694824219,
+              "bottom": 114.19999694824219
+            },
+            {
+              "id": "settings-tab-picture",
+              "width": 53.133331298828125,
+              "height": 45.69999694824219,
+              "right": 188.5833282470703,
+              "bottom": 114.19999694824219
+            },
+            {
+              "id": "settings-tab-flight",
+              "width": 44,
+              "height": 45.69999694824219,
+              "right": 260.5833282470703,
+              "bottom": 114.19999694824219
+            },
+            {
+              "id": "sensitivity",
+              "width": 442.566650390625,
+              "height": 44,
+              "right": 503.99998474121094,
+              "bottom": 194.1999969482422
+            },
+            {
+              "id": "flight-precision",
+              "width": 64,
+              "height": 44,
+              "right": 504,
+              "bottom": 252.25
+            },
+            {
+              "id": "flight-showHud",
+              "width": 64,
+              "height": 44,
+              "right": 504,
+              "bottom": 321.3500061035156
+            },
+            {
+              "id": "flight-guidance",
+              "width": 64,
+              "height": 44,
+              "right": 504,
+              "bottom": 390.45001220703125
+            },
+            {
+              "id": "instruments",
+              "width": 442.566650390625,
+              "height": 46,
+              "right": 503.99998474121094,
+              "bottom": 461.5
+            },
+            {
+              "id": "resume",
+              "width": 44,
+              "height": 48.600006103515625,
+              "right": 105.43333435058594,
+              "bottom": 612.0000305175781
+            },
+            {
+              "id": "fullscreen",
+              "width": 71.36666870117188,
+              "height": 44,
+              "right": 512,
+              "bottom": 609.7000122070312
+            }
+          ]
+        },
+        {
+          "size": {
+            "width": 800,
+            "height": 600
+          },
+          "tab": "sound",
+          "boxes": [
+            {
+              "id": "panel-close",
+              "width": 44,
+              "height": 44,
+              "right": 418,
+              "bottom": 62
+            },
+            {
+              "id": "settings-tab-sound",
+              "width": 46.01666259765625,
+              "height": 45.69999694824219,
+              "right": 86.01666259765625,
+              "bottom": 114.19999694824219
+            },
+            {
+              "id": "settings-tab-picture",
+              "width": 53.133331298828125,
+              "height": 45.69999694824219,
+              "right": 161.14999389648438,
+              "bottom": 114.19999694824219
+            },
+            {
+              "id": "settings-tab-flight",
+              "width": 44,
+              "height": 45.69999694824219,
+              "right": 227.14999389648438,
+              "bottom": 114.19999694824219
+            },
+            {
+              "id": "settings-sound",
+              "width": 64,
+              "height": 44,
+              "right": 408,
+              "bottom": 184.1999969482422
+            },
+            {
+              "id": "volume",
+              "width": 368,
+              "height": 44,
+              "right": 408,
+              "bottom": 274.1999969482422
+            },
+            {
+              "id": "feedback",
+              "width": 368,
+              "height": 44,
+              "right": 408,
+              "bottom": 340.20001220703125
+            },
+            {
+              "id": "resume",
+              "width": 44,
+              "height": 48.600006103515625,
+              "right": 84,
+              "bottom": 572.0000305175781
+            },
+            {
+              "id": "fullscreen",
+              "width": 71.36666870117188,
+              "height": 44,
+              "right": 416,
+              "bottom": 569.7000122070312
+            }
+          ]
+        },
+        {
+          "size": {
+            "width": 800,
+            "height": 600
+          },
+          "tab": "picture",
+          "boxes": [
+            {
+              "id": "panel-close",
+              "width": 44,
+              "height": 44,
+              "right": 418,
+              "bottom": 62
+            },
+            {
+              "id": "settings-tab-sound",
+              "width": 46.01666259765625,
+              "height": 45.69999694824219,
+              "right": 86.01666259765625,
+              "bottom": 114.19999694824219
+            },
+            {
+              "id": "settings-tab-picture",
+              "width": 53.133331298828125,
+              "height": 45.69999694824219,
+              "right": 161.14999389648438,
+              "bottom": 114.19999694824219
+            },
+            {
+              "id": "settings-tab-flight",
+              "width": 44,
+              "height": 45.69999694824219,
+              "right": 227.14999389648438,
+              "bottom": 114.19999694824219
+            },
+            {
+              "id": "exposure",
+              "width": 368,
+              "height": 44,
+              "right": 408,
+              "bottom": 194.1999969482422
+            },
+            {
+              "id": "quality",
+              "width": 135,
+              "height": 44,
+              "right": 408,
+              "bottom": 247.1999969482422
+            },
+            {
+              "id": "resume",
+              "width": 44,
+              "height": 48.600006103515625,
+              "right": 84,
+              "bottom": 572.0000305175781
+            },
+            {
+              "id": "fullscreen",
+              "width": 71.36666870117188,
+              "height": 44,
+              "right": 416,
+              "bottom": 569.7000122070312
+            }
+          ]
+        },
+        {
+          "size": {
+            "width": 800,
+            "height": 600
+          },
+          "tab": "flight",
+          "boxes": [
+            {
+              "id": "panel-close",
+              "width": 44,
+              "height": 44,
+              "right": 418,
+              "bottom": 62
+            },
+            {
+              "id": "settings-tab-sound",
+              "width": 46.01666259765625,
+              "height": 45.69999694824219,
+              "right": 86.01666259765625,
+              "bottom": 114.19999694824219
+            },
+            {
+              "id": "settings-tab-picture",
+              "width": 53.133331298828125,
+              "height": 45.69999694824219,
+              "right": 161.14999389648438,
+              "bottom": 114.19999694824219
+            },
+            {
+              "id": "settings-tab-flight",
+              "width": 44,
+              "height": 45.69999694824219,
+              "right": 227.14999389648438,
+              "bottom": 114.19999694824219
+            },
+            {
+              "id": "sensitivity",
+              "width": 368,
+              "height": 44,
+              "right": 408,
+              "bottom": 194.1999969482422
+            },
+            {
+              "id": "flight-precision",
+              "width": 64,
+              "height": 44,
+              "right": 408,
+              "bottom": 252.25
+            },
+            {
+              "id": "flight-showHud",
+              "width": 64,
+              "height": 44,
+              "right": 408,
+              "bottom": 321.3500061035156
+            },
+            {
+              "id": "flight-guidance",
+              "width": 64,
+              "height": 44,
+              "right": 408,
+              "bottom": 390.45001220703125
+            },
+            {
+              "id": "instruments",
+              "width": 368,
+              "height": 46,
+              "right": 408,
+              "bottom": 461.5
+            },
+            {
+              "id": "resume",
+              "width": 44,
+              "height": 48.600006103515625,
+              "right": 84,
+              "bottom": 572.0000305175781
+            },
+            {
+              "id": "fullscreen",
+              "width": 71.36666870117188,
+              "height": 44,
+              "right": 416,
+              "bottom": 569.7000122070312
+            }
+          ]
+        }
+      ],
+      "guideClarifiesIndependentPhoto": true,
+      "errors": [],
+      "passed": true
+    },
+    {
+      "name": "WebKit",
+      "engineVersion": "26.5",
+      "exposure": {
+        "dark": {
+          "luma": 22.590359074074218,
+          "renderCount": 17,
+          "exposure": 0.35
+        },
+        "bright": {
+          "luma": 56.04361206790129,
+          "renderCount": 18,
+          "exposure": 1.5
+        }
+      },
+      "physicalStateHeld": true,
+      "staticViewStopsRendering": true,
+      "persistedValues": true,
+      "muteStateVisibleAndPersisted": true,
+      "muteButtonAndKeyboardSynced": true,
+      "keyboardValues": true,
+      "nativeFullscreenVerified": true,
+      "fit": [
+        {
+          "size": {
+            "width": 1024,
+            "height": 640
+          },
+          "tab": "sound",
+          "boxes": [
+            {
+              "id": "panel-close",
+              "width": 44,
+              "height": 44,
+              "right": 518,
+              "bottom": 62
+            },
+            {
+              "id": "settings-tab-sound",
+              "width": 46.03125,
+              "height": 45.6875,
+              "right": 107.46875,
+              "bottom": 114.1875
+            },
+            {
+              "id": "settings-tab-picture",
+              "width": 53.171875,
+              "height": 45.6875,
+              "right": 188.640625,
+              "bottom": 114.1875
+            },
+            {
+              "id": "settings-tab-flight",
+              "width": 44,
+              "height": 45.6875,
+              "right": 260.640625,
+              "bottom": 114.1875
+            },
+            {
+              "id": "settings-sound",
+              "width": 64,
+              "height": 44,
+              "right": 504,
+              "bottom": 184.1875
+            },
+            {
+              "id": "volume",
+              "width": 442.5625,
+              "height": 44,
+              "right": 504,
+              "bottom": 274.1875
+            },
+            {
+              "id": "feedback",
+              "width": 442.5625,
+              "height": 44,
+              "right": 504,
+              "bottom": 340.1875
+            },
+            {
+              "id": "resume",
+              "width": 44,
+              "height": 48.59375,
+              "right": 105.4375,
+              "bottom": 612
+            },
+            {
+              "id": "fullscreen",
+              "width": 71.390625,
+              "height": 44,
+              "right": 512,
+              "bottom": 609.703125
+            }
+          ]
+        },
+        {
+          "size": {
+            "width": 1024,
+            "height": 640
+          },
+          "tab": "picture",
+          "boxes": [
+            {
+              "id": "panel-close",
+              "width": 44,
+              "height": 44,
+              "right": 518,
+              "bottom": 62
+            },
+            {
+              "id": "settings-tab-sound",
+              "width": 46.03125,
+              "height": 45.6875,
+              "right": 107.46875,
+              "bottom": 114.1875
+            },
+            {
+              "id": "settings-tab-picture",
+              "width": 53.171875,
+              "height": 45.6875,
+              "right": 188.640625,
+              "bottom": 114.1875
+            },
+            {
+              "id": "settings-tab-flight",
+              "width": 44,
+              "height": 45.6875,
+              "right": 260.640625,
+              "bottom": 114.1875
+            },
+            {
+              "id": "exposure",
+              "width": 442.5625,
+              "height": 44,
+              "right": 504,
+              "bottom": 194.1875
+            },
+            {
+              "id": "quality",
+              "width": 135,
+              "height": 44,
+              "right": 504,
+              "bottom": 247.1875
+            },
+            {
+              "id": "resume",
+              "width": 44,
+              "height": 48.59375,
+              "right": 105.4375,
+              "bottom": 612
+            },
+            {
+              "id": "fullscreen",
+              "width": 71.390625,
+              "height": 44,
+              "right": 512,
+              "bottom": 609.703125
+            }
+          ]
+        },
+        {
+          "size": {
+            "width": 1024,
+            "height": 640
+          },
+          "tab": "flight",
+          "boxes": [
+            {
+              "id": "panel-close",
+              "width": 44,
+              "height": 44,
+              "right": 518,
+              "bottom": 62
+            },
+            {
+              "id": "settings-tab-sound",
+              "width": 46.03125,
+              "height": 45.6875,
+              "right": 107.46875,
+              "bottom": 114.1875
+            },
+            {
+              "id": "settings-tab-picture",
+              "width": 53.171875,
+              "height": 45.6875,
+              "right": 188.640625,
+              "bottom": 114.1875
+            },
+            {
+              "id": "settings-tab-flight",
+              "width": 44,
+              "height": 45.6875,
+              "right": 260.640625,
+              "bottom": 114.1875
+            },
+            {
+              "id": "sensitivity",
+              "width": 442.5625,
+              "height": 44,
+              "right": 504,
+              "bottom": 194.1875
+            },
+            {
+              "id": "flight-precision",
+              "width": 64,
+              "height": 44,
+              "right": 504,
+              "bottom": 252.234375
+            },
+            {
+              "id": "flight-showHud",
+              "width": 64,
+              "height": 44,
+              "right": 504,
+              "bottom": 321.328125
+            },
+            {
+              "id": "flight-guidance",
+              "width": 64,
+              "height": 44,
+              "right": 504,
+              "bottom": 390.421875
+            },
+            {
+              "id": "instruments",
+              "width": 442.5625,
+              "height": 46,
+              "right": 504,
+              "bottom": 461.46875
+            },
+            {
+              "id": "resume",
+              "width": 44,
+              "height": 48.59375,
+              "right": 105.4375,
+              "bottom": 612
+            },
+            {
+              "id": "fullscreen",
+              "width": 71.390625,
+              "height": 44,
+              "right": 512,
+              "bottom": 609.703125
+            }
+          ]
+        },
+        {
+          "size": {
+            "width": 800,
+            "height": 600
+          },
+          "tab": "sound",
+          "boxes": [
+            {
+              "id": "panel-close",
+              "width": 44,
+              "height": 44,
+              "right": 418,
+              "bottom": 62
+            },
+            {
+              "id": "settings-tab-sound",
+              "width": 46.03125,
+              "height": 45.6875,
+              "right": 86.03125,
+              "bottom": 114.1875
+            },
+            {
+              "id": "settings-tab-picture",
+              "width": 53.171875,
+              "height": 45.6875,
+              "right": 161.203125,
+              "bottom": 114.1875
+            },
+            {
+              "id": "settings-tab-flight",
+              "width": 44,
+              "height": 45.6875,
+              "right": 227.203125,
+              "bottom": 114.1875
+            },
+            {
+              "id": "settings-sound",
+              "width": 64,
+              "height": 44,
+              "right": 408,
+              "bottom": 184.1875
+            },
+            {
+              "id": "volume",
+              "width": 368,
+              "height": 44,
+              "right": 408,
+              "bottom": 274.1875
+            },
+            {
+              "id": "feedback",
+              "width": 368,
+              "height": 44,
+              "right": 408,
+              "bottom": 340.1875
+            },
+            {
+              "id": "resume",
+              "width": 44,
+              "height": 48.59375,
+              "right": 84,
+              "bottom": 572
+            },
+            {
+              "id": "fullscreen",
+              "width": 71.390625,
+              "height": 44,
+              "right": 416,
+              "bottom": 569.703125
+            }
+          ]
+        },
+        {
+          "size": {
+            "width": 800,
+            "height": 600
+          },
+          "tab": "picture",
+          "boxes": [
+            {
+              "id": "panel-close",
+              "width": 44,
+              "height": 44,
+              "right": 418,
+              "bottom": 62
+            },
+            {
+              "id": "settings-tab-sound",
+              "width": 46.03125,
+              "height": 45.6875,
+              "right": 86.03125,
+              "bottom": 114.1875
+            },
+            {
+              "id": "settings-tab-picture",
+              "width": 53.171875,
+              "height": 45.6875,
+              "right": 161.203125,
+              "bottom": 114.1875
+            },
+            {
+              "id": "settings-tab-flight",
+              "width": 44,
+              "height": 45.6875,
+              "right": 227.203125,
+              "bottom": 114.1875
+            },
+            {
+              "id": "exposure",
+              "width": 368,
+              "height": 44,
+              "right": 408,
+              "bottom": 194.1875
+            },
+            {
+              "id": "quality",
+              "width": 135,
+              "height": 44,
+              "right": 408,
+              "bottom": 247.1875
+            },
+            {
+              "id": "resume",
+              "width": 44,
+              "height": 48.59375,
+              "right": 84,
+              "bottom": 572
+            },
+            {
+              "id": "fullscreen",
+              "width": 71.390625,
+              "height": 44,
+              "right": 416,
+              "bottom": 569.703125
+            }
+          ]
+        },
+        {
+          "size": {
+            "width": 800,
+            "height": 600
+          },
+          "tab": "flight",
+          "boxes": [
+            {
+              "id": "panel-close",
+              "width": 44,
+              "height": 44,
+              "right": 418,
+              "bottom": 62
+            },
+            {
+              "id": "settings-tab-sound",
+              "width": 46.03125,
+              "height": 45.6875,
+              "right": 86.03125,
+              "bottom": 114.1875
+            },
+            {
+              "id": "settings-tab-picture",
+              "width": 53.171875,
+              "height": 45.6875,
+              "right": 161.203125,
+              "bottom": 114.1875
+            },
+            {
+              "id": "settings-tab-flight",
+              "width": 44,
+              "height": 45.6875,
+              "right": 227.203125,
+              "bottom": 114.1875
+            },
+            {
+              "id": "sensitivity",
+              "width": 368,
+              "height": 44,
+              "right": 408,
+              "bottom": 194.1875
+            },
+            {
+              "id": "flight-precision",
+              "width": 64,
+              "height": 44,
+              "right": 408,
+              "bottom": 252.234375
+            },
+            {
+              "id": "flight-showHud",
+              "width": 64,
+              "height": 44,
+              "right": 408,
+              "bottom": 321.328125
+            },
+            {
+              "id": "flight-guidance",
+              "width": 64,
+              "height": 44,
+              "right": 408,
+              "bottom": 390.421875
+            },
+            {
+              "id": "instruments",
+              "width": 368,
+              "height": 46,
+              "right": 408,
+              "bottom": 461.46875
+            },
+            {
+              "id": "resume",
+              "width": 44,
+              "height": 48.59375,
+              "right": 84,
+              "bottom": 572
+            },
+            {
+              "id": "fullscreen",
+              "width": 71.390625,
+              "height": 44,
+              "right": 416,
+              "bottom": 569.703125
+            }
+          ]
+        }
+      ],
+      "guideClarifiesIndependentPhoto": true,
+      "errors": [],
+      "passed": true
+    }
+  ]
+}

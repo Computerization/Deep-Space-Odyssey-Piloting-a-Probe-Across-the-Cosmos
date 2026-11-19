@@ -1,0 +1,26 @@
+{
+  "sourcePage": "https://svs.gsfc.nasa.gov/4720/",
+  "sourceUrl": "https://svs.gsfc.nasa.gov/vis/a000000/a004700/a004720/lroc_color_16bit_srgb_4k.tif",
+  "sourceEdition": "December 2025",
+  "sourceSha256": "9731fa8af425b6c2f88f277ecca82bf8c603f3743894f64ed7b25c5bfefa22ff",
+  "sourceProfile": "sRGB IEC61966-2.1",
+  "dimensions": [
+    4096,
+    2048
+  ],
+  "outputBitsPerChannel": 8,
+  "encoding": {
+    "format": "AVIF",
+    "quality": 68,
+    "speed": 6,
+    "subsampling": "4:2:0"
+  },
+  "output": "assets/textures/moon.avif",
+  "bytes": 1057185,
+  "sha256": "d13810b205de4512f985ae8e570e036b9c3809fea1b0a8c336a53e769c5a3120",
+  "previousBytes": 1138093,
+  "bytesSaved": 80908,
+  "terrainAndNormalsChanged": false,
+  "surfaceGainChanged": false,
+  "interpretation": "NASA visualization mosaic with publisher white balance and polar fill; not an unprocessed or calibrated reflectance measurement."
+}

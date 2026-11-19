@@ -1,0 +1,264 @@
+{
+  "version": "0.36.0",
+  "lowPowerModeConfigured": true,
+  "method": "240 unmeasured renders per variant before ABBA full-frame GPU queries; 40 warmup and 160 measured renders per window; fixed ultra 1280 x 800, no frame cache or adaptive resolution.",
+  "samples": [
+    {
+      "label": "day",
+      "mode": "previous",
+      "yaw": 0,
+      "fov": 58,
+      "gpuSamples": 160,
+      "gpuMedianMs": 37.412499,
+      "gpuP95Ms": 47.582583,
+      "cpuMedianMs": 0.29999998211860657,
+      "drawCalls": 6,
+      "triangles": 219650,
+      "pixels": [
+        1280,
+        800
+      ]
+    },
+    {
+      "label": "day",
+      "mode": "candidate",
+      "yaw": 0,
+      "fov": 58,
+      "gpuSamples": 160,
+      "gpuMedianMs": 34.155291,
+      "gpuP95Ms": 39.1415,
+      "cpuMedianMs": 0.29999998211860657,
+      "drawCalls": 6,
+      "triangles": 219650,
+      "pixels": [
+        1280,
+        800
+      ]
+    },
+    {
+      "label": "day",
+      "mode": "candidate",
+      "yaw": 0,
+      "fov": 58,
+      "gpuSamples": 160,
+      "gpuMedianMs": 34.299124,
+      "gpuP95Ms": 39.812916,
+      "cpuMedianMs": 0.29999998211860657,
+      "drawCalls": 6,
+      "triangles": 219650,
+      "pixels": [
+        1280,
+        800
+      ]
+    },
+    {
+      "label": "day",
+      "mode": "previous",
+      "yaw": 0,
+      "fov": 58,
+      "gpuSamples": 160,
+      "gpuMedianMs": 34.876499,
+      "gpuP95Ms": 40.145,
+      "cpuMedianMs": 0.30000001192092896,
+      "drawCalls": 6,
+      "triangles": 219650,
+      "pixels": [
+        1280,
+        800
+      ]
+    },
+    {
+      "label": "close",
+      "mode": "previous",
+      "yaw": 0,
+      "fov": 58,
+      "gpuSamples": 160,
+      "gpuMedianMs": 34.636916,
+      "gpuP95Ms": 38.754791,
+      "cpuMedianMs": 0.29999998211860657,
+      "drawCalls": 6,
+      "triangles": 219650,
+      "pixels": [
+        1280,
+        800
+      ]
+    },
+    {
+      "label": "close",
+      "mode": "candidate",
+      "yaw": 0,
+      "fov": 58,
+      "gpuSamples": 160,
+      "gpuMedianMs": 34.0865,
+      "gpuP95Ms": 38.362166,
+      "cpuMedianMs": 0.29999998211860657,
+      "drawCalls": 6,
+      "triangles": 219650,
+      "pixels": [
+        1280,
+        800
+      ]
+    },
+    {
+      "label": "close",
+      "mode": "candidate",
+      "yaw": 0,
+      "fov": 58,
+      "gpuSamples": 160,
+      "gpuMedianMs": 34.683541,
+      "gpuP95Ms": 41.66275,
+      "cpuMedianMs": 0.20000001788139343,
+      "drawCalls": 6,
+      "triangles": 219650,
+      "pixels": [
+        1280,
+        800
+      ]
+    },
+    {
+      "label": "close",
+      "mode": "previous",
+      "yaw": 0,
+      "fov": 58,
+      "gpuSamples": 160,
+      "gpuMedianMs": 34.939875,
+      "gpuP95Ms": 39.823833,
+      "cpuMedianMs": 0.20000001788139343,
+      "drawCalls": 6,
+      "triangles": 219650,
+      "pixels": [
+        1280,
+        800
+      ]
+    },
+    {
+      "label": "grazing",
+      "mode": "previous",
+      "yaw": 0,
+      "fov": 58,
+      "gpuSamples": 160,
+      "gpuMedianMs": 34.296375,
+      "gpuP95Ms": 38.66175,
+      "cpuMedianMs": 0.29999998211860657,
+      "drawCalls": 6,
+      "triangles": 219650,
+      "pixels": [
+        1280,
+        800
+      ]
+    },
+    {
+      "label": "grazing",
+      "mode": "candidate",
+      "yaw": 0,
+      "fov": 58,
+      "gpuSamples": 160,
+      "gpuMedianMs": 34.420916,
+      "gpuP95Ms": 39.383458,
+      "cpuMedianMs": 0.29999998211860657,
+      "drawCalls": 6,
+      "triangles": 219650,
+      "pixels": [
+        1280,
+        800
+      ]
+    },
+    {
+      "label": "grazing",
+      "mode": "candidate",
+      "yaw": 0,
+      "fov": 58,
+      "gpuSamples": 160,
+      "gpuMedianMs": 34.136083,
+      "gpuP95Ms": 37.98975,
+      "cpuMedianMs": 0.29999998211860657,
+      "drawCalls": 6,
+      "triangles": 219650,
+      "pixels": [
+        1280,
+        800
+      ]
+    },
+    {
+      "label": "grazing",
+      "mode": "previous",
+      "yaw": 0,
+      "fov": 58,
+      "gpuSamples": 160,
+      "gpuMedianMs": 35.391291,
+      "gpuP95Ms": 39.89,
+      "cpuMedianMs": 0.29999998211860657,
+      "drawCalls": 6,
+      "triangles": 219650,
+      "pixels": [
+        1280,
+        800
+      ]
+    },
+    {
+      "label": "resolved-limb",
+      "mode": "previous",
+      "yaw": 1.2645,
+      "fov": 4,
+      "gpuSamples": 160,
+      "gpuMedianMs": 31.517958,
+      "gpuP95Ms": 38.856958,
+      "cpuMedianMs": 0.29999998211860657,
+      "drawCalls": 6,
+      "triangles": 219650,
+      "pixels": [
+        1280,
+        800
+      ]
+    },
+    {
+      "label": "resolved-limb",
+      "mode": "candidate",
+      "yaw": 1.2645,
+      "fov": 4,
+      "gpuSamples": 160,
+      "gpuMedianMs": 30.124333,
+      "gpuP95Ms": 35.0265,
+      "cpuMedianMs": 0.29999998211860657,
+      "drawCalls": 6,
+      "triangles": 219650,
+      "pixels": [
+        1280,
+        800
+      ]
+    },
+    {
+      "label": "resolved-limb",
+      "mode": "candidate",
+      "yaw": 1.2645,
+      "fov": 4,
+      "gpuSamples": 160,
+      "gpuMedianMs": 27.127458,
+      "gpuP95Ms": 37.739375,
+      "cpuMedianMs": 0.20000001788139343,
+      "drawCalls": 6,
+      "triangles": 219650,
+      "pixels": [
+        1280,
+        800
+      ]
+    },
+    {
+      "label": "resolved-limb",
+      "mode": "previous",
+      "yaw": 1.2645,
+      "fov": 4,
+      "gpuSamples": 160,
+      "gpuMedianMs": 31.399041,
+      "gpuP95Ms": 35.766958,
+      "cpuMedianMs": 0.20000001788139343,
+      "drawCalls": 6,
+      "triangles": 219650,
+      "pixels": [
+        1280,
+        800
+      ]
+    }
+  ],
+  "errors": []
+}

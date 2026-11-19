@@ -1,0 +1,37 @@
+{
+  "source": "https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia11/pia11142/figures/PIA11142_fig1.jpg",
+  "reference": "https://science.nasa.gov/photojournal/a-full-sweep-of-saturns-rings/",
+  "credit": "NASA/JPL/Space Science Institute",
+  "sourceSha256": "b9a97f6d1a75cf110616ee8139ab9f44ac0487b8dc3392c609253a657bf840f3",
+  "priorSha256": "f571b474fcc883063332e4e3690e1221b872e8d418e392b1cf8a2600a6858886",
+  "outputSha256": "6ad5c2b8134da89120f5543764128468259e980e771f673c6c1ac5b9f372e148",
+  "calibrationPixels": [
+    656,
+    3543,
+    7487,
+    8211,
+    10368,
+    10940
+  ],
+  "calibrationRadiiKm": [
+    74500,
+    92000,
+    117580,
+    122200,
+    136780,
+    140220
+  ],
+  "sourceRows": [
+    1158,
+    1174
+  ],
+  "chromaWindowPixels": 65,
+  "width": 8192,
+  "height": 1,
+  "alphaByteIdentical": true,
+  "maximumLinearAlbedoLuminanceError": 0.004360946999945381,
+  "meanLinearAlbedoLuminanceError": 0.000991304777522939,
+  "priorBytes": 9002,
+  "outputBytes": 8322,
+  "limitation": "Broad Cassini-era colour estimate; inherited radial luminance and optical-depth alpha. Not a measured albedo or 1980 reconstruction."
+}

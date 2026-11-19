@@ -1,0 +1,16 @@
+{
+  "version": "0.21.0",
+  "actualBrowserMixCaptured": true,
+  "source": "Audio graph output after limiter",
+  "transition": "departure → rings",
+  "sampleRate": 48000,
+  "seconds": 9.984,
+  "peak": 0.25614914298057556,
+  "rms": 0.04155336278637916,
+  "nonFinite": 0,
+  "playing": [
+    "rings"
+  ],
+  "subjectiveListeningReviewed": false,
+  "errors": []
+}

@@ -1,0 +1,397 @@
+{
+  "version": "0.90.0",
+  "sourceShaderSha256": "22eb1230a69fb88287bf39649a2260ba96a6baf91c7f6cd884c093e619e7efd1",
+  "sourceImageSha256": "52c8504370bc943b07f743083125ee4eca883524d770ab80757ba43ef4927d47",
+  "nativeSourceComparison": {
+    "method": "Same delivered 16K image, native 64K-grid source crops. Actual GPU magnification at one reference pixel per display pixel. Coverage-image fidelity, not 3D weather.",
+    "out": [
+      {
+        "name": "trade-wind",
+        "linear": {
+          "rmse": 4.072864632953,
+          "gradientRMSE": 1.982906866914617,
+          "max": 42
+        },
+        "cubic": {
+          "rmse": 3.7936331431927113,
+          "gradientRMSE": 1.9194728493113191,
+          "max": 38
+        },
+        "smooth": {
+          "rmse": 4.1104442525261184,
+          "gradientRMSE": 2.1525519980642778,
+          "max": 42
+        },
+        "fast": {
+          "rmse": 3.789973848734123,
+          "gradientRMSE": 1.9186894619681711,
+          "max": 38
+        }
+      },
+      {
+        "name": "southern-front",
+        "linear": {
+          "rmse": 4.044715177349997,
+          "gradientRMSE": 3.096462983336871,
+          "max": 163
+        },
+        "cubic": {
+          "rmse": 4.017752354784326,
+          "gradientRMSE": 3.07921200955769,
+          "max": 146
+        },
+        "smooth": {
+          "rmse": 4.088640980415347,
+          "gradientRMSE": 3.133092099515167,
+          "max": 160
+        },
+        "fast": {
+          "rmse": 4.0183523690337,
+          "gradientRMSE": 3.078759323061996,
+          "max": 145
+        }
+      },
+      {
+        "name": "northern-cyclone",
+        "linear": {
+          "rmse": 1.5906993116645924,
+          "gradientRMSE": 0.6359486226771244,
+          "max": 40
+        },
+        "cubic": {
+          "rmse": 1.5305722352073097,
+          "gradientRMSE": 0.636489308568276,
+          "max": 40
+        },
+        "smooth": {
+          "rmse": 1.6081419730449018,
+          "gradientRMSE": 0.6646352775660179,
+          "max": 36
+        },
+        "fast": {
+          "rmse": 1.528107825184671,
+          "gradientRMSE": 0.6363011219092637,
+          "max": 40
+        }
+      },
+      {
+        "name": "fine-stratus",
+        "linear": {
+          "rmse": 0.8741567272085472,
+          "gradientRMSE": 0.6072831367815,
+          "max": 71
+        },
+        "cubic": {
+          "rmse": 0.8668765865312326,
+          "gradientRMSE": 0.6000397491725729,
+          "max": 66
+        },
+        "smooth": {
+          "rmse": 0.8586467084440929,
+          "gradientRMSE": 0.6008842215304702,
+          "max": 70
+        },
+        "fast": {
+          "rmse": 0.8660606417314264,
+          "gradientRMSE": 0.5994449351420441,
+          "max": 66
+        }
+      },
+      {
+        "name": "longitude-seam",
+        "linear": {
+          "rmse": 5.141622738313073,
+          "gradientRMSE": 2.8735877795894575,
+          "max": 69
+        },
+        "cubic": {
+          "rmse": 4.651588239802537,
+          "gradientRMSE": 2.7307486028851438,
+          "max": 62
+        },
+        "smooth": {
+          "rmse": 5.186653772908506,
+          "gradientRMSE": 3.1249527067523775,
+          "max": 65
+        },
+        "fast": {
+          "rmse": 4.641395444953198,
+          "gradientRMSE": 2.724902898980346,
+          "max": 61
+        }
+      },
+      {
+        "name": "equatorial",
+        "linear": {
+          "rmse": 6.773164162112645,
+          "gradientRMSE": 3.7050428096224515,
+          "max": 69
+        },
+        "cubic": {
+          "rmse": 6.299338137459529,
+          "gradientRMSE": 3.5615238961000735,
+          "max": 63
+        },
+        "smooth": {
+          "rmse": 6.90725778904972,
+          "gradientRMSE": 4.1253181151922025,
+          "max": 69
+        },
+        "fast": {
+          "rmse": 6.293738152582154,
+          "gradientRMSE": 3.554565743140672,
+          "max": 63
+        }
+      }
+    ],
+    "errors": []
+  },
+  "shortCostComparison": {
+    "results": [
+      {
+        "mode": "baseline",
+        "label": "day",
+        "preserved": true,
+        "graphicsError": 0,
+        "frameMedian": 16.700000000000728,
+        "frameP95": 33.399999999999636,
+        "gpuMedian": 42.168416,
+        "gpuSamples": 40,
+        "cloudScale": 0.75,
+        "dimensions": [
+          2000,
+          1250
+        ],
+        "resources": {
+          "geometries": 22,
+          "textures": 29
+        },
+        "programs": 23
+      },
+      {
+        "mode": "baseline",
+        "label": "close",
+        "preserved": true,
+        "graphicsError": 0,
+        "frameMedian": 33.29999999999927,
+        "frameP95": 33.399999999999636,
+        "gpuMedian": 59.621166,
+        "gpuSamples": 40,
+        "cloudScale": 0.75,
+        "dimensions": [
+          2000,
+          1250
+        ],
+        "resources": {
+          "geometries": 22,
+          "textures": 29
+        },
+        "programs": 23
+      },
+      {
+        "mode": "cubic",
+        "label": "day",
+        "preserved": true,
+        "graphicsError": 0,
+        "frameMedian": 16.700000000000728,
+        "frameP95": 33.400000000001455,
+        "gpuMedian": 45.484041,
+        "gpuSamples": 40,
+        "cloudScale": 0.75,
+        "dimensions": [
+          2000,
+          1250
+        ],
+        "resources": {
+          "geometries": 22,
+          "textures": 29
+        },
+        "programs": 25
+      },
+      {
+        "mode": "cubic",
+        "label": "close",
+        "preserved": true,
+        "graphicsError": 0,
+        "frameMedian": 33.399999999999636,
+        "frameP95": 50.099999999998545,
+        "gpuMedian": 79.869375,
+        "gpuSamples": 40,
+        "cloudScale": 0.75,
+        "dimensions": [
+          2000,
+          1250
+        ],
+        "resources": {
+          "geometries": 22,
+          "textures": 29
+        },
+        "programs": 25
+      },
+      {
+        "mode": "fast",
+        "label": "day",
+        "preserved": true,
+        "graphicsError": 0,
+        "frameMedian": 16.700000000000728,
+        "frameP95": 33.400000000001455,
+        "gpuMedian": 43.880124,
+        "gpuSamples": 40,
+        "cloudScale": 0.75,
+        "dimensions": [
+          2000,
+          1250
+        ],
+        "resources": {
+          "geometries": 22,
+          "textures": 29
+        },
+        "programs": 27
+      },
+      {
+        "mode": "fast",
+        "label": "close",
+        "preserved": true,
+        "graphicsError": 0,
+        "frameMedian": 33.30000000000291,
+        "frameP95": 50.099999999998545,
+        "gpuMedian": 72.785833,
+        "gpuSamples": 40,
+        "cloudScale": 0.75,
+        "dimensions": [
+          2000,
+          1250
+        ],
+        "resources": {
+          "geometries": 22,
+          "textures": 29
+        },
+        "programs": 27
+      },
+      {
+        "mode": "fast",
+        "label": "day",
+        "preserved": true,
+        "graphicsError": 0,
+        "frameMedian": 16.700000000000728,
+        "frameP95": 33.400000000001455,
+        "gpuMedian": 44.257749,
+        "gpuSamples": 40,
+        "cloudScale": 0.75,
+        "dimensions": [
+          2000,
+          1250
+        ],
+        "resources": {
+          "geometries": 22,
+          "textures": 29
+        },
+        "programs": 27
+      },
+      {
+        "mode": "fast",
+        "label": "close",
+        "preserved": true,
+        "graphicsError": 0,
+        "frameMedian": 33.30000000000291,
+        "frameP95": 50.099999999998545,
+        "gpuMedian": 73.371333,
+        "gpuSamples": 40,
+        "cloudScale": 0.75,
+        "dimensions": [
+          2000,
+          1250
+        ],
+        "resources": {
+          "geometries": 22,
+          "textures": 29
+        },
+        "programs": 27
+      },
+      {
+        "mode": "cubic",
+        "label": "day",
+        "preserved": true,
+        "graphicsError": 0,
+        "frameMedian": 16.700000000000728,
+        "frameP95": 33.39999999999782,
+        "gpuMedian": 45.557208,
+        "gpuSamples": 40,
+        "cloudScale": 0.75,
+        "dimensions": [
+          2000,
+          1250
+        ],
+        "resources": {
+          "geometries": 22,
+          "textures": 29
+        },
+        "programs": 27
+      },
+      {
+        "mode": "cubic",
+        "label": "close",
+        "preserved": true,
+        "graphicsError": 0,
+        "frameMedian": 33.400000000001455,
+        "frameP95": 50.099999999998545,
+        "gpuMedian": 80.045416,
+        "gpuSamples": 40,
+        "cloudScale": 0.75,
+        "dimensions": [
+          2000,
+          1250
+        ],
+        "resources": {
+          "geometries": 22,
+          "textures": 29
+        },
+        "programs": 27
+      },
+      {
+        "mode": "baseline",
+        "label": "day",
+        "preserved": true,
+        "graphicsError": 0,
+        "frameMedian": 16.700000000000728,
+        "frameP95": 33.39999999999782,
+        "gpuMedian": 40.700583,
+        "gpuSamples": 40,
+        "cloudScale": 0.75,
+        "dimensions": [
+          2000,
+          1250
+        ],
+        "resources": {
+          "geometries": 22,
+          "textures": 29
+        },
+        "programs": 27
+      },
+      {
+        "mode": "baseline",
+        "label": "close",
+        "preserved": true,
+        "graphicsError": 0,
+        "frameMedian": 33.29999999999927,
+        "frameP95": 33.400000000001455,
+        "gpuMedian": 55.865916,
+        "gpuSamples": 40,
+        "cloudScale": 0.75,
+        "dimensions": [
+          2000,
+          1250
+        ],
+        "resources": {
+          "geometries": 22,
+          "textures": 29
+        },
+        "programs": 27
+      }
+    ],
+    "errors": [],
+    "method": "Chrome Metal, 1000 x 625 DPR2, High at fixed .75 cloud scale. ABCCBA order, 12 warm and 40 measured frames. Local short comparison, not endurance."
+  },
+  "disposition": "Not integrated. Cubic reconstruction reduces interpolation grid structure and improves image RMSE in six native-source crops, but the five-tap variant adds approximately 26% to measured close-view GPU intervals, and remains source-resolution limited. Smoothstep coordinate remapping is rejected for generally worse source fidelity. Investigate spatially local high-resolution source imagery next.",
+  "reference": "https://developer.nvidia.com/gpugems/gpugems2/part-iii-high-quality-rendering/chapter-20-fast-third-order-texture-filtering"
+}

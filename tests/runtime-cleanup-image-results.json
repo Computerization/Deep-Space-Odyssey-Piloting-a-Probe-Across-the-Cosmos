@@ -1,0 +1,50 @@
+[
+  {
+    "scene": "earth",
+    "width": 1280,
+    "identical": true,
+    "meanDifference": 0.0,
+    "maxDifference": 0,
+    "changedPixels": 0
+  },
+  {
+    "scene": "earth",
+    "width": 1024,
+    "identical": true,
+    "meanDifference": 0.0,
+    "maxDifference": 0,
+    "changedPixels": 0
+  },
+  {
+    "scene": "jupiter",
+    "width": 1280,
+    "identical": true,
+    "meanDifference": 0.0,
+    "maxDifference": 0,
+    "changedPixels": 0
+  },
+  {
+    "scene": "jupiter",
+    "width": 1024,
+    "identical": true,
+    "meanDifference": 0.0,
+    "maxDifference": 0,
+    "changedPixels": 0
+  },
+  {
+    "scene": "polar",
+    "width": 1280,
+    "identical": true,
+    "meanDifference": 0.0,
+    "maxDifference": 0,
+    "changedPixels": 0
+  },
+  {
+    "scene": "polar",
+    "width": 1024,
+    "identical": true,
+    "meanDifference": 0.0,
+    "maxDifference": 0,
+    "changedPixels": 0
+  }
+]

@@ -1,0 +1,496 @@
+{
+  "version": "0.35.0",
+  "reference": "320 uniform view midpoint samples of the unchanged v34 density field and sunlight integrator. Both views also use 640 for convergence. Linear premultiplied RGBA and display pixels are measured separately; this tests integration, not photographic equivalence.",
+  "viewport": [
+    800,
+    500
+  ],
+  "outcomes": [
+    {
+      "name": "Chrome",
+      "engineVersion": "158.0.8127.37",
+      "views": [
+        {
+          "label": "resolved-limb",
+          "radius": 1.05,
+          "phase": 35,
+          "yaw": 1.2645,
+          "fov": 4,
+          "metrics": {
+            "previous": {
+              "channels": 548937,
+              "mae": 1.468569252937951,
+              "rmse": 4.636913850469208,
+              "max": 96,
+              "fullMean": 0.67261,
+              "fullMax": 96
+            },
+            "candidate": {
+              "channels": 548937,
+              "mae": 0.47138196186447623,
+              "rmse": 1.508836404346482,
+              "max": 29,
+              "fullMean": 0.21589833333333333,
+              "fullMax": 29
+            }
+          },
+          "linear": {
+            "previous": {
+              "mean": 0.015327715096838635,
+              "rmse": 0.05265481250509541,
+              "max": 0.898681640625,
+              "count": 742680
+            },
+            "candidate": {
+              "mean": 0.004945916757641659,
+              "rmse": 0.015939834029160792,
+              "max": 0.287841796875,
+              "count": 742680
+            },
+            "fixed20": {
+              "mean": 0.014484461617275889,
+              "rmse": 0.04963219561273588,
+              "max": 0.89996337890625,
+              "count": 742680
+            },
+            "dense": {
+              "mean": 0.00010435727209281336,
+              "rmse": 0.0002630991471180815,
+              "max": 0.00537109375,
+              "count": 742680
+            }
+          },
+          "draws": {
+            "off": {
+              "calls": 5,
+              "triangles": 146434
+            },
+            "previous": {
+              "calls": 6,
+              "triangles": 219650
+            },
+            "candidate": {
+              "calls": 6,
+              "triangles": 219650
+            },
+            "fixed20": {
+              "calls": 6,
+              "triangles": 219650
+            },
+            "reference": {
+              "calls": 6,
+              "triangles": 219650
+            },
+            "dense": {
+              "calls": 6,
+              "triangles": 219650
+            }
+          }
+        },
+        {
+          "label": "resolved-cloud",
+          "radius": 1.05,
+          "phase": 50,
+          "yaw": 0,
+          "fov": 20,
+          "metrics": {
+            "previous": {
+              "channels": 1146594,
+              "mae": 0.25499174075566416,
+              "rmse": 0.8310424522640097,
+              "max": 11,
+              "fullMean": 0.24393,
+              "fullMax": 11
+            },
+            "candidate": {
+              "channels": 1146594,
+              "mae": 0.1281587030806022,
+              "rmse": 0.385244695018618,
+              "max": 4,
+              "fullMean": 0.12269083333333333,
+              "fullMax": 4
+            }
+          },
+          "linear": {
+            "previous": {
+              "mean": 0.0012647218617638416,
+              "rmse": 0.004010170925943442,
+              "max": 0.052978515625,
+              "count": 1387800
+            },
+            "candidate": {
+              "mean": 0.0006135017635808896,
+              "rmse": 0.0017781791539942596,
+              "max": 0.017333984375,
+              "count": 1387800
+            },
+            "fixed20": {
+              "mean": 0.0006135017635808896,
+              "rmse": 0.0017781791539942596,
+              "max": 0.017333984375,
+              "count": 1387800
+            },
+            "dense": {
+              "mean": 1.3575484488432681e-05,
+              "rmse": 5.741139680636972e-05,
+              "max": 0.000732421875,
+              "count": 1387800
+            }
+          },
+          "draws": {
+            "off": {
+              "calls": 5,
+              "triangles": 146434
+            },
+            "previous": {
+              "calls": 6,
+              "triangles": 219650
+            },
+            "candidate": {
+              "calls": 6,
+              "triangles": 219650
+            },
+            "fixed20": {
+              "calls": 6,
+              "triangles": 219650
+            },
+            "reference": {
+              "calls": 6,
+              "triangles": 219650
+            },
+            "dense": {
+              "calls": 6,
+              "triangles": 219650
+            }
+          }
+        }
+      ],
+      "errors": [],
+      "passed": true
+    },
+    {
+      "name": "Firefox",
+      "engineVersion": "153.0",
+      "views": [
+        {
+          "label": "resolved-limb",
+          "radius": 1.05,
+          "phase": 35,
+          "yaw": 1.2645,
+          "fov": 4,
+          "metrics": {
+            "previous": {
+              "channels": 548961,
+              "mae": 1.4686252757481861,
+              "rmse": 4.6373762101942075,
+              "max": 95,
+              "fullMean": 0.672645,
+              "fullMax": 95
+            },
+            "candidate": {
+              "channels": 548961,
+              "mae": 0.47123566154972757,
+              "rmse": 1.5084768036035092,
+              "max": 29,
+              "fullMean": 0.21583083333333333,
+              "fullMax": 29
+            }
+          },
+          "linear": {
+            "previous": {
+              "mean": 0.015329968989578875,
+              "rmse": 0.052657055086111425,
+              "max": 0.898681640625,
+              "count": 742684
+            },
+            "candidate": {
+              "mean": 0.004946833572520419,
+              "rmse": 0.015942131760125024,
+              "max": 0.287353515625,
+              "count": 742684
+            },
+            "fixed20": {
+              "mean": 0.014485589961139727,
+              "rmse": 0.049633619432735546,
+              "max": 0.89996337890625,
+              "count": 742684
+            },
+            "dense": {
+              "mean": 0.00010428867372652455,
+              "rmse": 0.00026300125581823065,
+              "max": 0.00537109375,
+              "count": 742684
+            }
+          },
+          "draws": {
+            "off": {
+              "calls": 5,
+              "triangles": 146434
+            },
+            "previous": {
+              "calls": 6,
+              "triangles": 219650
+            },
+            "candidate": {
+              "calls": 6,
+              "triangles": 219650
+            },
+            "fixed20": {
+              "calls": 6,
+              "triangles": 219650
+            },
+            "reference": {
+              "calls": 6,
+              "triangles": 219650
+            },
+            "dense": {
+              "calls": 6,
+              "triangles": 219650
+            }
+          }
+        },
+        {
+          "label": "resolved-cloud",
+          "radius": 1.05,
+          "phase": 50,
+          "yaw": 0,
+          "fov": 20,
+          "metrics": {
+            "previous": {
+              "channels": 1146591,
+              "mae": 0.25527585686613624,
+              "rmse": 0.8313546474039314,
+              "max": 11,
+              "fullMean": 0.2441875,
+              "fullMax": 11
+            },
+            "candidate": {
+              "channels": 1146591,
+              "mae": 0.12812240807750977,
+              "rmse": 0.3853063190342635,
+              "max": 4,
+              "fullMean": 0.122645,
+              "fullMax": 4
+            }
+          },
+          "linear": {
+            "previous": {
+              "mean": 0.0012656632170328697,
+              "rmse": 0.0040096433798309005,
+              "max": 0.052978515625,
+              "count": 1387792
+            },
+            "candidate": {
+              "mean": 0.0006134629418621056,
+              "rmse": 0.0017778599615809905,
+              "max": 0.017578125,
+              "count": 1387792
+            },
+            "fixed20": {
+              "mean": 0.0006134629418621056,
+              "rmse": 0.0017778599615809905,
+              "max": 0.017578125,
+              "count": 1387792
+            },
+            "dense": {
+              "mean": 1.3603484576846599e-05,
+              "rmse": 5.7388853785380245e-05,
+              "max": 0.000732421875,
+              "count": 1387792
+            }
+          },
+          "draws": {
+            "off": {
+              "calls": 5,
+              "triangles": 146434
+            },
+            "previous": {
+              "calls": 6,
+              "triangles": 219650
+            },
+            "candidate": {
+              "calls": 6,
+              "triangles": 219650
+            },
+            "fixed20": {
+              "calls": 6,
+              "triangles": 219650
+            },
+            "reference": {
+              "calls": 6,
+              "triangles": 219650
+            },
+            "dense": {
+              "calls": 6,
+              "triangles": 219650
+            }
+          }
+        }
+      ],
+      "errors": [],
+      "passed": true
+    },
+    {
+      "name": "WebKit",
+      "engineVersion": "26.5",
+      "views": [
+        {
+          "label": "resolved-limb",
+          "radius": 1.05,
+          "phase": 35,
+          "yaw": 1.2645,
+          "fov": 4,
+          "metrics": {
+            "previous": {
+              "channels": 548937,
+              "mae": 1.468569252937951,
+              "rmse": 4.636913850469208,
+              "max": 96,
+              "fullMean": 0.67261,
+              "fullMax": 96
+            },
+            "candidate": {
+              "channels": 548937,
+              "mae": 0.47138196186447623,
+              "rmse": 1.508836404346482,
+              "max": 29,
+              "fullMean": 0.21589833333333333,
+              "fullMax": 29
+            }
+          },
+          "linear": {
+            "previous": {
+              "mean": 0.015327715096838635,
+              "rmse": 0.05265481250509541,
+              "max": 0.898681640625,
+              "count": 742680
+            },
+            "candidate": {
+              "mean": 0.004945916757641659,
+              "rmse": 0.015939834029160792,
+              "max": 0.287841796875,
+              "count": 742680
+            },
+            "fixed20": {
+              "mean": 0.014484461617275889,
+              "rmse": 0.04963219561273588,
+              "max": 0.89996337890625,
+              "count": 742680
+            },
+            "dense": {
+              "mean": 0.00010435727209281336,
+              "rmse": 0.0002630991471180815,
+              "max": 0.00537109375,
+              "count": 742680
+            }
+          },
+          "draws": {
+            "off": {
+              "calls": 5,
+              "triangles": 146434
+            },
+            "previous": {
+              "calls": 6,
+              "triangles": 219650
+            },
+            "candidate": {
+              "calls": 6,
+              "triangles": 219650
+            },
+            "fixed20": {
+              "calls": 6,
+              "triangles": 219650
+            },
+            "reference": {
+              "calls": 6,
+              "triangles": 219650
+            },
+            "dense": {
+              "calls": 6,
+              "triangles": 219650
+            }
+          }
+        },
+        {
+          "label": "resolved-cloud",
+          "radius": 1.05,
+          "phase": 50,
+          "yaw": 0,
+          "fov": 20,
+          "metrics": {
+            "previous": {
+              "channels": 1146594,
+              "mae": 0.25499174075566416,
+              "rmse": 0.8310424522640097,
+              "max": 11,
+              "fullMean": 0.24393,
+              "fullMax": 11
+            },
+            "candidate": {
+              "channels": 1146594,
+              "mae": 0.1281587030806022,
+              "rmse": 0.385244695018618,
+              "max": 4,
+              "fullMean": 0.12269083333333333,
+              "fullMax": 4
+            }
+          },
+          "linear": {
+            "previous": {
+              "mean": 0.0012647218617638416,
+              "rmse": 0.004010170925943442,
+              "max": 0.052978515625,
+              "count": 1387800
+            },
+            "candidate": {
+              "mean": 0.0006135017635808896,
+              "rmse": 0.0017781791539942596,
+              "max": 0.017333984375,
+              "count": 1387800
+            },
+            "fixed20": {
+              "mean": 0.0006135017635808896,
+              "rmse": 0.0017781791539942596,
+              "max": 0.017333984375,
+              "count": 1387800
+            },
+            "dense": {
+              "mean": 1.3575484488432681e-05,
+              "rmse": 5.741139680636972e-05,
+              "max": 0.000732421875,
+              "count": 1387800
+            }
+          },
+          "draws": {
+            "off": {
+              "calls": 5,
+              "triangles": 146434
+            },
+            "previous": {
+              "calls": 6,
+              "triangles": 219650
+            },
+            "candidate": {
+              "calls": 6,
+              "triangles": 219650
+            },
+            "fixed20": {
+              "calls": 6,
+              "triangles": 219650
+            },
+            "reference": {
+              "calls": 6,
+              "triangles": 219650
+            },
+            "dense": {
+              "calls": 6,
+              "triangles": 219650
+            }
+          }
+        }
+      ],
+      "errors": [],
+      "passed": true
+    }
+  ]
+}

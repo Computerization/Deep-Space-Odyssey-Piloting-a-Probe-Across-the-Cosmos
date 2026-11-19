@@ -1,0 +1,96 @@
+{
+  "reports": [
+    {
+      "name": "Node",
+      "cases": [
+        {
+          "range": "bytes=0-1023",
+          "status": 206,
+          "bytes": 1024
+        },
+        {
+          "range": "bytes=-512",
+          "status": 206,
+          "bytes": 512
+        },
+        {
+          "range": "bytes=1009490-",
+          "status": 206,
+          "bytes": 50
+        },
+        {
+          "range": "bytes=1009490-999999999",
+          "status": 206,
+          "bytes": 50
+        },
+        {
+          "range": "bytes=1009540-",
+          "status": 416,
+          "bytes": 0
+        },
+        {
+          "range": "bytes=-0",
+          "status": 416,
+          "bytes": 0
+        },
+        {
+          "range": "bytes=20-10",
+          "status": 200,
+          "bytes": 1009540
+        },
+        {
+          "range": "bytes=0-2,5-8",
+          "status": 200,
+          "bytes": 1009540
+        }
+      ],
+      "headIgnoresRange": true
+    },
+    {
+      "name": "Python",
+      "cases": [
+        {
+          "range": "bytes=0-1023",
+          "status": 206,
+          "bytes": 1024
+        },
+        {
+          "range": "bytes=-512",
+          "status": 206,
+          "bytes": 512
+        },
+        {
+          "range": "bytes=1009490-",
+          "status": 206,
+          "bytes": 50
+        },
+        {
+          "range": "bytes=1009490-999999999",
+          "status": 206,
+          "bytes": 50
+        },
+        {
+          "range": "bytes=1009540-",
+          "status": 416,
+          "bytes": 0
+        },
+        {
+          "range": "bytes=-0",
+          "status": 416,
+          "bytes": 0
+        },
+        {
+          "range": "bytes=20-10",
+          "status": 200,
+          "bytes": 1009540
+        },
+        {
+          "range": "bytes=0-2,5-8",
+          "status": 200,
+          "bytes": 1009540
+        }
+      ],
+      "headIgnoresRange": true
+    }
+  ]
+}

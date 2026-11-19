@@ -1,0 +1,26 @@
+[
+  {
+    "scene": "earth",
+    "maxChannelDifference": 1,
+    "meanChannelDifference": 2.5431315104166668e-05,
+    "changedPixels": 49,
+    "differenceBounds": [
+      170,
+      447,
+      428,
+      541
+    ]
+  },
+  {
+    "scene": "ring-plane",
+    "maxChannelDifference": 1,
+    "meanChannelDifference": 7.120768229166667e-06,
+    "changedPixels": 14,
+    "differenceBounds": [
+      223,
+      463,
+      401,
+      540
+    ]
+  }
+]

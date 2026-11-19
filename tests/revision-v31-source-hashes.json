@@ -1,0 +1,33 @@
+{
+  "version": "0.31.0",
+  "comparedAgainst": "0.30.0",
+  "runtimeFiles": 80,
+  "changed": [
+    {
+      "path": "src/ui/flight.css",
+      "previous": "de98059c92fc50b6ec07081cce5bad2cd21dbae210377fbec610788853f4a1ce",
+      "current": "5c3c8907e6bf4458bb8324e18a0ae39f39df1b41953d0e1187662c195f277f3c"
+    },
+    {
+      "path": "src/ui/settings.js",
+      "previous": "a11418631be8d6e7957216d48f7369d96fd1c7f77b760f98a7fa800c3a887e4a",
+      "current": "739772456e7bca5149e03cbb1f528d6452eb9f1cdb0a06f8f4cf8e8f628de849"
+    },
+    {
+      "path": "src/ui/instruments.js",
+      "previous": null,
+      "current": "028f15a24b437dc68e4fb1ddcd16ae52275507e91416ece82e25f0dd474691cc"
+    },
+    {
+      "path": "src/ui/controls.js",
+      "previous": "3a3a157caa1e6c7df227257d928d3ee54cc8f7712d72be6495a19b8c814ffa68",
+      "current": "e0338cb46dcab6e2423fe64817a6e7ecae4d26f1c71913e865acbdc4971305cd"
+    },
+    {
+      "path": "src/main.js",
+      "previous": "8b342f6179d6c8acc5cd44e54451bc5673ae7f1265d9e060f6b4cab2d4535e5a",
+      "current": "aa1a1310b545fa4a4cf3be24841b11c568ffa240ff6bd70cd5f9ea31fec4028c"
+    }
+  ],
+  "unchangedRuntimeFiles": 75
+}

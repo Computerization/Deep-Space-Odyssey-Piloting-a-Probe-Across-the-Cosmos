@@ -1,0 +1,163 @@
+{
+  "method": "Chrome/Metal, High, fixed camera/time and warmed resident textures. 20 warm-ups, then 80 ABBA full frames when benchmarking. Sync includes a one-pixel readback; GPU is the complete render timer where available. RGBA8 comparisons include the whole display buffer.",
+  "dpr": 2,
+  "reference": "0.107.0",
+  "candidate": "0.108.0",
+  "records": [
+    {
+      "shot": "near",
+      "samples": 0,
+      "cloudPatch": 1,
+      "pixels": [
+        2560,
+        1600
+      ],
+      "layered": true,
+      "resolved": 0,
+      "changedChannels": 0,
+      "maxError": 0,
+      "reference": {
+        "sync": {
+          "count": 40,
+          "medianMs": 46.69999998807907,
+          "p95Ms": 47.5
+        },
+        "gpu": {
+          "count": 40,
+          "medianMs": 45.641583,
+          "p95Ms": 46.264874
+        }
+      },
+      "candidate": {
+        "sync": {
+          "count": 40,
+          "medianMs": 40.700000047683716,
+          "p95Ms": 41.30000001192093
+        },
+        "gpu": {
+          "count": 40,
+          "medianMs": 39.776374,
+          "p95Ms": 40.343208
+        }
+      }
+    },
+    {
+      "shot": "arrival",
+      "samples": 0,
+      "cloudPatch": 1,
+      "pixels": [
+        2560,
+        1600
+      ],
+      "layered": true,
+      "resolved": 0,
+      "changedChannels": 0,
+      "maxError": 0
+    },
+    {
+      "shot": "turn",
+      "samples": 0,
+      "cloudPatch": 1,
+      "pixels": [
+        2560,
+        1600
+      ],
+      "layered": true,
+      "resolved": 0,
+      "changedChannels": 0,
+      "maxError": 0
+    },
+    {
+      "shot": "orbit",
+      "samples": 0,
+      "cloudPatch": 1,
+      "pixels": [
+        2560,
+        1600
+      ],
+      "layered": true,
+      "resolved": 0,
+      "changedChannels": 0,
+      "maxError": 0
+    },
+    {
+      "shot": "limb",
+      "samples": 0,
+      "cloudPatch": 1,
+      "pixels": [
+        2560,
+        1600
+      ],
+      "layered": true,
+      "resolved": 0,
+      "changedChannels": 0,
+      "maxError": 0
+    },
+    {
+      "shot": "zoom",
+      "samples": 0,
+      "cloudPatch": 1,
+      "pixels": [
+        2560,
+        1600
+      ],
+      "layered": true,
+      "resolved": 1,
+      "changedChannels": 0,
+      "maxError": 0
+    },
+    {
+      "shot": "night",
+      "samples": 0,
+      "cloudPatch": 1,
+      "pixels": [
+        2560,
+        1600
+      ],
+      "layered": true,
+      "resolved": 0,
+      "changedChannels": 0,
+      "maxError": 0
+    },
+    {
+      "shot": "pole",
+      "samples": 0,
+      "cloudPatch": 0,
+      "pixels": [
+        2560,
+        1600
+      ],
+      "layered": true,
+      "resolved": 0,
+      "changedChannels": 0,
+      "maxError": 0
+    },
+    {
+      "shot": "seam",
+      "samples": 0,
+      "cloudPatch": 1,
+      "pixels": [
+        2560,
+        1600
+      ],
+      "layered": true,
+      "resolved": 0,
+      "changedChannels": 0,
+      "maxError": 0
+    },
+    {
+      "shot": "direct",
+      "samples": 0,
+      "cloudPatch": 1,
+      "pixels": [
+        2560,
+        1600
+      ],
+      "layered": false,
+      "resolved": 0,
+      "changedChannels": 0,
+      "maxError": 0
+    }
+  ],
+  "errors": []
+}

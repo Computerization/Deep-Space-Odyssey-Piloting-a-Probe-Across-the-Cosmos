@@ -1,0 +1,38 @@
+{
+  "version": "0.33.0",
+  "comparedAgainst": "0.32.0",
+  "runtimeFiles": 80,
+  "changed": [
+    {
+      "path": "style.css",
+      "previous": "c9c917b697f34ab3f98612ed1acb1e537a918533be5b1e2cccd508af92f9603b",
+      "current": "224b4470a9588f698716d9b696660c534feb378095b56cf617e4d6ca35cfa2ae"
+    },
+    {
+      "path": "src/ui/flight.css",
+      "previous": "5c3c8907e6bf4458bb8324e18a0ae39f39df1b41953d0e1187662c195f277f3c",
+      "current": "5de76bfb38d3558c5a4139d91f423a72458a2530a12d3166264bce9dbeed0951"
+    },
+    {
+      "path": "src/main.js",
+      "previous": "aa1a1310b545fa4a4cf3be24841b11c568ffa240ff6bd70cd5f9ea31fec4028c",
+      "current": "1853a57d390eb35153b4b950fe25d658a3c73e6ffeddc97d451e2e861b38dfa4"
+    },
+    {
+      "path": "src/flight-history.js",
+      "previous": "5d4c89aeabd6f54659643640ca4e93fd74b55cbb3d2cd5f711aab2749b2dcf88",
+      "current": "8821e73e0b3e46e4b0ead9044675f6a48880d6722878d85cef3ab6a583c07ddc"
+    },
+    {
+      "path": "src/ui/flight-review.js",
+      "previous": "26c6f27c84414d025f33f8fd1219a7b61f4067bf22470acae7a1a1b75c256beb",
+      "current": "b3f4374344ae839b9f51b266d28ccc42f300520dcbea2f9e3727b92ba02b735a"
+    },
+    {
+      "path": "src/input.js",
+      "previous": "1f8d45d676df779b804015406062f526f642c98df19fcc258ef24d540c6eba4f",
+      "current": "de8f7c383164b892c04c8e90c9ab79073184c3b6b815e3efc7573cc741a9d6bc"
+    }
+  ],
+  "unchangedRuntimeFiles": 74
+}

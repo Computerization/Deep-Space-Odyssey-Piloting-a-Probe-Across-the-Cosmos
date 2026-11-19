@@ -1,0 +1,118 @@
+{
+  "results": [
+    {
+      "name": "Chrome",
+      "engineVersion": "158.0.8127.37",
+      "fields": [
+        {
+          "file": "earth-clouds.avif",
+          "storage": {
+            "levels": 14,
+            "format": 33321,
+            "width": 8192,
+            "height": 4096
+          },
+          "maxDifference": 0,
+          "changedChannels": 0,
+          "scalarBytes": 44739243,
+          "previousRgbaBytes": 178956972,
+          "savedBytes": 134217729,
+          "glError": 0
+        },
+        {
+          "file": "moon-height.webp",
+          "storage": {
+            "levels": 11.491853096329674,
+            "format": 33321,
+            "width": 1440,
+            "height": 720
+          },
+          "maxDifference": 0,
+          "changedChannels": 0,
+          "scalarBytes": 1382351,
+          "previousRgbaBytes": 5529404,
+          "savedBytes": 4147053,
+          "glError": 0
+        }
+      ],
+      "errors": [],
+      "passed": true
+    },
+    {
+      "name": "Firefox",
+      "engineVersion": "153.0",
+      "fields": [
+        {
+          "file": "earth-clouds.avif",
+          "storage": {
+            "levels": 14,
+            "format": 33321,
+            "width": 8192,
+            "height": 4096
+          },
+          "maxDifference": 0,
+          "changedChannels": 0,
+          "scalarBytes": 44739243,
+          "previousRgbaBytes": 178956972,
+          "savedBytes": 134217729,
+          "glError": 0
+        },
+        {
+          "file": "moon-height.webp",
+          "storage": {
+            "levels": 11.491853096329674,
+            "format": 33321,
+            "width": 1440,
+            "height": 720
+          },
+          "maxDifference": 0,
+          "changedChannels": 0,
+          "scalarBytes": 1382351,
+          "previousRgbaBytes": 5529404,
+          "savedBytes": 4147053,
+          "glError": 0
+        }
+      ],
+      "errors": [],
+      "passed": true
+    },
+    {
+      "name": "WebKit",
+      "engineVersion": "26.5",
+      "fields": [
+        {
+          "file": "earth-clouds.avif",
+          "storage": {
+            "levels": 14,
+            "format": 33321,
+            "width": 8192,
+            "height": 4096
+          },
+          "maxDifference": 0,
+          "changedChannels": 0,
+          "scalarBytes": 44739243,
+          "previousRgbaBytes": 178956972,
+          "savedBytes": 134217729,
+          "glError": 0
+        },
+        {
+          "file": "moon-height.webp",
+          "storage": {
+            "levels": 11.491853096329674,
+            "format": 33321,
+            "width": 1440,
+            "height": 720
+          },
+          "maxDifference": 0,
+          "changedChannels": 0,
+          "scalarBytes": 1382351,
+          "previousRgbaBytes": 5529404,
+          "savedBytes": 4147053,
+          "glError": 0
+        }
+      ],
+      "errors": [],
+      "passed": true
+    }
+  ]
+}

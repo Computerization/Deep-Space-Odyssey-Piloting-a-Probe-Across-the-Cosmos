@@ -1,0 +1,383 @@
+{
+  "version": "0.84.0",
+  "geometryOnly": true,
+  "reflectionOnly": true,
+  "gpuScope": "Six reflection-face draws, excluding prefilter and main display",
+  "geometrySourceSha256": "0e87fdf9a19a8dab13affe848de13cc3e9f86d127c3bc7df460bc434390e4fbd",
+  "reflectionRefreshEveryDraw": true,
+  "worldSha256": "dd3048121a79cc4e18e0444286bf53be3381847ff82221d9973c12f56c3a5e4a",
+  "referenceWorldSha256": "dd3048121a79cc4e18e0444286bf53be3381847ff82221d9973c12f56c3a5e4a",
+  "geometryComparison": "Full meshes versus viewport-selected meshes; each chase draw refreshes the reflection. This measures refresh cost, not normal steady-flight frequency.",
+  "method": "1280 x 800 DPR 2, High ratio 1.25 and cloud scale .75. Warm 120 draws per variant; then 64 interleaved ABBA groups on consecutive animation ticks, reported in four chunks of 32 GPU samples per variant. CPU values always measure the complete update.",
+  "samples": [
+    {
+      "label": "Jupiter",
+      "group": 0,
+      "mode": "previous",
+      "gpuSamples": 32,
+      "gpuMedianMs": 1.032291,
+      "gpuP95Ms": 7.691375,
+      "cpuMedianMs": 1.100000023841858,
+      "output": [
+        2560,
+        1600
+      ],
+      "scene": [
+        1600,
+        1000
+      ],
+      "calls": 41,
+      "triangles": 1274484,
+      "memory": {
+        "geometries": 22,
+        "textures": 29
+      }
+    },
+    {
+      "label": "Jupiter",
+      "group": 0,
+      "mode": "current",
+      "gpuSamples": 32,
+      "gpuMedianMs": 0.5435,
+      "gpuP95Ms": 7.362083,
+      "cpuMedianMs": 1.300000011920929,
+      "output": [
+        2560,
+        1600
+      ],
+      "scene": [
+        1600,
+        1000
+      ],
+      "calls": 41,
+      "triangles": 621044,
+      "memory": {
+        "geometries": 22,
+        "textures": 29
+      }
+    },
+    {
+      "label": "Jupiter",
+      "group": 1,
+      "mode": "previous",
+      "gpuSamples": 32,
+      "gpuMedianMs": 0.957083,
+      "gpuP95Ms": 1.348833,
+      "cpuMedianMs": 0.800000011920929,
+      "output": [
+        2560,
+        1600
+      ],
+      "scene": [
+        1600,
+        1000
+      ],
+      "calls": 41,
+      "triangles": 1274484,
+      "memory": {
+        "geometries": 22,
+        "textures": 29
+      }
+    },
+    {
+      "label": "Jupiter",
+      "group": 1,
+      "mode": "current",
+      "gpuSamples": 32,
+      "gpuMedianMs": 0.487874,
+      "gpuP95Ms": 1.173583,
+      "cpuMedianMs": 0.800000011920929,
+      "output": [
+        2560,
+        1600
+      ],
+      "scene": [
+        1600,
+        1000
+      ],
+      "calls": 41,
+      "triangles": 621044,
+      "memory": {
+        "geometries": 22,
+        "textures": 29
+      }
+    },
+    {
+      "label": "Jupiter",
+      "group": 2,
+      "mode": "previous",
+      "gpuSamples": 32,
+      "gpuMedianMs": 1.028625,
+      "gpuP95Ms": 1.228125,
+      "cpuMedianMs": 0.800000011920929,
+      "output": [
+        2560,
+        1600
+      ],
+      "scene": [
+        1600,
+        1000
+      ],
+      "calls": 41,
+      "triangles": 1274484,
+      "memory": {
+        "geometries": 22,
+        "textures": 29
+      }
+    },
+    {
+      "label": "Jupiter",
+      "group": 2,
+      "mode": "current",
+      "gpuSamples": 32,
+      "gpuMedianMs": 0.521333,
+      "gpuP95Ms": 0.970624,
+      "cpuMedianMs": 1,
+      "output": [
+        2560,
+        1600
+      ],
+      "scene": [
+        1600,
+        1000
+      ],
+      "calls": 41,
+      "triangles": 621044,
+      "memory": {
+        "geometries": 22,
+        "textures": 29
+      }
+    },
+    {
+      "label": "Jupiter",
+      "group": 3,
+      "mode": "previous",
+      "gpuSamples": 32,
+      "gpuMedianMs": 1.028416,
+      "gpuP95Ms": 1.691999,
+      "cpuMedianMs": 1.0999999940395355,
+      "output": [
+        2560,
+        1600
+      ],
+      "scene": [
+        1600,
+        1000
+      ],
+      "calls": 41,
+      "triangles": 1274484,
+      "memory": {
+        "geometries": 22,
+        "textures": 29
+      }
+    },
+    {
+      "label": "Jupiter",
+      "group": 3,
+      "mode": "current",
+      "gpuSamples": 32,
+      "gpuMedianMs": 0.533999,
+      "gpuP95Ms": 1.060708,
+      "cpuMedianMs": 1.0999999940395355,
+      "output": [
+        2560,
+        1600
+      ],
+      "scene": [
+        1600,
+        1000
+      ],
+      "calls": 41,
+      "triangles": 621044,
+      "memory": {
+        "geometries": 22,
+        "textures": 29
+      }
+    },
+    {
+      "label": "Saturn",
+      "group": 0,
+      "mode": "previous",
+      "gpuSamples": 32,
+      "gpuMedianMs": 1.114249,
+      "gpuP95Ms": 1.384375,
+      "cpuMedianMs": 1.0999999940395355,
+      "output": [
+        2560,
+        1600
+      ],
+      "scene": [
+        1600,
+        1000
+      ],
+      "calls": 40,
+      "triangles": 1063028,
+      "memory": {
+        "geometries": 22,
+        "textures": 29
+      }
+    },
+    {
+      "label": "Saturn",
+      "group": 0,
+      "mode": "current",
+      "gpuSamples": 32,
+      "gpuMedianMs": 0.608041,
+      "gpuP95Ms": 5.559749,
+      "cpuMedianMs": 0.9000000059604645,
+      "output": [
+        2560,
+        1600
+      ],
+      "scene": [
+        1600,
+        1000
+      ],
+      "calls": 40,
+      "triangles": 553844,
+      "memory": {
+        "geometries": 22,
+        "textures": 29
+      }
+    },
+    {
+      "label": "Saturn",
+      "group": 1,
+      "mode": "previous",
+      "gpuSamples": 32,
+      "gpuMedianMs": 1.15125,
+      "gpuP95Ms": 14.754916,
+      "cpuMedianMs": 0.7999999821186066,
+      "output": [
+        2560,
+        1600
+      ],
+      "scene": [
+        1600,
+        1000
+      ],
+      "calls": 40,
+      "triangles": 1063028,
+      "memory": {
+        "geometries": 22,
+        "textures": 29
+      }
+    },
+    {
+      "label": "Saturn",
+      "group": 1,
+      "mode": "current",
+      "gpuSamples": 32,
+      "gpuMedianMs": 0.695041,
+      "gpuP95Ms": 13.368166,
+      "cpuMedianMs": 0.7000000178813934,
+      "output": [
+        2560,
+        1600
+      ],
+      "scene": [
+        1600,
+        1000
+      ],
+      "calls": 40,
+      "triangles": 553844,
+      "memory": {
+        "geometries": 22,
+        "textures": 29
+      }
+    },
+    {
+      "label": "Saturn",
+      "group": 2,
+      "mode": "previous",
+      "gpuSamples": 32,
+      "gpuMedianMs": 0.981041,
+      "gpuP95Ms": 1.131333,
+      "cpuMedianMs": 1.4000000059604645,
+      "output": [
+        2560,
+        1600
+      ],
+      "scene": [
+        1600,
+        1000
+      ],
+      "calls": 40,
+      "triangles": 1063028,
+      "memory": {
+        "geometries": 22,
+        "textures": 29
+      }
+    },
+    {
+      "label": "Saturn",
+      "group": 2,
+      "mode": "current",
+      "gpuSamples": 32,
+      "gpuMedianMs": 0.513125,
+      "gpuP95Ms": 0.94875,
+      "cpuMedianMs": 1.4000000059604645,
+      "output": [
+        2560,
+        1600
+      ],
+      "scene": [
+        1600,
+        1000
+      ],
+      "calls": 40,
+      "triangles": 553844,
+      "memory": {
+        "geometries": 22,
+        "textures": 29
+      }
+    },
+    {
+      "label": "Saturn",
+      "group": 3,
+      "mode": "previous",
+      "gpuSamples": 32,
+      "gpuMedianMs": 1.113541,
+      "gpuP95Ms": 2.085125,
+      "cpuMedianMs": 1.100000023841858,
+      "output": [
+        2560,
+        1600
+      ],
+      "scene": [
+        1600,
+        1000
+      ],
+      "calls": 40,
+      "triangles": 1063028,
+      "memory": {
+        "geometries": 22,
+        "textures": 29
+      }
+    },
+    {
+      "label": "Saturn",
+      "group": 3,
+      "mode": "current",
+      "gpuSamples": 32,
+      "gpuMedianMs": 0.5685,
+      "gpuP95Ms": 0.686291,
+      "cpuMedianMs": 1,
+      "output": [
+        2560,
+        1600
+      ],
+      "scene": [
+        1600,
+        1000
+      ],
+      "calls": 40,
+      "triangles": 553844,
+      "memory": {
+        "geometries": 22,
+        "textures": 29
+      }
+    }
+  ],
+  "errors": []
+}

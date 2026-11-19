@@ -1,0 +1,23 @@
+{
+  "version": "0.28.0",
+  "changedRuntimeFiles": [
+    "src/ui/flight.css",
+    "src/chart-ephemeris.js",
+    "src/solar-chart-state.js",
+    "assets/chart-ephemeris.bin",
+    "src/ui/solar-chart.js",
+    "src/main.js",
+    "src/ui/flight-hud.js",
+    "src/world.js"
+  ],
+  "hashes": {
+    "src/ui/flight.css": "641a228f313fbd3ef00a64f0dec1ebbf24a453c65f9a325ded6eeaa79dc102e2",
+    "src/chart-ephemeris.js": "8c6818c0fb5ca093b43ff0eb499dbf7e1eb466f4976d6b34d09c106fcba4ed1c",
+    "src/solar-chart-state.js": "7d4d9cb1cb837b0fe3a1ecb6f037a19d36dd393d60184e4afe62801362d42c2b",
+    "assets/chart-ephemeris.bin": "8e96063ed5bfcfc49fc87546674d1b814c271f002accbb8d734e521a0189ab6c",
+    "src/ui/solar-chart.js": "a9681864b41e20fd0457d74d2507b28b6a8194dba4f960d66435a08429b6406b",
+    "src/main.js": "b90474bf54b6720ab6ffa38002951ebd92737224e86e44c0580a60245ef8a894",
+    "src/ui/flight-hud.js": "b790d18ebb1e783eaa6b4f539d0c45408b86d9c4b2d05fff64210c3ae0eb0989",
+    "src/world.js": "7dc692a7dfdb5a6dc3035ed0aa48f69a93587719477b69c359f12d595dfb35e4"
+  }
+}

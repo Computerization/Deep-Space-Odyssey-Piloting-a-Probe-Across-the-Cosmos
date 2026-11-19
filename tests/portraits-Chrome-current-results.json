@@ -1,0 +1,97 @@
+{
+  "engine": "Chrome",
+  "label": "current",
+  "views": [
+    {
+      "body": "earth",
+      "kind": "globe",
+      "file": "tests/screenshots/portrait-Chrome-current-earth-globe.png"
+    },
+    {
+      "body": "earth",
+      "kind": "crescent",
+      "file": "tests/screenshots/portrait-Chrome-current-earth-crescent.png"
+    },
+    {
+      "body": "earth",
+      "kind": "near",
+      "file": "tests/screenshots/portrait-Chrome-current-earth-near.png"
+    },
+    {
+      "body": "moon",
+      "kind": "globe",
+      "file": "tests/screenshots/portrait-Chrome-current-moon-globe.png"
+    },
+    {
+      "body": "moon",
+      "kind": "crescent",
+      "file": "tests/screenshots/portrait-Chrome-current-moon-crescent.png"
+    },
+    {
+      "body": "moon",
+      "kind": "near",
+      "file": "tests/screenshots/portrait-Chrome-current-moon-near.png"
+    },
+    {
+      "body": "io",
+      "kind": "globe",
+      "file": "tests/screenshots/portrait-Chrome-current-io-globe.png"
+    },
+    {
+      "body": "io",
+      "kind": "crescent",
+      "file": "tests/screenshots/portrait-Chrome-current-io-crescent.png"
+    },
+    {
+      "body": "io",
+      "kind": "near",
+      "file": "tests/screenshots/portrait-Chrome-current-io-near.png"
+    },
+    {
+      "body": "jupiter",
+      "kind": "globe",
+      "file": "tests/screenshots/portrait-Chrome-current-jupiter-globe.png"
+    },
+    {
+      "body": "jupiter",
+      "kind": "crescent",
+      "file": "tests/screenshots/portrait-Chrome-current-jupiter-crescent.png"
+    },
+    {
+      "body": "jupiter",
+      "kind": "near",
+      "file": "tests/screenshots/portrait-Chrome-current-jupiter-near.png"
+    },
+    {
+      "body": "saturn",
+      "kind": "globe",
+      "file": "tests/screenshots/portrait-Chrome-current-saturn-globe.png"
+    },
+    {
+      "body": "saturn",
+      "kind": "crescent",
+      "file": "tests/screenshots/portrait-Chrome-current-saturn-crescent.png"
+    },
+    {
+      "body": "saturn",
+      "kind": "near",
+      "file": "tests/screenshots/portrait-Chrome-current-saturn-near.png"
+    },
+    {
+      "body": "titan",
+      "kind": "globe",
+      "file": "tests/screenshots/portrait-Chrome-current-titan-globe.png"
+    },
+    {
+      "body": "titan",
+      "kind": "crescent",
+      "file": "tests/screenshots/portrait-Chrome-current-titan-crescent.png"
+    },
+    {
+      "body": "titan",
+      "kind": "near",
+      "file": "tests/screenshots/portrait-Chrome-current-titan-near.png"
+    }
+  ],
+  "errors": []
+}

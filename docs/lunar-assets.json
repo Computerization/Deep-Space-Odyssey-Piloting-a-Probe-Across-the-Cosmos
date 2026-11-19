@@ -1,0 +1,38 @@
+{
+  "colorDimensions": [
+    4096,
+    2048
+  ],
+  "normalDimensions": [
+    1440,
+    720
+  ],
+  "reliefGrid": [
+    257,
+    145
+  ],
+  "heightKm": [
+    -8.8785,
+    10.504
+  ],
+  "files": {
+    "moon-relief.bin": 74530,
+    "moon.avif": 1138093,
+    "moon-normal.avif": 202257,
+    "moon-height.webp": 447968
+  },
+  "source": "https://svs.gsfc.nasa.gov/4720/",
+  "verticalExaggeration": 1,
+  "shadowHeight": {
+    "dimensions": [
+      1440,
+      720
+    ],
+    "format": "lossless WebP, 8-bit scalar",
+    "decodedRangeKm": [
+      -10,
+      11
+    ],
+    "maximumQuantizationErrorKm": 0.041176470588235294
+  }
+}

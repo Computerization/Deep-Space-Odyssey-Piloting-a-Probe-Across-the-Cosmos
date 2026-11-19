@@ -1,0 +1,146 @@
+{
+  "version": "0.73.0",
+  "previous": "0.72.0",
+  "engine": "158.0.8127.37",
+  "viewport": [
+    1280,
+    800
+  ],
+  "pixelRatio": 1,
+  "quality": "ultra",
+  "hashes": {
+    "shaders.js": {
+      "previous": "0527164b680ee57778992a296ce748af47ae4e72513a3052ce160fb0342e9217",
+      "candidate": "11d384b9114d7b3402137325e073e7245ce7e83a1641443f2262ff6ebb0f3e17"
+    },
+    "ringshine.js": {
+      "previous": "5bd9e4f3b386af8ea89cd38190773acbf0ed2c7571c15458664bc8a750262339",
+      "candidate": "d6a1d5c8f1e4f9e857a4878369e569097b6770995af3bf2ef3e4fd456258ca8e"
+    }
+  },
+  "windows": [
+    {
+      "fov": 58,
+      "mode": "previous",
+      "frames": 50,
+      "median": 0.7999999821186066,
+      "p95": 0.9000000059604645,
+      "calls": 5,
+      "textures": 26,
+      "geometries": 20
+    },
+    {
+      "fov": 58,
+      "mode": "candidate",
+      "frames": 50,
+      "median": 0.5999999940395355,
+      "p95": 0.7999999821186066,
+      "calls": 5,
+      "textures": 26,
+      "geometries": 20
+    },
+    {
+      "fov": 58,
+      "mode": "candidate",
+      "frames": 50,
+      "median": 0.5,
+      "p95": 0.6000000238418579,
+      "calls": 5,
+      "textures": 26,
+      "geometries": 20
+    },
+    {
+      "fov": 58,
+      "mode": "previous",
+      "frames": 50,
+      "median": 0.5,
+      "p95": 0.6000000238418579,
+      "calls": 5,
+      "textures": 26,
+      "geometries": 20
+    },
+    {
+      "fov": 12,
+      "mode": "previous",
+      "frames": 50,
+      "median": 0.5,
+      "p95": 0.5999999940395355,
+      "calls": 5,
+      "textures": 26,
+      "geometries": 20
+    },
+    {
+      "fov": 12,
+      "mode": "candidate",
+      "frames": 50,
+      "median": 0.4000000059604645,
+      "p95": 0.5999999940395355,
+      "calls": 5,
+      "textures": 26,
+      "geometries": 20
+    },
+    {
+      "fov": 12,
+      "mode": "candidate",
+      "frames": 50,
+      "median": 0.5,
+      "p95": 0.6000000238418579,
+      "calls": 5,
+      "textures": 26,
+      "geometries": 20
+    },
+    {
+      "fov": 12,
+      "mode": "previous",
+      "frames": 50,
+      "median": 0.5,
+      "p95": 0.5999999940395355,
+      "calls": 5,
+      "textures": 26,
+      "geometries": 20
+    },
+    {
+      "fov": 4,
+      "mode": "previous",
+      "frames": 50,
+      "median": 0.4000000059604645,
+      "p95": 0.5,
+      "calls": 5,
+      "textures": 26,
+      "geometries": 20
+    },
+    {
+      "fov": 4,
+      "mode": "candidate",
+      "frames": 50,
+      "median": 0.4000000059604645,
+      "p95": 0.6000000238418579,
+      "calls": 5,
+      "textures": 26,
+      "geometries": 20
+    },
+    {
+      "fov": 4,
+      "mode": "candidate",
+      "frames": 50,
+      "median": 0.4000000059604645,
+      "p95": 0.5999999940395355,
+      "calls": 5,
+      "textures": 26,
+      "geometries": 20
+    },
+    {
+      "fov": 4,
+      "mode": "previous",
+      "frames": 50,
+      "median": 0.5,
+      "p95": 0.5999999940395355,
+      "calls": 5,
+      "textures": 26,
+      "geometries": 20
+    }
+  ],
+  "physicalStatePreserved": true,
+  "method": "Completed scene draw wall time: update plus gl.finish; 20 warm-up and 50 timed frames per ABBA window. This is not presented frame rate.",
+  "errors": []
+}

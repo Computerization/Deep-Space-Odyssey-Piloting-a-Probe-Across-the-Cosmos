@@ -1,0 +1,65 @@
+{
+  "decoded": [
+    {
+      "name": "departure",
+      "bytes": 1009556,
+      "seconds": 119.9995,
+      "channels": 2,
+      "peak": 0.5704208612442017,
+      "seam": 0.00013507774929166771,
+      "rms": 0.0549620564852043
+    },
+    {
+      "name": "encounter",
+      "bytes": 1009678,
+      "seconds": 119.9995,
+      "channels": 2,
+      "peak": 0.5996872782707214,
+      "seam": 1.0453173850066833e-05,
+      "rms": 0.05628831162022881
+    },
+    {
+      "name": "rings",
+      "bytes": 1009540,
+      "seconds": 119.9995,
+      "channels": 2,
+      "peak": 0.5118863582611084,
+      "seam": 3.0751729354960844e-05,
+      "rms": 0.055474921297739364
+    },
+    {
+      "name": "distance",
+      "bytes": 1009548,
+      "seconds": 119.9995,
+      "channels": 2,
+      "peak": 0.5664660334587097,
+      "seam": 1.1125082892249338e-05,
+      "rms": 0.059648774182825576
+    }
+  ],
+  "transition": {
+    "minimumRms": 0.01959922273608583,
+    "maximumRms": 0.038755148084131934,
+    "minimumPower": 0.999696363862796,
+    "maximumPower": 1
+  },
+  "rapidSwitch": {
+    "started": true,
+    "state": "running",
+    "track": "rings",
+    "muted": false,
+    "playing": [
+      "rings"
+    ]
+  },
+  "loop": {
+    "time": 2.558928,
+    "paused": false,
+    "ended": false
+  },
+  "ducked": 0.04891718924045563,
+  "paused": 0.2097390592098236,
+  "muted": 7.036569877527654e-05,
+  "restored": 0.598992109298706,
+  "errors": []
+}

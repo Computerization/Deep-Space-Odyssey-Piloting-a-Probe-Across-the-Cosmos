@@ -1,0 +1,23 @@
+{
+  "checks": [
+    "archival film, steady Earth view and same-position handover",
+    "nested back, focus, coasting pause, explicit and shortcut resume",
+    "preference persistence and live system changes without changing a paused transfer",
+    "dated and local charts, compact layout, zero hidden world draws and arrival",
+    "identical dated and local transfer positions, velocities, attitudes and dates in both presentations",
+    "actual Earth framing: meter holds during two corrections, photograph disables, note completes only back on subject"
+  ],
+  "samples": [
+    {
+      "name": "dated",
+      "worldDraws": 0,
+      "progressDelta": 0.04630000000000001
+    },
+    {
+      "name": "local",
+      "worldDraws": 0,
+      "progressDelta": 0.04628888888888896
+    }
+  ],
+  "errors": []
+}

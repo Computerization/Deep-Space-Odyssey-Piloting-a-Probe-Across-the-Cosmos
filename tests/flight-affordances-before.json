@@ -1,0 +1,13 @@
+{
+  "version": "0.42.0",
+  "bearing": {
+    "tag": "DIV",
+    "ariaHidden": "true",
+    "pointerEvents": "none"
+  },
+  "focusedPhotographSpace": {
+    "photos": 0,
+    "timePaused": false,
+    "active": "photo-button"
+  }
+}

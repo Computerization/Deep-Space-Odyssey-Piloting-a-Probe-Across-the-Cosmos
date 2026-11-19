@@ -1,0 +1,38 @@
+[
+  {
+    "id": "earth",
+    "times": [
+      0,
+      7200
+    ],
+    "phases": [
+      0.12,
+      0.12
+    ],
+    "identical": true
+  },
+  {
+    "id": "jupiter",
+    "times": [
+      0,
+      7200
+    ],
+    "phases": [
+      0.82,
+      0.82
+    ],
+    "identical": true
+  },
+  {
+    "id": "saturn",
+    "times": [
+      0,
+      7200
+    ],
+    "phases": [
+      0.25,
+      0.25
+    ],
+    "identical": true
+  }
+]

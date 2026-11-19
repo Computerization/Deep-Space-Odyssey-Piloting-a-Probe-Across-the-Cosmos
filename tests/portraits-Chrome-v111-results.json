@@ -1,0 +1,124 @@
+{
+  "engine": "Chrome",
+  "label": "v111",
+  "views": [
+    {
+      "body": "earth",
+      "kind": "globe",
+      "file": "tests/screenshots/portrait-Chrome-v111-earth-globe.png"
+    },
+    {
+      "body": "earth",
+      "kind": "crescent",
+      "file": "tests/screenshots/portrait-Chrome-v111-earth-crescent.png"
+    },
+    {
+      "body": "earth",
+      "kind": "near",
+      "file": "tests/screenshots/portrait-Chrome-v111-earth-near.png"
+    },
+    {
+      "body": "moon",
+      "kind": "globe",
+      "file": "tests/screenshots/portrait-Chrome-v111-moon-globe.png"
+    },
+    {
+      "body": "moon",
+      "kind": "crescent",
+      "file": "tests/screenshots/portrait-Chrome-v111-moon-crescent.png"
+    },
+    {
+      "body": "moon",
+      "kind": "near",
+      "file": "tests/screenshots/portrait-Chrome-v111-moon-near.png"
+    },
+    {
+      "body": "io",
+      "kind": "globe",
+      "file": "tests/screenshots/portrait-Chrome-v111-io-globe.png"
+    },
+    {
+      "body": "io",
+      "kind": "crescent",
+      "file": "tests/screenshots/portrait-Chrome-v111-io-crescent.png"
+    },
+    {
+      "body": "io",
+      "kind": "near",
+      "file": "tests/screenshots/portrait-Chrome-v111-io-near.png"
+    },
+    {
+      "body": "jupiter",
+      "kind": "globe",
+      "file": "tests/screenshots/portrait-Chrome-v111-jupiter-globe.png"
+    },
+    {
+      "body": "jupiter",
+      "kind": "crescent",
+      "file": "tests/screenshots/portrait-Chrome-v111-jupiter-crescent.png"
+    },
+    {
+      "body": "jupiter",
+      "kind": "near",
+      "file": "tests/screenshots/portrait-Chrome-v111-jupiter-near.png"
+    },
+    {
+      "body": "saturn",
+      "kind": "globe",
+      "file": "tests/screenshots/portrait-Chrome-v111-saturn-globe.png"
+    },
+    {
+      "body": "saturn",
+      "kind": "crescent",
+      "file": "tests/screenshots/portrait-Chrome-v111-saturn-crescent.png"
+    },
+    {
+      "body": "saturn",
+      "kind": "near",
+      "file": "tests/screenshots/portrait-Chrome-v111-saturn-near.png"
+    },
+    {
+      "body": "titan",
+      "kind": "globe",
+      "file": "tests/screenshots/portrait-Chrome-v111-titan-globe.png"
+    },
+    {
+      "body": "titan",
+      "kind": "crescent",
+      "file": "tests/screenshots/portrait-Chrome-v111-titan-crescent.png"
+    },
+    {
+      "body": "titan",
+      "kind": "near",
+      "file": "tests/screenshots/portrait-Chrome-v111-titan-near.png"
+    }
+  ],
+  "stars": [
+    {
+      "shift": -0.45,
+      "flux": 19.783477783203125,
+      "centroid": 7.042163505665122
+    },
+    {
+      "shift": -0.17,
+      "flux": 19.795379638671875,
+      "centroid": 7.315713476347211
+    },
+    {
+      "shift": 0,
+      "flux": 19.804382801055908,
+      "centroid": 7.481130661040655
+    },
+    {
+      "shift": 0.22,
+      "flux": 19.815789222717285,
+      "centroid": 7.6922193718744225
+    },
+    {
+      "shift": 0.45,
+      "flux": 19.828153610229492,
+      "centroid": 7.920579668656054
+    }
+  ],
+  "errors": []
+}

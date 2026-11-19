@@ -1,0 +1,2567 @@
+{
+  "version": "0.28.0",
+  "outcomes": [
+    {
+      "name": "Chrome",
+      "engineVersion": "158.0.8127.37",
+      "layouts": [
+        {
+          "width": 1440,
+          "height": 900,
+          "chapter": 0,
+          "study": null,
+          "controls": [
+            {
+              "selector": "[data-action=depart]",
+              "top": 828.8125,
+              "bottom": 880,
+              "height": 51.1875,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=review]",
+              "top": 832.40625,
+              "bottom": 876.40625,
+              "height": 44,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=study][data-value=\"moon\"]",
+              "top": 424.734375,
+              "bottom": 473.734375,
+              "height": 49,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=study][data-value=\"earth-shadow\"]",
+              "top": 473.734375,
+              "bottom": 522.734375,
+              "height": 49,
+              "visible": true
+            }
+          ],
+          "horizontalOverflow": false
+        },
+        {
+          "width": 1440,
+          "height": 900,
+          "chapter": 0,
+          "study": "moon",
+          "controls": [
+            {
+              "selector": "[data-action=depart]",
+              "top": 828.8125,
+              "bottom": 880,
+              "height": 51.1875,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=review]",
+              "top": 832.40625,
+              "bottom": 876.40625,
+              "height": 44,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=study][data-value=\"moon\"]",
+              "top": 424.734375,
+              "bottom": 473.734375,
+              "height": 49,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=study][data-value=\"earth-shadow\"]",
+              "top": 473.734375,
+              "bottom": 522.734375,
+              "height": 49,
+              "visible": true
+            }
+          ],
+          "horizontalOverflow": false
+        },
+        {
+          "width": 1440,
+          "height": 900,
+          "chapter": 0,
+          "study": "earth-shadow",
+          "controls": [
+            {
+              "selector": "[data-action=depart]",
+              "top": 828.8125,
+              "bottom": 880,
+              "height": 51.1875,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=review]",
+              "top": 832.40625,
+              "bottom": 876.40625,
+              "height": 44,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=study][data-value=\"moon\"]",
+              "top": 424.734375,
+              "bottom": 473.734375,
+              "height": 49,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=study][data-value=\"earth-shadow\"]",
+              "top": 473.734375,
+              "bottom": 522.734375,
+              "height": 49,
+              "visible": true
+            }
+          ],
+          "horizontalOverflow": false
+        },
+        {
+          "width": 1440,
+          "height": 900,
+          "chapter": 1,
+          "study": null,
+          "controls": [
+            {
+              "selector": "[data-action=depart]",
+              "top": 828.8125,
+              "bottom": 880,
+              "height": 51.1875,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=review]",
+              "top": 832.40625,
+              "bottom": 876.40625,
+              "height": 44,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=study][data-value=\"io\"]",
+              "top": 424.734375,
+              "bottom": 473.734375,
+              "height": 49,
+              "visible": true
+            }
+          ],
+          "horizontalOverflow": false
+        },
+        {
+          "width": 1440,
+          "height": 900,
+          "chapter": 1,
+          "study": "io",
+          "controls": [
+            {
+              "selector": "[data-action=depart]",
+              "top": 828.8125,
+              "bottom": 880,
+              "height": 51.1875,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=review]",
+              "top": 832.40625,
+              "bottom": 876.40625,
+              "height": 44,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=study][data-value=\"io\"]",
+              "top": 424.734375,
+              "bottom": 473.734375,
+              "height": 49,
+              "visible": true
+            }
+          ],
+          "horizontalOverflow": false
+        },
+        {
+          "width": 1440,
+          "height": 900,
+          "chapter": 2,
+          "study": null,
+          "controls": [
+            {
+              "selector": "[data-action=depart]",
+              "top": 828.8125,
+              "bottom": 880,
+              "height": 51.1875,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=review]",
+              "top": 832.40625,
+              "bottom": 876.40625,
+              "height": 44,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=study][data-value=\"titan\"]",
+              "top": 424.734375,
+              "bottom": 473.734375,
+              "height": 49,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=study][data-value=\"ring-plane\"]",
+              "top": 473.734375,
+              "bottom": 522.734375,
+              "height": 49,
+              "visible": true
+            }
+          ],
+          "horizontalOverflow": false
+        },
+        {
+          "width": 1440,
+          "height": 900,
+          "chapter": 2,
+          "study": "titan",
+          "controls": [
+            {
+              "selector": "[data-action=depart]",
+              "top": 828.8125,
+              "bottom": 880,
+              "height": 51.1875,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=review]",
+              "top": 832.40625,
+              "bottom": 876.40625,
+              "height": 44,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=study][data-value=\"titan\"]",
+              "top": 424.734375,
+              "bottom": 473.734375,
+              "height": 49,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=study][data-value=\"ring-plane\"]",
+              "top": 473.734375,
+              "bottom": 522.734375,
+              "height": 49,
+              "visible": true
+            }
+          ],
+          "horizontalOverflow": false
+        },
+        {
+          "width": 1440,
+          "height": 900,
+          "chapter": 2,
+          "study": "ring-plane",
+          "controls": [
+            {
+              "selector": "[data-action=depart]",
+              "top": 828.8125,
+              "bottom": 880,
+              "height": 51.1875,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=review]",
+              "top": 832.40625,
+              "bottom": 876.40625,
+              "height": 44,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=study][data-value=\"titan\"]",
+              "top": 424.734375,
+              "bottom": 473.734375,
+              "height": 49,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=study][data-value=\"ring-plane\"]",
+              "top": 473.734375,
+              "bottom": 522.734375,
+              "height": 49,
+              "visible": true
+            }
+          ],
+          "horizontalOverflow": false
+        },
+        {
+          "width": 1280,
+          "height": 800,
+          "chapter": 0,
+          "study": null,
+          "controls": [
+            {
+              "selector": "[data-action=depart]",
+              "top": 728.8125,
+              "bottom": 780,
+              "height": 51.1875,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=review]",
+              "top": 732.40625,
+              "bottom": 776.40625,
+              "height": 44,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=study][data-value=\"moon\"]",
+              "top": 424.734375,
+              "bottom": 473.734375,
+              "height": 49,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=study][data-value=\"earth-shadow\"]",
+              "top": 473.734375,
+              "bottom": 522.734375,
+              "height": 49,
+              "visible": true
+            }
+          ],
+          "horizontalOverflow": false
+        },
+        {
+          "width": 1280,
+          "height": 800,
+          "chapter": 0,
+          "study": "moon",
+          "controls": [
+            {
+              "selector": "[data-action=depart]",
+              "top": 728.8125,
+              "bottom": 780,
+              "height": 51.1875,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=review]",
+              "top": 732.40625,
+              "bottom": 776.40625,
+              "height": 44,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=study][data-value=\"moon\"]",
+              "top": 424.734375,
+              "bottom": 473.734375,
+              "height": 49,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=study][data-value=\"earth-shadow\"]",
+              "top": 473.734375,
+              "bottom": 522.734375,
+              "height": 49,
+              "visible": true
+            }
+          ],
+          "horizontalOverflow": false
+        },
+        {
+          "width": 1280,
+          "height": 800,
+          "chapter": 0,
+          "study": "earth-shadow",
+          "controls": [
+            {
+              "selector": "[data-action=depart]",
+              "top": 728.8125,
+              "bottom": 780,
+              "height": 51.1875,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=review]",
+              "top": 732.40625,
+              "bottom": 776.40625,
+              "height": 44,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=study][data-value=\"moon\"]",
+              "top": 424.734375,
+              "bottom": 473.734375,
+              "height": 49,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=study][data-value=\"earth-shadow\"]",
+              "top": 473.734375,
+              "bottom": 522.734375,
+              "height": 49,
+              "visible": true
+            }
+          ],
+          "horizontalOverflow": false
+        },
+        {
+          "width": 1280,
+          "height": 800,
+          "chapter": 1,
+          "study": null,
+          "controls": [
+            {
+              "selector": "[data-action=depart]",
+              "top": 728.8125,
+              "bottom": 780,
+              "height": 51.1875,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=review]",
+              "top": 732.40625,
+              "bottom": 776.40625,
+              "height": 44,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=study][data-value=\"io\"]",
+              "top": 424.734375,
+              "bottom": 473.734375,
+              "height": 49,
+              "visible": true
+            }
+          ],
+          "horizontalOverflow": false
+        },
+        {
+          "width": 1280,
+          "height": 800,
+          "chapter": 1,
+          "study": "io",
+          "controls": [
+            {
+              "selector": "[data-action=depart]",
+              "top": 728.8125,
+              "bottom": 780,
+              "height": 51.1875,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=review]",
+              "top": 732.40625,
+              "bottom": 776.40625,
+              "height": 44,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=study][data-value=\"io\"]",
+              "top": 424.734375,
+              "bottom": 473.734375,
+              "height": 49,
+              "visible": true
+            }
+          ],
+          "horizontalOverflow": false
+        },
+        {
+          "width": 1280,
+          "height": 800,
+          "chapter": 2,
+          "study": null,
+          "controls": [
+            {
+              "selector": "[data-action=depart]",
+              "top": 728.8125,
+              "bottom": 780,
+              "height": 51.1875,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=review]",
+              "top": 732.40625,
+              "bottom": 776.40625,
+              "height": 44,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=study][data-value=\"titan\"]",
+              "top": 424.734375,
+              "bottom": 473.734375,
+              "height": 49,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=study][data-value=\"ring-plane\"]",
+              "top": 473.734375,
+              "bottom": 522.734375,
+              "height": 49,
+              "visible": true
+            }
+          ],
+          "horizontalOverflow": false
+        },
+        {
+          "width": 1280,
+          "height": 800,
+          "chapter": 2,
+          "study": "titan",
+          "controls": [
+            {
+              "selector": "[data-action=depart]",
+              "top": 728.8125,
+              "bottom": 780,
+              "height": 51.1875,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=review]",
+              "top": 732.40625,
+              "bottom": 776.40625,
+              "height": 44,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=study][data-value=\"titan\"]",
+              "top": 424.734375,
+              "bottom": 473.734375,
+              "height": 49,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=study][data-value=\"ring-plane\"]",
+              "top": 473.734375,
+              "bottom": 522.734375,
+              "height": 49,
+              "visible": true
+            }
+          ],
+          "horizontalOverflow": false
+        },
+        {
+          "width": 1280,
+          "height": 800,
+          "chapter": 2,
+          "study": "ring-plane",
+          "controls": [
+            {
+              "selector": "[data-action=depart]",
+              "top": 728.8125,
+              "bottom": 780,
+              "height": 51.1875,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=review]",
+              "top": 732.40625,
+              "bottom": 776.40625,
+              "height": 44,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=study][data-value=\"titan\"]",
+              "top": 424.734375,
+              "bottom": 473.734375,
+              "height": 49,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=study][data-value=\"ring-plane\"]",
+              "top": 473.734375,
+              "bottom": 522.734375,
+              "height": 49,
+              "visible": true
+            }
+          ],
+          "horizontalOverflow": false
+        },
+        {
+          "width": 1024,
+          "height": 640,
+          "chapter": 0,
+          "study": null,
+          "controls": [
+            {
+              "selector": "[data-action=depart]",
+              "top": 577.40625,
+              "bottom": 626,
+              "height": 48.59375,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=review]",
+              "top": 579.703125,
+              "bottom": 623.703125,
+              "height": 44,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=study][data-value=\"moon\"]",
+              "top": 364.390625,
+              "bottom": 408.390625,
+              "height": 44,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=study][data-value=\"earth-shadow\"]",
+              "top": 408.390625,
+              "bottom": 452.390625,
+              "height": 44,
+              "visible": true
+            }
+          ],
+          "horizontalOverflow": false
+        },
+        {
+          "width": 1024,
+          "height": 640,
+          "chapter": 0,
+          "study": "moon",
+          "controls": [
+            {
+              "selector": "[data-action=depart]",
+              "top": 577.40625,
+              "bottom": 626,
+              "height": 48.59375,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=review]",
+              "top": 579.703125,
+              "bottom": 623.703125,
+              "height": 44,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=study][data-value=\"moon\"]",
+              "top": 364.390625,
+              "bottom": 408.390625,
+              "height": 44,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=study][data-value=\"earth-shadow\"]",
+              "top": 408.390625,
+              "bottom": 452.390625,
+              "height": 44,
+              "visible": true
+            }
+          ],
+          "horizontalOverflow": false
+        },
+        {
+          "width": 1024,
+          "height": 640,
+          "chapter": 0,
+          "study": "earth-shadow",
+          "controls": [
+            {
+              "selector": "[data-action=depart]",
+              "top": 577.40625,
+              "bottom": 626,
+              "height": 48.59375,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=review]",
+              "top": 579.703125,
+              "bottom": 623.703125,
+              "height": 44,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=study][data-value=\"moon\"]",
+              "top": 364.390625,
+              "bottom": 408.390625,
+              "height": 44,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=study][data-value=\"earth-shadow\"]",
+              "top": 408.390625,
+              "bottom": 452.390625,
+              "height": 44,
+              "visible": true
+            }
+          ],
+          "horizontalOverflow": false
+        },
+        {
+          "width": 1024,
+          "height": 640,
+          "chapter": 1,
+          "study": null,
+          "controls": [
+            {
+              "selector": "[data-action=depart]",
+              "top": 577.40625,
+              "bottom": 626,
+              "height": 48.59375,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=review]",
+              "top": 579.703125,
+              "bottom": 623.703125,
+              "height": 44,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=study][data-value=\"io\"]",
+              "top": 364.390625,
+              "bottom": 408.390625,
+              "height": 44,
+              "visible": true
+            }
+          ],
+          "horizontalOverflow": false
+        },
+        {
+          "width": 1024,
+          "height": 640,
+          "chapter": 1,
+          "study": "io",
+          "controls": [
+            {
+              "selector": "[data-action=depart]",
+              "top": 577.40625,
+              "bottom": 626,
+              "height": 48.59375,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=review]",
+              "top": 579.703125,
+              "bottom": 623.703125,
+              "height": 44,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=study][data-value=\"io\"]",
+              "top": 364.390625,
+              "bottom": 408.390625,
+              "height": 44,
+              "visible": true
+            }
+          ],
+          "horizontalOverflow": false
+        },
+        {
+          "width": 1024,
+          "height": 640,
+          "chapter": 2,
+          "study": null,
+          "controls": [
+            {
+              "selector": "[data-action=depart]",
+              "top": 577.40625,
+              "bottom": 626,
+              "height": 48.59375,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=review]",
+              "top": 579.703125,
+              "bottom": 623.703125,
+              "height": 44,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=study][data-value=\"titan\"]",
+              "top": 364.390625,
+              "bottom": 408.390625,
+              "height": 44,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=study][data-value=\"ring-plane\"]",
+              "top": 408.390625,
+              "bottom": 452.390625,
+              "height": 44,
+              "visible": true
+            }
+          ],
+          "horizontalOverflow": false
+        },
+        {
+          "width": 1024,
+          "height": 640,
+          "chapter": 2,
+          "study": "titan",
+          "controls": [
+            {
+              "selector": "[data-action=depart]",
+              "top": 577.40625,
+              "bottom": 626,
+              "height": 48.59375,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=review]",
+              "top": 579.703125,
+              "bottom": 623.703125,
+              "height": 44,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=study][data-value=\"titan\"]",
+              "top": 364.390625,
+              "bottom": 408.390625,
+              "height": 44,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=study][data-value=\"ring-plane\"]",
+              "top": 408.390625,
+              "bottom": 452.390625,
+              "height": 44,
+              "visible": true
+            }
+          ],
+          "horizontalOverflow": false
+        },
+        {
+          "width": 1024,
+          "height": 640,
+          "chapter": 2,
+          "study": "ring-plane",
+          "controls": [
+            {
+              "selector": "[data-action=depart]",
+              "top": 577.40625,
+              "bottom": 626,
+              "height": 48.59375,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=review]",
+              "top": 579.703125,
+              "bottom": 623.703125,
+              "height": 44,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=study][data-value=\"titan\"]",
+              "top": 364.390625,
+              "bottom": 408.390625,
+              "height": 44,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=study][data-value=\"ring-plane\"]",
+              "top": 408.390625,
+              "bottom": 452.390625,
+              "height": 44,
+              "visible": true
+            }
+          ],
+          "horizontalOverflow": false
+        }
+      ],
+      "errors": [],
+      "passed": true
+    },
+    {
+      "name": "Firefox",
+      "engineVersion": "153.0",
+      "layouts": [
+        {
+          "width": 1440,
+          "height": 900,
+          "chapter": 0,
+          "study": null,
+          "controls": [
+            {
+              "selector": "[data-action=depart]",
+              "top": 828.7999877929688,
+              "bottom": 879.9999847412109,
+              "height": 51.19999694824219,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=review]",
+              "top": 832.4000244140625,
+              "bottom": 876.4000244140625,
+              "height": 44,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=study][data-value=\"moon\"]",
+              "top": 424.75,
+              "bottom": 473.75,
+              "height": 49,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=study][data-value=\"earth-shadow\"]",
+              "top": 473.75,
+              "bottom": 522.75,
+              "height": 49,
+              "visible": true
+            }
+          ],
+          "horizontalOverflow": false
+        },
+        {
+          "width": 1440,
+          "height": 900,
+          "chapter": 0,
+          "study": "moon",
+          "controls": [
+            {
+              "selector": "[data-action=depart]",
+              "top": 828.7999877929688,
+              "bottom": 879.9999847412109,
+              "height": 51.19999694824219,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=review]",
+              "top": 832.4000244140625,
+              "bottom": 876.4000244140625,
+              "height": 44,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=study][data-value=\"moon\"]",
+              "top": 424.75,
+              "bottom": 473.75,
+              "height": 49,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=study][data-value=\"earth-shadow\"]",
+              "top": 473.75,
+              "bottom": 522.75,
+              "height": 49,
+              "visible": true
+            }
+          ],
+          "horizontalOverflow": false
+        },
+        {
+          "width": 1440,
+          "height": 900,
+          "chapter": 0,
+          "study": "earth-shadow",
+          "controls": [
+            {
+              "selector": "[data-action=depart]",
+              "top": 828.7999877929688,
+              "bottom": 879.9999847412109,
+              "height": 51.19999694824219,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=review]",
+              "top": 832.4000244140625,
+              "bottom": 876.4000244140625,
+              "height": 44,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=study][data-value=\"moon\"]",
+              "top": 424.75,
+              "bottom": 473.75,
+              "height": 49,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=study][data-value=\"earth-shadow\"]",
+              "top": 473.75,
+              "bottom": 522.75,
+              "height": 49,
+              "visible": true
+            }
+          ],
+          "horizontalOverflow": false
+        },
+        {
+          "width": 1440,
+          "height": 900,
+          "chapter": 1,
+          "study": null,
+          "controls": [
+            {
+              "selector": "[data-action=depart]",
+              "top": 828.7999877929688,
+              "bottom": 879.9999847412109,
+              "height": 51.19999694824219,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=review]",
+              "top": 832.4000244140625,
+              "bottom": 876.4000244140625,
+              "height": 44,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=study][data-value=\"io\"]",
+              "top": 424.75,
+              "bottom": 473.75,
+              "height": 49,
+              "visible": true
+            }
+          ],
+          "horizontalOverflow": false
+        },
+        {
+          "width": 1440,
+          "height": 900,
+          "chapter": 1,
+          "study": "io",
+          "controls": [
+            {
+              "selector": "[data-action=depart]",
+              "top": 828.7999877929688,
+              "bottom": 879.9999847412109,
+              "height": 51.19999694824219,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=review]",
+              "top": 832.4000244140625,
+              "bottom": 876.4000244140625,
+              "height": 44,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=study][data-value=\"io\"]",
+              "top": 424.75,
+              "bottom": 473.75,
+              "height": 49,
+              "visible": true
+            }
+          ],
+          "horizontalOverflow": false
+        },
+        {
+          "width": 1440,
+          "height": 900,
+          "chapter": 2,
+          "study": null,
+          "controls": [
+            {
+              "selector": "[data-action=depart]",
+              "top": 828.7999877929688,
+              "bottom": 879.9999847412109,
+              "height": 51.19999694824219,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=review]",
+              "top": 832.4000244140625,
+              "bottom": 876.4000244140625,
+              "height": 44,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=study][data-value=\"titan\"]",
+              "top": 424.75,
+              "bottom": 473.75,
+              "height": 49,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=study][data-value=\"ring-plane\"]",
+              "top": 473.75,
+              "bottom": 522.75,
+              "height": 49,
+              "visible": true
+            }
+          ],
+          "horizontalOverflow": false
+        },
+        {
+          "width": 1440,
+          "height": 900,
+          "chapter": 2,
+          "study": "titan",
+          "controls": [
+            {
+              "selector": "[data-action=depart]",
+              "top": 828.7999877929688,
+              "bottom": 879.9999847412109,
+              "height": 51.19999694824219,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=review]",
+              "top": 832.4000244140625,
+              "bottom": 876.4000244140625,
+              "height": 44,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=study][data-value=\"titan\"]",
+              "top": 424.75,
+              "bottom": 473.75,
+              "height": 49,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=study][data-value=\"ring-plane\"]",
+              "top": 473.75,
+              "bottom": 522.75,
+              "height": 49,
+              "visible": true
+            }
+          ],
+          "horizontalOverflow": false
+        },
+        {
+          "width": 1440,
+          "height": 900,
+          "chapter": 2,
+          "study": "ring-plane",
+          "controls": [
+            {
+              "selector": "[data-action=depart]",
+              "top": 828.7999877929688,
+              "bottom": 879.9999847412109,
+              "height": 51.19999694824219,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=review]",
+              "top": 832.4000244140625,
+              "bottom": 876.4000244140625,
+              "height": 44,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=study][data-value=\"titan\"]",
+              "top": 424.75,
+              "bottom": 473.75,
+              "height": 49,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=study][data-value=\"ring-plane\"]",
+              "top": 473.75,
+              "bottom": 522.75,
+              "height": 49,
+              "visible": true
+            }
+          ],
+          "horizontalOverflow": false
+        },
+        {
+          "width": 1280,
+          "height": 800,
+          "chapter": 0,
+          "study": null,
+          "controls": [
+            {
+              "selector": "[data-action=depart]",
+              "top": 728.7999877929688,
+              "bottom": 779.9999847412109,
+              "height": 51.19999694824219,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=review]",
+              "top": 732.4000244140625,
+              "bottom": 776.4000244140625,
+              "height": 44,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=study][data-value=\"moon\"]",
+              "top": 424.75,
+              "bottom": 473.75,
+              "height": 49,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=study][data-value=\"earth-shadow\"]",
+              "top": 473.75,
+              "bottom": 522.75,
+              "height": 49,
+              "visible": true
+            }
+          ],
+          "horizontalOverflow": false
+        },
+        {
+          "width": 1280,
+          "height": 800,
+          "chapter": 0,
+          "study": "moon",
+          "controls": [
+            {
+              "selector": "[data-action=depart]",
+              "top": 728.7999877929688,
+              "bottom": 779.9999847412109,
+              "height": 51.19999694824219,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=review]",
+              "top": 732.4000244140625,
+              "bottom": 776.4000244140625,
+              "height": 44,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=study][data-value=\"moon\"]",
+              "top": 424.75,
+              "bottom": 473.75,
+              "height": 49,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=study][data-value=\"earth-shadow\"]",
+              "top": 473.75,
+              "bottom": 522.75,
+              "height": 49,
+              "visible": true
+            }
+          ],
+          "horizontalOverflow": false
+        },
+        {
+          "width": 1280,
+          "height": 800,
+          "chapter": 0,
+          "study": "earth-shadow",
+          "controls": [
+            {
+              "selector": "[data-action=depart]",
+              "top": 728.7999877929688,
+              "bottom": 779.9999847412109,
+              "height": 51.19999694824219,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=review]",
+              "top": 732.4000244140625,
+              "bottom": 776.4000244140625,
+              "height": 44,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=study][data-value=\"moon\"]",
+              "top": 424.75,
+              "bottom": 473.75,
+              "height": 49,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=study][data-value=\"earth-shadow\"]",
+              "top": 473.75,
+              "bottom": 522.75,
+              "height": 49,
+              "visible": true
+            }
+          ],
+          "horizontalOverflow": false
+        },
+        {
+          "width": 1280,
+          "height": 800,
+          "chapter": 1,
+          "study": null,
+          "controls": [
+            {
+              "selector": "[data-action=depart]",
+              "top": 728.7999877929688,
+              "bottom": 779.9999847412109,
+              "height": 51.19999694824219,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=review]",
+              "top": 732.4000244140625,
+              "bottom": 776.4000244140625,
+              "height": 44,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=study][data-value=\"io\"]",
+              "top": 424.75,
+              "bottom": 473.75,
+              "height": 49,
+              "visible": true
+            }
+          ],
+          "horizontalOverflow": false
+        },
+        {
+          "width": 1280,
+          "height": 800,
+          "chapter": 1,
+          "study": "io",
+          "controls": [
+            {
+              "selector": "[data-action=depart]",
+              "top": 728.7999877929688,
+              "bottom": 779.9999847412109,
+              "height": 51.19999694824219,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=review]",
+              "top": 732.4000244140625,
+              "bottom": 776.4000244140625,
+              "height": 44,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=study][data-value=\"io\"]",
+              "top": 424.75,
+              "bottom": 473.75,
+              "height": 49,
+              "visible": true
+            }
+          ],
+          "horizontalOverflow": false
+        },
+        {
+          "width": 1280,
+          "height": 800,
+          "chapter": 2,
+          "study": null,
+          "controls": [
+            {
+              "selector": "[data-action=depart]",
+              "top": 728.7999877929688,
+              "bottom": 779.9999847412109,
+              "height": 51.19999694824219,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=review]",
+              "top": 732.4000244140625,
+              "bottom": 776.4000244140625,
+              "height": 44,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=study][data-value=\"titan\"]",
+              "top": 424.75,
+              "bottom": 473.75,
+              "height": 49,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=study][data-value=\"ring-plane\"]",
+              "top": 473.75,
+              "bottom": 522.75,
+              "height": 49,
+              "visible": true
+            }
+          ],
+          "horizontalOverflow": false
+        },
+        {
+          "width": 1280,
+          "height": 800,
+          "chapter": 2,
+          "study": "titan",
+          "controls": [
+            {
+              "selector": "[data-action=depart]",
+              "top": 728.7999877929688,
+              "bottom": 779.9999847412109,
+              "height": 51.19999694824219,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=review]",
+              "top": 732.4000244140625,
+              "bottom": 776.4000244140625,
+              "height": 44,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=study][data-value=\"titan\"]",
+              "top": 424.75,
+              "bottom": 473.75,
+              "height": 49,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=study][data-value=\"ring-plane\"]",
+              "top": 473.75,
+              "bottom": 522.75,
+              "height": 49,
+              "visible": true
+            }
+          ],
+          "horizontalOverflow": false
+        },
+        {
+          "width": 1280,
+          "height": 800,
+          "chapter": 2,
+          "study": "ring-plane",
+          "controls": [
+            {
+              "selector": "[data-action=depart]",
+              "top": 728.7999877929688,
+              "bottom": 779.9999847412109,
+              "height": 51.19999694824219,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=review]",
+              "top": 732.4000244140625,
+              "bottom": 776.4000244140625,
+              "height": 44,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=study][data-value=\"titan\"]",
+              "top": 424.75,
+              "bottom": 473.75,
+              "height": 49,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=study][data-value=\"ring-plane\"]",
+              "top": 473.75,
+              "bottom": 522.75,
+              "height": 49,
+              "visible": true
+            }
+          ],
+          "horizontalOverflow": false
+        },
+        {
+          "width": 1024,
+          "height": 640,
+          "chapter": 0,
+          "study": null,
+          "controls": [
+            {
+              "selector": "[data-action=depart]",
+              "top": 577.4000244140625,
+              "bottom": 626.0000305175781,
+              "height": 48.600006103515625,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=review]",
+              "top": 579.7000122070312,
+              "bottom": 623.7000122070312,
+              "height": 44,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=study][data-value=\"moon\"]",
+              "top": 364.3999938964844,
+              "bottom": 408.3999938964844,
+              "height": 44,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=study][data-value=\"earth-shadow\"]",
+              "top": 408.3999938964844,
+              "bottom": 452.3999938964844,
+              "height": 44,
+              "visible": true
+            }
+          ],
+          "horizontalOverflow": false
+        },
+        {
+          "width": 1024,
+          "height": 640,
+          "chapter": 0,
+          "study": "moon",
+          "controls": [
+            {
+              "selector": "[data-action=depart]",
+              "top": 577.4000244140625,
+              "bottom": 626.0000305175781,
+              "height": 48.600006103515625,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=review]",
+              "top": 579.7000122070312,
+              "bottom": 623.7000122070312,
+              "height": 44,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=study][data-value=\"moon\"]",
+              "top": 364.3999938964844,
+              "bottom": 408.3999938964844,
+              "height": 44,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=study][data-value=\"earth-shadow\"]",
+              "top": 408.3999938964844,
+              "bottom": 452.3999938964844,
+              "height": 44,
+              "visible": true
+            }
+          ],
+          "horizontalOverflow": false
+        },
+        {
+          "width": 1024,
+          "height": 640,
+          "chapter": 0,
+          "study": "earth-shadow",
+          "controls": [
+            {
+              "selector": "[data-action=depart]",
+              "top": 577.4000244140625,
+              "bottom": 626.0000305175781,
+              "height": 48.600006103515625,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=review]",
+              "top": 579.7000122070312,
+              "bottom": 623.7000122070312,
+              "height": 44,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=study][data-value=\"moon\"]",
+              "top": 364.3999938964844,
+              "bottom": 408.3999938964844,
+              "height": 44,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=study][data-value=\"earth-shadow\"]",
+              "top": 408.3999938964844,
+              "bottom": 452.3999938964844,
+              "height": 44,
+              "visible": true
+            }
+          ],
+          "horizontalOverflow": false
+        },
+        {
+          "width": 1024,
+          "height": 640,
+          "chapter": 1,
+          "study": null,
+          "controls": [
+            {
+              "selector": "[data-action=depart]",
+              "top": 577.4000244140625,
+              "bottom": 626.0000305175781,
+              "height": 48.600006103515625,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=review]",
+              "top": 579.7000122070312,
+              "bottom": 623.7000122070312,
+              "height": 44,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=study][data-value=\"io\"]",
+              "top": 364.3999938964844,
+              "bottom": 408.3999938964844,
+              "height": 44,
+              "visible": true
+            }
+          ],
+          "horizontalOverflow": false
+        },
+        {
+          "width": 1024,
+          "height": 640,
+          "chapter": 1,
+          "study": "io",
+          "controls": [
+            {
+              "selector": "[data-action=depart]",
+              "top": 577.4000244140625,
+              "bottom": 626.0000305175781,
+              "height": 48.600006103515625,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=review]",
+              "top": 579.7000122070312,
+              "bottom": 623.7000122070312,
+              "height": 44,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=study][data-value=\"io\"]",
+              "top": 364.3999938964844,
+              "bottom": 408.3999938964844,
+              "height": 44,
+              "visible": true
+            }
+          ],
+          "horizontalOverflow": false
+        },
+        {
+          "width": 1024,
+          "height": 640,
+          "chapter": 2,
+          "study": null,
+          "controls": [
+            {
+              "selector": "[data-action=depart]",
+              "top": 577.4000244140625,
+              "bottom": 626.0000305175781,
+              "height": 48.600006103515625,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=review]",
+              "top": 579.7000122070312,
+              "bottom": 623.7000122070312,
+              "height": 44,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=study][data-value=\"titan\"]",
+              "top": 364.3999938964844,
+              "bottom": 408.3999938964844,
+              "height": 44,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=study][data-value=\"ring-plane\"]",
+              "top": 408.3999938964844,
+              "bottom": 452.3999938964844,
+              "height": 44,
+              "visible": true
+            }
+          ],
+          "horizontalOverflow": false
+        },
+        {
+          "width": 1024,
+          "height": 640,
+          "chapter": 2,
+          "study": "titan",
+          "controls": [
+            {
+              "selector": "[data-action=depart]",
+              "top": 577.4000244140625,
+              "bottom": 626.0000305175781,
+              "height": 48.600006103515625,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=review]",
+              "top": 579.7000122070312,
+              "bottom": 623.7000122070312,
+              "height": 44,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=study][data-value=\"titan\"]",
+              "top": 364.3999938964844,
+              "bottom": 408.3999938964844,
+              "height": 44,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=study][data-value=\"ring-plane\"]",
+              "top": 408.3999938964844,
+              "bottom": 452.3999938964844,
+              "height": 44,
+              "visible": true
+            }
+          ],
+          "horizontalOverflow": false
+        },
+        {
+          "width": 1024,
+          "height": 640,
+          "chapter": 2,
+          "study": "ring-plane",
+          "controls": [
+            {
+              "selector": "[data-action=depart]",
+              "top": 577.4000244140625,
+              "bottom": 626.0000305175781,
+              "height": 48.600006103515625,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=review]",
+              "top": 579.7000122070312,
+              "bottom": 623.7000122070312,
+              "height": 44,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=study][data-value=\"titan\"]",
+              "top": 364.3999938964844,
+              "bottom": 408.3999938964844,
+              "height": 44,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=study][data-value=\"ring-plane\"]",
+              "top": 408.3999938964844,
+              "bottom": 452.3999938964844,
+              "height": 44,
+              "visible": true
+            }
+          ],
+          "horizontalOverflow": false
+        }
+      ],
+      "errors": [],
+      "passed": true
+    },
+    {
+      "name": "WebKit",
+      "engineVersion": "26.5",
+      "layouts": [
+        {
+          "width": 1440,
+          "height": 900,
+          "chapter": 0,
+          "study": null,
+          "controls": [
+            {
+              "selector": "[data-action=depart]",
+              "top": 828.8125,
+              "bottom": 880,
+              "height": 51.1875,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=review]",
+              "top": 832.40625,
+              "bottom": 876.40625,
+              "height": 44,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=study][data-value=\"moon\"]",
+              "top": 424.734375,
+              "bottom": 473.734375,
+              "height": 49,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=study][data-value=\"earth-shadow\"]",
+              "top": 473.734375,
+              "bottom": 522.734375,
+              "height": 49,
+              "visible": true
+            }
+          ],
+          "horizontalOverflow": false
+        },
+        {
+          "width": 1440,
+          "height": 900,
+          "chapter": 0,
+          "study": "moon",
+          "controls": [
+            {
+              "selector": "[data-action=depart]",
+              "top": 828.8125,
+              "bottom": 880,
+              "height": 51.1875,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=review]",
+              "top": 832.40625,
+              "bottom": 876.40625,
+              "height": 44,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=study][data-value=\"moon\"]",
+              "top": 424.734375,
+              "bottom": 473.734375,
+              "height": 49,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=study][data-value=\"earth-shadow\"]",
+              "top": 473.734375,
+              "bottom": 522.734375,
+              "height": 49,
+              "visible": true
+            }
+          ],
+          "horizontalOverflow": false
+        },
+        {
+          "width": 1440,
+          "height": 900,
+          "chapter": 0,
+          "study": "earth-shadow",
+          "controls": [
+            {
+              "selector": "[data-action=depart]",
+              "top": 828.8125,
+              "bottom": 880,
+              "height": 51.1875,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=review]",
+              "top": 832.40625,
+              "bottom": 876.40625,
+              "height": 44,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=study][data-value=\"moon\"]",
+              "top": 424.734375,
+              "bottom": 473.734375,
+              "height": 49,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=study][data-value=\"earth-shadow\"]",
+              "top": 473.734375,
+              "bottom": 522.734375,
+              "height": 49,
+              "visible": true
+            }
+          ],
+          "horizontalOverflow": false
+        },
+        {
+          "width": 1440,
+          "height": 900,
+          "chapter": 1,
+          "study": null,
+          "controls": [
+            {
+              "selector": "[data-action=depart]",
+              "top": 828.8125,
+              "bottom": 880,
+              "height": 51.1875,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=review]",
+              "top": 832.40625,
+              "bottom": 876.40625,
+              "height": 44,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=study][data-value=\"io\"]",
+              "top": 424.734375,
+              "bottom": 473.734375,
+              "height": 49,
+              "visible": true
+            }
+          ],
+          "horizontalOverflow": false
+        },
+        {
+          "width": 1440,
+          "height": 900,
+          "chapter": 1,
+          "study": "io",
+          "controls": [
+            {
+              "selector": "[data-action=depart]",
+              "top": 828.8125,
+              "bottom": 880,
+              "height": 51.1875,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=review]",
+              "top": 832.40625,
+              "bottom": 876.40625,
+              "height": 44,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=study][data-value=\"io\"]",
+              "top": 424.734375,
+              "bottom": 473.734375,
+              "height": 49,
+              "visible": true
+            }
+          ],
+          "horizontalOverflow": false
+        },
+        {
+          "width": 1440,
+          "height": 900,
+          "chapter": 2,
+          "study": null,
+          "controls": [
+            {
+              "selector": "[data-action=depart]",
+              "top": 828.8125,
+              "bottom": 880,
+              "height": 51.1875,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=review]",
+              "top": 832.40625,
+              "bottom": 876.40625,
+              "height": 44,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=study][data-value=\"titan\"]",
+              "top": 424.734375,
+              "bottom": 473.734375,
+              "height": 49,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=study][data-value=\"ring-plane\"]",
+              "top": 473.734375,
+              "bottom": 522.734375,
+              "height": 49,
+              "visible": true
+            }
+          ],
+          "horizontalOverflow": false
+        },
+        {
+          "width": 1440,
+          "height": 900,
+          "chapter": 2,
+          "study": "titan",
+          "controls": [
+            {
+              "selector": "[data-action=depart]",
+              "top": 828.8125,
+              "bottom": 880,
+              "height": 51.1875,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=review]",
+              "top": 832.40625,
+              "bottom": 876.40625,
+              "height": 44,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=study][data-value=\"titan\"]",
+              "top": 424.734375,
+              "bottom": 473.734375,
+              "height": 49,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=study][data-value=\"ring-plane\"]",
+              "top": 473.734375,
+              "bottom": 522.734375,
+              "height": 49,
+              "visible": true
+            }
+          ],
+          "horizontalOverflow": false
+        },
+        {
+          "width": 1440,
+          "height": 900,
+          "chapter": 2,
+          "study": "ring-plane",
+          "controls": [
+            {
+              "selector": "[data-action=depart]",
+              "top": 828.8125,
+              "bottom": 880,
+              "height": 51.1875,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=review]",
+              "top": 832.40625,
+              "bottom": 876.40625,
+              "height": 44,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=study][data-value=\"titan\"]",
+              "top": 424.734375,
+              "bottom": 473.734375,
+              "height": 49,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=study][data-value=\"ring-plane\"]",
+              "top": 473.734375,
+              "bottom": 522.734375,
+              "height": 49,
+              "visible": true
+            }
+          ],
+          "horizontalOverflow": false
+        },
+        {
+          "width": 1280,
+          "height": 800,
+          "chapter": 0,
+          "study": null,
+          "controls": [
+            {
+              "selector": "[data-action=depart]",
+              "top": 728.8125,
+              "bottom": 780,
+              "height": 51.1875,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=review]",
+              "top": 732.40625,
+              "bottom": 776.40625,
+              "height": 44,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=study][data-value=\"moon\"]",
+              "top": 424.734375,
+              "bottom": 473.734375,
+              "height": 49,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=study][data-value=\"earth-shadow\"]",
+              "top": 473.734375,
+              "bottom": 522.734375,
+              "height": 49,
+              "visible": true
+            }
+          ],
+          "horizontalOverflow": false
+        },
+        {
+          "width": 1280,
+          "height": 800,
+          "chapter": 0,
+          "study": "moon",
+          "controls": [
+            {
+              "selector": "[data-action=depart]",
+              "top": 728.8125,
+              "bottom": 780,
+              "height": 51.1875,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=review]",
+              "top": 732.40625,
+              "bottom": 776.40625,
+              "height": 44,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=study][data-value=\"moon\"]",
+              "top": 424.734375,
+              "bottom": 473.734375,
+              "height": 49,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=study][data-value=\"earth-shadow\"]",
+              "top": 473.734375,
+              "bottom": 522.734375,
+              "height": 49,
+              "visible": true
+            }
+          ],
+          "horizontalOverflow": false
+        },
+        {
+          "width": 1280,
+          "height": 800,
+          "chapter": 0,
+          "study": "earth-shadow",
+          "controls": [
+            {
+              "selector": "[data-action=depart]",
+              "top": 728.8125,
+              "bottom": 780,
+              "height": 51.1875,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=review]",
+              "top": 732.40625,
+              "bottom": 776.40625,
+              "height": 44,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=study][data-value=\"moon\"]",
+              "top": 424.734375,
+              "bottom": 473.734375,
+              "height": 49,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=study][data-value=\"earth-shadow\"]",
+              "top": 473.734375,
+              "bottom": 522.734375,
+              "height": 49,
+              "visible": true
+            }
+          ],
+          "horizontalOverflow": false
+        },
+        {
+          "width": 1280,
+          "height": 800,
+          "chapter": 1,
+          "study": null,
+          "controls": [
+            {
+              "selector": "[data-action=depart]",
+              "top": 728.8125,
+              "bottom": 780,
+              "height": 51.1875,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=review]",
+              "top": 732.40625,
+              "bottom": 776.40625,
+              "height": 44,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=study][data-value=\"io\"]",
+              "top": 424.734375,
+              "bottom": 473.734375,
+              "height": 49,
+              "visible": true
+            }
+          ],
+          "horizontalOverflow": false
+        },
+        {
+          "width": 1280,
+          "height": 800,
+          "chapter": 1,
+          "study": "io",
+          "controls": [
+            {
+              "selector": "[data-action=depart]",
+              "top": 728.8125,
+              "bottom": 780,
+              "height": 51.1875,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=review]",
+              "top": 732.40625,
+              "bottom": 776.40625,
+              "height": 44,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=study][data-value=\"io\"]",
+              "top": 424.734375,
+              "bottom": 473.734375,
+              "height": 49,
+              "visible": true
+            }
+          ],
+          "horizontalOverflow": false
+        },
+        {
+          "width": 1280,
+          "height": 800,
+          "chapter": 2,
+          "study": null,
+          "controls": [
+            {
+              "selector": "[data-action=depart]",
+              "top": 728.8125,
+              "bottom": 780,
+              "height": 51.1875,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=review]",
+              "top": 732.40625,
+              "bottom": 776.40625,
+              "height": 44,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=study][data-value=\"titan\"]",
+              "top": 424.734375,
+              "bottom": 473.734375,
+              "height": 49,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=study][data-value=\"ring-plane\"]",
+              "top": 473.734375,
+              "bottom": 522.734375,
+              "height": 49,
+              "visible": true
+            }
+          ],
+          "horizontalOverflow": false
+        },
+        {
+          "width": 1280,
+          "height": 800,
+          "chapter": 2,
+          "study": "titan",
+          "controls": [
+            {
+              "selector": "[data-action=depart]",
+              "top": 728.8125,
+              "bottom": 780,
+              "height": 51.1875,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=review]",
+              "top": 732.40625,
+              "bottom": 776.40625,
+              "height": 44,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=study][data-value=\"titan\"]",
+              "top": 424.734375,
+              "bottom": 473.734375,
+              "height": 49,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=study][data-value=\"ring-plane\"]",
+              "top": 473.734375,
+              "bottom": 522.734375,
+              "height": 49,
+              "visible": true
+            }
+          ],
+          "horizontalOverflow": false
+        },
+        {
+          "width": 1280,
+          "height": 800,
+          "chapter": 2,
+          "study": "ring-plane",
+          "controls": [
+            {
+              "selector": "[data-action=depart]",
+              "top": 728.8125,
+              "bottom": 780,
+              "height": 51.1875,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=review]",
+              "top": 732.40625,
+              "bottom": 776.40625,
+              "height": 44,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=study][data-value=\"titan\"]",
+              "top": 424.734375,
+              "bottom": 473.734375,
+              "height": 49,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=study][data-value=\"ring-plane\"]",
+              "top": 473.734375,
+              "bottom": 522.734375,
+              "height": 49,
+              "visible": true
+            }
+          ],
+          "horizontalOverflow": false
+        },
+        {
+          "width": 1024,
+          "height": 640,
+          "chapter": 0,
+          "study": null,
+          "controls": [
+            {
+              "selector": "[data-action=depart]",
+              "top": 577.40625,
+              "bottom": 626,
+              "height": 48.59375,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=review]",
+              "top": 579.703125,
+              "bottom": 623.703125,
+              "height": 44,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=study][data-value=\"moon\"]",
+              "top": 364.390625,
+              "bottom": 408.390625,
+              "height": 44,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=study][data-value=\"earth-shadow\"]",
+              "top": 408.390625,
+              "bottom": 452.390625,
+              "height": 44,
+              "visible": true
+            }
+          ],
+          "horizontalOverflow": false
+        },
+        {
+          "width": 1024,
+          "height": 640,
+          "chapter": 0,
+          "study": "moon",
+          "controls": [
+            {
+              "selector": "[data-action=depart]",
+              "top": 577.40625,
+              "bottom": 626,
+              "height": 48.59375,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=review]",
+              "top": 579.703125,
+              "bottom": 623.703125,
+              "height": 44,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=study][data-value=\"moon\"]",
+              "top": 364.390625,
+              "bottom": 408.390625,
+              "height": 44,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=study][data-value=\"earth-shadow\"]",
+              "top": 408.390625,
+              "bottom": 452.390625,
+              "height": 44,
+              "visible": true
+            }
+          ],
+          "horizontalOverflow": false
+        },
+        {
+          "width": 1024,
+          "height": 640,
+          "chapter": 0,
+          "study": "earth-shadow",
+          "controls": [
+            {
+              "selector": "[data-action=depart]",
+              "top": 577.40625,
+              "bottom": 626,
+              "height": 48.59375,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=review]",
+              "top": 579.703125,
+              "bottom": 623.703125,
+              "height": 44,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=study][data-value=\"moon\"]",
+              "top": 364.390625,
+              "bottom": 408.390625,
+              "height": 44,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=study][data-value=\"earth-shadow\"]",
+              "top": 408.390625,
+              "bottom": 452.390625,
+              "height": 44,
+              "visible": true
+            }
+          ],
+          "horizontalOverflow": false
+        },
+        {
+          "width": 1024,
+          "height": 640,
+          "chapter": 1,
+          "study": null,
+          "controls": [
+            {
+              "selector": "[data-action=depart]",
+              "top": 577.40625,
+              "bottom": 626,
+              "height": 48.59375,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=review]",
+              "top": 579.703125,
+              "bottom": 623.703125,
+              "height": 44,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=study][data-value=\"io\"]",
+              "top": 364.390625,
+              "bottom": 408.390625,
+              "height": 44,
+              "visible": true
+            }
+          ],
+          "horizontalOverflow": false
+        },
+        {
+          "width": 1024,
+          "height": 640,
+          "chapter": 1,
+          "study": "io",
+          "controls": [
+            {
+              "selector": "[data-action=depart]",
+              "top": 577.40625,
+              "bottom": 626,
+              "height": 48.59375,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=review]",
+              "top": 579.703125,
+              "bottom": 623.703125,
+              "height": 44,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=study][data-value=\"io\"]",
+              "top": 364.390625,
+              "bottom": 408.390625,
+              "height": 44,
+              "visible": true
+            }
+          ],
+          "horizontalOverflow": false
+        },
+        {
+          "width": 1024,
+          "height": 640,
+          "chapter": 2,
+          "study": null,
+          "controls": [
+            {
+              "selector": "[data-action=depart]",
+              "top": 577.40625,
+              "bottom": 626,
+              "height": 48.59375,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=review]",
+              "top": 579.703125,
+              "bottom": 623.703125,
+              "height": 44,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=study][data-value=\"titan\"]",
+              "top": 364.390625,
+              "bottom": 408.390625,
+              "height": 44,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=study][data-value=\"ring-plane\"]",
+              "top": 408.390625,
+              "bottom": 452.390625,
+              "height": 44,
+              "visible": true
+            }
+          ],
+          "horizontalOverflow": false
+        },
+        {
+          "width": 1024,
+          "height": 640,
+          "chapter": 2,
+          "study": "titan",
+          "controls": [
+            {
+              "selector": "[data-action=depart]",
+              "top": 577.40625,
+              "bottom": 626,
+              "height": 48.59375,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=review]",
+              "top": 579.703125,
+              "bottom": 623.703125,
+              "height": 44,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=study][data-value=\"titan\"]",
+              "top": 364.390625,
+              "bottom": 408.390625,
+              "height": 44,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=study][data-value=\"ring-plane\"]",
+              "top": 408.390625,
+              "bottom": 452.390625,
+              "height": 44,
+              "visible": true
+            }
+          ],
+          "horizontalOverflow": false
+        },
+        {
+          "width": 1024,
+          "height": 640,
+          "chapter": 2,
+          "study": "ring-plane",
+          "controls": [
+            {
+              "selector": "[data-action=depart]",
+              "top": 577.40625,
+              "bottom": 626,
+              "height": 48.59375,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=review]",
+              "top": 579.703125,
+              "bottom": 623.703125,
+              "height": 44,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=study][data-value=\"titan\"]",
+              "top": 364.390625,
+              "bottom": 408.390625,
+              "height": 44,
+              "visible": true
+            },
+            {
+              "selector": "[data-action=study][data-value=\"ring-plane\"]",
+              "top": 408.390625,
+              "bottom": 452.390625,
+              "height": 44,
+              "visible": true
+            }
+          ],
+          "horizontalOverflow": false
+        }
+      ],
+      "errors": [],
+      "passed": true
+    }
+  ]
+}

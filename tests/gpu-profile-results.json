@@ -1,0 +1,272 @@
+{
+  "version": "0.78.0",
+  "sourceHashes": {
+    "src/world.js": "7789d5fd5c67ea5019c176633cbbe8effa1fd3d3538ec2c704912b6db69931bb",
+    "src/rendering/cloud-layer.js": "d39c3854bc28b45671074c6a16ac27897f046dccdf6b93f5f3f4ebe132931c73",
+    "src/rendering/earth-shaders.js": "e8ecbcefa230d9d411bce936fd34680ebf47fa9873128b9753f38cd4203abc93"
+  },
+  "method": "Chrome/Metal High at 1440 x 900 DPR 2, native scene and cloud scale fixed at its 0.75 adaptive floor. Held physical views; 30 completed warmup draws followed by 60 whole-frame draws and 60 per-stage completion draws. A one-pixel readback after drawing includes CPU, synchronization and GPU execution. Stage profiling introduces extra readbacks; these are diagnostic draw costs, not live frame-rate measurements.",
+  "records": [
+    {
+      "name": "Earth",
+      "view": "probe",
+      "scene": [
+        2880,
+        1800
+      ],
+      "cloud": [
+        1620,
+        1013
+      ],
+      "physicalStatePreserved": true,
+      "profiles": [
+        {
+          "mode": "whole frame",
+          "frame": {
+            "samples": 60,
+            "medianMs": 21.600000023841858,
+            "p95Ms": 29.399999976158142,
+            "meanMs": 22.933333332339924
+          },
+          "stages": {},
+          "stageMsPerFrame": 0
+        },
+        {
+          "mode": "completed stages",
+          "frame": {
+            "samples": 60,
+            "medianMs": 25.900000005960464,
+            "p95Ms": 34.69999998807907,
+            "meanMs": 27.11833333323399
+          },
+          "stages": {
+            "stars": {
+              "samples": 60,
+              "medianMs": 0.6000000238418579,
+              "p95Ms": 1.300000011920929,
+              "meanMs": 0.7700000007947286
+            },
+            "world": {
+              "samples": 60,
+              "medianMs": 3.5,
+              "p95Ms": 4.700000017881393,
+              "meanMs": 3.63666666696469
+            },
+            "cloud volume": {
+              "samples": 60,
+              "medianMs": 10.900000005960464,
+              "p95Ms": 16.099999994039536,
+              "meanMs": 11.178333334624767
+            },
+            "cloud + atmosphere (split)": {
+              "samples": 60,
+              "medianMs": 5.4000000059604645,
+              "p95Ms": 6.9000000059604645,
+              "meanMs": 5.610000001390775
+            },
+            "frame resolve": {
+              "samples": 60,
+              "medianMs": 1.5,
+              "p95Ms": 2.2000000178813934,
+              "meanMs": 1.5449999998013177
+            }
+          },
+          "stageMsPerFrame": 22.740000003576277
+        }
+      ]
+    },
+    {
+      "name": "Earth",
+      "view": "chase",
+      "scene": [
+        2880,
+        1800
+      ],
+      "cloud": [
+        1620,
+        1013
+      ],
+      "physicalStatePreserved": true,
+      "profiles": [
+        {
+          "mode": "whole frame",
+          "frame": {
+            "samples": 60,
+            "medianMs": 21.700000017881393,
+            "p95Ms": 24.700000017881393,
+            "meanMs": 21.979999999701977
+          },
+          "stages": {},
+          "stageMsPerFrame": 0
+        },
+        {
+          "mode": "completed stages",
+          "frame": {
+            "samples": 60,
+            "medianMs": 25.599999994039536,
+            "p95Ms": 26.799999982118607,
+            "meanMs": 25.581666664779185
+          },
+          "stages": {
+            "stars": {
+              "samples": 60,
+              "medianMs": 0.5999999940395355,
+              "p95Ms": 0.7000000178813934,
+              "meanMs": 0.5949999978144963
+            },
+            "world": {
+              "samples": 60,
+              "medianMs": 3.2999999821186066,
+              "p95Ms": 3.5999999940395355,
+              "meanMs": 3.2816666677594184
+            },
+            "cloud volume": {
+              "samples": 60,
+              "medianMs": 10,
+              "p95Ms": 10.700000017881393,
+              "meanMs": 10.06499999910593
+            },
+            "cloud + atmosphere (split)": {
+              "samples": 60,
+              "medianMs": 5,
+              "p95Ms": 5.5,
+              "meanMs": 5.058333332339923
+            },
+            "spacecraft": {
+              "samples": 60,
+              "medianMs": 0.9000000059604645,
+              "p95Ms": 1.0999999940395355,
+              "meanMs": 0.9333333318432172
+            },
+            "frame resolve": {
+              "samples": 60,
+              "medianMs": 1.300000011920929,
+              "p95Ms": 1.5999999940395355,
+              "meanMs": 1.385000001390775
+            }
+          },
+          "stageMsPerFrame": 21.31833333025376
+        }
+      ]
+    },
+    {
+      "name": "Titan",
+      "view": "probe",
+      "scene": [
+        2880,
+        1800
+      ],
+      "cloud": [
+        1620,
+        1013
+      ],
+      "physicalStatePreserved": true,
+      "profiles": [
+        {
+          "mode": "whole frame",
+          "frame": {
+            "samples": 60,
+            "medianMs": 13.800000011920929,
+            "p95Ms": 23.5,
+            "meanMs": 14.231666667759418
+          },
+          "stages": {},
+          "stageMsPerFrame": 0
+        },
+        {
+          "mode": "completed stages",
+          "frame": {
+            "samples": 60,
+            "medianMs": 14.399999976158142,
+            "p95Ms": 23.400000005960464,
+            "meanMs": 15.15000000099341
+          },
+          "stages": {
+            "stars": {
+              "samples": 60,
+              "medianMs": 0.800000011920929,
+              "p95Ms": 1.600000023841858,
+              "meanMs": 0.8850000008940697
+            },
+            "world": {
+              "samples": 60,
+              "medianMs": 7.200000017881393,
+              "p95Ms": 14,
+              "meanMs": 8.040000000596047
+            },
+            "frame resolve": {
+              "samples": 60,
+              "medianMs": 1.7999999821186066,
+              "p95Ms": 3.399999976158142,
+              "meanMs": 2.001666664580504
+            }
+          },
+          "stageMsPerFrame": 10.92666666607062
+        }
+      ]
+    },
+    {
+      "name": "Titan",
+      "view": "chase",
+      "scene": [
+        2880,
+        1800
+      ],
+      "cloud": [
+        1620,
+        1013
+      ],
+      "physicalStatePreserved": true,
+      "profiles": [
+        {
+          "mode": "whole frame",
+          "frame": {
+            "samples": 60,
+            "medianMs": 16,
+            "p95Ms": 19.400000005960464,
+            "meanMs": 15.891666668156782
+          },
+          "stages": {},
+          "stageMsPerFrame": 0
+        },
+        {
+          "mode": "completed stages",
+          "frame": {
+            "samples": 60,
+            "medianMs": 15.400000005960464,
+            "p95Ms": 33.20000001788139,
+            "meanMs": 18.323333334426085
+          },
+          "stages": {
+            "stars": {
+              "samples": 60,
+              "medianMs": 0.6000000238418579,
+              "p95Ms": 2,
+              "meanMs": 0.8800000006953875
+            },
+            "world": {
+              "samples": 60,
+              "medianMs": 8.099999994039536,
+              "p95Ms": 19.799999982118607,
+              "meanMs": 9.599999998013178
+            },
+            "spacecraft": {
+              "samples": 60,
+              "medianMs": 1.0999999940395355,
+              "p95Ms": 2.7999999821186066,
+              "meanMs": 1.2883333320418993
+            },
+            "frame resolve": {
+              "samples": 60,
+              "medianMs": 1.5,
+              "p95Ms": 3.100000023841858,
+              "meanMs": 1.803333335618178
+            }
+          },
+          "stageMsPerFrame": 13.571666666368644
+        }
+      ]
+    }
+  ],
+  "errors": []
+}

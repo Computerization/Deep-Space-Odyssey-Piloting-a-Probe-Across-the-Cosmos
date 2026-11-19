@@ -1,0 +1,1389 @@
+{
+  "version": "0.56.0",
+  "outcomes": [
+    {
+      "name": "Chrome",
+      "engineVersion": "158.0.8127.37",
+      "samples": [
+        {
+          "name": "earth",
+          "resolved": true,
+          "visible": true,
+          "left": 248.546875,
+          "right": 319.921875,
+          "top": 425.5,
+          "bottom": 474.5,
+          "leader": true,
+          "subject": "earth",
+          "title": "Follow Earth"
+        },
+        {
+          "name": "moon",
+          "resolved": true,
+          "visible": true,
+          "left": 414.78125,
+          "right": 485.375,
+          "top": 425.5,
+          "bottom": 474.5,
+          "leader": true,
+          "subject": "moon",
+          "title": "Follow Moon"
+        },
+        {
+          "name": "jupiter",
+          "resolved": true,
+          "visible": true,
+          "left": 992,
+          "right": 1073.84375,
+          "top": 425.5,
+          "bottom": 474.5,
+          "leader": true,
+          "subject": "jupiter",
+          "title": "Follow Jupiter"
+        },
+        {
+          "name": "saturn",
+          "resolved": true,
+          "visible": true,
+          "left": 1176.125,
+          "right": 1254.296875,
+          "top": 425.5,
+          "bottom": 474.5,
+          "leader": true,
+          "subject": "saturn",
+          "title": "Follow Saturn"
+        },
+        {
+          "name": "ring-plane",
+          "resolved": true,
+          "visible": true,
+          "left": 1191.75,
+          "right": 1269.921875,
+          "top": 425.5,
+          "bottom": 474.5,
+          "leader": true,
+          "subject": "saturn",
+          "title": "Follow Saturn"
+        },
+        {
+          "name": "titan",
+          "resolved": true,
+          "visible": true,
+          "left": 954.609375,
+          "right": 1024,
+          "top": 425.5,
+          "bottom": 474.5,
+          "leader": true,
+          "subject": "titan",
+          "title": "Follow Titan"
+        },
+        {
+          "name": "light-day",
+          "resolved": false,
+          "visible": true,
+          "left": 110.1875,
+          "right": 212.796875,
+          "top": 391.53125,
+          "bottom": 440.53125,
+          "leader": false,
+          "subject": "earth",
+          "title": "Earth · bearing"
+        }
+      ],
+      "pairs": [
+        {
+          "width": 1440,
+          "height": 900,
+          "study": "moon",
+          "fov": 58,
+          "roll": 0,
+          "visible": true,
+          "label": {
+            "left": 414.78125,
+            "right": 485.375,
+            "top": 425.5,
+            "bottom": 474.5
+          },
+          "world": {
+            "left": 945.5926445638196,
+            "right": 972.9624322144356,
+            "top": 452.7203555918866,
+            "bottom": 478.97882320780974
+          },
+          "labelClear": true,
+          "leaderClear": true,
+          "hasLeader": true
+        },
+        {
+          "width": 1440,
+          "height": 900,
+          "study": "moon",
+          "fov": 58,
+          "roll": 1,
+          "visible": true,
+          "label": {
+            "left": 414.78125,
+            "right": 485.375,
+            "top": 425.5,
+            "bottom": 474.5
+          },
+          "world": {
+            "left": 691.0211767921903,
+            "right": 717.2796444081134,
+            "top": 675.5926445638197,
+            "bottom": 702.9624322144357
+          },
+          "labelClear": true,
+          "leaderClear": true,
+          "hasLeader": true
+        },
+        {
+          "width": 1440,
+          "height": 900,
+          "study": "moon",
+          "fov": 58,
+          "roll": 2,
+          "visible": true,
+          "label": {
+            "left": 954.609375,
+            "right": 1025.203125,
+            "top": 425.5,
+            "bottom": 474.5
+          },
+          "world": {
+            "left": 467.03756778556436,
+            "right": 494.4073554361803,
+            "top": 421.0211767921903,
+            "bottom": 447.2796444081135
+          },
+          "labelClear": true,
+          "leaderClear": true,
+          "hasLeader": true
+        },
+        {
+          "width": 1440,
+          "height": 900,
+          "study": "moon",
+          "fov": 58,
+          "roll": 3,
+          "visible": true,
+          "label": {
+            "left": 954.609375,
+            "right": 1025.203125,
+            "top": 425.5,
+            "bottom": 474.5
+          },
+          "world": {
+            "left": 722.7203555918865,
+            "right": 748.9788232078095,
+            "top": 197.03756778556456,
+            "bottom": 224.40735543618047
+          },
+          "labelClear": true,
+          "leaderClear": true,
+          "hasLeader": true
+        },
+        {
+          "width": 1440,
+          "height": 900,
+          "study": "moon",
+          "fov": 40,
+          "roll": 0,
+          "visible": true,
+          "label": {
+            "left": 1114.234375,
+            "right": 1184.828125,
+            "top": 425.5,
+            "bottom": 474.5
+          },
+          "world": {
+            "left": 1063.5666794978467,
+            "right": 1105.2495414540267,
+            "top": 454.1429699073964,
+            "bottom": 494.13334523611104
+          },
+          "labelClear": true,
+          "leaderClear": true,
+          "hasLeader": true
+        },
+        {
+          "width": 1440,
+          "height": 900,
+          "study": "moon",
+          "fov": 40,
+          "roll": 1,
+          "visible": true,
+          "label": {
+            "left": 1064.21875,
+            "right": 1134.8125,
+            "top": 425.5,
+            "bottom": 474.5
+          },
+          "world": {
+            "left": 675.8666547638891,
+            "right": 715.8570300926037,
+            "top": 793.5666794978467,
+            "bottom": 835.2495414540268
+          },
+          "labelClear": true,
+          "leaderClear": true,
+          "hasLeader": true
+        },
+        {
+          "width": 1440,
+          "height": 900,
+          "study": "moon",
+          "fov": 40,
+          "roll": 2,
+          "visible": true,
+          "label": {
+            "left": 1064.21875,
+            "right": 1134.8125,
+            "top": 425.5,
+            "bottom": 474.5
+          },
+          "world": {
+            "left": 334.75045854597323,
+            "right": 376.43332050215326,
+            "top": 405.8666547638891,
+            "bottom": 445.8570300926038
+          },
+          "labelClear": true,
+          "leaderClear": true,
+          "hasLeader": true
+        },
+        {
+          "width": 1440,
+          "height": 900,
+          "study": "moon",
+          "fov": 40,
+          "roll": 3,
+          "visible": true,
+          "label": {
+            "left": 1064.21875,
+            "right": 1134.8125,
+            "top": 425.5,
+            "bottom": 474.5
+          },
+          "world": {
+            "left": 724.1429699073962,
+            "right": 764.1333452361107,
+            "top": 64.75045854597352,
+            "bottom": 106.43332050215353
+          },
+          "labelClear": true,
+          "leaderClear": true,
+          "hasLeader": true
+        },
+        {
+          "width": 1440,
+          "height": 900,
+          "study": "io",
+          "fov": 58,
+          "roll": 0,
+          "visible": true,
+          "label": {
+            "left": 954.609375,
+            "right": 1005.65625,
+            "top": 425.5,
+            "bottom": 474.5
+          },
+          "world": {
+            "left": 139.96697211502115,
+            "right": 481.06241738823053,
+            "top": 316.2913588443,
+            "bottom": 621.9823920359565
+          },
+          "labelClear": true,
+          "leaderClear": true,
+          "hasLeader": true
+        },
+        {
+          "width": 1440,
+          "height": 900,
+          "study": "io",
+          "fov": 58,
+          "roll": 1,
+          "visible": true,
+          "label": {
+            "left": 954.609375,
+            "right": 1005.65625,
+            "top": 425.5,
+            "bottom": 474.5
+          },
+          "world": {
+            "left": 548.0176079640435,
+            "right": 853.7086411556999,
+            "top": 0,
+            "bottom": 211.0624173882305
+          },
+          "labelClear": true,
+          "leaderClear": true,
+          "hasLeader": true
+        },
+        {
+          "width": 1440,
+          "height": 900,
+          "study": "io",
+          "fov": 58,
+          "roll": 2,
+          "visible": true,
+          "label": {
+            "left": 434.328125,
+            "right": 485.375,
+            "top": 425.5,
+            "bottom": 474.5
+          },
+          "world": {
+            "left": 958.9375826117694,
+            "right": 1300.0330278849785,
+            "top": 278.0176079640434,
+            "bottom": 583.7086411556999
+          },
+          "labelClear": true,
+          "leaderClear": true,
+          "hasLeader": true
+        },
+        {
+          "width": 1440,
+          "height": 900,
+          "study": "io",
+          "fov": 58,
+          "roll": 3,
+          "visible": true,
+          "label": {
+            "left": 434.328125,
+            "right": 485.375,
+            "top": 425.5,
+            "bottom": 474.5
+          },
+          "world": {
+            "left": 586.2913588442997,
+            "right": 891.9823920359561,
+            "top": 688.9375826117696,
+            "bottom": 900
+          },
+          "labelClear": true,
+          "leaderClear": true,
+          "hasLeader": true
+        },
+        {
+          "width": 1440,
+          "height": 900,
+          "study": "io",
+          "fov": 40,
+          "roll": 0,
+          "visible": true,
+          "label": {
+            "left": 1064.21875,
+            "right": 1115.265625,
+            "top": 425.5,
+            "bottom": 474.5
+          },
+          "world": {
+            "left": 0,
+            "right": 356.1096257198903,
+            "top": 246.36821071514467,
+            "bottom": 711.9208595126637
+          },
+          "labelClear": true,
+          "leaderClear": true,
+          "hasLeader": true
+        },
+        {
+          "width": 1440,
+          "height": 900,
+          "study": "io",
+          "fov": 40,
+          "roll": 1,
+          "visible": true,
+          "label": {
+            "left": 1064.21875,
+            "right": 1115.265625,
+            "top": 425.5,
+            "bottom": 474.5
+          },
+          "world": {
+            "left": 458.0791404873362,
+            "right": 923.6317892848552,
+            "top": 0,
+            "bottom": 86.10962571989027
+          },
+          "labelClear": true,
+          "leaderClear": true,
+          "hasLeader": true
+        },
+        {
+          "width": 1440,
+          "height": 900,
+          "study": "io",
+          "fov": 40,
+          "roll": 2,
+          "visible": true,
+          "label": {
+            "left": 324.71875,
+            "right": 375.765625,
+            "top": 425.5,
+            "bottom": 474.5
+          },
+          "world": {
+            "left": 1083.8903742801097,
+            "right": 1440,
+            "top": 188.07914048733613,
+            "bottom": 653.6317892848551
+          },
+          "labelClear": true,
+          "leaderClear": true,
+          "hasLeader": true
+        },
+        {
+          "width": 1440,
+          "height": 900,
+          "study": "io",
+          "fov": 40,
+          "roll": 3,
+          "visible": true,
+          "label": {
+            "left": 324.71875,
+            "right": 375.765625,
+            "top": 425.5,
+            "bottom": 474.5
+          },
+          "world": {
+            "left": 516.3682107151442,
+            "right": 981.9208595126635,
+            "top": 813.8903742801098,
+            "bottom": 900
+          },
+          "labelClear": true,
+          "leaderClear": true,
+          "hasLeader": true
+        },
+        {
+          "width": 1024,
+          "height": 640,
+          "study": "moon",
+          "fov": 58,
+          "roll": 0,
+          "visible": true,
+          "label": {
+            "left": 267.34375,
+            "right": 337.9375,
+            "top": 295.5,
+            "bottom": 344.5
+          },
+          "world": {
+            "left": 672.4214361342717,
+            "right": 691.8843962413764,
+            "top": 321.9344750875638,
+            "bottom": 340.607163169998
+          },
+          "labelClear": true,
+          "leaderClear": true,
+          "hasLeader": true
+        },
+        {
+          "width": 1024,
+          "height": 640,
+          "study": "moon",
+          "fov": 58,
+          "roll": 1,
+          "visible": true,
+          "label": {
+            "left": 267.34375,
+            "right": 337.9375,
+            "top": 295.5,
+            "bottom": 344.5
+          },
+          "world": {
+            "left": 491.392836830002,
+            "right": 510.0655249124362,
+            "top": 480.4214361342718,
+            "bottom": 499.88439624137646
+          },
+          "labelClear": true,
+          "leaderClear": true,
+          "hasLeader": true
+        },
+        {
+          "width": 1024,
+          "height": 640,
+          "study": "moon",
+          "fov": 58,
+          "roll": 2,
+          "visible": true,
+          "label": {
+            "left": 686.046875,
+            "right": 756.640625,
+            "top": 295.5,
+            "bottom": 344.5
+          },
+          "world": {
+            "left": 332.11560375862354,
+            "right": 351.5785638657282,
+            "top": 299.392836830002,
+            "bottom": 318.0655249124363
+          },
+          "labelClear": true,
+          "leaderClear": true,
+          "hasLeader": true
+        },
+        {
+          "width": 1024,
+          "height": 640,
+          "study": "moon",
+          "fov": 58,
+          "roll": 3,
+          "visible": true,
+          "label": {
+            "left": 686.046875,
+            "right": 756.640625,
+            "top": 295.5,
+            "bottom": 344.5
+          },
+          "world": {
+            "left": 513.9344750875637,
+            "right": 532.6071631699979,
+            "top": 140.11560375862368,
+            "bottom": 159.57856386572834
+          },
+          "labelClear": true,
+          "leaderClear": true,
+          "hasLeader": true
+        },
+        {
+          "width": 1024,
+          "height": 640,
+          "study": "moon",
+          "fov": 40,
+          "roll": 0,
+          "visible": true,
+          "label": {
+            "left": 189.390625,
+            "right": 259.984375,
+            "top": 295.5,
+            "bottom": 344.5
+          },
+          "world": {
+            "left": 756.3140831984688,
+            "right": 785.9552294784189,
+            "top": 322.9461119341485,
+            "bottom": 351.3837121679012
+          },
+          "labelClear": true,
+          "leaderClear": true,
+          "hasLeader": true
+        },
+        {
+          "width": 1024,
+          "height": 640,
+          "study": "moon",
+          "fov": 40,
+          "roll": 1,
+          "visible": true,
+          "label": {
+            "left": 189.390625,
+            "right": 259.984375,
+            "top": 295.5,
+            "bottom": 344.5
+          },
+          "world": {
+            "left": 480.6162878320989,
+            "right": 509.05388806585154,
+            "top": 564.3140831984688,
+            "bottom": 593.9552294784191
+          },
+          "labelClear": true,
+          "leaderClear": true,
+          "hasLeader": true
+        },
+        {
+          "width": 1024,
+          "height": 640,
+          "study": "moon",
+          "fov": 40,
+          "roll": 2,
+          "visible": true,
+          "label": {
+            "left": 764,
+            "right": 834.59375,
+            "top": 295.5,
+            "bottom": 344.5
+          },
+          "world": {
+            "left": 238.04477052158097,
+            "right": 267.6859168015312,
+            "top": 288.6162878320989,
+            "bottom": 317.0538880658516
+          },
+          "labelClear": true,
+          "leaderClear": true,
+          "hasLeader": true
+        },
+        {
+          "width": 1024,
+          "height": 640,
+          "study": "moon",
+          "fov": 40,
+          "roll": 3,
+          "visible": true,
+          "label": {
+            "left": 764,
+            "right": 834.59375,
+            "top": 295.5,
+            "bottom": 344.5
+          },
+          "world": {
+            "left": 514.9461119341483,
+            "right": 543.383712167901,
+            "top": 46.04477052158117,
+            "bottom": 75.6859168015314
+          },
+          "labelClear": true,
+          "leaderClear": true,
+          "hasLeader": true
+        },
+        {
+          "width": 1024,
+          "height": 640,
+          "study": "io",
+          "fov": 58,
+          "roll": 0,
+          "visible": true,
+          "label": {
+            "left": 686.046875,
+            "right": 737.09375,
+            "top": 295.5,
+            "bottom": 344.5
+          },
+          "world": {
+            "left": 99.5320690595706,
+            "right": 342.0888301427417,
+            "top": 224.91829962261335,
+            "bottom": 442.2985898922357
+          },
+          "labelClear": true,
+          "leaderClear": true,
+          "hasLeader": true
+        },
+        {
+          "width": 1024,
+          "height": 640,
+          "study": "io",
+          "fov": 58,
+          "roll": 1,
+          "visible": true,
+          "label": {
+            "left": 686.046875,
+            "right": 737.09375,
+            "top": 295.5,
+            "bottom": 344.5
+          },
+          "world": {
+            "left": 389.7014101077643,
+            "right": 607.0817003773866,
+            "top": 0,
+            "bottom": 150.0888301427417
+          },
+          "labelClear": true,
+          "leaderClear": true,
+          "hasLeader": true
+        },
+        {
+          "width": 1024,
+          "height": 640,
+          "study": "io",
+          "fov": 58,
+          "roll": 2,
+          "visible": true,
+          "label": {
+            "left": 286.890625,
+            "right": 337.9375,
+            "top": 295.5,
+            "bottom": 344.5
+          },
+          "world": {
+            "left": 681.9111698572582,
+            "right": 924.4679309404293,
+            "top": 197.70141010776422,
+            "bottom": 415.0817003773866
+          },
+          "labelClear": true,
+          "leaderClear": true,
+          "hasLeader": true
+        },
+        {
+          "width": 1024,
+          "height": 640,
+          "study": "io",
+          "fov": 58,
+          "roll": 3,
+          "visible": true,
+          "label": {
+            "left": 286.890625,
+            "right": 337.9375,
+            "top": 295.5,
+            "bottom": 344.5
+          },
+          "world": {
+            "left": 416.9182996226131,
+            "right": 634.2985898922354,
+            "top": 489.9111698572584,
+            "bottom": 640
+          },
+          "labelClear": true,
+          "leaderClear": true,
+          "hasLeader": true
+        },
+        {
+          "width": 1024,
+          "height": 640,
+          "study": "io",
+          "fov": 40,
+          "roll": 0,
+          "visible": true,
+          "label": {
+            "left": 764,
+            "right": 815.046875,
+            "top": 295.5,
+            "bottom": 344.5
+          },
+          "world": {
+            "left": 0,
+            "right": 253.2335116230331,
+            "top": 175.19517206410288,
+            "bottom": 506.25483343122755
+          },
+          "labelClear": true,
+          "leaderClear": true,
+          "hasLeader": true
+        },
+        {
+          "width": 1024,
+          "height": 640,
+          "study": "io",
+          "fov": 40,
+          "roll": 1,
+          "visible": true,
+          "label": {
+            "left": 764,
+            "right": 815.046875,
+            "top": 295.5,
+            "bottom": 344.5
+          },
+          "world": {
+            "left": 325.7451665687724,
+            "right": 656.804827935897,
+            "top": 0,
+            "bottom": 61.23351162303308
+          },
+          "labelClear": true,
+          "leaderClear": true,
+          "hasLeader": true
+        },
+        {
+          "width": 1024,
+          "height": 640,
+          "study": "io",
+          "fov": 40,
+          "roll": 2,
+          "visible": true,
+          "label": {
+            "left": 208.9375,
+            "right": 259.984375,
+            "top": 295.5,
+            "bottom": 344.5
+          },
+          "world": {
+            "left": 770.7664883769669,
+            "right": 1024,
+            "top": 133.74516656877236,
+            "bottom": 464.80482793589704
+          },
+          "labelClear": true,
+          "leaderClear": true,
+          "hasLeader": true
+        },
+        {
+          "width": 1024,
+          "height": 640,
+          "study": "io",
+          "fov": 40,
+          "roll": 3,
+          "visible": true,
+          "label": {
+            "left": 208.9375,
+            "right": 259.984375,
+            "top": 295.5,
+            "bottom": 344.5
+          },
+          "world": {
+            "left": 367.19517206410256,
+            "right": 698.2548334312273,
+            "top": 578.7664883769669,
+            "bottom": 640
+          },
+          "labelClear": true,
+          "leaderClear": true,
+          "hasLeader": true
+        },
+        {
+          "width": 800,
+          "height": 600,
+          "study": "moon",
+          "fov": 58,
+          "roll": 0,
+          "visible": true,
+          "label": {
+            "left": 164.65625,
+            "right": 235.25,
+            "top": 275.5,
+            "bottom": 324.5
+          },
+          "world": {
+            "left": 550.3950963758798,
+            "right": 568.6416214762904,
+            "top": 301.81357039459107,
+            "bottom": 319.3192154718731
+          },
+          "labelClear": true,
+          "leaderClear": true,
+          "hasLeader": true
+        },
+        {
+          "width": 800,
+          "height": 600,
+          "study": "moon",
+          "fov": 58,
+          "roll": 1,
+          "visible": true,
+          "label": {
+            "left": 164.65625,
+            "right": 235.25,
+            "top": 275.5,
+            "bottom": 324.5
+          },
+          "world": {
+            "left": 380.6807845281269,
+            "right": 398.186429605409,
+            "top": 450.3950963758798,
+            "bottom": 468.6416214762904
+          },
+          "labelClear": true,
+          "leaderClear": true,
+          "hasLeader": true
+        },
+        {
+          "width": 800,
+          "height": 600,
+          "study": "moon",
+          "fov": 58,
+          "roll": 2,
+          "visible": true,
+          "label": {
+            "left": 564.734375,
+            "right": 635.328125,
+            "top": 275.5,
+            "bottom": 324.5
+          },
+          "world": {
+            "left": 231.35837852370958,
+            "right": 249.60490362412017,
+            "top": 280.6807845281269,
+            "bottom": 298.186429605409
+          },
+          "labelClear": true,
+          "leaderClear": true,
+          "hasLeader": true
+        },
+        {
+          "width": 800,
+          "height": 600,
+          "study": "moon",
+          "fov": 58,
+          "roll": 3,
+          "visible": true,
+          "label": {
+            "left": 564.734375,
+            "right": 635.328125,
+            "top": 275.5,
+            "bottom": 324.5
+          },
+          "world": {
+            "left": 401.81357039459095,
+            "right": 419.3192154718731,
+            "top": 131.3583785237097,
+            "bottom": 149.6049036241203
+          },
+          "labelClear": true,
+          "leaderClear": true,
+          "hasLeader": true
+        },
+        {
+          "width": 800,
+          "height": 600,
+          "study": "moon",
+          "fov": 40,
+          "roll": 0,
+          "visible": true,
+          "label": {
+            "left": 91.578125,
+            "right": 162.171875,
+            "top": 275.5,
+            "bottom": 324.5
+          },
+          "world": {
+            "left": 629.0444529985646,
+            "right": 656.8330276360178,
+            "top": 302.76197993826423,
+            "bottom": 329.4222301574074
+          },
+          "labelClear": true,
+          "leaderClear": true,
+          "hasLeader": true
+        },
+        {
+          "width": 800,
+          "height": 600,
+          "study": "moon",
+          "fov": 40,
+          "roll": 1,
+          "visible": true,
+          "label": {
+            "left": 91.578125,
+            "right": 162.171875,
+            "top": 275.5,
+            "bottom": 324.5
+          },
+          "world": {
+            "left": 370.5777698425927,
+            "right": 397.2380200617358,
+            "top": 529.0444529985645,
+            "bottom": 556.833027636018
+          },
+          "labelClear": true,
+          "leaderClear": true,
+          "hasLeader": true
+        },
+        {
+          "width": 800,
+          "height": 600,
+          "study": "moon",
+          "fov": 40,
+          "roll": 2,
+          "visible": true,
+          "label": {
+            "left": 637.8125,
+            "right": 708.40625,
+            "top": 275.5,
+            "bottom": 324.5
+          },
+          "world": {
+            "left": 143.1669723639821,
+            "right": 170.95554700143546,
+            "top": 270.5777698425927,
+            "bottom": 297.2380200617359
+          },
+          "labelClear": true,
+          "leaderClear": true,
+          "hasLeader": true
+        },
+        {
+          "width": 800,
+          "height": 600,
+          "study": "moon",
+          "fov": 40,
+          "roll": 3,
+          "visible": true,
+          "label": {
+            "left": 637.8125,
+            "right": 708.40625,
+            "top": 275.5,
+            "bottom": 324.5
+          },
+          "world": {
+            "left": 402.76197993826406,
+            "right": 429.4222301574071,
+            "top": 43.166972363982346,
+            "bottom": 70.95554700143569
+          },
+          "labelClear": true,
+          "leaderClear": true,
+          "hasLeader": true
+        },
+        {
+          "width": 800,
+          "height": 600,
+          "study": "io",
+          "fov": 58,
+          "roll": 0,
+          "visible": true,
+          "label": {
+            "left": 564.734375,
+            "right": 615.78125,
+            "top": 275.5,
+            "bottom": 324.5
+          },
+          "world": {
+            "left": 13.311314743347369,
+            "right": 240.70827825882034,
+            "top": 210.86090589620002,
+            "bottom": 414.65492802397097
+          },
+          "labelClear": true,
+          "leaderClear": true,
+          "hasLeader": true
+        },
+        {
+          "width": 800,
+          "height": 600,
+          "study": "io",
+          "fov": 58,
+          "roll": 1,
+          "visible": true,
+          "label": {
+            "left": 564.734375,
+            "right": 615.78125,
+            "top": 275.5,
+            "bottom": 324.5
+          },
+          "world": {
+            "left": 285.34507197602903,
+            "right": 489.1390941038,
+            "top": 0,
+            "bottom": 140.70827825882034
+          },
+          "labelClear": true,
+          "leaderClear": true,
+          "hasLeader": true
+        },
+        {
+          "width": 800,
+          "height": 600,
+          "study": "io",
+          "fov": 58,
+          "roll": 2,
+          "visible": true,
+          "label": {
+            "left": 184.203125,
+            "right": 235.25,
+            "top": 275.5,
+            "bottom": 324.5
+          },
+          "world": {
+            "left": 559.2917217411796,
+            "right": 786.6886852566525,
+            "top": 185.34507197602895,
+            "bottom": 389.13909410379995
+          },
+          "labelClear": true,
+          "leaderClear": true,
+          "hasLeader": true
+        },
+        {
+          "width": 800,
+          "height": 600,
+          "study": "io",
+          "fov": 58,
+          "roll": 3,
+          "visible": true,
+          "label": {
+            "left": 184.203125,
+            "right": 235.25,
+            "top": 275.5,
+            "bottom": 324.5
+          },
+          "world": {
+            "left": 310.8609058961998,
+            "right": 514.6549280239708,
+            "top": 459.29172174117974,
+            "bottom": 600
+          },
+          "labelClear": true,
+          "leaderClear": true,
+          "hasLeader": true
+        },
+        {
+          "width": 800,
+          "height": 600,
+          "study": "io",
+          "fov": 40,
+          "roll": 0,
+          "visible": true,
+          "label": {
+            "left": 637.8125,
+            "right": 688.859375,
+            "top": 275.5,
+            "bottom": 324.5
+          },
+          "world": {
+            "left": 0,
+            "right": 157.40641714659353,
+            "top": 164.24547381009646,
+            "bottom": 474.6139063417758
+          },
+          "labelClear": true,
+          "leaderClear": true,
+          "hasLeader": true
+        },
+        {
+          "width": 800,
+          "height": 600,
+          "study": "io",
+          "fov": 40,
+          "roll": 1,
+          "visible": true,
+          "label": {
+            "left": 637.8125,
+            "right": 688.859375,
+            "top": 275.5,
+            "bottom": 324.5
+          },
+          "world": {
+            "left": 225.38609365822415,
+            "right": 535.7545261899035,
+            "top": 0,
+            "bottom": 57.40641714659351
+          },
+          "labelClear": true,
+          "leaderClear": true,
+          "hasLeader": true
+        },
+        {
+          "width": 800,
+          "height": 600,
+          "study": "io",
+          "fov": 40,
+          "roll": 2,
+          "visible": true,
+          "label": {
+            "left": 111.125,
+            "right": 162.171875,
+            "top": 275.5,
+            "bottom": 324.5
+          },
+          "world": {
+            "left": 642.5935828534065,
+            "right": 800,
+            "top": 125.3860936582241,
+            "bottom": 435.75452618990346
+          },
+          "labelClear": true,
+          "leaderClear": true,
+          "hasLeader": true
+        },
+        {
+          "width": 800,
+          "height": 600,
+          "study": "io",
+          "fov": 40,
+          "roll": 3,
+          "visible": true,
+          "label": {
+            "left": 111.125,
+            "right": 162.171875,
+            "top": 275.5,
+            "bottom": 324.5
+          },
+          "world": {
+            "left": 264.24547381009626,
+            "right": 574.6139063417755,
+            "top": 542.5935828534065,
+            "bottom": 600
+          },
+          "labelClear": true,
+          "leaderClear": true,
+          "hasLeader": true
+        }
+      ],
+      "atmospheres": [
+        {
+          "width": 1440,
+          "height": 900,
+          "fov": 58,
+          "roll": 0,
+          "intersections": 35,
+          "sampledRays": 77,
+          "label": {
+            "left": 954.609375,
+            "right": 1024,
+            "top": 425.5,
+            "bottom": 474.5
+          }
+        },
+        {
+          "width": 1440,
+          "height": 900,
+          "fov": 58,
+          "roll": 1,
+          "intersections": 35,
+          "sampledRays": 77,
+          "label": {
+            "left": 954.609375,
+            "right": 1024,
+            "top": 425.5,
+            "bottom": 474.5
+          }
+        },
+        {
+          "width": 1440,
+          "height": 900,
+          "fov": 50,
+          "roll": 0,
+          "intersections": 42,
+          "sampledRays": 77,
+          "label": {
+            "left": 994.15625,
+            "right": 1063.546875,
+            "top": 425.5,
+            "bottom": 474.5
+          }
+        },
+        {
+          "width": 1440,
+          "height": 900,
+          "fov": 50,
+          "roll": 1,
+          "intersections": 42,
+          "sampledRays": 77,
+          "label": {
+            "left": 994.15625,
+            "right": 1063.546875,
+            "top": 425.5,
+            "bottom": 474.5
+          }
+        },
+        {
+          "width": 1024,
+          "height": 640,
+          "fov": 58,
+          "roll": 0,
+          "intersections": 17,
+          "sampledRays": 77,
+          "label": {
+            "left": 686.046875,
+            "right": 755.4375,
+            "top": 295.5,
+            "bottom": 344.5
+          }
+        },
+        {
+          "width": 1024,
+          "height": 640,
+          "fov": 58,
+          "roll": 1,
+          "intersections": 17,
+          "sampledRays": 77,
+          "label": {
+            "left": 686.046875,
+            "right": 755.4375,
+            "top": 295.5,
+            "bottom": 344.5
+          }
+        },
+        {
+          "width": 1024,
+          "height": 640,
+          "fov": 50,
+          "roll": 0,
+          "intersections": 26,
+          "sampledRays": 77,
+          "label": {
+            "left": 714.171875,
+            "right": 783.5625,
+            "top": 295.5,
+            "bottom": 344.5
+          }
+        },
+        {
+          "width": 1024,
+          "height": 640,
+          "fov": 50,
+          "roll": 1,
+          "intersections": 26,
+          "sampledRays": 77,
+          "label": {
+            "left": 714.171875,
+            "right": 783.5625,
+            "top": 295.5,
+            "bottom": 344.5
+          }
+        },
+        {
+          "width": 800,
+          "height": 600,
+          "fov": 58,
+          "roll": 0,
+          "intersections": 14,
+          "sampledRays": 77,
+          "label": {
+            "left": 564.734375,
+            "right": 634.125,
+            "top": 275.5,
+            "bottom": 324.5
+          }
+        },
+        {
+          "width": 800,
+          "height": 600,
+          "fov": 58,
+          "roll": 1,
+          "intersections": 14,
+          "sampledRays": 77,
+          "label": {
+            "left": 564.734375,
+            "right": 634.125,
+            "top": 275.5,
+            "bottom": 324.5
+          }
+        },
+        {
+          "width": 800,
+          "height": 600,
+          "fov": 50,
+          "roll": 0,
+          "intersections": 21,
+          "sampledRays": 77,
+          "label": {
+            "left": 591.109375,
+            "right": 660.5,
+            "top": 275.5,
+            "bottom": 324.5
+          }
+        },
+        {
+          "width": 800,
+          "height": 600,
+          "fov": 50,
+          "roll": 1,
+          "intersections": 21,
+          "sampledRays": 77,
+          "label": {
+            "left": 591.109375,
+            "right": 660.5,
+            "top": 275.5,
+            "bottom": 324.5
+          }
+        }
+      ],
+      "partialWorldBearing": {
+        "x": 684.3125,
+        "y": 325.96875,
+        "width": 71.375,
+        "height": 49
+      },
+      "offscreenBearing": true,
+      "guidanceToggle": true,
+      "compact": {
+        "x": 854.6875,
+        "y": 295.5,
+        "width": 78.171875,
+        "height": 49
+      },
+      "occultedTargetUsesInstrumentMarker": true,
+      "screenFillingWorldKeepsMarginBearing": true,
+      "errors": [],
+      "passed": true
+    }
+  ]
+}

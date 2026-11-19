@@ -1,0 +1,284 @@
+{
+  "version": "0.30.0",
+  "outcomes": [
+    {
+      "name": "Chrome",
+      "engineVersion": "158.0.8127.37",
+      "layouts": [
+        {
+          "width": 1280,
+          "height": 800,
+          "journal": {
+            "visiblePhotos": 6,
+            "footer": true,
+            "contained": true,
+            "overflow": false,
+            "buttons": 10
+          },
+          "guide": [
+            {
+              "footer": true,
+              "overflow": false,
+              "moreVisible": true,
+              "device": "keyboard"
+            },
+            {
+              "footer": true,
+              "overflow": false,
+              "moreVisible": true,
+              "device": "gamepad"
+            }
+          ]
+        },
+        {
+          "width": 1024,
+          "height": 640,
+          "journal": {
+            "visiblePhotos": 3,
+            "footer": true,
+            "contained": true,
+            "overflow": false,
+            "buttons": 10
+          },
+          "guide": [
+            {
+              "footer": true,
+              "overflow": false,
+              "moreVisible": true,
+              "device": "keyboard"
+            },
+            {
+              "footer": true,
+              "overflow": false,
+              "moreVisible": true,
+              "device": "gamepad"
+            }
+          ]
+        },
+        {
+          "width": 800,
+          "height": 600,
+          "journal": {
+            "visiblePhotos": 0,
+            "footer": true,
+            "contained": true,
+            "overflow": false,
+            "buttons": 10
+          },
+          "guide": [
+            {
+              "footer": true,
+              "overflow": false,
+              "moreVisible": false,
+              "device": "keyboard"
+            },
+            {
+              "footer": true,
+              "overflow": false,
+              "moreVisible": false,
+              "device": "gamepad"
+            }
+          ]
+        }
+      ],
+      "photoNavigationMatchesLayout": true,
+      "viewerReturnsToCurrentPhoto": true,
+      "exportRetainsBytes": true,
+      "removeAndUndoPreserveImage": true,
+      "failedRemovalPreservesImage": true,
+      "undoPersistsAcrossReload": true,
+      "scienceAndPhotoNotesRetained": true,
+      "defaultMatchesLastInput": true,
+      "syntheticXboxNavigation": true,
+      "physicalStateHeld": true,
+      "physicalXboxTested": false,
+      "errors": []
+    },
+    {
+      "name": "Firefox",
+      "engineVersion": "153.0",
+      "layouts": [
+        {
+          "width": 1280,
+          "height": 800,
+          "journal": {
+            "visiblePhotos": 6,
+            "footer": true,
+            "contained": true,
+            "overflow": false,
+            "buttons": 10
+          },
+          "guide": [
+            {
+              "footer": true,
+              "overflow": false,
+              "moreVisible": true,
+              "device": "keyboard"
+            },
+            {
+              "footer": true,
+              "overflow": false,
+              "moreVisible": true,
+              "device": "gamepad"
+            }
+          ]
+        },
+        {
+          "width": 1024,
+          "height": 640,
+          "journal": {
+            "visiblePhotos": 3,
+            "footer": true,
+            "contained": true,
+            "overflow": false,
+            "buttons": 10
+          },
+          "guide": [
+            {
+              "footer": true,
+              "overflow": false,
+              "moreVisible": true,
+              "device": "keyboard"
+            },
+            {
+              "footer": true,
+              "overflow": false,
+              "moreVisible": true,
+              "device": "gamepad"
+            }
+          ]
+        },
+        {
+          "width": 800,
+          "height": 600,
+          "journal": {
+            "visiblePhotos": 2,
+            "footer": true,
+            "contained": true,
+            "overflow": false,
+            "buttons": 10
+          },
+          "guide": [
+            {
+              "footer": true,
+              "overflow": false,
+              "moreVisible": false,
+              "device": "keyboard"
+            },
+            {
+              "footer": true,
+              "overflow": false,
+              "moreVisible": false,
+              "device": "gamepad"
+            }
+          ]
+        }
+      ],
+      "photoNavigationMatchesLayout": true,
+      "viewerReturnsToCurrentPhoto": true,
+      "exportRetainsBytes": true,
+      "removeAndUndoPreserveImage": true,
+      "failedRemovalPreservesImage": true,
+      "undoPersistsAcrossReload": true,
+      "scienceAndPhotoNotesRetained": true,
+      "defaultMatchesLastInput": true,
+      "syntheticXboxNavigation": true,
+      "physicalStateHeld": true,
+      "physicalXboxTested": false,
+      "errors": []
+    },
+    {
+      "name": "WebKit",
+      "engineVersion": "26.5",
+      "layouts": [
+        {
+          "width": 1280,
+          "height": 800,
+          "journal": {
+            "visiblePhotos": 6,
+            "footer": true,
+            "contained": true,
+            "overflow": false,
+            "buttons": 10
+          },
+          "guide": [
+            {
+              "footer": true,
+              "overflow": false,
+              "moreVisible": true,
+              "device": "keyboard"
+            },
+            {
+              "footer": true,
+              "overflow": false,
+              "moreVisible": true,
+              "device": "gamepad"
+            }
+          ]
+        },
+        {
+          "width": 1024,
+          "height": 640,
+          "journal": {
+            "visiblePhotos": 3,
+            "footer": true,
+            "contained": true,
+            "overflow": false,
+            "buttons": 10
+          },
+          "guide": [
+            {
+              "footer": true,
+              "overflow": false,
+              "moreVisible": true,
+              "device": "keyboard"
+            },
+            {
+              "footer": true,
+              "overflow": false,
+              "moreVisible": true,
+              "device": "gamepad"
+            }
+          ]
+        },
+        {
+          "width": 800,
+          "height": 600,
+          "journal": {
+            "visiblePhotos": 0,
+            "footer": true,
+            "contained": true,
+            "overflow": false,
+            "buttons": 10
+          },
+          "guide": [
+            {
+              "footer": true,
+              "overflow": false,
+              "moreVisible": false,
+              "device": "keyboard"
+            },
+            {
+              "footer": true,
+              "overflow": false,
+              "moreVisible": false,
+              "device": "gamepad"
+            }
+          ]
+        }
+      ],
+      "photoNavigationMatchesLayout": true,
+      "viewerReturnsToCurrentPhoto": true,
+      "exportRetainsBytes": true,
+      "removeAndUndoPreserveImage": true,
+      "failedRemovalPreservesImage": true,
+      "undoPersistsAcrossReload": true,
+      "scienceAndPhotoNotesRetained": true,
+      "defaultMatchesLastInput": true,
+      "syntheticXboxNavigation": true,
+      "physicalStateHeld": true,
+      "physicalXboxTested": false,
+      "errors": []
+    }
+  ]
+}

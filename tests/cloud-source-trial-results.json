@@ -1,0 +1,937 @@
+{
+  "sourceSha256": "c792eca228989d36ebb45d3ea6ff1198be5e21a25d70d2fbcb2124ffd14ba7f5",
+  "trials": [
+    {
+      "label": "previous",
+      "bytes": 4447745,
+      "sha256": "b0e44a2ed7ef48ae9f31fa24910d490fb6e55273d64354f18be2adc09481f648",
+      "rmse": 4.29952335357666,
+      "gradientRMSE": 5.758326053619385
+    },
+    {
+      "label": "q65-speed4",
+      "bytes": 5007569,
+      "sha256": "2380455cde4e328d4c0243b9dcc52dabf6049fe39e39d8bfcdef47edb324a675",
+      "rmse": 3.7150509357452393,
+      "gradientRMSE": 5.013112545013428
+    },
+    {
+      "label": "q65-speed2",
+      "bytes": 5029209,
+      "sha256": "0f2a4d570f7511cd8b560bb59d19435910344ab11993c70d492dcdd323f38ea1",
+      "rmse": 3.5903406143188477,
+      "gradientRMSE": 4.837749004364014
+    },
+    {
+      "label": "q70-speed4",
+      "bytes": 6177861,
+      "sha256": "adfa35d6b919ab040cca611bc087cadb1189020cb58f0e41f154b4ccc9956cd4",
+      "rmse": 2.7385222911834717,
+      "gradientRMSE": 3.7006995677948
+    },
+    {
+      "label": "q90-speed6",
+      "bytes": 9721226,
+      "sha256": "77247e88844e59ae44ed8bc978ebffc3501648665ecd029871209cd5116bc2df",
+      "rmse": 0.9742667078971863,
+      "gradientRMSE": 1.2394471168518066
+    }
+  ],
+  "selected": "q70-speed4",
+  "reason": "36 percent lower source error for 1.73 MB more, with unchanged dimensions and GPU format. The larger quality-90 alternative adds 5.27 MB.",
+  "repeatControl": "Initial exact-repeat gating found Chrome max 17 and WebKit max 22 code-value differences. Warm-up and direct readback alone did not remove all post-switch variation. Final comparisons collect each variant and reference twice and require improvement to exceed their combined measured error, with a separate consecutive same-texture control.",
+  "q65BrowserEvidence": {
+    "version": "0.88.0",
+    "files": {
+      "previous": "/private/tmp/cosmos-v89-previous/Cosmos/assets/textures/earth-clouds.avif",
+      "candidate": "/private/tmp/cosmos-cloud-q65-s4.avif",
+      "reference": "/private/tmp/cosmos-cloud-source-coverage.png"
+    },
+    "hashes": {
+      "/private/tmp/cosmos-v89-previous/Cosmos/assets/textures/earth-clouds.avif": "b0e44a2ed7ef48ae9f31fa24910d490fb6e55273d64354f18be2adc09481f648",
+      "/private/tmp/cosmos-cloud-q65-s4.avif": "2380455cde4e328d4c0243b9dcc52dabf6049fe39e39d8bfcdef47edb324a675",
+      "/private/tmp/cosmos-cloud-source-coverage.png": "6af1cb4c57c3bf4a3757339891061d423e389ef2b19153491773215a97dc9a76",
+      "src/rendering/earth-shaders.js": "3f78e9c561168889ad83feb6af92f2a8c5231b7cf97aa1bc84a1082eed7e5db5",
+      "src/rendering/cloud-layer.js": "abbd04ef69d3489829922df6c35427452fe138a73c2c635ad92e084893be88f2",
+      "src/rendering/scene-factory.js": "2eaddfa7f5522467887692929b95aaf8c3e8426844d3fa99ad9208c2dc90d958"
+    },
+    "reference": "Exact red-channel samples of the credited 8192 x 4096 source image. Same packed regional height, shader, physical state, lighting and reconstruction. Encoding fidelity, not photographic equivalence or added meteorological resolution.",
+    "outcomes": [
+      {
+        "name": "Chrome",
+        "engineVersion": "158.0.8127.37",
+        "fields": {
+          "previous": {
+            "coverageRMSE": 4.299523352386888,
+            "regionalHeightRMSE": 0.765915893256155,
+            "coverageGradientRMSE": 5.758326315985032,
+            "bias": [
+              0.10727447271347046,
+              0.10747155547142029
+            ],
+            "max": [
+              43,
+              6
+            ],
+            "width": 8192,
+            "height": 4096,
+            "bytes": 67108864,
+            "format": 1030
+          },
+          "candidate": {
+            "coverageRMSE": 3.7150510054253405,
+            "regionalHeightRMSE": 0.6875757262399703,
+            "coverageGradientRMSE": 5.013112484023763,
+            "bias": [
+              0.0996389389038086,
+              0.09998476505279541
+            ],
+            "max": [
+              43,
+              5
+            ],
+            "width": 8192,
+            "height": 4096,
+            "bytes": 67108864,
+            "format": 1030
+          }
+        },
+        "views": [
+          {
+            "label": "day",
+            "quality": "ultra",
+            "metrics": {
+              "previous": {
+                "rmse": 0.7680547669274633,
+                "max": 23,
+                "gradientRMSE": 1.013246021714943
+              },
+              "candidate": {
+                "rmse": 0.6628499075959806,
+                "max": 17,
+                "gradientRMSE": 0.8739364124655441
+              }
+            },
+            "repeat": {
+              "rmse": 0,
+              "max": 0,
+              "gradientRMSE": 0
+            },
+            "physicalStatePreserved": true,
+            "resources": [
+              {
+                "calls": 7,
+                "triangles": 292866,
+                "textures": 31,
+                "geometries": 22,
+                "programs": 23
+              },
+              {
+                "calls": 7,
+                "triangles": 292866,
+                "textures": 31,
+                "geometries": 22,
+                "programs": 23
+              },
+              {
+                "calls": 7,
+                "triangles": 292866,
+                "textures": 31,
+                "geometries": 22,
+                "programs": 23
+              },
+              {
+                "calls": 7,
+                "triangles": 292866,
+                "textures": 31,
+                "geometries": 22,
+                "programs": 23
+              }
+            ]
+          },
+          {
+            "label": "terminator",
+            "quality": "ultra",
+            "metrics": {
+              "previous": {
+                "rmse": 0.4576818855202086,
+                "max": 16,
+                "gradientRMSE": 0.610672573714299
+              },
+              "candidate": {
+                "rmse": 0.3999874998046814,
+                "max": 16,
+                "gradientRMSE": 0.5336744531363414
+              }
+            },
+            "repeat": {
+              "rmse": 0,
+              "max": 0,
+              "gradientRMSE": 0
+            },
+            "physicalStatePreserved": true,
+            "resources": [
+              {
+                "calls": 7,
+                "triangles": 292866,
+                "textures": 31,
+                "geometries": 22,
+                "programs": 23
+              },
+              {
+                "calls": 7,
+                "triangles": 292866,
+                "textures": 31,
+                "geometries": 22,
+                "programs": 23
+              },
+              {
+                "calls": 7,
+                "triangles": 292866,
+                "textures": 31,
+                "geometries": 22,
+                "programs": 23
+              },
+              {
+                "calls": 7,
+                "triangles": 292866,
+                "textures": 31,
+                "geometries": 22,
+                "programs": 23
+              }
+            ]
+          },
+          {
+            "label": "crescent",
+            "quality": "ultra",
+            "metrics": {
+              "previous": {
+                "rmse": 0.007541551564499178,
+                "max": 5,
+                "gradientRMSE": 0.010431587187817377
+              },
+              "candidate": {
+                "rmse": 0.006754628043053148,
+                "max": 5,
+                "gradientRMSE": 0.009555473139349145
+              }
+            },
+            "repeat": {
+              "rmse": 0,
+              "max": 0,
+              "gradientRMSE": 0
+            },
+            "physicalStatePreserved": true,
+            "resources": [
+              {
+                "calls": 8,
+                "triangles": 366082,
+                "textures": 31,
+                "geometries": 22,
+                "programs": 23
+              },
+              {
+                "calls": 8,
+                "triangles": 366082,
+                "textures": 31,
+                "geometries": 22,
+                "programs": 23
+              },
+              {
+                "calls": 8,
+                "triangles": 366082,
+                "textures": 31,
+                "geometries": 22,
+                "programs": 23
+              },
+              {
+                "calls": 8,
+                "triangles": 366082,
+                "textures": 31,
+                "geometries": 22,
+                "programs": 23
+              }
+            ]
+          },
+          {
+            "label": "close",
+            "quality": "ultra",
+            "metrics": {
+              "previous": {
+                "rmse": 3.5844652378934665,
+                "max": 43,
+                "gradientRMSE": 0.9254029653733923
+              },
+              "candidate": {
+                "rmse": 3.0922010095291887,
+                "max": 40,
+                "gradientRMSE": 0.8364068399516262
+              }
+            },
+            "repeat": {
+              "rmse": 0,
+              "max": 0,
+              "gradientRMSE": 0
+            },
+            "physicalStatePreserved": true,
+            "resources": [
+              {
+                "calls": 7,
+                "triangles": 292866,
+                "textures": 31,
+                "geometries": 22,
+                "programs": 23
+              },
+              {
+                "calls": 7,
+                "triangles": 292866,
+                "textures": 31,
+                "geometries": 22,
+                "programs": 23
+              },
+              {
+                "calls": 7,
+                "triangles": 292866,
+                "textures": 31,
+                "geometries": 22,
+                "programs": 23
+              },
+              {
+                "calls": 7,
+                "triangles": 292866,
+                "textures": 31,
+                "geometries": 22,
+                "programs": 23
+              }
+            ]
+          },
+          {
+            "label": "grazing",
+            "quality": "ultra",
+            "metrics": {
+              "previous": {
+                "rmse": 1.4337438607831363,
+                "max": 37,
+                "gradientRMSE": 0.5043260838312884
+              },
+              "candidate": {
+                "rmse": 1.227182664344093,
+                "max": 25,
+                "gradientRMSE": 0.47479475613621797
+              }
+            },
+            "repeat": {
+              "rmse": 0,
+              "max": 0,
+              "gradientRMSE": 0
+            },
+            "physicalStatePreserved": true,
+            "resources": [
+              {
+                "calls": 7,
+                "triangles": 292866,
+                "textures": 31,
+                "geometries": 22,
+                "programs": 23
+              },
+              {
+                "calls": 7,
+                "triangles": 292866,
+                "textures": 31,
+                "geometries": 22,
+                "programs": 23
+              },
+              {
+                "calls": 7,
+                "triangles": 292866,
+                "textures": 31,
+                "geometries": 22,
+                "programs": 23
+              },
+              {
+                "calls": 7,
+                "triangles": 292866,
+                "textures": 31,
+                "geometries": 22,
+                "programs": 23
+              }
+            ]
+          },
+          {
+            "label": "resolved-limb",
+            "quality": "ultra",
+            "metrics": {
+              "previous": {
+                "rmse": 1.9025639498669509,
+                "max": 34,
+                "gradientRMSE": 0.497321153990436
+              },
+              "candidate": {
+                "rmse": 1.6687896062715635,
+                "max": 36,
+                "gradientRMSE": 0.45125309049150253
+              }
+            },
+            "repeat": {
+              "rmse": 0,
+              "max": 0,
+              "gradientRMSE": 0
+            },
+            "physicalStatePreserved": true,
+            "resources": [
+              {
+                "calls": 7,
+                "triangles": 292866,
+                "textures": 31,
+                "geometries": 22,
+                "programs": 23
+              },
+              {
+                "calls": 7,
+                "triangles": 292866,
+                "textures": 31,
+                "geometries": 22,
+                "programs": 23
+              },
+              {
+                "calls": 7,
+                "triangles": 292866,
+                "textures": 31,
+                "geometries": 22,
+                "programs": 23
+              },
+              {
+                "calls": 7,
+                "triangles": 292866,
+                "textures": 31,
+                "geometries": 22,
+                "programs": 23
+              }
+            ]
+          },
+          {
+            "label": "pole",
+            "quality": "ultra",
+            "metrics": {
+              "previous": {
+                "rmse": 1.72683453173719,
+                "max": 25,
+                "gradientRMSE": 0.8564183358978964
+              },
+              "candidate": {
+                "rmse": 1.6149045379423104,
+                "max": 26,
+                "gradientRMSE": 0.8559047014920953
+              }
+            },
+            "repeat": {
+              "rmse": 0,
+              "max": 0,
+              "gradientRMSE": 0
+            },
+            "physicalStatePreserved": true,
+            "resources": [
+              {
+                "calls": 7,
+                "triangles": 292866,
+                "textures": 31,
+                "geometries": 22,
+                "programs": 23
+              },
+              {
+                "calls": 7,
+                "triangles": 292866,
+                "textures": 31,
+                "geometries": 22,
+                "programs": 23
+              },
+              {
+                "calls": 7,
+                "triangles": 292866,
+                "textures": 31,
+                "geometries": 22,
+                "programs": 23
+              },
+              {
+                "calls": 7,
+                "triangles": 292866,
+                "textures": 31,
+                "geometries": 22,
+                "programs": 23
+              }
+            ]
+          },
+          {
+            "label": "seam",
+            "quality": "ultra",
+            "metrics": {
+              "previous": {
+                "rmse": 3.7104112249632566,
+                "max": 33,
+                "gradientRMSE": 0.5231064903536912
+              },
+              "candidate": {
+                "rmse": 3.2931890572311007,
+                "max": 30,
+                "gradientRMSE": 0.5182011347858972
+              }
+            },
+            "repeat": {
+              "rmse": 0,
+              "max": 0,
+              "gradientRMSE": 0
+            },
+            "physicalStatePreserved": true,
+            "resources": [
+              {
+                "calls": 7,
+                "triangles": 292866,
+                "textures": 31,
+                "geometries": 22,
+                "programs": 23
+              },
+              {
+                "calls": 7,
+                "triangles": 292866,
+                "textures": 31,
+                "geometries": 22,
+                "programs": 23
+              },
+              {
+                "calls": 7,
+                "triangles": 292866,
+                "textures": 31,
+                "geometries": 22,
+                "programs": 23
+              },
+              {
+                "calls": 7,
+                "triangles": 292866,
+                "textures": 31,
+                "geometries": 22,
+                "programs": 23
+              }
+            ]
+          },
+          {
+            "label": "day",
+            "quality": "high",
+            "metrics": {
+              "previous": {
+                "rmse": 0.4257097015572936,
+                "max": 9,
+                "gradientRMSE": 0.397018805126321
+              },
+              "candidate": {
+                "rmse": 0.37900390279432916,
+                "max": 12,
+                "gradientRMSE": 0.36645795412992566
+              }
+            },
+            "repeat": {
+              "rmse": 0,
+              "max": 0,
+              "gradientRMSE": 0
+            },
+            "physicalStatePreserved": true,
+            "resources": [
+              {
+                "calls": 8,
+                "triangles": 366082,
+                "textures": 31,
+                "geometries": 22,
+                "programs": 23
+              },
+              {
+                "calls": 8,
+                "triangles": 366082,
+                "textures": 31,
+                "geometries": 22,
+                "programs": 23
+              },
+              {
+                "calls": 8,
+                "triangles": 366082,
+                "textures": 31,
+                "geometries": 22,
+                "programs": 23
+              },
+              {
+                "calls": 8,
+                "triangles": 366082,
+                "textures": 31,
+                "geometries": 22,
+                "programs": 23
+              }
+            ]
+          },
+          {
+            "label": "terminator",
+            "quality": "high",
+            "metrics": {
+              "previous": {
+                "rmse": 0.26521100090305455,
+                "max": 11,
+                "gradientRMSE": 0.2630445055957627
+              },
+              "candidate": {
+                "rmse": 0.2393371924015711,
+                "max": 13,
+                "gradientRMSE": 0.24465944644810572
+              }
+            },
+            "repeat": {
+              "rmse": 0,
+              "max": 0,
+              "gradientRMSE": 0
+            },
+            "physicalStatePreserved": true,
+            "resources": [
+              {
+                "calls": 8,
+                "triangles": 366082,
+                "textures": 31,
+                "geometries": 22,
+                "programs": 23
+              },
+              {
+                "calls": 8,
+                "triangles": 366082,
+                "textures": 31,
+                "geometries": 22,
+                "programs": 23
+              },
+              {
+                "calls": 8,
+                "triangles": 366082,
+                "textures": 31,
+                "geometries": 22,
+                "programs": 23
+              },
+              {
+                "calls": 8,
+                "triangles": 366082,
+                "textures": 31,
+                "geometries": 22,
+                "programs": 23
+              }
+            ]
+          },
+          {
+            "label": "crescent",
+            "quality": "high",
+            "metrics": {
+              "previous": {
+                "rmse": 0.007569125885243729,
+                "max": 2,
+                "gradientRMSE": 0.009357068007718185
+              },
+              "candidate": {
+                "rmse": 0.006907121928367367,
+                "max": 2,
+                "gradientRMSE": 0.00887689413764504
+              }
+            },
+            "repeat": {
+              "rmse": 0,
+              "max": 0,
+              "gradientRMSE": 0
+            },
+            "physicalStatePreserved": true,
+            "resources": [
+              {
+                "calls": 9,
+                "triangles": 439298,
+                "textures": 31,
+                "geometries": 22,
+                "programs": 23
+              },
+              {
+                "calls": 9,
+                "triangles": 439298,
+                "textures": 31,
+                "geometries": 22,
+                "programs": 23
+              },
+              {
+                "calls": 9,
+                "triangles": 439298,
+                "textures": 31,
+                "geometries": 22,
+                "programs": 23
+              },
+              {
+                "calls": 9,
+                "triangles": 439298,
+                "textures": 31,
+                "geometries": 22,
+                "programs": 23
+              }
+            ]
+          },
+          {
+            "label": "close",
+            "quality": "high",
+            "metrics": {
+              "previous": {
+                "rmse": 3.5667116040782814,
+                "max": 43,
+                "gradientRMSE": 0.9100136645733599
+              },
+              "candidate": {
+                "rmse": 3.0758316287360943,
+                "max": 38,
+                "gradientRMSE": 0.8231129358411587
+              }
+            },
+            "repeat": {
+              "rmse": 0,
+              "max": 0,
+              "gradientRMSE": 0
+            },
+            "physicalStatePreserved": true,
+            "resources": [
+              {
+                "calls": 8,
+                "triangles": 366082,
+                "textures": 31,
+                "geometries": 22,
+                "programs": 23
+              },
+              {
+                "calls": 8,
+                "triangles": 366082,
+                "textures": 31,
+                "geometries": 22,
+                "programs": 23
+              },
+              {
+                "calls": 8,
+                "triangles": 366082,
+                "textures": 31,
+                "geometries": 22,
+                "programs": 23
+              },
+              {
+                "calls": 8,
+                "triangles": 366082,
+                "textures": 31,
+                "geometries": 22,
+                "programs": 23
+              }
+            ]
+          },
+          {
+            "label": "grazing",
+            "quality": "high",
+            "metrics": {
+              "previous": {
+                "rmse": 1.427275741287109,
+                "max": 36,
+                "gradientRMSE": 0.4987328115776758
+              },
+              "candidate": {
+                "rmse": 1.2213325202417236,
+                "max": 25,
+                "gradientRMSE": 0.46989635553909803
+              }
+            },
+            "repeat": {
+              "rmse": 0,
+              "max": 0,
+              "gradientRMSE": 0
+            },
+            "physicalStatePreserved": true,
+            "resources": [
+              {
+                "calls": 8,
+                "triangles": 366082,
+                "textures": 31,
+                "geometries": 22,
+                "programs": 23
+              },
+              {
+                "calls": 8,
+                "triangles": 366082,
+                "textures": 31,
+                "geometries": 22,
+                "programs": 23
+              },
+              {
+                "calls": 8,
+                "triangles": 366082,
+                "textures": 31,
+                "geometries": 22,
+                "programs": 23
+              },
+              {
+                "calls": 8,
+                "triangles": 366082,
+                "textures": 31,
+                "geometries": 22,
+                "programs": 23
+              }
+            ]
+          },
+          {
+            "label": "resolved-limb",
+            "quality": "high",
+            "metrics": {
+              "previous": {
+                "rmse": 1.9008181352600078,
+                "max": 34,
+                "gradientRMSE": 0.49486754997255905
+              },
+              "candidate": {
+                "rmse": 1.6675741487761997,
+                "max": 35,
+                "gradientRMSE": 0.4497169795375599
+              }
+            },
+            "repeat": {
+              "rmse": 0,
+              "max": 0,
+              "gradientRMSE": 0
+            },
+            "physicalStatePreserved": true,
+            "resources": [
+              {
+                "calls": 8,
+                "triangles": 366082,
+                "textures": 31,
+                "geometries": 22,
+                "programs": 23
+              },
+              {
+                "calls": 8,
+                "triangles": 366082,
+                "textures": 31,
+                "geometries": 22,
+                "programs": 23
+              },
+              {
+                "calls": 8,
+                "triangles": 366082,
+                "textures": 31,
+                "geometries": 22,
+                "programs": 23
+              },
+              {
+                "calls": 8,
+                "triangles": 366082,
+                "textures": 31,
+                "geometries": 22,
+                "programs": 23
+              }
+            ]
+          },
+          {
+            "label": "pole",
+            "quality": "high",
+            "metrics": {
+              "previous": {
+                "rmse": 1.6912982562713965,
+                "max": 24,
+                "gradientRMSE": 0.7841201987815191
+              },
+              "candidate": {
+                "rmse": 1.578807237019981,
+                "max": 24,
+                "gradientRMSE": 0.7833995288252363
+              }
+            },
+            "repeat": {
+              "rmse": 0,
+              "max": 0,
+              "gradientRMSE": 0
+            },
+            "physicalStatePreserved": true,
+            "resources": [
+              {
+                "calls": 8,
+                "triangles": 366082,
+                "textures": 31,
+                "geometries": 22,
+                "programs": 23
+              },
+              {
+                "calls": 8,
+                "triangles": 366082,
+                "textures": 31,
+                "geometries": 22,
+                "programs": 23
+              },
+              {
+                "calls": 8,
+                "triangles": 366082,
+                "textures": 31,
+                "geometries": 22,
+                "programs": 23
+              },
+              {
+                "calls": 8,
+                "triangles": 366082,
+                "textures": 31,
+                "geometries": 22,
+                "programs": 23
+              }
+            ]
+          },
+          {
+            "label": "seam",
+            "quality": "high",
+            "metrics": {
+              "previous": {
+                "rmse": 3.7091736220259808,
+                "max": 32,
+                "gradientRMSE": 0.5227255745287546
+              },
+              "candidate": {
+                "rmse": 3.2921879123160633,
+                "max": 30,
+                "gradientRMSE": 0.5180049845907579
+              }
+            },
+            "repeat": {
+              "rmse": 0,
+              "max": 0,
+              "gradientRMSE": 0
+            },
+            "physicalStatePreserved": true,
+            "resources": [
+              {
+                "calls": 8,
+                "triangles": 366082,
+                "textures": 31,
+                "geometries": 22,
+                "programs": 23
+              },
+              {
+                "calls": 8,
+                "triangles": 366082,
+                "textures": 31,
+                "geometries": 22,
+                "programs": 23
+              },
+              {
+                "calls": 8,
+                "triangles": 366082,
+                "textures": 31,
+                "geometries": 22,
+                "programs": 23
+              },
+              {
+                "calls": 8,
+                "triangles": 366082,
+                "textures": 31,
+                "geometries": 22,
+                "programs": 23
+              }
+            ]
+          }
+        ],
+        "errors": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "states": [
+    {
+      "name": "new Moon study",
+      "key": "encounter:0:moon",
+      "epoch": 0,
+      "ratio": 1.125,
+      "budgetSeconds": 0
+    },
+    {
+      "name": "Earth after Moon",
+      "key": "encounter:0:main",
+      "epoch": 0,
+      "ratio": 1.125,
+      "budgetSeconds": 0
+    },
+    {
+      "name": "Moon return",
+      "key": "encounter:0:moon",
+      "epoch": 0,
+      "ratio": 1.75,
+      "budgetSeconds": 0
+    },
+    {
+      "name": "passage",
+      "key": "passage:0",
+      "epoch": 0,
+      "ratio": 1.75,
+      "budgetSeconds": 0
+    },
+    {
+      "name": "Earth after passage",
+      "key": "encounter:0:main",
+      "epoch": 0,
+      "ratio": 1.125,
+      "budgetSeconds": 0
+    },
+    {
+      "name": "Jupiter after Io",
+      "key": "encounter:1:main",
+      "epoch": 1,
+      "ratio": 1.5,
+      "budgetSeconds": 0
+    },
+    {
+      "name": "Io return",
+      "key": "encounter:1:io",
+      "epoch": 1,
+      "ratio": 1.875,
+      "budgetSeconds": 0
+    },
+    {
+      "name": "new quality setting",
+      "key": "encounter:0:moon",
+      "epoch": 0,
+      "ratio": 2,
+      "budgetSeconds": 0
+    }
+  ],
+  "qualityClearsProfiles": true,
+  "errors": []
+}

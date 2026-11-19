@@ -1,0 +1,911 @@
+{
+  "versions": {
+    "previous": "0.94.0",
+    "candidate": "0.95.0"
+  },
+  "sources": {
+    "previous": {
+      "src/main.js": "440c57a9c3fad58f5bfc0ad8a2692232f6f47b63821e4757de3e0ad96a99baae",
+      "src/rendering/lunar-shadow.js": null,
+      "src/rendering/cloud-detail.js": "cca400f26521f709f9a699c8ef0204d791b7a277dc8f7f2ef121b4cd2e4bdd50",
+      "src/rendering/earth-shaders.js": "f3ee7808f0506838351fccd4f591ee2d84e2c1a8a5f19db392fb34e03b23ee00",
+      "src/rendering/cloud-layer.js": "d76b632c743980179f15a3e1925d7c4cd08e644426f0f7bfd3d27449a2bd8163",
+      "src/rendering/shaders.js": "701487cdd182379a4c813f7ff50b11e416329adc2fccc2dcff7346ac03db0532",
+      "src/rendering/scene-factory.js": "b21c02c1698fb414f01724048d6a33c28e409d1829e95c1d3b6adb3fcfb4569b",
+      "src/rendering/geometry-detail.js": "0e87fdf9a19a8dab13affe848de13cc3e9f86d127c3bc7df460bc434390e4fbd",
+      "src/rendering/ringshine.js": "d6a1d5c8f1e4f9e857a4878369e569097b6770995af3bf2ef3e4fd456258ca8e",
+      "src/world.js": "e7a57723312598550a1bf04b355263485b0598f3dbc24a2f81c28af43925e0fe",
+      "src/mission.js": "d5d4826dbf00408df1189651f4d5ba2e66564642a0734931fefa97160cf4b4b8",
+      "assets/textures/earth-clouds.avif": "f65c0b5505f046b87f4367a8ad63a2f007c22595a04cb92d65cd821ccdc1a28b",
+      "assets/textures/earth-cloud-height.png": "e459fde568e5666da55abfaeffb18dc88ae13fc29d91d442d7f0318fd16d19bb",
+      "assets/textures/io.avif": "258005e849fe82bc81dff92f62ec91b3934bb84237c566b92c98b28142da8905",
+      "assets/textures/saturn-polar.avif": "d1ab87bbaecc4455ef964a626d01c3ba478432c9aadff063b8f944ee830ed919",
+      "assets/textures/jupiter.avif": "7c0c16b9f8a8d01e3cb7c72fe1cddea476949da75e3da748fcf8a455a0d37480",
+      "assets/textures/earth.avif": "0cfa1ac6b0b5acdacbd6e3a338d37d6ff3d5ac8df525085d96bf229a5394ee8c",
+      "assets/textures/moon.avif": "d13810b205de4512f985ae8e570e036b9c3809fea1b0a8c336a53e769c5a3120",
+      "assets/textures/moon-normal.avif": "7e9170917cb332c129fd62c76aabfe1cc9bf65eebe24ebcf4ffdf79da97d6ff0",
+      "assets/textures/moon-height.webp": "3cbbc1667418cef9bd6b30ed521fa74bbde1bea8d8d3bf3354061610fb130720",
+      "assets/textures/moon-polar-color.avif": "436352504b04a94722f278b66a846a10a024029efc51d2ab0e77c11a6cdfe1ce",
+      "assets/textures/moon-polar-normal.avif": "4e1df67a21b2b9a629b6c133d75d1c1545e95a66946a3dc2e270f3a479f43fec",
+      "assets/textures/moon-relief.bin": null
+    },
+    "candidate": {
+      "src/main.js": "440c57a9c3fad58f5bfc0ad8a2692232f6f47b63821e4757de3e0ad96a99baae",
+      "src/rendering/lunar-shadow.js": "4479244f81dac072e3ca0d66efccc1787f6498ff3aeb94bda412fc15206620ba",
+      "src/rendering/cloud-detail.js": "cca400f26521f709f9a699c8ef0204d791b7a277dc8f7f2ef121b4cd2e4bdd50",
+      "src/rendering/earth-shaders.js": "f3ee7808f0506838351fccd4f591ee2d84e2c1a8a5f19db392fb34e03b23ee00",
+      "src/rendering/cloud-layer.js": "d76b632c743980179f15a3e1925d7c4cd08e644426f0f7bfd3d27449a2bd8163",
+      "src/rendering/shaders.js": "8b8630821db82d28a9a76a9bddab832a57e0cda9b263d9a3c7db464a2ec94639",
+      "src/rendering/scene-factory.js": "6e7fc258ec9e4fadba1d66d0b2617805c46b86a3a4c0322a414be309963a2fe4",
+      "src/rendering/geometry-detail.js": "0e87fdf9a19a8dab13affe848de13cc3e9f86d127c3bc7df460bc434390e4fbd",
+      "src/rendering/ringshine.js": "d6a1d5c8f1e4f9e857a4878369e569097b6770995af3bf2ef3e4fd456258ca8e",
+      "src/world.js": "abc4ceabb8554b1d6af3d43057c4dcdeeb8466b46d78d3619ab8a9b41687a661",
+      "src/mission.js": "d5d4826dbf00408df1189651f4d5ba2e66564642a0734931fefa97160cf4b4b8",
+      "assets/textures/earth-clouds.avif": "f65c0b5505f046b87f4367a8ad63a2f007c22595a04cb92d65cd821ccdc1a28b",
+      "assets/textures/earth-cloud-height.png": "e459fde568e5666da55abfaeffb18dc88ae13fc29d91d442d7f0318fd16d19bb",
+      "assets/textures/io.avif": "258005e849fe82bc81dff92f62ec91b3934bb84237c566b92c98b28142da8905",
+      "assets/textures/saturn-polar.avif": "d1ab87bbaecc4455ef964a626d01c3ba478432c9aadff063b8f944ee830ed919",
+      "assets/textures/jupiter.avif": "7c0c16b9f8a8d01e3cb7c72fe1cddea476949da75e3da748fcf8a455a0d37480",
+      "assets/textures/earth.avif": "0cfa1ac6b0b5acdacbd6e3a338d37d6ff3d5ac8df525085d96bf229a5394ee8c",
+      "assets/textures/moon.avif": "d13810b205de4512f985ae8e570e036b9c3809fea1b0a8c336a53e769c5a3120",
+      "assets/textures/moon-normal.avif": "7e9170917cb332c129fd62c76aabfe1cc9bf65eebe24ebcf4ffdf79da97d6ff0",
+      "assets/textures/moon-height.webp": "3cbbc1667418cef9bd6b30ed521fa74bbde1bea8d8d3bf3354061610fb130720",
+      "assets/textures/moon-polar-color.avif": "436352504b04a94722f278b66a846a10a024029efc51d2ab0e77c11a6cdfe1ce",
+      "assets/textures/moon-polar-normal.avif": "4e1df67a21b2b9a629b6c133d75d1c1545e95a66946a3dc2e270f3a479f43fec",
+      "assets/textures/moon-relief.bin": null
+    }
+  },
+  "method": "Full original meshes in both variants isolate material rendering. Adaptive geometry is verified separately.",
+  "outcomes": [
+    {
+      "name": "Chrome",
+      "engineVersion": "158.0.8127.37",
+      "views": {
+        "chase-earth": {
+          "previous": {
+            "cloudPatches": 0,
+            "chaseOffset": [
+              -10,
+              -2.5,
+              26
+            ],
+            "pixelSha256": "7a7d2b23a2352eaceadb03043a9b52c9d5f87d3dd5c850db6b6fa2f96afbbf74",
+            "outlier": null,
+            "shadow": {
+              "updated": true,
+              "current": true,
+              "reflectedPosition": true,
+              "pending": false,
+              "viewport": [
+                0,
+                0,
+                1440,
+                900
+              ]
+            },
+            "physicalStatePreserved": true,
+            "calls": 49,
+            "triangles": 1583642,
+            "textures": 31,
+            "geometries": 22,
+            "programs": 23,
+            "width": 1440,
+            "height": 900
+          },
+          "candidate": {
+            "cloudPatches": 0,
+            "chaseOffset": [
+              -10,
+              -2.5,
+              26
+            ],
+            "pixelSha256": "7a7d2b23a2352eaceadb03043a9b52c9d5f87d3dd5c850db6b6fa2f96afbbf74",
+            "outlier": null,
+            "shadow": {
+              "updated": true,
+              "current": true,
+              "reflectedPosition": true,
+              "pending": false,
+              "viewport": [
+                0,
+                0,
+                1440,
+                900
+              ]
+            },
+            "physicalStatePreserved": true,
+            "calls": 49,
+            "triangles": 1583642,
+            "textures": 32,
+            "geometries": 22,
+            "programs": 24,
+            "width": 1440,
+            "height": 900
+          }
+        },
+        "chase-moon": {
+          "previous": {
+            "cloudPatches": 0,
+            "chaseOffset": [
+              -10,
+              -2.5,
+              26
+            ],
+            "pixelSha256": "8499be07b5252277e0b1539ae5b76eee692128954ebd861c6e8a5fa266796970",
+            "outlier": null,
+            "shadow": {
+              "updated": true,
+              "current": true,
+              "reflectedPosition": true,
+              "pending": false,
+              "viewport": [
+                0,
+                0,
+                1440,
+                900
+              ]
+            },
+            "physicalStatePreserved": true,
+            "calls": 46,
+            "triangles": 1584666,
+            "textures": 31,
+            "geometries": 22,
+            "programs": 23,
+            "width": 1440,
+            "height": 900
+          },
+          "candidate": {
+            "cloudPatches": 0,
+            "chaseOffset": [
+              -10,
+              -2.5,
+              26
+            ],
+            "pixelSha256": "79899d00d842ae7214395d61c9f28a8b9f7fa180f47e07d86e48873f7a16beff",
+            "outlier": null,
+            "shadow": {
+              "updated": true,
+              "current": true,
+              "reflectedPosition": true,
+              "pending": false,
+              "viewport": [
+                0,
+                0,
+                1440,
+                900
+              ]
+            },
+            "physicalStatePreserved": true,
+            "calls": 46,
+            "triangles": 1584666,
+            "textures": 32,
+            "geometries": 22,
+            "programs": 24,
+            "width": 1440,
+            "height": 900
+          }
+        },
+        "chase-shadow": {
+          "previous": {
+            "cloudPatches": 0,
+            "chaseOffset": [
+              -10,
+              -2.5,
+              26
+            ],
+            "pixelSha256": "d742341ae951079f28b485927dc2b15fd1ee1788131fa9a7960a13160c23e842",
+            "outlier": null,
+            "shadow": {
+              "updated": true,
+              "current": true,
+              "reflectedPosition": true,
+              "pending": false,
+              "viewport": [
+                0,
+                0,
+                1440,
+                900
+              ]
+            },
+            "physicalStatePreserved": true,
+            "calls": 50,
+            "triangles": 1587738,
+            "textures": 31,
+            "geometries": 22,
+            "programs": 23,
+            "width": 1440,
+            "height": 900
+          },
+          "candidate": {
+            "cloudPatches": 0,
+            "chaseOffset": [
+              -10,
+              -2.5,
+              26
+            ],
+            "pixelSha256": "d742341ae951079f28b485927dc2b15fd1ee1788131fa9a7960a13160c23e842",
+            "outlier": null,
+            "shadow": {
+              "updated": true,
+              "current": true,
+              "reflectedPosition": true,
+              "pending": false,
+              "viewport": [
+                0,
+                0,
+                1440,
+                900
+              ]
+            },
+            "physicalStatePreserved": true,
+            "calls": 50,
+            "triangles": 1587738,
+            "textures": 32,
+            "geometries": 22,
+            "programs": 24,
+            "width": 1440,
+            "height": 900
+          }
+        },
+        "chase-jupiter": {
+          "previous": {
+            "cloudPatches": 0,
+            "chaseOffset": [
+              -10,
+              -2.5,
+              26
+            ],
+            "pixelSha256": "501bdf51ceb2d051b0f72ca098481765f14e86f617e24c8d4ca56c3790c5f739",
+            "outlier": null,
+            "shadow": {
+              "updated": true,
+              "current": true,
+              "reflectedPosition": true,
+              "pending": false,
+              "viewport": [
+                0,
+                0,
+                1440,
+                900
+              ]
+            },
+            "physicalStatePreserved": true,
+            "calls": 46,
+            "triangles": 1294874,
+            "textures": 32,
+            "geometries": 22,
+            "programs": 23,
+            "width": 1440,
+            "height": 900
+          },
+          "candidate": {
+            "cloudPatches": 0,
+            "chaseOffset": [
+              -10,
+              -2.5,
+              26
+            ],
+            "pixelSha256": "501bdf51ceb2d051b0f72ca098481765f14e86f617e24c8d4ca56c3790c5f739",
+            "outlier": null,
+            "shadow": {
+              "updated": true,
+              "current": true,
+              "reflectedPosition": true,
+              "pending": false,
+              "viewport": [
+                0,
+                0,
+                1440,
+                900
+              ]
+            },
+            "physicalStatePreserved": true,
+            "calls": 46,
+            "triangles": 1294874,
+            "textures": 33,
+            "geometries": 22,
+            "programs": 24,
+            "width": 1440,
+            "height": 900
+          }
+        },
+        "chase-titan": {
+          "previous": {
+            "cloudPatches": 0,
+            "chaseOffset": [
+              -10,
+              -2.5,
+              26
+            ],
+            "pixelSha256": "a5d96f032dbe97ddb622e9f872a126e9a02ccff9589c0eb0ceb1c964e0480540",
+            "outlier": null,
+            "shadow": {
+              "updated": true,
+              "current": true,
+              "reflectedPosition": true,
+              "pending": false,
+              "viewport": [
+                0,
+                0,
+                1440,
+                900
+              ]
+            },
+            "physicalStatePreserved": true,
+            "calls": 52,
+            "triangles": 2023962,
+            "textures": 33,
+            "geometries": 22,
+            "programs": 23,
+            "width": 1440,
+            "height": 900
+          },
+          "candidate": {
+            "cloudPatches": 0,
+            "chaseOffset": [
+              -10,
+              -2.5,
+              26
+            ],
+            "pixelSha256": "a5d96f032dbe97ddb622e9f872a126e9a02ccff9589c0eb0ceb1c964e0480540",
+            "outlier": null,
+            "shadow": {
+              "updated": true,
+              "current": true,
+              "reflectedPosition": true,
+              "pending": false,
+              "viewport": [
+                0,
+                0,
+                1440,
+                900
+              ]
+            },
+            "physicalStatePreserved": true,
+            "calls": 52,
+            "triangles": 2023962,
+            "textures": 34,
+            "geometries": 22,
+            "programs": 24,
+            "width": 1440,
+            "height": 900
+          }
+        },
+        "earth": {
+          "previous": {
+            "cloudPatches": 0,
+            "chaseOffset": [
+              -10,
+              -2.5,
+              26
+            ],
+            "pixelSha256": "b35e139aff7393c5918bf4fa6d0515a68252c59da2c39f8dab7882adc7261a9d",
+            "outlier": null,
+            "shadow": null,
+            "physicalStatePreserved": true,
+            "calls": 7,
+            "triangles": 292866,
+            "textures": 33,
+            "geometries": 22,
+            "programs": 23,
+            "width": 1440,
+            "height": 900
+          },
+          "candidate": {
+            "cloudPatches": 0,
+            "chaseOffset": [
+              -10,
+              -2.5,
+              26
+            ],
+            "pixelSha256": "b35e139aff7393c5918bf4fa6d0515a68252c59da2c39f8dab7882adc7261a9d",
+            "outlier": null,
+            "shadow": null,
+            "physicalStatePreserved": true,
+            "calls": 7,
+            "triangles": 292866,
+            "textures": 34,
+            "geometries": 22,
+            "programs": 24,
+            "width": 1440,
+            "height": 900
+          }
+        },
+        "moon": {
+          "previous": {
+            "cloudPatches": 0,
+            "chaseOffset": [
+              -10,
+              -2.5,
+              26
+            ],
+            "pixelSha256": "a4b0cc7ae60c30cf6d24d4a05ce43ace598f3938cde55de5d4f5597dc6ad29a6",
+            "outlier": null,
+            "shadow": null,
+            "physicalStatePreserved": true,
+            "calls": 8,
+            "triangles": 586754,
+            "textures": 33,
+            "geometries": 22,
+            "programs": 23,
+            "width": 1440,
+            "height": 900
+          },
+          "candidate": {
+            "cloudPatches": 0,
+            "chaseOffset": [
+              -10,
+              -2.5,
+              26
+            ],
+            "pixelSha256": "f31f88a244fd65d4623872f4d71105939f1a7fad1f68f1449c4abde3f678bd52",
+            "outlier": null,
+            "shadow": null,
+            "physicalStatePreserved": true,
+            "calls": 8,
+            "triangles": 586754,
+            "textures": 34,
+            "geometries": 22,
+            "programs": 24,
+            "width": 1440,
+            "height": 900
+          }
+        },
+        "earth-shadow": {
+          "previous": {
+            "cloudPatches": 0,
+            "chaseOffset": [
+              -10,
+              -2.5,
+              26
+            ],
+            "pixelSha256": "934bc372dedeb785ab803684301cdd05b0ebf48548f9872254eda7a745ab6bc2",
+            "outlier": null,
+            "shadow": null,
+            "physicalStatePreserved": true,
+            "calls": 12,
+            "triangles": 589826,
+            "textures": 33,
+            "geometries": 22,
+            "programs": 23,
+            "width": 1440,
+            "height": 900
+          },
+          "candidate": {
+            "cloudPatches": 0,
+            "chaseOffset": [
+              -10,
+              -2.5,
+              26
+            ],
+            "pixelSha256": "934bc372dedeb785ab803684301cdd05b0ebf48548f9872254eda7a745ab6bc2",
+            "outlier": null,
+            "shadow": null,
+            "physicalStatePreserved": true,
+            "calls": 12,
+            "triangles": 589826,
+            "textures": 34,
+            "geometries": 22,
+            "programs": 24,
+            "width": 1440,
+            "height": 900
+          }
+        },
+        "jupiter": {
+          "previous": {
+            "cloudPatches": 0,
+            "chaseOffset": [
+              -10,
+              -2.5,
+              26
+            ],
+            "pixelSha256": "08fed7ab933d13a3f9cce4eaefe0371bdb2b9d1c8362897a20f2b41857bbd7d0",
+            "outlier": {
+              "x": 798,
+              "y": 425,
+              "blueExcess": -30,
+              "visible": true
+            },
+            "shadow": null,
+            "physicalStatePreserved": true,
+            "calls": 8,
+            "triangles": 296962,
+            "textures": 33,
+            "geometries": 22,
+            "programs": 23,
+            "width": 1440,
+            "height": 900
+          },
+          "candidate": {
+            "cloudPatches": 0,
+            "chaseOffset": [
+              -10,
+              -2.5,
+              26
+            ],
+            "pixelSha256": "08fed7ab933d13a3f9cce4eaefe0371bdb2b9d1c8362897a20f2b41857bbd7d0",
+            "outlier": {
+              "x": 798,
+              "y": 425,
+              "blueExcess": -30,
+              "visible": true
+            },
+            "shadow": null,
+            "physicalStatePreserved": true,
+            "calls": 8,
+            "triangles": 296962,
+            "textures": 34,
+            "geometries": 22,
+            "programs": 24,
+            "width": 1440,
+            "height": 900
+          }
+        },
+        "jupiter-close": {
+          "previous": {
+            "cloudPatches": 0,
+            "chaseOffset": [
+              -10,
+              -2.5,
+              26
+            ],
+            "pixelSha256": "3c01ed521349e710fe404900121be7a1fe5e3879921a8500569527b48ffd9ec5",
+            "outlier": {
+              "x": 992,
+              "y": 363,
+              "blueExcess": -34,
+              "visible": true
+            },
+            "shadow": null,
+            "physicalStatePreserved": true,
+            "calls": 4,
+            "triangles": 73218,
+            "textures": 33,
+            "geometries": 22,
+            "programs": 23,
+            "width": 1440,
+            "height": 900
+          },
+          "candidate": {
+            "cloudPatches": 0,
+            "chaseOffset": [
+              -10,
+              -2.5,
+              26
+            ],
+            "pixelSha256": "3c01ed521349e710fe404900121be7a1fe5e3879921a8500569527b48ffd9ec5",
+            "outlier": {
+              "x": 992,
+              "y": 363,
+              "blueExcess": -34,
+              "visible": true
+            },
+            "shadow": null,
+            "physicalStatePreserved": true,
+            "calls": 4,
+            "triangles": 73218,
+            "textures": 34,
+            "geometries": 22,
+            "programs": 24,
+            "width": 1440,
+            "height": 900
+          }
+        },
+        "jupiter-narrow": {
+          "previous": {
+            "cloudPatches": 0,
+            "chaseOffset": [
+              -10,
+              -2.5,
+              26
+            ],
+            "pixelSha256": "1f43a4187a857c6f3cb310a6dc9ec53e4fef6fc457c780a17bdf4b57c00be2f8",
+            "outlier": {
+              "x": 1336,
+              "y": 253,
+              "blueExcess": -37,
+              "visible": true
+            },
+            "shadow": null,
+            "physicalStatePreserved": true,
+            "calls": 4,
+            "triangles": 73218,
+            "textures": 33,
+            "geometries": 22,
+            "programs": 23,
+            "width": 1440,
+            "height": 900
+          },
+          "candidate": {
+            "cloudPatches": 0,
+            "chaseOffset": [
+              -10,
+              -2.5,
+              26
+            ],
+            "pixelSha256": "1f43a4187a857c6f3cb310a6dc9ec53e4fef6fc457c780a17bdf4b57c00be2f8",
+            "outlier": {
+              "x": 1336,
+              "y": 253,
+              "blueExcess": -37,
+              "visible": true
+            },
+            "shadow": null,
+            "physicalStatePreserved": true,
+            "calls": 4,
+            "triangles": 73218,
+            "textures": 34,
+            "geometries": 22,
+            "programs": 24,
+            "width": 1440,
+            "height": 900
+          }
+        },
+        "io": {
+          "previous": {
+            "cloudPatches": 0,
+            "chaseOffset": [
+              -10,
+              -2.5,
+              26
+            ],
+            "pixelSha256": "534d56b8652fecc754bc9cc9d6324c0034a3054806a61ec03443af2075062474",
+            "outlier": null,
+            "shadow": null,
+            "physicalStatePreserved": true,
+            "calls": 9,
+            "triangles": 370178,
+            "textures": 33,
+            "geometries": 22,
+            "programs": 23,
+            "width": 1440,
+            "height": 900
+          },
+          "candidate": {
+            "cloudPatches": 0,
+            "chaseOffset": [
+              -10,
+              -2.5,
+              26
+            ],
+            "pixelSha256": "534d56b8652fecc754bc9cc9d6324c0034a3054806a61ec03443af2075062474",
+            "outlier": null,
+            "shadow": null,
+            "physicalStatePreserved": true,
+            "calls": 9,
+            "triangles": 370178,
+            "textures": 34,
+            "geometries": 22,
+            "programs": 24,
+            "width": 1440,
+            "height": 900
+          }
+        },
+        "saturn": {
+          "previous": {
+            "cloudPatches": 0,
+            "chaseOffset": [
+              -10,
+              -2.5,
+              26
+            ],
+            "pixelSha256": "b064720b69de4ce31800ae1009fde05570819efc737d10b94741dbedc52c0877",
+            "outlier": null,
+            "shadow": null,
+            "physicalStatePreserved": true,
+            "calls": 5,
+            "triangles": 77314,
+            "textures": 33,
+            "geometries": 22,
+            "programs": 23,
+            "width": 1440,
+            "height": 900
+          },
+          "candidate": {
+            "cloudPatches": 0,
+            "chaseOffset": [
+              -10,
+              -2.5,
+              26
+            ],
+            "pixelSha256": "b064720b69de4ce31800ae1009fde05570819efc737d10b94741dbedc52c0877",
+            "outlier": null,
+            "shadow": null,
+            "physicalStatePreserved": true,
+            "calls": 5,
+            "triangles": 77314,
+            "textures": 34,
+            "geometries": 22,
+            "programs": 24,
+            "width": 1440,
+            "height": 900
+          }
+        },
+        "titan": {
+          "previous": {
+            "cloudPatches": 0,
+            "chaseOffset": [
+              -10,
+              -2.5,
+              26
+            ],
+            "pixelSha256": "214c0f952cda64fdd0910452f682584d39854212b241a4de29a4f4ac20ba2566",
+            "outlier": null,
+            "shadow": null,
+            "physicalStatePreserved": true,
+            "calls": 13,
+            "triangles": 952834,
+            "textures": 33,
+            "geometries": 22,
+            "programs": 23,
+            "width": 1440,
+            "height": 900
+          },
+          "candidate": {
+            "cloudPatches": 0,
+            "chaseOffset": [
+              -10,
+              -2.5,
+              26
+            ],
+            "pixelSha256": "214c0f952cda64fdd0910452f682584d39854212b241a4de29a4f4ac20ba2566",
+            "outlier": null,
+            "shadow": null,
+            "physicalStatePreserved": true,
+            "calls": 13,
+            "triangles": 952834,
+            "textures": 34,
+            "geometries": 22,
+            "programs": 24,
+            "width": 1440,
+            "height": 900
+          }
+        },
+        "ring-plane": {
+          "previous": {
+            "cloudPatches": 0,
+            "chaseOffset": [
+              -10,
+              -2.5,
+              26
+            ],
+            "pixelSha256": "849a98b6c2dd25ab77f2b835507ab442c52ba23fbc39d25e40a49e2ab9ecfbda",
+            "outlier": null,
+            "shadow": null,
+            "physicalStatePreserved": true,
+            "calls": 5,
+            "triangles": 77314,
+            "textures": 33,
+            "geometries": 22,
+            "programs": 23,
+            "width": 1440,
+            "height": 900
+          },
+          "candidate": {
+            "cloudPatches": 0,
+            "chaseOffset": [
+              -10,
+              -2.5,
+              26
+            ],
+            "pixelSha256": "849a98b6c2dd25ab77f2b835507ab442c52ba23fbc39d25e40a49e2ab9ecfbda",
+            "outlier": null,
+            "shadow": null,
+            "physicalStatePreserved": true,
+            "calls": 5,
+            "triangles": 77314,
+            "textures": 34,
+            "geometries": 22,
+            "programs": 24,
+            "width": 1440,
+            "height": 900
+          }
+        },
+        "north-pole": {
+          "previous": {
+            "cloudPatches": 0,
+            "chaseOffset": [
+              -10,
+              -2.5,
+              26
+            ],
+            "pixelSha256": "65a028e915a7fdff75207c5b81763867d64d5b426adb155388716c770dac59ed",
+            "outlier": null,
+            "shadow": null,
+            "physicalStatePreserved": true,
+            "calls": 5,
+            "triangles": 77314,
+            "textures": 33,
+            "geometries": 22,
+            "programs": 23,
+            "width": 1440,
+            "height": 900
+          },
+          "candidate": {
+            "cloudPatches": 0,
+            "chaseOffset": [
+              -10,
+              -2.5,
+              26
+            ],
+            "pixelSha256": "65a028e915a7fdff75207c5b81763867d64d5b426adb155388716c770dac59ed",
+            "outlier": null,
+            "shadow": null,
+            "physicalStatePreserved": true,
+            "calls": 5,
+            "triangles": 77314,
+            "textures": 34,
+            "geometries": 22,
+            "programs": 24,
+            "width": 1440,
+            "height": 900
+          }
+        },
+        "chase": {
+          "previous": {
+            "cloudPatches": 0,
+            "chaseOffset": [
+              -10,
+              -2.5,
+              26
+            ],
+            "pixelSha256": "963354dd307093b056ef64aca0956233d73292f0d5cc6cf24f4c02a440047560",
+            "outlier": null,
+            "shadow": {
+              "updated": true,
+              "current": true,
+              "reflectedPosition": true,
+              "pending": false,
+              "viewport": [
+                0,
+                0,
+                1440,
+                900
+              ]
+            },
+            "physicalStatePreserved": true,
+            "calls": 45,
+            "triangles": 1083418,
+            "textures": 33,
+            "geometries": 22,
+            "programs": 23,
+            "width": 1440,
+            "height": 900
+          },
+          "candidate": {
+            "cloudPatches": 0,
+            "chaseOffset": [
+              -10,
+              -2.5,
+              26
+            ],
+            "pixelSha256": "963354dd307093b056ef64aca0956233d73292f0d5cc6cf24f4c02a440047560",
+            "outlier": null,
+            "shadow": {
+              "updated": true,
+              "current": true,
+              "reflectedPosition": true,
+              "pending": false,
+              "viewport": [
+                0,
+                0,
+                1440,
+                900
+              ]
+            },
+            "physicalStatePreserved": true,
+            "calls": 45,
+            "triangles": 1083418,
+            "textures": 34,
+            "geometries": 22,
+            "programs": 24,
+            "width": 1440,
+            "height": 900
+          }
+        }
+      },
+      "errors": [],
+      "passed": true
+    }
+  ]
+}

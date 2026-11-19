@@ -1,0 +1,228 @@
+{
+  "version": "0.36.0",
+  "outcomes": [
+    {
+      "name": "Chrome",
+      "engineVersion": "158.0.8127.37",
+      "bearings": [
+        {
+          "width": 1440,
+          "height": 900,
+          "corner": 0,
+          "resolved": true,
+          "leader": false,
+          "box": {
+            "x": 1297.78125,
+            "y": 138,
+            "width": 84.609375,
+            "height": 37
+          },
+          "anchor": null,
+          "tangentError": null
+        },
+        {
+          "width": 1440,
+          "height": 900,
+          "corner": 1,
+          "resolved": true,
+          "leader": false,
+          "box": {
+            "x": 1297.78125,
+            "y": 138,
+            "width": 84.609375,
+            "height": 37
+          },
+          "anchor": null,
+          "tangentError": null
+        },
+        {
+          "width": 1440,
+          "height": 900,
+          "corner": 2,
+          "resolved": true,
+          "leader": false,
+          "box": {
+            "x": 1297.78125,
+            "y": 138,
+            "width": 84.609375,
+            "height": 37
+          },
+          "anchor": null,
+          "tangentError": null
+        },
+        {
+          "width": 1440,
+          "height": 900,
+          "corner": 3,
+          "resolved": true,
+          "leader": false,
+          "box": {
+            "x": 1297.78125,
+            "y": 138,
+            "width": 84.609375,
+            "height": 37
+          },
+          "anchor": null,
+          "tangentError": null
+        },
+        {
+          "width": 1024,
+          "height": 640,
+          "corner": 0,
+          "resolved": true,
+          "leader": false,
+          "box": {
+            "x": 898.421875,
+            "y": 138,
+            "width": 84.609375,
+            "height": 37
+          },
+          "anchor": null,
+          "tangentError": null
+        },
+        {
+          "width": 1024,
+          "height": 640,
+          "corner": 1,
+          "resolved": true,
+          "leader": false,
+          "box": {
+            "x": 898.421875,
+            "y": 138,
+            "width": 84.609375,
+            "height": 37
+          },
+          "anchor": null,
+          "tangentError": null
+        },
+        {
+          "width": 1024,
+          "height": 640,
+          "corner": 2,
+          "resolved": true,
+          "leader": false,
+          "box": {
+            "x": 898.421875,
+            "y": 138,
+            "width": 84.609375,
+            "height": 37
+          },
+          "anchor": null,
+          "tangentError": null
+        },
+        {
+          "width": 1024,
+          "height": 640,
+          "corner": 3,
+          "resolved": true,
+          "leader": false,
+          "box": {
+            "x": 898.421875,
+            "y": 138,
+            "width": 84.609375,
+            "height": 37
+          },
+          "anchor": null,
+          "tangentError": null
+        },
+        {
+          "width": 800,
+          "height": 600,
+          "corner": 0,
+          "resolved": true,
+          "leader": false,
+          "box": {
+            "x": 683.390625,
+            "y": 138,
+            "width": 84.609375,
+            "height": 37
+          },
+          "anchor": null,
+          "tangentError": null
+        },
+        {
+          "width": 800,
+          "height": 600,
+          "corner": 1,
+          "resolved": true,
+          "leader": false,
+          "box": {
+            "x": 683.390625,
+            "y": 138,
+            "width": 84.609375,
+            "height": 37
+          },
+          "anchor": null,
+          "tangentError": null
+        },
+        {
+          "width": 800,
+          "height": 600,
+          "corner": 2,
+          "resolved": true,
+          "leader": false,
+          "box": {
+            "x": 683.390625,
+            "y": 138,
+            "width": 84.609375,
+            "height": 37
+          },
+          "anchor": null,
+          "tangentError": null
+        },
+        {
+          "width": 800,
+          "height": 600,
+          "corner": 3,
+          "resolved": true,
+          "leader": false,
+          "box": {
+            "x": 683.390625,
+            "y": 138,
+            "width": 84.609375,
+            "height": 37
+          },
+          "anchor": null,
+          "tangentError": null
+        }
+      ],
+      "time": [
+        {
+          "label": "held-selection",
+          "rate": 0,
+          "index": 5,
+          "position": [
+            144472013.8703407,
+            -17170675.828623302,
+            39616789.088083945
+          ],
+          "readout": "Held",
+          "detail": "Time held",
+          "status": "",
+          "toastVisible": true,
+          "toast": "Time flow 100k×"
+        },
+        {
+          "label": "limited-flow",
+          "rate": 2.1538996717431327,
+          "status": "Near-body limit · 100k× selected",
+          "detail": "2 seconds / second"
+        }
+      ],
+      "temporaryHold": "Time held",
+      "boundaryDeparture": {
+        "stage": "transit",
+        "boundary": true,
+        "proximity": true,
+        "rate": 1000000
+      },
+      "passageTimeButton": {
+        "paused": false,
+        "rate": 999999.9999999999
+      },
+      "deliberateHoldRetained": true,
+      "errors": [],
+      "passed": true
+    }
+  ]
+}

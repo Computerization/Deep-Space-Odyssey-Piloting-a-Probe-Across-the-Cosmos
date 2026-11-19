@@ -1,0 +1,16 @@
+{
+  "views": 5,
+  "reflector": {
+    "flightFaces": 2320,
+    "studyFaces": 9280,
+    "sharedMaterial": true,
+    "bytes": 227008
+  },
+  "releasedOnDeparture": true,
+  "keyboardOrbitAndZoom": true,
+  "heldDraws": 0,
+  "flightEpochUnaffected": true,
+  "launch": true,
+  "resume": true,
+  "errors": []
+}

@@ -1,0 +1,8 @@
+{
+  "src/main.js": "b594cb0d0321e9dfc933bbb67a203e934096637bcfd5fe2af0c448c54aaf03c5",
+  "src/world.js": "7d97d3f101cf52bc8ad89fa3ed9c387a6bb01dace75d26a69be6bf6c8c057099",
+  "src/flight-controller.js": "424e647a3a75095dc9d4cdb1ee67404b683a58720e32d5a56d5aa86045357523",
+  "src/rendering/frame-policy.js": "3488c42b681d7339dc6d2a1934d68d08273d43981f8b2914691784703e9683b2",
+  "src/rendering/cloud-layer.js": "f57de206dbaeaed9d55cc4fcb4a2a436bdcc27428aee734d57a76e54b160a5b0",
+  "src/rendering/shaders.js": "e05e1105ed3b72d1f3252802c852498ec686e9a9f4688058d8f99c5ab02d6246"
+}

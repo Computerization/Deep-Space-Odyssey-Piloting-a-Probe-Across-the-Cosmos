@@ -1,0 +1,56 @@
+{
+  "baselineVersion": "0.55.0",
+  "byteIdentical": true,
+  "exports": {
+    "atmosphereFragment": {
+      "bytes": 537,
+      "sha256": "e44f298501e05626b5d8d246fe38032ac60264e363df67ea2e5b7d5080bc0c33"
+    },
+    "cloudFragment": {
+      "bytes": 16577,
+      "sha256": "e9b42de434aced192cde40f049d96eadc21fd35cf4279b63b5cfc8f777fd4053"
+    },
+    "cloudPremultipliedFragment": {
+      "bytes": 16571,
+      "sha256": "7c2bc37075f6c75da55e0040864504119c3a750afca9909564051dd996046d8d"
+    },
+    "earthAtmosphereFragment": {
+      "bytes": 4817,
+      "sha256": "0ac912aa747598f82b74dba9f8e124d8a2bae6d4e20957199979c98c30921f18"
+    },
+    "earthCloudCompositeFragment": {
+      "bytes": 5128,
+      "sha256": "e4be54026ee07da34fac2bdc1d3226a65fadd2827c4ac230eaff3188f4a92474"
+    },
+    "earthTransmittanceFragment": {
+      "bytes": 4842,
+      "sha256": "a2498866262f8b9c6ba970e6190badcdf3d9e722939d147ddf18bc21e9e74cbd"
+    },
+    "fragment": {
+      "bytes": 11223,
+      "sha256": "bdb60ebc6b16d0a7e6399ac79baecc47a1049759fb3f39f6cfd67692b5b55603"
+    },
+    "resolveFragment": {
+      "bytes": 174,
+      "sha256": "442321dd8d46ababb770a1f2445509fb409c0597a82180efd0dee57ab85b6734"
+    },
+    "ringFragment": {
+      "bytes": 2411,
+      "sha256": "d51693c4739d79232df6065b36a4cbc21475acee58a14b5ce7fa1f682b97df15"
+    },
+    "titanAtmosphereFragment": {
+      "bytes": 2606,
+      "sha256": "5041108a8b5070342e326d1f09bf809071cdbb4ea731c9c581fb569b0de5b8a8"
+    },
+    "vertex": {
+      "bytes": 446,
+      "sha256": "bcfdd0aa7d19f09d8ae607997e667d1c88d02df5879345eda9294bf11a011641"
+    }
+  },
+  "version": "0.56.0",
+  "baselineSourceSha256": "b477c133e4612718354401c0b3d650cea8551a91440a240a2c841fd74eea92cd",
+  "sources": {
+    "src/rendering/shaders.js": "154b49992665c2d98093b08c875887fca2d3141b62f807277d5435556b34ddfb",
+    "src/rendering/earth-shaders.js": "f19c49272478fc67760e56eea37c693d6c51bca027a9fc59ba782e6c067d8cf7"
+  }
+}

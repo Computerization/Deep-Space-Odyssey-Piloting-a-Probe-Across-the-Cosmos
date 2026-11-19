@@ -1,0 +1,15 @@
+{
+  "version": "0.25.0",
+  "keyboardArrows": true,
+  "nativeRangeKeys": true,
+  "tabFocusTrap": true,
+  "flightShortcutsDoNotChangePausedFlight": true,
+  "syntheticXboxNavigation": true,
+  "controllerRangesAndSelects": true,
+  "controllerSoundToggle": true,
+  "controllerReviewAndCancellation": true,
+  "closedDetailsSkipped": true,
+  "compactPauseFits": true,
+  "physicalXboxTested": false,
+  "errors": []
+}

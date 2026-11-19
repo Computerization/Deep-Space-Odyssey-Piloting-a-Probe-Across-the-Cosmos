@@ -1,0 +1,123 @@
+{
+  "version": "0.95.0",
+  "textureLimit": 4096,
+  "previous": "/private/tmp/cosmos-v95-previous/Cosmos",
+  "previousShaderSha256": "701487cdd182379a4c813f7ff50b11e416329adc2fccc2dcff7346ac03db0532",
+  "reference": "Fourfold display sampling of unchanged source terrain rays; twofold convergence control. Tests rendering integration, not photographic equivalence.",
+  "outcomes": [
+    {
+      "name": "Chrome",
+      "engineVersion": "158.0.8127.37",
+      "readyMs": 9437,
+      "views": [
+        {
+          "label": "study",
+          "metrics": {
+            "previous": {
+              "rmse": 11.439786439500935,
+              "count": 90078,
+              "max": 197
+            },
+            "candidate": {
+              "rmse": 9.417982518807944,
+              "count": 90078,
+              "max": 134
+            },
+            "convergence": {
+              "rmse": 4.555134536919536,
+              "count": 90078,
+              "max": 78
+            }
+          }
+        }
+      ],
+      "motion": {
+        "steps": 8,
+        "spatialError": {
+          "previous": 31406059.15286877,
+          "candidate": 20941678.09646479
+        },
+        "changeError": {
+          "previous": 18753889.8669678,
+          "candidate": 11666792.745474705
+        },
+        "pixels": 240133
+      },
+      "cost": {
+        "pixels": [
+          1600,
+          1000
+        ],
+        "method": "CPU submission windows, five warm-up plus twelve draws including gl.finish; driver completion is not established and these values are not GPU time or FPS",
+        "rows": [
+          {
+            "mode": "previous",
+            "medianMs": 0.10000002384185791,
+            "maxMs": 0.20000001788139343
+          },
+          {
+            "mode": "candidate",
+            "medianMs": 0.09999999403953552,
+            "maxMs": 0.20000001788139343
+          },
+          {
+            "mode": "candidate",
+            "medianMs": 0.09999999403953552,
+            "maxMs": 0.20000001788139343
+          },
+          {
+            "mode": "previous",
+            "medianMs": 0.09999999403953552,
+            "maxMs": 0.20000001788139343
+          }
+        ]
+      },
+      "lifecycle": {
+        "heldUpdates": 0,
+        "initialUpdates": 1,
+        "updates": 1,
+        "textureReused": true,
+        "rows": [
+          {
+            "chapter": 1,
+            "ready": 0,
+            "updates": 1
+          },
+          {
+            "chapter": 2,
+            "ready": 0,
+            "updates": 1
+          },
+          {
+            "chapter": 3,
+            "ready": 0,
+            "updates": 1
+          },
+          {
+            "chapter": 4,
+            "ready": 0,
+            "updates": 1
+          },
+          {
+            "chapter": 5,
+            "ready": 0,
+            "updates": 1
+          },
+          {
+            "chapter": 0,
+            "ready": 1,
+            "updates": 1
+          }
+        ],
+        "size": [
+          4096,
+          2048
+        ],
+        "maxSamplers": 16,
+        "graphicsError": 0
+      },
+      "errors": [],
+      "passed": true
+    }
+  ]
+}

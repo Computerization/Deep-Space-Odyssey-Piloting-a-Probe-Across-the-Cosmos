@@ -1,0 +1,57 @@
+{
+  "sourcePage": "https://astrogeology.usgs.gov/search/map/io_galileo_ssi_global_color_merge_mosaic_1km",
+  "sourceUrl": "https://planetarymaps.usgs.gov/mosaic/Io_Galileo_SSI_Global_Mosaic_ClrMerge_1km.tif",
+  "credit": "NASA / JPL / USGS",
+  "sourceSha256": "524dcabd247c889a4e7c2a1bfd9e5fcc545c6a039b2c765da9b741befdfd00bd",
+  "sourceDimensions": [
+    11445,
+    5723
+  ],
+  "sourceGridMetres": 1000,
+  "sourceResolutionKm": [
+    1,
+    10
+  ],
+  "sourceProjectionRadiusMetres": 1821460,
+  "sourcePixelExtent": [
+    0.7146451923353596,
+    0.85732259616768,
+    11445.285354807664,
+    5723.142677403832
+  ],
+  "filterBorderPixels": 2,
+  "dimensions": [
+    11444,
+    5722
+  ],
+  "projection": "Simple cylindrical, planetocentric; GeoTIFF easting/northing resampled to -180 to 180 degrees east and 90 to -90 degrees north",
+  "encoding": {
+    "encoder": "libavif 1.4.2 / aom",
+    "arguments": [
+      "-c",
+      "aom",
+      "-d",
+      "8",
+      "-y",
+      "444",
+      "-q",
+      "87",
+      "-s",
+      "4",
+      "-j",
+      "2",
+      "--cicp",
+      "1/13/0"
+    ],
+    "channels": "8-bit full-resolution RGB, identity matrix; sRGB primaries/transfer"
+  },
+  "processing": "Linear-light Lanczos reduction on the original georeferenced grid. Extend the single exterior NoData row from its nearest valid row and wrap longitude filtering. No sharpening, new terrain or palette editing.",
+  "limitations": "Merged multi-date Galileo colour-ratio and Voyager/Galileo monochrome mosaic. Spatial source resolution varies from 1 to 10 km. Published IR/green/violet ratios and inherited polar fill are not calibrated natural colour or an exact 1979 surface.",
+  "control": "Development-only 4096 x 2048 reduction of the same prepared image, AVIF quality 90; isolates encoding and resolution from source changes.",
+  "files": {
+    "io.avif": {
+      "bytes": 4554055,
+      "sha256": "aee3eaf6c6092b8ce3e754499a1434bf7bb9c5c5aff69bc0526da547315b83ba"
+    }
+  }
+}

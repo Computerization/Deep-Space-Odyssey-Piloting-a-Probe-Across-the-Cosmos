@@ -1,0 +1,2538 @@
+{
+  "version": "0.72.0",
+  "outcomes": [
+    {
+      "name": "WebKit",
+      "engineVersion": "26.5",
+      "composition": [
+        {
+          "width": 1440,
+          "height": 900,
+          "chapter": 0,
+          "passage": false,
+          "fov": 70,
+          "lag": 0,
+          "bounds": {
+            "left": 835.9426073688438,
+            "right": 1163.6015482362866,
+            "top": 293.9164109571638,
+            "bottom": 492.28390593347234
+          },
+          "overlaps": [],
+          "physicalStatePreserved": true,
+          "shipFov": 70
+        },
+        {
+          "width": 1440,
+          "height": 900,
+          "chapter": 0,
+          "passage": false,
+          "fov": 70,
+          "lag": 0.18,
+          "bounds": {
+            "left": 829.2130514918879,
+            "right": 1157.652764394007,
+            "top": 291.90369837366575,
+            "bottom": 500.04184774433804
+          },
+          "overlaps": [],
+          "physicalStatePreserved": true,
+          "shipFov": 70
+        },
+        {
+          "width": 1440,
+          "height": 900,
+          "chapter": 0,
+          "passage": false,
+          "fov": 58,
+          "lag": 0,
+          "bounds": {
+            "left": 866.4596103321444,
+            "right": 1280.3609524731212,
+            "top": 252.83398701106597,
+            "bottom": 503.41336137660096
+          },
+          "overlaps": [],
+          "physicalStatePreserved": true,
+          "shipFov": 58
+        },
+        {
+          "width": 1440,
+          "height": 900,
+          "chapter": 0,
+          "passage": false,
+          "fov": 58,
+          "lag": 0.18,
+          "bounds": {
+            "left": 857.9587826052683,
+            "right": 1272.8464020997737,
+            "top": 250.29151270089332,
+            "bottom": 513.2132542751987
+          },
+          "overlaps": [],
+          "physicalStatePreserved": true,
+          "shipFov": 58
+        },
+        {
+          "width": 1440,
+          "height": 900,
+          "chapter": 0,
+          "passage": false,
+          "fov": 35,
+          "lag": 0,
+          "bounds": {
+            "left": 977.4823961994751,
+            "right": 1705.1390458583842,
+            "top": 103.37353173098336,
+            "bottom": 543.9030238106352
+          },
+          "overlaps": [],
+          "physicalStatePreserved": true,
+          "shipFov": 35
+        },
+        {
+          "width": 1440,
+          "height": 900,
+          "chapter": 0,
+          "passage": false,
+          "fov": 35,
+          "lag": 0.18,
+          "bounds": {
+            "left": 972.75871088622,
+            "right": 1692.0219385016592,
+            "top": 88.99746955903186,
+            "bottom": 558.4780898918385
+          },
+          "overlaps": [],
+          "physicalStatePreserved": true,
+          "shipFov": 35
+        },
+        {
+          "width": 1440,
+          "height": 900,
+          "chapter": 0,
+          "passage": false,
+          "fov": 20,
+          "lag": 0,
+          "bounds": {
+            "left": 1180.4167062418012,
+            "right": 2481.5746993938874,
+            "top": -169.8195261978623,
+            "bottom": 617.9125313698873
+          },
+          "overlaps": [],
+          "physicalStatePreserved": true,
+          "shipFov": 20
+        },
+        {
+          "width": 1440,
+          "height": 900,
+          "chapter": 0,
+          "passage": false,
+          "fov": 20,
+          "lag": 0.18,
+          "bounds": {
+            "left": 1183.5983043920098,
+            "right": 2455.758250096116,
+            "top": -207.27675754698572,
+            "bottom": 641.3819088904248
+          },
+          "overlaps": [],
+          "physicalStatePreserved": true,
+          "shipFov": 20
+        },
+        {
+          "width": 1440,
+          "height": 900,
+          "chapter": 0,
+          "passage": false,
+          "fov": 4,
+          "lag": 0,
+          "bounds": {
+            "left": 3044.8023700777267,
+            "right": 9614.796780178287,
+            "top": -2679.682055386762,
+            "bottom": 1297.8481462604746
+          },
+          "overlaps": [],
+          "physicalStatePreserved": true,
+          "shipFov": 4
+        },
+        {
+          "width": 1440,
+          "height": 900,
+          "chapter": 0,
+          "passage": false,
+          "fov": 4,
+          "lag": 0.18,
+          "bounds": {
+            "left": 3124.881051042887,
+            "right": 9462.452325400134,
+            "top": -2934.343307148368,
+            "bottom": 1403.808771352432
+          },
+          "overlaps": [],
+          "physicalStatePreserved": true,
+          "shipFov": 4
+        },
+        {
+          "width": 1440,
+          "height": 900,
+          "chapter": 0,
+          "passage": true,
+          "fov": 70,
+          "lag": 0,
+          "bounds": {
+            "left": 835.9426073688438,
+            "right": 1163.6015482362866,
+            "top": 293.9164109571638,
+            "bottom": 492.28390593347234
+          },
+          "overlaps": [],
+          "physicalStatePreserved": true,
+          "shipFov": 70
+        },
+        {
+          "width": 1440,
+          "height": 900,
+          "chapter": 0,
+          "passage": true,
+          "fov": 70,
+          "lag": 0.18,
+          "bounds": {
+            "left": 829.2130514918879,
+            "right": 1157.652764394007,
+            "top": 291.90369837366575,
+            "bottom": 500.04184774433804
+          },
+          "overlaps": [],
+          "physicalStatePreserved": true,
+          "shipFov": 70
+        },
+        {
+          "width": 1440,
+          "height": 900,
+          "chapter": 0,
+          "passage": true,
+          "fov": 58,
+          "lag": 0,
+          "bounds": {
+            "left": 866.4596103321444,
+            "right": 1280.3609524731212,
+            "top": 252.83398701106597,
+            "bottom": 503.41336137660096
+          },
+          "overlaps": [],
+          "physicalStatePreserved": true,
+          "shipFov": 58
+        },
+        {
+          "width": 1440,
+          "height": 900,
+          "chapter": 0,
+          "passage": true,
+          "fov": 58,
+          "lag": 0.18,
+          "bounds": {
+            "left": 857.9587826052683,
+            "right": 1272.8464020997737,
+            "top": 250.29151270089332,
+            "bottom": 513.2132542751987
+          },
+          "overlaps": [],
+          "physicalStatePreserved": true,
+          "shipFov": 58
+        },
+        {
+          "width": 1440,
+          "height": 900,
+          "chapter": 0,
+          "passage": true,
+          "fov": 35,
+          "lag": 0,
+          "bounds": {
+            "left": 977.4823961994751,
+            "right": 1705.1390458583842,
+            "top": 103.37353173098336,
+            "bottom": 543.9030238106352
+          },
+          "overlaps": [],
+          "physicalStatePreserved": true,
+          "shipFov": 35
+        },
+        {
+          "width": 1440,
+          "height": 900,
+          "chapter": 0,
+          "passage": true,
+          "fov": 35,
+          "lag": 0.18,
+          "bounds": {
+            "left": 972.75871088622,
+            "right": 1692.0219385016592,
+            "top": 88.99746955903186,
+            "bottom": 558.4780898918385
+          },
+          "overlaps": [],
+          "physicalStatePreserved": true,
+          "shipFov": 35
+        },
+        {
+          "width": 1440,
+          "height": 900,
+          "chapter": 0,
+          "passage": true,
+          "fov": 20,
+          "lag": 0,
+          "bounds": {
+            "left": 1180.4167062418012,
+            "right": 2481.5746993938874,
+            "top": -169.8195261978623,
+            "bottom": 617.9125313698873
+          },
+          "overlaps": [],
+          "physicalStatePreserved": true,
+          "shipFov": 20
+        },
+        {
+          "width": 1440,
+          "height": 900,
+          "chapter": 0,
+          "passage": true,
+          "fov": 20,
+          "lag": 0.18,
+          "bounds": {
+            "left": 1183.5983043920098,
+            "right": 2455.758250096116,
+            "top": -207.27675754698572,
+            "bottom": 641.3819088904248
+          },
+          "overlaps": [],
+          "physicalStatePreserved": true,
+          "shipFov": 20
+        },
+        {
+          "width": 1440,
+          "height": 900,
+          "chapter": 0,
+          "passage": true,
+          "fov": 4,
+          "lag": 0,
+          "bounds": {
+            "left": 3044.8023700777267,
+            "right": 9614.796780178287,
+            "top": -2679.682055386762,
+            "bottom": 1297.8481462604746
+          },
+          "overlaps": [],
+          "physicalStatePreserved": true,
+          "shipFov": 4
+        },
+        {
+          "width": 1440,
+          "height": 900,
+          "chapter": 0,
+          "passage": true,
+          "fov": 4,
+          "lag": 0.18,
+          "bounds": {
+            "left": 3124.881051042887,
+            "right": 9462.452325400134,
+            "top": -2934.343307148368,
+            "bottom": 1403.808771352432
+          },
+          "overlaps": [],
+          "physicalStatePreserved": true,
+          "shipFov": 4
+        },
+        {
+          "width": 1440,
+          "height": 900,
+          "chapter": 2,
+          "passage": false,
+          "fov": 70,
+          "lag": 0,
+          "bounds": {
+            "left": 835.9426073688438,
+            "right": 1163.6015482362866,
+            "top": 293.9164109571638,
+            "bottom": 492.28390593347234
+          },
+          "overlaps": [],
+          "physicalStatePreserved": true,
+          "shipFov": 70
+        },
+        {
+          "width": 1440,
+          "height": 900,
+          "chapter": 2,
+          "passage": false,
+          "fov": 70,
+          "lag": 0.18,
+          "bounds": {
+            "left": 829.2130514918879,
+            "right": 1157.652764394007,
+            "top": 291.90369837366586,
+            "bottom": 500.04184774433804
+          },
+          "overlaps": [],
+          "physicalStatePreserved": true,
+          "shipFov": 70
+        },
+        {
+          "width": 1440,
+          "height": 900,
+          "chapter": 2,
+          "passage": false,
+          "fov": 58,
+          "lag": 0,
+          "bounds": {
+            "left": 866.4596103321444,
+            "right": 1280.3609524731212,
+            "top": 252.83398701106597,
+            "bottom": 503.41336137660096
+          },
+          "overlaps": [],
+          "physicalStatePreserved": true,
+          "shipFov": 58
+        },
+        {
+          "width": 1440,
+          "height": 900,
+          "chapter": 2,
+          "passage": false,
+          "fov": 58,
+          "lag": 0.18,
+          "bounds": {
+            "left": 857.9587826052683,
+            "right": 1272.8464020997737,
+            "top": 250.29151270089335,
+            "bottom": 513.2132542751986
+          },
+          "overlaps": [],
+          "physicalStatePreserved": true,
+          "shipFov": 58
+        },
+        {
+          "width": 1440,
+          "height": 900,
+          "chapter": 2,
+          "passage": false,
+          "fov": 35,
+          "lag": 0,
+          "bounds": {
+            "left": 977.4823961994751,
+            "right": 1705.1390458583842,
+            "top": 103.37353173098336,
+            "bottom": 543.9030238106352
+          },
+          "overlaps": [],
+          "physicalStatePreserved": true,
+          "shipFov": 35
+        },
+        {
+          "width": 1440,
+          "height": 900,
+          "chapter": 2,
+          "passage": false,
+          "fov": 35,
+          "lag": 0.18,
+          "bounds": {
+            "left": 972.75871088622,
+            "right": 1692.0219385016596,
+            "top": 88.99746955903186,
+            "bottom": 558.4780898918385
+          },
+          "overlaps": [],
+          "physicalStatePreserved": true,
+          "shipFov": 35
+        },
+        {
+          "width": 1440,
+          "height": 900,
+          "chapter": 2,
+          "passage": false,
+          "fov": 20,
+          "lag": 0,
+          "bounds": {
+            "left": 1180.4167062418012,
+            "right": 2481.5746993938874,
+            "top": -169.8195261978623,
+            "bottom": 617.9125313698873
+          },
+          "overlaps": [],
+          "physicalStatePreserved": true,
+          "shipFov": 20
+        },
+        {
+          "width": 1440,
+          "height": 900,
+          "chapter": 2,
+          "passage": false,
+          "fov": 20,
+          "lag": 0.18,
+          "bounds": {
+            "left": 1183.5983043920098,
+            "right": 2455.758250096116,
+            "top": -207.27675754698572,
+            "bottom": 641.3819088904248
+          },
+          "overlaps": [],
+          "physicalStatePreserved": true,
+          "shipFov": 20
+        },
+        {
+          "width": 1440,
+          "height": 900,
+          "chapter": 2,
+          "passage": false,
+          "fov": 4,
+          "lag": 0,
+          "bounds": {
+            "left": 3044.8023700777267,
+            "right": 9614.796780178287,
+            "top": -2679.682055386762,
+            "bottom": 1297.8481462604746
+          },
+          "overlaps": [],
+          "physicalStatePreserved": true,
+          "shipFov": 4
+        },
+        {
+          "width": 1440,
+          "height": 900,
+          "chapter": 2,
+          "passage": false,
+          "fov": 4,
+          "lag": 0.18,
+          "bounds": {
+            "left": 3124.881051042887,
+            "right": 9462.452325400134,
+            "top": -2934.343307148368,
+            "bottom": 1403.808771352432
+          },
+          "overlaps": [],
+          "physicalStatePreserved": true,
+          "shipFov": 4
+        },
+        {
+          "width": 1440,
+          "height": 900,
+          "chapter": 2,
+          "passage": true,
+          "fov": 70,
+          "lag": 0,
+          "bounds": {
+            "left": 835.9426073688438,
+            "right": 1163.6015482362866,
+            "top": 293.9164109571638,
+            "bottom": 492.28390593347234
+          },
+          "overlaps": [],
+          "physicalStatePreserved": true,
+          "shipFov": 70
+        },
+        {
+          "width": 1440,
+          "height": 900,
+          "chapter": 2,
+          "passage": true,
+          "fov": 70,
+          "lag": 0.18,
+          "bounds": {
+            "left": 829.2130514918879,
+            "right": 1157.652764394007,
+            "top": 291.90369837366586,
+            "bottom": 500.04184774433804
+          },
+          "overlaps": [],
+          "physicalStatePreserved": true,
+          "shipFov": 70
+        },
+        {
+          "width": 1440,
+          "height": 900,
+          "chapter": 2,
+          "passage": true,
+          "fov": 58,
+          "lag": 0,
+          "bounds": {
+            "left": 866.4596103321444,
+            "right": 1280.3609524731212,
+            "top": 252.83398701106597,
+            "bottom": 503.41336137660096
+          },
+          "overlaps": [],
+          "physicalStatePreserved": true,
+          "shipFov": 58
+        },
+        {
+          "width": 1440,
+          "height": 900,
+          "chapter": 2,
+          "passage": true,
+          "fov": 58,
+          "lag": 0.18,
+          "bounds": {
+            "left": 857.9587826052683,
+            "right": 1272.8464020997737,
+            "top": 250.29151270089335,
+            "bottom": 513.2132542751986
+          },
+          "overlaps": [],
+          "physicalStatePreserved": true,
+          "shipFov": 58
+        },
+        {
+          "width": 1440,
+          "height": 900,
+          "chapter": 2,
+          "passage": true,
+          "fov": 35,
+          "lag": 0,
+          "bounds": {
+            "left": 977.4823961994751,
+            "right": 1705.1390458583842,
+            "top": 103.37353173098336,
+            "bottom": 543.9030238106352
+          },
+          "overlaps": [],
+          "physicalStatePreserved": true,
+          "shipFov": 35
+        },
+        {
+          "width": 1440,
+          "height": 900,
+          "chapter": 2,
+          "passage": true,
+          "fov": 35,
+          "lag": 0.18,
+          "bounds": {
+            "left": 972.75871088622,
+            "right": 1692.0219385016596,
+            "top": 88.99746955903186,
+            "bottom": 558.4780898918385
+          },
+          "overlaps": [],
+          "physicalStatePreserved": true,
+          "shipFov": 35
+        },
+        {
+          "width": 1440,
+          "height": 900,
+          "chapter": 2,
+          "passage": true,
+          "fov": 20,
+          "lag": 0,
+          "bounds": {
+            "left": 1180.4167062418012,
+            "right": 2481.5746993938874,
+            "top": -169.8195261978623,
+            "bottom": 617.9125313698873
+          },
+          "overlaps": [],
+          "physicalStatePreserved": true,
+          "shipFov": 20
+        },
+        {
+          "width": 1440,
+          "height": 900,
+          "chapter": 2,
+          "passage": true,
+          "fov": 20,
+          "lag": 0.18,
+          "bounds": {
+            "left": 1183.5983043920098,
+            "right": 2455.758250096116,
+            "top": -207.27675754698572,
+            "bottom": 641.3819088904248
+          },
+          "overlaps": [],
+          "physicalStatePreserved": true,
+          "shipFov": 20
+        },
+        {
+          "width": 1440,
+          "height": 900,
+          "chapter": 2,
+          "passage": true,
+          "fov": 4,
+          "lag": 0,
+          "bounds": {
+            "left": 3044.8023700777267,
+            "right": 9614.796780178287,
+            "top": -2679.682055386762,
+            "bottom": 1297.8481462604746
+          },
+          "overlaps": [],
+          "physicalStatePreserved": true,
+          "shipFov": 4
+        },
+        {
+          "width": 1440,
+          "height": 900,
+          "chapter": 2,
+          "passage": true,
+          "fov": 4,
+          "lag": 0.18,
+          "bounds": {
+            "left": 3124.881051042887,
+            "right": 9462.452325400134,
+            "top": -2934.343307148368,
+            "bottom": 1403.808771352432
+          },
+          "overlaps": [],
+          "physicalStatePreserved": true,
+          "shipFov": 4
+        },
+        {
+          "width": 1024,
+          "height": 640,
+          "chapter": 0,
+          "passage": false,
+          "fov": 70,
+          "lag": 0,
+          "bounds": {
+            "left": 594.4480763511779,
+            "right": 827.4499898569148,
+            "top": 209.0072255695387,
+            "bottom": 350.0685553304692
+          },
+          "overlaps": [],
+          "physicalStatePreserved": true,
+          "shipFov": 70
+        },
+        {
+          "width": 1024,
+          "height": 640,
+          "chapter": 0,
+          "passage": false,
+          "fov": 70,
+          "lag": 0.18,
+          "bounds": {
+            "left": 589.6626143942314,
+            "right": 823.2197435690716,
+            "top": 207.57596328794008,
+            "bottom": 355.58531395152926
+          },
+          "overlaps": [],
+          "physicalStatePreserved": true,
+          "shipFov": 70
+        },
+        {
+          "width": 1024,
+          "height": 640,
+          "chapter": 0,
+          "passage": false,
+          "fov": 58,
+          "lag": 0,
+          "bounds": {
+            "left": 616.1490562361915,
+            "right": 910.4788995364418,
+            "top": 179.79305743009135,
+            "bottom": 357.982834756694
+          },
+          "overlaps": [],
+          "physicalStatePreserved": true,
+          "shipFov": 58
+        },
+        {
+          "width": 1024,
+          "height": 640,
+          "chapter": 0,
+          "passage": false,
+          "fov": 58,
+          "lag": 0.18,
+          "bounds": {
+            "left": 610.1040231859686,
+            "right": 905.1352192709502,
+            "top": 177.98507569841303,
+            "bottom": 364.9516474845857
+          },
+          "overlaps": [],
+          "physicalStatePreserved": true,
+          "shipFov": 58
+        },
+        {
+          "width": 1024,
+          "height": 640,
+          "chapter": 0,
+          "passage": false,
+          "fov": 35,
+          "lag": 0,
+          "bounds": {
+            "left": 695.0985928529601,
+            "right": 1212.5433214992954,
+            "top": 73.51006700869928,
+            "bottom": 386.77548359867393
+          },
+          "overlaps": [],
+          "physicalStatePreserved": true,
+          "shipFov": 35
+        },
+        {
+          "width": 1024,
+          "height": 640,
+          "chapter": 0,
+          "passage": false,
+          "fov": 35,
+          "lag": 0.18,
+          "bounds": {
+            "left": 691.739527741312,
+            "right": 1203.215600712291,
+            "top": 63.287089464200434,
+            "bottom": 397.13997503419625
+          },
+          "overlaps": [],
+          "physicalStatePreserved": true,
+          "shipFov": 35
+        },
+        {
+          "width": 1024,
+          "height": 640,
+          "chapter": 0,
+          "passage": false,
+          "fov": 20,
+          "lag": 0,
+          "bounds": {
+            "left": 839.4074355497253,
+            "right": 1764.6753417912087,
+            "top": -120.7605519629243,
+            "bottom": 439.4044667519199
+          },
+          "overlaps": [],
+          "physicalStatePreserved": true,
+          "shipFov": 20
+        },
+        {
+          "width": 1024,
+          "height": 640,
+          "chapter": 0,
+          "passage": false,
+          "fov": 20,
+          "lag": 0.18,
+          "bounds": {
+            "left": 841.6699053454292,
+            "right": 1746.3169778461272,
+            "top": -147.3968053667454,
+            "bottom": 456.0938018776354
+          },
+          "overlaps": [],
+          "physicalStatePreserved": true,
+          "shipFov": 20
+        },
+        {
+          "width": 1024,
+          "height": 640,
+          "chapter": 0,
+          "passage": false,
+          "fov": 4,
+          "lag": 0,
+          "bounds": {
+            "left": 2165.1927964997167,
+            "right": 6837.188821460116,
+            "top": -1905.5516838305862,
+            "bottom": 922.9142373407819
+          },
+          "overlaps": [],
+          "physicalStatePreserved": true,
+          "shipFov": 4
+        },
+        {
+          "width": 1024,
+          "height": 640,
+          "chapter": 0,
+          "passage": false,
+          "fov": 4,
+          "lag": 0.18,
+          "bounds": {
+            "left": 2222.137636297164,
+            "right": 6728.854986951207,
+            "top": -2086.644129527728,
+            "bottom": 998.2640151839516
+          },
+          "overlaps": [],
+          "physicalStatePreserved": true,
+          "shipFov": 4
+        },
+        {
+          "width": 1024,
+          "height": 640,
+          "chapter": 0,
+          "passage": true,
+          "fov": 70,
+          "lag": 0,
+          "bounds": {
+            "left": 594.4480763511779,
+            "right": 827.4499898569148,
+            "top": 209.0072255695387,
+            "bottom": 350.0685553304692
+          },
+          "overlaps": [],
+          "physicalStatePreserved": true,
+          "shipFov": 70
+        },
+        {
+          "width": 1024,
+          "height": 640,
+          "chapter": 0,
+          "passage": true,
+          "fov": 70,
+          "lag": 0.18,
+          "bounds": {
+            "left": 589.6626143942314,
+            "right": 823.2197435690716,
+            "top": 207.57596328794008,
+            "bottom": 355.58531395152926
+          },
+          "overlaps": [],
+          "physicalStatePreserved": true,
+          "shipFov": 70
+        },
+        {
+          "width": 1024,
+          "height": 640,
+          "chapter": 0,
+          "passage": true,
+          "fov": 58,
+          "lag": 0,
+          "bounds": {
+            "left": 616.1490562361915,
+            "right": 910.4788995364418,
+            "top": 179.79305743009135,
+            "bottom": 357.982834756694
+          },
+          "overlaps": [],
+          "physicalStatePreserved": true,
+          "shipFov": 58
+        },
+        {
+          "width": 1024,
+          "height": 640,
+          "chapter": 0,
+          "passage": true,
+          "fov": 58,
+          "lag": 0.18,
+          "bounds": {
+            "left": 610.1040231859686,
+            "right": 905.1352192709502,
+            "top": 177.98507569841303,
+            "bottom": 364.9516474845857
+          },
+          "overlaps": [],
+          "physicalStatePreserved": true,
+          "shipFov": 58
+        },
+        {
+          "width": 1024,
+          "height": 640,
+          "chapter": 0,
+          "passage": true,
+          "fov": 35,
+          "lag": 0,
+          "bounds": {
+            "left": 695.0985928529601,
+            "right": 1212.5433214992954,
+            "top": 73.51006700869928,
+            "bottom": 386.77548359867393
+          },
+          "overlaps": [],
+          "physicalStatePreserved": true,
+          "shipFov": 35
+        },
+        {
+          "width": 1024,
+          "height": 640,
+          "chapter": 0,
+          "passage": true,
+          "fov": 35,
+          "lag": 0.18,
+          "bounds": {
+            "left": 691.739527741312,
+            "right": 1203.215600712291,
+            "top": 63.287089464200434,
+            "bottom": 397.13997503419625
+          },
+          "overlaps": [],
+          "physicalStatePreserved": true,
+          "shipFov": 35
+        },
+        {
+          "width": 1024,
+          "height": 640,
+          "chapter": 0,
+          "passage": true,
+          "fov": 20,
+          "lag": 0,
+          "bounds": {
+            "left": 839.4074355497253,
+            "right": 1764.6753417912087,
+            "top": -120.7605519629243,
+            "bottom": 439.4044667519199
+          },
+          "overlaps": [],
+          "physicalStatePreserved": true,
+          "shipFov": 20
+        },
+        {
+          "width": 1024,
+          "height": 640,
+          "chapter": 0,
+          "passage": true,
+          "fov": 20,
+          "lag": 0.18,
+          "bounds": {
+            "left": 841.6699053454292,
+            "right": 1746.3169778461272,
+            "top": -147.3968053667454,
+            "bottom": 456.0938018776354
+          },
+          "overlaps": [],
+          "physicalStatePreserved": true,
+          "shipFov": 20
+        },
+        {
+          "width": 1024,
+          "height": 640,
+          "chapter": 0,
+          "passage": true,
+          "fov": 4,
+          "lag": 0,
+          "bounds": {
+            "left": 2165.1927964997167,
+            "right": 6837.188821460116,
+            "top": -1905.5516838305862,
+            "bottom": 922.9142373407819
+          },
+          "overlaps": [],
+          "physicalStatePreserved": true,
+          "shipFov": 4
+        },
+        {
+          "width": 1024,
+          "height": 640,
+          "chapter": 0,
+          "passage": true,
+          "fov": 4,
+          "lag": 0.18,
+          "bounds": {
+            "left": 2222.137636297164,
+            "right": 6728.854986951207,
+            "top": -2086.644129527728,
+            "bottom": 998.2640151839516
+          },
+          "overlaps": [],
+          "physicalStatePreserved": true,
+          "shipFov": 4
+        },
+        {
+          "width": 1024,
+          "height": 640,
+          "chapter": 2,
+          "passage": false,
+          "fov": 70,
+          "lag": 0,
+          "bounds": {
+            "left": 594.4480763511779,
+            "right": 827.4499898569148,
+            "top": 209.0072255695387,
+            "bottom": 350.0685553304692
+          },
+          "overlaps": [],
+          "physicalStatePreserved": true,
+          "shipFov": 70
+        },
+        {
+          "width": 1024,
+          "height": 640,
+          "chapter": 2,
+          "passage": false,
+          "fov": 70,
+          "lag": 0.18,
+          "bounds": {
+            "left": 589.6626143942314,
+            "right": 823.2197435690716,
+            "top": 207.57596328794017,
+            "bottom": 355.58531395152926
+          },
+          "overlaps": [],
+          "physicalStatePreserved": true,
+          "shipFov": 70
+        },
+        {
+          "width": 1024,
+          "height": 640,
+          "chapter": 2,
+          "passage": false,
+          "fov": 58,
+          "lag": 0,
+          "bounds": {
+            "left": 616.1490562361915,
+            "right": 910.4788995364418,
+            "top": 179.79305743009135,
+            "bottom": 357.982834756694
+          },
+          "overlaps": [],
+          "physicalStatePreserved": true,
+          "shipFov": 58
+        },
+        {
+          "width": 1024,
+          "height": 640,
+          "chapter": 2,
+          "passage": false,
+          "fov": 58,
+          "lag": 0.18,
+          "bounds": {
+            "left": 610.1040231859686,
+            "right": 905.1352192709502,
+            "top": 177.98507569841306,
+            "bottom": 364.95164748458564
+          },
+          "overlaps": [],
+          "physicalStatePreserved": true,
+          "shipFov": 58
+        },
+        {
+          "width": 1024,
+          "height": 640,
+          "chapter": 2,
+          "passage": false,
+          "fov": 35,
+          "lag": 0,
+          "bounds": {
+            "left": 695.0985928529601,
+            "right": 1212.5433214992954,
+            "top": 73.51006700869928,
+            "bottom": 386.77548359867393
+          },
+          "overlaps": [],
+          "physicalStatePreserved": true,
+          "shipFov": 35
+        },
+        {
+          "width": 1024,
+          "height": 640,
+          "chapter": 2,
+          "passage": false,
+          "fov": 35,
+          "lag": 0.18,
+          "bounds": {
+            "left": 691.739527741312,
+            "right": 1203.2156007122912,
+            "top": 63.287089464200434,
+            "bottom": 397.13997503419625
+          },
+          "overlaps": [],
+          "physicalStatePreserved": true,
+          "shipFov": 35
+        },
+        {
+          "width": 1024,
+          "height": 640,
+          "chapter": 2,
+          "passage": false,
+          "fov": 20,
+          "lag": 0,
+          "bounds": {
+            "left": 839.4074355497253,
+            "right": 1764.6753417912087,
+            "top": -120.7605519629243,
+            "bottom": 439.4044667519199
+          },
+          "overlaps": [],
+          "physicalStatePreserved": true,
+          "shipFov": 20
+        },
+        {
+          "width": 1024,
+          "height": 640,
+          "chapter": 2,
+          "passage": false,
+          "fov": 20,
+          "lag": 0.18,
+          "bounds": {
+            "left": 841.6699053454292,
+            "right": 1746.3169778461272,
+            "top": -147.3968053667454,
+            "bottom": 456.0938018776354
+          },
+          "overlaps": [],
+          "physicalStatePreserved": true,
+          "shipFov": 20
+        },
+        {
+          "width": 1024,
+          "height": 640,
+          "chapter": 2,
+          "passage": false,
+          "fov": 4,
+          "lag": 0,
+          "bounds": {
+            "left": 2165.1927964997167,
+            "right": 6837.188821460116,
+            "top": -1905.5516838305862,
+            "bottom": 922.9142373407819
+          },
+          "overlaps": [],
+          "physicalStatePreserved": true,
+          "shipFov": 4
+        },
+        {
+          "width": 1024,
+          "height": 640,
+          "chapter": 2,
+          "passage": false,
+          "fov": 4,
+          "lag": 0.18,
+          "bounds": {
+            "left": 2222.137636297164,
+            "right": 6728.854986951207,
+            "top": -2086.644129527728,
+            "bottom": 998.2640151839516
+          },
+          "overlaps": [],
+          "physicalStatePreserved": true,
+          "shipFov": 4
+        },
+        {
+          "width": 1024,
+          "height": 640,
+          "chapter": 2,
+          "passage": true,
+          "fov": 70,
+          "lag": 0,
+          "bounds": {
+            "left": 594.4480763511779,
+            "right": 827.4499898569148,
+            "top": 209.0072255695387,
+            "bottom": 350.0685553304692
+          },
+          "overlaps": [],
+          "physicalStatePreserved": true,
+          "shipFov": 70
+        },
+        {
+          "width": 1024,
+          "height": 640,
+          "chapter": 2,
+          "passage": true,
+          "fov": 70,
+          "lag": 0.18,
+          "bounds": {
+            "left": 589.6626143942314,
+            "right": 823.2197435690716,
+            "top": 207.57596328794017,
+            "bottom": 355.58531395152926
+          },
+          "overlaps": [],
+          "physicalStatePreserved": true,
+          "shipFov": 70
+        },
+        {
+          "width": 1024,
+          "height": 640,
+          "chapter": 2,
+          "passage": true,
+          "fov": 58,
+          "lag": 0,
+          "bounds": {
+            "left": 616.1490562361915,
+            "right": 910.4788995364418,
+            "top": 179.79305743009135,
+            "bottom": 357.982834756694
+          },
+          "overlaps": [],
+          "physicalStatePreserved": true,
+          "shipFov": 58
+        },
+        {
+          "width": 1024,
+          "height": 640,
+          "chapter": 2,
+          "passage": true,
+          "fov": 58,
+          "lag": 0.18,
+          "bounds": {
+            "left": 610.1040231859686,
+            "right": 905.1352192709502,
+            "top": 177.98507569841306,
+            "bottom": 364.95164748458564
+          },
+          "overlaps": [],
+          "physicalStatePreserved": true,
+          "shipFov": 58
+        },
+        {
+          "width": 1024,
+          "height": 640,
+          "chapter": 2,
+          "passage": true,
+          "fov": 35,
+          "lag": 0,
+          "bounds": {
+            "left": 695.0985928529601,
+            "right": 1212.5433214992954,
+            "top": 73.51006700869928,
+            "bottom": 386.77548359867393
+          },
+          "overlaps": [],
+          "physicalStatePreserved": true,
+          "shipFov": 35
+        },
+        {
+          "width": 1024,
+          "height": 640,
+          "chapter": 2,
+          "passage": true,
+          "fov": 35,
+          "lag": 0.18,
+          "bounds": {
+            "left": 691.739527741312,
+            "right": 1203.2156007122912,
+            "top": 63.287089464200434,
+            "bottom": 397.13997503419625
+          },
+          "overlaps": [],
+          "physicalStatePreserved": true,
+          "shipFov": 35
+        },
+        {
+          "width": 1024,
+          "height": 640,
+          "chapter": 2,
+          "passage": true,
+          "fov": 20,
+          "lag": 0,
+          "bounds": {
+            "left": 839.4074355497253,
+            "right": 1764.6753417912087,
+            "top": -120.7605519629243,
+            "bottom": 439.4044667519199
+          },
+          "overlaps": [],
+          "physicalStatePreserved": true,
+          "shipFov": 20
+        },
+        {
+          "width": 1024,
+          "height": 640,
+          "chapter": 2,
+          "passage": true,
+          "fov": 20,
+          "lag": 0.18,
+          "bounds": {
+            "left": 841.6699053454292,
+            "right": 1746.3169778461272,
+            "top": -147.3968053667454,
+            "bottom": 456.0938018776354
+          },
+          "overlaps": [],
+          "physicalStatePreserved": true,
+          "shipFov": 20
+        },
+        {
+          "width": 1024,
+          "height": 640,
+          "chapter": 2,
+          "passage": true,
+          "fov": 4,
+          "lag": 0,
+          "bounds": {
+            "left": 2165.1927964997167,
+            "right": 6837.188821460116,
+            "top": -1905.5516838305862,
+            "bottom": 922.9142373407819
+          },
+          "overlaps": [],
+          "physicalStatePreserved": true,
+          "shipFov": 4
+        },
+        {
+          "width": 1024,
+          "height": 640,
+          "chapter": 2,
+          "passage": true,
+          "fov": 4,
+          "lag": 0.18,
+          "bounds": {
+            "left": 2222.137636297164,
+            "right": 6728.854986951207,
+            "top": -2086.644129527728,
+            "bottom": 998.2640151839516
+          },
+          "overlaps": [],
+          "physicalStatePreserved": true,
+          "shipFov": 4
+        },
+        {
+          "width": 800,
+          "height": 600,
+          "chapter": 0,
+          "passage": false,
+          "fov": 70,
+          "lag": 0,
+          "bounds": {
+            "left": 477.2950715792293,
+            "right": 695.7343654908577,
+            "top": 195.94427397144253,
+            "bottom": 328.1892706223149
+          },
+          "overlaps": [],
+          "physicalStatePreserved": true,
+          "shipFov": 70
+        },
+        {
+          "width": 800,
+          "height": 600,
+          "chapter": 0,
+          "passage": false,
+          "fov": 70,
+          "lag": 0.18,
+          "bounds": {
+            "left": 472.8087009945919,
+            "right": 691.7685095960047,
+            "top": 194.60246558244384,
+            "bottom": 333.3612318295587
+          },
+          "overlaps": [],
+          "physicalStatePreserved": true,
+          "shipFov": 70
+        },
+        {
+          "width": 800,
+          "height": 600,
+          "chapter": 0,
+          "passage": false,
+          "fov": 58,
+          "lag": 0,
+          "bounds": {
+            "left": 497.6397402214295,
+            "right": 773.573968315414,
+            "top": 168.55599134071065,
+            "bottom": 335.60890758440064
+          },
+          "overlaps": [],
+          "physicalStatePreserved": true,
+          "shipFov": 58
+        },
+        {
+          "width": 800,
+          "height": 600,
+          "chapter": 0,
+          "passage": false,
+          "fov": 58,
+          "lag": 0.18,
+          "bounds": {
+            "left": 491.9725217368455,
+            "right": 768.5642680665158,
+            "top": 166.8610084672622,
+            "bottom": 342.1421695167991
+          },
+          "overlaps": [],
+          "physicalStatePreserved": true,
+          "shipFov": 58
+        },
+        {
+          "width": 800,
+          "height": 600,
+          "chapter": 0,
+          "passage": false,
+          "fov": 35,
+          "lag": 0,
+          "bounds": {
+            "left": 571.6549307996501,
+            "right": 1056.7593639055895,
+            "top": 68.91568782065556,
+            "bottom": 362.60201587375684
+          },
+          "overlaps": [],
+          "physicalStatePreserved": true,
+          "shipFov": 35
+        },
+        {
+          "width": 800,
+          "height": 600,
+          "chapter": 0,
+          "passage": false,
+          "fov": 35,
+          "lag": 0.18,
+          "bounds": {
+            "left": 568.50580725748,
+            "right": 1048.0146256677726,
+            "top": 59.331646372687906,
+            "bottom": 372.318726594559
+          },
+          "overlaps": [],
+          "physicalStatePreserved": true,
+          "shipFov": 35
+        },
+        {
+          "width": 800,
+          "height": 600,
+          "chapter": 0,
+          "passage": false,
+          "fov": 20,
+          "lag": 0,
+          "bounds": {
+            "left": 706.9444708278676,
+            "right": 1574.3831329292582,
+            "top": -113.21301746524153,
+            "bottom": 411.9416875799249
+          },
+          "overlaps": [],
+          "physicalStatePreserved": true,
+          "shipFov": 20
+        },
+        {
+          "width": 800,
+          "height": 600,
+          "chapter": 0,
+          "passage": false,
+          "fov": 20,
+          "lag": 0.18,
+          "bounds": {
+            "left": 709.0655362613398,
+            "right": 1557.1721667307445,
+            "top": -138.18450503132382,
+            "bottom": 427.5879392602832
+          },
+          "overlaps": [],
+          "physicalStatePreserved": true,
+          "shipFov": 20
+        },
+        {
+          "width": 800,
+          "height": 600,
+          "chapter": 0,
+          "passage": false,
+          "fov": 4,
+          "lag": 0,
+          "bounds": {
+            "left": 1949.8682467184842,
+            "right": 6329.864520118859,
+            "top": -1786.4547035911746,
+            "bottom": 865.2320975069831
+          },
+          "overlaps": [],
+          "physicalStatePreserved": true,
+          "shipFov": 4
+        },
+        {
+          "width": 800,
+          "height": 600,
+          "chapter": 0,
+          "passage": false,
+          "fov": 4,
+          "lag": 0.18,
+          "bounds": {
+            "left": 2003.2540340285916,
+            "right": 6228.301550266757,
+            "top": -1956.2288714322453,
+            "bottom": 935.8725142349546
+          },
+          "overlaps": [],
+          "physicalStatePreserved": true,
+          "shipFov": 4
+        },
+        {
+          "width": 800,
+          "height": 600,
+          "chapter": 0,
+          "passage": true,
+          "fov": 70,
+          "lag": 0,
+          "bounds": {
+            "left": 477.2950715792293,
+            "right": 695.7343654908577,
+            "top": 195.94427397144253,
+            "bottom": 328.1892706223149
+          },
+          "overlaps": [],
+          "physicalStatePreserved": true,
+          "shipFov": 70
+        },
+        {
+          "width": 800,
+          "height": 600,
+          "chapter": 0,
+          "passage": true,
+          "fov": 70,
+          "lag": 0.18,
+          "bounds": {
+            "left": 472.8087009945919,
+            "right": 691.7685095960047,
+            "top": 194.60246558244384,
+            "bottom": 333.3612318295587
+          },
+          "overlaps": [],
+          "physicalStatePreserved": true,
+          "shipFov": 70
+        },
+        {
+          "width": 800,
+          "height": 600,
+          "chapter": 0,
+          "passage": true,
+          "fov": 58,
+          "lag": 0,
+          "bounds": {
+            "left": 497.6397402214295,
+            "right": 773.573968315414,
+            "top": 168.55599134071065,
+            "bottom": 335.60890758440064
+          },
+          "overlaps": [],
+          "physicalStatePreserved": true,
+          "shipFov": 58
+        },
+        {
+          "width": 800,
+          "height": 600,
+          "chapter": 0,
+          "passage": true,
+          "fov": 58,
+          "lag": 0.18,
+          "bounds": {
+            "left": 491.9725217368455,
+            "right": 768.5642680665158,
+            "top": 166.8610084672622,
+            "bottom": 342.1421695167991
+          },
+          "overlaps": [],
+          "physicalStatePreserved": true,
+          "shipFov": 58
+        },
+        {
+          "width": 800,
+          "height": 600,
+          "chapter": 0,
+          "passage": true,
+          "fov": 35,
+          "lag": 0,
+          "bounds": {
+            "left": 571.6549307996501,
+            "right": 1056.7593639055895,
+            "top": 68.91568782065556,
+            "bottom": 362.60201587375684
+          },
+          "overlaps": [],
+          "physicalStatePreserved": true,
+          "shipFov": 35
+        },
+        {
+          "width": 800,
+          "height": 600,
+          "chapter": 0,
+          "passage": true,
+          "fov": 35,
+          "lag": 0.18,
+          "bounds": {
+            "left": 568.50580725748,
+            "right": 1048.0146256677726,
+            "top": 59.331646372687906,
+            "bottom": 372.318726594559
+          },
+          "overlaps": [],
+          "physicalStatePreserved": true,
+          "shipFov": 35
+        },
+        {
+          "width": 800,
+          "height": 600,
+          "chapter": 0,
+          "passage": true,
+          "fov": 20,
+          "lag": 0,
+          "bounds": {
+            "left": 706.9444708278676,
+            "right": 1574.3831329292582,
+            "top": -113.21301746524153,
+            "bottom": 411.9416875799249
+          },
+          "overlaps": [],
+          "physicalStatePreserved": true,
+          "shipFov": 20
+        },
+        {
+          "width": 800,
+          "height": 600,
+          "chapter": 0,
+          "passage": true,
+          "fov": 20,
+          "lag": 0.18,
+          "bounds": {
+            "left": 709.0655362613398,
+            "right": 1557.1721667307445,
+            "top": -138.18450503132382,
+            "bottom": 427.5879392602832
+          },
+          "overlaps": [],
+          "physicalStatePreserved": true,
+          "shipFov": 20
+        },
+        {
+          "width": 800,
+          "height": 600,
+          "chapter": 0,
+          "passage": true,
+          "fov": 4,
+          "lag": 0,
+          "bounds": {
+            "left": 1949.8682467184842,
+            "right": 6329.864520118859,
+            "top": -1786.4547035911746,
+            "bottom": 865.2320975069831
+          },
+          "overlaps": [],
+          "physicalStatePreserved": true,
+          "shipFov": 4
+        },
+        {
+          "width": 800,
+          "height": 600,
+          "chapter": 0,
+          "passage": true,
+          "fov": 4,
+          "lag": 0.18,
+          "bounds": {
+            "left": 2003.2540340285916,
+            "right": 6228.301550266757,
+            "top": -1956.2288714322453,
+            "bottom": 935.8725142349546
+          },
+          "overlaps": [],
+          "physicalStatePreserved": true,
+          "shipFov": 4
+        },
+        {
+          "width": 800,
+          "height": 600,
+          "chapter": 2,
+          "passage": false,
+          "fov": 70,
+          "lag": 0,
+          "bounds": {
+            "left": 477.2950715792293,
+            "right": 695.7343654908577,
+            "top": 195.94427397144253,
+            "bottom": 328.1892706223149
+          },
+          "overlaps": [],
+          "physicalStatePreserved": true,
+          "shipFov": 70
+        },
+        {
+          "width": 800,
+          "height": 600,
+          "chapter": 2,
+          "passage": false,
+          "fov": 70,
+          "lag": 0.18,
+          "bounds": {
+            "left": 472.8087009945919,
+            "right": 691.7685095960047,
+            "top": 194.6024655824439,
+            "bottom": 333.3612318295587
+          },
+          "overlaps": [],
+          "physicalStatePreserved": true,
+          "shipFov": 70
+        },
+        {
+          "width": 800,
+          "height": 600,
+          "chapter": 2,
+          "passage": false,
+          "fov": 58,
+          "lag": 0,
+          "bounds": {
+            "left": 497.6397402214295,
+            "right": 773.573968315414,
+            "top": 168.55599134071065,
+            "bottom": 335.60890758440064
+          },
+          "overlaps": [],
+          "physicalStatePreserved": true,
+          "shipFov": 58
+        },
+        {
+          "width": 800,
+          "height": 600,
+          "chapter": 2,
+          "passage": false,
+          "fov": 58,
+          "lag": 0.18,
+          "bounds": {
+            "left": 491.9725217368455,
+            "right": 768.5642680665158,
+            "top": 166.86100846726225,
+            "bottom": 342.142169516799
+          },
+          "overlaps": [],
+          "physicalStatePreserved": true,
+          "shipFov": 58
+        },
+        {
+          "width": 800,
+          "height": 600,
+          "chapter": 2,
+          "passage": false,
+          "fov": 35,
+          "lag": 0,
+          "bounds": {
+            "left": 571.6549307996501,
+            "right": 1056.7593639055895,
+            "top": 68.91568782065556,
+            "bottom": 362.60201587375684
+          },
+          "overlaps": [],
+          "physicalStatePreserved": true,
+          "shipFov": 35
+        },
+        {
+          "width": 800,
+          "height": 600,
+          "chapter": 2,
+          "passage": false,
+          "fov": 35,
+          "lag": 0.18,
+          "bounds": {
+            "left": 568.50580725748,
+            "right": 1048.014625667773,
+            "top": 59.331646372687906,
+            "bottom": 372.318726594559
+          },
+          "overlaps": [],
+          "physicalStatePreserved": true,
+          "shipFov": 35
+        },
+        {
+          "width": 800,
+          "height": 600,
+          "chapter": 2,
+          "passage": false,
+          "fov": 20,
+          "lag": 0,
+          "bounds": {
+            "left": 706.9444708278676,
+            "right": 1574.3831329292582,
+            "top": -113.21301746524153,
+            "bottom": 411.9416875799249
+          },
+          "overlaps": [],
+          "physicalStatePreserved": true,
+          "shipFov": 20
+        },
+        {
+          "width": 800,
+          "height": 600,
+          "chapter": 2,
+          "passage": false,
+          "fov": 20,
+          "lag": 0.18,
+          "bounds": {
+            "left": 709.0655362613398,
+            "right": 1557.1721667307445,
+            "top": -138.18450503132382,
+            "bottom": 427.5879392602832
+          },
+          "overlaps": [],
+          "physicalStatePreserved": true,
+          "shipFov": 20
+        },
+        {
+          "width": 800,
+          "height": 600,
+          "chapter": 2,
+          "passage": false,
+          "fov": 4,
+          "lag": 0,
+          "bounds": {
+            "left": 1949.8682467184842,
+            "right": 6329.864520118859,
+            "top": -1786.4547035911746,
+            "bottom": 865.2320975069831
+          },
+          "overlaps": [],
+          "physicalStatePreserved": true,
+          "shipFov": 4
+        },
+        {
+          "width": 800,
+          "height": 600,
+          "chapter": 2,
+          "passage": false,
+          "fov": 4,
+          "lag": 0.18,
+          "bounds": {
+            "left": 2003.2540340285916,
+            "right": 6228.301550266757,
+            "top": -1956.2288714322451,
+            "bottom": 935.8725142349546
+          },
+          "overlaps": [],
+          "physicalStatePreserved": true,
+          "shipFov": 4
+        },
+        {
+          "width": 800,
+          "height": 600,
+          "chapter": 2,
+          "passage": true,
+          "fov": 70,
+          "lag": 0,
+          "bounds": {
+            "left": 477.2950715792293,
+            "right": 695.7343654908577,
+            "top": 195.94427397144253,
+            "bottom": 328.1892706223149
+          },
+          "overlaps": [],
+          "physicalStatePreserved": true,
+          "shipFov": 70
+        },
+        {
+          "width": 800,
+          "height": 600,
+          "chapter": 2,
+          "passage": true,
+          "fov": 70,
+          "lag": 0.18,
+          "bounds": {
+            "left": 472.8087009945919,
+            "right": 691.7685095960047,
+            "top": 194.6024655824439,
+            "bottom": 333.3612318295587
+          },
+          "overlaps": [],
+          "physicalStatePreserved": true,
+          "shipFov": 70
+        },
+        {
+          "width": 800,
+          "height": 600,
+          "chapter": 2,
+          "passage": true,
+          "fov": 58,
+          "lag": 0,
+          "bounds": {
+            "left": 497.6397402214295,
+            "right": 773.573968315414,
+            "top": 168.55599134071065,
+            "bottom": 335.60890758440064
+          },
+          "overlaps": [],
+          "physicalStatePreserved": true,
+          "shipFov": 58
+        },
+        {
+          "width": 800,
+          "height": 600,
+          "chapter": 2,
+          "passage": true,
+          "fov": 58,
+          "lag": 0.18,
+          "bounds": {
+            "left": 491.9725217368455,
+            "right": 768.5642680665158,
+            "top": 166.86100846726225,
+            "bottom": 342.142169516799
+          },
+          "overlaps": [],
+          "physicalStatePreserved": true,
+          "shipFov": 58
+        },
+        {
+          "width": 800,
+          "height": 600,
+          "chapter": 2,
+          "passage": true,
+          "fov": 35,
+          "lag": 0,
+          "bounds": {
+            "left": 571.6549307996501,
+            "right": 1056.7593639055895,
+            "top": 68.91568782065556,
+            "bottom": 362.60201587375684
+          },
+          "overlaps": [],
+          "physicalStatePreserved": true,
+          "shipFov": 35
+        },
+        {
+          "width": 800,
+          "height": 600,
+          "chapter": 2,
+          "passage": true,
+          "fov": 35,
+          "lag": 0.18,
+          "bounds": {
+            "left": 568.50580725748,
+            "right": 1048.014625667773,
+            "top": 59.331646372687906,
+            "bottom": 372.318726594559
+          },
+          "overlaps": [],
+          "physicalStatePreserved": true,
+          "shipFov": 35
+        },
+        {
+          "width": 800,
+          "height": 600,
+          "chapter": 2,
+          "passage": true,
+          "fov": 20,
+          "lag": 0,
+          "bounds": {
+            "left": 706.9444708278676,
+            "right": 1574.3831329292582,
+            "top": -113.21301746524153,
+            "bottom": 411.9416875799249
+          },
+          "overlaps": [],
+          "physicalStatePreserved": true,
+          "shipFov": 20
+        },
+        {
+          "width": 800,
+          "height": 600,
+          "chapter": 2,
+          "passage": true,
+          "fov": 20,
+          "lag": 0.18,
+          "bounds": {
+            "left": 709.0655362613398,
+            "right": 1557.1721667307445,
+            "top": -138.18450503132382,
+            "bottom": 427.5879392602832
+          },
+          "overlaps": [],
+          "physicalStatePreserved": true,
+          "shipFov": 20
+        },
+        {
+          "width": 800,
+          "height": 600,
+          "chapter": 2,
+          "passage": true,
+          "fov": 4,
+          "lag": 0,
+          "bounds": {
+            "left": 1949.8682467184842,
+            "right": 6329.864520118859,
+            "top": -1786.4547035911746,
+            "bottom": 865.2320975069831
+          },
+          "overlaps": [],
+          "physicalStatePreserved": true,
+          "shipFov": 4
+        },
+        {
+          "width": 800,
+          "height": 600,
+          "chapter": 2,
+          "passage": true,
+          "fov": 4,
+          "lag": 0.18,
+          "bounds": {
+            "left": 2003.2540340285916,
+            "right": 6228.301550266757,
+            "top": -1956.2288714322451,
+            "bottom": 935.8725142349546
+          },
+          "overlaps": [],
+          "physicalStatePreserved": true,
+          "shipFov": 4
+        }
+      ],
+      "layouts": [
+        {
+          "width": 1440,
+          "height": 900,
+          "buttons": [
+            {
+              "text": "×",
+              "x": 474,
+              "y": 43,
+              "width": 44,
+              "height": 44
+            },
+            {
+              "text": "Probe",
+              "x": 86.390625,
+              "y": 110.390625,
+              "width": 44,
+              "height": 45.6875
+            },
+            {
+              "text": "Chase",
+              "x": 158.390625,
+              "y": 110.390625,
+              "width": 45,
+              "height": 45.6875
+            },
+            {
+              "text": "SaturnFollow →",
+              "x": 86.390625,
+              "y": 400.375,
+              "width": 419.609375,
+              "height": 52
+            },
+            {
+              "text": "TitanFollow →",
+              "x": 86.390625,
+              "y": 452.375,
+              "width": 419.609375,
+              "height": 52
+            },
+            {
+              "text": "Return to flight →",
+              "x": 86.390625,
+              "y": 824.703125,
+              "width": 425.609375,
+              "height": 47.296875
+            }
+          ],
+          "scroll": 693,
+          "client": 693
+        },
+        {
+          "width": 1024,
+          "height": 640,
+          "buttons": [
+            {
+              "text": "×",
+              "x": 474,
+              "y": 18,
+              "width": 44,
+              "height": 44
+            },
+            {
+              "text": "Probe",
+              "x": 61.4375,
+              "y": 72.5,
+              "width": 44,
+              "height": 45.6875
+            },
+            {
+              "text": "Chase",
+              "x": 133.4375,
+              "y": 72.5,
+              "width": 45,
+              "height": 45.6875
+            },
+            {
+              "text": "SaturnFollow →",
+              "x": 61.4375,
+              "y": 316.484375,
+              "width": 444.5625,
+              "height": 46
+            },
+            {
+              "text": "TitanFollow →",
+              "x": 61.4375,
+              "y": 362.484375,
+              "width": 444.5625,
+              "height": 46
+            },
+            {
+              "text": "Return to flight →",
+              "x": 61.4375,
+              "y": 564.703125,
+              "width": 450.5625,
+              "height": 47.296875
+            }
+          ],
+          "scroll": 471,
+          "client": 471
+        },
+        {
+          "width": 800,
+          "height": 600,
+          "buttons": [
+            {
+              "text": "×",
+              "x": 374,
+              "y": 18,
+              "width": 44,
+              "height": 44
+            },
+            {
+              "text": "Probe",
+              "x": 40,
+              "y": 72.5,
+              "width": 44,
+              "height": 45.6875
+            },
+            {
+              "text": "Chase",
+              "x": 112,
+              "y": 72.5,
+              "width": 45,
+              "height": 45.6875
+            },
+            {
+              "text": "SaturnFollow →",
+              "x": 40,
+              "y": 316.484375,
+              "width": 370,
+              "height": 46
+            },
+            {
+              "text": "TitanFollow →",
+              "x": 40,
+              "y": 362.484375,
+              "width": 370,
+              "height": 46
+            },
+            {
+              "text": "Return to flight →",
+              "x": 40,
+              "y": 524.703125,
+              "width": 376,
+              "height": 47.296875
+            }
+          ],
+          "scroll": 431,
+          "client": 431
+        }
+      ],
+      "acquired": {
+        "tracking": "saturn",
+        "freeLook": true,
+        "project": {
+          "x": 1.699620614890053e-17,
+          "y": 1.631635790294451e-15,
+          "front": true,
+          "distance": 298493.9641646015,
+          "angle": 0
+        },
+        "position": [
+          -1421176444.2564046,
+          31058198.718411293,
+          72694290.02840832
+        ],
+        "velocity": [
+          -13.358976799736949,
+          17.310551686639204,
+          -1.7954174547722381
+        ],
+        "attitude": [
+          -0.04187300771707857,
+          0.9489169842359795,
+          0.15041486041717653,
+          0.274187122270359
+        ],
+        "fuel": 104,
+        "localSeconds": 0
+      },
+      "motion": {
+        "tracked": {
+          "position": [
+            -1421210174.2643387,
+            31100650.33730554,
+            72690890.67135215
+          ],
+          "velocity": [
+            -13.8302189455978,
+            16.91495220295817,
+            -0.95013225252045
+          ],
+          "q": [
+            -0.04187300771707857,
+            0.9489169842359795,
+            0.15041486041717653,
+            0.274187122270359
+          ],
+          "fuel": 104,
+          "seconds": 2479.087427356324,
+          "maxError": 2.1073424255447017e-8
+        },
+        "manual": {
+          "position": [
+            -1421210174.2643387,
+            31100650.33730554,
+            72690890.67135215
+          ],
+          "velocity": [
+            -13.8302189455978,
+            16.91495220295817,
+            -0.95013225252045
+          ],
+          "q": [
+            -0.04187300771707857,
+            0.9489169842359795,
+            0.15041486041717653,
+            0.274187122270359
+          ],
+          "fuel": 104,
+          "seconds": 2479.087427356324,
+          "maxError": 0.1807521596462977
+        }
+      },
+      "lens": {
+        "target": 49.6,
+        "values": [
+          56.1,
+          54.6,
+          53.5,
+          52.6,
+          51.9,
+          51.4,
+          51,
+          50.7,
+          50.4,
+          50.3,
+          50.1,
+          50,
+          49.9,
+          49.8,
+          49.8,
+          49.7,
+          49.7,
+          49.7,
+          49.7,
+          49.7,
+          49.6,
+          49.6,
+          49.6,
+          49.6,
+          49.6,
+          49.6,
+          49.6,
+          49.6,
+          49.6,
+          49.6,
+          49.6,
+          49.6,
+          49.6,
+          49.6,
+          49.6,
+          49.6,
+          49.6,
+          49.6,
+          49.6,
+          49.6,
+          49.6,
+          49.6,
+          49.6,
+          49.6,
+          49.6,
+          49.6,
+          49.6,
+          49.6,
+          49.6,
+          49.6,
+          49.6,
+          49.6,
+          49.6,
+          49.6,
+          49.6,
+          49.6,
+          49.6,
+          49.6,
+          49.6,
+          49.6
+        ],
+        "detail": 6.7,
+        "detailValues": [
+          7.7,
+          7.5,
+          7.3,
+          7.2,
+          7,
+          7,
+          6.9,
+          6.9,
+          6.8,
+          6.8,
+          6.8,
+          6.8,
+          6.7,
+          6.7,
+          6.7,
+          6.7,
+          6.7,
+          6.7,
+          6.7,
+          6.7,
+          6.7,
+          6.7,
+          6.7,
+          6.7,
+          6.7,
+          6.7,
+          6.7,
+          6.7,
+          6.7,
+          6.7,
+          6.7,
+          6.7,
+          6.7,
+          6.7,
+          6.7,
+          6.7,
+          6.7,
+          6.7,
+          6.7,
+          6.7,
+          6.7,
+          6.7,
+          6.7,
+          6.7,
+          6.7,
+          6.7,
+          6.7,
+          6.7,
+          6.7,
+          6.7,
+          6.7,
+          6.7,
+          6.7,
+          6.7,
+          6.7,
+          6.7,
+          6.7,
+          6.7,
+          6.7,
+          6.7
+        ],
+        "external": 34
+      },
+      "switching": [
+        {
+          "label": "current-probe",
+          "view": "probe",
+          "angleRadians": 0,
+          "turning": false,
+          "tracking": "saturn",
+          "freeLook": true,
+          "physicalStatePreserved": true
+        },
+        {
+          "label": "menu-chase",
+          "view": "chase",
+          "angleRadians": 0,
+          "turning": false,
+          "tracking": "saturn",
+          "freeLook": true,
+          "physicalStatePreserved": true
+        },
+        {
+          "label": "current-chase",
+          "view": "chase",
+          "angleRadians": 0,
+          "turning": false,
+          "tracking": "saturn",
+          "freeLook": true,
+          "physicalStatePreserved": true
+        },
+        {
+          "label": "menu-probe",
+          "view": "probe",
+          "angleRadians": 0,
+          "turning": false,
+          "tracking": "saturn",
+          "freeLook": true,
+          "physicalStatePreserved": true
+        },
+        {
+          "label": "keyboard-following-chase",
+          "view": "chase",
+          "angleRadians": 0,
+          "turning": false,
+          "tracking": "saturn",
+          "freeLook": true,
+          "physicalStatePreserved": true
+        },
+        {
+          "label": "keyboard-following-probe",
+          "view": "probe",
+          "angleRadians": 0,
+          "turning": false,
+          "tracking": "saturn",
+          "freeLook": true,
+          "physicalStatePreserved": true
+        },
+        {
+          "label": "xbox-following-chase",
+          "view": "chase",
+          "angleRadians": 0,
+          "turning": false,
+          "tracking": "saturn",
+          "freeLook": true,
+          "physicalStatePreserved": true
+        },
+        {
+          "label": "xbox-following-probe",
+          "view": "probe",
+          "angleRadians": 0,
+          "turning": false,
+          "tracking": "saturn",
+          "freeLook": true,
+          "physicalStatePreserved": true
+        },
+        {
+          "label": "independent-look-chase",
+          "view": "chase",
+          "angleRadians": 0,
+          "turning": false,
+          "tracking": null,
+          "freeLook": true,
+          "physicalStatePreserved": true
+        },
+        {
+          "label": "independent-look-probe",
+          "view": "probe",
+          "angleRadians": 0,
+          "turning": false,
+          "tracking": null,
+          "freeLook": true,
+          "physicalStatePreserved": true
+        },
+        {
+          "label": "continuous-look-turn",
+          "view": "chase",
+          "angleRadians": 0.009639856113694526,
+          "turning": true,
+          "tracking": null,
+          "freeLook": true,
+          "physicalStatePreserved": true
+        },
+        {
+          "label": "turn-finished-probe",
+          "view": "probe",
+          "angleRadians": 0,
+          "turning": false,
+          "tracking": null,
+          "freeLook": true,
+          "physicalStatePreserved": true
+        },
+        {
+          "label": "lagged-chase-to-probe",
+          "view": "probe",
+          "angleRadians": 0,
+          "turning": false,
+          "tracking": null,
+          "freeLook": true,
+          "physicalStatePreserved": true
+        }
+      ],
+      "chaseLagRadians": 0.01018591839628342,
+      "bearingPointerAndKeyboard": true,
+      "bearingPhysicalStatePreserved": true,
+      "bearingCanSwitchSubject": true,
+      "transitBearingIsReadOnly": true,
+      "keyboardRelease": true,
+      "heldFollowingReusesFrame": true,
+      "persistedFollowing": true,
+      "syntheticXboxCameraAndManualRelease": true,
+      "pauseCamera": true,
+      "chasePhoto": true,
+      "transitClearsTracking": true,
+      "errors": [],
+      "passed": true
+    }
+  ]
+}

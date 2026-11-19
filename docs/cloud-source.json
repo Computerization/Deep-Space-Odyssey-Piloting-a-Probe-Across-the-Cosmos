@@ -1,0 +1,27 @@
+{
+  "sourcePage": "https://www.solarsystemscope.com/textures/",
+  "sourceUrl": "https://www.solarsystemscope.com/textures/download/8k_earth_clouds.jpg",
+  "credit": "Solar System Scope / INOVE; NASA-derived imagery",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "sourceSha256": "c792eca228989d36ebb45d3ea6ff1198be5e21a25d70d2fbcb2124ffd14ba7f5",
+  "sourceBytes": 11619184,
+  "dimensions": [
+    8192,
+    4096
+  ],
+  "channel": "Original decoded red channel, used as a coverage proxy",
+  "encoding": "libavif 1.4.2 / AOM; monochrome AVIF, quality 70, speed 4, 8 bit, full range, CICP 1/13/6, no ICC",
+  "processing": "No resampling, sharpening, palette edits, invented detail or changed regional-height reconstruction.",
+  "errorAgainstSource8bit": {
+    "rmse": 2.7385222911834717,
+    "gradientRMSE": 3.7006995677948,
+    "max": 26.0,
+    "bias": 0.08904942870140076
+  },
+  "limitations": "The supplier map is a processed NASA-derived composite with finite resolution. Image brightness is not a calibrated optical-depth measurement; the renderer infers cloud heights and thickness. It is not historical 1977 weather or a measured 3D cloud volume.",
+  "file": {
+    "name": "earth-clouds.avif",
+    "bytes": 6177861,
+    "sha256": "adfa35d6b919ab040cca611bc087cadb1189020cb58f0e41f154b4ccc9956cd4"
+  }
+}

@@ -1,0 +1,952 @@
+{
+  "purpose": "Pre-installation same-helper reconstruction trials; final three-engine validation is cloud-composite-results.json",
+  "helperSha256": "db3c83c552fb84bd86ecff4734beb9afa1e667b66f00fa92e3560165433248ca",
+  "helper": " vec4 sampleCloud(vec2 uv,vec3 origin,vec3 direction){\n  vec2 size=vec2(textureSize(cloudColor,0)),p=uv*size-.5,base=floor(p),f=p-base;\n  float along=dot(origin,direction),hit=along*along-dot(origin,origin)+1.00143*1.00143;\n  float edge=hit/max(fwidth(hit)*max(viewport.x/size.x,viewport.y/size.y),.00000001);\n  vec4 linear=texture2D(cloudColor,uv);\n  if(edge<=2.||all(equal(size,viewport)))return linear;\n  vec2 w0=f*(-.5+f*(1.-.5*f));\n  vec2 w1=1.+f*f*(-2.5+1.5*f);\n  vec2 w2=f*(.5+f*(2.-1.5*f));\n  vec2 w3=f*f*(-.5+.5*f),middle=w1+w2;\n  vec3 x=vec3(base.x-.5,base.x+.5+w2.x/middle.x,base.x+2.5)/size.x;\n  vec3 y=vec3(base.y-.5,base.y+.5+w2.y/middle.y,base.y+2.5)/size.y;\n  vec3 wx=vec3(w0.x,middle.x,w3.x),wy=vec3(w0.y,middle.y,w3.y);\n  vec4 result=vec4(0.);\n  for(int j=0;j<3;j++)for(int i=0;i<3;i++)result+=texture2D(cloudColor,vec2(x[i],y[j]))*wx[i]*wy[j];\n  vec4 a=texelFetch(cloudColor,clamp(ivec2(base),ivec2(0),ivec2(size)-1),0);\n  vec4 b=texelFetch(cloudColor,clamp(ivec2(base)+ivec2(1,0),ivec2(0),ivec2(size)-1),0);\n  vec4 c=texelFetch(cloudColor,clamp(ivec2(base)+ivec2(0,1),ivec2(0),ivec2(size)-1),0);\n  vec4 d=texelFetch(cloudColor,clamp(ivec2(base)+ivec2(1,1),ivec2(0),ivec2(size)-1),0);\n  return mix(linear,clamp(result,min(min(a,b),min(c,d)),max(max(a,b),max(c,d))),smoothstep(2.,4.,edge));\n }\n",
+  "initialUnboundedLimbTrial": {
+    "rows": [
+      {
+        "label": "day",
+        "scale": 1,
+        "metrics": {
+          "previous": {
+            "display": {
+              "mean": 1.6475204,
+              "rmse": 5.5318859351942535,
+              "max": 131,
+              "gradientRmse": 7.202488940174316
+            },
+            "linear": {
+              "mean": 0.005152522815450033,
+              "rmse": 0.01754315554450272,
+              "max": 0.4715576171875,
+              "gradientRmse": 0.022781048600995116
+            }
+          },
+          "candidate": {
+            "display": {
+              "mean": 1.3790006666666668,
+              "rmse": 4.821141068253448,
+              "max": 133,
+              "gradientRmse": 6.606481685940458
+            },
+            "linear": {
+              "mean": 0.004361302963256836,
+              "rmse": 0.015430869066396216,
+              "max": 0.503662109375,
+              "gradientRmse": 0.020889898688458756
+            }
+          }
+        }
+      },
+      {
+        "label": "terminator",
+        "scale": 1,
+        "metrics": {
+          "previous": {
+            "display": {
+              "mean": 0.6698622666666667,
+              "rmse": 3.340348105612148,
+              "max": 131,
+              "gradientRmse": 4.535213894257542
+            },
+            "linear": {
+              "mean": 0.0018380959303299586,
+              "rmse": 0.010028029764909744,
+              "max": 0.53271484375,
+              "gradientRmse": 0.014144984373410866
+            }
+          },
+          "candidate": {
+            "display": {
+              "mean": 0.5662897333333333,
+              "rmse": 2.9314630022112396,
+              "max": 137,
+              "gradientRmse": 4.168249416721605
+            },
+            "linear": {
+              "mean": 0.0015738544305880864,
+              "rmse": 0.008904449913375639,
+              "max": 0.498291015625,
+              "gradientRmse": 0.013003764559498929
+            }
+          }
+        }
+      },
+      {
+        "label": "crescent",
+        "scale": 1,
+        "metrics": {
+          "previous": {
+            "display": {
+              "mean": 0.005967866666666667,
+              "rmse": 0.37424394896021146,
+              "max": 131,
+              "gradientRmse": 0.5369350053777459
+            },
+            "linear": {
+              "mean": 1.820133097966512e-05,
+              "rmse": 0.0016165638676318564,
+              "max": 0.50390625,
+              "gradientRmse": 0.0023059083384529677
+            }
+          },
+          "candidate": {
+            "display": {
+              "mean": 0.0060896,
+              "rmse": 0.3974294067294635,
+              "max": 142,
+              "gradientRmse": 0.5733275968705268
+            },
+            "linear": {
+              "mean": 1.8933951234817504e-05,
+              "rmse": 0.0017195422462944255,
+              "max": 0.515869140625,
+              "gradientRmse": 0.002365162230528
+            }
+          }
+        }
+      },
+      {
+        "label": "close",
+        "scale": 1,
+        "metrics": {
+          "previous": {
+            "display": {
+              "mean": 0.05314053333333333,
+              "rmse": 0.2432770711212492,
+              "max": 8,
+              "gradientRmse": 0.2911219675668602
+            },
+            "linear": {
+              "mean": 0.00013993936971028645,
+              "rmse": 0.00047655439806393405,
+              "max": 0.02978515625,
+              "gradientRmse": 0.00041865291037423654
+            }
+          },
+          "candidate": {
+            "display": {
+              "mean": 0.033772133333333336,
+              "rmse": 0.18631120918148394,
+              "max": 6,
+              "gradientRmse": 0.253066526167857
+            },
+            "linear": {
+              "mean": 9.1919775390625e-05,
+              "rmse": 0.0002936103045244725,
+              "max": 0.020751953125,
+              "gradientRmse": 0.0003477481389319577
+            }
+          }
+        }
+      },
+      {
+        "label": "grazing",
+        "scale": 1,
+        "metrics": {
+          "previous": {
+            "display": {
+              "mean": 0.018366266666666665,
+              "rmse": 0.13695011257145184,
+              "max": 5,
+              "gradientRmse": 0.18088080790030397
+            },
+            "linear": {
+              "mean": 2.302481721242269e-05,
+              "rmse": 9.310118068762217e-05,
+              "max": 0.0086669921875,
+              "gradientRmse": 9.060422373445303e-05
+            }
+          },
+          "candidate": {
+            "display": {
+              "mean": 0.014521333333333334,
+              "rmse": 0.12076202493609763,
+              "max": 4,
+              "gradientRmse": 0.1662832924058618
+            },
+            "linear": {
+              "mean": 1.8389719518025716e-05,
+              "rmse": 6.886833555493434e-05,
+              "max": 0.006591796875,
+              "gradientRmse": 7.936296483424756e-05
+            }
+          }
+        }
+      },
+      {
+        "label": "resolved-limb",
+        "scale": 1,
+        "metrics": {
+          "previous": {
+            "display": {
+              "mean": 0.0208624,
+              "rmse": 0.1663802872938979,
+              "max": 12,
+              "gradientRmse": 0.23078474819623587
+            },
+            "linear": {
+              "mean": 0.0001247132080078125,
+              "rmse": 0.0005502253506944246,
+              "max": 0.056640625,
+              "gradientRmse": 0.0007333125288045998
+            }
+          },
+          "candidate": {
+            "display": {
+              "mean": 0.016582133333333332,
+              "rmse": 0.14680599442802056,
+              "max": 14,
+              "gradientRmse": 0.21003872658790013
+            },
+            "linear": {
+              "mean": 0.00010638561197916666,
+              "rmse": 0.0004735538482385868,
+              "max": 0.055908203125,
+              "gradientRmse": 0.0006803139193275749
+            }
+          }
+        }
+      },
+      {
+        "label": "day",
+        "scale": 0.75,
+        "metrics": {
+          "previous": {
+            "display": {
+              "mean": 2.3146176,
+              "rmse": 7.510562482264561,
+              "max": 156,
+              "gradientRmse": 8.892458572670815
+            },
+            "linear": {
+              "mean": 0.0072363854133605954,
+              "rmse": 0.023930326655080113,
+              "max": 0.6114501953125,
+              "gradientRmse": 0.028202144318489393
+            }
+          },
+          "candidate": {
+            "display": {
+              "mean": 2.0542629333333333,
+              "rmse": 6.866025225703733,
+              "max": 154,
+              "gradientRmse": 8.514935255185444
+            },
+            "linear": {
+              "mean": 0.006482155596415202,
+              "rmse": 0.022041344341016234,
+              "max": 0.5985107421875,
+              "gradientRmse": 0.026996038341228178
+            }
+          }
+        }
+      },
+      {
+        "label": "terminator",
+        "scale": 0.75,
+        "metrics": {
+          "previous": {
+            "display": {
+              "mean": 0.9370816,
+              "rmse": 4.514420302393948,
+              "max": 146,
+              "gradientRmse": 5.579817488054605
+            },
+            "linear": {
+              "mean": 0.002576637860020002,
+              "rmse": 0.013633060667947746,
+              "max": 0.6051025390625,
+              "gradientRmse": 0.01753478133570074
+            }
+          },
+          "candidate": {
+            "display": {
+              "mean": 0.8385542666666667,
+              "rmse": 4.147848229303157,
+              "max": 142,
+              "gradientRmse": 5.349178503907555
+            },
+            "linear": {
+              "mean": 0.002335136344631513,
+              "rmse": 0.012688136957398443,
+              "max": 0.5816650390625,
+              "gradientRmse": 0.016784983196561916
+            }
+          }
+        }
+      },
+      {
+        "label": "crescent",
+        "scale": 0.75,
+        "metrics": {
+          "previous": {
+            "display": {
+              "mean": 0.007789333333333333,
+              "rmse": 0.4467261651914589,
+              "max": 119,
+              "gradientRmse": 0.6151511467382088
+            },
+            "linear": {
+              "mean": 2.2528707758585614e-05,
+              "rmse": 0.0018732948963445138,
+              "max": 0.7392578125,
+              "gradientRmse": 0.0025804119090814506
+            }
+          },
+          "candidate": {
+            "display": {
+              "mean": 0.008139333333333333,
+              "rmse": 0.4757810420771303,
+              "max": 131,
+              "gradientRmse": 0.663387267489109
+            },
+            "linear": {
+              "mean": 2.3468084184328714e-05,
+              "rmse": 0.0019634316273954198,
+              "max": 0.7503662109375,
+              "gradientRmse": 0.002646737915977974
+            }
+          }
+        }
+      },
+      {
+        "label": "close",
+        "scale": 0.75,
+        "metrics": {
+          "previous": {
+            "display": {
+              "mean": 0.0916072,
+              "rmse": 0.344707412162837,
+              "max": 14,
+              "gradientRmse": 0.3698421284818699
+            },
+            "linear": {
+              "mean": 0.00024410590311686197,
+              "rmse": 0.0007910026715683851,
+              "max": 0.03564453125,
+              "gradientRmse": 0.000652076132211416
+            }
+          },
+          "candidate": {
+            "display": {
+              "mean": 0.057760933333333334,
+              "rmse": 0.25080111642494735,
+              "max": 8,
+              "gradientRmse": 0.31959933249825995
+            },
+            "linear": {
+              "mean": 0.00015956087748209637,
+              "rmse": 0.0004937165593587834,
+              "max": 0.0224609375,
+              "gradientRmse": 0.0005266022056670173
+            }
+          }
+        }
+      },
+      {
+        "label": "grazing",
+        "scale": 0.75,
+        "metrics": {
+          "previous": {
+            "display": {
+              "mean": 0.027731066666666665,
+              "rmse": 0.17184295155751952,
+              "max": 7,
+              "gradientRmse": 0.2151012164850151
+            },
+            "linear": {
+              "mean": 3.44896240234375e-05,
+              "rmse": 0.00014094640165025906,
+              "max": 0.0115966796875,
+              "gradientRmse": 0.00012801058842393289
+            }
+          },
+          "candidate": {
+            "display": {
+              "mean": 0.020545866666666666,
+              "rmse": 0.1446199617388047,
+              "max": 5,
+              "gradientRmse": 0.1936092284301896
+            },
+            "linear": {
+              "mean": 2.594758733113607e-05,
+              "rmse": 9.772231637634774e-05,
+              "max": 0.00830078125,
+              "gradientRmse": 0.00010441684045099344
+            }
+          }
+        }
+      },
+      {
+        "label": "resolved-limb",
+        "scale": 0.75,
+        "metrics": {
+          "previous": {
+            "display": {
+              "mean": 0.029125466666666665,
+              "rmse": 0.2084683828945451,
+              "max": 15,
+              "gradientRmse": 0.27927143307780933
+            },
+            "linear": {
+              "mean": 0.000170517431640625,
+              "rmse": 0.0007445781246025173,
+              "max": 0.05908203125,
+              "gradientRmse": 0.0009501440914576179
+            }
+          },
+          "candidate": {
+            "display": {
+              "mean": 0.019097333333333334,
+              "rmse": 0.16947605533919338,
+              "max": 13,
+              "gradientRmse": 0.2383991051437344
+            },
+            "linear": {
+              "mean": 0.00012080447591145833,
+              "rmse": 0.0005815233459493084,
+              "max": 0.05126953125,
+              "gradientRmse": 0.0008178670435563195
+            }
+          }
+        }
+      }
+    ],
+    "errors": []
+  },
+  "finalEdgeAwareTrial": {
+    "rows": [
+      {
+        "label": "day",
+        "scale": 1,
+        "metrics": {
+          "previous": {
+            "display": {
+              "mean": 1.6475204,
+              "rmse": 5.5318859351942535,
+              "max": 131,
+              "gradientRmse": 7.202488940174316
+            },
+            "linear": {
+              "mean": 0.005152522815450033,
+              "rmse": 0.01754315554450272,
+              "max": 0.4715576171875,
+              "gradientRmse": 0.022781048600995116
+            }
+          },
+          "candidate": {
+            "display": {
+              "mean": 1.3819065333333334,
+              "rmse": 4.826752324285969,
+              "max": 133,
+              "gradientRmse": 6.6131028118425625
+            },
+            "linear": {
+              "mean": 0.004373705031840007,
+              "rmse": 0.015460158191375533,
+              "max": 0.449462890625,
+              "gradientRmse": 0.020921703490546978
+            }
+          }
+        }
+      },
+      {
+        "label": "terminator",
+        "scale": 1,
+        "metrics": {
+          "previous": {
+            "display": {
+              "mean": 0.6698622666666667,
+              "rmse": 3.340348105612148,
+              "max": 131,
+              "gradientRmse": 4.535213894257542
+            },
+            "linear": {
+              "mean": 0.0018380959303299586,
+              "rmse": 0.010028029764909744,
+              "max": 0.53271484375,
+              "gradientRmse": 0.014144984373410866
+            }
+          },
+          "candidate": {
+            "display": {
+              "mean": 0.5684721333333334,
+              "rmse": 2.9391704271783903,
+              "max": 137,
+              "gradientRmse": 4.1789504264428246
+            },
+            "linear": {
+              "mean": 0.0015821056922912598,
+              "rmse": 0.008940135558454219,
+              "max": 0.498291015625,
+              "gradientRmse": 0.013052402964786654
+            }
+          }
+        }
+      },
+      {
+        "label": "crescent",
+        "scale": 1,
+        "metrics": {
+          "previous": {
+            "display": {
+              "mean": 0.005967866666666667,
+              "rmse": 0.37424394896021146,
+              "max": 131,
+              "gradientRmse": 0.5369350053777459
+            },
+            "linear": {
+              "mean": 1.820133097966512e-05,
+              "rmse": 0.0016165638676318564,
+              "max": 0.50390625,
+              "gradientRmse": 0.0023059083384529677
+            }
+          },
+          "candidate": {
+            "display": {
+              "mean": 0.005863466666666667,
+              "rmse": 0.3737018419364115,
+              "max": 131,
+              "gradientRmse": 0.5387981687669945
+            },
+            "linear": {
+              "mean": 1.8033920772870383e-05,
+              "rmse": 0.0016162120121347137,
+              "max": 0.50390625,
+              "gradientRmse": 0.0023067647059737202
+            }
+          }
+        }
+      },
+      {
+        "label": "close",
+        "scale": 1,
+        "metrics": {
+          "previous": {
+            "display": {
+              "mean": 0.05314053333333333,
+              "rmse": 0.2432770711212492,
+              "max": 8,
+              "gradientRmse": 0.2911219675668602
+            },
+            "linear": {
+              "mean": 0.00013993936971028645,
+              "rmse": 0.00047655439806393405,
+              "max": 0.02978515625,
+              "gradientRmse": 0.00041865291037423654
+            }
+          },
+          "candidate": {
+            "display": {
+              "mean": 0.033773866666666666,
+              "rmse": 0.18631657646776004,
+              "max": 6,
+              "gradientRmse": 0.2530733753940413
+            },
+            "linear": {
+              "mean": 9.191808166503907e-05,
+              "rmse": 0.00029360985279619137,
+              "max": 0.020751953125,
+              "gradientRmse": 0.0003477541724002873
+            }
+          }
+        }
+      },
+      {
+        "label": "grazing",
+        "scale": 1,
+        "metrics": {
+          "previous": {
+            "display": {
+              "mean": 0.018366266666666665,
+              "rmse": 0.13695011257145184,
+              "max": 5,
+              "gradientRmse": 0.18088080790030397
+            },
+            "linear": {
+              "mean": 2.302481721242269e-05,
+              "rmse": 9.310118068762217e-05,
+              "max": 0.0086669921875,
+              "gradientRmse": 9.060422373445303e-05
+            }
+          },
+          "candidate": {
+            "display": {
+              "mean": 0.014520533333333334,
+              "rmse": 0.12075871259112804,
+              "max": 4,
+              "gradientRmse": 0.1662792831353323
+            },
+            "linear": {
+              "mean": 1.838991616566976e-05,
+              "rmse": 6.886766263410076e-05,
+              "max": 0.006591796875,
+              "gradientRmse": 7.936124602387028e-05
+            }
+          }
+        }
+      },
+      {
+        "label": "resolved-limb",
+        "scale": 1,
+        "metrics": {
+          "previous": {
+            "display": {
+              "mean": 0.0208624,
+              "rmse": 0.1663802872938979,
+              "max": 12,
+              "gradientRmse": 0.23078474819623587
+            },
+            "linear": {
+              "mean": 0.0001247132080078125,
+              "rmse": 0.0005502253506944246,
+              "max": 0.056640625,
+              "gradientRmse": 0.0007333125288045998
+            }
+          },
+          "candidate": {
+            "display": {
+              "mean": 0.0165828,
+              "rmse": 0.14680826498077915,
+              "max": 14,
+              "gradientRmse": 0.2100438049550617
+            },
+            "linear": {
+              "mean": 0.00010638512369791666,
+              "rmse": 0.00047355437582940763,
+              "max": 0.055908203125,
+              "gradientRmse": 0.0006803143844087758
+            }
+          }
+        }
+      },
+      {
+        "label": "day",
+        "scale": 0.75,
+        "metrics": {
+          "previous": {
+            "display": {
+              "mean": 2.3146176,
+              "rmse": 7.510562482264561,
+              "max": 156,
+              "gradientRmse": 8.892458572670815
+            },
+            "linear": {
+              "mean": 0.0072363854133605954,
+              "rmse": 0.023930326655080113,
+              "max": 0.6114501953125,
+              "gradientRmse": 0.028202144318489393
+            }
+          },
+          "candidate": {
+            "display": {
+              "mean": 2.0577201333333335,
+              "rmse": 6.870416125194553,
+              "max": 154,
+              "gradientRmse": 8.519749229486354
+            },
+            "linear": {
+              "mean": 0.006496209150950114,
+              "rmse": 0.02206142764723395,
+              "max": 0.5985107421875,
+              "gradientRmse": 0.02701994411957021
+            }
+          }
+        }
+      },
+      {
+        "label": "terminator",
+        "scale": 0.75,
+        "metrics": {
+          "previous": {
+            "display": {
+              "mean": 0.9370816,
+              "rmse": 4.514420302393948,
+              "max": 146,
+              "gradientRmse": 5.579817488054605
+            },
+            "linear": {
+              "mean": 0.002576637860020002,
+              "rmse": 0.013633060667947746,
+              "max": 0.6051025390625,
+              "gradientRmse": 0.01753478133570074
+            }
+          },
+          "candidate": {
+            "display": {
+              "mean": 0.8412193333333333,
+              "rmse": 4.154782770093602,
+              "max": 142,
+              "gradientRmse": 5.356698485696826
+            },
+            "linear": {
+              "mean": 0.0023453334393819174,
+              "rmse": 0.012720892508717156,
+              "max": 0.5816650390625,
+              "gradientRmse": 0.0168240054750767
+            }
+          }
+        }
+      },
+      {
+        "label": "crescent",
+        "scale": 0.75,
+        "metrics": {
+          "previous": {
+            "display": {
+              "mean": 0.007789333333333333,
+              "rmse": 0.4467261651914589,
+              "max": 119,
+              "gradientRmse": 0.6151511467382088
+            },
+            "linear": {
+              "mean": 2.2528707758585614e-05,
+              "rmse": 0.0018732948963445138,
+              "max": 0.7392578125,
+              "gradientRmse": 0.0025804119090814506
+            }
+          },
+          "candidate": {
+            "display": {
+              "mean": 0.007674933333333333,
+              "rmse": 0.4463532233556738,
+              "max": 119,
+              "gradientRmse": 0.6153687241537927
+            },
+            "linear": {
+              "mean": 2.241658561229706e-05,
+              "rmse": 0.0018732016314114716,
+              "max": 0.7392578125,
+              "gradientRmse": 0.002580500431896936
+            }
+          }
+        }
+      },
+      {
+        "label": "close",
+        "scale": 0.75,
+        "metrics": {
+          "previous": {
+            "display": {
+              "mean": 0.0916072,
+              "rmse": 0.344707412162837,
+              "max": 14,
+              "gradientRmse": 0.3698421284818699
+            },
+            "linear": {
+              "mean": 0.00024410590311686197,
+              "rmse": 0.0007910026715683851,
+              "max": 0.03564453125,
+              "gradientRmse": 0.000652076132211416
+            }
+          },
+          "candidate": {
+            "display": {
+              "mean": 0.057760933333333334,
+              "rmse": 0.2507984582621406,
+              "max": 8,
+              "gradientRmse": 0.3195972465463368
+            },
+            "linear": {
+              "mean": 0.00015956692403157552,
+              "rmse": 0.0004937262462247555,
+              "max": 0.0224609375,
+              "gradientRmse": 0.0005266146434997317
+            }
+          }
+        }
+      },
+      {
+        "label": "grazing",
+        "scale": 0.75,
+        "metrics": {
+          "previous": {
+            "display": {
+              "mean": 0.027731066666666665,
+              "rmse": 0.17184295155751952,
+              "max": 7,
+              "gradientRmse": 0.2151012164850151
+            },
+            "linear": {
+              "mean": 3.44896240234375e-05,
+              "rmse": 0.00014094640165025906,
+              "max": 0.0115966796875,
+              "gradientRmse": 0.00012801058842393289
+            }
+          },
+          "candidate": {
+            "display": {
+              "mean": 0.020549466666666665,
+              "rmse": 0.14463240761784107,
+              "max": 5,
+              "gradientRmse": 0.1936312646931447
+            },
+            "linear": {
+              "mean": 2.594742228190104e-05,
+              "rmse": 9.771897240453991e-05,
+              "max": 0.00830078125,
+              "gradientRmse": 0.00010445211354290617
+            }
+          }
+        }
+      },
+      {
+        "label": "resolved-limb",
+        "scale": 0.75,
+        "metrics": {
+          "previous": {
+            "display": {
+              "mean": 0.029125466666666665,
+              "rmse": 0.2084683828945451,
+              "max": 15,
+              "gradientRmse": 0.27927143307780933
+            },
+            "linear": {
+              "mean": 0.000170517431640625,
+              "rmse": 0.0007445781246025173,
+              "max": 0.05908203125,
+              "gradientRmse": 0.0009501440914576179
+            }
+          },
+          "candidate": {
+            "display": {
+              "mean": 0.019102933333333332,
+              "rmse": 0.16949178937832554,
+              "max": 13,
+              "gradientRmse": 0.2384259493707288
+            },
+            "linear": {
+              "mean": 0.00012081719563802083,
+              "rmse": 0.0005815468007304972,
+              "max": 0.05126953125,
+              "gradientRmse": 0.0008179204639318167
+            }
+          }
+        }
+      }
+    ],
+    "errors": []
+  },
+  "cost": {
+    "rows": [
+      {
+        "label": "day",
+        "windows": [
+          {
+            "mode": "previous",
+            "interval": {
+              "samples": 120,
+              "median": 33.30000000000109,
+              "p95": 50.100000000000364
+            },
+            "gpu": {
+              "samples": 120,
+              "median": 67.878166,
+              "p95": 77.87675
+            }
+          },
+          {
+            "mode": "candidate",
+            "interval": {
+              "samples": 120,
+              "median": 33.30000000000109,
+              "p95": 50
+            },
+            "gpu": {
+              "samples": 120,
+              "median": 67.98625,
+              "p95": 77.011624
+            }
+          },
+          {
+            "mode": "candidate",
+            "interval": {
+              "samples": 120,
+              "median": 33.30000000000291,
+              "p95": 50
+            },
+            "gpu": {
+              "samples": 120,
+              "median": 68.348125,
+              "p95": 73.670833
+            }
+          },
+          {
+            "mode": "previous",
+            "interval": {
+              "samples": 120,
+              "median": 33.29999999999927,
+              "p95": 50
+            },
+            "gpu": {
+              "samples": 120,
+              "median": 66.933166,
+              "p95": 71.762166
+            }
+          }
+        ]
+      },
+      {
+        "label": "grazing",
+        "windows": [
+          {
+            "mode": "previous",
+            "interval": {
+              "samples": 120,
+              "median": 66.5,
+              "p95": 66.79999999999927
+            },
+            "gpu": {
+              "samples": 120,
+              "median": 114.747541,
+              "p95": 125.132666
+            }
+          },
+          {
+            "mode": "candidate",
+            "interval": {
+              "samples": 120,
+              "median": 66.59999999999854,
+              "p95": 66.79999999999563
+            },
+            "gpu": {
+              "samples": 120,
+              "median": 118.640083,
+              "p95": 133.866291
+            }
+          },
+          {
+            "mode": "candidate",
+            "interval": {
+              "samples": 120,
+              "median": 66.59999999999854,
+              "p95": 83.29999999999563
+            },
+            "gpu": {
+              "samples": 120,
+              "median": 117.868,
+              "p95": 141.070249
+            }
+          },
+          {
+            "mode": "previous",
+            "interval": {
+              "samples": 120,
+              "median": 66.59999999999854,
+              "p95": 66.70000000000437
+            },
+            "gpu": {
+              "samples": 120,
+              "median": 114.094999,
+              "p95": 125.27275
+            }
+          }
+        ]
+      }
+    ],
+    "errors": []
+  },
+  "costMethod": "Chrome Metal, 1600 x 1000 DPR 2, High, cloud scale .75. ABBA; 30 warm-up then 120 timed frames each. Whole-frame GPU queries are reported separately from animation intervals. This script injects the identical sampler into the prior compositor. No FPS improvement established.",
+  "rejectedReducedSampling": "Changing the cloud-view minimum from 8+12 to 4+6 samples worsened the first day-view display RMSE from .225 to .700 against the existing dense reference. Not adopted."
+}

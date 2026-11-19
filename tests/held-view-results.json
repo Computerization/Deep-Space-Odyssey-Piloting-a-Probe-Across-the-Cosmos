@@ -1,0 +1,1325 @@
+{
+  "version": "0.56.0",
+  "outcomes": [
+    {
+      "name": "Chrome",
+      "engineVersion": "158.0.8127.37",
+      "heldViewDraws": 0,
+      "heldFramesProcessed": 75,
+      "identicalHeldPixels": true,
+      "turnResponseFrames": 1,
+      "chaseSettles": true,
+      "boundedReflectionsFinishBeforeCaching": true,
+      "lensExposureAndResizeRefresh": true,
+      "scienceAndMusicContinue": true,
+      "coastingKeepsRendering": true,
+      "reflections": [
+        {
+          "label": "Earth",
+          "boundKm": 34.00331511394616,
+          "images": [
+            {
+              "reused": true,
+              "mean": 0.000025431315104166668,
+              "max": 1,
+              "overTwo": 0
+            },
+            {
+              "reused": true,
+              "mean": 0.0000213623046875,
+              "max": 1,
+              "overTwo": 0
+            },
+            {
+              "reused": true,
+              "mean": 0.000011698404947916667,
+              "max": 1,
+              "overTwo": 0
+            },
+            {
+              "reused": true,
+              "mean": 0.00000762939453125,
+              "max": 1,
+              "overTwo": 0
+            },
+            {
+              "reused": true,
+              "mean": 0.000011698404947916667,
+              "max": 1,
+              "overTwo": 0
+            },
+            {
+              "reused": true,
+              "mean": 0.000008646647135416666,
+              "max": 1,
+              "overTwo": 0
+            }
+          ],
+          "previousCoastUpdates": 16,
+          "candidateCoastUpdates": 4,
+          "required": true,
+          "refreshed": true,
+          "physicsUnchanged": true
+        },
+        {
+          "label": "Moon",
+          "boundKm": 20.33307755911041,
+          "images": [
+            {
+              "reused": true,
+              "mean": 0.000005086263020833333,
+              "max": 1,
+              "overTwo": 0
+            },
+            {
+              "reused": true,
+              "mean": 0.00001220703125,
+              "max": 1,
+              "overTwo": 0
+            },
+            {
+              "reused": true,
+              "mean": 0.000009663899739583333,
+              "max": 1,
+              "overTwo": 0
+            },
+            {
+              "reused": true,
+              "mean": 0.0000091552734375,
+              "max": 1,
+              "overTwo": 0
+            },
+            {
+              "reused": true,
+              "mean": 0.0000010172526041666667,
+              "max": 1,
+              "overTwo": 0
+            },
+            {
+              "reused": true,
+              "mean": 0.00000457763671875,
+              "max": 1,
+              "overTwo": 0
+            }
+          ],
+          "previousCoastUpdates": 16,
+          "candidateCoastUpdates": 5,
+          "required": true,
+          "refreshed": true,
+          "physicsUnchanged": true
+        },
+        {
+          "label": "Jupiter",
+          "boundKm": 680.1449042613513,
+          "images": [
+            {
+              "reused": true,
+              "mean": 0.0000025431315104166665,
+              "max": 1,
+              "overTwo": 0
+            },
+            {
+              "reused": true,
+              "mean": 0.0000010172526041666667,
+              "max": 1,
+              "overTwo": 0
+            },
+            {
+              "reused": true,
+              "mean": 0.000004069010416666667,
+              "max": 1,
+              "overTwo": 0
+            },
+            {
+              "reused": true,
+              "mean": 0,
+              "max": 0,
+              "overTwo": 0
+            },
+            {
+              "reused": true,
+              "mean": 0.000004069010416666667,
+              "max": 1,
+              "overTwo": 0
+            },
+            {
+              "reused": true,
+              "mean": 0.000005594889322916666,
+              "max": 1,
+              "overTwo": 0
+            }
+          ],
+          "previousCoastUpdates": 16,
+          "candidateCoastUpdates": 0,
+          "required": true,
+          "refreshed": true,
+          "physicsUnchanged": true
+        },
+        {
+          "label": "Io",
+          "boundKm": 21.346874689488498,
+          "images": [
+            {
+              "reused": true,
+              "mean": 0.00001373291015625,
+              "max": 1,
+              "overTwo": 0
+            },
+            {
+              "reused": true,
+              "mean": 0.0000025431315104166665,
+              "max": 1,
+              "overTwo": 0
+            },
+            {
+              "reused": true,
+              "mean": 0.0000066121419270833336,
+              "max": 1,
+              "overTwo": 0
+            },
+            {
+              "reused": true,
+              "mean": 0.000011698404947916667,
+              "max": 1,
+              "overTwo": 0
+            },
+            {
+              "reused": true,
+              "mean": 0.000012715657552083334,
+              "max": 1,
+              "overTwo": 0
+            },
+            {
+              "reused": true,
+              "mean": 0.000008138020833333333,
+              "max": 1,
+              "overTwo": 0
+            }
+          ],
+          "previousCoastUpdates": 16,
+          "candidateCoastUpdates": 8,
+          "required": true,
+          "refreshed": true,
+          "physicsUnchanged": true
+        },
+        {
+          "label": "Saturn",
+          "boundKm": 619.107005754433,
+          "images": [
+            {
+              "reused": true,
+              "mean": 0.000006103515625,
+              "max": 1,
+              "overTwo": 0
+            },
+            {
+              "reused": true,
+              "mean": 0.000006103515625,
+              "max": 1,
+              "overTwo": 0
+            },
+            {
+              "reused": true,
+              "mean": 0.000008138020833333333,
+              "max": 1,
+              "overTwo": 0
+            },
+            {
+              "reused": true,
+              "mean": 0.0000066121419270833336,
+              "max": 1,
+              "overTwo": 0
+            },
+            {
+              "reused": true,
+              "mean": 0.0000066121419270833336,
+              "max": 1,
+              "overTwo": 0
+            },
+            {
+              "reused": true,
+              "mean": 0.000011189778645833333,
+              "max": 1,
+              "overTwo": 0
+            }
+          ],
+          "previousCoastUpdates": 16,
+          "candidateCoastUpdates": 0,
+          "required": true,
+          "refreshed": true,
+          "physicsUnchanged": true
+        },
+        {
+          "label": "Ring-plane",
+          "boundKm": 587.408726144507,
+          "images": [
+            {
+              "reused": true,
+              "mean": 0.000007120768229166667,
+              "max": 1,
+              "overTwo": 0
+            },
+            {
+              "reused": true,
+              "mean": 0.000034077962239583334,
+              "max": 1,
+              "overTwo": 0
+            },
+            {
+              "reused": true,
+              "mean": 0.000011189778645833333,
+              "max": 1,
+              "overTwo": 0
+            },
+            {
+              "reused": true,
+              "mean": 0.000006103515625,
+              "max": 1,
+              "overTwo": 0
+            },
+            {
+              "reused": true,
+              "mean": 0.000014750162760416667,
+              "max": 1,
+              "overTwo": 0
+            },
+            {
+              "reused": true,
+              "mean": 0.000011189778645833333,
+              "max": 1,
+              "overTwo": 0
+            }
+          ],
+          "previousCoastUpdates": 16,
+          "candidateCoastUpdates": 0,
+          "required": true,
+          "refreshed": true,
+          "physicsUnchanged": true
+        },
+        {
+          "label": "Titan",
+          "boundKm": 27.75848383104913,
+          "images": [
+            {
+              "reused": true,
+              "mean": 0.0000020345052083333333,
+              "max": 1,
+              "overTwo": 0
+            },
+            {
+              "reused": true,
+              "mean": 0.000033060709635416664,
+              "max": 1,
+              "overTwo": 0
+            },
+            {
+              "reused": true,
+              "mean": 0.00001068115234375,
+              "max": 1,
+              "overTwo": 0
+            },
+            {
+              "reused": true,
+              "mean": 0.00001373291015625,
+              "max": 1,
+              "overTwo": 0
+            },
+            {
+              "reused": true,
+              "mean": 0.00002899169921875,
+              "max": 1,
+              "overTwo": 0
+            },
+            {
+              "reused": true,
+              "mean": 0.000004069010416666667,
+              "max": 1,
+              "overTwo": 0
+            }
+          ],
+          "previousCoastUpdates": 16,
+          "candidateCoastUpdates": 8,
+          "required": true,
+          "refreshed": true,
+          "physicsUnchanged": true
+        },
+        {
+          "label": "Pale Blue Dot",
+          "boundKm": 20647186.041981336,
+          "images": [
+            {
+              "reused": true,
+              "mean": 0,
+              "max": 0,
+              "overTwo": 0
+            },
+            {
+              "reused": true,
+              "mean": 0,
+              "max": 0,
+              "overTwo": 0
+            },
+            {
+              "reused": true,
+              "mean": 0,
+              "max": 0,
+              "overTwo": 0
+            },
+            {
+              "reused": true,
+              "mean": 0,
+              "max": 0,
+              "overTwo": 0
+            },
+            {
+              "reused": true,
+              "mean": 0,
+              "max": 0,
+              "overTwo": 0
+            },
+            {
+              "reused": true,
+              "mean": 0,
+              "max": 0,
+              "overTwo": 0
+            }
+          ],
+          "previousCoastUpdates": 16,
+          "candidateCoastUpdates": 0,
+          "required": true,
+          "refreshed": true,
+          "physicsUnchanged": true
+        },
+        {
+          "label": "Heliopause",
+          "boundKm": 67749955.46413125,
+          "images": [
+            {
+              "reused": true,
+              "mean": 0,
+              "max": 0,
+              "overTwo": 0
+            },
+            {
+              "reused": true,
+              "mean": 0,
+              "max": 0,
+              "overTwo": 0
+            },
+            {
+              "reused": true,
+              "mean": 0,
+              "max": 0,
+              "overTwo": 0
+            },
+            {
+              "reused": true,
+              "mean": 0,
+              "max": 0,
+              "overTwo": 0
+            },
+            {
+              "reused": true,
+              "mean": 0,
+              "max": 0,
+              "overTwo": 0
+            },
+            {
+              "reused": true,
+              "mean": 0,
+              "max": 0,
+              "overTwo": 0
+            }
+          ],
+          "previousCoastUpdates": 16,
+          "candidateCoastUpdates": 0,
+          "required": true,
+          "refreshed": true,
+          "physicsUnchanged": true
+        }
+      ],
+      "errors": [],
+      "passed": true
+    },
+    {
+      "name": "Firefox",
+      "engineVersion": "153.0",
+      "heldViewDraws": 0,
+      "heldFramesProcessed": 75,
+      "identicalHeldPixels": true,
+      "turnResponseFrames": 1,
+      "chaseSettles": true,
+      "boundedReflectionsFinishBeforeCaching": true,
+      "lensExposureAndResizeRefresh": true,
+      "scienceAndMusicContinue": true,
+      "coastingKeepsRendering": true,
+      "reflections": [
+        {
+          "label": "Earth",
+          "boundKm": 34.00331511394616,
+          "images": [
+            {
+              "reused": true,
+              "mean": 0.000022379557291666665,
+              "max": 1,
+              "overTwo": 0
+            },
+            {
+              "reused": true,
+              "mean": 0.000020853678385416667,
+              "max": 1,
+              "overTwo": 0
+            },
+            {
+              "reused": true,
+              "mean": 0.000011189778645833333,
+              "max": 1,
+              "overTwo": 0
+            },
+            {
+              "reused": true,
+              "mean": 0.00000762939453125,
+              "max": 1,
+              "overTwo": 0
+            },
+            {
+              "reused": true,
+              "mean": 0.000011698404947916667,
+              "max": 1,
+              "overTwo": 0
+            },
+            {
+              "reused": true,
+              "mean": 0.000009663899739583333,
+              "max": 1,
+              "overTwo": 0
+            }
+          ],
+          "previousCoastUpdates": 16,
+          "candidateCoastUpdates": 4,
+          "required": true,
+          "refreshed": true,
+          "physicsUnchanged": true
+        },
+        {
+          "label": "Moon",
+          "boundKm": 20.33307755911041,
+          "images": [
+            {
+              "reused": true,
+              "mean": 0.00000457763671875,
+              "max": 1,
+              "overTwo": 0
+            },
+            {
+              "reused": true,
+              "mean": 0.00001220703125,
+              "max": 1,
+              "overTwo": 0
+            },
+            {
+              "reused": true,
+              "mean": 0.00000762939453125,
+              "max": 1,
+              "overTwo": 0
+            },
+            {
+              "reused": true,
+              "mean": 0.000009663899739583333,
+              "max": 1,
+              "overTwo": 0
+            },
+            {
+              "reused": true,
+              "mean": 0.0000010172526041666667,
+              "max": 1,
+              "overTwo": 0
+            },
+            {
+              "reused": true,
+              "mean": 0.000005086263020833333,
+              "max": 1,
+              "overTwo": 0
+            }
+          ],
+          "previousCoastUpdates": 16,
+          "candidateCoastUpdates": 5,
+          "required": true,
+          "refreshed": true,
+          "physicsUnchanged": true
+        },
+        {
+          "label": "Jupiter",
+          "boundKm": 680.1449042613513,
+          "images": [
+            {
+              "reused": true,
+              "mean": 0.0000030517578125,
+              "max": 1,
+              "overTwo": 0
+            },
+            {
+              "reused": true,
+              "mean": 0.00000152587890625,
+              "max": 1,
+              "overTwo": 0
+            },
+            {
+              "reused": true,
+              "mean": 0.000004069010416666667,
+              "max": 1,
+              "overTwo": 0
+            },
+            {
+              "reused": true,
+              "mean": 0,
+              "max": 0,
+              "overTwo": 0
+            },
+            {
+              "reused": true,
+              "mean": 0.000005086263020833333,
+              "max": 1,
+              "overTwo": 0
+            },
+            {
+              "reused": true,
+              "mean": 0.000006103515625,
+              "max": 1,
+              "overTwo": 0
+            }
+          ],
+          "previousCoastUpdates": 16,
+          "candidateCoastUpdates": 0,
+          "required": true,
+          "refreshed": true,
+          "physicsUnchanged": true
+        },
+        {
+          "label": "Io",
+          "boundKm": 21.346874689488498,
+          "images": [
+            {
+              "reused": true,
+              "mean": 0.00001373291015625,
+              "max": 1,
+              "overTwo": 0
+            },
+            {
+              "reused": true,
+              "mean": 0.0000025431315104166665,
+              "max": 1,
+              "overTwo": 0
+            },
+            {
+              "reused": true,
+              "mean": 0.000006103515625,
+              "max": 1,
+              "overTwo": 0
+            },
+            {
+              "reused": true,
+              "mean": 0.000011189778645833333,
+              "max": 1,
+              "overTwo": 0
+            },
+            {
+              "reused": true,
+              "mean": 0.000011698404947916667,
+              "max": 1,
+              "overTwo": 0
+            },
+            {
+              "reused": true,
+              "mean": 0.00000762939453125,
+              "max": 1,
+              "overTwo": 0
+            }
+          ],
+          "previousCoastUpdates": 16,
+          "candidateCoastUpdates": 8,
+          "required": true,
+          "refreshed": true,
+          "physicsUnchanged": true
+        },
+        {
+          "label": "Saturn",
+          "boundKm": 619.107005754433,
+          "images": [
+            {
+              "reused": true,
+              "mean": 0.000007120768229166667,
+              "max": 1,
+              "overTwo": 0
+            },
+            {
+              "reused": true,
+              "mean": 0.000005594889322916666,
+              "max": 1,
+              "overTwo": 0
+            },
+            {
+              "reused": true,
+              "mean": 0.000008138020833333333,
+              "max": 1,
+              "overTwo": 0
+            },
+            {
+              "reused": true,
+              "mean": 0.000005086263020833333,
+              "max": 1,
+              "overTwo": 0
+            },
+            {
+              "reused": true,
+              "mean": 0.00000762939453125,
+              "max": 1,
+              "overTwo": 0
+            },
+            {
+              "reused": true,
+              "mean": 0.000009663899739583333,
+              "max": 1,
+              "overTwo": 0
+            }
+          ],
+          "previousCoastUpdates": 16,
+          "candidateCoastUpdates": 0,
+          "required": true,
+          "refreshed": true,
+          "physicsUnchanged": true
+        },
+        {
+          "label": "Ring-plane",
+          "boundKm": 587.408726144507,
+          "images": [
+            {
+              "reused": true,
+              "mean": 0.000006103515625,
+              "max": 1,
+              "overTwo": 0
+            },
+            {
+              "reused": true,
+              "mean": 0.00003662109375,
+              "max": 1,
+              "overTwo": 0
+            },
+            {
+              "reused": true,
+              "mean": 0.000009663899739583333,
+              "max": 1,
+              "overTwo": 0
+            },
+            {
+              "reused": true,
+              "mean": 0.000007120768229166667,
+              "max": 1,
+              "overTwo": 0
+            },
+            {
+              "reused": true,
+              "mean": 0.000017293294270833333,
+              "max": 1,
+              "overTwo": 0
+            },
+            {
+              "reused": true,
+              "mean": 0.00001220703125,
+              "max": 1,
+              "overTwo": 0
+            }
+          ],
+          "previousCoastUpdates": 16,
+          "candidateCoastUpdates": 0,
+          "required": true,
+          "refreshed": true,
+          "physicsUnchanged": true
+        },
+        {
+          "label": "Titan",
+          "boundKm": 27.75848383104913,
+          "images": [
+            {
+              "reused": true,
+              "mean": 0.0000020345052083333333,
+              "max": 1,
+              "overTwo": 0
+            },
+            {
+              "reused": true,
+              "mean": 0.00003509521484375,
+              "max": 1,
+              "overTwo": 0
+            },
+            {
+              "reused": true,
+              "mean": 0.00001068115234375,
+              "max": 1,
+              "overTwo": 0
+            },
+            {
+              "reused": true,
+              "mean": 0.000014241536458333334,
+              "max": 1,
+              "overTwo": 0
+            },
+            {
+              "reused": true,
+              "mean": 0.00002899169921875,
+              "max": 1,
+              "overTwo": 0
+            },
+            {
+              "reused": true,
+              "mean": 0.000004069010416666667,
+              "max": 1,
+              "overTwo": 0
+            }
+          ],
+          "previousCoastUpdates": 16,
+          "candidateCoastUpdates": 8,
+          "required": true,
+          "refreshed": true,
+          "physicsUnchanged": true
+        },
+        {
+          "label": "Pale Blue Dot",
+          "boundKm": 20647186.041981336,
+          "images": [
+            {
+              "reused": true,
+              "mean": 0,
+              "max": 0,
+              "overTwo": 0
+            },
+            {
+              "reused": true,
+              "mean": 0,
+              "max": 0,
+              "overTwo": 0
+            },
+            {
+              "reused": true,
+              "mean": 0,
+              "max": 0,
+              "overTwo": 0
+            },
+            {
+              "reused": true,
+              "mean": 0,
+              "max": 0,
+              "overTwo": 0
+            },
+            {
+              "reused": true,
+              "mean": 0,
+              "max": 0,
+              "overTwo": 0
+            },
+            {
+              "reused": true,
+              "mean": 0,
+              "max": 0,
+              "overTwo": 0
+            }
+          ],
+          "previousCoastUpdates": 16,
+          "candidateCoastUpdates": 0,
+          "required": true,
+          "refreshed": true,
+          "physicsUnchanged": true
+        },
+        {
+          "label": "Heliopause",
+          "boundKm": 67749955.46413125,
+          "images": [
+            {
+              "reused": true,
+              "mean": 0,
+              "max": 0,
+              "overTwo": 0
+            },
+            {
+              "reused": true,
+              "mean": 0,
+              "max": 0,
+              "overTwo": 0
+            },
+            {
+              "reused": true,
+              "mean": 0,
+              "max": 0,
+              "overTwo": 0
+            },
+            {
+              "reused": true,
+              "mean": 0,
+              "max": 0,
+              "overTwo": 0
+            },
+            {
+              "reused": true,
+              "mean": 0,
+              "max": 0,
+              "overTwo": 0
+            },
+            {
+              "reused": true,
+              "mean": 0,
+              "max": 0,
+              "overTwo": 0
+            }
+          ],
+          "previousCoastUpdates": 16,
+          "candidateCoastUpdates": 0,
+          "required": true,
+          "refreshed": true,
+          "physicsUnchanged": true
+        }
+      ],
+      "errors": [],
+      "passed": true
+    },
+    {
+      "name": "WebKit",
+      "engineVersion": "26.5",
+      "heldViewDraws": 0,
+      "heldFramesProcessed": 38,
+      "identicalHeldPixels": true,
+      "turnResponseFrames": 1,
+      "chaseSettles": true,
+      "boundedReflectionsFinishBeforeCaching": true,
+      "lensExposureAndResizeRefresh": true,
+      "scienceAndMusicContinue": true,
+      "coastingKeepsRendering": true,
+      "reflections": [
+        {
+          "label": "Earth",
+          "boundKm": 34.00331511394616,
+          "images": [
+            {
+              "reused": true,
+              "mean": 0.000025431315104166668,
+              "max": 1,
+              "overTwo": 0
+            },
+            {
+              "reused": true,
+              "mean": 0.0000213623046875,
+              "max": 1,
+              "overTwo": 0
+            },
+            {
+              "reused": true,
+              "mean": 0.000011698404947916667,
+              "max": 1,
+              "overTwo": 0
+            },
+            {
+              "reused": true,
+              "mean": 0.000007120768229166667,
+              "max": 1,
+              "overTwo": 0
+            },
+            {
+              "reused": true,
+              "mean": 0.000011189778645833333,
+              "max": 1,
+              "overTwo": 0
+            },
+            {
+              "reused": true,
+              "mean": 0.0000091552734375,
+              "max": 1,
+              "overTwo": 0
+            }
+          ],
+          "previousCoastUpdates": 16,
+          "candidateCoastUpdates": 4,
+          "required": true,
+          "refreshed": true,
+          "physicsUnchanged": true
+        },
+        {
+          "label": "Moon",
+          "boundKm": 20.33307755911041,
+          "images": [
+            {
+              "reused": true,
+              "mean": 0.000004069010416666667,
+              "max": 1,
+              "overTwo": 0
+            },
+            {
+              "reused": true,
+              "mean": 0.000011698404947916667,
+              "max": 1,
+              "overTwo": 0
+            },
+            {
+              "reused": true,
+              "mean": 0.000009663899739583333,
+              "max": 1,
+              "overTwo": 0
+            },
+            {
+              "reused": true,
+              "mean": 0.00001220703125,
+              "max": 1,
+              "overTwo": 0
+            },
+            {
+              "reused": true,
+              "mean": 0.0000010172526041666667,
+              "max": 1,
+              "overTwo": 0
+            },
+            {
+              "reused": true,
+              "mean": 0.000007120768229166667,
+              "max": 1,
+              "overTwo": 0
+            }
+          ],
+          "previousCoastUpdates": 16,
+          "candidateCoastUpdates": 5,
+          "required": true,
+          "refreshed": true,
+          "physicsUnchanged": true
+        },
+        {
+          "label": "Jupiter",
+          "boundKm": 680.1449042613513,
+          "images": [
+            {
+              "reused": true,
+              "mean": 0.000004069010416666667,
+              "max": 1,
+              "overTwo": 0
+            },
+            {
+              "reused": true,
+              "mean": 0.000007120768229166667,
+              "max": 1,
+              "overTwo": 0
+            },
+            {
+              "reused": true,
+              "mean": 0.000005086263020833333,
+              "max": 1,
+              "overTwo": 0
+            },
+            {
+              "reused": true,
+              "mean": 0.0000020345052083333333,
+              "max": 1,
+              "overTwo": 0
+            },
+            {
+              "reused": true,
+              "mean": 0.000004069010416666667,
+              "max": 1,
+              "overTwo": 0
+            },
+            {
+              "reused": true,
+              "mean": 0.000005594889322916666,
+              "max": 1,
+              "overTwo": 0
+            }
+          ],
+          "previousCoastUpdates": 16,
+          "candidateCoastUpdates": 0,
+          "required": true,
+          "refreshed": true,
+          "physicsUnchanged": true
+        },
+        {
+          "label": "Io",
+          "boundKm": 21.346874689488498,
+          "images": [
+            {
+              "reused": true,
+              "mean": 0.00001373291015625,
+              "max": 1,
+              "overTwo": 0
+            },
+            {
+              "reused": true,
+              "mean": 0.0000025431315104166665,
+              "max": 1,
+              "overTwo": 0
+            },
+            {
+              "reused": true,
+              "mean": 0.00000762939453125,
+              "max": 1,
+              "overTwo": 0
+            },
+            {
+              "reused": true,
+              "mean": 0.00001220703125,
+              "max": 1,
+              "overTwo": 0
+            },
+            {
+              "reused": true,
+              "mean": 0.00001373291015625,
+              "max": 1,
+              "overTwo": 0
+            },
+            {
+              "reused": true,
+              "mean": 0.0000091552734375,
+              "max": 1,
+              "overTwo": 0
+            }
+          ],
+          "previousCoastUpdates": 16,
+          "candidateCoastUpdates": 8,
+          "required": true,
+          "refreshed": true,
+          "physicsUnchanged": true
+        },
+        {
+          "label": "Saturn",
+          "boundKm": 619.107005754433,
+          "images": [
+            {
+              "reused": true,
+              "mean": 0.000008138020833333333,
+              "max": 1,
+              "overTwo": 0
+            },
+            {
+              "reused": true,
+              "mean": 0.0000066121419270833336,
+              "max": 1,
+              "overTwo": 0
+            },
+            {
+              "reused": true,
+              "mean": 0.00001068115234375,
+              "max": 1,
+              "overTwo": 0
+            },
+            {
+              "reused": true,
+              "mean": 0.0000030517578125,
+              "max": 1,
+              "overTwo": 0
+            },
+            {
+              "reused": true,
+              "mean": 0.000008138020833333333,
+              "max": 1,
+              "overTwo": 0
+            },
+            {
+              "reused": true,
+              "mean": 0.000007120768229166667,
+              "max": 1,
+              "overTwo": 0
+            }
+          ],
+          "previousCoastUpdates": 16,
+          "candidateCoastUpdates": 0,
+          "required": true,
+          "refreshed": true,
+          "physicsUnchanged": true
+        },
+        {
+          "label": "Ring-plane",
+          "boundKm": 587.408726144507,
+          "images": [
+            {
+              "reused": true,
+              "mean": 0.0000066121419270833336,
+              "max": 1,
+              "overTwo": 0
+            },
+            {
+              "reused": true,
+              "mean": 0.0000335693359375,
+              "max": 1,
+              "overTwo": 0
+            },
+            {
+              "reused": true,
+              "mean": 0.00001068115234375,
+              "max": 1,
+              "overTwo": 0
+            },
+            {
+              "reused": true,
+              "mean": 0.000006103515625,
+              "max": 1,
+              "overTwo": 0
+            },
+            {
+              "reused": true,
+              "mean": 0.000014750162760416667,
+              "max": 1,
+              "overTwo": 0
+            },
+            {
+              "reused": true,
+              "mean": 0.00001068115234375,
+              "max": 1,
+              "overTwo": 0
+            }
+          ],
+          "previousCoastUpdates": 16,
+          "candidateCoastUpdates": 0,
+          "required": true,
+          "refreshed": true,
+          "physicsUnchanged": true
+        },
+        {
+          "label": "Titan",
+          "boundKm": 27.75848383104913,
+          "images": [
+            {
+              "reused": true,
+              "mean": 0.0000025431315104166665,
+              "max": 1,
+              "overTwo": 0
+            },
+            {
+              "reused": true,
+              "mean": 0.00003204345703125,
+              "max": 1,
+              "overTwo": 0
+            },
+            {
+              "reused": true,
+              "mean": 0.000008646647135416666,
+              "max": 1,
+              "overTwo": 0
+            },
+            {
+              "reused": true,
+              "mean": 0.0000152587890625,
+              "max": 1,
+              "overTwo": 0
+            },
+            {
+              "reused": true,
+              "mean": 0.000030008951822916665,
+              "max": 1,
+              "overTwo": 0
+            },
+            {
+              "reused": true,
+              "mean": 0.000005086263020833333,
+              "max": 1,
+              "overTwo": 0
+            }
+          ],
+          "previousCoastUpdates": 16,
+          "candidateCoastUpdates": 8,
+          "required": true,
+          "refreshed": true,
+          "physicsUnchanged": true
+        },
+        {
+          "label": "Pale Blue Dot",
+          "boundKm": 20647186.041981336,
+          "images": [
+            {
+              "reused": true,
+              "mean": 0,
+              "max": 0,
+              "overTwo": 0
+            },
+            {
+              "reused": true,
+              "mean": 0,
+              "max": 0,
+              "overTwo": 0
+            },
+            {
+              "reused": true,
+              "mean": 0,
+              "max": 0,
+              "overTwo": 0
+            },
+            {
+              "reused": true,
+              "mean": 0,
+              "max": 0,
+              "overTwo": 0
+            },
+            {
+              "reused": true,
+              "mean": 0,
+              "max": 0,
+              "overTwo": 0
+            },
+            {
+              "reused": true,
+              "mean": 0,
+              "max": 0,
+              "overTwo": 0
+            }
+          ],
+          "previousCoastUpdates": 16,
+          "candidateCoastUpdates": 0,
+          "required": true,
+          "refreshed": true,
+          "physicsUnchanged": true
+        },
+        {
+          "label": "Heliopause",
+          "boundKm": 67749955.46413125,
+          "images": [
+            {
+              "reused": true,
+              "mean": 0,
+              "max": 0,
+              "overTwo": 0
+            },
+            {
+              "reused": true,
+              "mean": 0,
+              "max": 0,
+              "overTwo": 0
+            },
+            {
+              "reused": true,
+              "mean": 0,
+              "max": 0,
+              "overTwo": 0
+            },
+            {
+              "reused": true,
+              "mean": 0,
+              "max": 0,
+              "overTwo": 0
+            },
+            {
+              "reused": true,
+              "mean": 0,
+              "max": 0,
+              "overTwo": 0
+            },
+            {
+              "reused": true,
+              "mean": 0,
+              "max": 0,
+              "overTwo": 0
+            }
+          ],
+          "previousCoastUpdates": 16,
+          "candidateCoastUpdates": 0,
+          "required": true,
+          "refreshed": true,
+          "physicsUnchanged": true
+        }
+      ],
+      "errors": [],
+      "passed": true
+    }
+  ]
+}

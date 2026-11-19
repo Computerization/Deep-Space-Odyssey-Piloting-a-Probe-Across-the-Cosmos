@@ -1,0 +1,80 @@
+{
+  "views": [
+    {
+      "name": "encounter",
+      "mode": "base",
+      "path": "tests/screenshots/v22-shadow-encounter-base.png"
+    },
+    {
+      "name": "encounter",
+      "mode": "current",
+      "path": "tests/screenshots/v22-shadow-encounter-current.png"
+    },
+    {
+      "name": "encounter",
+      "mode": "reference",
+      "path": "tests/screenshots/v22-shadow-encounter-reference.png"
+    },
+    {
+      "name": "encounter",
+      "mode": "mask",
+      "path": "tests/screenshots/v22-shadow-encounter-mask.png"
+    },
+    {
+      "name": "encounter",
+      "mode": "full",
+      "path": "tests/screenshots/v22-shadow-encounter-full.png"
+    },
+    {
+      "name": "detail",
+      "mode": "base",
+      "path": "tests/screenshots/v22-shadow-detail-base.png"
+    },
+    {
+      "name": "detail",
+      "mode": "current",
+      "path": "tests/screenshots/v22-shadow-detail-current.png"
+    },
+    {
+      "name": "detail",
+      "mode": "reference",
+      "path": "tests/screenshots/v22-shadow-detail-reference.png"
+    },
+    {
+      "name": "detail",
+      "mode": "mask",
+      "path": "tests/screenshots/v22-shadow-detail-mask.png"
+    },
+    {
+      "name": "detail",
+      "mode": "full",
+      "path": "tests/screenshots/v22-shadow-detail-full.png"
+    },
+    {
+      "name": "ring-plane",
+      "mode": "base",
+      "path": "tests/screenshots/v22-shadow-ring-plane-base.png"
+    },
+    {
+      "name": "ring-plane",
+      "mode": "current",
+      "path": "tests/screenshots/v22-shadow-ring-plane-current.png"
+    },
+    {
+      "name": "ring-plane",
+      "mode": "reference",
+      "path": "tests/screenshots/v22-shadow-ring-plane-reference.png"
+    },
+    {
+      "name": "ring-plane",
+      "mode": "mask",
+      "path": "tests/screenshots/v22-shadow-ring-plane-mask.png"
+    },
+    {
+      "name": "ring-plane",
+      "mode": "full",
+      "path": "tests/screenshots/v22-shadow-ring-plane-full.png"
+    }
+  ],
+  "errors": []
+}

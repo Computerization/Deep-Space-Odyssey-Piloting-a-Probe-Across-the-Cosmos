@@ -1,0 +1,368 @@
+{
+  "version": "0.94.0",
+  "baseline": false,
+  "dpr": 1,
+  "outcomes": [
+    {
+      "name": "Chrome",
+      "engineVersion": "158.0.8127.37",
+      "views": [
+        {
+          "label": "day",
+          "physical": "[[144474457.83116025,-17171778.480158877,39596214.79159133],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[0.01577675287351146,0.9401668523387668,0.043949052387549814,-0.33749942907569486],0,104,[0,0,0,1],58]",
+          "referencePreserved": true,
+          "count": 10,
+          "draws": [
+            {
+              "settled": false,
+              "layered": true,
+              "pending": false,
+              "cpuMs": 1.4000000059604645
+            },
+            {
+              "settled": true,
+              "layered": false,
+              "pending": false,
+              "cpuMs": 1.199999988079071
+            }
+          ],
+          "options": {
+            "settled": true
+          },
+          "referenceError": {
+            "rmse": 0,
+            "max": 0
+          }
+        },
+        {
+          "label": "close",
+          "physical": "[[144479587.10025,-17172534.136202186,39602438.405753665],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[0.015776752873507754,0.9401668523386231,0.04394905238747942,-0.33749942907610453],0,104,[0,0,0,1],58]",
+          "referencePreserved": true,
+          "count": 33,
+          "draws": [
+            {
+              "settled": false,
+              "layered": true,
+              "pending": true,
+              "cpuMs": 2.2999999821186066
+            },
+            {
+              "settled": false,
+              "layered": true,
+              "pending": false,
+              "cpuMs": 0.5999999940395355
+            },
+            {
+              "settled": false,
+              "layered": true,
+              "pending": false,
+              "cpuMs": 0.5
+            },
+            {
+              "settled": false,
+              "layered": true,
+              "pending": false,
+              "cpuMs": 0.4000000059604645
+            },
+            {
+              "settled": false,
+              "layered": true,
+              "pending": false,
+              "cpuMs": 0.4000000059604645
+            },
+            {
+              "settled": false,
+              "layered": true,
+              "pending": false,
+              "cpuMs": 0.30000001192092896
+            },
+            {
+              "settled": false,
+              "layered": true,
+              "pending": false,
+              "cpuMs": 0.30000001192092896
+            },
+            {
+              "settled": false,
+              "layered": true,
+              "pending": false,
+              "cpuMs": 0.30000001192092896
+            },
+            {
+              "settled": false,
+              "layered": true,
+              "pending": false,
+              "cpuMs": 0.5
+            },
+            {
+              "settled": false,
+              "layered": true,
+              "pending": false,
+              "cpuMs": 0.4000000059604645
+            },
+            {
+              "settled": false,
+              "layered": true,
+              "pending": false,
+              "cpuMs": 0.30000001192092896
+            },
+            {
+              "settled": false,
+              "layered": true,
+              "pending": false,
+              "cpuMs": 0.5
+            },
+            {
+              "settled": false,
+              "layered": true,
+              "pending": false,
+              "cpuMs": 0.30000001192092896
+            },
+            {
+              "settled": false,
+              "layered": true,
+              "pending": false,
+              "cpuMs": 0.4000000059604645
+            },
+            {
+              "settled": false,
+              "layered": true,
+              "pending": false,
+              "cpuMs": 0.10000002384185791
+            },
+            {
+              "settled": false,
+              "layered": true,
+              "pending": false,
+              "cpuMs": 0.20000001788139343
+            },
+            {
+              "settled": false,
+              "layered": true,
+              "pending": false,
+              "cpuMs": 0.4000000059604645
+            },
+            {
+              "settled": false,
+              "layered": true,
+              "pending": false,
+              "cpuMs": 0.4000000059604645
+            },
+            {
+              "settled": false,
+              "layered": true,
+              "pending": false,
+              "cpuMs": 0.5
+            },
+            {
+              "settled": false,
+              "layered": true,
+              "pending": false,
+              "cpuMs": 0.5
+            },
+            {
+              "settled": true,
+              "layered": false,
+              "pending": false,
+              "cpuMs": 0.30000001192092896
+            }
+          ],
+          "options": {
+            "settled": true
+          },
+          "referenceError": {
+            "rmse": 0,
+            "max": 0
+          }
+        },
+        {
+          "label": "limb",
+          "physical": "[[144479708.26408678,-17172551.98634494,39602585.420261435],[-3.4562149173839916,9.669448523951246,-7.223631948845451],[-0.013245085538195603,0.5589833843869272,0.04477714647098312,-0.8278630024601528],0,104,[0,0,0,1],4]",
+          "referencePreserved": true,
+          "count": 38,
+          "draws": [
+            {
+              "settled": false,
+              "layered": true,
+              "pending": true,
+              "cpuMs": 1.699999988079071
+            },
+            {
+              "settled": false,
+              "layered": true,
+              "pending": false,
+              "cpuMs": 0.5
+            },
+            {
+              "settled": true,
+              "layered": false,
+              "pending": false,
+              "cpuMs": 0.4000000059604645
+            }
+          ],
+          "options": {
+            "settled": true
+          },
+          "referenceError": {
+            "rmse": 0,
+            "max": 0
+          }
+        }
+      ],
+      "turning": {
+        "draw": {
+          "settled": false,
+          "layered": true,
+          "pending": false,
+          "cpuMs": 1
+        },
+        "position": [
+          144472000.50022474,
+          -17170673.02702009,
+          39616799.23532744
+        ]
+      },
+      "lens": [
+        {
+          "settled": false,
+          "layered": true,
+          "pending": false,
+          "cpuMs": 0.5
+        }
+      ],
+      "flight": {
+        "seconds": 0.3501000000000004,
+        "draws": [
+          {
+            "settled": false,
+            "layered": true,
+            "pending": false,
+            "cpuMs": 0.8999999761581421
+          },
+          {
+            "settled": false,
+            "layered": true,
+            "pending": false,
+            "cpuMs": 0.5
+          },
+          {
+            "settled": false,
+            "layered": true,
+            "pending": false,
+            "cpuMs": 0.7999999821186066
+          },
+          {
+            "settled": false,
+            "layered": true,
+            "pending": false,
+            "cpuMs": 0.800000011920929
+          },
+          {
+            "settled": false,
+            "layered": true,
+            "pending": false,
+            "cpuMs": 0.5
+          },
+          {
+            "settled": false,
+            "layered": true,
+            "pending": false,
+            "cpuMs": 0.7999999821186066
+          },
+          {
+            "settled": false,
+            "layered": true,
+            "pending": false,
+            "cpuMs": 0.5999999940395355
+          },
+          {
+            "settled": false,
+            "layered": true,
+            "pending": false,
+            "cpuMs": 1.0999999940395355
+          },
+          {
+            "settled": false,
+            "layered": true,
+            "pending": false,
+            "cpuMs": 0.9000000059604645
+          },
+          {
+            "settled": false,
+            "layered": true,
+            "pending": false,
+            "cpuMs": 0.699999988079071
+          },
+          {
+            "settled": false,
+            "layered": true,
+            "pending": false,
+            "cpuMs": 0.800000011920929
+          },
+          {
+            "settled": false,
+            "layered": true,
+            "pending": false,
+            "cpuMs": 0.5
+          },
+          {
+            "settled": false,
+            "layered": true,
+            "pending": false,
+            "cpuMs": 0.4000000059604645
+          },
+          {
+            "settled": false,
+            "layered": true,
+            "pending": false,
+            "cpuMs": 0.5
+          },
+          {
+            "settled": false,
+            "layered": true,
+            "pending": false,
+            "cpuMs": 0.5999999940395355
+          },
+          {
+            "settled": false,
+            "layered": true,
+            "pending": false,
+            "cpuMs": 0.5999999940395355
+          },
+          {
+            "settled": false,
+            "layered": true,
+            "pending": false,
+            "cpuMs": 0.6000000238418579
+          },
+          {
+            "settled": false,
+            "layered": true,
+            "pending": false,
+            "cpuMs": 0.5
+          },
+          {
+            "settled": false,
+            "layered": true,
+            "pending": false,
+            "cpuMs": 0.5
+          },
+          {
+            "settled": false,
+            "layered": true,
+            "pending": false,
+            "cpuMs": 0.30000001192092896
+          },
+          {
+            "settled": false,
+            "layered": true,
+            "pending": false,
+            "cpuMs": 0.5999999940395355
+          }
+        ]
+      },
+      "errors": [],
+      "passed": true
+    }
+  ]
+}

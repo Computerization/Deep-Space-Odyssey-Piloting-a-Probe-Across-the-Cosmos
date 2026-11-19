@@ -1,0 +1,28 @@
+{
+  "source": "https://archive.stsci.edu/missions/hlsp/opal/cycle32/saturn/hlsp_opal_hst_wfc3-uvis_saturn-2025a_f395n-f502n-f631n_v1_globalmap.tif",
+  "metadata": "https://archive.stsci.edu/hlsp/opal/opal-saturn-cycle-32",
+  "observed": "29 August 2025, rotation A",
+  "sourceSha256": "c34a13a8253a39bcc1f8376b24c077b89f05ce0b5202706f535ded20314440d7",
+  "baseSha256": "a3267e9729b80a24d98144a81c46716f8b883b315e6a5dcb2b8311cebf250527",
+  "outputSha256": "9b230075ad122ecfc4f28dd5e20afeda9042034812bcb773ba37d99ce7c4fd64",
+  "outputBytes": 188255,
+  "size": [
+    4096,
+    2048
+  ],
+  "sourceSize": [
+    1800,
+    900
+  ],
+  "southernBlendDegrees": [
+    -78,
+    -65,
+    -15,
+    -6
+  ],
+  "outlierMaskSamples": 189272,
+  "usesProceduralWeather": false,
+  "interpretation": "Relative measured longitude brightness applied to the existing latitude colour palette; mixed-epoch exploration map.",
+  "outlierMaskSamplesInSouthernBand": 35,
+  "southernBandSamples": 648000
+}

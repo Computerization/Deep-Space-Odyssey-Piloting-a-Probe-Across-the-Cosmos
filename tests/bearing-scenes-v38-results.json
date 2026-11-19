@@ -1,0 +1,329 @@
+{
+  "version": "0.38.0",
+  "outcomes": [
+    {
+      "name": "Chrome",
+      "engineVersion": "158.0.8127.37",
+      "samples": [
+        {
+          "name": "earth",
+          "resolved": true,
+          "visible": true,
+          "left": 235.3125,
+          "right": 319.921875,
+          "top": 431.5,
+          "bottom": 468.5,
+          "leader": true,
+          "subject": "earth",
+          "title": "Earth · bearing"
+        },
+        {
+          "name": "moon",
+          "resolved": true,
+          "visible": true,
+          "left": 954.609375,
+          "right": 1038.4375,
+          "top": 431.5,
+          "bottom": 468.5,
+          "leader": true,
+          "subject": "moon",
+          "title": "Moon · bearing"
+        },
+        {
+          "name": "jupiter",
+          "resolved": true,
+          "visible": true,
+          "left": 992,
+          "right": 1087.078125,
+          "top": 431.5,
+          "bottom": 468.5,
+          "leader": true,
+          "subject": "jupiter",
+          "title": "Jupiter · bearing"
+        },
+        {
+          "name": "saturn",
+          "resolved": true,
+          "visible": true,
+          "left": 1176.125,
+          "right": 1267.53125,
+          "top": 431.5,
+          "bottom": 468.5,
+          "leader": true,
+          "subject": "saturn",
+          "title": "Saturn · bearing"
+        },
+        {
+          "name": "ring-plane",
+          "resolved": true,
+          "visible": true,
+          "left": 1191.75,
+          "right": 1283.15625,
+          "top": 431.5,
+          "bottom": 468.5,
+          "leader": true,
+          "subject": "saturn",
+          "title": "Saturn · bearing"
+        },
+        {
+          "name": "titan",
+          "resolved": true,
+          "visible": true,
+          "left": 954.609375,
+          "right": 1037.234375,
+          "top": 431.5,
+          "bottom": 468.5,
+          "leader": true,
+          "subject": "titan",
+          "title": "Titan · bearing"
+        },
+        {
+          "name": "light-day",
+          "resolved": false,
+          "visible": true,
+          "left": 110.1875,
+          "right": 212.796875,
+          "top": 397.53125,
+          "bottom": 434.53125,
+          "leader": false,
+          "subject": "earth",
+          "title": "Earth · bearing"
+        }
+      ],
+      "partialWorldBearing": {
+        "x": 677.6875,
+        "y": 325.96875,
+        "width": 84.609375,
+        "height": 37
+      },
+      "offscreenBearing": true,
+      "guidanceToggle": true,
+      "compact": {
+        "x": 854.6875,
+        "y": 301.5,
+        "width": 91.40625,
+        "height": 37
+      },
+      "occultedTargetUsesInstrumentMarker": true,
+      "screenFillingWorldKeepsMarginBearing": true,
+      "errors": [],
+      "passed": true
+    },
+    {
+      "name": "Firefox",
+      "engineVersion": "153.0",
+      "samples": [
+        {
+          "name": "earth",
+          "resolved": true,
+          "visible": true,
+          "left": 235.3333282470703,
+          "right": 319.93333435058594,
+          "top": 430,
+          "bottom": 470,
+          "leader": true,
+          "subject": "earth",
+          "title": "Earth · bearing"
+        },
+        {
+          "name": "moon",
+          "resolved": true,
+          "visible": true,
+          "left": 954.61669921875,
+          "right": 1038.4500274658203,
+          "top": 430,
+          "bottom": 470,
+          "leader": true,
+          "subject": "moon",
+          "title": "Moon · bearing"
+        },
+        {
+          "name": "jupiter",
+          "resolved": true,
+          "visible": true,
+          "left": 992,
+          "right": 1087.0833282470703,
+          "top": 430,
+          "bottom": 470,
+          "leader": true,
+          "subject": "jupiter",
+          "title": "Jupiter · bearing"
+        },
+        {
+          "name": "saturn",
+          "resolved": true,
+          "visible": true,
+          "left": 1176.13330078125,
+          "right": 1267.5333099365234,
+          "top": 430,
+          "bottom": 470,
+          "leader": true,
+          "subject": "saturn",
+          "title": "Saturn · bearing"
+        },
+        {
+          "name": "ring-plane",
+          "resolved": true,
+          "visible": true,
+          "left": 1191.7666015625,
+          "right": 1283.1666107177734,
+          "top": 430,
+          "bottom": 470,
+          "leader": true,
+          "subject": "saturn",
+          "title": "Saturn · bearing"
+        },
+        {
+          "name": "titan",
+          "resolved": true,
+          "visible": true,
+          "left": 954.61669921875,
+          "right": 1037.2500305175781,
+          "top": 430,
+          "bottom": 470,
+          "leader": true,
+          "subject": "titan",
+          "title": "Titan · bearing"
+        },
+        {
+          "name": "light-day",
+          "resolved": false,
+          "visible": true,
+          "left": 110.19999694824219,
+          "right": 212.8000030517578,
+          "top": 396.01666259765625,
+          "bottom": 436.01666259765625,
+          "leader": false,
+          "subject": "earth",
+          "title": "Earth · bearing"
+        }
+      ],
+      "partialWorldBearing": {
+        "x": 677.7000122070312,
+        "y": 325.9666748046875,
+        "width": 84.5999755859375,
+        "height": 40
+      },
+      "offscreenBearing": true,
+      "guidanceToggle": true,
+      "compact": {
+        "x": 854.7000122070312,
+        "y": 300,
+        "width": 91.4000244140625,
+        "height": 40
+      },
+      "occultedTargetUsesInstrumentMarker": true,
+      "screenFillingWorldKeepsMarginBearing": true,
+      "errors": [],
+      "passed": true
+    },
+    {
+      "name": "WebKit",
+      "engineVersion": "26.5",
+      "samples": [
+        {
+          "name": "earth",
+          "resolved": true,
+          "visible": true,
+          "left": 235.3125,
+          "right": 319.921875,
+          "top": 431.5,
+          "bottom": 468.5,
+          "leader": true,
+          "subject": "earth",
+          "title": "Earth · bearing"
+        },
+        {
+          "name": "moon",
+          "resolved": true,
+          "visible": true,
+          "left": 954.609375,
+          "right": 1038.4375,
+          "top": 431.5,
+          "bottom": 468.5,
+          "leader": true,
+          "subject": "moon",
+          "title": "Moon · bearing"
+        },
+        {
+          "name": "jupiter",
+          "resolved": true,
+          "visible": true,
+          "left": 992,
+          "right": 1087.078125,
+          "top": 431.5,
+          "bottom": 468.5,
+          "leader": true,
+          "subject": "jupiter",
+          "title": "Jupiter · bearing"
+        },
+        {
+          "name": "saturn",
+          "resolved": true,
+          "visible": true,
+          "left": 1176.125,
+          "right": 1267.53125,
+          "top": 431.5,
+          "bottom": 468.5,
+          "leader": true,
+          "subject": "saturn",
+          "title": "Saturn · bearing"
+        },
+        {
+          "name": "ring-plane",
+          "resolved": true,
+          "visible": true,
+          "left": 1191.75,
+          "right": 1283.15625,
+          "top": 431.5,
+          "bottom": 468.5,
+          "leader": true,
+          "subject": "saturn",
+          "title": "Saturn · bearing"
+        },
+        {
+          "name": "titan",
+          "resolved": true,
+          "visible": true,
+          "left": 954.609375,
+          "right": 1037.234375,
+          "top": 431.5,
+          "bottom": 468.5,
+          "leader": true,
+          "subject": "titan",
+          "title": "Titan · bearing"
+        },
+        {
+          "name": "light-day",
+          "resolved": false,
+          "visible": true,
+          "left": 110.1875,
+          "right": 212.796875,
+          "top": 397.53125,
+          "bottom": 434.53125,
+          "leader": false,
+          "subject": "earth",
+          "title": "Earth · bearing"
+        }
+      ],
+      "partialWorldBearing": {
+        "x": 677.6875,
+        "y": 325.96875,
+        "width": 84.609375,
+        "height": 37
+      },
+      "offscreenBearing": true,
+      "guidanceToggle": true,
+      "compact": {
+        "x": 854.6875,
+        "y": 301.5,
+        "width": 91.40625,
+        "height": 37
+      },
+      "occultedTargetUsesInstrumentMarker": true,
+      "screenFillingWorldKeepsMarginBearing": true,
+      "errors": [],
+      "passed": true
+    }
+  ]
+}

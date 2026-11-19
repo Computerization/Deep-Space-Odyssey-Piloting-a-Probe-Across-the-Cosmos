@@ -1,0 +1,15 @@
+{
+  "fonts": {
+    "body": true,
+    "readouts": true,
+    "face": "Karrik, sans-serif"
+  },
+  "fieldPhotograph": {
+    "title": "Earth · Sunlit hemisphere",
+    "persisted": true,
+    "removedAndReloaded": true,
+    "controllerMenu": true
+  },
+  "guidance": "On course · 5 min at current compression",
+  "errors": []
+}

@@ -1,0 +1,6 @@
+{
+  "lowerLatitudePostEncodingMeanAbsoluteChannelDifference": 0.47600311537315615,
+  "lowerLatitudePostEncodingP99ChannelDifference": 2.0,
+  "northSeamPostEncodingMaxChannelDifference": 13.0,
+  "comparison": "8-bit channels after re-encoding; lower latitude pixels are identical before encoding"
+}

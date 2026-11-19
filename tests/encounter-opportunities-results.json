@@ -1,0 +1,35 @@
+{
+  "results": [
+    {
+      "id": "earthrise",
+      "candidate": "event-earthrise",
+      "recorded": true,
+      "heightTexture": 1440
+    },
+    {
+      "id": "shadow",
+      "candidate": "event-shadow",
+      "recorded": true,
+      "heightTexture": 1440
+    },
+    {
+      "id": "io-pair",
+      "candidate": "event-io-pair",
+      "recorded": true,
+      "heightTexture": 1440
+    },
+    {
+      "id": "ring-edge",
+      "candidate": "event-ring-edge",
+      "recorded": true,
+      "heightTexture": 1440
+    },
+    {
+      "id": "titan-light",
+      "candidate": "event-titan-light",
+      "recorded": true,
+      "heightTexture": 1440
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,270 @@
+{
+  "version": "0.31.0",
+  "physicalXboxTested": false,
+  "results": [
+    {
+      "name": "Chrome",
+      "engineVersion": "158.0.8127.37",
+      "syntheticXboxOnlyOptionsAndReturn": true,
+      "hiddenInterfaceRecoverable": true,
+      "keyboardSyncAndPersistence": true,
+      "settingsPreservePhysicalStateAndScience": true,
+      "layouts": [
+        {
+          "size": {
+            "width": 1280,
+            "height": 800
+          },
+          "tab": "sound",
+          "allTargetsFit": true
+        },
+        {
+          "size": {
+            "width": 1280,
+            "height": 800
+          },
+          "tab": "picture",
+          "allTargetsFit": true
+        },
+        {
+          "size": {
+            "width": 1280,
+            "height": 800
+          },
+          "tab": "flight",
+          "allTargetsFit": true
+        },
+        {
+          "size": {
+            "width": 1024,
+            "height": 640
+          },
+          "tab": "sound",
+          "allTargetsFit": true
+        },
+        {
+          "size": {
+            "width": 1024,
+            "height": 640
+          },
+          "tab": "picture",
+          "allTargetsFit": true
+        },
+        {
+          "size": {
+            "width": 1024,
+            "height": 640
+          },
+          "tab": "flight",
+          "allTargetsFit": true
+        },
+        {
+          "size": {
+            "width": 800,
+            "height": 600
+          },
+          "tab": "sound",
+          "allTargetsFit": true
+        },
+        {
+          "size": {
+            "width": 800,
+            "height": 600
+          },
+          "tab": "picture",
+          "allTargetsFit": true
+        },
+        {
+          "size": {
+            "width": 800,
+            "height": 600
+          },
+          "tab": "flight",
+          "allTargetsFit": true
+        }
+      ],
+      "instrumentLayouts": 3,
+      "instrumentOriginAwareBack": true,
+      "fineAcceleration": 2.1815951287985118e-7,
+      "normalAcceleration": 0.0000010907976710482003,
+      "passageHasCurrentEarthLightTime": true,
+      "errors": []
+    },
+    {
+      "name": "Firefox",
+      "engineVersion": "153.0",
+      "syntheticXboxOnlyOptionsAndReturn": true,
+      "hiddenInterfaceRecoverable": true,
+      "keyboardSyncAndPersistence": true,
+      "settingsPreservePhysicalStateAndScience": true,
+      "layouts": [
+        {
+          "size": {
+            "width": 1280,
+            "height": 800
+          },
+          "tab": "sound",
+          "allTargetsFit": true
+        },
+        {
+          "size": {
+            "width": 1280,
+            "height": 800
+          },
+          "tab": "picture",
+          "allTargetsFit": true
+        },
+        {
+          "size": {
+            "width": 1280,
+            "height": 800
+          },
+          "tab": "flight",
+          "allTargetsFit": true
+        },
+        {
+          "size": {
+            "width": 1024,
+            "height": 640
+          },
+          "tab": "sound",
+          "allTargetsFit": true
+        },
+        {
+          "size": {
+            "width": 1024,
+            "height": 640
+          },
+          "tab": "picture",
+          "allTargetsFit": true
+        },
+        {
+          "size": {
+            "width": 1024,
+            "height": 640
+          },
+          "tab": "flight",
+          "allTargetsFit": true
+        },
+        {
+          "size": {
+            "width": 800,
+            "height": 600
+          },
+          "tab": "sound",
+          "allTargetsFit": true
+        },
+        {
+          "size": {
+            "width": 800,
+            "height": 600
+          },
+          "tab": "picture",
+          "allTargetsFit": true
+        },
+        {
+          "size": {
+            "width": 800,
+            "height": 600
+          },
+          "tab": "flight",
+          "allTargetsFit": true
+        }
+      ],
+      "instrumentLayouts": 3,
+      "instrumentOriginAwareBack": true,
+      "fineAcceleration": 2.1815951324692916e-7,
+      "normalAcceleration": 0.0000010907976599762987,
+      "passageHasCurrentEarthLightTime": true,
+      "errors": []
+    },
+    {
+      "name": "WebKit",
+      "engineVersion": "26.5",
+      "syntheticXboxOnlyOptionsAndReturn": true,
+      "hiddenInterfaceRecoverable": true,
+      "keyboardSyncAndPersistence": true,
+      "settingsPreservePhysicalStateAndScience": true,
+      "layouts": [
+        {
+          "size": {
+            "width": 1280,
+            "height": 800
+          },
+          "tab": "sound",
+          "allTargetsFit": true
+        },
+        {
+          "size": {
+            "width": 1280,
+            "height": 800
+          },
+          "tab": "picture",
+          "allTargetsFit": true
+        },
+        {
+          "size": {
+            "width": 1280,
+            "height": 800
+          },
+          "tab": "flight",
+          "allTargetsFit": true
+        },
+        {
+          "size": {
+            "width": 1024,
+            "height": 640
+          },
+          "tab": "sound",
+          "allTargetsFit": true
+        },
+        {
+          "size": {
+            "width": 1024,
+            "height": 640
+          },
+          "tab": "picture",
+          "allTargetsFit": true
+        },
+        {
+          "size": {
+            "width": 1024,
+            "height": 640
+          },
+          "tab": "flight",
+          "allTargetsFit": true
+        },
+        {
+          "size": {
+            "width": 800,
+            "height": 600
+          },
+          "tab": "sound",
+          "allTargetsFit": true
+        },
+        {
+          "size": {
+            "width": 800,
+            "height": 600
+          },
+          "tab": "picture",
+          "allTargetsFit": true
+        },
+        {
+          "size": {
+            "width": 800,
+            "height": 600
+          },
+          "tab": "flight",
+          "allTargetsFit": true
+        }
+      ],
+      "instrumentLayouts": 3,
+      "instrumentOriginAwareBack": true,
+      "fineAcceleration": 2.1815951354826838e-7,
+      "normalAcceleration": 0.0000010907976607241318,
+      "passageHasCurrentEarthLightTime": true,
+      "errors": []
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "tracks": [
+    {
+      "name": "departure",
+      "wrapContextSeconds": 2.533333333333333,
+      "silentRunMs": 6.75,
+      "minimum10msRms": 0.0017204236737485491,
+      "maximum10msRms": 0.08360319715981432,
+      "rmsNearLoop": 0.0516623701173765,
+      "maximumSampleStep": 0.017120361328125
+    },
+    {
+      "name": "encounter",
+      "wrapContextSeconds": 2.522666666666667,
+      "silentRunMs": 10.5,
+      "minimum10msRms": 0.00022125244140625,
+      "maximum10msRms": 0.06395229295030326,
+      "rmsNearLoop": 0.03590953628643548,
+      "maximumSampleStep": 0.0098876953125
+    },
+    {
+      "name": "rings",
+      "wrapContextSeconds": 2.5226666666666677,
+      "silentRunMs": 7.020833333333333,
+      "minimum10msRms": 0.0021036737123458385,
+      "maximum10msRms": 0.07694845102690406,
+      "rmsNearLoop": 0.04389735284321188,
+      "maximumSampleStep": 0.0135498046875
+    },
+    {
+      "name": "distance",
+      "wrapContextSeconds": 2.522666666666666,
+      "silentRunMs": 10.291666666666666,
+      "minimum10msRms": 0.0003798603441021977,
+      "maximum10msRms": 0.08210281023932835,
+      "rmsNearLoop": 0.04487149156331713,
+      "maximumSampleStep": 0.0133056640625
+    }
+  ],
+  "audioWorkletCapturedActualOutput": true,
+  "listeningQualityAuditioned": false
+}

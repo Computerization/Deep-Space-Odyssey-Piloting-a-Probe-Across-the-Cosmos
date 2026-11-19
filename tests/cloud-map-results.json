@@ -1,0 +1,111 @@
+{
+  "version": "0.47.0",
+  "method": "Compile the actual runtime Sun-map helper; compare its four sample coordinates with exact spherical mapping on GPU for 4096 seeded geometric paths, including poles, seams and long horizon paths. Error uses full-resolution 8192x4096 source texels.",
+  "outcomes": [
+    {
+      "name": "Chrome",
+      "engineVersion": "158.0.8127.37",
+      "metrics": {
+        "samples": 16384,
+        "local": 10984,
+        "exactFallback": 5400,
+        "maxTexelError": 0.004139408841660754,
+        "rmsTexelError": 0.0003446014078805253,
+        "groups": {
+          "general": {
+            "samples": 4096,
+            "local": 4044,
+            "maxTexelError": 0.0025634765625
+          },
+          "pole": {
+            "samples": 4096,
+            "local": 1040,
+            "maxTexelError": 0.004139408841660754
+          },
+          "seam": {
+            "samples": 4096,
+            "local": 4052,
+            "maxTexelError": 0.00254890295627699
+          },
+          "horizon": {
+            "samples": 4096,
+            "local": 1848,
+            "maxTexelError": 0.0028497601391427618
+          }
+        }
+      },
+      "errors": [],
+      "passed": true
+    },
+    {
+      "name": "Firefox",
+      "engineVersion": "153.0",
+      "metrics": {
+        "samples": 16384,
+        "local": 10984,
+        "exactFallback": 5400,
+        "maxTexelError": 0.004139408841660754,
+        "rmsTexelError": 0.0003457796454244408,
+        "groups": {
+          "general": {
+            "samples": 4096,
+            "local": 4044,
+            "maxTexelError": 0.0025634765625
+          },
+          "pole": {
+            "samples": 4096,
+            "local": 1040,
+            "maxTexelError": 0.004139408841660754
+          },
+          "seam": {
+            "samples": 4096,
+            "local": 4052,
+            "maxTexelError": 0.00254890295627699
+          },
+          "horizon": {
+            "samples": 4096,
+            "local": 1848,
+            "maxTexelError": 0.0028497601391427618
+          }
+        }
+      },
+      "errors": [],
+      "passed": true
+    },
+    {
+      "name": "WebKit",
+      "engineVersion": "26.5",
+      "metrics": {
+        "samples": 16384,
+        "local": 10984,
+        "exactFallback": 5400,
+        "maxTexelError": 0.004139408841660754,
+        "rmsTexelError": 0.0003446014078805253,
+        "groups": {
+          "general": {
+            "samples": 4096,
+            "local": 4044,
+            "maxTexelError": 0.0025634765625
+          },
+          "pole": {
+            "samples": 4096,
+            "local": 1040,
+            "maxTexelError": 0.004139408841660754
+          },
+          "seam": {
+            "samples": 4096,
+            "local": 4052,
+            "maxTexelError": 0.00254890295627699
+          },
+          "horizon": {
+            "samples": 4096,
+            "local": 1848,
+            "maxTexelError": 0.0028497601391427618
+          }
+        }
+      },
+      "errors": [],
+      "passed": true
+    }
+  ]
+}

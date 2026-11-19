@@ -1,0 +1,89 @@
+{
+  "version": "0.22.0",
+  "outcomes": [
+    {
+      "name": "Chrome",
+      "engineVersion": "158.0.8127.37",
+      "version": "0.22.0",
+      "physicalImpulseMatchesFuel": true,
+      "oneTimesFeedback": {
+        "fuel": 103.99967035355873,
+        "feedback": {
+          "command": true,
+          "deltaV": 8.726382154474556e-7,
+          "acceleration": 0.0000010907979687917802,
+          "remaining": 2.5,
+          "state": "firing"
+        },
+        "acceleration": 0.0000010907979687917802,
+        "seconds": 0.912327622478704,
+        "rate": 1
+      },
+      "heldTimeDeliversNoImpulse": true,
+      "fineAcceleration": 2.181596250195698e-7,
+      "syntheticXboxHalfTriggerAcceleration": 5.453991011428877e-7,
+      "releasesToCoastThenClears": true,
+      "reviewClearsOldBurn": true,
+      "exhaustedFuelReported": true,
+      "passageHidesLocalThrust": true,
+      "compactFits": true,
+      "errors": []
+    },
+    {
+      "name": "Firefox",
+      "engineVersion": "153.0",
+      "version": "0.22.0",
+      "physicalImpulseMatchesFuel": true,
+      "oneTimesFeedback": {
+        "fuel": 103.99967791070344,
+        "feedback": {
+          "command": true,
+          "deltaV": 8.526329805881796e-7,
+          "acceleration": 0.0000010907979679204107,
+          "remaining": 2.5,
+          "state": "firing"
+        },
+        "acceleration": 0.0000010907979679204107,
+        "seconds": 0.9005683791547924,
+        "rate": 1
+      },
+      "heldTimeDeliversNoImpulse": true,
+      "fineAcceleration": 2.1815961740534235e-7,
+      "syntheticXboxHalfTriggerAcceleration": 5.453990835031626e-7,
+      "releasesToCoastThenClears": true,
+      "reviewClearsOldBurn": true,
+      "exhaustedFuelReported": true,
+      "passageHidesLocalThrust": true,
+      "compactFits": true,
+      "errors": []
+    },
+    {
+      "name": "WebKit",
+      "engineVersion": "26.5",
+      "version": "0.22.0",
+      "physicalImpulseMatchesFuel": true,
+      "oneTimesFeedback": {
+        "fuel": 103.99966334857194,
+        "feedback": {
+          "command": true,
+          "deltaV": 8.911817766715773e-7,
+          "acceleration": 0.0000010907979772848758,
+          "remaining": 2.5,
+          "state": "firing"
+        },
+        "acceleration": 0.0000010907979772848758,
+        "seconds": 0.8799300004964744,
+        "rate": 1
+      },
+      "heldTimeDeliversNoImpulse": true,
+      "fineAcceleration": 2.1815960851648916e-7,
+      "syntheticXboxHalfTriggerAcceleration": 5.453990598134852e-7,
+      "releasesToCoastThenClears": true,
+      "reviewClearsOldBurn": true,
+      "exhaustedFuelReported": true,
+      "passageHidesLocalThrust": true,
+      "compactFits": true,
+      "errors": []
+    }
+  ]
+}

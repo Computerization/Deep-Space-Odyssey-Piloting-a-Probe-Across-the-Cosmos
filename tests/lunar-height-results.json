@@ -1,0 +1,288 @@
+{
+  "version": "0.96.0",
+  "exact": true,
+  "heightOnly": true,
+  "textureLimit": 0,
+  "previous": "/private/tmp/cosmos-v97-previous/Cosmos",
+  "previousShaderSha256": "9c1ea43709647b495cf166f69dd97cbbfec774288df16a04a6a9c900188a7dc2",
+  "reference": "Exact old/current pixels, motion and five complete native visibility fields.",
+  "outcomes": [
+    {
+      "name": "Chrome",
+      "engineVersion": "158.0.8127.37",
+      "readyMs": 5374,
+      "views": [
+        {
+          "label": "study",
+          "metrics": {
+            "previous": {
+              "rmse": 0,
+              "count": 1200000,
+              "max": 0
+            },
+            "candidate": {
+              "rmse": 0,
+              "count": 1200000,
+              "max": 0
+            }
+          }
+        },
+        {
+          "label": "close",
+          "metrics": {
+            "previous": {
+              "rmse": 0,
+              "count": 1200000,
+              "max": 0
+            },
+            "candidate": {
+              "rmse": 0,
+              "count": 1200000,
+              "max": 0
+            }
+          }
+        },
+        {
+          "label": "detail",
+          "metrics": {
+            "previous": {
+              "rmse": 0,
+              "count": 1200000,
+              "max": 0
+            },
+            "candidate": {
+              "rmse": 0,
+              "count": 1200000,
+              "max": 0
+            }
+          }
+        },
+        {
+          "label": "crescent",
+          "metrics": {
+            "previous": {
+              "rmse": 0,
+              "count": 1200000,
+              "max": 0
+            },
+            "candidate": {
+              "rmse": 0,
+              "count": 1200000,
+              "max": 0
+            }
+          }
+        },
+        {
+          "label": "full",
+          "metrics": {
+            "previous": {
+              "rmse": 0,
+              "count": 1200000,
+              "max": 0
+            },
+            "candidate": {
+              "rmse": 0,
+              "count": 1200000,
+              "max": 0
+            }
+          }
+        },
+        {
+          "label": "north",
+          "metrics": {
+            "previous": {
+              "rmse": 0,
+              "count": 1200000,
+              "max": 0
+            },
+            "candidate": {
+              "rmse": 0,
+              "count": 1200000,
+              "max": 0
+            }
+          }
+        },
+        {
+          "label": "south",
+          "metrics": {
+            "previous": {
+              "rmse": 0,
+              "count": 1200000,
+              "max": 0
+            },
+            "candidate": {
+              "rmse": 0,
+              "count": 1200000,
+              "max": 0
+            }
+          }
+        }
+      ],
+      "motion": {
+        "steps": 8,
+        "spatialError": {
+          "previous": 21590364.971399818,
+          "candidate": 21590364.971399818
+        },
+        "changeError": {
+          "previous": 11395950.420916595,
+          "candidate": 11395950.420916595
+        },
+        "pixels": 239748
+      },
+      "cost": {
+        "pixels": [
+          1600,
+          1000
+        ],
+        "method": "CPU submission windows, five warm-up plus twelve draws including gl.finish; driver completion is not established and these values are not GPU time or FPS",
+        "rows": [
+          {
+            "mode": "previous",
+            "medianMs": 0.5,
+            "maxMs": 3.7000000178813934
+          },
+          {
+            "mode": "candidate",
+            "medianMs": 0.4000000059604645,
+            "maxMs": 0.5999999940395355
+          },
+          {
+            "mode": "candidate",
+            "medianMs": 0.5,
+            "maxMs": 2
+          },
+          {
+            "mode": "previous",
+            "medianMs": 0.4000000059604645,
+            "maxMs": 3.0999999940395355
+          }
+        ]
+      },
+      "lifecycle": {
+        "heldUpdates": 0,
+        "initialUpdates": 1,
+        "updates": 1,
+        "textureReused": true,
+        "rows": [
+          {
+            "chapter": 1,
+            "ready": 0,
+            "updates": 1
+          },
+          {
+            "chapter": 2,
+            "ready": 0,
+            "updates": 1
+          },
+          {
+            "chapter": 3,
+            "ready": 0,
+            "updates": 1
+          },
+          {
+            "chapter": 4,
+            "ready": 0,
+            "updates": 1
+          },
+          {
+            "chapter": 5,
+            "ready": 0,
+            "updates": 1
+          },
+          {
+            "chapter": 0,
+            "ready": 1,
+            "updates": 1
+          }
+        ],
+        "size": [
+          5760,
+          2880
+        ],
+        "maxSamplers": 16,
+        "graphicsError": 0
+      },
+      "fields": [
+        {
+          "label": "epoch-0",
+          "size": [
+            5760,
+            2880
+          ],
+          "max": 0,
+          "changed": 0,
+          "point": null,
+          "physicalStatePreserved": true
+        },
+        {
+          "label": "epoch-2",
+          "size": [
+            5760,
+            2880
+          ],
+          "max": 0,
+          "changed": 0,
+          "point": null,
+          "physicalStatePreserved": true
+        },
+        {
+          "label": "epoch-6",
+          "size": [
+            5760,
+            2880
+          ],
+          "max": 0,
+          "changed": 0,
+          "point": null,
+          "physicalStatePreserved": true
+        },
+        {
+          "label": "polar",
+          "size": [
+            5760,
+            2880
+          ],
+          "max": 0,
+          "changed": 0,
+          "point": null,
+          "physicalStatePreserved": true
+        },
+        {
+          "label": "equatorial",
+          "size": [
+            5760,
+            2880
+          ],
+          "max": 0,
+          "changed": 0,
+          "point": null,
+          "physicalStatePreserved": true
+        }
+      ],
+      "storage": {
+        "previous": {
+          "levels": 13.491853096329674,
+          "format": 33321,
+          "width": 5760,
+          "height": 2880,
+          "mipGenerations": 1,
+          "minFilter": 9987,
+          "anisotropy": 16
+        },
+        "current": {
+          "levels": 1,
+          "format": 33321,
+          "width": 5760,
+          "height": 2880,
+          "mipGenerations": 0,
+          "minFilter": 9729,
+          "anisotropy": 1
+        },
+        "bytesSaved": 5529550
+      },
+      "errors": [],
+      "passed": true
+    }
+  ]
+}

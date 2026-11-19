@@ -1,0 +1,104 @@
+{
+  "version": "0.39.0",
+  "outcomes": [
+    {
+      "name": "Chrome",
+      "engineVersion": "158.0.8127.37",
+      "geometry": {
+        "dims": {
+          "previous": [
+            4096,
+            2048
+          ],
+          "candidate": [
+            4096,
+            2048
+          ]
+        },
+        "sunElevation": -13.789581472107608
+      },
+      "views": [
+        {
+          "label": "encounter",
+          "draws": {
+            "previous": {
+              "calls": 5,
+              "triangles": 77314
+            },
+            "candidate": {
+              "calls": 5,
+              "triangles": 77314
+            }
+          }
+        },
+        {
+          "label": "north",
+          "draws": {
+            "previous": {
+              "calls": 5,
+              "triangles": 77314
+            },
+            "candidate": {
+              "calls": 5,
+              "triangles": 77314
+            }
+          }
+        },
+        {
+          "label": "north-detail",
+          "draws": {
+            "previous": {
+              "calls": 5,
+              "triangles": 77314
+            },
+            "candidate": {
+              "calls": 5,
+              "triangles": 77314
+            }
+          }
+        },
+        {
+          "label": "north-side",
+          "draws": {
+            "previous": {
+              "calls": 5,
+              "triangles": 77314
+            },
+            "candidate": {
+              "calls": 5,
+              "triangles": 77314
+            }
+          }
+        },
+        {
+          "label": "south",
+          "draws": {
+            "previous": {
+              "calls": 5,
+              "triangles": 77314
+            },
+            "candidate": {
+              "calls": 5,
+              "triangles": 77314
+            }
+          }
+        },
+        {
+          "label": "rings",
+          "draws": {
+            "previous": {
+              "calls": 5,
+              "triangles": 77314
+            },
+            "candidate": {
+              "calls": 5,
+              "triangles": 77314
+            }
+          }
+        }
+      ],
+      "errors": [],
+      "passed": true
+    }
+  ]
+}

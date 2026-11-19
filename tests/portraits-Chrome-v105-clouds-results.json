@@ -1,0 +1,22 @@
+{
+  "engine": "Chrome",
+  "label": "v105-clouds",
+  "views": [
+    {
+      "body": "earth",
+      "kind": "globe",
+      "file": "tests/screenshots/portrait-Chrome-v105-clouds-earth-globe.png"
+    },
+    {
+      "body": "earth",
+      "kind": "crescent",
+      "file": "tests/screenshots/portrait-Chrome-v105-clouds-earth-crescent.png"
+    },
+    {
+      "body": "earth",
+      "kind": "near",
+      "file": "tests/screenshots/portrait-Chrome-v105-clouds-earth-near.png"
+    }
+  ],
+  "errors": []
+}

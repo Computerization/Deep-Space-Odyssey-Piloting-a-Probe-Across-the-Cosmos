@@ -1,0 +1,203 @@
+{
+  "version": "0.58.0",
+  "outcomes": [
+    {
+      "name": "Chrome",
+      "ringViews": [
+        {
+          "width": 1440,
+          "height": 900,
+          "fov": 8,
+          "roll": 0,
+          "solidVisible": false,
+          "title": "Saturn · Rings",
+          "emptyTitle": "Deep space",
+          "scienceFollowsVisibleRings": true,
+          "physicalStatePreserved": true
+        },
+        {
+          "width": 1440,
+          "height": 900,
+          "fov": 4,
+          "roll": 1,
+          "solidVisible": false,
+          "title": "Saturn · Rings",
+          "emptyTitle": "Deep space",
+          "scienceFollowsVisibleRings": true,
+          "physicalStatePreserved": true
+        },
+        {
+          "width": 800,
+          "height": 600,
+          "fov": 8,
+          "roll": 0,
+          "solidVisible": false,
+          "title": "Saturn · Rings",
+          "emptyTitle": "Deep space",
+          "scienceFollowsVisibleRings": true,
+          "physicalStatePreserved": true
+        },
+        {
+          "width": 800,
+          "height": 600,
+          "fov": 4,
+          "roll": 1,
+          "solidVisible": false,
+          "title": "Saturn · Rings",
+          "emptyTitle": "Deep space",
+          "scienceFollowsVisibleRings": true,
+          "physicalStatePreserved": true
+        }
+      ],
+      "atmosphereOnlyPhotograph": "Titan · Crescent",
+      "beyondAtmospherePhotograph": "Deep space",
+      "atmosphereOnlyScience": true,
+      "atmosphereCapturePreservesFlight": true,
+      "engineVersion": "158.0.8127.37",
+      "hiddenHudDoesNotConsumeNotes": true,
+      "cleanViewHasNoToggleToast": true,
+      "interruptedNoteReturns": true,
+      "readAfterVisibleDwell": true,
+      "noteLeavesWithSubject": true,
+      "verticalFraming": true,
+      "clippedLimbPhotograph": "Earth · Sunlit hemisphere",
+      "absentSubjectPhotograph": "Deep space",
+      "readNoteInJournal": true,
+      "physicalStatePreserved": true,
+      "errors": [],
+      "passed": true
+    },
+    {
+      "name": "Firefox",
+      "ringViews": [
+        {
+          "width": 1440,
+          "height": 900,
+          "fov": 8,
+          "roll": 0,
+          "solidVisible": false,
+          "title": "Saturn · Rings",
+          "emptyTitle": "Deep space",
+          "scienceFollowsVisibleRings": true,
+          "physicalStatePreserved": true
+        },
+        {
+          "width": 1440,
+          "height": 900,
+          "fov": 4,
+          "roll": 1,
+          "solidVisible": false,
+          "title": "Saturn · Rings",
+          "emptyTitle": "Deep space",
+          "scienceFollowsVisibleRings": true,
+          "physicalStatePreserved": true
+        },
+        {
+          "width": 800,
+          "height": 600,
+          "fov": 8,
+          "roll": 0,
+          "solidVisible": false,
+          "title": "Saturn · Rings",
+          "emptyTitle": "Deep space",
+          "scienceFollowsVisibleRings": true,
+          "physicalStatePreserved": true
+        },
+        {
+          "width": 800,
+          "height": 600,
+          "fov": 4,
+          "roll": 1,
+          "solidVisible": false,
+          "title": "Saturn · Rings",
+          "emptyTitle": "Deep space",
+          "scienceFollowsVisibleRings": true,
+          "physicalStatePreserved": true
+        }
+      ],
+      "atmosphereOnlyPhotograph": "Titan · Crescent",
+      "beyondAtmospherePhotograph": "Deep space",
+      "atmosphereOnlyScience": true,
+      "atmosphereCapturePreservesFlight": true,
+      "engineVersion": "153.0",
+      "hiddenHudDoesNotConsumeNotes": true,
+      "cleanViewHasNoToggleToast": true,
+      "interruptedNoteReturns": true,
+      "readAfterVisibleDwell": true,
+      "noteLeavesWithSubject": true,
+      "verticalFraming": true,
+      "clippedLimbPhotograph": "Earth · Sunlit hemisphere",
+      "absentSubjectPhotograph": "Deep space",
+      "readNoteInJournal": true,
+      "physicalStatePreserved": true,
+      "errors": [],
+      "passed": true
+    },
+    {
+      "name": "WebKit",
+      "ringViews": [
+        {
+          "width": 1440,
+          "height": 900,
+          "fov": 8,
+          "roll": 0,
+          "solidVisible": false,
+          "title": "Saturn · Rings",
+          "emptyTitle": "Deep space",
+          "scienceFollowsVisibleRings": true,
+          "physicalStatePreserved": true
+        },
+        {
+          "width": 1440,
+          "height": 900,
+          "fov": 4,
+          "roll": 1,
+          "solidVisible": false,
+          "title": "Saturn · Rings",
+          "emptyTitle": "Deep space",
+          "scienceFollowsVisibleRings": true,
+          "physicalStatePreserved": true
+        },
+        {
+          "width": 800,
+          "height": 600,
+          "fov": 8,
+          "roll": 0,
+          "solidVisible": false,
+          "title": "Saturn · Rings",
+          "emptyTitle": "Deep space",
+          "scienceFollowsVisibleRings": true,
+          "physicalStatePreserved": true
+        },
+        {
+          "width": 800,
+          "height": 600,
+          "fov": 4,
+          "roll": 1,
+          "solidVisible": false,
+          "title": "Saturn · Rings",
+          "emptyTitle": "Deep space",
+          "scienceFollowsVisibleRings": true,
+          "physicalStatePreserved": true
+        }
+      ],
+      "atmosphereOnlyPhotograph": "Titan · Crescent",
+      "beyondAtmospherePhotograph": "Deep space",
+      "atmosphereOnlyScience": true,
+      "atmosphereCapturePreservesFlight": true,
+      "engineVersion": "26.5",
+      "hiddenHudDoesNotConsumeNotes": true,
+      "cleanViewHasNoToggleToast": true,
+      "interruptedNoteReturns": true,
+      "readAfterVisibleDwell": true,
+      "noteLeavesWithSubject": true,
+      "verticalFraming": true,
+      "clippedLimbPhotograph": "Earth · Sunlit hemisphere",
+      "absentSubjectPhotograph": "Deep space",
+      "readNoteInJournal": true,
+      "physicalStatePreserved": true,
+      "errors": [],
+      "passed": true
+    }
+  ]
+}

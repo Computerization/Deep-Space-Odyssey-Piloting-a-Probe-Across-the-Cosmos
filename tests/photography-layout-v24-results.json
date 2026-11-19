@@ -1,0 +1,79 @@
+{
+  "version": "0.24.0",
+  "views": [
+    {
+      "label": "earth",
+      "width": 1440,
+      "height": 900,
+      "shutter": {
+        "x": 57.59375,
+        "y": 654.40625,
+        "width": 194,
+        "height": 44.59375
+      },
+      "image": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 900
+      },
+      "controls": {
+        "x": 57.59375,
+        "y": 791,
+        "width": 1324.8125,
+        "height": 44
+      },
+      "description": "5 September 1977 · Departure study · 18:00 UTC · 15,191 km · 58° lens"
+    },
+    {
+      "label": "saturn-compact",
+      "width": 800,
+      "height": 600,
+      "shutter": {
+        "x": 32,
+        "y": 350,
+        "width": 168,
+        "height": 44
+      },
+      "image": {
+        "x": 0,
+        "y": 0,
+        "width": 800,
+        "height": 600
+      },
+      "controls": {
+        "x": 32,
+        "y": 491,
+        "width": 736,
+        "height": 44
+      },
+      "description": "12 November 1980 · 23:46:30 UTC · 298,494 km · 58° lens"
+    },
+    {
+      "label": "titan",
+      "width": 1024,
+      "height": 640,
+      "shutter": {
+        "x": 40.953125,
+        "y": 404.40625,
+        "width": 194,
+        "height": 44.59375
+      },
+      "image": {
+        "x": 0,
+        "y": 0,
+        "width": 1024,
+        "height": 640
+      },
+      "controls": {
+        "x": 40.953125,
+        "y": 531,
+        "width": 942.09375,
+        "height": 44
+      },
+      "description": "12 November 1980 · 05:41:00 UTC · observation study · 10,299 km · 58° lens"
+    }
+  ],
+  "errors": [],
+  "passed": true
+}

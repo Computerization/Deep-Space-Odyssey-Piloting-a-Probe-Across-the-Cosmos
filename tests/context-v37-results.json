@@ -1,0 +1,53 @@
+{
+  "version": "0.37.0",
+  "outcomes": [
+    {
+      "name": "Chrome",
+      "engineVersion": "158.0.8127.37",
+      "hiddenHudDoesNotConsumeNotes": true,
+      "cleanViewHasNoToggleToast": true,
+      "interruptedNoteReturns": true,
+      "readAfterVisibleDwell": true,
+      "noteLeavesWithSubject": true,
+      "verticalFraming": true,
+      "clippedLimbPhotograph": "Earth · Sunlit hemisphere",
+      "absentSubjectPhotograph": "Deep space",
+      "readNoteInJournal": true,
+      "physicalStatePreserved": true,
+      "errors": [],
+      "passed": true
+    },
+    {
+      "name": "Firefox",
+      "engineVersion": "153.0",
+      "hiddenHudDoesNotConsumeNotes": true,
+      "cleanViewHasNoToggleToast": true,
+      "interruptedNoteReturns": true,
+      "readAfterVisibleDwell": true,
+      "noteLeavesWithSubject": true,
+      "verticalFraming": true,
+      "clippedLimbPhotograph": "Earth · Sunlit hemisphere",
+      "absentSubjectPhotograph": "Deep space",
+      "readNoteInJournal": true,
+      "physicalStatePreserved": true,
+      "errors": [],
+      "passed": true
+    },
+    {
+      "name": "WebKit",
+      "engineVersion": "26.5",
+      "hiddenHudDoesNotConsumeNotes": true,
+      "cleanViewHasNoToggleToast": true,
+      "interruptedNoteReturns": true,
+      "readAfterVisibleDwell": true,
+      "noteLeavesWithSubject": true,
+      "verticalFraming": true,
+      "clippedLimbPhotograph": "Earth · Sunlit hemisphere",
+      "absentSubjectPhotograph": "Deep space",
+      "readNoteInJournal": true,
+      "physicalStatePreserved": true,
+      "errors": [],
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "stableExposureGuard": true,
+  "photographPersists": true,
+  "exactEncounterResume": true,
+  "exactTransitResume": true,
+  "recordings": [
+    {
+      "name": "jupiter",
+      "duration": 7.819864,
+      "readyState": 4,
+      "currentTime": 0.32148,
+      "ducked": true
+    },
+    {
+      "name": "plasma",
+      "duration": 24.613152,
+      "readyState": 4,
+      "currentTime": 0.316298,
+      "ducked": true
+    }
+  ],
+  "journalReplay": true,
+  "newVoyageResetsDiscoveries": true,
+  "errors": []
+}

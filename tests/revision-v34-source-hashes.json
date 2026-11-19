@@ -1,0 +1,415 @@
+{
+  "version": "0.34.0",
+  "comparedAgainst": "0.33.0",
+  "runtimeFiles": 81,
+  "changed": [
+    {
+      "path": "src/rendering/shaders.js",
+      "previous": "9670563c394160ed7bc485a007b7ef61ed10b5a588e9684af51b6ec5a8f847bb",
+      "current": "0751c1184bb554cefa5f56bbc18008217fe973a9d390b7e8eeda8a28e2dbfdbd"
+    },
+    {
+      "path": "src/rendering/scene-factory.js",
+      "previous": "8312a93ec987bcdaafa1b4a50fe225ffe75ba192fc77ec62c63486f6c089ffcd",
+      "current": "b14473ee2fa78b802dbb0f2c5077c0057ee2da63eba52c87771a344617a9de30"
+    },
+    {
+      "path": "src/world.js",
+      "previous": "7dc692a7dfdb5a6dc3035ed0aa48f69a93587719477b69c359f12d595dfb35e4",
+      "current": "7f72f9f63675087744d2d05c6fdf8ca664c7631123d45307a155157c7bb39b60"
+    },
+    {
+      "path": "assets/textures/earth.avif",
+      "previous": "ec311a50589627c36fd792fcd0f2b9315a1f0285c2746bcdc737a4b5e663e09b",
+      "current": "0cfa1ac6b0b5acdacbd6e3a338d37d6ff3d5ac8df525085d96bf229a5394ee8c"
+    }
+  ],
+  "added": [
+    {
+      "path": "assets/textures/earth-water.png",
+      "current": "de2ebad37beb535d220d247238bfb5f100a7e222eb50bf949cb36d9607c4e3e7"
+    }
+  ],
+  "unchanged": [
+    {
+      "path": "index.html",
+      "previous": "17fd238d28c7aeecab278cc0fef0096338de246df46cacb79300b203aedaec09",
+      "current": "17fd238d28c7aeecab278cc0fef0096338de246df46cacb79300b203aedaec09"
+    },
+    {
+      "path": "style.css",
+      "previous": "224b4470a9588f698716d9b696660c534feb378095b56cf617e4d6ca35cfa2ae",
+      "current": "224b4470a9588f698716d9b696660c534feb378095b56cf617e4d6ca35cfa2ae"
+    },
+    {
+      "path": "src/ui/flight.css",
+      "previous": "5de76bfb38d3558c5a4139d91f423a72458a2530a12d3166264bce9dbeed0951",
+      "current": "5de76bfb38d3558c5a4139d91f423a72458a2530a12d3166264bce9dbeed0951"
+    },
+    {
+      "path": "src/ui/settings.js",
+      "previous": "739772456e7bca5149e03cbb1f528d6452eb9f1cdb0a06f8f4cf8e8f628de849",
+      "current": "739772456e7bca5149e03cbb1f528d6452eb9f1cdb0a06f8f4cf8e8f628de849"
+    },
+    {
+      "path": "src/ui/instruments.js",
+      "previous": "028f15a24b437dc68e4fb1ddcd16ae52275507e91416ece82e25f0dd474691cc",
+      "current": "028f15a24b437dc68e4fb1ddcd16ae52275507e91416ece82e25f0dd474691cc"
+    },
+    {
+      "path": "src/ui/controls.js",
+      "previous": "e0338cb46dcab6e2423fe64817a6e7ecae4d26f1c71913e865acbdc4971305cd",
+      "current": "e0338cb46dcab6e2423fe64817a6e7ecae4d26f1c71913e865acbdc4971305cd"
+    },
+    {
+      "path": "src/ui/journal.js",
+      "previous": "80d35b35d54a8234911cf3e0362f4cddd6abbc5f7cc50ca63d57955640279dc7",
+      "current": "80d35b35d54a8234911cf3e0362f4cddd6abbc5f7cc50ca63d57955640279dc7"
+    },
+    {
+      "path": "src/ui/bearing-layout.js",
+      "previous": "984a14f331b8a6ce96d591acf551c516895805e463081d7ed01dd5d8b0fb9882",
+      "current": "984a14f331b8a6ce96d591acf551c516895805e463081d7ed01dd5d8b0fb9882"
+    },
+    {
+      "path": "src/view-framing.js",
+      "previous": "c1f542111b3146068cd923b1cbd3566dced09a7de19642ea412323a54b02d162",
+      "current": "c1f542111b3146068cd923b1cbd3566dced09a7de19642ea412323a54b02d162"
+    },
+    {
+      "path": "src/experience-guide.js",
+      "previous": "4a9f491357cfe04746228429127539ecda6fd85bd422fbfd0e2dd5ff92b03a20",
+      "current": "4a9f491357cfe04746228429127539ecda6fd85bd422fbfd0e2dd5ff92b03a20"
+    },
+    {
+      "path": "src/ui/experience-guide.js",
+      "previous": "757209ce8e6b4f057ea13e3cc7cf22d550ee6885e27c8ac71e0bfd388d50e059",
+      "current": "757209ce8e6b4f057ea13e3cc7cf22d550ee6885e27c8ac71e0bfd388d50e059"
+    },
+    {
+      "path": "src/propulsion.js",
+      "previous": "5157c1ccf1e8529dc47af03962f3fd2a077a74a88bb8b3f1d8e437ef0b45414a",
+      "current": "5157c1ccf1e8529dc47af03962f3fd2a077a74a88bb8b3f1d8e437ef0b45414a"
+    },
+    {
+      "path": "src/trajectory.js",
+      "previous": "c101d8e82f4dcd7d848c2ea6cf6dce00bf60c7fd75b202ef6f964829b5c5cb31",
+      "current": "c101d8e82f4dcd7d848c2ea6cf6dce00bf60c7fd75b202ef6f964829b5c5cb31"
+    },
+    {
+      "path": "src/transit-controller.js",
+      "previous": "958f0156e954808854cd376562910fa409821851320a39e6d6bb7f1e130879f5",
+      "current": "958f0156e954808854cd376562910fa409821851320a39e6d6bb7f1e130879f5"
+    },
+    {
+      "path": "src/chart-ephemeris.js",
+      "previous": "8c6818c0fb5ca093b43ff0eb499dbf7e1eb466f4976d6b34d09c106fcba4ed1c",
+      "current": "8c6818c0fb5ca093b43ff0eb499dbf7e1eb466f4976d6b34d09c106fcba4ed1c"
+    },
+    {
+      "path": "src/solar-chart-state.js",
+      "previous": "7d4d9cb1cb837b0fe3a1ecb6f037a19d36dd393d60184e4afe62801362d42c2b",
+      "current": "7d4d9cb1cb837b0fe3a1ecb6f037a19d36dd393d60184e4afe62801362d42c2b"
+    },
+    {
+      "path": "assets/chart-ephemeris.bin",
+      "previous": "8e96063ed5bfcfc49fc87546674d1b814c271f002accbb8d734e521a0189ab6c",
+      "current": "8e96063ed5bfcfc49fc87546674d1b814c271f002accbb8d734e521a0189ab6c"
+    },
+    {
+      "path": "src/ui/solar-chart.js",
+      "previous": "a9681864b41e20fd0457d74d2507b28b6a8194dba4f960d66435a08429b6406b",
+      "current": "a9681864b41e20fd0457d74d2507b28b6a8194dba4f960d66435a08429b6406b"
+    },
+    {
+      "path": "src/ui/atlas-layout.js",
+      "previous": "b9d163d150c11f9a9cebf5336abba7c9fe7c93394a9996437b9cd963908b8146",
+      "current": "b9d163d150c11f9a9cebf5336abba7c9fe7c93394a9996437b9cd963908b8146"
+    },
+    {
+      "path": "src/ui/chart-labels.js",
+      "previous": "a817714208be7d78a216823845ba6f7a756f047a6c63fc619f7af711e2ad315d",
+      "current": "a817714208be7d78a216823845ba6f7a756f047a6c63fc619f7af711e2ad315d"
+    },
+    {
+      "path": "assets/cruise.json",
+      "previous": "b88ecd133f6b6bc923f9900a910fb74f98811266c72d494f7d6eba7f9fc6db12",
+      "current": "b88ecd133f6b6bc923f9900a910fb74f98811266c72d494f7d6eba7f9fc6db12"
+    },
+    {
+      "path": "assets/fonts/barlow-semicondensed-regular.ttf",
+      "previous": "9ff9499736c5fad7db00815aafc939b3df67bdee87ce62fb04257fe167c151fd",
+      "current": "9ff9499736c5fad7db00815aafc939b3df67bdee87ce62fb04257fe167c151fd"
+    },
+    {
+      "path": "assets/fonts/barlow-semicondensed-medium.ttf",
+      "previous": "c2b046235fb4c2f81ca58bbdca2313e9681758295b129931853324ade56180c9",
+      "current": "c2b046235fb4c2f81ca58bbdca2313e9681758295b129931853324ade56180c9"
+    },
+    {
+      "path": "assets/fonts/sometype-mono-regular.woff2",
+      "previous": "6b6b52196b721b3b3a8cf733bd1f2595d11b391aad1895ba11714995573ea06d",
+      "current": "6b6b52196b721b3b3a8cf733bd1f2595d11b391aad1895ba11714995573ea06d"
+    },
+    {
+      "path": "assets/icon.svg",
+      "previous": "fa53d5ae449cf87e009b88af7c746e28186ed031940f48e7fefb4c67fe3b2614",
+      "current": "fa53d5ae449cf87e009b88af7c746e28186ed031940f48e7fefb4c67fe3b2614"
+    },
+    {
+      "path": "src/main.js",
+      "previous": "1853a57d390eb35153b4b950fe25d658a3c73e6ffeddc97d451e2e861b38dfa4",
+      "current": "1853a57d390eb35153b4b950fe25d658a3c73e6ffeddc97d451e2e861b38dfa4"
+    },
+    {
+      "path": "src/flight-history.js",
+      "previous": "8821e73e0b3e46e4b0ead9044675f6a48880d6722878d85cef3ab6a583c07ddc",
+      "current": "8821e73e0b3e46e4b0ead9044675f6a48880d6722878d85cef3ab6a583c07ddc"
+    },
+    {
+      "path": "src/coast-forecast.js",
+      "previous": "b901b2fa94958216ffd68b43ed2b9118a37ffc71966e5583c45de7577e9a80f0",
+      "current": "b901b2fa94958216ffd68b43ed2b9118a37ffc71966e5583c45de7577e9a80f0"
+    },
+    {
+      "path": "src/ui/flight-review.js",
+      "previous": "b3f4374344ae839b9f51b266d28ccc42f300520dcbea2f9e3727b92ba02b735a",
+      "current": "b3f4374344ae839b9f51b266d28ccc42f300520dcbea2f9e3727b92ba02b735a"
+    },
+    {
+      "path": "src/exposure.js",
+      "previous": "6e2cb4b0eb7c3f77d43138645d4bb30539182e15c0bd5a52ebea645368f5b0e9",
+      "current": "6e2cb4b0eb7c3f77d43138645d4bb30539182e15c0bd5a52ebea645368f5b0e9"
+    },
+    {
+      "path": "src/ui/photo-viewer.js",
+      "previous": "b5ca342b459dc9a436305df22e4c584d35075af146b5f58e5b12546826c714df",
+      "current": "b5ca342b459dc9a436305df22e4c584d35075af146b5f58e5b12546826c714df"
+    },
+    {
+      "path": "src/ui/photo-receipt.js",
+      "previous": "a46f2f90c49dfd00788439fdef30e6c94912272cc8e0e8535f88eda784e7f4b7",
+      "current": "a46f2f90c49dfd00788439fdef30e6c94912272cc8e0e8535f88eda784e7f4b7"
+    },
+    {
+      "path": "src/opportunities.js",
+      "previous": "da26df8bc46bd05adf4eeb4d7496b9680dec1c694f60572ec5eeec8c75db2f1b",
+      "current": "da26df8bc46bd05adf4eeb4d7496b9680dec1c694f60572ec5eeec8c75db2f1b"
+    },
+    {
+      "path": "src/flight-instruments.js",
+      "previous": "b87cf4960216469f321595a5d433f7ffc5816993d6e3b0d610c8eec30fa0f026",
+      "current": "b87cf4960216469f321595a5d433f7ffc5816993d6e3b0d610c8eec30fa0f026"
+    },
+    {
+      "path": "src/exploration.js",
+      "previous": "ebc2317dd0760139276712763c9ca9744131866a92385f28f0430bcf8586f213",
+      "current": "ebc2317dd0760139276712763c9ca9744131866a92385f28f0430bcf8586f213"
+    },
+    {
+      "path": "src/exploration-controller.js",
+      "previous": "93d20c02bcb1be80cb0595470aff7edfd083df48141af21ad51b93ca2436d1a4",
+      "current": "93d20c02bcb1be80cb0595470aff7edfd083df48141af21ad51b93ca2436d1a4"
+    },
+    {
+      "path": "src/flight-controller.js",
+      "previous": "424e647a3a75095dc9d4cdb1ee67404b683a58720e32d5a56d5aa86045357523",
+      "current": "424e647a3a75095dc9d4cdb1ee67404b683a58720e32d5a56d5aa86045357523"
+    },
+    {
+      "path": "src/encounter-context.js",
+      "previous": "45fa1f0e64b126526d5fbfe035a229bf2c0b8c6a353daab6b2716576245ac51d",
+      "current": "45fa1f0e64b126526d5fbfe035a229bf2c0b8c6a353daab6b2716576245ac51d"
+    },
+    {
+      "path": "src/rendering/cloud-layer.js",
+      "previous": "f57de206dbaeaed9d55cc4fcb4a2a436bdcc27428aee734d57a76e54b160a5b0",
+      "current": "f57de206dbaeaed9d55cc4fcb4a2a436bdcc27428aee734d57a76e54b160a5b0"
+    },
+    {
+      "path": "src/rendering/frame-policy.js",
+      "previous": "3488c42b681d7339dc6d2a1934d68d08273d43981f8b2914691784703e9683b2",
+      "current": "3488c42b681d7339dc6d2a1934d68d08273d43981f8b2914691784703e9683b2"
+    },
+    {
+      "path": "src/ui/dom.js",
+      "previous": "6faf5d71707f7dea52dcfa49faa0e9b40e4f901ea4f209052ad87ce952e57519",
+      "current": "6faf5d71707f7dea52dcfa49faa0e9b40e4f901ea4f209052ad87ce952e57519"
+    },
+    {
+      "path": "src/ui/flight-hud.js",
+      "previous": "b790d18ebb1e783eaa6b4f539d0c45408b86d9c4b2d05fff64210c3ae0eb0989",
+      "current": "b790d18ebb1e783eaa6b4f539d0c45408b86d9c4b2d05fff64210c3ae0eb0989"
+    },
+    {
+      "path": "src/rendering/lighting.js",
+      "previous": "84e6e336c4a56d84e2f59568f34fa32644eda3c7c095b51a2fbc03103b15d015",
+      "current": "84e6e336c4a56d84e2f59568f34fa32644eda3c7c095b51a2fbc03103b15d015"
+    },
+    {
+      "path": "src/rendering/ringshine.js",
+      "previous": "f41231e2fdd52c3d8e212c476d8a56ea1f4b95876de629f7fa69c4bb0a9acfd2",
+      "current": "f41231e2fdd52c3d8e212c476d8a56ea1f4b95876de629f7fa69c4bb0a9acfd2"
+    },
+    {
+      "path": "src/flight.js",
+      "previous": "eb2f34a7df0097b7e421178cf13d4abce1459090d88a7f6d382762c1ff66909d",
+      "current": "eb2f34a7df0097b7e421178cf13d4abce1459090d88a7f6d382762c1ff66909d"
+    },
+    {
+      "path": "src/mission.js",
+      "previous": "a247b2804f46bd372ccc00aa9f1b948853c654571e60010ee69600ae40a2443e",
+      "current": "a247b2804f46bd372ccc00aa9f1b948853c654571e60010ee69600ae40a2443e"
+    },
+    {
+      "path": "src/audio.js",
+      "previous": "37040b67f0dd711fdb572b6468212f5a25c4940d8891a2b6029a1a09828c86a5",
+      "current": "37040b67f0dd711fdb572b6468212f5a25c4940d8891a2b6029a1a09828c86a5"
+    },
+    {
+      "path": "src/audio-automation.js",
+      "previous": "e80eb4b6d707bd14a5f0e345013d780d1083b6ec1f105751f5660f36b1b7766e",
+      "current": "e80eb4b6d707bd14a5f0e345013d780d1083b6ec1f105751f5660f36b1b7766e"
+    },
+    {
+      "path": "src/input.js",
+      "previous": "de8f7c383164b892c04c8e90c9ab79073184c3b6b815e3efc7573cc741a9d6bc",
+      "current": "de8f7c383164b892c04c8e90c9ab79073184c3b6b815e3efc7573cc741a9d6bc"
+    },
+    {
+      "path": "src/director.js",
+      "previous": "c485193d285f8f223a736114943e1aa3369d8ccfef690541db1df3699b1e1579",
+      "current": "c485193d285f8f223a736114943e1aa3369d8ccfef690541db1df3699b1e1579"
+    },
+    {
+      "path": "src/observations.js",
+      "previous": "77a5b27102948f7e52a6e25378e44a25dd09ace53535bf8bb217ad8d464d883b",
+      "current": "77a5b27102948f7e52a6e25378e44a25dd09ace53535bf8bb217ad8d464d883b"
+    },
+    {
+      "path": "vendor/three/three.module.js",
+      "previous": "c8211c69345d2e9949dc7a8ac969380497aa0600a5a8ac6a459c8cd02dd9cb8a",
+      "current": "c8211c69345d2e9949dc7a8ac969380497aa0600a5a8ac6a459c8cd02dd9cb8a"
+    },
+    {
+      "path": "vendor/three/three.core.js",
+      "previous": "eb077d2417f61d3e6d9264c317cabc4ea35769ed6b0ab533067292a550784c20",
+      "current": "eb077d2417f61d3e6d9264c317cabc4ea35769ed6b0ab533067292a550784c20"
+    },
+    {
+      "path": "vendor/three/addons/loaders/GLTFLoader.js",
+      "previous": "67ac5551fdafa6e349bd80c8f8e5e39c136d6b2fb1ad647db9abb21dc86f9e4a",
+      "current": "67ac5551fdafa6e349bd80c8f8e5e39c136d6b2fb1ad647db9abb21dc86f9e4a"
+    },
+    {
+      "path": "vendor/three/addons/utils/BufferGeometryUtils.js",
+      "previous": "fda7e946b8e0b5ab39b779206589e7a1079a22eb24efb89d7223e03fdfb1f751",
+      "current": "fda7e946b8e0b5ab39b779206589e7a1079a22eb24efb89d7223e03fdfb1f751"
+    },
+    {
+      "path": "assets/ephemeris.json",
+      "previous": "8e0b035a77bae02310f91958e52e360663eb8be960949f7ad2306b17bd725a7f",
+      "current": "8e0b035a77bae02310f91958e52e360663eb8be960949f7ad2306b17bd725a7f"
+    },
+    {
+      "path": "assets/stars-compact.json",
+      "previous": "011e2627379a5865b3cdb3f1d6d813c14869c9c1c16cdcca71018f21c5171ebb",
+      "current": "011e2627379a5865b3cdb3f1d6d813c14869c9c1c16cdcca71018f21c5171ebb"
+    },
+    {
+      "path": "assets/models/voyager-compact.glb",
+      "previous": "320e720625a5b174dd84d06747bea42690b3f3479d843a71995fdcd27364f053",
+      "current": "320e720625a5b174dd84d06747bea42690b3f3479d843a71995fdcd27364f053"
+    },
+    {
+      "path": "assets/textures/earth-clouds.avif",
+      "previous": "b0e44a2ed7ef48ae9f31fa24910d490fb6e55273d64354f18be2adc09481f648",
+      "current": "b0e44a2ed7ef48ae9f31fa24910d490fb6e55273d64354f18be2adc09481f648"
+    },
+    {
+      "path": "assets/textures/moon.avif",
+      "previous": "d13810b205de4512f985ae8e570e036b9c3809fea1b0a8c336a53e769c5a3120",
+      "current": "d13810b205de4512f985ae8e570e036b9c3809fea1b0a8c336a53e769c5a3120"
+    },
+    {
+      "path": "assets/textures/moon-height.webp",
+      "previous": "7aa632f979d94fc95d42478cb478de8ec20662ee5542350cca835e7c65f42df5",
+      "current": "7aa632f979d94fc95d42478cb478de8ec20662ee5542350cca835e7c65f42df5"
+    },
+    {
+      "path": "assets/textures/moon-normal.avif",
+      "previous": "a3e5e286610ee8c04e9954d9dd9abb6fae0d7655977949e5f8e9b6ca669c3474",
+      "current": "a3e5e286610ee8c04e9954d9dd9abb6fae0d7655977949e5f8e9b6ca669c3474"
+    },
+    {
+      "path": "assets/textures/moon-relief.bin",
+      "previous": "711e4a07c04dcd1cc6a6d49ae06aead376d3f6947a288126c3de5ed691d65f45",
+      "current": "711e4a07c04dcd1cc6a6d49ae06aead376d3f6947a288126c3de5ed691d65f45"
+    },
+    {
+      "path": "assets/textures/jupiter.avif",
+      "previous": "e229639f90e331d014ccc7ad632919f38999184e0c07277ced7b7d2bf5971cd4",
+      "current": "e229639f90e331d014ccc7ad632919f38999184e0c07277ced7b7d2bf5971cd4"
+    },
+    {
+      "path": "assets/textures/io.avif",
+      "previous": "11640730ba7b36f1482f7063fe9e6351b84db5c8ad8524ae314211d279789a97",
+      "current": "11640730ba7b36f1482f7063fe9e6351b84db5c8ad8524ae314211d279789a97"
+    },
+    {
+      "path": "assets/textures/saturn.avif",
+      "previous": "9b230075ad122ecfc4f28dd5e20afeda9042034812bcb773ba37d99ce7c4fd64",
+      "current": "9b230075ad122ecfc4f28dd5e20afeda9042034812bcb773ba37d99ce7c4fd64"
+    },
+    {
+      "path": "assets/textures/saturn-ring.png",
+      "previous": "f571b474fcc883063332e4e3690e1221b872e8d418e392b1cf8a2600a6858886",
+      "current": "f571b474fcc883063332e4e3690e1221b872e8d418e392b1cf8a2600a6858886"
+    },
+    {
+      "path": "assets/archive/pale-blue-dot.jpg",
+      "previous": "b783a29a134377ba41ffe8f644fd1f066b591b77b316daac3d32b315cc265c34",
+      "current": "b783a29a134377ba41ffe8f644fd1f066b591b77b316daac3d32b315cc265c34"
+    },
+    {
+      "path": "assets/archive/interstellar-plasma-compact.mp4",
+      "previous": "f4d61090be7b0b1bdf3badc2c4e0a2414ddbbefe29a1b1e37fcfb6fdbd1b592e",
+      "current": "f4d61090be7b0b1bdf3badc2c4e0a2414ddbbefe29a1b1e37fcfb6fdbd1b592e"
+    },
+    {
+      "path": "assets/audio/jupiter-lightning.mp3",
+      "previous": "3f1ed785bf18d5ba5ee75a89a9f132254bc9f454e617d498e5921e9ea9a4e8a1",
+      "current": "3f1ed785bf18d5ba5ee75a89a9f132254bc9f454e617d498e5921e9ea9a4e8a1"
+    },
+    {
+      "path": "assets/archive/jupiter-waveform.svg",
+      "previous": "2383edeba435702e2563cab05f87edd28b56ba78667124a0c9650183d91f8ed4",
+      "current": "2383edeba435702e2563cab05f87edd28b56ba78667124a0c9650183d91f8ed4"
+    },
+    {
+      "path": "assets/audio/interface-piano.webm",
+      "previous": "04c905a61783373935a9aa493c68a8e7d376c5b5b0afc89eedd99a42590e6a96",
+      "current": "04c905a61783373935a9aa493c68a8e7d376c5b5b0afc89eedd99a42590e6a96"
+    },
+    {
+      "path": "assets/audio/departure.ogg",
+      "previous": "92988336cf88b238a4e4ca80817c01de3b8299ca8faf929c155c3e5f7ed4e892",
+      "current": "92988336cf88b238a4e4ca80817c01de3b8299ca8faf929c155c3e5f7ed4e892"
+    },
+    {
+      "path": "assets/audio/encounter.ogg",
+      "previous": "461dd16960ed8d10aec9f73dc3c045e1b08c1571a28f918245094ef91a2f67f8",
+      "current": "461dd16960ed8d10aec9f73dc3c045e1b08c1571a28f918245094ef91a2f67f8"
+    },
+    {
+      "path": "assets/audio/rings.ogg",
+      "previous": "55a72a2c41d17916299667b87b166ec137b030a788b30e57546ee2ff9ccc674f",
+      "current": "55a72a2c41d17916299667b87b166ec137b030a788b30e57546ee2ff9ccc674f"
+    },
+    {
+      "path": "assets/audio/distance.ogg",
+      "previous": "a27091dd8bb47aa9b2620151a7ac4ace71ccd2581a7f735bb34a01ca7f3984e3",
+      "current": "a27091dd8bb47aa9b2620151a7ac4ace71ccd2581a7f735bb34a01ca7f3984e3"
+    }
+  ]
+}

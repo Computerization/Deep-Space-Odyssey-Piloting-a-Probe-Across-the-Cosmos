@@ -1,0 +1,1069 @@
+{
+  "versions": {
+    "previous": "0.73.0",
+    "candidate": "0.74.0"
+  },
+  "dpr": 1,
+  "sources": {
+    "previous": {
+      "src/rendering/shaders.js": "11d384b9114d7b3402137325e073e7245ce7e83a1641443f2262ff6ebb0f3e17",
+      "src/rendering/ringshine.js": "d6a1d5c8f1e4f9e857a4878369e569097b6770995af3bf2ef3e4fd456258ca8e",
+      "src/rendering/scene-factory.js": "3f81af469fcf1ffc13742f63a29ed736d344f78333f99a9bc64d37f543503eb1",
+      "src/world.js": "a97c786b556ace63e3eb207db1746281adc28e5359c994fde0eb58b93d2c93bd",
+      "assets/textures/saturn-ring.png": "6ad5c2b8134da89120f5543764128468259e980e771f673c6c1ac5b9f372e148"
+    },
+    "candidate": {
+      "src/rendering/shaders.js": "58dcffcf0d4b8deb4044ce82dc0f0a254cb452850076b1d69545d76d52fec5c1",
+      "src/rendering/ringshine.js": "d6a1d5c8f1e4f9e857a4878369e569097b6770995af3bf2ef3e4fd456258ca8e",
+      "src/rendering/scene-factory.js": "3f81af469fcf1ffc13742f63a29ed736d344f78333f99a9bc64d37f543503eb1",
+      "src/world.js": "a97c786b556ace63e3eb207db1746281adc28e5359c994fde0eb58b93d2c93bd",
+      "assets/textures/saturn-ring.png": "6ad5c2b8134da89120f5543764128468259e980e771f673c6c1ac5b9f372e148"
+    }
+  },
+  "outcomes": [
+    {
+      "name": "Chrome",
+      "cache": {
+        "rows": [
+          {
+            "epoch": 2,
+            "checksum": 174208935284,
+            "version": 5,
+            "textures": 26
+          },
+          {
+            "epoch": 3,
+            "checksum": 174100520685,
+            "version": 6,
+            "textures": 26
+          },
+          {
+            "epoch": 0,
+            "checksum": 305926650131,
+            "version": 7,
+            "textures": 26
+          },
+          {
+            "epoch": 2,
+            "checksum": 174208935284,
+            "version": 8,
+            "textures": 26
+          }
+        ],
+        "oneTexture": true,
+        "sameEpochRetainsData": true,
+        "bytes": 16384
+      },
+      "engineVersion": "158.0.8127.37",
+      "views": {
+        "encounter": {
+          "previous": {
+            "pixelSha256": "6740655d11b0267781a22a2ed288bbea8d992461d2f3bfded09235b4c681211b",
+            "flux": 13187719.166201778,
+            "green": 921,
+            "lit": 159054,
+            "width": 1280,
+            "height": 800,
+            "calls": 5,
+            "triangles": 77314,
+            "textures": 26,
+            "geometries": 20,
+            "imageSha256": "92d480275c8f389bf52c8fa606214a52b0cf3de59db83871293d6cae833af520"
+          },
+          "candidate": {
+            "pixelSha256": "49edd6d9892b0fd2f044aa07eb98d683b52004e6efc5be3b0ba5d5840ab54e03",
+            "flux": 13187430.568001721,
+            "green": 921,
+            "lit": 159035,
+            "width": 1280,
+            "height": 800,
+            "calls": 5,
+            "triangles": 77314,
+            "textures": 26,
+            "geometries": 20,
+            "imageSha256": "43bd0d1a6ef5001323794d97c3cd4eb1f3aa085124e54651567e6cd561a97604"
+          }
+        },
+        "close": {
+          "previous": {
+            "pixelSha256": "8d1fac2fd4a815514cdc2ee6f3687ff08785d7dcb4670930263387b9152146e9",
+            "flux": 26254603.366421763,
+            "green": 0,
+            "lit": 414514,
+            "width": 1280,
+            "height": 800,
+            "calls": 4,
+            "triangles": 4098,
+            "textures": 26,
+            "geometries": 20,
+            "imageSha256": "6ced366840e50badee8a694d47f9e8ad983059b8b3ed09add900104d6ed73e00"
+          },
+          "candidate": {
+            "pixelSha256": "6e6bc799e8dacb80cc6a449daf59c1ae5e7b3b242d138af526ac61032d38e5f7",
+            "flux": 26254561.83042176,
+            "green": 0,
+            "lit": 414524,
+            "width": 1280,
+            "height": 800,
+            "calls": 4,
+            "triangles": 4098,
+            "textures": 26,
+            "geometries": 20,
+            "imageSha256": "7f925dcf55df86f7209d1f5eef28aa8715f917b22ce01f46a59f89e8f6fe7464"
+          }
+        },
+        "narrow": {
+          "previous": {
+            "pixelSha256": "b74d24f9008595768bf5bba57876f6e9d2817926ed31616bae410020fb62283e",
+            "flux": 41397502.843636096,
+            "green": 0,
+            "lit": 571703,
+            "width": 1280,
+            "height": 800,
+            "calls": 4,
+            "triangles": 4098,
+            "textures": 26,
+            "geometries": 20,
+            "imageSha256": "0e68fcdc4959dd09fbc9089152bb0382c9ac116e362ee2cef391a9c578f298f8"
+          },
+          "candidate": {
+            "pixelSha256": "3ad8327f4176059351b893d930643384f5f65a4628b71ab41c3a1bad0c76130c",
+            "flux": 41397505.4630361,
+            "green": 0,
+            "lit": 571703,
+            "width": 1280,
+            "height": 800,
+            "calls": 4,
+            "triangles": 4098,
+            "textures": 26,
+            "geometries": 20,
+            "imageSha256": "6ee602259b6c4bdce14a72e826bdda08aefd40f5d7ace1eeb3c8a7f133b6fa88"
+          }
+        },
+        "lit-low": {
+          "previous": {
+            "pixelSha256": "5bed969fb52dca2e9a5954fb2bb11f318ef0e02c128ad18f6ce675a08b5e6997",
+            "flux": 13010862.538798742,
+            "green": 25,
+            "lit": 72634,
+            "width": 1280,
+            "height": 800,
+            "calls": 5,
+            "triangles": 77314,
+            "textures": 26,
+            "geometries": 20,
+            "imageSha256": "683de4a06afc8b64437612bb52df8b8f0a7cdaed1ecbafbd07fdf1418799fb1d"
+          },
+          "candidate": {
+            "pixelSha256": "a85eddff7cc443ecbe7305d338a4c24179a1a5546e2ba38fc88fd8d08f73ff10",
+            "flux": 13010311.219198717,
+            "green": 25,
+            "lit": 72596,
+            "width": 1280,
+            "height": 800,
+            "calls": 5,
+            "triangles": 77314,
+            "textures": 26,
+            "geometries": 20,
+            "imageSha256": "4dc9c161bab5b8b14e98773fc37e9b60f9a579c64d21150135472e9dfe7a8502"
+          }
+        },
+        "unlit-low": {
+          "previous": {
+            "pixelSha256": "1e617d95c594eccdaed3d8300b68c95fd3d11e555d8f6b5b8976afb937115e09",
+            "flux": 11172022.595000232,
+            "green": 2,
+            "lit": 63304,
+            "width": 1280,
+            "height": 800,
+            "calls": 5,
+            "triangles": 77314,
+            "textures": 26,
+            "geometries": 20,
+            "imageSha256": "0562c1b0ac8f39dfd4f34fbb2e52403d6a4d609cd5bfa5936663cdf59d205315"
+          },
+          "candidate": {
+            "pixelSha256": "91e7d82e3ee7a0f06fb5045a92ef1fece34a0efaf62efd2d7fd8ea848cc23ff4",
+            "flux": 11170976.18600016,
+            "green": 2,
+            "lit": 63241,
+            "width": 1280,
+            "height": 800,
+            "calls": 5,
+            "triangles": 77314,
+            "textures": 26,
+            "geometries": 20,
+            "imageSha256": "b049df2bff045e61cd5a11460226a78f080f82e95df5d988506a0bf4b63b3a9c"
+          }
+        },
+        "night": {
+          "previous": {
+            "pixelSha256": "8c77f42c3a47e56043157c8096e5126aacb62806bbdc1d514e00a1a79a205b07",
+            "flux": 4501011.55980462,
+            "green": 572,
+            "lit": 81213,
+            "width": 1280,
+            "height": 800,
+            "calls": 8,
+            "triangles": 296962,
+            "textures": 26,
+            "geometries": 20,
+            "imageSha256": "5c27ecdc07eed941586b078cbea3550e4ad9948c6c0c88d824af7daef2031083"
+          },
+          "candidate": {
+            "pixelSha256": "c099b9012ac5e1ca74ebff967ec260079e5fdb5b770117d04c4f80f18bc93b22",
+            "flux": 4500626.275404624,
+            "green": 572,
+            "lit": 81175,
+            "width": 1280,
+            "height": 800,
+            "calls": 8,
+            "triangles": 296962,
+            "textures": 26,
+            "geometries": 20,
+            "imageSha256": "ec800ed6c484acb3347f43063b8745d29b4d0cf7fd26736b6fe03f061975609f"
+          }
+        },
+        "chase": {
+          "previous": {
+            "pixelSha256": "7785bdc4ee4621feae3737f80de174e049a2d70ca4f1621201a48d329c4eebce",
+            "flux": 13637509.510001551,
+            "green": 930,
+            "lit": 162704,
+            "width": 1280,
+            "height": 800,
+            "calls": 45,
+            "triangles": 862746,
+            "textures": 26,
+            "geometries": 20,
+            "imageSha256": "30c8086266f7753a1c888390e190ebb698fdbd4875066ee8cc488d8b2187e4f6"
+          },
+          "candidate": {
+            "pixelSha256": "e9cb697e583e40b4422a3e294a4fdac2fd32ab6bbbe142140c74b205b043bfe5",
+            "flux": 13637221.124401493,
+            "green": 930,
+            "lit": 162685,
+            "width": 1280,
+            "height": 800,
+            "calls": 45,
+            "triangles": 862746,
+            "textures": 26,
+            "geometries": 20,
+            "imageSha256": "98587f940609fd9cac4c5bda6cc06346fba5032ed7bfd53d430c77c803f8aa36"
+          }
+        },
+        "earth": {
+          "previous": {
+            "pixelSha256": "4a0b7c064835963c77fb4658717ba8fb1e6485013cebfc962b44969320754000",
+            "flux": 30312459.46262498,
+            "green": 139,
+            "lit": 329378,
+            "width": 1280,
+            "height": 800,
+            "calls": 7,
+            "triangles": 292866,
+            "textures": 26,
+            "geometries": 20,
+            "imageSha256": "9226a2d16c98a61c0468c5ec7c7c087d889a25ae96ad427216d94e9132a5bc48"
+          },
+          "candidate": {
+            "pixelSha256": "4a0b7c064835963c77fb4658717ba8fb1e6485013cebfc962b44969320754000",
+            "flux": 30312459.46262498,
+            "green": 139,
+            "lit": 329378,
+            "width": 1280,
+            "height": 800,
+            "calls": 7,
+            "triangles": 292866,
+            "textures": 26,
+            "geometries": 20,
+            "imageSha256": "9226a2d16c98a61c0468c5ec7c7c087d889a25ae96ad427216d94e9132a5bc48"
+          }
+        },
+        "plane": {
+          "previous": {
+            "pixelSha256": "153ac0b29a3f77c760db2695441e5cb310f4f5756291e60ac213c8d055c036f7",
+            "flux": 10764204.47259865,
+            "green": 17,
+            "lit": 67991,
+            "width": 1280,
+            "height": 800,
+            "calls": 5,
+            "triangles": 77314,
+            "textures": 26,
+            "geometries": 20,
+            "imageSha256": "3d33ac53f94e5713b04832728e83fb847cec8d3c7dd60cffc99adce97f54f182"
+          },
+          "candidate": {
+            "pixelSha256": "7be4ed5d511607c613738a19aaed7710acaf85f3dfe34ce31ae73556992210e2",
+            "flux": 10763132.1531986,
+            "green": 17,
+            "lit": 67923,
+            "width": 1280,
+            "height": 800,
+            "calls": 5,
+            "triangles": 77314,
+            "textures": 26,
+            "geometries": 20,
+            "imageSha256": "adc5cf95d623c39c63de56831786ad6d556405cbebceb241459399c70e659f5f"
+          }
+        },
+        "plane-detail": {
+          "previous": {
+            "pixelSha256": "88f52dd024d120ee6450317ffaee6dea0e5d69fe878aec3df9b9d7871f15e365",
+            "flux": 171290516.33065292,
+            "green": 0,
+            "lit": 979030,
+            "width": 1280,
+            "height": 800,
+            "calls": 5,
+            "triangles": 77314,
+            "textures": 26,
+            "geometries": 20,
+            "imageSha256": "f8d7057619f51f2f778b28faf9dabc60d1b3d05cb1a0139c49a21960afbc0761"
+          },
+          "candidate": {
+            "pixelSha256": "26b2d8737a313322a4b8fc45e5de9a3ae50403ca3b3f7d424afa137656d7864c",
+            "flux": 171291333.78905544,
+            "green": 0,
+            "lit": 979363,
+            "width": 1280,
+            "height": 800,
+            "calls": 5,
+            "triangles": 77314,
+            "textures": 26,
+            "geometries": 20,
+            "imageSha256": "922793b17f9b053f6abaaabd641c927f899b78d09cefefba6e7701e420071205"
+          }
+        },
+        "plane-narrow": {
+          "previous": {
+            "pixelSha256": "047ba01c99ad887c4f68ad4ad387f8c3eb971f725d50feb90d81ff8984957f29",
+            "flux": 176678755.42515343,
+            "green": 0,
+            "lit": 916199,
+            "width": 1280,
+            "height": 800,
+            "calls": 5,
+            "triangles": 77314,
+            "textures": 26,
+            "geometries": 20,
+            "imageSha256": "ed852a46c29d937662c3cf9564aff85d6fdca206d7fc73416b5961945b73a6db"
+          },
+          "candidate": {
+            "pixelSha256": "696a807d645604b14bb6474b14a4185320a08c1ab94965de2f8fde2563b00d19",
+            "flux": 176679924.81275874,
+            "green": 0,
+            "lit": 916316,
+            "width": 1280,
+            "height": 800,
+            "calls": 5,
+            "triangles": 77314,
+            "textures": 26,
+            "geometries": 20,
+            "imageSha256": "6e6299a433333f4e9558ad36f122df228eb39fb9cce0aca83e010bc4ade864df"
+          }
+        }
+      },
+      "physicalStatePreserved": true,
+      "errors": [],
+      "passed": true
+    },
+    {
+      "name": "Firefox",
+      "cache": {
+        "rows": [
+          {
+            "epoch": 2,
+            "checksum": 174208935284,
+            "version": 5,
+            "textures": 26
+          },
+          {
+            "epoch": 3,
+            "checksum": 174100520685,
+            "version": 6,
+            "textures": 26
+          },
+          {
+            "epoch": 0,
+            "checksum": 305926650131,
+            "version": 7,
+            "textures": 26
+          },
+          {
+            "epoch": 2,
+            "checksum": 174208935284,
+            "version": 8,
+            "textures": 26
+          }
+        ],
+        "oneTexture": true,
+        "sameEpochRetainsData": true,
+        "bytes": 16384
+      },
+      "engineVersion": "153.0",
+      "views": {
+        "encounter": {
+          "previous": {
+            "pixelSha256": "995ad57deab3a275f4552f87d0978c9f41385da432fe7b5ea7ec7abae8611be9",
+            "flux": 13188317.182401828,
+            "green": 921,
+            "lit": 159088,
+            "width": 1280,
+            "height": 800,
+            "calls": 5,
+            "triangles": 77314,
+            "textures": 26,
+            "geometries": 20,
+            "imageSha256": "c00207ef7000cdab98911a052fcbb6a5a33be8dad1820bac00d7e4b794761670"
+          },
+          "candidate": {
+            "pixelSha256": "462d3904d2a27a3d4ba1c529ef496359091dac81213ae4c6e2881c48746c2988",
+            "flux": 13188028.661601774,
+            "green": 921,
+            "lit": 159070,
+            "width": 1280,
+            "height": 800,
+            "calls": 5,
+            "triangles": 77314,
+            "textures": 26,
+            "geometries": 20,
+            "imageSha256": "833f7f0f9b4368f661824eb4b08587df9928af04e32495bf8d0cfa1dc13ad09f"
+          }
+        },
+        "close": {
+          "previous": {
+            "pixelSha256": "9e25695461a9ff4587e844dab2c99bb8226ecd9ae7d2af8e9c91d9ed9bd738a4",
+            "flux": 26254591.998021815,
+            "green": 0,
+            "lit": 414515,
+            "width": 1280,
+            "height": 800,
+            "calls": 4,
+            "triangles": 4098,
+            "textures": 26,
+            "geometries": 20,
+            "imageSha256": "07c4602bf52b18bb6ce517d726027c9b9029be27939abd5e9a7690fa1f798fde"
+          },
+          "candidate": {
+            "pixelSha256": "d1142e7cd8f52f7e0b20f82264b4efeb9a47c6fafc6fa8ac29e58248c5064a8a",
+            "flux": 26254549.095821805,
+            "green": 0,
+            "lit": 414525,
+            "width": 1280,
+            "height": 800,
+            "calls": 4,
+            "triangles": 4098,
+            "textures": 26,
+            "geometries": 20,
+            "imageSha256": "7f445b47a2513f947fa86c23d6f1e4c690dab146c8f4c52fea9feec3e6b6b365"
+          }
+        },
+        "narrow": {
+          "previous": {
+            "pixelSha256": "36577e188e2cc3e5c60815f2b9e6299b47d1bde34e88b12a57a869a1d1438bce",
+            "flux": 41397551.026836105,
+            "green": 0,
+            "lit": 571701,
+            "width": 1280,
+            "height": 800,
+            "calls": 4,
+            "triangles": 4098,
+            "textures": 26,
+            "geometries": 20,
+            "imageSha256": "71c1ebe029baa32263c1faf897e58acee78eecdbe765c81c5c9cb46fdf3f10bf"
+          },
+          "candidate": {
+            "pixelSha256": "5e9d33108852ef67be2dc1ded7a16f89a946e46dbf59ec2ca8d9fc85aaba7442",
+            "flux": 41397551.59243611,
+            "green": 0,
+            "lit": 571701,
+            "width": 1280,
+            "height": 800,
+            "calls": 4,
+            "triangles": 4098,
+            "textures": 26,
+            "geometries": 20,
+            "imageSha256": "5e14140bd5481cdd48528ce95bdda30994a14c179bae2b2972843e82e874b14f"
+          }
+        },
+        "lit-low": {
+          "previous": {
+            "pixelSha256": "ccfd1b00e77fdf9a585fb618f314c573453e7266893b666a879cbd6ca273289c",
+            "flux": 13011342.146398721,
+            "green": 25,
+            "lit": 72634,
+            "width": 1280,
+            "height": 800,
+            "calls": 5,
+            "triangles": 77314,
+            "textures": 26,
+            "geometries": 20,
+            "imageSha256": "2793a3db8a52bd8adaf86ca67c85beab0394240521f67a4b034d54f81459eb11"
+          },
+          "candidate": {
+            "pixelSha256": "db43fc6409e592661325feea924af63fa359832aa84e15a84cf042e68770a408",
+            "flux": 13010786.825598694,
+            "green": 25,
+            "lit": 72596,
+            "width": 1280,
+            "height": 800,
+            "calls": 5,
+            "triangles": 77314,
+            "textures": 26,
+            "geometries": 20,
+            "imageSha256": "d108f4e2d6066db375c794f972bac4f5ad96feada82c23748fa9d545d435a417"
+          }
+        },
+        "unlit-low": {
+          "previous": {
+            "pixelSha256": "d2745172916cd0dd17fe0bf74366c10116b6475b9996303e1cacba18eb281bb5",
+            "flux": 11172558.997800222,
+            "green": 2,
+            "lit": 63306,
+            "width": 1280,
+            "height": 800,
+            "calls": 5,
+            "triangles": 77314,
+            "textures": 26,
+            "geometries": 20,
+            "imageSha256": "f3236b7e7308e6974cbaeaed3d1ac87b2021e792e0ddab28ceb5a6197ae6f48e"
+          },
+          "candidate": {
+            "pixelSha256": "e284535eb262c2e90183a3598376409ab78d2a00ad1bdd94832f9a887123d64e",
+            "flux": 11171511.235800149,
+            "green": 2,
+            "lit": 63242,
+            "width": 1280,
+            "height": 800,
+            "calls": 5,
+            "triangles": 77314,
+            "textures": 26,
+            "geometries": 20,
+            "imageSha256": "3013c3a1b6a4b67655237b90e532a3002a79d5c700e0cd80536dec04c1ef0724"
+          }
+        },
+        "night": {
+          "previous": {
+            "pixelSha256": "08a67175f3c83ccc49cdd4d671d8f0ba5c9587ca5bdf1561b6c0ef2ca1b2a17c",
+            "flux": 4501395.727004598,
+            "green": 572,
+            "lit": 81247,
+            "width": 1280,
+            "height": 800,
+            "calls": 8,
+            "triangles": 296962,
+            "textures": 26,
+            "geometries": 20,
+            "imageSha256": "5c876163f8260f5365f7438f368db26fe3b7d22de493a2b83502012f7d94b4b8"
+          },
+          "candidate": {
+            "pixelSha256": "c2522a7119c3317d2720035306acf592ed0ff5e51d07c1c5b5e1e8710196ba0c",
+            "flux": 4501010.6604046,
+            "green": 572,
+            "lit": 81209,
+            "width": 1280,
+            "height": 800,
+            "calls": 8,
+            "triangles": 296962,
+            "textures": 26,
+            "geometries": 20,
+            "imageSha256": "63bef3e36422f19998775f5ef248b5ed447096e2f5771ec71bfac3e369136504"
+          }
+        },
+        "chase": {
+          "previous": {
+            "pixelSha256": "36fd85c558697cb70372cbb6ef70ce235b5fc9f98ccf2f41d0d70b429db3a5b3",
+            "flux": 13638083.006801624,
+            "green": 930,
+            "lit": 162739,
+            "width": 1280,
+            "height": 800,
+            "calls": 45,
+            "triangles": 862746,
+            "textures": 26,
+            "geometries": 20,
+            "imageSha256": "89d343d3f3a69490fa30affa68ad6ce1cbd9e1f80eed9f91b61105f7302ac178"
+          },
+          "candidate": {
+            "pixelSha256": "ef795fb0ccbfd2924b9dbdb0eacb2ae52c8f802d2d18f72fec7b93155fe4a018",
+            "flux": 13637794.698601568,
+            "green": 930,
+            "lit": 162721,
+            "width": 1280,
+            "height": 800,
+            "calls": 45,
+            "triangles": 862746,
+            "textures": 26,
+            "geometries": 20,
+            "imageSha256": "805b420fa7d8cb18320e2e3cbd4bc0782995426cbefba62337a20e77b89bd936"
+          }
+        },
+        "earth": {
+          "previous": {
+            "pixelSha256": "c375f2797420b450c15f0dc178016e2e53bf6f9dc0f37af954fbee329752f0e5",
+            "flux": 30312826.035424963,
+            "green": 149,
+            "lit": 329378,
+            "width": 1280,
+            "height": 800,
+            "calls": 7,
+            "triangles": 292866,
+            "textures": 26,
+            "geometries": 20,
+            "imageSha256": "b2cb77fc95cc2870b077603e186519eef50ff15d63300a9fcffddede385e31bc"
+          },
+          "candidate": {
+            "pixelSha256": "c375f2797420b450c15f0dc178016e2e53bf6f9dc0f37af954fbee329752f0e5",
+            "flux": 30312826.035424963,
+            "green": 149,
+            "lit": 329378,
+            "width": 1280,
+            "height": 800,
+            "calls": 7,
+            "triangles": 292866,
+            "textures": 26,
+            "geometries": 20,
+            "imageSha256": "dff029303f54a3d2770bcd7700a018debe19a88efa9a7fb11d52a51400155e43"
+          }
+        },
+        "plane": {
+          "previous": {
+            "pixelSha256": "099330f389f721b1b9e830fa6050ce6aa28c7a4d877dced4b46f457024b9e1b9",
+            "flux": 10764444.588198565,
+            "green": 17,
+            "lit": 68012,
+            "width": 1280,
+            "height": 800,
+            "calls": 5,
+            "triangles": 77314,
+            "textures": 26,
+            "geometries": 20,
+            "imageSha256": "881b23618d67e202d449d8a0384494e6d9907583bc1dd07b5f473daa90b53e34"
+          },
+          "candidate": {
+            "pixelSha256": "2fe1479af437f934e0f686a11358b1c1590919d70121e8a66382d6dcebb7bffd",
+            "flux": 10763379.559998522,
+            "green": 17,
+            "lit": 67945,
+            "width": 1280,
+            "height": 800,
+            "calls": 5,
+            "triangles": 77314,
+            "textures": 26,
+            "geometries": 20,
+            "imageSha256": "b99db17e8282b28309b0897898688a73f36578a46556dc731b7034b0a10b3bc7"
+          }
+        },
+        "plane-detail": {
+          "previous": {
+            "pixelSha256": "42cbc9ada70191ddbffef07ea03b57d5ace97cc3679d535e0a77420f6898ed97",
+            "flux": 171309188.6470637,
+            "green": 0,
+            "lit": 979312,
+            "width": 1280,
+            "height": 800,
+            "calls": 5,
+            "triangles": 77314,
+            "textures": 26,
+            "geometries": 20,
+            "imageSha256": "133f7718d8290676bfa2b4f2e02059eee5587ea7064778787dcf6ae193f99313"
+          },
+          "candidate": {
+            "pixelSha256": "797730eaad2dd97c63b11d515e4d5f457caacc45f751961d3c2c4c38bdeccf61",
+            "flux": 171310022.34186587,
+            "green": 0,
+            "lit": 979645,
+            "width": 1280,
+            "height": 800,
+            "calls": 5,
+            "triangles": 77314,
+            "textures": 26,
+            "geometries": 20,
+            "imageSha256": "d0d73dc4125f679a98b1f03deafcc34cae116ff643f536cbe60ee9841cf6c6ca"
+          }
+        },
+        "plane-narrow": {
+          "previous": {
+            "pixelSha256": "70aececb9517ac40606f11f577c52bd6074f729b85a921e8f0a7929cb464c4c5",
+            "flux": 176703674.24595767,
+            "green": 0,
+            "lit": 916251,
+            "width": 1280,
+            "height": 800,
+            "calls": 5,
+            "triangles": 77314,
+            "textures": 26,
+            "geometries": 20,
+            "imageSha256": "8a829d72ea239337b91df6b8e488b66b31ccc4bdb5cacddae4beb8c0373ce5fa"
+          },
+          "candidate": {
+            "pixelSha256": "72895872d5bb75f5f3c17f696f680503700b4a2cfb8f1d5699479c25804255dc",
+            "flux": 176704866.7173628,
+            "green": 0,
+            "lit": 916368,
+            "width": 1280,
+            "height": 800,
+            "calls": 5,
+            "triangles": 77314,
+            "textures": 26,
+            "geometries": 20,
+            "imageSha256": "99db5513044f0f4d4f02823a6261a51aae3cdb5fa74b4400b8d7b761c4f46af3"
+          }
+        }
+      },
+      "physicalStatePreserved": true,
+      "errors": [],
+      "passed": true
+    },
+    {
+      "name": "WebKit",
+      "cache": {
+        "rows": [
+          {
+            "epoch": 2,
+            "checksum": 174208935284,
+            "version": 5,
+            "textures": 26
+          },
+          {
+            "epoch": 3,
+            "checksum": 174100520685,
+            "version": 6,
+            "textures": 26
+          },
+          {
+            "epoch": 0,
+            "checksum": 305926650131,
+            "version": 7,
+            "textures": 26
+          },
+          {
+            "epoch": 2,
+            "checksum": 174208935284,
+            "version": 8,
+            "textures": 26
+          }
+        ],
+        "oneTexture": true,
+        "sameEpochRetainsData": true,
+        "bytes": 16384
+      },
+      "engineVersion": "26.5",
+      "views": {
+        "encounter": {
+          "previous": {
+            "pixelSha256": "9062d5b54f194927573caac11d23b01bd26344216ed7538e2276683407f4308c",
+            "flux": 13173387.095002001,
+            "green": 918,
+            "lit": 159063,
+            "width": 1280,
+            "height": 800,
+            "calls": 5,
+            "triangles": 77314,
+            "textures": 26,
+            "geometries": 20,
+            "imageSha256": "af968f9d7c3ff2640767c5881ba499d17c7782e40e86f8dbc35fffe9ac557998"
+          },
+          "candidate": {
+            "pixelSha256": "86524eb996d8f99c5ac3259a986d033423c7b5cdffb79f011907037e258c1c59",
+            "flux": 13173097.994201945,
+            "green": 918,
+            "lit": 159044,
+            "width": 1280,
+            "height": 800,
+            "calls": 5,
+            "triangles": 77314,
+            "textures": 26,
+            "geometries": 20,
+            "imageSha256": "1edde2fc9237280fa00b3a86a9969549b658ce545182a6b14f9f5cd42943e46c"
+          }
+        },
+        "close": {
+          "previous": {
+            "pixelSha256": "8d1fac2fd4a815514cdc2ee6f3687ff08785d7dcb4670930263387b9152146e9",
+            "flux": 26254603.366421763,
+            "green": 0,
+            "lit": 414514,
+            "width": 1280,
+            "height": 800,
+            "calls": 4,
+            "triangles": 4098,
+            "textures": 26,
+            "geometries": 20,
+            "imageSha256": "9b35006155c309aba1a7554f55bbf8542b7f0dc972d51a93b8e7bf7562c93243"
+          },
+          "candidate": {
+            "pixelSha256": "6e6bc799e8dacb80cc6a449daf59c1ae5e7b3b242d138af526ac61032d38e5f7",
+            "flux": 26254561.83042176,
+            "green": 0,
+            "lit": 414524,
+            "width": 1280,
+            "height": 800,
+            "calls": 4,
+            "triangles": 4098,
+            "textures": 26,
+            "geometries": 20,
+            "imageSha256": "f791c10bb9d97d926042d0b7194f38d9a97c62d1e8558f3b914e15d4c93bdf81"
+          }
+        },
+        "narrow": {
+          "previous": {
+            "pixelSha256": "b74d24f9008595768bf5bba57876f6e9d2817926ed31616bae410020fb62283e",
+            "flux": 41397502.843636096,
+            "green": 0,
+            "lit": 571703,
+            "width": 1280,
+            "height": 800,
+            "calls": 4,
+            "triangles": 4098,
+            "textures": 26,
+            "geometries": 20,
+            "imageSha256": "9879439ee18322000ce1cf04d8d5cf12e87e366f6449b65549d68b12a9e12775"
+          },
+          "candidate": {
+            "pixelSha256": "3ad8327f4176059351b893d930643384f5f65a4628b71ab41c3a1bad0c76130c",
+            "flux": 41397505.4630361,
+            "green": 0,
+            "lit": 571703,
+            "width": 1280,
+            "height": 800,
+            "calls": 4,
+            "triangles": 4098,
+            "textures": 26,
+            "geometries": 20,
+            "imageSha256": "2e334b547b62d0f69e09f5a306a696b2c8279749dcdddd65b020134797e0201d"
+          }
+        },
+        "lit-low": {
+          "previous": {
+            "pixelSha256": "b8523c6ac24182e486b62a6bd572abe35230d58ea7e902d82a5a06c7ec4b6bb5",
+            "flux": 12993643.532198686,
+            "green": 26,
+            "lit": 72635,
+            "width": 1280,
+            "height": 800,
+            "calls": 5,
+            "triangles": 77314,
+            "textures": 26,
+            "geometries": 20,
+            "imageSha256": "deac8f6e1a197f08f6c2b08810ed72821209eb0abf8671836ac78b9be1c77bbd"
+          },
+          "candidate": {
+            "pixelSha256": "28e9fa73b1999139bc53206a81e450e757b60bc96b80dde96a76e725c5aca4b0",
+            "flux": 12993087.615398671,
+            "green": 26,
+            "lit": 72597,
+            "width": 1280,
+            "height": 800,
+            "calls": 5,
+            "triangles": 77314,
+            "textures": 26,
+            "geometries": 20,
+            "imageSha256": "805c5acd5e369e7251cc38e9bcae65b3261b7e254d650325ab84a21dff12e406"
+          }
+        },
+        "unlit-low": {
+          "previous": {
+            "pixelSha256": "fc1dbd97c5383c487516effb665edab3dca8cfec9a066ea90c8bffabf1344a90",
+            "flux": 11154919.27260015,
+            "green": 2,
+            "lit": 63307,
+            "width": 1280,
+            "height": 800,
+            "calls": 5,
+            "triangles": 77314,
+            "textures": 26,
+            "geometries": 20,
+            "imageSha256": "6c51b7a954ca5e3cb41ac48e751da665893b45fa7dac29e860fcbe82145e6555"
+          },
+          "candidate": {
+            "pixelSha256": "294657b91771f35e7112b3438e396039785ea6c114ed7c769e1184a9de92dc96",
+            "flux": 11153879.048600078,
+            "green": 2,
+            "lit": 63244,
+            "width": 1280,
+            "height": 800,
+            "calls": 5,
+            "triangles": 77314,
+            "textures": 26,
+            "geometries": 20,
+            "imageSha256": "a7829e13add83808b6bc1f797320ac668dbe95d918f23a5c123a66ca208e4116"
+          }
+        },
+        "night": {
+          "previous": {
+            "pixelSha256": "f5793241e7ee619019054dee57e89927e602c18e14807233e12cd95c70d504bb",
+            "flux": 4500970.553004616,
+            "green": 574,
+            "lit": 81240,
+            "width": 1280,
+            "height": 800,
+            "calls": 8,
+            "triangles": 296962,
+            "textures": 26,
+            "geometries": 20,
+            "imageSha256": "d41d5a35a49ba217af14335747f893819586cde4295898bb03477ddb3429f5d1"
+          },
+          "candidate": {
+            "pixelSha256": "fdfaded01b0fde2cb614d8de40f249cb60c05db528c1967eba4e6a68fc5448a7",
+            "flux": 4500584.340804619,
+            "green": 574,
+            "lit": 81202,
+            "width": 1280,
+            "height": 800,
+            "calls": 8,
+            "triangles": 296962,
+            "textures": 26,
+            "geometries": 20,
+            "imageSha256": "2c489ec704c3e48a87bd2b855426073d479d6ce71d6b4cb505d416c3ac85359a"
+          }
+        },
+        "chase": {
+          "previous": {
+            "pixelSha256": "2fd8921f8d54e97698ff3c021a937f1137c445b4a4d8fe620274f80c9febb415",
+            "flux": 13623183.713201743,
+            "green": 927,
+            "lit": 162713,
+            "width": 1280,
+            "height": 800,
+            "calls": 45,
+            "triangles": 862746,
+            "textures": 26,
+            "geometries": 20,
+            "imageSha256": "70373c2714592bfb1fc41717d68b683aaca6bd15dbbb0a6ccc2052d378b3a817"
+          },
+          "candidate": {
+            "pixelSha256": "b9c3ec9cfe45e0ba986598721572e384b2b196ab93fa3a307012d9d88fe31a7d",
+            "flux": 13622894.399801686,
+            "green": 927,
+            "lit": 162694,
+            "width": 1280,
+            "height": 800,
+            "calls": 45,
+            "triangles": 862746,
+            "textures": 26,
+            "geometries": 20,
+            "imageSha256": "975466a8fe8758f572ce71f0118f84824cd8125e47d7e8f62004db37eac24d7b"
+          }
+        },
+        "earth": {
+          "previous": {
+            "pixelSha256": "319997374d5a2420940a61bf2a6d55ea367dc3ac83b2fa3c7cd883e00b701473",
+            "flux": 30313441.207424965,
+            "green": 149,
+            "lit": 329378,
+            "width": 1280,
+            "height": 800,
+            "calls": 7,
+            "triangles": 292866,
+            "textures": 26,
+            "geometries": 20,
+            "imageSha256": "1ac34e4ff382c9d6fe5237640ed3a9e08a8db3c3352b55845c2bcd940af5d667"
+          },
+          "candidate": {
+            "pixelSha256": "319997374d5a2420940a61bf2a6d55ea367dc3ac83b2fa3c7cd883e00b701473",
+            "flux": 30313441.207424965,
+            "green": 149,
+            "lit": 329378,
+            "width": 1280,
+            "height": 800,
+            "calls": 7,
+            "triangles": 292866,
+            "textures": 26,
+            "geometries": 20,
+            "imageSha256": "1ac34e4ff382c9d6fe5237640ed3a9e08a8db3c3352b55845c2bcd940af5d667"
+          }
+        },
+        "plane": {
+          "previous": {
+            "pixelSha256": "45f3f3d071d1129a880049d6d43bb1fe22782771192dee8bd26809f9285c9621",
+            "flux": 10748228.088799102,
+            "green": 17,
+            "lit": 68001,
+            "width": 1280,
+            "height": 800,
+            "calls": 5,
+            "triangles": 77314,
+            "textures": 26,
+            "geometries": 20,
+            "imageSha256": "1f527821ba80805902e1e3aa2875b49dc2c92da9794d06731144737281fd204e"
+          },
+          "candidate": {
+            "pixelSha256": "89909bf28adbc95cc1469e6c0e07b731162c0a904296bb0d5e0ff9fab48478f1",
+            "flux": 10747154.33379905,
+            "green": 17,
+            "lit": 67933,
+            "width": 1280,
+            "height": 800,
+            "calls": 5,
+            "triangles": 77314,
+            "textures": 26,
+            "geometries": 20,
+            "imageSha256": "f544a256496700d67aceee7047907e9b23efad61e96c72e7f2b0df920ee54b11"
+          }
+        },
+        "plane-detail": {
+          "previous": {
+            "pixelSha256": "c98b0607984074a89e725fd852f34682e61d13e02bfd163565dcede304238d00",
+            "flux": 171041327.26129383,
+            "green": 0,
+            "lit": 979131,
+            "width": 1280,
+            "height": 800,
+            "calls": 5,
+            "triangles": 77314,
+            "textures": 26,
+            "geometries": 20,
+            "imageSha256": "02c007f5cc1d4d7268d302eaddecb7317db5481aef9c7cf37411095ec4c5bc78"
+          },
+          "candidate": {
+            "pixelSha256": "6905b411957bd5bbf666bd3e581e508fe76f85658e0090e17775679337b45b74",
+            "flux": 171042146.82229632,
+            "green": 0,
+            "lit": 979464,
+            "width": 1280,
+            "height": 800,
+            "calls": 5,
+            "triangles": 77314,
+            "textures": 26,
+            "geometries": 20,
+            "imageSha256": "1fbd373a20843a6990610a715e8d6e433341faaa726cb01caabff119a25a7597"
+          }
+        },
+        "plane-narrow": {
+          "previous": {
+            "pixelSha256": "d93002d254cd47fca8ae473ac893bd723e7d8ea429af5ad6663e90482788ef4c",
+            "flux": 176502937.17145133,
+            "green": 0,
+            "lit": 916247,
+            "width": 1280,
+            "height": 800,
+            "calls": 5,
+            "triangles": 77314,
+            "textures": 26,
+            "geometries": 20,
+            "imageSha256": "fda9e27d6e567154a5b3f9f41c5ad7d47c3d31cd6c97ec9930ac608bc72cf7ee"
+          },
+          "candidate": {
+            "pixelSha256": "e633437dbc196bc6d30b22b2a4a36176d866d37ef283446150a3107d4683370f",
+            "flux": 176504106.9866567,
+            "green": 0,
+            "lit": 916363,
+            "width": 1280,
+            "height": 800,
+            "calls": 5,
+            "triangles": 77314,
+            "textures": 26,
+            "geometries": 20,
+            "imageSha256": "59e63880f3dbb0f6221abcc7852bfcb4ce065fb5a5e676e4ee2bc11018599345"
+          }
+        }
+      },
+      "physicalStatePreserved": true,
+      "errors": [],
+      "passed": true
+    }
+  ]
+}

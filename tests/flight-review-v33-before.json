@@ -1,0 +1,35 @@
+{
+  "version": "0.32.0",
+  "heldCameraJumps": {
+    "current": [
+      0,
+      0.09983341664682815,
+      0,
+      0.9950041652780258
+    ],
+    "preview": [
+      -0.07126279522136234,
+      -0.44358765402307687,
+      -0.042209382564405526,
+      0.8923956382900315
+    ],
+    "times": [
+      0,
+      1000,
+      9900,
+      10000
+    ],
+    "rangeMaximum": 3,
+    "fovStored": [
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "expectedHistoricalFov": 18,
+  "observed": {
+    "time": "16 min 40 s",
+    "previewFov": 22
+  }
+}

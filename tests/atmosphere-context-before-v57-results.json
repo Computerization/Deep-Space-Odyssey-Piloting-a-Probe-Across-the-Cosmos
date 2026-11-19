@@ -1,0 +1,31 @@
+{
+  "title": "Jupiter \u00b7 Crescent",
+  "solidFraming": {
+    "visible": false,
+    "angularRadius": 0.2526802551403156,
+    "separation": 0.2635800552840711,
+    "penetration": -0.010899800143755467,
+    "prominence": 0,
+    "bounds": {
+      "x": -6.360065526171094,
+      "y": 0,
+      "halfWidth": 5.164248611925181,
+      "halfHeight": 7.81625725507318
+    },
+    "ellipse": {
+      "major": 8.262797779080291,
+      "minor": 7.81625725507318,
+      "angle": -3.141592653589793
+    }
+  },
+  "science": {
+    "seen": []
+  },
+  "caption": "",
+  "baselineVersion": "0.56.0",
+  "observedOn": "0.57 bearing-only candidate before observation changes",
+  "sources": {
+    "src/main.js": "b3449f4dc863b5a0d685b8df8d6cb9f2d3d2050b228a0c27409512063c6a14ed",
+    "src/ui/experience-guide.js": "abcaea873a0d2b09495d87a2fb5e1d9945225ad4d331e9c3d1eb5e4b118c78db"
+  }
+}

@@ -1,0 +1,1469 @@
+{
+  "packedRG16K": {
+    "files": {
+      "candidate": "/private/tmp/cosmos-gaia-cloud-evaluation/cloud-rg-16k-etc1s.ktx2",
+      "control": "/private/tmp/cosmos-gaia-cloud-evaluation/hybrid-8192.png",
+      "caseFile": "/private/tmp/cosmos-gaia-cloud-evaluation/cases.json"
+    },
+    "hashes": {
+      "candidate": "e482a979de58e086ecb267ea4e755992a9eabe99514861b67bcfa5807017e2ce",
+      "control": "57c7005261639dfee2bd3dc86a07be5fffc85aa26e048633c8eb95af7e6bafdc",
+      "cases": "094d0f33730159524a78bb4240f6b79c4145941bd38a0db0ae2b9846c7085c64"
+    },
+    "method": "Packed coverage R and regional-height proxy G sampled by the actual GPU at native source pixels. Same-source 8K control. Metrics are observations, not a release-acceptance gate or proof of photographic realism.",
+    "outcomes": [
+      {
+        "name": "Chrome",
+        "engineVersion": "158.0.8127.37",
+        "maps": {
+          "control": {
+            "width": 8192,
+            "height": 4096,
+            "format": 1030,
+            "compressed": false,
+            "mips": 0,
+            "bytes": 89478485.33333333
+          },
+          "candidate": {
+            "width": 16384,
+            "height": 8192,
+            "format": 36492,
+            "compressed": true,
+            "mips": 15,
+            "bytes": 178957008
+          }
+        },
+        "regions": [
+          {
+            "name": "trade-wind",
+            "control": {
+              "rmse": [
+                7.622421412310458,
+                0.6505010776457093
+              ],
+              "gradientRMSE": [
+                7.283666168145607,
+                0.6202033813043458
+              ],
+              "max": [
+                80,
+                6
+              ]
+            },
+            "candidate": {
+              "rmse": [
+                8.194249290541928,
+                5.4224157879019215
+              ],
+              "gradientRMSE": [
+                7.848481557140358,
+                4.84628304503324
+              ],
+              "max": [
+                84,
+                53
+              ]
+            }
+          },
+          {
+            "name": "southern-front",
+            "control": {
+              "rmse": [
+                7.02674877623057,
+                0.7046388506396232
+              ],
+              "gradientRMSE": [
+                7.767431157764236,
+                0.6676113455265714
+              ],
+              "max": [
+                152,
+                10
+              ]
+            },
+            "candidate": {
+              "rmse": [
+                7.928697726611475,
+                5.267577762907848
+              ],
+              "gradientRMSE": [
+                8.208365721407223,
+                5.11277338913399
+              ],
+              "max": [
+                125,
+                62
+              ]
+            }
+          },
+          {
+            "name": "northern-cyclone",
+            "control": {
+              "rmse": [
+                7.11565728038535,
+                0.7550085044533439
+              ],
+              "gradientRMSE": [
+                7.827196060235238,
+                0.6591146164557199
+              ],
+              "max": [
+                137,
+                10
+              ]
+            },
+            "candidate": {
+              "rmse": [
+                8.16897965458387,
+                5.387943267878533
+              ],
+              "gradientRMSE": [
+                8.355189253346106,
+                5.218864922995698
+              ],
+              "max": [
+                127,
+                68
+              ]
+            }
+          },
+          {
+            "name": "fine-stratus",
+            "control": {
+              "rmse": [
+                3.0978721617165776,
+                0.42385962584548553
+              ],
+              "gradientRMSE": [
+                3.4691520727757608,
+                0.4425812694174246
+              ],
+              "max": [
+                174,
+                5
+              ]
+            },
+            "candidate": {
+              "rmse": [
+                3.6360382743698243,
+                2.492672162577972
+              ],
+              "gradientRMSE": [
+                3.7836309945521145,
+                2.3783921941563264
+              ],
+              "max": [
+                133,
+                68
+              ]
+            }
+          },
+          {
+            "name": "polar-transition",
+            "control": {
+              "rmse": [
+                8.903013049379512,
+                0.5893088772447597
+              ],
+              "gradientRMSE": [
+                8.863311200048072,
+                0.5525479512416963
+              ],
+              "max": [
+                117,
+                7
+              ]
+            },
+            "candidate": {
+              "rmse": [
+                8.596317975695047,
+                5.534648993164703
+              ],
+              "gradientRMSE": [
+                8.491841238546467,
+                4.988716986418508
+              ],
+              "max": [
+                110,
+                69
+              ]
+            }
+          },
+          {
+            "name": "south-pole",
+            "control": {
+              "rmse": [
+                0.47524257957395205,
+                0.37441632093193844
+              ],
+              "gradientRMSE": [
+                0.4850378765446824,
+                0.3726620422271297
+              ],
+              "max": [
+                6,
+                1
+              ]
+            },
+            "candidate": {
+              "rmse": [
+                1.5381583770970575,
+                1.2424720422271665
+              ],
+              "gradientRMSE": [
+                0.8318530966246337,
+                0.755413032912156
+              ],
+              "max": [
+                14,
+                9
+              ]
+            }
+          },
+          {
+            "name": "longitude-seam",
+            "control": {
+              "rmse": [
+                7.507687168352084,
+                0.6401087223529232
+              ],
+              "gradientRMSE": [
+                8.226895066176306,
+                0.6339179482402347
+              ],
+              "max": [
+                111,
+                6
+              ]
+            },
+            "candidate": {
+              "rmse": [
+                7.7451708114435736,
+                5.086278010394579
+              ],
+              "gradientRMSE": [
+                8.142658253871069,
+                4.840048995873152
+              ],
+              "max": [
+                99,
+                51
+              ]
+            }
+          },
+          {
+            "name": "equatorial",
+            "control": {
+              "rmse": [
+                8.084960878521711,
+                0.7579534340598537
+              ],
+              "gradientRMSE": [
+                9.712113771251879,
+                0.698320748119194
+              ],
+              "max": [
+                89,
+                8
+              ]
+            },
+            "candidate": {
+              "rmse": [
+                9.172142011924699,
+                6.069148557168821
+              ],
+              "gradientRMSE": [
+                9.933647282674924,
+                6.112892735806686
+              ],
+              "max": [
+                87,
+                55
+              ]
+            }
+          }
+        ],
+        "errors": []
+      }
+    ],
+    "assetBytes": 22852787
+  },
+  "coverage16K": {
+    "files": {
+      "candidate": "/private/tmp/cosmos-gaia-cloud-evaluation/cloud-r-16k-etc1s.ktx2",
+      "control": "/private/tmp/cosmos-gaia-cloud-evaluation/hybrid-8192.png",
+      "caseFile": "/private/tmp/cosmos-gaia-cloud-evaluation/cases.json"
+    },
+    "hashes": {
+      "candidate": "90da7fe2701182272988896f623099f9bfd8f5cfcf01c3f797516a9b8675b24f",
+      "control": "57c7005261639dfee2bd3dc86a07be5fffc85aa26e048633c8eb95af7e6bafdc",
+      "cases": "094d0f33730159524a78bb4240f6b79c4145941bd38a0db0ae2b9846c7085c64"
+    },
+    "channels": 1,
+    "method": "Coverage R, optionally regional-height proxy G, sampled by the actual GPU at native source pixels. Same-source 8K control. Metrics are observations, not a release-acceptance gate or proof of photographic realism.",
+    "outcomes": [
+      {
+        "name": "Chrome",
+        "engineVersion": "158.0.8127.37",
+        "maps": {
+          "control": {
+            "width": 8192,
+            "height": 4096,
+            "format": 1030,
+            "compressed": false,
+            "mips": 0,
+            "bytes": 89478485.33333333
+          },
+          "candidate": {
+            "width": 16384,
+            "height": 8192,
+            "format": 36492,
+            "compressed": true,
+            "mips": 15,
+            "bytes": 178957008
+          }
+        },
+        "regions": [
+          {
+            "name": "trade-wind",
+            "control": {
+              "rmse": [
+                7.622421412310458
+              ],
+              "gradientRMSE": [
+                7.283666168145607
+              ],
+              "max": [
+                80
+              ]
+            },
+            "candidate": {
+              "rmse": [
+                5.355211366292583
+              ],
+              "gradientRMSE": [
+                6.860480279163831
+              ],
+              "max": [
+                58
+              ]
+            }
+          },
+          {
+            "name": "southern-front",
+            "control": {
+              "rmse": [
+                7.02674877623057
+              ],
+              "gradientRMSE": [
+                7.767431157764236
+              ],
+              "max": [
+                152
+              ]
+            },
+            "candidate": {
+              "rmse": [
+                5.331944920699181
+              ],
+              "gradientRMSE": [
+                6.999576637206744
+              ],
+              "max": [
+                98
+              ]
+            }
+          },
+          {
+            "name": "northern-cyclone",
+            "control": {
+              "rmse": [
+                7.11565728038535
+              ],
+              "gradientRMSE": [
+                7.827196060235238
+              ],
+              "max": [
+                137
+              ]
+            },
+            "candidate": {
+              "rmse": [
+                5.531041717918204
+              ],
+              "gradientRMSE": [
+                7.284266816422747
+              ],
+              "max": [
+                97
+              ]
+            }
+          },
+          {
+            "name": "fine-stratus",
+            "control": {
+              "rmse": [
+                3.0978721617165776
+              ],
+              "gradientRMSE": [
+                3.4691520727757608
+              ],
+              "max": [
+                174
+              ]
+            },
+            "candidate": {
+              "rmse": [
+                2.5232570965570513
+              ],
+              "gradientRMSE": [
+                3.2838530855896195
+              ],
+              "max": [
+                100
+              ]
+            }
+          },
+          {
+            "name": "polar-transition",
+            "control": {
+              "rmse": [
+                8.903013049379512
+              ],
+              "gradientRMSE": [
+                8.863311200048072
+              ],
+              "max": [
+                117
+              ]
+            },
+            "candidate": {
+              "rmse": [
+                6.004994750601586
+              ],
+              "gradientRMSE": [
+                7.745836094445981
+              ],
+              "max": [
+                101
+              ]
+            }
+          },
+          {
+            "name": "south-pole",
+            "control": {
+              "rmse": [
+                0.47524257957395205
+              ],
+              "gradientRMSE": [
+                0.4850378765446824
+              ],
+              "max": [
+                6
+              ]
+            },
+            "candidate": {
+              "rmse": [
+                1.093094111377481
+              ],
+              "gradientRMSE": [
+                0.8421127146652716
+              ],
+              "max": [
+                8
+              ]
+            }
+          },
+          {
+            "name": "longitude-seam",
+            "control": {
+              "rmse": [
+                7.507687168352084
+              ],
+              "gradientRMSE": [
+                8.226895066176306
+              ],
+              "max": [
+                111
+              ]
+            },
+            "candidate": {
+              "rmse": [
+                5.276610735084537
+              ],
+              "gradientRMSE": [
+                6.947817171303358
+              ],
+              "max": [
+                71
+              ]
+            }
+          },
+          {
+            "name": "equatorial",
+            "control": {
+              "rmse": [
+                8.084960878521711
+              ],
+              "gradientRMSE": [
+                9.712113771251879
+              ],
+              "max": [
+                89
+              ]
+            },
+            "candidate": {
+              "rmse": [
+                6.110773081052182
+              ],
+              "gradientRMSE": [
+                8.165656097198614
+              ],
+              "max": [
+                69
+              ]
+            }
+          }
+        ],
+        "errors": []
+      }
+    ],
+    "assetBytes": 22077922
+  },
+  "coverage12K": {
+    "files": {
+      "candidate": "/private/tmp/cosmos-gaia-cloud-evaluation/cloud-r-12k-q65.avif",
+      "control": "/private/tmp/cosmos-gaia-cloud-evaluation/hybrid-8192.png",
+      "caseFile": "/private/tmp/cosmos-gaia-cloud-evaluation/cases.json"
+    },
+    "hashes": {
+      "candidate": "d2d43a652f0b6fea527e25d892a88a5985ed09d9e126414ac27cb950c690bc7e",
+      "control": "57c7005261639dfee2bd3dc86a07be5fffc85aa26e048633c8eb95af7e6bafdc",
+      "cases": "094d0f33730159524a78bb4240f6b79c4145941bd38a0db0ae2b9846c7085c64"
+    },
+    "channels": 1,
+    "method": "Coverage R, optionally regional-height proxy G, sampled by the actual GPU at native source pixels. Same-source 8K control. Metrics are observations, not a release-acceptance gate or proof of photographic realism.",
+    "outcomes": [
+      {
+        "name": "Chrome",
+        "engineVersion": "158.0.8127.37",
+        "maps": {
+          "control": {
+            "width": 8192,
+            "height": 4096,
+            "format": 1030,
+            "compressed": false,
+            "mips": 0,
+            "bytes": 89478485.33333333
+          },
+          "candidate": {
+            "width": 12288,
+            "height": 6144,
+            "format": 1028,
+            "compressed": false,
+            "mips": 0,
+            "bytes": 100663296
+          }
+        },
+        "regions": [
+          {
+            "name": "trade-wind",
+            "control": {
+              "rmse": [
+                7.622421412310458
+              ],
+              "gradientRMSE": [
+                7.283666168145607
+              ],
+              "max": [
+                80
+              ]
+            },
+            "candidate": {
+              "rmse": [
+                5.908609554719044
+              ],
+              "gradientRMSE": [
+                6.371579221122278
+              ],
+              "max": [
+                67
+              ]
+            }
+          },
+          {
+            "name": "southern-front",
+            "control": {
+              "rmse": [
+                7.02674877623057
+              ],
+              "gradientRMSE": [
+                7.767431157764236
+              ],
+              "max": [
+                152
+              ]
+            },
+            "candidate": {
+              "rmse": [
+                5.707220632695079
+              ],
+              "gradientRMSE": [
+                6.901747396959817
+              ],
+              "max": [
+                129
+              ]
+            }
+          },
+          {
+            "name": "northern-cyclone",
+            "control": {
+              "rmse": [
+                7.11565728038535
+              ],
+              "gradientRMSE": [
+                7.827196060235238
+              ],
+              "max": [
+                137
+              ]
+            },
+            "candidate": {
+              "rmse": [
+                5.887001710877976
+              ],
+              "gradientRMSE": [
+                7.054218347471462
+              ],
+              "max": [
+                119
+              ]
+            }
+          },
+          {
+            "name": "fine-stratus",
+            "control": {
+              "rmse": [
+                3.0978721617165776
+              ],
+              "gradientRMSE": [
+                3.4691520727757608
+              ],
+              "max": [
+                174
+              ]
+            },
+            "candidate": {
+              "rmse": [
+                2.7675985704814074
+              ],
+              "gradientRMSE": [
+                3.2642749062741707
+              ],
+              "max": [
+                158
+              ]
+            }
+          },
+          {
+            "name": "polar-transition",
+            "control": {
+              "rmse": [
+                8.903013049379512
+              ],
+              "gradientRMSE": [
+                8.863311200048072
+              ],
+              "max": [
+                117
+              ]
+            },
+            "candidate": {
+              "rmse": [
+                6.801873087493797
+              ],
+              "gradientRMSE": [
+                7.484118322895651
+              ],
+              "max": [
+                89
+              ]
+            }
+          },
+          {
+            "name": "south-pole",
+            "control": {
+              "rmse": [
+                0.47524257957395205
+              ],
+              "gradientRMSE": [
+                0.4850378765446824
+              ],
+              "max": [
+                6
+              ]
+            },
+            "candidate": {
+              "rmse": [
+                0.9632424929686276
+              ],
+              "gradientRMSE": [
+                0.6458524027654154
+              ],
+              "max": [
+                6
+              ]
+            }
+          },
+          {
+            "name": "longitude-seam",
+            "control": {
+              "rmse": [
+                7.507687168352084
+              ],
+              "gradientRMSE": [
+                8.226895066176306
+              ],
+              "max": [
+                111
+              ]
+            },
+            "candidate": {
+              "rmse": [
+                5.99465492373184
+              ],
+              "gradientRMSE": [
+                7.147110096391498
+              ],
+              "max": [
+                81
+              ]
+            }
+          },
+          {
+            "name": "equatorial",
+            "control": {
+              "rmse": [
+                8.084960878521711
+              ],
+              "gradientRMSE": [
+                9.712113771251879
+              ],
+              "max": [
+                89
+              ]
+            },
+            "candidate": {
+              "rmse": [
+                6.395231966290924
+              ],
+              "gradientRMSE": [
+                8.245419237184615
+              ],
+              "max": [
+                94
+              ]
+            }
+          }
+        ],
+        "errors": []
+      }
+    ],
+    "assetBytes": 7818465
+  },
+  "interpretation": "Packed RG ETC1S increases coverage and height error and is rejected. The 12K R8 field improves native texture and saves memory but regresses the wide scene even without compression. Native 16K monochrome AVIF is the selected experimental source: all three browser engines retain more genuine non-polar source detail. Polar imagery retains its original 8K detail, so the lossless 8K polar control can outperform compressed candidates. Acceptance remains subject to actual scenes, performance, constrained textures, photography, offline delivery and upgrade checks.",
+  "coverage16KAVIF": {
+    "files": {
+      "candidate": "/private/tmp/cosmos-cloud-detail-final/cloud-r-16k-q65.avif",
+      "control": "/private/tmp/cosmos-cloud-detail-final/hybrid-8192.png",
+      "caseFile": "/private/tmp/cosmos-cloud-detail-final/cases.json"
+    },
+    "hashes": {
+      "candidate": "52c8504370bc943b07f743083125ee4eca883524d770ab80757ba43ef4927d47",
+      "control": "fb9530aa94ac7e2818babf9fc7eb5f415b0ca8544d0ce4915be2ca20494e2228",
+      "cases": "7f958b112923909966a3a0bd9c8e7efcbefce53a86cedda7676a70492f8d6a7b"
+    },
+    "channels": 1,
+    "method": "Coverage R, optionally regional-height proxy G, sampled by the actual GPU at native source pixels. Same-source 8K control. Metrics are observations, not a release-acceptance gate or proof of photographic realism.",
+    "outcomes": [
+      {
+        "name": "Chrome",
+        "engineVersion": "158.0.8127.37",
+        "maps": {
+          "control": {
+            "width": 8192,
+            "height": 4096,
+            "format": 1030,
+            "compressed": false,
+            "mips": 0,
+            "bytes": 89478485.33333333
+          },
+          "candidate": {
+            "width": 16384,
+            "height": 8192,
+            "format": 1028,
+            "compressed": false,
+            "mips": 0,
+            "bytes": 178956970.66666666
+          }
+        },
+        "regions": [
+          {
+            "name": "trade-wind",
+            "control": {
+              "rmse": [
+                7.622421412310458
+              ],
+              "gradientRMSE": [
+                7.283666168145607
+              ],
+              "max": [
+                80
+              ]
+            },
+            "candidate": {
+              "rmse": [
+                3.2499593096411092
+              ],
+              "gradientRMSE": [
+                4.409493253031723
+              ],
+              "max": [
+                24
+              ]
+            }
+          },
+          {
+            "name": "southern-front",
+            "control": {
+              "rmse": [
+                7.02674877623057
+              ],
+              "gradientRMSE": [
+                7.767431157764236
+              ],
+              "max": [
+                152
+              ]
+            },
+            "candidate": {
+              "rmse": [
+                3.2826974733933243
+              ],
+              "gradientRMSE": [
+                4.576092097471391
+              ],
+              "max": [
+                24
+              ]
+            }
+          },
+          {
+            "name": "northern-cyclone",
+            "control": {
+              "rmse": [
+                7.11565728038535
+              ],
+              "gradientRMSE": [
+                7.827196060235238
+              ],
+              "max": [
+                137
+              ]
+            },
+            "candidate": {
+              "rmse": [
+                3.548874883600875
+              ],
+              "gradientRMSE": [
+                4.8961975583105835
+              ],
+              "max": [
+                25
+              ]
+            }
+          },
+          {
+            "name": "fine-stratus",
+            "control": {
+              "rmse": [
+                3.0978721617165776
+              ],
+              "gradientRMSE": [
+                3.4691520727757608
+              ],
+              "max": [
+                174
+              ]
+            },
+            "candidate": {
+              "rmse": [
+                1.8334882266184416
+              ],
+              "gradientRMSE": [
+                2.309949383204757
+              ],
+              "max": [
+                34
+              ]
+            }
+          },
+          {
+            "name": "polar-transition",
+            "control": {
+              "rmse": [
+                8.903013049379512
+              ],
+              "gradientRMSE": [
+                8.863311200048072
+              ],
+              "max": [
+                117
+              ]
+            },
+            "candidate": {
+              "rmse": [
+                2.876870251903805
+              ],
+              "gradientRMSE": [
+                4.010389160239791
+              ],
+              "max": [
+                32
+              ]
+            }
+          },
+          {
+            "name": "south-pole",
+            "control": {
+              "rmse": [
+                0.47524257957395205
+              ],
+              "gradientRMSE": [
+                0.4850378765446824
+              ],
+              "max": [
+                6
+              ]
+            },
+            "candidate": {
+              "rmse": [
+                0.7278459486284827
+              ],
+              "gradientRMSE": [
+                0.6063677374392338
+              ],
+              "max": [
+                4
+              ]
+            }
+          },
+          {
+            "name": "longitude-seam",
+            "control": {
+              "rmse": [
+                7.507687168352084
+              ],
+              "gradientRMSE": [
+                8.226895066176306
+              ],
+              "max": [
+                111
+              ]
+            },
+            "candidate": {
+              "rmse": [
+                3.1633663714673026
+              ],
+              "gradientRMSE": [
+                4.363369243253204
+              ],
+              "max": [
+                27
+              ]
+            }
+          },
+          {
+            "name": "equatorial",
+            "control": {
+              "rmse": [
+                8.084960878521711
+              ],
+              "gradientRMSE": [
+                9.712113771251879
+              ],
+              "max": [
+                89
+              ]
+            },
+            "candidate": {
+              "rmse": [
+                3.810690528590258
+              ],
+              "gradientRMSE": [
+                5.367092915019032
+              ],
+              "max": [
+                27
+              ]
+            }
+          }
+        ],
+        "errors": []
+      },
+      {
+        "name": "Firefox",
+        "engineVersion": "153.0",
+        "maps": {
+          "control": {
+            "width": 8192,
+            "height": 4096,
+            "format": 1030,
+            "compressed": false,
+            "mips": 0,
+            "bytes": 89478485.33333333
+          },
+          "candidate": {
+            "width": 16384,
+            "height": 8192,
+            "format": 1028,
+            "compressed": false,
+            "mips": 0,
+            "bytes": 178956970.66666666
+          }
+        },
+        "regions": [
+          {
+            "name": "trade-wind",
+            "control": {
+              "rmse": [
+                7.622421412310458
+              ],
+              "gradientRMSE": [
+                7.283666168145607
+              ],
+              "max": [
+                80
+              ]
+            },
+            "candidate": {
+              "rmse": [
+                9.408162105366083
+              ],
+              "gradientRMSE": [
+                7.879446851725795
+              ],
+              "max": [
+                119
+              ]
+            }
+          },
+          {
+            "name": "southern-front",
+            "control": {
+              "rmse": [
+                7.02674877623057
+              ],
+              "gradientRMSE": [
+                7.767431157764236
+              ],
+              "max": [
+                152
+              ]
+            },
+            "candidate": {
+              "rmse": [
+                8.358031738357305
+              ],
+              "gradientRMSE": [
+                8.160894045246696
+              ],
+              "max": [
+                142
+              ]
+            }
+          },
+          {
+            "name": "northern-cyclone",
+            "control": {
+              "rmse": [
+                7.11565728038535
+              ],
+              "gradientRMSE": [
+                7.827196060235238
+              ],
+              "max": [
+                137
+              ]
+            },
+            "candidate": {
+              "rmse": [
+                9.368073070281326
+              ],
+              "gradientRMSE": [
+                8.532164917823113
+              ],
+              "max": [
+                136
+              ]
+            }
+          },
+          {
+            "name": "fine-stratus",
+            "control": {
+              "rmse": [
+                3.0978721617165776
+              ],
+              "gradientRMSE": [
+                3.4691520727757608
+              ],
+              "max": [
+                174
+              ]
+            },
+            "candidate": {
+              "rmse": [
+                4.034817164681549
+              ],
+              "gradientRMSE": [
+                3.744657397735978
+              ],
+              "max": [
+                167
+              ]
+            }
+          },
+          {
+            "name": "polar-transition",
+            "control": {
+              "rmse": [
+                8.903013049379512
+              ],
+              "gradientRMSE": [
+                8.863311200048072
+              ],
+              "max": [
+                117
+              ]
+            },
+            "candidate": {
+              "rmse": [
+                10.631726817046452
+              ],
+              "gradientRMSE": [
+                9.556732541197968
+              ],
+              "max": [
+                158
+              ]
+            }
+          },
+          {
+            "name": "south-pole",
+            "control": {
+              "rmse": [
+                0.47524257957395205
+              ],
+              "gradientRMSE": [
+                0.4850378765446824
+              ],
+              "max": [
+                6
+              ]
+            },
+            "candidate": {
+              "rmse": [
+                0.9664791933870072
+              ],
+              "gradientRMSE": [
+                0.6053162635060871
+              ],
+              "max": [
+                9
+              ]
+            }
+          },
+          {
+            "name": "longitude-seam",
+            "control": {
+              "rmse": [
+                7.507687168352084
+              ],
+              "gradientRMSE": [
+                8.226895066176306
+              ],
+              "max": [
+                111
+              ]
+            },
+            "candidate": {
+              "rmse": [
+                9.224750320377636
+              ],
+              "gradientRMSE": [
+                8.827651724681745
+              ],
+              "max": [
+                119
+              ]
+            }
+          },
+          {
+            "name": "equatorial",
+            "control": {
+              "rmse": [
+                8.084960878521711
+              ],
+              "gradientRMSE": [
+                9.712113771251879
+              ],
+              "max": [
+                89
+              ]
+            },
+            "candidate": {
+              "rmse": [
+                10.47980434128307
+              ],
+              "gradientRMSE": [
+                10.600644546029217
+              ],
+              "max": [
+                108
+              ]
+            }
+          }
+        ],
+        "errors": []
+      },
+      {
+        "name": "WebKit",
+        "engineVersion": "26.5",
+        "maps": {
+          "control": {
+            "width": 8192,
+            "height": 4096,
+            "format": 1030,
+            "compressed": false,
+            "mips": 0,
+            "bytes": 89478485.33333333
+          },
+          "candidate": {
+            "width": 16384,
+            "height": 8192,
+            "format": 1028,
+            "compressed": false,
+            "mips": 0,
+            "bytes": 178956970.66666666
+          }
+        },
+        "regions": [
+          {
+            "name": "trade-wind",
+            "control": {
+              "rmse": [
+                7.622421412310458
+              ],
+              "gradientRMSE": [
+                7.283666168145607
+              ],
+              "max": [
+                80
+              ]
+            },
+            "candidate": {
+              "rmse": [
+                3.2499593096411092
+              ],
+              "gradientRMSE": [
+                4.409493253031723
+              ],
+              "max": [
+                24
+              ]
+            }
+          },
+          {
+            "name": "southern-front",
+            "control": {
+              "rmse": [
+                7.02674877623057
+              ],
+              "gradientRMSE": [
+                7.767431157764236
+              ],
+              "max": [
+                152
+              ]
+            },
+            "candidate": {
+              "rmse": [
+                3.2826974733933243
+              ],
+              "gradientRMSE": [
+                4.576092097471391
+              ],
+              "max": [
+                24
+              ]
+            }
+          },
+          {
+            "name": "northern-cyclone",
+            "control": {
+              "rmse": [
+                7.11565728038535
+              ],
+              "gradientRMSE": [
+                7.827196060235238
+              ],
+              "max": [
+                137
+              ]
+            },
+            "candidate": {
+              "rmse": [
+                3.548874883600875
+              ],
+              "gradientRMSE": [
+                4.8961975583105835
+              ],
+              "max": [
+                25
+              ]
+            }
+          },
+          {
+            "name": "fine-stratus",
+            "control": {
+              "rmse": [
+                3.0978721617165776
+              ],
+              "gradientRMSE": [
+                3.4691520727757608
+              ],
+              "max": [
+                174
+              ]
+            },
+            "candidate": {
+              "rmse": [
+                1.8334882266184416
+              ],
+              "gradientRMSE": [
+                2.309949383204757
+              ],
+              "max": [
+                34
+              ]
+            }
+          },
+          {
+            "name": "polar-transition",
+            "control": {
+              "rmse": [
+                8.903013049379512
+              ],
+              "gradientRMSE": [
+                8.863311200048072
+              ],
+              "max": [
+                117
+              ]
+            },
+            "candidate": {
+              "rmse": [
+                2.876870251903805
+              ],
+              "gradientRMSE": [
+                4.010389160239791
+              ],
+              "max": [
+                32
+              ]
+            }
+          },
+          {
+            "name": "south-pole",
+            "control": {
+              "rmse": [
+                0.47524257957395205
+              ],
+              "gradientRMSE": [
+                0.4850378765446824
+              ],
+              "max": [
+                6
+              ]
+            },
+            "candidate": {
+              "rmse": [
+                0.7278459486284827
+              ],
+              "gradientRMSE": [
+                0.6063677374392338
+              ],
+              "max": [
+                4
+              ]
+            }
+          },
+          {
+            "name": "longitude-seam",
+            "control": {
+              "rmse": [
+                7.507687168352084
+              ],
+              "gradientRMSE": [
+                8.226895066176306
+              ],
+              "max": [
+                111
+              ]
+            },
+            "candidate": {
+              "rmse": [
+                3.1633663714673026
+              ],
+              "gradientRMSE": [
+                4.363369243253204
+              ],
+              "max": [
+                27
+              ]
+            }
+          },
+          {
+            "name": "equatorial",
+            "control": {
+              "rmse": [
+                8.084960878521711
+              ],
+              "gradientRMSE": [
+                9.712113771251879
+              ],
+              "max": [
+                89
+              ]
+            },
+            "candidate": {
+              "rmse": [
+                3.810690528590258
+              ],
+              "gradientRMSE": [
+                5.367092915019032
+              ],
+              "max": [
+                27
+              ]
+            }
+          }
+        ],
+        "errors": []
+      }
+    ],
+    "assetBytes": 12448672
+  },
+  "uploadDimensionClarification": "Early trial records used image.width and image.height, which describe source pixels rather than actual GPU upload size. Final cloud-map-detail-results.json records both. Firefox uploads the 16K image at its 8K limit; Chrome and WebKit upload native 16K."
+}

@@ -1,0 +1,308 @@
+{
+  "fixedPatchTrials": {
+    "results": [
+      {
+        "mode": "baseline",
+        "label": "close",
+        "scale": 1,
+        "preserved": true,
+        "graphicsError": 0,
+        "patchDimensions": null,
+        "resources": {
+          "geometries": 22,
+          "textures": 29
+        }
+      },
+      {
+        "mode": "32k-q55",
+        "label": "close",
+        "scale": 2,
+        "preserved": true,
+        "graphicsError": 0,
+        "patchDimensions": [
+          2048,
+          2048
+        ],
+        "resources": {
+          "geometries": 22,
+          "textures": 30
+        }
+      },
+      {
+        "mode": "64k-q45",
+        "label": "close",
+        "scale": 4,
+        "preserved": true,
+        "graphicsError": 0,
+        "patchDimensions": [
+          4096,
+          4096
+        ],
+        "resources": {
+          "geometries": 22,
+          "textures": 30
+        }
+      },
+      {
+        "mode": "64k-q65",
+        "label": "close",
+        "scale": 4,
+        "preserved": true,
+        "graphicsError": 0,
+        "patchDimensions": [
+          4096,
+          4096
+        ],
+        "resources": {
+          "geometries": 22,
+          "textures": 30
+        }
+      },
+      {
+        "mode": "reference",
+        "label": "close",
+        "scale": 4,
+        "preserved": true,
+        "graphicsError": 0,
+        "patchDimensions": [
+          4096,
+          4096
+        ],
+        "resources": {
+          "geometries": 22,
+          "textures": 30
+        }
+      },
+      {
+        "mode": "baseline",
+        "label": "transition",
+        "scale": 1,
+        "preserved": true,
+        "graphicsError": 0,
+        "patchDimensions": [
+          4096,
+          4096
+        ],
+        "resources": {
+          "geometries": 22,
+          "textures": 30
+        }
+      },
+      {
+        "mode": "32k-q55",
+        "label": "transition",
+        "scale": 2,
+        "preserved": true,
+        "graphicsError": 0,
+        "patchDimensions": [
+          2048,
+          2048
+        ],
+        "resources": {
+          "geometries": 22,
+          "textures": 30
+        }
+      },
+      {
+        "mode": "64k-q45",
+        "label": "transition",
+        "scale": 4,
+        "preserved": true,
+        "graphicsError": 0,
+        "patchDimensions": [
+          4096,
+          4096
+        ],
+        "resources": {
+          "geometries": 22,
+          "textures": 30
+        }
+      },
+      {
+        "mode": "64k-q65",
+        "label": "transition",
+        "scale": 4,
+        "preserved": true,
+        "graphicsError": 0,
+        "patchDimensions": [
+          4096,
+          4096
+        ],
+        "resources": {
+          "geometries": 22,
+          "textures": 30
+        }
+      },
+      {
+        "mode": "reference",
+        "label": "transition",
+        "scale": 4,
+        "preserved": true,
+        "graphicsError": 0,
+        "patchDimensions": [
+          4096,
+          4096
+        ],
+        "resources": {
+          "geometries": 22,
+          "textures": 30
+        }
+      }
+    ],
+    "errors": [],
+    "cases": [
+      {
+        "name": "close",
+        "x": 62464,
+        "y": 14336,
+        "width": 4096,
+        "height": 4096,
+        "uv": [
+          0.953125,
+          0.4375,
+          0.0625,
+          0.125
+        ],
+        "files": {
+          "32k-q55": {
+            "path": "/private/tmp/cosmos-cloud-local-source/close-32k-q55.avif",
+            "bytes": 242276,
+            "sha256": "27cad56ae7457af63f0e43ccfda87e83d02208895ba63e510b1ec957fa077255"
+          },
+          "64k-q45": {
+            "path": "/private/tmp/cosmos-cloud-local-source/close-64k-q45.avif",
+            "bytes": 386456,
+            "sha256": "53f3c16774711b3fa21e3bf6cf047414bb74842249842604c623e61860adbec2"
+          },
+          "64k-q65": {
+            "path": "/private/tmp/cosmos-cloud-local-source/close-64k-q65.avif",
+            "bytes": 696977,
+            "sha256": "1290fefee6a540172dc8ae8cfe485321fba4c9ba597111d5cf8a149a695ab43c"
+          }
+        }
+      },
+      {
+        "name": "transition",
+        "x": -1024,
+        "y": 5120,
+        "width": 4096,
+        "height": 4096,
+        "uv": [
+          -0.015625,
+          0.71875,
+          0.0625,
+          0.125
+        ],
+        "files": {
+          "32k-q55": {
+            "path": "/private/tmp/cosmos-cloud-local-source/transition-32k-q55.avif",
+            "bytes": 166922,
+            "sha256": "85f1b41e0aa87b34740f38325b3f3f4dff9e4d1ce81a1132f06d52a9839b7581"
+          },
+          "64k-q45": {
+            "path": "/private/tmp/cosmos-cloud-local-source/transition-64k-q45.avif",
+            "bytes": 269336,
+            "sha256": "dd97d1e9ff99933c232a80d36ec887d8796e245373a7243a4911a54be5fdcb9d"
+          },
+          "64k-q65": {
+            "path": "/private/tmp/cosmos-cloud-local-source/transition-64k-q65.avif",
+            "bytes": 461054,
+            "sha256": "dffe1e460a5cec5f0c8a3729da8fa5082373db6d5de24bcf8d072e3dd9599305"
+          }
+        }
+      }
+    ],
+    "scope": "Fixed-patch proof of source detail. Main game remains unchanged; no moving cache, fallback transition, all-world packaging or production performance claim."
+  },
+  "fixedPatchMetrics": {
+    "close": {
+      "baseline": {
+        "rmse": 5.137909889221191,
+        "gradientRMSE": 2.8026983737945557
+      },
+      "32k-q55": {
+        "rmse": 3.0718777179718018,
+        "gradientRMSE": 1.9365381002426147
+      },
+      "64k-q45": {
+        "rmse": 2.0867929458618164,
+        "gradientRMSE": 1.4637863636016846
+      },
+      "64k-q65": {
+        "rmse": 1.2088022232055664,
+        "gradientRMSE": 1.0320067405700684
+      }
+    },
+    "transition": {
+      "baseline": {
+        "rmse": 3.0266237258911133,
+        "gradientRMSE": 1.0011380910873413
+      },
+      "32k-q55": {
+        "rmse": 2.2857961654663086,
+        "gradientRMSE": 0.9287829399108887
+      },
+      "64k-q45": {
+        "rmse": 1.5530699491500854,
+        "gradientRMSE": 0.8719646334648132
+      },
+      "64k-q65": {
+        "rmse": 1.0809030532836914,
+        "gradientRMSE": 0.8079990148544312
+      }
+    }
+  },
+  "pagedCandidateMetrics": {
+    "close": {
+      "referenceScope": "Fixed 64K-grid lossless source patch in the same inferred-volume renderer, not a real photograph. Camera and output match the fixed-patch trial.",
+      "images": {
+        "reference": {
+          "path": "/private/tmp/cosmos-cloud-local-trial/reference-close.png",
+          "sha256": "6545b755bbe529abe8b2ec5c3559e38674a47799ff3d1e2323b0576f5cfff0c2"
+        },
+        "previous": {
+          "path": "/private/tmp/cosmos-cloud-local-trial/baseline-close.png",
+          "sha256": "fdbb6ad3c3b26a8e4d07197e5aae6aa62aa741f932a8307b8f5bc6f091ff6fa8"
+        },
+        "candidate": {
+          "path": "tests/screenshots/cloud-streaming/Chrome-close.png",
+          "sha256": "b5031015cfc5d53933f7e63df1eb420489ba8f3b20f11466ca025d097a31e99d"
+        }
+      },
+      "previous": {
+        "rmse": 5.137909889221191,
+        "gradientRMSE": 2.8026983737945557
+      },
+      "candidate": {
+        "rmse": 2.9794204235076904,
+        "gradientRMSE": 1.8784453868865967
+      }
+    },
+    "transition": {
+      "referenceScope": "Fixed 64K-grid lossless source patch in the same inferred-volume renderer, not a real photograph. Camera and output match the fixed-patch trial.",
+      "images": {
+        "reference": {
+          "path": "/private/tmp/cosmos-cloud-local-trial/reference-transition.png",
+          "sha256": "dce1476497e9264c88ebe56f1513c0087625c58ed042014dac9ea8bc0e3632b2"
+        },
+        "previous": {
+          "path": "/private/tmp/cosmos-cloud-local-trial/baseline-transition.png",
+          "sha256": "2495e8e204b19c4a626961f6dfbf4cf5cbbdb087c4679b33f0376529ce9033d9"
+        },
+        "candidate": {
+          "path": "tests/screenshots/cloud-streaming/Chrome-transition.png",
+          "sha256": "a93c85c5f13e8af0316f1df8749ebbb8664795b68e867c18efb5d172b9254082"
+        }
+      },
+      "previous": {
+        "rmse": 3.0266237258911133,
+        "gradientRMSE": 1.0011380910873413
+      },
+      "candidate": {
+        "rmse": 2.291738986968994,
+        "gradientRMSE": 0.9292784929275513
+      }
+    }
+  },
+  "limits": "Two fixed views establish source retention only. Three-engine streaming and separate cost checks assess runtime behavior. Cloud height and scattering remain approximate; no photographic-equivalence claim."
+}

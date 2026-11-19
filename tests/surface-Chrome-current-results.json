@@ -1,0 +1,12 @@
+{
+  "engine": "Chrome",
+  "patch": {
+    "key": "6-5",
+    "cache": 4,
+    "loads": 1,
+    "width": 4096,
+    "base": 16384
+  },
+  "resume": true,
+  "errors": []
+}

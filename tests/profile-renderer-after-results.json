@@ -1,0 +1,40 @@
+{
+  "quality": "high",
+  "resolution": [
+    3200,
+    2000
+  ],
+  "timer": true,
+  "runs": [
+    {
+      "mode": "full",
+      "medianMs": 14.362083,
+      "p90Ms": 14.884583,
+      "calls": 7
+    },
+    {
+      "mode": "no-clouds",
+      "medianMs": 4.172583,
+      "p90Ms": 4.207833,
+      "calls": 5
+    },
+    {
+      "mode": "no-atmosphere",
+      "medianMs": 12.570999,
+      "p90Ms": 12.925374,
+      "calls": 5
+    },
+    {
+      "mode": "surface",
+      "medianMs": 2.299666,
+      "p90Ms": 2.343583,
+      "calls": 4
+    },
+    {
+      "mode": "chase",
+      "medianMs": 17.298624,
+      "p90Ms": 18.697499,
+      "calls": 17
+    }
+  ]
+}
