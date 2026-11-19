@@ -1,12 +1,12 @@
 const groups = {
  keyboard: [
   ['Fly', [['Look / turn', 'Mouse / arrow keys'], ['Forward / backward flight', 'W / S'], ['Sideways / vertical flight', 'A D / R F'], ['Roll', 'Q / E'], ['Faster flight', 'Hold Shift']]],
-  ['Flight & camera', [['Brake', 'Hold Space'], ['Take photograph', 'P'], ['Lens', 'Scroll'], ['View / camera menu', 'C / K'], ['Free look', 'V'], ['Follow / release subject', 'L']]],
+  ['Flight & camera', [['Brake', 'Hold Space'], ['Take photograph', 'P'], ['Lens', 'Scroll'], ['First / third person; camera menu', 'C / K'], ['Free look', 'V'], ['Follow / release subject', 'L']]],
   ['More controls', [['Fieldwork / discovery', 'X'], ['Fine control', 'Z'], ['Interface / bearings', 'H / G'], ['Explore / journal', 'M / J'], ['Review / recent photo', 'U / O'], ['Instruments', 'I'], ['Exposure', '− / +'], ['Sound', 'B'], ['Continue voyage', 'N'], ['Pause', 'Escape']]]
  ],
  gamepad: [
   ['Fly', [['Turn', 'Right stick'], ['Forward / backward flight', 'RT / LT'], ['Sideways / vertical flight', 'Left stick'], ['Roll', 'LB / RB'], ['Faster flight', 'Hold LB + RB']]],
-  ['Flight & camera', [['Brake', 'Hold B'], ['Take photograph', 'Left-stick click'], ['Lens', 'D-pad ← / →'], ['Camera / free look', 'Y / right-stick click'], ['Follow a world', 'Menu → Camera']]],
+  ['Flight & camera', [['Brake', 'Hold B'], ['Take photograph', 'Left-stick click'], ['Lens', 'D-pad ← / →'], ['First / third person; free look', 'Y / right-stick click'], ['Follow a world', 'Menu → Camera']]],
   ['More controls', [['Fieldwork / discovery', 'X'], ['Continue voyage', 'D-pad ↑'], ['Record another view', 'Hold A'], ['Voyage', 'View'], ['Fine control & interface', 'Menu → Settings'], ['Flight instruments', 'Menu → Settings'], ['Pause', 'Menu'], ['Select / back in menus', 'A / B']]]
  ]
 };

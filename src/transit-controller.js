@@ -9,6 +9,15 @@ import {createDomWriter} from './ui/dom.js';
 import {createPassageChart,createLocalPassageChart} from './ui/passage-chart.js';
 const V=THREE.Vector3;
 const smooth=t=>{t=Math.max(0,Math.min(1,t));return t*t*(3-2*t);};
+// Each caption describes the mission rather than the assisted camera path.
+const PASSAGE_NOTES={
+ Jupiter:'At Jupiter, gravity bent Voyager’s path and increased its speed relative to the Sun.',
+ Titan:'Jupiter’s gravity assist carried Voyager onward to the Saturn system and Titan.',
+ Saturn:'Titan’s encounter redirected Voyager above the plane of the planets.',
+ 'Pale Blue Dot':'In 1990, Voyager turned its cameras homeward for a final family portrait.',
+ 'Interstellar space':'In 2012, particle measurements revealed Voyager crossing the heliopause.',
+ 'One light-day':'At one light-day, a radio message takes about 24 hours to reach Earth.'
+};
 const tuple=(v,n)=>Array.isArray(v)&&v.length===n&&v.every(Number.isFinite);
 const jd=stamp=>Date.parse(stamp.endsWith('Z')?stamp:stamp+'Z')/86400000+2440587.5;
 export function createTransitController({game,world,ui,arrive,isSteady=()=>false}){
@@ -49,33 +58,37 @@ export function createTransitController({game,world,ui,arrive,isSteady=()=>false
    t.controlB=t.arrival.clone().sub(world.bodyPositions[t.body]).normalize().multiplyScalar(BODY_DATA[t.body].radius*4).add(t.arrival).addScaledVector(side,t.length*.3);
   }
   ui('passage').classList.remove('launching');ui('launch-film').pause();ui('launch-film').hidden=true;
-  chart=t.local?null:createPassageChart(ui('passage-chart'),world,t);ui('passage').hidden=false;
-  ui('passage-caption').textContent=t.local?`${formatDistance(t.length)} apart · assisted transfer`:`${formatDistance(t.length)} · ${flightDuration(Math.abs(t.duration))}${t.duration<0?' back to the earlier encounter':' of mission time'}`;
+  chart=isSteady()&&!t.local?createPassageChart(ui('passage-chart'),world,t):null;ui('passage').hidden=false;
+  t.caption=t.local?'A nearby transfer, reconstructed for exploration.':PASSAGE_NOTES[t.name]||'The dated trajectory is time-compressed; the external camera is a reconstruction.';
+  ui('passage-caption').textContent=t.caption;
   ui('cruise-scale').hidden=true;
   update(0,{});return true;
  }
  function refreshChart(){
   const t=game.transit,steady=isSteady();
-  if(t.local&&steady&&!chart)chart=createLocalPassageChart(dom.node('passage-chart'),t);
-  dom.hidden('passage-chart',t.local&&!steady);
-  const reveal=steady?1:smooth((t.progress-.12)/.14)*(1-smooth((t.progress-.72)/.14));
-  dom.style('passage-veil','opacity',String(steady||t.local?0:reveal*.72));
-  if(chart&&(!t.local||steady)){
+  if(steady&&!chart)chart=t.local?createLocalPassageChart(dom.node('passage-chart'),t):createPassageChart(dom.node('passage-chart'),world,t);
+  dom.hidden('passage-chart',!steady);
+  // Brief dissolves hide the changes between the encounter reconstruction and
+  // sampled cruise trajectory. The scene remains three-dimensional throughout.
+  const dissolve=x=>smooth((x-.20)/.035)*(1-smooth((x-.245)/.035));
+  const reveal=steady?1:0;
+  dom.style('passage-veil','opacity',String(steady||t.local?0:Math.max(dissolve(t.progress),dissolve(t.progress-.50))));
+  if(chart&&steady){
    dom.style('passage-chart','opacity',String(reveal));if(reveal>0)chart(t.local?game.player.position:t.jd);
   }
  }
  function update(dt,sample){
   const t=game.transit;if(!t)return;
   if(t.held!==game.timePaused){
-   t.held=game.timePaused;const label=t.held?'Space / B · Resume':'Time compressed';
-   ui('passage-keys').innerHTML=label+' <span>Esc · pause</span>';
+   t.held=game.timePaused;const label=t.held?'Space / B · Resume':'Space / B · Hold';
+   ui('passage-keys').innerHTML=label+' <span>N / D-pad ↑ · Skip</span><span>Esc · pause</span>';
   }
-  if(!game.timePaused)t.progress=Math.min(1,t.progress+Math.min(dt,.1)/9);
+  if(!game.timePaused)t.progress=Math.min(1,t.progress+Math.min(dt,.1)/(t.local?7:10));
   if(t.progress===t.displayedProgress)return;
   t.displayedProgress=t.progress;
   const p=t.progress,travel=smooth((p-.24)/.50);t.seconds=t.duration*travel;t.jd=t.start+(t.end-t.start)*travel;t.travelled=t.length*travel;
   dom.style('passage-progress','width',`${p*100}%`);
-  dom.text('passage-detail',epochLabel(t.jd,!t.local&&Math.abs(t.duration)<SECONDS_PER_DAY)+(CHAPTERS[t.next].predicted?' · predicted destination':''));
+  dom.text('passage-detail',`${epochLabel(t.jd,!t.local&&Math.abs(t.duration)<SECONDS_PER_DAY)}${CHAPTERS[t.next].predicted?' · predicted destination':''} · ${t.local?'assisted transfer':`${flightDuration(Math.abs(t.duration))} · time compressed`}`);
   dom.text('passage-title',`${p>.8?'Arriving at':'Towards'} ${t.place}`);
   // Depart from the actual player view, cross the historical distance under
   // the dated intertitle, and emerge into an approaching destination.
@@ -88,7 +101,7 @@ export function createTransitController({game,world,ui,arrive,isSteady=()=>false
   }else if(p<.24){
    t.showWorlds=true;game.player.position.copy(t.origin).sub(t.sourceCenter).multiplyScalar(Math.exp(smooth(p/.24)*3.5)).add(t.sourceCenter);game.player.quaternion.copy(t.orientation);game.look.copy(t.look);
   }else if(p<.74){
-   t.showWorlds=false;const state=trajectoryState(world.cruise.objects.voyager,t.jd);game.player.position.copy(icrf(state.position));game.player.velocity.copy(icrf(state.velocity));
+   t.showWorlds=false;game.player.quaternion.copy(t.orientation).multiply(t.look);game.look.identity();const state=trajectoryState(world.cruise.objects.voyager,t.jd);game.player.position.copy(icrf(state.position));game.player.velocity.copy(icrf(state.velocity));
   }else{
    if(!t.arrivalReady){world.setEpoch(t.arrivalEpoch);t.arrivalReady=true;t.arrival=arrivalPosition(world,t.next,t.targetStudy);t.body=STUDIES.find(s=>s.id===t.targetStudy)?.body||CHAPTERS[t.next].body;}
    t.showWorlds=true;const center=world.bodyPositions[t.body],a=smooth((p-.74)/.26);
@@ -104,5 +117,5 @@ export function createTransitController({game,world,ui,arrive,isSteady=()=>false
    game.player.position.copy(position);game.player.quaternion.copy(orientation);game.look.identity();world.followReady=false;
   }
  }
- return {begin,update,checkpoint,refreshChart};
+ return {begin,update,checkpoint,refreshChart,skip(){if(game.transit){game.transit.progress=1;update(0,{});}}};
 }

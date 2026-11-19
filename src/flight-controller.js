@@ -1,6 +1,7 @@
 import * as THREE from '../vendor/three/three.core.js';
 import {BODY_DATA} from './mission.js';
 import {encounterContext} from './encounter-context.js';
+import {GM} from './propulsion.js';
 
 // This is a flyby experience. Keep close passes above the reference surface
 // and within useful image coverage; these are exploration limits, not terrain.
@@ -8,7 +9,25 @@ export const CLOSE_PASS={earth:1.15,moon:1.22,io:1.22,jupiter:1.45,saturn:1.6,ti
 
 // Synchronous integration scratch; no temporary vector escapes a substep.
 const inputVector=new THREE.Vector3(),turnVector=new THREE.Vector3(),relativeVector=new THREE.Vector3(),oldRadial=new THREE.Vector3();
-const rotation=new THREE.Quaternion();
+const rotation=new THREE.Quaternion(),gravityVector=new THREE.Vector3();
+// Acceleration in the fixed encounter frame. Other bodies contribute their
+// differential pull at the frame origin, avoiding a fictitious bulk fall of
+// a planet that the historical scene deliberately holds fixed. km/s².
+export function localGravity(position,centres,region,out){
+ out.set(0,0,0);
+ const origin=centres[region.body];
+ for(let i=0;i<=region.worlds.length;i++){
+  const id=i===region.worlds.length?'sun':region.worlds[i];
+  const c=centres[id],mu=GM[id];if(!c||!mu)continue;
+  let x=c.x-position.x,y=c.y-position.y,z=c.z-position.z,r2=x*x+y*y+z*z;
+  if(r2>1){const k=mu/(r2*Math.sqrt(r2));out.x+=x*k;out.y+=y*k;out.z+=z*k;}
+  if(origin&&id!==region.body){
+   x=c.x-origin.x;y=c.y-origin.y;z=c.z-origin.z;r2=x*x+y*y+z*z;
+   if(r2>1){const k=mu/(r2*Math.sqrt(r2));out.x-=x*k;out.y-=y*k;out.z-=z*k;}
+  }
+ }
+ return out;
+}
 export function stepAttitude(game,sample,dt){
  game.elapsed+=dt;game.chapterTime+=dt;game.idle+=dt;
  const demand=inputVector.set(sample.pitch/Math.max(dt,.001),sample.yaw/Math.max(dt,.001),sample.roll).multiplyScalar(game.precision?.35:1);
@@ -69,6 +88,9 @@ function advanceManualFlight(game,world,sample,dt,region){
  // Thrust changes momentum; letting go leaves a coast. The local exploration
  // speed envelope is assisted, while Space supplies an explicit braking force.
  const acceleration=speed*.55;game.braking=!!sample.brake;
+ // Real gravitational acceleration per presentation second, independent of
+ // the deliberately assisted engine. Braking actively counters the drift.
+ p.velocity.addScaledVector(localGravity(p.position,world.bodyPositions,region,gravityVector),dt);
  game.brakeBlend=sample.brake?1-(1-game.brakeBlend)*Math.exp(-dt*18):0;
  if(sample.brake){
   const current=p.velocity.length(),deceleration=Math.min(Math.max(acceleration,current*1.6),current*8)*game.brakeBlend;

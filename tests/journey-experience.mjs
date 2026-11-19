@@ -29,6 +29,7 @@ try{
   assert.deepEqual(unmapped,[],'every visible flight action has a shortcut');
   await page.screenshot({path:`tests/screenshots/interface-${name}-flight.png`});
   const resume=async()=>{await page.waitForTimeout(300);await page.keyboard.press('Escape');await page.waitForFunction(()=>__cosmos.game.mode==='play');await page.waitForTimeout(300);};
+  await page.keyboard.press('c');assert.equal(await page.evaluate(()=>__cosmos.game.view),'probe');
   await page.keyboard.press('k');await page.locator('#panel[data-view=camera]').waitFor();
   assert.equal(await page.evaluate(()=>!!document.pointerLockElement),false);
   await page.keyboard.press('Tab');assert.equal(await page.evaluate(()=>document.activeElement.id),'camera-chase');
@@ -107,7 +108,7 @@ try{
  await page.locator('#journey-marker').waitFor({state:'visible',timeout:10000});
  const sample=()=>page.evaluate(()=>({position:__cosmos.game.player.position.toArray(),velocity:__cosmos.game.player.velocity.toArray(),attitude:__cosmos.game.player.quaternion.toArray(),look:__cosmos.game.look.toArray(),stage:__cosmos.game.stage}));
  const initial=await sample();await page.mouse.move(850,460);await page.waitForTimeout(500);const turned=await sample();assert.notDeepEqual(turned.attitude,initial.attitude,'mouse turns without holding a button');
- await page.keyboard.down('w');await page.waitForTimeout(1300);await page.keyboard.up('w');const powered=await sample();await page.waitForTimeout(800);const coasting=await sample();assert.ok(Math.hypot(...powered.velocity)>100);assert.ok(Math.hypot(...coasting.velocity.map((v,i)=>v-powered.velocity[i]))<.001,'release retains momentum');
+ await page.keyboard.down('w');await page.waitForTimeout(1300);await page.keyboard.up('w');const powered=await sample();await page.waitForTimeout(800);const coasting=await sample();assert.ok(Math.hypot(...powered.velocity)>100);assert.ok(Math.hypot(...coasting.velocity.map((v,i)=>v-powered.velocity[i]))<.01,'release retains momentum apart from gravitational acceleration');
  await page.keyboard.down('Space');await page.waitForTimeout(2300);await page.keyboard.up('Space');const braking=await sample();assert.ok(Math.hypot(...braking.velocity)<Math.hypot(...powered.velocity)*.15);
  await page.keyboard.down('q');await page.waitForTimeout(600);await page.keyboard.up('q');const rolled=await sample();assert.notDeepEqual(rolled.attitude,braking.attitude);
  await page.keyboard.down('r');await page.waitForTimeout(700);await page.keyboard.up('r');assert.ok(Math.hypot(...(await sample()).velocity)>100);await page.keyboard.down('Space');await page.waitForTimeout(1800);await page.keyboard.up('Space');
@@ -120,7 +121,7 @@ try{
  await page.evaluate(async()=>{const a=__cosmos,T=await import('three');a.game.player.position.copy(a.game.routeTarget.goal);a.game.player.velocity.set(0,0,0);a.game.angular.set(0,0,0);a.game.player.quaternion.setFromRotationMatrix(new T.Matrix4().lookAt(a.game.player.position,a.world.bodyPositions.earth,new T.Vector3(0,1,0)));});
  const freePose=await sample();
  await page.waitForFunction(()=>__cosmos.game.experience.seen.includes('trail-earth-night'),null,{timeout:10000});
- assert.deepEqual((await sample()).position,freePose.position,'discovery never moves the player');
+ const discoveredPose=await sample();assert.ok(Math.hypot(...discoveredPose.position.map((v,i)=>v-freePose.position[i]))<.2,'discovery does not propel the player; gravity still acts');
  assert.equal(await page.evaluate(()=>__cosmos.game.mode),'play');
  assert.ok(await page.locator('#depart').isVisible());
  await page.screenshot({path:`tests/screenshots/journey-${name}-automatic-discovery.png`});

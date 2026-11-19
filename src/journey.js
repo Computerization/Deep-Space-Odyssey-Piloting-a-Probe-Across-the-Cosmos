@@ -108,7 +108,7 @@ export function createJourney({game,world,ui,input,depart,transfer,finishLaunch,
   const keys=`${pad?'D-pad ↑':'N'} · ${seconds<11?'Skip film':'Take control'} <span>${pad?'Menu':'Esc'} · Pause</span>`;
   if(launch.keys!==keys){dom.node('passage-keys').innerHTML=keys;launch.keys=keys;}
   dom.text('passage-detail',seconds<11?'NASA / JPL launch film':'Simulated departure · time compressed');
-  if(t===1){ui('passage').classList.remove('launching');launch=null;film.pause();film.hidden=true;game.stage='encounter';game.player.velocity.set(0,0,0);game.localSeconds=0;game.chapterTime=0;game.view='probe';game.look.identity();game.freeLook=false;game.tracking=null;ui('passage').hidden=true;reset();freshDeparture=true;departure='thrust';finishLaunch();}
+  if(t===1){ui('passage').classList.remove('launching');launch=null;film.pause();film.hidden=true;game.stage='encounter';game.player.velocity.set(0,0,0);game.localSeconds=0;game.chapterTime=0;game.view='chase';world.followReady=false;game.look.identity();game.freeLook=false;game.tracking=null;ui('passage').hidden=true;reset();freshDeparture=true;departure='thrust';finishLaunch();}
  }
  function update(dt,thrust=0){
   if(game.stage==='launch'){updateLaunch(dt);return;}
@@ -233,8 +233,8 @@ export function createJourney({game,world,ui,input,depart,transfer,finishLaunch,
   dom.hidden('depart',false);dom.text('depart',`${pad?'D-pad ↑':'N'} · ${next?next.name:'Future outlook'}`);
   dom.text('chapter-date',game.study==='titan'?'12 November 1980 · 05:41 UTC':`${CHAPTERS[game.chapter].date}${MILESTONES[game.chapter].precision==='day'?'':` · ${milestoneTime(game.chapter)}`}${CHAPTERS[game.chapter].predicted?' · predicted':''}`);
   dom.hidden('chapter-date',game.chapterTime>15);
-  const flightKeys=game.tracking?'W / S · Range <span>A / D · Circle</span><span>R / F · Rise / descend</span><span>Space · Brake</span><span>L · Release</span><span>P · Photo</span>':`Mouse · Steer <span>WASD · Fly</span><span>Space · Brake</span><span>L · Follow</span><span>P · Photo</span><span>G · ${game.guidance?'Hide':'Show'} guide</span>`;
-  const keys=opening?(pad?'Right stick · Steer <span>RT / LT · Fly</span><span>B · Brake</span>':'Mouse · Steer <span>W / S · Fly</span><span>Space · Brake</span>'):pad?'Right stick · Steer <span>RT / LT · Fly</span><span>Left stick · Move</span><span>LB / RB · Roll</span><span>B · Brake</span>':flightKeys;
+  const flightKeys=game.tracking?'W / S · Range <span>A / D · Circle</span><span>R / F · Rise / descend</span><span>Space · Brake</span><span>L · Release</span><span>P · Photo</span><span>C · View</span>':`Mouse · Steer <span>WASD · Fly</span><span>Space · Brake</span><span>L · Follow</span><span>P · Photo</span><span>G · ${game.guidance?'Hide':'Show'} guide</span><span>C · View</span>`;
+  const keys=opening?(pad?'Right stick · Steer <span>RT / LT · Fly</span><span>B · Brake</span><span>Y · View</span>':'Mouse · Steer <span>W / S · Fly</span><span>Space · Brake</span><span>C · View</span>'):pad?'Right stick · Steer <span>RT / LT · Fly</span><span>Left stick · Move</span><span>LB / RB · Roll</span><span>B · Brake</span><span>Y · View</span>':flightKeys;
   // This strip has one writer. Keep the same controls and text nodes in flight.
   if(keys!==lastKeys){dom.node('flight-keys').innerHTML=keys;lastKeys=keys;}
  }

@@ -8,7 +8,7 @@ import {createFlightReview} from './ui/flight-review.js';
 import {encounterContext,encounterDate} from './encounter-context.js';
 import {OPPORTUNITIES,opportunityPoint} from './opportunities.js';
 import {advanceExposure} from './exposure.js';
-import {stepManualFlight,initialiseEncounter} from './flight-controller.js';
+import {stepManualFlight,initialiseEncounter,localGravity} from './flight-controller.js';
 import {epochLabel} from './trajectory.js';
 import {createJourney,nextStop,arrivalPosition,arrivalTarget} from './journey.js';
 import {createTransitController} from './transit-controller.js';
@@ -158,7 +158,7 @@ async function startJourney(resume=false){
  $('landing').hidden=true;$('panel').hidden=true;$('hud').hidden=false;game.mode='play';game.completed=false;
  const resumeSave=safeReadStorage('cosmos-voyager-save-v2');
  if(resume&&resumeSave){game.completed=!!resumeSave.completed;game.discovered=resumeSave.discovered||[];game.maxChapter=resumeSave.maxChapter||0;game.elapsed=resumeSave.elapsed||0;game.view=resumeSave.view||'probe';startChapter(clamp(resumeSave.chapter,0,CHAPTERS.length-1),Math.max(0,resumeSave.task||0),resumeSave.study);restoreFlight(resumeSave);game.chapterTime=30;}
- else{game.elapsed=0;game.discovered=[];game.explored=[];game.maxChapter=0;game.view='probe';setHudVisibility(true);game.precision=false;game.experience=restoreExperience();game.guidance=true;startChapter(0);journey.beginLaunch();save();}
+ else{game.elapsed=0;game.discovered=[];game.explored=[];game.maxChapter=0;game.view='chase';setHudVisibility(true);game.precision=false;game.experience=restoreExperience();game.guidance=true;startChapter(0);journey.beginLaunch();save();}
  input.rearm();
  if(input.device!=='gamepad')input.capturePointer();
  try{await audioReady;await audio.select(CHAPTERS[game.chapter].music);}catch{toast('Press B to enable music when ready.');}
@@ -331,6 +331,7 @@ function openInstruments(fromSettings=false){
  openInstrumentsView({fromSettings,openPanel,readings:{
   context:game.stage==='transit'?`${epochLabel(game.transit.jd)} · ${CHAPTERS[game.transit.next].predicted?'projected':'historical'} passage`:`${encounterContext(game).title} · ${encounterDate(game,world.ephemeris.epochs)}`,
   solarDistance:formatDistance(pDistance()),signalTime:signalTime(distanceToEarth(world,game)),fieldOfView:formatFieldOfView(world.camera.fov),
+  gravity:game.stage==='encounter'?`${(localGravity(game.player.position,world.bodyPositions,encounterContext(game).region,new V()).length()*1000).toPrecision(3)} m/s²`:null,
   local:null
  }});
 }
@@ -499,14 +500,14 @@ function handleAction(name){
   if(game.mode==='panel')return;
  }
  if(game.mode!=='play')return;
- if(game.stage==='launch'||game.stage==='transit'){if(name==='next'&&game.stage==='launch')journey.advance();
+ if(game.stage==='launch'||game.stage==='transit'){if(name==='next'){if(game.stage==='launch')journey.advance();else transitController.skip();}
   if(name==='holdPressed'&&game.stage==='transit')resumeHeldTime();return;}
  if(name==='interact')journey.interact();
  else if(name==='instruments')openInstruments();
  else if(name==='camera')openCamera();
  else if(name==='review')flightReview.open();
  else if(name==='recentPhoto')photoReceipt.open();
- else if(name==='view'){observationCamera.setView(game.view==='probe'?'chase':'probe');toast(game.view==='probe'?'Probe view':'Chase view');}
+ else if(name==='view'){observationCamera.setView(game.view==='probe'?'chase':'probe');toast(game.view==='probe'?'First-person view':'Third-person view');}
  else if(name==='look'){observationCamera.toggleFreeLook();toast(game.freeLook?'Free look · the spacecraft keeps its heading':'Flight control');}
  else if(name==='holdTime'){if(game.boundaryPaused){flightReview.open();return;}game.timePaused=!game.timePaused;save();}
  else if(name==='holdPressed')resumeHeldTime();
@@ -558,7 +559,7 @@ function frame(now){
  spacecraftPlate.release();
  const departure=steadyPassages&&game.stage==='launch'&&journey.departureView;
  const rendered=departure||game.reviewPreview||game.player;
- const view=departure?'probe':game.reviewPreview?.view||game.view,look=game.reviewPreview?.look||game.look,transit=game.stage==='transit'&&!game.transit?.showWorlds;
+ const view=departure?'chase':game.stage==='transit'&&!steadyPassages?'chase':game.reviewPreview?.view||game.view,look=game.reviewPreview?.look||game.look,transit=game.stage==='transit'&&!game.transit?.showWorlds;
  const time=transit?0:(game.reviewPreview?.seconds??game.localSeconds??0);
  const renderDt=game.mode==='play'?dt:0;
  // The steady transfer chart is opaque. Keep simulating the passage, but
