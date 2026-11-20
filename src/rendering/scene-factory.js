@@ -150,6 +150,13 @@ export function createBodies(world){
  }
 
 export function createStars(world){
+  // NASA's J2000 plate has RA 0 at its centre, east towards the left.
+  // SphereGeometry faces RA 0 at u=.5 too, but its u increases eastward.
+  // Reflect only the diffuse map, not the sky or the catalogue coordinates.
+  const map=world.textures['milky-way.webp'];map.repeat.x=-1;map.offset.x=1;
+  const material=new THREE.MeshBasicMaterial({map,color:0xffffff,side:THREE.BackSide,depthTest:false,depthWrite:false});
+  world.galacticSky=new THREE.Mesh(new THREE.SphereGeometry(1,96,48),material);
+  world.galacticSky.frustumCulled=false;world.galacticSky.renderOrder=-1;world.sky.add(world.galacticSky);
   const p=[],col=[],sz=[];
   for(const [ra0,dec0,mag,bv0]of world.starData.stars){const ra=ra0*Math.PI/180,dec=dec0*Math.PI/180;
    p.push(Math.cos(dec)*Math.cos(ra)*12000,Math.sin(dec)*12000,-Math.cos(dec)*Math.sin(ra)*12000);

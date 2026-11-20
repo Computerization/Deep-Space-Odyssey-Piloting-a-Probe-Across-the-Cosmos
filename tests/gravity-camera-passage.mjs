@@ -1,11 +1,11 @@
 import assert from 'node:assert/strict';
 import {chromium,BASE_URL} from './browser.mjs';
-const browser=await chromium.launch({channel:'chrome',headless:true,args:['--use-angle=metal','--ignore-gpu-blocklist']});
+const browser=await chromium.launch({channel:'chrome',headless:true,args:process.platform==='darwin'?['--use-angle=metal','--ignore-gpu-blocklist']:[]});
 const errors=[];
 try{
- const page=await browser.newPage({viewport:{width:1440,height:900},reducedMotion:'no-preference'});
+ const page=await browser.newPage({locale:'en-US',viewport:{width:1440,height:900},reducedMotion:'no-preference'});
  page.on('pageerror',e=>errors.push(e.message));
- await page.goto(BASE_URL+'/?test=1');await page.waitForFunction(()=>window.__cosmos,{timeout:90000});
+ await page.goto(BASE_URL+'/?test=1',{waitUntil:'commit'});await page.waitForFunction(()=>window.__cosmos,null,{timeout:90000});
  await page.click('#begin');await page.keyboard.press('n');await page.waitForFunction(()=>__cosmos.game.stage==='encounter');
  await page.evaluate(()=>{__cosmos.game.timePaused=true});await page.waitForTimeout(250);
  assert.equal(await page.evaluate(()=>__cosmos.game.view),'chase');

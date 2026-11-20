@@ -128,3 +128,18 @@ test('ring-only science describes the rings instead of an unseen planetary hemis
  assert.equal(scienceTopic(2,{...saturn,feature:'rings'}),'2:0');
  assert.equal(scienceTopic(2,{...saturn,feature:'rings',ringElevation:5}),'2:1');
 });
+
+test('camera cone keeps its nearest edge and corner in every quadrant, including behind the camera',()=>{
+ const fov=46,aspect=1.8,ty=Math.tan(rad(fov/2)),tx=ty*aspect;
+ // Construct directions with known nearest rays: slide outward from the
+ // right edge along its plane normal, or look past a corner from behind.
+ const edge=[tx,ty*.4,1],edgeLen=Math.hypot(...edge),normalLen=Math.hypot(1,tx);
+ const ray=edge.map((v,i)=>v/edgeLen*Math.cos(.23)+[1,0,-tx][i]/normalLen*Math.sin(.23));
+ for(const sx of [-1,1])for(const sy of [-1,1]){
+  const frame=(x,y,z)=>discFraming(projected(sx*x,sy*y,z,fov,aspect),10,fov,aspect);
+  assert.ok(Math.abs(frame(...ray).separation-.23)<1e-12);
+  const corner=Math.acos((2*tx+2*ty-1)/(3*Math.hypot(tx,ty,1)));
+  assert.ok(Math.abs(frame(2,2,-1).separation-corner)<1e-12);
+  assert.equal(frame(tx*.99,ty*.99,1).separation,0);
+ }
+});

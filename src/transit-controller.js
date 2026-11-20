@@ -66,14 +66,16 @@ export function createTransitController({game,world,ui,arrive,isSteady=()=>false
  }
  function refreshChart(){
   const t=game.transit,steady=isSteady();
-  if(steady&&!chart)chart=t.local?createLocalPassageChart(dom.node('passage-chart'),t):createPassageChart(dom.node('passage-chart'),world,t);
-  dom.hidden('passage-chart',!steady);
+  const inset=!steady&&!t.local&&t.next>=3&&t.progress>=.28&&t.progress<=.72;
+  dom.toggle('passage-chart','outer-inset',inset);
+  if((steady||inset)&&!chart)chart=t.local?createLocalPassageChart(dom.node('passage-chart'),t):createPassageChart(dom.node('passage-chart'),world,t);
+  dom.hidden('passage-chart',!steady&&!inset);
   // Brief dissolves hide the changes between the encounter reconstruction and
   // sampled cruise trajectory. The scene remains three-dimensional throughout.
   const dissolve=x=>smooth((x-.20)/.035)*(1-smooth((x-.245)/.035));
-  const reveal=steady?1:0;
+  const reveal=steady||inset?1:0;
   dom.style('passage-veil','opacity',String(steady||t.local?0:Math.max(dissolve(t.progress),dissolve(t.progress-.50))));
-  if(chart&&steady){
+  if(chart&&(steady||inset)){
    dom.style('passage-chart','opacity',String(reveal));if(reveal>0)chart(t.local?game.player.position:t.jd);
   }
  }

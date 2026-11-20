@@ -3,7 +3,8 @@ from http.server import ThreadingHTTPServer,SimpleHTTPRequestHandler
 from http.client import HTTPConnection,HTTPException
 from pathlib import Path
 from functools import partial
-import argparse,webbrowser,threading,subprocess,sys,re,os,hashlib,errno
+from cosmos_browser import open_browser
+import argparse,threading,re,os,hashlib,errno
 parser=argparse.ArgumentParser();parser.add_argument('--open',action='store_true');parser.add_argument('--port',type=int,default=4173);args=parser.parse_args()
 root=str(Path(__file__).resolve().parent)
 project_id=hashlib.sha256(os.fsencode(root)).hexdigest()
@@ -66,16 +67,11 @@ else:
     raise SystemExit('Cosmos could not find a free local port. Close another launcher and try again.')
 url=f'http://127.0.0.1:{port}'
 
-def open_browser():
-    if sys.platform=='darwin' and Path('/Applications/Google Chrome.app').exists():
-        subprocess.Popen(['open','-a','Google Chrome',url])
-    else:
-        webbrowser.open(url)
 if server is None:
     print(f'Cosmos is already running at {url}. Keep the original launcher window open.')
-    if args.open:open_browser()
+    if args.open:open_browser(url)
     raise SystemExit(0)
 print(f'Cosmos is ready at {url}\nKeep this window open while playing. Press Control-C to stop.')
-if args.open:threading.Timer(.4,open_browser).start()
+if args.open:threading.Timer(.4,open_browser,args=(url,)).start()
 try:server.serve_forever()
 except KeyboardInterrupt:server.server_close()

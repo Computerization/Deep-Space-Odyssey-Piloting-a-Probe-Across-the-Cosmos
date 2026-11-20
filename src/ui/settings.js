@@ -28,7 +28,7 @@ export function openSettingsView({settings,flight,fromPause=false,initialTab='so
   return `<label class="setting setting-range" for="${id}"><span>${r.label}</span><output id="${id}-value" for="${id}" aria-hidden="true">${r.format(settings[id])}</output><input id="${id}" aria-label="${r.label}" type="range" min="${r.min}" max="${r.max}" step="${r.step}" value="${settings[id]}"></label>`;
  };
  const toggle=(id,r)=>`<div class="setting-toggle"><div><span id="${id}-label">${r.label}</span><p id="${id}-note">${r.note}</p></div><button id="flight-${id}" type="button" data-flight-option="${id}" aria-labelledby="${id}-label" aria-describedby="${id}-note" aria-pressed="${!!flight[id]}">${flight[id]?r.on:r.off}</button></div>`;
- openPanel('settings','Settings',`<nav class="reference-tabs settings-tabs" aria-label="Settings pages">${[['sound','Sound'],['picture','Picture'],['flight','Flight']].map(([id,label])=>`<button id="settings-tab-${id}" type="button" data-settings-tab="${id}">${label}</button>`).join('')}</nav><div class="settings-content">
+ openPanel('settings','Settings',`<label class="language-choice" for="language"><span>Language</span><select id="language"><option value="en">English</option><option value="zh-CN">简体中文</option></select></label><nav class="reference-tabs settings-tabs" aria-label="Settings pages">${[['sound','Sound'],['picture','Picture'],['flight','Flight']].map(([id,label])=>`<button id="settings-tab-${id}" type="button" data-settings-tab="${id}">${label}</button>`).join('')}</nav><div class="settings-content">
   <fieldset data-settings-page="sound" aria-labelledby="settings-tab-sound"><div class="setting-toggle setting-playback"><span>Playback</span><button id="settings-sound" type="button" aria-label="Sound" aria-pressed="${!settings.muted}">${settings.muted?'Off':'On'}</button></div>${range('volume')}${range('feedback')}</fieldset>
   <fieldset data-settings-page="picture" aria-labelledby="settings-tab-picture">${range('exposure')}
    <label class="setting setting-quality" for="quality"><span>Quality</span><select id="quality" aria-describedby="quality-note"><option value="ultra">Ultra</option><option value="high">High</option><option value="balanced">Balanced</option><option value="performance">Performance</option></select></label>
@@ -55,9 +55,9 @@ export function openSettingsView({settings,flight,fromPause=false,initialTab='so
  for(const button of ui('panel-content').querySelectorAll('[data-settings-tab]'))button.onclick=()=>selectTab(button.dataset.settingsTab);
  selectTab(initialTab);
  ui('panel-content').querySelector('[data-settings-tab][aria-pressed=true]').focus();
- for(const id of ['quality','passageMotion'])ui(id).value=settings[id];
+ for(const id of ['quality','passageMotion','language'])ui(id).value=settings[id];
  ui('settings-sound').onclick=()=>{settings.muted=!settings.muted;onChange('muted');};
- for(const id of [...Object.keys(RANGES),'quality','passageMotion']){
+ for(const id of [...Object.keys(RANGES),'quality','passageMotion','language']){
   update(id);ui(id).addEventListener('input',event=>{settings[id]=rangeValue(id,event.target.value);update(id);onChange(id);});
  }
  for(const [id,r] of Object.entries(FLIGHT_OPTIONS))ui(`flight-${id}`).onclick=()=>{

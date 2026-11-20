@@ -1,3 +1,4 @@
+import {alreadyTranslated} from './language.js';
 // The flight UI owns a fixed set of nodes. Read their current values before
 // writing so event-driven updates elsewhere stay authoritative, while steady
 // telemetry does not recreate text nodes and invalidate styles every frame.
@@ -9,7 +10,7 @@ export function createDomWriter(resolve) {
   };
   const property = (id, key, value) => {
     const element = node(id);
-    if (element[key] !== value) element[key] = value;
+    if (element[key] !== value && !alreadyTranslated(element,key,value)) element[key] = value;
   };
   return {
     node, property,

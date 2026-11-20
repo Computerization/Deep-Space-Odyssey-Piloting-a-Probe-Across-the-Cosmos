@@ -1,3 +1,11 @@
+# Flight sky / 0.116
+
+`node tests/flight-sky.mjs` captures the ordinary 58° lens with the HUD off at each outer stop, in both cameras, while turning and during an inner-planet orbit. It checks large-area brightness and structure on the actual Chrome screen, not the spacecraft plate or instrument panels. `--baseline` records the pre-fix failure; `--offline` also disconnects an independently served copy before testing. Screenshots and luminance samples stay in the ignored QA directory.
+
+# Outer voyage / 0.115
+
+`node tests/outer-voyage.mjs` flies the outer stops in desktop Chrome, operates the archive, compares two plasma bands, completes the radio exchange, checks the outlook and restores a Chinese-language save. Add `--offline` to install the service worker, disconnect the browser and repeat the voyage from the cached package. `tests/language.test.mjs` checks scientific journal coverage, dated readouts and locale selection.
+
 # Current development entry point (0.113)
 
 `node tests/gravity-camera-passage.mjs` exercises the default external view, C/K switching without physical-state changes, the interactive fall estimate, cinematic passage, skip and compact layout in Chrome. `assisted-flight.test.mjs` checks inverse-square gravity, differential-frame cancellation, coasting and braking. A Node CPU-only microbenchmark against 0.113 measured a median 0.24 µs per 60 Hz integration frame of additional gravity work over 20,000 frames; this does not measure GPU frame time.
@@ -34,9 +42,13 @@ Cosmos runs directly from its editable source. Start it with `npm start` or `pyt
 
 The [architecture](ARCHITECTURE.md) identifies each system's owner. The [repair list](REPAIR-STATUS.md) records current findings. Full revision measurements remain in `docs/revisions/experience-audit-v13.md` in the development workspace. Historical evidence describes its recorded source, not every later release.
 
+The development checkout includes `python -m unittest discover -s tests -p test_launcher.py` to check Chrome preference and fallback without opening a personal profile.
+
 ## Browser checks
 
 The supported target is desktop Google Chrome. Browser runners use Playwright with the installed Chrome; set `COSMOS_PLAYWRIGHT_MODULE` if Playwright is installed outside the project. `COSMOS_TEST_URL` selects the local server. Chrome rendering checks use Metal on macOS. Some historical runners retain other-engine options; those are outside current acceptance.
+
+For flight-UI CPU comparisons, set `COSMOS_REFERENCE_ROOT` to the previous source checkout, serve the candidate and run `node tests/framing-work.mjs`. A same-process Chrome replay compares disc silhouettes across 3,600 views and bearing placements across 240 compact-screen frames before timing alternating runs. These timings exclude GPU drawing and are not FPS.
 
 Choose checks for the changed responsibility. Run GPU timing and endurance checks separately so competing browsers do not distort results. Keep fixtures, generated screenshots and historical reports in development; the playable ZIP includes runtime source, launchers, licenses, essential documentation and unit checks.
 

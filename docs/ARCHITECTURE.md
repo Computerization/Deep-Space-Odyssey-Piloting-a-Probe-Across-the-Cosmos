@@ -1,6 +1,10 @@
 # Runtime architecture
 
-Cosmos is a local JavaScript application with no build step. `index.html` starts `src/main.js`; `sw.js` owns the offline file list.
+Cosmos is a local JavaScript application with no build step. `index.html` starts `src/main.js`; `sw.js` owns the offline file list. The desktop launchers use `server.py` for the local origin and `cosmos_browser.py` to open it in Chrome; `server.mjs` remains server-only.
+
+The outer-flight readouts belong to `src/ui/outer-station.js`; `src/ui/deep-space.js` owns the archive and radio interactions. `src/ui/language.js` translates rendered text and accessible labels without changing mission data or input IDs. Chinese UI and science copy live in `src/ui/zh-cn.js` and `src/ui/zh-science.js`. Language is part of the existing settings record.
+
+`src/rendering/scene-factory.js` registers a fixed celestial background to the existing equatorial bright-star frame. `src/world.js` controls its gain against bright limbs and a model-only fill in the distant chase view. Neither is a screen-space effect or a simulation force.
 
 ## Ownership
 

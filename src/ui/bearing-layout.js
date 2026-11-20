@@ -15,7 +15,8 @@ const normals=directions.map(([side,a])=>({side,nx:Math.cos(a),ny:Math.sin(a)}))
 // wide. Search these only after the coarse directions fail, then reuse the
 // selected direction on subsequent frames.
 const fineNormals=Array.from({length:360},(_,i)=>({side:`fine-${i}`,nx:Math.cos(i*Math.PI/180),ny:Math.sin(i*Math.PI/180)})).filter((_,i)=>i%15);
-const bySide=new Map([...normals,...fineNormals].map(n=>[n.side,n]));
+const orderedNormals=[...normals,...fineNormals];
+const bySide=new Map(orderedNormals.map(n=>[n.side,n]));
 
 // When the visible limb lies behind a control, one corner can keep its leader
 // clear. Stay outside the body's supporting tangent and inside the viewport.
@@ -43,7 +44,9 @@ export function bearingLayout({x,y,radius,ellipse,width,height,labelWidth,labelH
  // same dock is the only possible result, including extreme close views.
  const inside=(u,v)=>((u*c+v*s)/major)**2+((v*c-u*s)/minor)**2<1;
  if(inside(-x,-y)&&inside(width-x,-y)&&inside(-x,height-y)&&inside(width-x,height-y))return dock();
- function place({side,nx,ny},allowElbow=false){
+ let blocked;
+ function place(normal,allowElbow=false){
+  const {side,nx,ny}=normal;
   const u=c*nx+s*ny,v=-s*nx+c*ny,support=Math.hypot(major*u,minor*v);
   const px=major*major*u/Math.max(support,1e-8),py=minor*minor*v/Math.max(support,1e-8);
   const rim={x:x+c*px-s*py,y:y+s*px+c*py};
@@ -74,7 +77,7 @@ export function bearingLayout({x,y,radius,ellipse,width,height,labelWidth,labelH
     const edge=Math.min(labelWidth/(2*Math.max(Math.abs(nx),1e-8)),labelHeight/(2*Math.max(Math.abs(ny),1e-8))),end=offset-edge-8;
     const leader={x1:rim.x+nx*7,y1:rim.y+ny*7,x2:rim.x+nx*end,y2:rim.y+ny*end};
     if(avoid.some(a=>crosses(leader,a))){
-     if(!allowElbow)return null;
+     if(!allowElbow){(blocked??=[]).push(normal);return null;}
      leader.elbow=clearElbow(leader,avoid,rim,nx,ny,width,height);
      if(!leader.elbow)return null;
     }
@@ -88,9 +91,9 @@ export function bearingLayout({x,y,radius,ellipse,width,height,labelWidth,labelH
  // placement. Ordinary full-disc views need only one candidate evaluation.
  const current=bySide.get(preferred);
  if(current){const p=place(current,true);if(p)return p;}
- for(const normal of normals){if(normal===current)continue;const p=place(normal);if(p)return p;}
- for(const normal of fineNormals){if(normal===current)continue;const p=place(normal);if(p)return p;}
- // Prefer every available straight leader before routing around a control.
- for(const normal of [...normals,...fineNormals]){const p=place(normal,true);if(p)return p;}
+ for(const normal of orderedNormals){if(normal===current)continue;const p=place(normal);if(p)return p;}
+ // A bend can fix a blocked leader, not a label outside the viewport or
+ // on top of a control. Retry only those directions, in the original order.
+ if(blocked)for(const normal of blocked){const p=place(normal,true);if(p)return p;}
  return dock();
 }

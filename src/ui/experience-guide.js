@@ -29,8 +29,8 @@ export function createExperienceGuide({game,world,ui}){
  }
  function update(dt){
   if(game.stage!=='encounter')return;
-  const enabled=game.guidance&&game.showHud&&!game.journeyFieldwork;
-  // Deep-space topics depend on the milestone, and a hidden guide has no topic.
+  const enabled=game.chapter<3&&game.guidance&&game.showHud&&!game.journeyFieldwork;
+  // Outer stations award their note when the archive/experiment is explored.
   // Keep its timers running without projecting silhouettes that it cannot use.
   const subject=enabled&&game.chapter<3?measureSubject():null;
   display=guide.update(game.experience,{chapter:game.chapter,subject,enabled,time:game.chapterTime,

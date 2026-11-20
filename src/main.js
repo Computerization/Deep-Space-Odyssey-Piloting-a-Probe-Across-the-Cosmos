@@ -19,7 +19,9 @@ import {openCameraView} from './ui/camera.js';
 import {solarChart} from './ui/solar-chart.js';
 import {solarChartState,extentForSelection,distanceToEarth} from './solar-chart-state.js';
 import {fitAtlasLabels} from './ui/atlas-layout.js';
-import {openArchivePlate,openSignalDesk} from './ui/deep-space.js';
+import {createOuterStation} from './ui/outer-station.js';
+import {installLanguage,chooseLanguage} from './ui/language.js';
+import {openArchivePlate,openSignalDesk,bindPlasmaComparison,futurePlate} from './ui/deep-space.js';
 import {createPhotoViewer} from './ui/photo-viewer.js';
 import {createPhotoReceipt} from './ui/photo-receipt.js';
 import {createFlightHud} from './ui/flight-hud.js';
@@ -40,6 +42,10 @@ let flightReview,observationCamera;
 const $=id=>document.getElementById(id),V=THREE.Vector3,Q=THREE.Quaternion;
 const saved=safeReadStorage('cosmos-voyager-save-v2');
 const settings={muted:false,feedback:.7,volume:.6,quality:'high',passageMotion:'system',exposure:1,sensitivity:1,...safeReadStorage('cosmos-settings-v1',{})};
+settings.language=chooseLanguage(settings.language,navigator.language);
+const language=installLanguage(document,settings.language);
+const outerStation=createOuterStation($);
+function changeLanguage(value){settings.language=value;language.set(value);persistSettings();}
 const motionPreference=matchMedia('(prefers-reduced-motion: reduce)');
 let steadyPassages=false;
 function applyPassageMotion(){
@@ -147,7 +153,7 @@ function enterVoyage(stop){
  if(!stop){if(game.mode==='panel')closePanel();startJourney();return;}
  const index=stop.chapter,fromTitle=!$('landing').hidden;
  // A chapter jump keeps discoveries from the existing voyage, as before.
- if(fromTitle){const s=safeReadStorage('cosmos-voyager-save-v2');game.experience=restoreExperience(s?.experience);game.discovered=s?.discovered||[];game.explored=s?.explored||[];game.maxChapter=s?.maxChapter||0;game.completed=!!s?.completed;game.elapsed=s?.elapsed||0;}
+ if(fromTitle){const s=safeReadStorage('cosmos-voyager-save-v2');game.view=s?.view==='probe'?'probe':'chase';game.experience=restoreExperience(s?.experience);game.discovered=s?.discovered||[];game.explored=s?.explored||[];game.maxChapter=s?.maxChapter||0;game.completed=!!s?.completed;game.elapsed=s?.elapsed||0;}
  audio.start().then(()=>audio.select(CHAPTERS[index].music)).catch(()=>{});
  $('landing').hidden=true;$('hud').hidden=false;wasMode='play';closePanel();startChapter(index,0,stop.study);
 }
@@ -181,7 +187,10 @@ function startChapter(index,task=0,studyId=null){
   const previous=c.tasks[game.task-1];
   game.player.position.copy(previous?.frameBody?world.fromFrame(world.getFrame(previous.frameBody),entry,BODY_DATA[previous.frameBody].radius):world.fromFrame(game.frame,entry,game.radius));
   game.player.quaternion.copy(lookAt(game.player.position,arrivalTarget(world,c.body),game.frame.y));
- }else{game.player.position.copy(world.bodyPositions.voyager);const direction=icrf(world.ephemeris.objects.voyager[c.epoch].velocity).normalize();game.player.quaternion.copy(lookAt(game.player.position,game.player.position.clone().addScaledVector(direction,100000)));}
+ }else{game.player.position.copy(world.bodyPositions.voyager);
+  const target=index===4?game.player.position.clone().add(icrf(world.ephemeris.objects.voyager[c.epoch].velocity)):world.bodyPositions.earth;
+  game.player.quaternion.copy(lookAt(game.player.position,target));
+ }
  initialiseEncounter(game,world);
  if(game.study==='titan'){game.player.position.copy(arrivalPosition(world,index,'titan'));game.player.quaternion.copy(lookAt(game.player.position,arrivalTarget(world,'titan'),game.frame.y));}
  game.tracking=null;game.freeLook=false;game.rateIndex=0;journey?.reset();flightHistory.reset(game);
@@ -220,21 +229,23 @@ function recordExploration(observation){
   game.observing=0;game.observation=null;save();
  });
 }
+function outerFinding(id){if(!game.experience.seen.includes(id)){game.experience.seen.push(id);save();}}
 function openStory(kind){
  if(kind==='future'){openFuture();return;}
- if(kind==='pale'){openArchivePlate(openPanel,$);return;}
- if(kind==='signal'){openSignalDesk(openPanel,$);return;}
+ if(kind==='pale'){openArchivePlate(openPanel,$,()=>outerFinding('3:0'));return;}
+ if(kind==='signal'){openSignalDesk(openPanel,$,()=>outerFinding('5:0'));return;}
  openRecording(kind);
 }
 function openFuture(){
  // The panel already pauses the simulation. Keep the pilot’s camera and flight clock.
  game.completed=true;save();
- openPanel('ending','Still travelling',`<p class="eyebrow">BEYOND ONE LIGHT-DAY</p><p class="lead">The Golden Record stays aboard.</p><p>Long after the radio falls silent, Voyager will still carry the sounds and images recorded on Earth in 1977.</p><div class="future-horizon"><strong>About 40,000 years from now</strong><p>Voyager 1’s projected path takes it within about 1.7 light-years of another star.</p></div><p class="small-note"><a href="https://science.nasa.gov/mission/voyager/voyager-1/voyager-1-what-is-a-light-day/" target="_blank" rel="noopener">NASA · Voyager’s distant future</a></p><div class="panel-actions"><button class="primary" data-action="resume">Stay with Voyager →</button><button class="text-button" data-action="journal">Your discoveries and photographs</button><button class="text-button" data-action="home">Return to title</button></div>`);
+ openPanel('ending','Still travelling',`<p class="eyebrow">BEYOND ONE LIGHT-DAY</p><p class="lead">The Golden Record stays aboard.</p><p>Long after the radio falls silent, Voyager will still carry the sounds and images recorded on Earth in 1977.</p>${futurePlate}<div class="future-horizon"><strong>About 40,000 years from now</strong><p>Voyager 1’s projected path takes it within about 1.7 light-years of another star.</p></div><p class="small-note"><a href="https://science.nasa.gov/mission/voyager/voyager-1/voyager-1-what-is-a-light-day/" target="_blank" rel="noopener">NASA · Voyager’s distant future</a></p><div class="panel-actions"><button class="primary" data-action="resume">Stay with Voyager →</button><button class="text-button" data-action="journal">Your discoveries and photographs</button><button class="text-button" data-action="home">Return to title</button></div>`);
 }
 
 function openRecording(kind){
  const plasma=kind==='plasma';
- openPanel('recording',plasma?'Beyond the solar wind':'Lightning at Jupiter',`${plasma?'<video id="historic-media" controls playsinline preload="metadata" src="assets/archive/interstellar-plasma-compact.mp4" aria-label="Voyager plasma-wave instrument observations"></video>':'<img class="signal-waveform" src="assets/archive/jupiter-waveform.svg" alt="Amplitude of the historical lightning recording"><audio id="historic-media" controls preload="metadata" src="assets/audio/jupiter-lightning.mp3" aria-label="Voyager radio recording of lightning at Jupiter"></audio>'}<p class="lead">${plasma?'Listen for the rising pitch.':'Listen for the crackle.'}</p><p>${plasma?'These plasma-wave observations were recorded in 2012–2013. Their increasing frequency revealed a denser plasma beyond the solar wind. The presentation compresses months of measurements while preserving the recorded frequencies.':'Each burst is a radio signal from lightning in Jupiter’s atmosphere, picked up by Voyager’s antennas.'}</p><p class="small-note">${plasma?'NASA/JPL-Caltech/University of Iowa · archival instrument data':'NASA · Voyager · archival radio data'}</p><button class="primary" data-action="resume">Return to the voyage</button>`);
+ openPanel('recording',plasma?'Beyond the solar wind':'Lightning at Jupiter',`${plasma?'<div id="plasma-comparison"></div>':'<img class="signal-waveform" src="assets/archive/jupiter-waveform.svg" alt="Amplitude of the historical lightning recording"><audio id="historic-media" controls preload="metadata" src="assets/audio/jupiter-lightning.mp3" aria-label="Voyager radio recording of lightning at Jupiter"></audio>'}<p class="lead">${plasma?'Listen for the rising pitch.':'Listen for the crackle.'}</p><p>${plasma?'These plasma-wave observations were recorded in 2012–2013. Their increasing frequency revealed a denser plasma beyond the solar wind. The presentation compresses months of measurements while preserving the recorded frequencies.':'Each burst is a radio signal from lightning in Jupiter’s atmosphere, picked up by Voyager’s antennas.'}</p><p class="small-note">${plasma?'NASA/JPL-Caltech/University of Iowa · archival instrument data':'NASA · Voyager · archival radio data'}</p><button class="primary" data-action="resume">Return to the voyage</button>`);
+ if(plasma)bindPlasmaComparison($,()=>outerFinding('4:0'));
  const media=$('historic-media');audio.attachRecording(media);media.play().catch(()=>{});
 }
 
@@ -316,6 +327,7 @@ function openSettings(initialTab=settingsTab){
  openSettingsView({settings,flight:game,fromPause:panelParents.at(-1)?.open===openPause,initialTab,ui:$,openPanel,onTabChange:tab=>{settingsTab=tab;},onFlightChange:(id,value)=>{
   game[id]=value;if(id==='showHud')setHudVisibility(value);updateHud();experienceGuide.render();save();
  },onChange:id=>{
+  if(id==='language')changeLanguage(settings.language);
   if(id==='muted'){audio.muted=settings.muted;audio.applyVolume();syncSoundButtons();}
   if(id==='volume')audio.setVolume(settings.volume);
   if(id==='feedback')audio.setFeedbackVolume(settings.feedback);
@@ -460,7 +472,7 @@ async function restorePhotograph(){
 function openGuide(){openControlsView({device:input.device,ui:$,openPanel});}
 
 function openNotes(){
- openPanel('notes','About the voyage',`<p class="lead">Deep Space Odyssey: Piloting a Probe Across the Cosmos</p><p>Information Technology Club × Astronomy Club</p><h3>The route</h3><p>The film shows the launch on 5 September 1977. The orbital departure is a reconstruction. Between encounters, the chart follows Voyager’s path in compressed time. The one-light-day endpoint uses NASA’s prediction for 18 November 2026.</p><h3>The view from the probe</h3><p>Planet sizes, separations and sunlight keep their physical scale. Local thrust and braking are exploration aids. You can leave any encounter when you choose.</p><p>Surface maps combine imagery from several missions; clouds and haze are reconstructed. External views and camera views after 1990 are simulated. The lightning and plasma recordings come from Voyager’s instruments.</p><h3>Sources and credits</h3><ul class="source-list">${SOURCES.map(([name,credit,url])=>`<li>${url?`<a href="${url}" target="_blank" rel="noopener">${name}</a>`:name}<br>${credit}</li>`).join('')}</ul><p class="small-note">All game assets are local. Source links are optional online reading.</p>`);
+ openPanel('notes','About the voyage',`<p class="lead">Deep Space Odyssey: Piloting a Probe Across the Cosmos</p><p>Information Technology Club × Astronomy Club</p><h3>The route</h3><p>The film shows the launch on 5 September 1977. The orbital departure is a reconstruction. Between encounters, the chart follows Voyager’s path in compressed time. The one-light-day endpoint uses NASA’s prediction for 18 November 2026.</p><h3>The view from the probe</h3><p>Planet sizes, separations and sunlight keep their physical scale. Local thrust and braking are exploration aids. You can leave any encounter when you choose.</p><p>Surface maps combine imagery from several missions; clouds and haze are reconstructed. External views and camera views after 1990 are simulated. The lightning and plasma recordings come from Voyager’s instruments.</p><p>The Milky Way is a star-catalogue reconstruction, not a Voyager photograph. The external view lifts the shadowed spacecraft for visibility.</p><h3>Sources and credits</h3><ul class="source-list">${SOURCES.map(([name,credit,url])=>`<li>${url?`<a href="${url}" target="_blank" rel="noopener">${name}</a>`:name}<br>${credit}</li>`).join('')}</ul><p class="small-note">All game assets are local. Source links are optional online reading.</p>`);
 }
 
 function pDistance(){return game.player.position.length();}
@@ -580,7 +592,7 @@ function frame(now){
  }
  const passage=$('passage'),hidePassage=game.mode==='landing'||(game.stage!=='launch'&&game.stage!=='transit');
  if(passage.hidden!==hidePassage)passage.hidden=hidePassage;
- if(game.mode==='play'){updateHud();experienceGuide.render();journey.render();}
+ if(game.mode==='play'){updateHud();experienceGuide.render();journey.render();outerStation(game,world);}
  if(game.mode==='play'){audio.updateFlight({altitudeRatio:game.flightReadout?game.flightReadout.range/BODY_DATA[game.flightReadout.id].radius:100,observing:game.observing>0,progress:game.observing/(game.observation?.duration||2.8),transit:game.stage==='transit',risk:game.flightReadout?.risk,sunlight:world.sunlightFraction},dt);}
  fpsFrames++;fpsTimer+=rawDt;if(fpsTimer>1){game.fps=fpsFrames/fpsTimer;fpsFrames=0;fpsTimer=0;}
  game.frameCount++;
@@ -593,6 +605,7 @@ function wire(){
  };
  $('universe').addEventListener('webglcontextlost',pauseForGraphicsRecovery);
  $('universe').addEventListener('webglcontextrestored',pauseForGraphicsRecovery);
+ $('landing-language').onclick=()=>changeLanguage(settings.language==='en'?'zh-CN':'en');
  $('begin').onclick=()=>requestVoyage();$('continue').onclick=()=>startJourney(true);
  $('chapter-select').onclick=()=>{mapTab='voyage';openMap();};$('landing-notes').onclick=openNotes;$('landing-sound').onclick=()=>handleAction('music');
  $('slower-time').onclick=()=>handleAction('timeDown');$('faster-time').onclick=()=>handleAction('timeUp');$('time-toggle').onclick=()=>handleAction('holdTime');

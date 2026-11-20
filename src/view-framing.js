@@ -1,21 +1,20 @@
 const clamp=(x,a,b)=>Math.max(a,Math.min(b,x));
 
-// Closest camera ray inside the rectangular viewport, on the unit sphere.
-// Testing all four edges also handles corners and a limb whose centre is offscreen.
+// Closest ray in a rectangular camera cone. Reflection symmetry means that an
+// offscreen centre only needs the two edges in its own quadrant and their corner.
 export function discFraming(projection,radius,verticalFov,aspect){
  const ty=Math.tan(verticalFov*Math.PI/360),tx=ty*aspect;
  const z=Math.cos(projection.angle),depth=Math.max(Math.abs(z),.0001);
- const direction=[projection.x*depth*tx,projection.y*depth*ty,z];
- const norm=Math.hypot(...direction),[dx,dy,dz]=direction.map(v=>v/norm);
- let closest=-1;
- const consider=(x,y)=>{closest=Math.max(closest,(dx*x+dy*y+dz)/Math.hypot(x,y,1));};
- if(dz>0&&Math.abs(dx/dz)<=tx&&Math.abs(dy/dz)<=ty)closest=1;
- for(const x of [-tx,tx]){
-  consider(x,-ty);consider(x,ty);
-  const a=dx*x+dz;if(a>0)consider(x,clamp(dy*(1+x*x)/a,-ty,ty));
- }
- for(const y of [-ty,ty]){
-  const a=dy*y+dz;if(a>0)consider(clamp(dx*(1+y*y)/a,-tx,tx),y);
+ const x=projection.x*depth*tx,y=projection.y*depth*ty,norm=Math.hypot(x,y,z);
+ const dx=x/norm,dy=y/norm,dz=z/norm,ax=Math.abs(dx),ay=Math.abs(dy);
+ let closest=1;
+ if(!(dz>0&&ax<=dz*tx&&ay<=dz*ty)){
+  const score=(u,v)=>(ax*u+ay*v+dz)/Math.sqrt(1+u*u+v*v);
+  closest=score(tx,ty);
+  // The maximum on each edge is either its corner or an interior stationary point.
+  const vertical=ax*tx+dz,horizontal=ay*ty+dz;
+  if(vertical>0){const v=ay*(1+tx*tx)/vertical;if(v<ty)closest=Math.max(closest,score(tx,v));}
+  if(horizontal>0){const u=ax*(1+ty*ty)/horizontal;if(u<tx)closest=Math.max(closest,score(u,ty));}
  }
  const angularRadius=Math.asin(Math.min(1,radius/Math.max(radius,projection.distance)));
  const separation=Math.acos(clamp(closest,-1,1));

@@ -13,10 +13,10 @@ parser.add_argument('--baseline', type=Path, help='Previous package-verification
 args = parser.parse_args()
 
 # The offline cache is the single source of truth for playable dependencies.
-cache_list = (root / 'sw.js').read_text().split('const FILES=')[1].split(';')[0]
+cache_list = (root / 'sw.js').read_text(encoding='utf-8').split('const FILES=')[1].split(';')[0]
 runtime = [p for p in re.findall(r"'([^']+)'", cache_list) if p != './']
 essentials = [
-    'sw.js', 'README.md', 'AGENTS.md', 'package.json', 'server.py', 'server.mjs',
+    'sw.js', 'README.md', 'AGENTS.md', 'package.json', 'server.py', 'cosmos_browser.py', 'server.mjs',
     'server-range.mjs', 'Start Cosmos.command', 'Start Cosmos.bat',
     'vendor/three/LICENSE', 'vendor/three/addons/libs/basis/LICENSE', 'assets/STAR-CATALOGUE-LICENSE.txt',
     'assets/audio/VSCO-CC0-LICENSE.txt', 'assets/fonts/BARLOW-LICENSE.txt',
@@ -26,14 +26,14 @@ essentials = [
     'tests/fixtures/chart-ephemeris-v28-checks.json',
 ]
 files = set(runtime + essentials)
-files.update(str(p.relative_to(root)) for p in (root / 'tests').glob('*.test.mjs'))
+files.update(p.relative_to(root).as_posix() for p in (root / 'tests').glob('*.test.mjs'))
 # Documentation may describe development-only tools, but its clickable local
 # links must resolve inside the delivered archive.
 documentation_links = 0
 for name in files:
     if not name.endswith('.md'):
         continue
-    for target in re.findall(r'\]\(([^)]+)\)', (root / name).read_text()):
+    for target in re.findall(r'\]\(([^)]+)\)', (root / name).read_text(encoding='utf-8')):
         if re.match(r'(?:[a-zA-Z][\w+.-]*:|#)', target):
             continue
         linked = posixpath.normpath(posixpath.join(posixpath.dirname(name), target.split('#')[0]))
@@ -54,7 +54,7 @@ with ZipFile(target) as archive:
         assert hashlib.sha256(archive.read('Cosmos/' + name)).hexdigest() == digest, name
 
 report = {
-    'version': json.loads((root / 'package.json').read_text())['version'],
+    'version': json.loads((root / 'package.json').read_text(encoding='utf-8'))['version'],
     'file': target.name, 'bytes': target.stat().st_size,
     'runtimeBytes': sum((root / name).stat().st_size for name in runtime),
     'runtimeFiles': len(runtime), 'files': len(manifest) + 1,
@@ -63,7 +63,7 @@ report = {
     'scope': 'Editable runtime, launchers, licenses, essential documentation and unit checks. Historical browser QA remains in the workspace.',
 }
 if args.baseline:
-    previous = json.loads(args.baseline.read_text())
+    previous = json.loads(args.baseline.read_text(encoding='utf-8'))
     report.update(previousVersion=previous['version'], previousVersionBytes=previous['bytes'],
                   bytesSavedSincePreviousVersion=previous['bytes'] - report['bytes'])
 (out / 'package-verification.json').write_text(json.dumps(report, indent=2) + '\n')

@@ -4,7 +4,7 @@ import * as THREE from 'three';
 import {GLTFLoader} from 'three/addons/loaders/GLTFLoader.js';
 import {KTX2Loader} from 'three/addons/loaders/KTX2Loader.js';
 import {BODY_DATA,surfaceRotation} from './mission.js';
-import {clamp,angularDiameter} from './flight.js';
+import {AU,clamp,angularDiameter} from './flight.js';
 import {ringIrradianceMap,ringTransmissionProfile} from './rendering/ringshine.js';
 import {solarVisibility} from './rendering/lighting.js';
 import {CloudDetail} from './rendering/cloud-detail.js';
@@ -32,6 +32,10 @@ export class CosmosWorld {
   this.shipCamera.position.set(-10,-2.5,26);this.follow=new THREE.Quaternion();this.followReady=false;
   this.shipKey=new THREE.DirectionalLight(0xfffaf0,3.7);this.shipKey.castShadow=true;this.shipKey.shadow.mapSize.set(2048,2048);Object.assign(this.shipKey.shadow.camera,{left:-15,right:15,top:15,bottom:-15,near:1,far:100});this.shipKey.shadow.bias=-.0001;this.shipKey.shadow.normalBias=.005;this.shipScene.add(this.shipKey);
   this.shipKey.shadow.autoUpdate=false;
+  // Readability aid for the *external model* far from a reflecting planet.
+  // Not a physical light source; it cannot illuminate planets or cast shadows.
+  this.chaseFill=new THREE.HemisphereLight(0xd2deec,0x98908b,0);
+  this.shipScene.add(this.chaseFill);
   this.shadowPose={direction:new V(Infinity,Infinity,Infinity),orientation:new THREE.Quaternion(),updates:0};
   this.environmentTarget=new THREE.WebGLCubeRenderTarget(64,{type:THREE.HalfFloatType});this.environmentCamera=new THREE.CubeCamera(.05,40000,this.environmentTarget);this.environmentClock=10;this.pmrem=new THREE.PMREMGenerator(this.renderer);this.pmrem.compileCubemapShader();
   this.shipRoot=new THREE.Group();this.shipScene.add(this.shipRoot);
@@ -51,7 +55,7 @@ export class CosmosWorld {
   });
  }
  async load({onModel,onWarmup}={}){
-  let done=0;const files=[...new Set(Object.values(BODY_DATA).map(x=>x.map).filter(Boolean)),'earth-clouds.avif','earth-cloud-height.png','earth-water.png','saturn-ring.png','moon-normal.avif','moon-height.webp','moon-polar-color.avif','moon-polar-normal.avif','saturn-polar.avif'];
+  let done=0;const files=[...new Set(Object.values(BODY_DATA).map(x=>x.map).filter(Boolean)),'earth-clouds.avif','earth-cloud-height.png','earth-water.png','saturn-ring.png','moon-normal.avif','moon-height.webp','moon-polar-color.avif','moon-polar-normal.avif','saturn-polar.avif','milky-way.webp'];
   const loader=new THREE.TextureLoader(),compressed=new KTX2Loader().setTranscoderPath('vendor/three/addons/libs/basis/').setWorkerLimit(1).detectSupport(this.renderer);
   const lunarCompressed=new KTX2Loader().setTranscoderPath('vendor/three/addons/libs/basis/').setWorkerLimit(1).detectSupport(this.renderer);
   // The opaque lunar map uses four-bit blocks where available, keeping the
@@ -269,8 +273,17 @@ export class CosmosWorld {
    if(gaze>0.3)visibleBright=Math.max(visibleBright,Math.min(1,angle*3)*clamp((gaze-.3)/.4,0,1)*Math.sqrt(clamp((1+-sun.dot(unitRelative))*.5,0,1)));
    b.group.visible=distance>b.data.radius*.98;
   }
-  this.starMaterial.uniforms.visibility.value=(.75-visibleBright*.72)*Math.pow(exposure,.7);
   const sunDistance=player.position.length();
+  // A dark-adapted display outside the bright planetary encounters; catalogue
+  // positions and relative flux are unchanged. This is not historic camera exposure.
+  const outer=clamp((sunDistance/AU-16)/20,0,1),darkAdapt=1+2*outer*(1-visibleBright);
+  // Diffuse light from unresolved stars is separate from the sharp bright-star
+  // catalogue. Fade it near bright limbs; never enlarge bodies to fill the sky.
+  const gain=(.38+.74*outer)*(1-clamp(visibleBright*2,0,1));
+  this.galacticSky.visible=gain>.005;
+  this.galacticSky.material.color.setScalar(gain);
+  this.chaseFill.intensity=1.6*outer;
+  this.starMaterial.uniforms.visibility.value=(.75-visibleBright*.72)*Math.pow(exposure,.7)*darkAdapt;
   const sunlightFraction=solarVisibility(player.position,this.bodyPositions,BODY_DATA);
   this.sunlightFraction=sunlightFraction;
   this.sunGlare.position.copy(this.bodies.sun.group.position);this.sunGlare.visible=sunlightFraction>.001;

@@ -85,6 +85,7 @@ export const SOURCES=[
  ['Saturn polar clouds','NASA/JPL-Caltech/Space Science Institute/Hampton University · Cassini, 25 June 2013','https://science.nasa.gov/photojournal/saturns-hexagon-as-summer-solstice-approaches/'],
  ['Saturn northern cloud structure','NASA/ESA Hubble · OPAL, Amy Simon · June 2019 · CC BY 4.0','https://archive.stsci.edu/hlsp/opal/opal-saturn-cycle-26'],
  ['Pale Blue Dot, 2020 reprocessing','NASA / JPL-Caltech, Kevin M. Gill','https://science.nasa.gov/photojournal/pale-blue-dot-revisited/'],
+ ['Milky Way sky','NASA SVS / Ernie Wright · Gaia DR2 faint-star background; exposure adapted for flight','https://svs.gsfc.nasa.gov/4851/'],
  ['Bright-star catalogue','D3 Celestial / XHIP catalogue','https://github.com/ofrohn/d3-celestial'],
  ['Io surface mosaic','NASA / JPL / USGS · merged Galileo and Voyager imagery','https://astrogeology.usgs.gov/search/map/io_galileo_ssi_global_color_merge_mosaic_1km'],
  ['Voyager instrument recordings','NASA / University of Iowa · historical radio and plasma measurements','https://space.physics.uiowa.edu/space-audio/'],

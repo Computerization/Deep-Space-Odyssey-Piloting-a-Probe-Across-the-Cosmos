@@ -3,13 +3,17 @@
 **Deep Space Odyssey: Piloting a Probe Across the Cosmos**  
 Information Technology Club × Astronomy Club
 
-An English-language exploration experience following Voyager 1 from launch to one light-day, with a future outlook. Fly around the worlds, discover their appearance from different positions, and continue the voyage whenever you are ready.
+An English and Simplified Chinese exploration experience following Voyager 1 from launch to one light-day, with a future outlook. Fly around the worlds, discover their appearance from different positions, and continue the voyage whenever you are ready.
+
+In deep space, the Milky Way and its dust lanes turn with the flight camera. They remain visible with the HUD off (**H**) and in both camera views (**C**). The sky uses a modern star-catalogue reconstruction, not a photograph from Voyager.
 
 ## Play
 
-On macOS, double-click **Start Cosmos.command**. On Windows with Python installed, double-click **Start Cosmos.bat**. Keep the launcher window open. Opening the launcher again reuses the running copy so the same browser save remains available. If another application occupies the port, Cosmos uses a free one.
+On macOS, double-click **Start Cosmos.command**. On Windows with Python installed, double-click **Start Cosmos.bat**. The launcher opens Google Chrome if installed, otherwise your default browser. It does not change your system browser. Saves and photographs stay in the browser profile that created them; to use a different profile or browser, open the printed address there. Keep the launcher window open. Opening the launcher again reuses the running copy so the same browser save remains available. If another application occupies the port, Cosmos uses a free one.
 
-Alternatively, run `python3 server.py --open` or `npm start`, then open **http://127.0.0.1:4173**. WebGL 2 and hardware acceleration are required. All game assets are local, so the launcher works without internet access. Opening `index.html` directly is unsupported by browser module security.
+From a terminal, `python3 server.py --open` does the same. For a server without opening a browser, run `npm start`, then open **http://127.0.0.1:4173**. WebGL 2 and hardware acceleration are required. All game assets are local, so the launcher works without internet access. Opening `index.html` directly is unsupported by browser module security.
+
+Use **简体中文 / English** on the title screen or **Pause → Settings → Language** during flight. The first visit follows the browser language; later visits use your choice. Switching does not restart the voyage. Archive recordings retain their original audio and labels.
 
 ## The voyage
 
@@ -28,6 +32,8 @@ In **Pause → Settings → Picture**, set **Passage camera** to **Steady** for 
 During fieldwork the meter counts time spent on the feature. A brief correction holds the meter until you find the same view again; a finished note goes straight to the Journal. Follow the Moon’s terminator to see long crater shadows, or frame Earth just clear of the lunar limb from either side. At Saturn the ring-opening angle changes as you fly. **G** hides the guide for an unobstructed flight.
 
 In the Pale Blue Dot archive, try finding Earth before choosing **Mark Earth**. At one light-day, **X** opens a radio experiment: transmit, then scrub the 48-hour clock or jump to each reception. The experiment models an immediate reply at fixed separation, independently of the flight clock. **N** goes directly to the future outlook.
+
+Beyond Saturn the instrument beside the sky changes at each stop. Find Earth in the archived plate, compare the two recorded plasma-wave bands, and run a 48-hour radio round trip. Use **X** to investigate and **N** to leave without completing a task; **G** hides the instrument for a clear view. The outer sky uses a dark-adapted display of the same star catalogue, not a visible heliopause.
 
 ## Controls
 

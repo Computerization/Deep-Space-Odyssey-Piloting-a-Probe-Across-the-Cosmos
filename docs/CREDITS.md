@@ -1,5 +1,11 @@
 # Credits and sources
 
+## Milky Way in flight
+
+**NASA's Scientific Visualization Studio / Ernie Wright, Deep Star Maps 2020** (Gaia DR2 faint-star background): https://svs.gsfc.nasa.gov/4851/. The celestial map omits the bright Hipparcos/Tycho foreground; the separate XHIP points are still drawn at their own directions. The texture is registered to J2000, centred at RA 0 with east to the left. It does not move with spacecraft translation or depict local gas, dust, parallax, a historical photograph or the view available to Voyager’s camera. Display gain and a soft fill on the external model make dark structure legible; neither represents calibrated illumination.
+
+`docs/build-flight-sky.py` reduces `milkyway_2020_4k.exr` (SHA-256 `2eb802d6e68d170b410f766c7fec07f7518619f6b6708fdc81e9302d93e74fdb`) to 2048 × 1024 and uses `milkyway_2020_4k_print.jpg` as an SDR contrast reference. The local WebP is 640,338 bytes; the runtime never fetches either source. The texture needs about 10.7 MiB including RGBA8 mipmaps; the sphere adds one draw when visible, none when suppressed by a bright body.
+
 ## Scientific data
 
 - **NASA/JPL Horizons.** ICRF heliocentric geometric state vectors in kilometres and kilometres per second. Downloaded for six encounter epochs; the queries and complete local data are preserved in `fetch-ephemeris.py` and `assets/ephemeris.json`. https://ssd.jpl.nasa.gov/horizons/
@@ -198,3 +204,7 @@ The archive viewer and journal use a 1,440-pixel-wide Lanczos reduction of bundl
 The opening study reuses the [NASA Visualization Technology Applications and Development (VTAD) Voyager model](https://science.nasa.gov/resource/voyager-3d-model/) of the twin spacecraft. System descriptions and published dimensions follow [NASA’s spacecraft description](https://science.nasa.gov/mission/voyager/spacecraft/) and [instrument descriptions](https://science.nasa.gov/mission/voyager/instruments/) and the [magnetometer experiment description](https://pds.nasa.gov/data/vg1-j-pos-6-summ-s3coords-v1.1/vg_1501/document/mag/maginst.htm). The close-up reflector interpolates the model’s existing circular profiles and UVs; it adds no measured hardware detail. Orthographic framing, studio reflections and fixed shadows are presentation choices, not reconstructed launch lighting. The source asset and chase-camera geometry remain unchanged.
 
 Local spherical gravity uses [JPL planetary gravitational parameters](https://ssd.jpl.nasa.gov/astro_par.html) and [satellite parameters](https://ssd.jpl.nasa.gov/sats/phys_par/sep.html). The fixed-epoch scene uses differential external gravity; assisted thrust, follow and boundaries are exploration aids.
+
+### Outer-flight instrument plates
+
+`assets/archive/plasma-spectrum.jpg` is a reduced still from approximately 12.8 seconds into the bundled University of Iowa / NASA / JPL-Caltech Voyager PWS presentation credited above. Its highlighted 2012 and 2013 intervals are archival, not a live feed at the heliopause. The Pale Blue Dot flight inset crops the existing reprocessed photograph; its locator uses the full plate. The radio clock assumes a fixed one-light-day path and an immediate reply, not historical network traffic. The Golden Record groove graphic is schematic, not a replica: https://science.nasa.gov/mission/voyager/golden-record-cover/ .
