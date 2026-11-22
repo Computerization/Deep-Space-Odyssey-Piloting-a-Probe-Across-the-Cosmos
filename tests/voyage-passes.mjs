@@ -13,11 +13,14 @@ try{
  await page.click('#begin');await page.waitForFunction(()=>document.querySelector('video#launch-film').currentTime>.3);
  const report={engine:browser.version(),viewport:[1280,800]};
  report.film=await page.evaluate(async()=>{const film=document.querySelector('#launch-film'),start=__cosmos.world.renderCount,b=film.getBoundingClientRect(),t=film.currentTime;await new Promise(r=>setTimeout(r,1300));return {width:b.width,height:b.height,draws:__cosmos.world.renderCount-start,mediaSeconds:film.currentTime-t}});
- await shot('launch');await page.keyboard.press('n');await page.waitForFunction(()=>__cosmos.game.stage==='encounter');
+ assert.equal(report.film.draws,0);assert.equal(report.film.height,800);
+ await shot('launch');await page.setViewportSize({width:1720,height:720});await page.keyboard.press('c');assert.equal(await page.locator('#launch-film').evaluate(e=>getComputedStyle(e).objectFit),'contain');await shot('wide-original');await page.keyboard.press('c');assert.equal(await page.locator('#launch-film').evaluate(e=>getComputedStyle(e).objectFit),'cover');await shot('wide-fill');await page.setViewportSize({width:1280,height:800});await page.keyboard.press('n');await page.waitForFunction(()=>__cosmos.game.stage==='encounter');
  for(const [index,id] of [[0,'earth'],[1,'jupiter'],[2,'saturn']]){
   await page.evaluate(i=>__cosmos.startChapter(i),index);await page.waitForTimeout(450);await shot(id+'-held');
   report[id]=await page.evaluate(b=>{const {world:w,game:g}=__cosmos;return {lens:w.camera.fov,angularDiameter:2*w.observationFraming(b,g.player).angularRadius*180/Math.PI}},id);
-  await page.keyboard.down('ArrowRight');await page.waitForTimeout(150);await shot(id+'-turn');await page.keyboard.up('ArrowRight');await page.keyboard.press('l');await page.keyboard.down('a');
+  await page.keyboard.down('ArrowRight');await page.waitForTimeout(150);await shot(id+'-turn');await page.keyboard.up('ArrowRight');await page.keyboard.press('l');
+  if(index===0){const move=delta=>page.evaluate(dx=>document.dispatchEvent(new MouseEvent('mousemove',{movementX:dx,bubbles:true})),delta);await move(1);await page.waitForTimeout(100);assert.equal(await page.evaluate(()=>__cosmos.game.tracking),'earth');await move(5);await page.waitForTimeout(100);assert.equal(await page.evaluate(()=>__cosmos.game.tracking),null);await page.keyboard.press('l');}
+  await page.keyboard.down('a');
   report[id].motion=await page.evaluate(async()=>{const {world:w,game:g}=__cosmos,start=g.player.position.clone(),samples=[];let last=await new Promise(requestAnimationFrame);for(let i=0;i<40;i++){const t=await new Promise(requestAnimationFrame);samples.push(t-last);last=t;}samples.sort((a,b)=>a-b);return {p50:samples[19],p95:samples[37],distance:start.distanceTo(g.player.position),tracking:g.tracking}});await shot(id+'-circle');const ruler=page.locator('#surface-ruler');if(await ruler.count()){assert.ok(await ruler.isVisible());report[id].span=await ruler.textContent();}await page.keyboard.up('a');assert.ok(report[id].motion.distance>0);
  }
  await page.evaluate(()=>__cosmos.startChapter(5));await page.keyboard.press('n');await page.locator('#panel[data-view="ending"]').waitFor();await shot('ending');

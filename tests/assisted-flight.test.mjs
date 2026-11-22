@@ -123,3 +123,16 @@ test('released from rest accelerates towards Earth, and braking can hold station
  assert.ok(s.game.player.velocity.z<0);assert.ok(s.game.player.position.z<start.z);
  advance(s,{brake:true},1);assert.ok(s.game.player.velocity.length()<.00001);
 });
+
+test('opposing thrust removes the old heading before building the reverse coast',()=>{
+ const s=setup();s.game.player.velocity.set(1500,0,0);const before=s.game.player.velocity.clone();
+ advance(s,{lateral:-1},.08);const reverse=before.x-s.game.player.velocity.x;
+ s.game.player.velocity.copy(before);s.game.drive.set(0,0,0);advance(s,{lateral:1},.08);
+ assert.ok(reverse>(s.game.player.velocity.x-before.x)*1.8);
+});
+test('orbit-assist thrust stays tangent under chase lag and coasts at the same range',()=>{
+ const s=setup();s.game.tracking='earth';s.game.player.quaternion.setFromAxisAngle(new Vector3(0,1,0),1);
+ const initial=s.game.player.position.length();advance(s,{lateral:1},1.8);advance(s,{},2.8);
+ assert.ok(Math.abs(s.game.player.position.length()-initial)<.1);assert.ok(s.game.player.position.x>1000);
+ advance(s,{thrust:1},1);assert.ok(s.game.player.position.length()<initial-500);
+});

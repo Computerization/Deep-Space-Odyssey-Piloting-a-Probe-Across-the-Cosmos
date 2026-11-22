@@ -1,7 +1,7 @@
 import {BODY_DATA} from '../mission.js';
 import {formatFieldOfView} from '../flight.js';
 
-export function openCameraView({game,world,camera,ui,openPanel,closePanel,save}){
+export function openCameraView({game,world,camera,ui,openPanel,closePanel,save,practised=()=>{}}){
  camera.stopLens();
  const subjects=camera.subjects();
  openPanel('camera','Camera',`<div class="camera-content"><nav class="reference-tabs" aria-label="Camera position"><button id="camera-probe" aria-pressed="${game.view==='probe'}">First person</button><button id="camera-chase" aria-pressed="${game.view==='chase'}">Third person</button></nav>
@@ -10,15 +10,15 @@ export function openCameraView({game,world,camera,ui,openPanel,closePanel,save})
  const wide=Math.tan(70*Math.PI/360),narrow=Math.tan(4*Math.PI/360),lens=ui('camera-lens');
  lens.value=100*Math.log(Math.tan(world.camera.fov*Math.PI/360)/wide)/Math.log(narrow/wide);
  function readout(){const text=`${formatFieldOfView(world.camera.fov)} field of view`;ui('camera-lens-value').textContent=text;lens.setAttribute('aria-valuetext',text);lens.style.setProperty('--range-fill',`${lens.value}%`);}
- lens.oninput=()=>{world.setFov(2*Math.atan(wide*(narrow/wide)**(Number(lens.value)/100))*180/Math.PI);readout();save();};readout();
+ lens.oninput=()=>{practised('zoom');world.setFov(2*Math.atan(wide*(narrow/wide)**(Number(lens.value)/100))*180/Math.PI);readout();save();};readout();
  for(const view of ['probe','chase'])ui(`camera-${view}`).onclick=()=>{
-  camera.setView(view);
+  practised('view');camera.setView(view);
   for(const v of ['probe','chase'])ui(`camera-${v}`).setAttribute('aria-pressed',String(v===view));
   for(const button of ui('panel-content').querySelectorAll('[data-follow]')){const following=game.tracking===button.dataset.follow;button.setAttribute('aria-pressed',String(following));button.lastElementChild.textContent=following?'Release':'Follow →';}
   save();
  };
  for(const button of ui('panel-content').querySelectorAll('[data-follow]'))button.onclick=()=>{
-  camera.toggleFollowing(button.dataset.follow);
+  practised('track');camera.toggleFollowing(button.dataset.follow);
   closePanel();save();
  };
  ui(`camera-${game.view}`).focus();

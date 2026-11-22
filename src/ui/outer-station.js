@@ -11,7 +11,7 @@ const radio=`<svg viewBox="0 0 240 94" role="img" aria-label="Schematic of the o
 export function createOuterStation(ui){
  const el=ui('outer-station');let current=null,number,line,lastValue,lastLabel;
  return function render(game,world){
-  const id=game.stage==='encounter'&&game.showHud&&game.guidance?game.chapter:null,s=stations[id];
+  const id=game.stage==='encounter'&&game.showHud&&game.guidance&&!game.quietHud?game.chapter:null,s=stations[id];
   if(!s){if(!el.hidden)el.hidden=true;current=null;return;}
   if(current!==id){current=id;el.dataset.station=id;el.hidden=false;
    el.innerHTML=`<header><span>${s.channel}</span><span>${s.kind}</span></header><h3>${s.title}</h3><figure>${s.image?`<img src="${s.image}" alt="${s.alt}">`:radio}<figcaption>${s.caption}</figcaption></figure><div class="station-read"><strong id="outer-value"></strong><span id="outer-readout"></span></div>`;

@@ -1,6 +1,6 @@
 {
   "name": "cosmos-voyager",
-  "version": "0.118.0",
+  "version": "0.119.0",
   "private": true,
   "type": "module",
   "description": "An offline, freely piloted journey with Voyager 1",

@@ -26,7 +26,7 @@ For control-only changes, `node tests/journey-experience.mjs --controls` exercis
 
 Discovery acceptance: `node tests/journey-experience.mjs --discovery` checks the single opening instruction, follows the release, coast and brake cues to the first finding through actual W/Space input, checks notes without photos and the corrected crescent view. The full voyage runner also checks automatic notes, unchanged player position and automatic next suggestions. `encounter-discovery.test.mjs` checks view eligibility, including the finite-distance crescent limit.
 
-Interface acceptance: `node tests/journey-experience.mjs --interface` checks launch-caption separation at three viewport sizes, shortcuts for visible flight actions, immediate Tab/Enter navigation, camera menu/view switching and recent-photograph navigation.
+Interface acceptance: `node tests/journey-experience.mjs --interface` checks full-viewport film and a separate caption beat at three viewport sizes, shortcuts for visible flight actions, immediate Tab/Enter navigation, camera menu/view switching and recent-photograph navigation.
 
 Free exploration: `node tests/journey-experience.mjs --free` checks unordered discoveries, actual L/D coasting and release, named landmarks, the close-pass boundary and optional recordings.
 
@@ -252,3 +252,11 @@ For real GPU timing, run `profile-renderer.mjs` with `COSMOS_PROFILE_LUNAR=1`, `
 `texture-reconstruction.mjs` compares actual GPU output with independent 16-tap CPU convolution and an analytically known continuous signal. It checks periodic seams, clamped poles, bounded step edges, constant colours, the blend interval, native sampling and anisotropic minification in three engines. Real Earth, Moon, Jupiter, Io and Saturn views compare the same shader with the reconstruction call disabled, retaining physical state and allocations. The signal error reduction measures interpolation fidelity, not extra source resolution or photographic accuracy.
 
 With `COSMOS_VISUAL_PREVIOUS`, the surface runner also requires every Earth shader export and all four generated cloud variants to remain byte-identical after extracting the shared kernel. `cloud-composite.mjs` accepts `COSMOS_COMPOSITE_PREVIOUS` for exact previous-kernel comparisons after sharing the helper; full-resolution volume comparisons remain available. `profile-renderer.mjs` accepts `COSMOS_PROFILE_SURFACES=1` with `COSMOS_PREVIOUS_SHADER`, comparing whole and magnified Moon/Jupiter frames through interleaved GPU queries. `COSMOS_PROFILE_REPORT` selects the output.
+
+`node tests/voyage-passes.mjs` exercises the launch framing, manual turn, follow, orbit, surface scale and player-paced ending in desktop Chrome. Set `COSMOS_REVIEW_DIR` to retain the images and frame-interval samples outside the playable package.
+
+`node tests/exhibition-voyage.mjs` tests an actual local file selection, decode failure recovery, concert playback, archival ducking and the player's two photographs returning after a reload in the ending. `COSMOS_TEST_MP3` optionally supplies a synthetic fixture; omit it to use a bundled archival MP3 as test input. `node tests/voyage-cadence.mjs` measures 300 rAF intervals per tracked world after warm-up at 1280 × 800. Run it without concurrent GPU tests. The concert performance adds a single 7,071,918-byte stereo Ogg/Vorbis stream; local exhibition audio is not packaged.
+
+`node tests/pilot-school.mjs` flies all three practice maneuvers with ordinary flight keys, checks on-demand rehearsal, and reaches a personal ending without taking a photograph. `node tests/v119-upgrade.mjs` migrates a temporary 0.116 checkout, disconnects its server from the browser and verifies checkpoint, mute, control settings and photograph. Supply `COSMOS_UPGRADE_ROOT` and `COSMOS_UPGRADE_URL` as above.
+
+`node tests/quiet-flight.mjs` checks the actual settled flight view: the novice roll cue stays legible, instrument previews withdraw, help recalls the current note, the outer instrument still opens with X, and H removes the remainder.

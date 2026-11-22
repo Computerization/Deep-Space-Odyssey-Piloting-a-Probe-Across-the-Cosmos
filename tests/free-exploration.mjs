@@ -17,7 +17,7 @@ export async function checkFreeExploration(page,name){
  await page.keyboard.press('l');await page.waitForTimeout(1600);
  const read=()=>page.evaluate(()=>{const a=__cosmos;return{range:a.game.player.position.distanceTo(a.world.bodyPositions.earth),position:a.game.player.position.toArray(),speed:a.game.player.velocity.length(),tracking:a.game.tracking}});
  const initial=await read();assert.equal(initial.tracking,'earth');
- assert.match(await page.locator('#journey-caption').textContent(),/[ADRF] · Circle/);
+ assert.match(await page.locator('#journey-caption').textContent(),/Shift \+ [ADRF] · Cruise around the limb/);
  await page.keyboard.down('d');await page.waitForTimeout(1800);await page.keyboard.up('d');
  const powered=await read();await page.waitForTimeout(2800);const coast=await read();
  assert.ok(Math.abs(coast.range-initial.range)<3,'orbit assist retains range through thrust and coast');

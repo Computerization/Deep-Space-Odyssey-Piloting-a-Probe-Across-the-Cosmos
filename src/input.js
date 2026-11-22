@@ -20,7 +20,7 @@ export class FlightInput {
    if(e.code==='Space'&&e.target.matches('button,a,summary,[role="button"]'))return;
    if(['Space','ArrowUp','ArrowDown','ArrowLeft','ArrowRight'].includes(e.code))e.preventDefault();
    this.keys.add(e.code);if(e.repeat)return;
-   const map={Escape:'pause',Space:'holdPressed',KeyX:'interact',KeyC:'view',KeyK:'camera',KeyU:'review',KeyO:'recentPhoto',KeyI:'instruments',KeyM:'map',KeyJ:'journal',KeyH:'hud',KeyG:'guidance',KeyZ:'precision',KeyP:'photo',KeyT:'timeUp',BracketRight:'timeUp',BracketLeft:'timeDown',Equal:'exposureUp',Minus:'exposureDown',KeyN:'next',KeyB:'music',KeyV:'look',KeyL:'track',Enter:'confirm',Slash:'guide'};
+   const map={Escape:'pause',Space:'holdPressed',KeyX:'interact',KeyY:'maneuver',KeyC:'view',KeyK:'camera',KeyU:'review',KeyO:'recentPhoto',KeyI:'instruments',KeyM:'map',KeyJ:'journal',KeyH:'hud',KeyG:'guidance',KeyZ:'precision',KeyP:e.shiftKey?'flyby':'photo',KeyT:'timeUp',BracketRight:'timeUp',BracketLeft:'timeDown',Equal:'exposureUp',Minus:'exposureDown',KeyN:'next',KeyB:'music',KeyV:'look',KeyL:'track',Enter:'confirm',Slash:'guide'};
    if(e.code==='Enter'&&e.target.matches('summary,a,[role="button"]'))return;
    if(map[e.code]){if(e.code==='Enter')e.preventDefault();action(map[e.code]);}
   });
@@ -79,7 +79,8 @@ export class FlightInput {
    if(b(0)>.5&&!previous[0])this.action('confirm');
   }else{this.pad=null;this.previous=[];this.blockedAxes.clear();this.blockedButtons.clear();}
   const k=this.keys;let lateral=Number(k.has('KeyD'))-Number(k.has('KeyA')),vertical=Number(k.has('KeyR'))-Number(k.has('KeyF')),thrust=Number(k.has('KeyW'))-Number(k.has('KeyS'));
-  let yaw=-this.mouse.x*this.sensitivity,pitch=-this.mouse.y*this.sensitivity,roll=(Number(k.has('KeyQ'))-Number(k.has('KeyE')))*.8;
+  const mouseX=this.mouse.x,mouseY=this.mouse.y;
+  let yaw=-mouseX*this.sensitivity,pitch=-mouseY*this.sensitivity,roll=(Number(k.has('KeyQ'))-Number(k.has('KeyE')))*.8;
   this.mouse.x=this.mouse.y=0;
   const turnScale=this.sensitivity/.002;
   yaw+=(Number(k.has('ArrowLeft'))-Number(k.has('ArrowRight')))*1.32*dt*turnScale;
@@ -101,7 +102,8 @@ export class FlightInput {
    const hold=b(1),record=b(0);brake||=hold>.5;observe||=record>.5;
   }
   this.awaitNeutral=this.blockedAxes.size+this.blockedButtons.size>0;
+  const mouseOnly=(mouseX!==0||mouseY!==0)&&yaw===-mouseX*this.sensitivity&&pitch===-mouseY*this.sensitivity&&!roll;
   yaw*=this.aimScale;pitch*=this.aimScale;
-  return {lateral,vertical,thrust,yaw,pitch,roll,brake,observe,boost};
+  return {lateral,vertical,thrust,yaw,pitch,roll,brake,observe,boost,mouseOnly,mouseX,mouseY};
  }
 }

@@ -1,6 +1,79 @@
 // UI copy only: localize presentation, never mission IDs, coordinates, save keys or photo records.
 import {scienceChinese} from './zh-science.js';
 export const chinese=new Map([...scienceChinese,...`
+Control practised|已试过这项操作
+Return to flight control to bank the probe.|请先返回飞行操纵模式，再让探测器滚转。
+Turn back to your entry heading before levelling.|先转回开始练习时的朝向，再调平。
+Try a control in flight|在飞行中练习一项操作
+Try it →|开始练习 →
+Brake against your drift|制动以减慢滑行
+Flight maneuvers|驾驶练习
+Bank the blue horizon|倾转蓝色地平线
+Catch the drift window|滑入制动区间
+Fly the rings edge-on|贴近环面，看环成线
+ASSISTED FLIGHT · PRACTICE|辅助飞行 · 驾驶练习
+Your hands banked the blue horizon, then set it level again.|你的手让蓝色地平线倾斜，又让它归于水平。
+You cut the thrust. A world kept turning beneath you.|你关掉了推力。脚下的一整个世界，仍在转动。
+For a moment, all those rings fitted inside a line.|有那么一瞬，所有的星环都藏进了一条细线。
+Roll back to level, then let go.|反向滚转至水平，然后松手。
+Bank to 30° either way, then let go.|向任一侧滚转至 30°，然后松手。
+Build sideways speed. Release to coast into the band.|侧向加速，松手后依惯性滑入标记区间。
+Past the window. Reverse the arc and try again.|已越过区间。反向推进，沿来路返回。
+Brake inside the band; hold the view steady.|在标记区间内制动，让画面平稳下来。
+Back away beyond the outer rings first.|先后退，飞到外环之外。
+Move towards the ring plane until the ellipse becomes a line.|向环平面靠近，直到椭圆缩成一条线。
+Climb to open the rings, then approach their edge.|先爬升让星环张开，再靠近环面。
+Brake with the rings edge-on.|当星环呈一条细线时制动。
+Follow the world to recover the flight bearing.|重新跟随天体，找回飞行方位。
+Level · 0°|水平 · 0°
+Bank · 30°|滚转 · 30°
+Coast window · 21–31°|制动区间 · 21–31°
+Ring opening · ±3°|星环张角 · ±3°
+Pass complete|完成飞越
+Back to exploring|返回探索
+Leave maneuver|退出练习
+Roll the horizon|滚转，让地平线倾斜
+Rise or descend|升高或降低
+Circle the world|绕天体飞行
+Follow a world while you fly|飞行时镜头跟随天体
+Shift while moving|移动时按住 Shift
+LB + RB while moving|移动时按住 LB + RB
+Change the lens|调整镜头倍率
+Change camera without moving the probe|只换镜头，探测器状态不变
+Fine control for close approaches|近距离使用精细操纵
+Look without turning the probe|自由环顾，保持探测器朝向
+Work the science station|操作科学仪器
+Four suites follow the changing encounters.|四部原创组曲，随不同飞掠场景交替。
+Your recording follows the voyage from launch to the last page.|从发射到最后一页，由你选择的录音陪伴航程。
+Cape Canaveral|卡纳维拉尔角
+Music selection|选择配乐
+Voyage score|航行配乐
+Holst · Venus, the Bringer of Peace|霍尔斯特 · 金星，和平使者
+Cosmos · Original suites|Cosmos · 原创组曲
+A continuous concert performance. The score recedes under archival recordings.|整段乐团演奏贯穿航程。播放历史录音时，配乐会自动降低。
+Choose a local MP3|选择本机 MP3
+Preview score|试听配乐
+Preview playing|正在试听
+On this device, for this session only.|仅在本机的当前页面中播放。
+Local score ready for this voyage. Choose it again after reloading.|本次航行已载入本机配乐。刷新页面后请重新选择。
+Playback unavailable. Choose another score.|无法播放。请选择其他配乐。
+This file could not play. Choose another MP3.|无法播放此文件。请另选 MP3。
+Concert score|乐团配乐
+Gustav Holst · Venus, the Bringer of Peace · U.S. Air Force Heritage of America Band, 1998|古斯塔夫·霍尔斯特《金星，和平使者》 · 美国空军传统乐团，1998 年
+Make a flyby pair|拍摄飞掠双照
+Flyby contact sheet|飞掠双照
+Compare your flyby|对比飞掠双照
+Take exposure II|拍摄第二张
+Circle for exposure II|绕行以拍摄第二张
+First exposure|第一次曝光
+Second exposure|第二次曝光
+Compare exposures|滑动对比双照
+Two places, one world|同一颗星球，两个观测点
+FLYBY CONTACT SHEET|飞掠接触印样
+Carried from your flight|从你的航程带来
+Frame the encounter world before taking an exposure.|请先让这次飞掠的天体进入画面，再拍摄。
+Keep the world in view. Hold Shift + A or D to open the angle.|让天体保持在画面内。按住 Shift 加 A 或 D 绕行，拉开观测夹角。
+Exposure I recorded. Hold Shift + A or D to circle; press Shift + P at 12°.|第一张已记录。按住 Shift 加 A 或 D 绕行；达到 12° 时按 Shift + P 拍第二张。
 On Earth, a needle lifts. In the dark, its twin keeps travelling.|地球上，一根唱针抬起。黑暗里，另一根仍在远行。
 Somewhere in those grooves a foot is falling, and has yet to touch the ground.|唱片的某一道刻纹里，有人迈出了一步，那只脚还没落地。
 Follow the world, then circle.|跟随天体，再沿着它环绕飞行。
@@ -18,6 +91,19 @@ Coasting|惯性滑行
 You found Earth in the beam of sunlight.|你在一束阳光中找到了地球。
 You heard the pitch rise in denser plasma.|你听到了更浓密的等离子体中升高的音调。
 Two days passed on Earth before the reply came home.|直到地球上过了两天，应答信号才回到家。
+Original frame|原片画幅
+Fill screen|铺满屏幕
+Ring plane|环平面
+Cruise around the limb.|加速绕过天体边缘。
+You saw how little blue it takes to hold a sky.|你见过，托住一片天空，只需要那样薄的一层蓝。
+You moved a little, and Earth rose.|你轻轻一动，地球便升起来了。
+You watched a storm too wide to fit inside your world.|你望过一场风暴，大到整个地球都盛不下。
+You saw daylight leave a shadow on a ring.|你看见阳光在星环上留下一道阴影。
+You found home in a scratch of sunlight.|你在一缕细得像划痕的阳光里找到了家。
+You listened to a place the cameras could not see.|你听过一处镜头看不见的地方。
+You sent a word across a day. Another day brought it home.|你让一句话走了一天，又过了一天，它才回到家。
+Even when you took your hands away, the little ship went on.|即使你把手放开，那艘小船也一直向前。
+The rain ends. The groove goes round once more.|雨停了。刻纹又转过一圈。
 Pilot Voyager 1 from Earth to interstellar space.|驾驶旅行者 1 号，从地球飞向星际空间。
 Voyager 1|旅行者 1 号
 Begin voyage|开始航行

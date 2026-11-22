@@ -1,7 +1,7 @@
 import {mixIntent} from './flight-instruments.js';
 import {holdParameter,fadeParameter} from './audio-automation.js';
 export class Soundtrack {
- constructor(){this.volume=.6;this.muted=false;this.started=false;this.current=null;this.channels=new Map();this.recordings=new Map();this.paused=false;this.hidden=false;this.ducked=false;this.feedbackVolume=.7;this.voices=new Set();}
+ constructor(){this.scoreMode='suites';this.localScore=null;this.localSerial=0;this.volume=.6;this.muted=false;this.started=false;this.current=null;this.channels=new Map();this.recordings=new Map();this.paused=false;this.hidden=false;this.ducked=false;this.feedbackVolume=.7;this.voices=new Set();}
  async start(){
   if(!this.context){this.context=new (window.AudioContext||window.webkitAudioContext)();this.master=this.context.createGain();this.master.gain.value=this.muted||this.hidden?0:this.volume*(this.ducked?.08:this.paused?.35:1);this.master.gain.setValueAtTime(this.master.gain.value,this.context.currentTime);this.limiter=this.context.createDynamicsCompressor();this.limiter.threshold.value=-8;this.limiter.knee.value=6;this.limiter.ratio.value=2;this.limiter.attack.value=.008;this.limiter.release.value=.2;this.master.connect(this.limiter);this.limiter.connect(this.context.destination);
    this.recordingBus=this.context.createGain();this.recordingBus.gain.value=this.muted||this.hidden?0:this.volume;this.recordingBus.gain.setValueAtTime(this.recordingBus.gain.value,this.context.currentTime);this.recordingBus.connect(this.limiter);
@@ -15,23 +15,34 @@ export class Soundtrack {
   // can crossfade without needing another click. Their gains begin at zero.
   if(!this.mediaPrimed){
    this.mediaPrimed=true;
-   for(const name of ['departure','encounter','rings','distance']){
-    const channel=this.prepareChannel(name);
-    channel.el.play().then(()=>{if(this.current!==name)channel.el.pause();}).catch(()=>{});
-   }
+   const names=this.scoreMode==='suites'?['departure','encounter','rings','distance']:['holst-venus'];
+   for(const name of names){const {el}=this.prepareChannel(name);el.play().then(()=>{if(this.current!==name)el.pause();}).catch(()=>{});}
   }
   this.applyVolume();await this.context.resume();this.started=true;
  }
- prepareChannel(name){
+ prepareChannel(name,url){
   if(!this.channels.has(name)){
-   const el=new Audio(`assets/audio/${name}.ogg`);el.loop=true;el.preload='auto';
+   const el=new Audio(url||`assets/audio/${name}.ogg`);el.loop=true;el.preload='auto';
    const gain=this.context.createGain();gain.gain.value=0;
-   this.context.createMediaElementSource(el).connect(gain);gain.connect(this.musicBus);
-   this.channels.set(name,{el,gain});
+   const source=this.context.createMediaElementSource(el);source.connect(gain);gain.connect(this.musicBus);
+   this.channels.set(name,{el,gain,source,url});
   }
   return this.channels.get(name);
  }
- async select(name){
+ // Local audio is streamed from a tab-scoped blob URL. Only a successful
+ // switch may retire the previous score; the file never enters cache or saves.
+ async importScore(file){
+  const key=`local:${++this.localSerial}`,url=URL.createObjectURL(file),prior=this.localScore,mode=this.scoreMode;
+  this.prepareChannel(key,url);this.localScore={key,label:file.name};this.scoreMode='local';
+  try{await this.select(this.chapterTrack||'departure');}
+  catch(error){this.localScore=prior;this.scoreMode=mode;this.disposeLocal(key);await this.select(this.chapterTrack||'departure');throw error;}
+  if(prior&&this.channels.get(prior.key)?.el.paused)this.disposeLocal(prior.key);
+ }
+ disposeLocal(key){const ch=this.channels.get(key);if(!ch?.url)return;ch.el.pause();ch.el.removeAttribute('src');ch.el.load();ch.source.disconnect();ch.gain.disconnect();URL.revokeObjectURL(ch.url);this.channels.delete(key);}
+ async setScoreMode(mode){this.scoreMode=mode==='local'&&!this.localScore?'concert':mode;await this.select(this.chapterTrack||'departure');}
+ async select(section){
+  this.chapterTrack=section;
+  const name=this.scoreMode==='concert'?'holst-venus':this.scoreMode==='local'?this.localScore.key:section;
   if(!this.started||(this.current===name&&!this.channels.get(name)?.el.paused))return;
   const selection=this.selection=(this.selection||0)+1;
   this.current=name;
@@ -39,8 +50,9 @@ export class Soundtrack {
   try{await channel.el.play();}catch(error){if(this.selection===selection)this.current=null;throw error;}
   if(this.selection!==selection){if(this.current!==name)channel.el.pause();return;}
   const now=this.context.currentTime,duration=7.5;
+  const incomingTime=[...this.channels.values()].some(ch=>ch!==channel&&!ch.el.paused)?duration:1.6;
   for(const [key,ch]of this.channels){
-   fadeParameter(ch.gain.gain,key===name?1:0,now,duration);
+   fadeParameter(ch.gain.gain,key===name?1:0,now,key===name?incomingTime:duration);
    ch.retireAt=key===name?null:now+duration;
   }
   this.retireFinishedChannels();
@@ -51,7 +63,7 @@ export class Soundtrack {
   const now=this.context.currentTime;let next=Infinity;
   for(const [name,channel] of this.channels){
    if(name===this.current||channel.retireAt==null)continue;
-   if(now>=channel.retireAt){channel.el.pause();channel.retireAt=null;}
+   if(now>=channel.retireAt){channel.el.pause();channel.retireAt=null;if(channel.url&&name!==this.localScore?.key)this.disposeLocal(name);}
    else next=Math.min(next,channel.retireAt);
   }
   // Wall time only wakes the check. The audio clock decides when the fade
@@ -86,6 +98,12 @@ export class Soundtrack {
  updateFlight(state){
   if(!this.context||this.context.state!=='running')return;
   const intent=mixIntent(state),now=this.context.currentTime;
+  if(this.scoreMode!=='suites'){
+   // Preserve the timbre of the recorded ensemble. Leave more space in
+   // the outer chapters; let the final reading breathe at concert level.
+   intent.cutoff=19500;
+   intent.gain=state.coda?.94:state.passage==='outer'?.60:state.passage==='opening'?.76:intent.gain;
+  }
   const last=this.lastMix;
   if(!last||Math.abs(last.gain-intent.gain)>.005||Math.abs(last.cutoff-intent.cutoff)>100||Math.abs(last.space-intent.space)>.003){
    for(const [parameter,target,seconds] of [[this.musicBus.gain,intent.gain,1.8],[this.musicFilter.frequency,intent.cutoff,1.2],[this.roomGain.gain,intent.space,1.5]]){

@@ -9,6 +9,7 @@ export const CLOSE_PASS={earth:1.15,moon:1.22,io:1.22,jupiter:1.45,saturn:1.6,ti
 
 // Synchronous integration scratch; no temporary vector escapes a substep.
 const inputVector=new THREE.Vector3(),turnVector=new THREE.Vector3(),relativeVector=new THREE.Vector3(),oldRadial=new THREE.Vector3();
+const tangentRight=new THREE.Vector3(),tangentUp=new THREE.Vector3();
 const rotation=new THREE.Quaternion(),gravityVector=new THREE.Vector3();
 // Acceleration in the fixed encounter frame. Other bodies contribute their
 // differential pull at the frame origin, avoiding a fictitious bulk fall of
@@ -84,7 +85,17 @@ function advanceManualFlight(game,world,sample,dt,region){
  // Ease thrust changes in the control frame. Release stops propulsion at once;
  // the existing velocity remains, with no invisible damping of a coast.
  if(game.thrust&&!sample.brake)game.drive.lerp(demand,1-Math.exp(-dt*22));else game.drive.set(0,0,0);
- demand.copy(game.drive).applyQuaternion(camera);
+ const anchor=game.tracking&&world.bodyPositions[game.tracking];
+ if(anchor){
+  // Orbit assist owns a radial W/S axis. A/D and R/F must remain tangent
+  // even while the displayed chase frame catches up with the probe attitude.
+  const normal=oldRadial.copy(p.position).sub(anchor).normalize();
+  const attitude=world.camera?.quaternion||camera;
+  tangentRight.set(1,0,0).applyQuaternion(attitude).projectOnPlane(normal);
+  if(tangentRight.lengthSq()<1e-8)tangentRight.set(0,1,0).applyQuaternion(attitude).cross(normal);
+  tangentRight.normalize();tangentUp.crossVectors(normal,tangentRight);
+  demand.copy(tangentRight).multiplyScalar(game.drive.x).addScaledVector(tangentUp,game.drive.y).addScaledVector(normal,game.drive.z);
+ }else demand.copy(game.drive).applyQuaternion(camera);
  // Thrust changes momentum; letting go leaves a coast. The local exploration
  // speed envelope is assisted, while Space supplies an explicit braking force.
  const acceleration=speed*.64;game.braking=!!sample.brake;
@@ -112,7 +123,6 @@ function advanceManualFlight(game,world,sample,dt,region){
   relative.normalize();const inward=-p.velocity.dot(relative),gap=Math.max(0,range-minimum);
   if(inward>0&&gap<BODY_DATA[id].radius*.25){const safe=Math.sqrt(2*acceleration*gap);if(inward>safe){p.velocity.addScaledVector(relative,(inward-safe)*(1-Math.exp(-dt*12)));game.proximityLimited=true;}}
  }
- const anchor=game.tracking&&world.bodyPositions[game.tracking];
  const oldRelative=anchor?oldRadial.copy(p.position).sub(anchor):null;
  p.position.addScaledVector(p.velocity,dt);
  if(oldRelative){

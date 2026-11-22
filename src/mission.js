@@ -89,6 +89,7 @@ export const SOURCES=[
  ['Bright-star catalogue','D3 Celestial / XHIP catalogue','https://github.com/ofrohn/d3-celestial'],
  ['Io surface mosaic','NASA / JPL / USGS · merged Galileo and Voyager imagery','https://astrogeology.usgs.gov/search/map/io_galileo_ssi_global_color_merge_mosaic_1km'],
  ['Voyager instrument recordings','NASA / University of Iowa · historical radio and plasma measurements','https://space.physics.uiowa.edu/space-audio/'],
+ ['Concert score','Gustav Holst · Venus, the Bringer of Peace · U.S. Air Force Heritage of America Band, 1998','https://commons.wikimedia.org/wiki/File:Holst-_venus.ogg'],
  ['Music','Original Cosmos chamber score · acoustic samples from VSCO 2 Community Edition, Versilian Studios / Sam Gossner and Ivy Audio / Simon Dalzell · CC0','https://versilian-studios.com/vsco-community/'],
  ['Voyager propulsion','NASA Voyager Backgrounder, 1980; single-jet thrust','https://ntrs.nasa.gov/citations/19810001583'],
  ['Voyager mass','NASA Voyager FAQ; approximate launch configuration','https://science.nasa.gov/mission/voyager/frequently-asked-questions/'],

@@ -3,13 +3,13 @@ import {formatDistance,navigationAnchor} from '../flight.js';
 import {encounterContext} from '../encounter-context.js';
 import {createDomWriter} from './dom.js';
 import {bearingLayout} from './bearing-layout.js';
-import {surfaceSpan} from '../surface-span.js';
+import {surfaceMeasurement} from '../surface-span.js';
 import {discFraming} from '../view-framing.js';
 
 // Presentation reads flight state. Bearings never steer the spacecraft.
 export function createFlightHud({game,world,input,exploration,ui}) {
  const dom=createDomWriter(ui),$=dom.node;
- const kilometres=new Intl.NumberFormat('en-US');let lastScaleBody=null,lastAltitude=-1;
+ const kilometres=new Intl.NumberFormat('en-US');let lastScaleBody=null,lastAltitude=-1,nextScaleAt=0;
  const label=$('waypoint');
  const overlays=[document.querySelector('.chapter-heading'),document.querySelector('.flight-nav'),document.querySelector('.telemetry'),document.querySelector('.log-shortcut'),$('scene-reading'),$('journey-direction'),$('flight-keys'),$('photo-receipt'),$('cruise-scale'),$('flight-hint'),$('thrust-feedback'),$('safety')];
  const compact=matchMedia('(max-width:850px) and (min-height:520px)');
@@ -66,7 +66,8 @@ export function createFlightHud({game,world,input,exploration,ui}) {
   dom.text('map-button',pad?'Explore':'M · Explore');
   const body=world.bodies[context.body];
   dom.hidden('world-scale',!body||context.body==='voyager');
-  if(body&&context.body!=='voyager'){
+  if(!game.quietHud&&body&&context.body!=='voyager'&&(lastScaleBody!==body||performance.now()>=nextScaleAt)){
+   nextScaleAt=performance.now()+100;
    const local=p.position.clone().sub(world.bodyPositions[context.body]).applyQuaternion(body.group.quaternion.clone().invert()),range=local.length(),n=local.normalize();
    const surface=body.data.radius/Math.sqrt(n.x*n.x+n.z*n.z+(n.y/(body.data.flatten||1))**2);
    const altitude=Math.max(0,Math.round(range-surface));
@@ -76,16 +77,18 @@ export function createFlightHud({game,world,input,exploration,ui}) {
   }
   // On compact displays use the sky on the opposite side of the globe.
   // A dead band keeps the guide still when the planet crosses mid-frame.
-  if(compact.matches&&game.guidance&&game.stage==='encounter'&&body&&context.body!=='voyager'){
+  if(!game.quietHud&&compact.matches&&game.guidance&&game.stage==='encounter'&&body&&context.body!=='voyager'){
    const now=performance.now();if(now>=nextDockCheck){nextDockCheck=now+160;
     const aim=world.project(world.bodyPositions[context.body],p),next=aim.front&&aim.y<(upper ? .08 : -.16);
     if(next!==upper){upper=next;dom.toggle('hud','upper-field-guide',upper);requestAnimationFrame(measure);}
    }
   }else if(upper){upper=false;dom.toggle('hud','upper-field-guide',false);requestAnimationFrame(measure);}
   // The bracket measures its two actual screen rays. It disappears on sky.
-  const measuring=body&&context.body!=='voyager'&&(game.precision||game.tracking===context.body);
-  const span=measuring?surfaceSpan(p,world.bodyPositions[context.body],body,world.camera,.08,-.20):null;
-  dom.hidden('surface-ruler',span===null);if(span!==null)dom.text('surface-length',kilometres.format(Math.round(span))+' km');
+  const measuring=body&&context.body!=='voyager'&&(game.precision||!game.quietHud&&game.tracking===context.body||(game.guidance&&['jupiter','saturn'].includes(context.body)&&game.chapterTime<6));
+  const span=measuring?surfaceMeasurement(p,world.bodyPositions[context.body],body,world.camera,.08,-.20):null;
+  dom.hidden('surface-ruler',span===null);if(span!==null){dom.text('surface-length',kilometres.format(Math.round(span.km))+' km');
+   const giant=context.body==='jupiter'||context.body==='saturn';dom.hidden('span-context',!giant);
+   if(giant)dom.text('span-context',span.kind==='rings'?'Ring plane':`${(span.km/(2*BODY_DATA.earth.radius)).toFixed(2)} Earth widths`);}
   const drive=game.timePaused?'':game.braking?'Braking':game.thrust>.01?(game.boosting?'Fast thrust':'Thrust'):p.velocity.length()>2?'Coasting':'';
   dom.hidden('thrust-feedback',!drive);if(drive)dom.text('thrust-state',drive);
   // The journey owns X; its action is the only discovery control on screen.
@@ -93,7 +96,7 @@ export function createFlightHud({game,world,input,exploration,ui}) {
   dom.text('photo-key',pad?'LS':'P');
   dom.property('photo-button','title',pad?'Take photograph · Left-stick click':'Take photograph · P');
   dom.hidden('capture-frame',!(game.observing>0));
-  const destination=exploration.destination();
+  const destination=game.quietHud&&!game.destination?null:exploration.destination();
   if(game.guidance&&destination){
    const projection=world.project(destination.point,p);
    const follows=!destination.marker&&game.tracking===destination.id,canFollow=!destination.marker&&(context.region?.worlds.includes(destination.id)||context.body==='voyager');

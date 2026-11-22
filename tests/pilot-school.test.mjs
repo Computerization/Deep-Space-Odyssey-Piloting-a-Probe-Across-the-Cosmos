@@ -1,0 +1,5 @@
+import test from 'node:test';import assert from 'node:assert/strict';
+import {bankDegrees,flightTip,noteControl,storedPilot,maneuverEcho} from '../src/pilot-school.js';
+const fresh=()=>({pilot:storedPilot(),chapter:0,guidance:true,player:{velocity:{lengthSq:()=>0}}});
+test('one stable contextual control cue; doing the action retires it, deliberate practice can recall it',()=>{const g=fresh();assert.match(flightTip(g,false),/Q \/ E/);assert.match(flightTip(g,true),/LB \/ RB/);noteControl(g,'roll');assert.match(flightTip(g,false),/R \/ F/);g.tracking='earth';assert.match(flightTip(g,false),/Circle/);g.guidance=false;assert.match(flightTip(g,false),/controls/);g.practice='zoom';assert.match(flightTip(g,false),/lens/);noteControl(g,'zoom');assert.equal(g.practice,null);});
+test('bank instrument wraps signed rolls and personal ending only recalls a completed maneuver',()=>{for(const a of [-30,30,330])assert.ok(Math.abs(bankDegrees(Math.sin(a*Math.PI/360),Math.cos(a*Math.PI/360))-30)<1e-6);assert.equal(maneuverEcho(storedPilot()),undefined);assert.match(maneuverEcho(storedPilot({finished:['earth','saturn','bad']})),/inside a line/);});

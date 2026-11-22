@@ -1,3 +1,6 @@
+import {createPilotSchool,noteControl,storedPilot,maneuverEcho} from './pilot-school.js';
+import {createFlyby,mountPair} from './flyby.js';
+import {bindScore} from './ui/score.js';
 import {openCoda} from './ui/coda.js';
 import {createSpacecraftPlate} from './rendering/spacecraft-plate.js';
 import * as THREE from 'three';
@@ -55,9 +58,9 @@ function applyPassageMotion(){
  if(game.stage==='transit')transitController?.refreshChart();
  if(world)world.needsRender=true;
 }
-const audio=new Soundtrack();audio.volume=settings.volume;audio.feedbackVolume=settings.feedback;audio.muted=!!settings.muted;
-const game={experience:restoreExperience(saved?.experience),mode:'loading',chapter:0,task:0,stage:'encounter',player:{position:new V(),quaternion:new Q(),velocity:new V()},view:'chase',look:new Q(),freeLook:false,tracking:null,rateIndex:2,actualRate:1,observing:0,angular:new V(),thrust:0,braking:false,stable:0,discovered:saved?.discovered||[],maxChapter:saved?.maxChapter||0,elapsed:0,chapterTime:0,uiTime:0,completed:false,guidance:true,destination:null,precision:false,explored:saved?.explored||[],showHud:true,idle:0,frameCount:0,fps:0,lastInput:0};
-let updateHud,experienceGuide,transitController,journey,spacecraftPlate;
+const audio=new Soundtrack();audio.scoreMode=settings.scoreMode==='suites'?'suites':'concert';audio.volume=settings.volume;audio.feedbackVolume=settings.feedback;audio.muted=!!settings.muted;
+const game={pilot:storedPilot(saved?.pilot),experience:restoreExperience(saved?.experience),mode:'loading',chapter:0,task:0,stage:'encounter',player:{position:new V(),quaternion:new Q(),velocity:new V()},view:'chase',look:new Q(),freeLook:false,tracking:null,rateIndex:2,actualRate:1,observing:0,angular:new V(),thrust:0,braking:false,stable:0,discovered:saved?.discovered||[],maxChapter:saved?.maxChapter||0,elapsed:0,chapterTime:0,uiTime:0,completed:false,guidance:true,destination:null,precision:false,explored:saved?.explored||[],showHud:true,idle:0,frameCount:0,fps:0,lastInput:0};
+let school,flyby,updateHud,experienceGuide,transitController,journey,spacecraftPlate;
 let journalTab='photos',journalRemoved=null,journalBusy=false,settingsTab='sound',instrumentsFromSettings=false;
 let panelRevision=0,journalScroll=0,journalPhoto=null,mapTab='local',chartExtent=12,chartSelected='voyager',chartManualScale=false;
 const photoViewer=createPhotoViewer({ui:$,openPanel,returnToJournal:id=>{if(id)journalPhoto=id;return openJournal(true)},removePhoto:removePhotograph});
@@ -71,7 +74,7 @@ const lookAt=(position,target,up=new V(0,1,0))=>new Q().setFromRotationMatrix(ne
 function clearToast(){clearTimeout(toastTimer);const notice=$('toast');notice.classList.remove('visible');notice.hidden=true;notice.textContent='';}
 function toast(text){const notice=$('toast');notice.textContent=text;notice.hidden=false;notice.classList.add('visible');clearTimeout(toastTimer);toastTimer=setTimeout(()=>notice.classList.remove('visible'),3600);}
 function setHudVisibility(visible){
- game.showHud=visible;
+ game.showHud=visible;if(visible)journey?.glance();
  $('hud').style.opacity=visible?'1':'0';$('hud').inert=!visible;
  document.body.classList.toggle('clean-view',!visible);
  if(!visible){clearToast();}
@@ -88,10 +91,10 @@ function panelControls(scope){
 function save(){
  if(game.mode==='loading'||!$('landing').hidden)return;
  const p=game.player;
- safeWriteStorage('cosmos-voyager-save-v2',{physicsVersion:3,journeyStep:game.journeyStep,launchProgress:game.launchProgress,study:game.study,history:game.stage==='encounter'?flightHistory.serialize(game):null,timePaused:game.timePaused,fuel:game.fuel,localSeconds:game.localSeconds,boundaryPaused:game.boundaryPaused,proximityLimited:game.proximityLimited,chapter:game.chapter,task:game.task,discovered:game.discovered,maxChapter:game.maxChapter,elapsed:game.elapsed,completed:game.completed,view:game.view,stage:game.stage,experience:game.experience,guidance:game.guidance,destination:game.destination,precision:game.precision,freeLook:game.freeLook,tracking:game.tracking,look:game.look.toArray(),showHud:game.showHud,explored:game.explored,position:p.position.toArray(),attitude:p.quaternion.toArray(),velocity:p.velocity.toArray(),rateIndex:game.rateIndex,fov:flightReview?.cameraState().fov??world.camera.fov,transit:game.stage==='transit'?transitController.checkpoint():null});
+ safeWriteStorage('cosmos-voyager-save-v2',{physicsVersion:3,pilot:game.pilot,flyby:game.flyby,journeyStep:game.journeyStep,launchProgress:game.launchProgress,study:game.study,history:game.stage==='encounter'?flightHistory.serialize(game):null,timePaused:game.timePaused,fuel:game.fuel,localSeconds:game.localSeconds,boundaryPaused:game.boundaryPaused,proximityLimited:game.proximityLimited,chapter:game.chapter,task:game.task,discovered:game.discovered,maxChapter:game.maxChapter,elapsed:game.elapsed,completed:game.completed,view:game.view,stage:game.stage,experience:game.experience,guidance:game.guidance,destination:game.destination,precision:game.precision,freeLook:game.freeLook,tracking:game.tracking,look:game.look.toArray(),showHud:game.showHud,explored:game.explored,position:p.position.toArray(),attitude:p.quaternion.toArray(),velocity:p.velocity.toArray(),rateIndex:game.rateIndex,fov:flightReview?.cameraState().fov??world.camera.fov,transit:game.stage==='transit'?transitController.checkpoint():null});
 }
 function restoreFlight(s){
- game.experience=restoreExperience(s.experience);
+ game.pilot=storedPilot(s.pilot);game.flyby=s.flyby||{};game.experience=restoreExperience(s.experience);
  game.timePaused=!!s.timePaused;
  // Earlier composition choices selected a subject without changing the pass.
  // Restore that subject through the single current bearing state.
@@ -154,7 +157,7 @@ function enterVoyage(stop){
  if(!stop){if(game.mode==='panel')closePanel();startJourney();return;}
  const index=stop.chapter,fromTitle=!$('landing').hidden;
  // A chapter jump keeps discoveries from the existing voyage, as before.
- if(fromTitle){const s=safeReadStorage('cosmos-voyager-save-v2');game.view=s?.view==='probe'?'probe':'chase';game.experience=restoreExperience(s?.experience);game.discovered=s?.discovered||[];game.explored=s?.explored||[];game.maxChapter=s?.maxChapter||0;game.completed=!!s?.completed;game.elapsed=s?.elapsed||0;}
+ if(fromTitle){const s=safeReadStorage('cosmos-voyager-save-v2');game.pilot=storedPilot(s?.pilot);game.flyby={pair:s?.flyby?.pair};game.view=s?.view==='probe'?'probe':'chase';game.experience=restoreExperience(s?.experience);game.discovered=s?.discovered||[];game.explored=s?.explored||[];game.maxChapter=s?.maxChapter||0;game.completed=!!s?.completed;game.elapsed=s?.elapsed||0;}
  audio.start().then(()=>audio.select(CHAPTERS[index].music)).catch(()=>{});
  $('landing').hidden=true;$('hud').hidden=false;wasMode='play';closePanel();startChapter(index,0,stop.study);
 }
@@ -165,12 +168,13 @@ async function startJourney(resume=false){
  $('landing').hidden=true;$('panel').hidden=true;$('hud').hidden=false;game.mode='play';game.completed=false;
  const resumeSave=safeReadStorage('cosmos-voyager-save-v2');
  if(resume&&resumeSave){game.completed=!!resumeSave.completed;game.discovered=resumeSave.discovered||[];game.maxChapter=resumeSave.maxChapter||0;game.elapsed=resumeSave.elapsed||0;game.view=resumeSave.view||'probe';startChapter(clamp(resumeSave.chapter,0,CHAPTERS.length-1),Math.max(0,resumeSave.task||0),resumeSave.study);restoreFlight(resumeSave);game.chapterTime=30;}
- else{game.elapsed=0;game.discovered=[];game.explored=[];game.maxChapter=0;game.view='chase';setHudVisibility(true);game.precision=false;game.experience=restoreExperience();game.guidance=true;startChapter(0);journey.beginLaunch();save();}
+ else{game.pilot=storedPilot();game.flyby={};game.elapsed=0;game.discovered=[];game.explored=[];game.maxChapter=0;game.view='chase';setHudVisibility(true);game.precision=false;game.experience=restoreExperience();game.guidance=true;startChapter(0);journey.beginLaunch();save();}
  input.rearm();
  if(input.device!=='gamepad')input.capturePointer();
  try{await audioReady;await audio.select(CHAPTERS[game.chapter].music);}catch{toast('Press B to enable music when ready.');}
 }
 function startChapter(index,task=0,studyId=null){
+ school?.reset();if(game.flyby)delete game.flyby.first;
  photoReceipt.clear();
  clearToast();input?.rearm();
  const c=CHAPTERS[index];mapTab='local';chartExtent=12;chartManualScale=false;chartSelected='voyager';game.timePaused=false;game.chapter=index;game.study=studyId;game.destination=null;game.flightReadout=null;game.actualRate=1;game.observation=null;game.stage='encounter';game.task=Math.min(task,c.tasks.length);game.observing=0;game.observationLatched=false;game.exposureGap=0;game.exposurePaused=false;game.stable=0;game.angular.set(0,0,0);game.chapterTime=0;game.idle=0;game.maxChapter=Math.max(game.maxChapter,index);game.rateIndex=2;world.setFov(58);game.look.identity();game.freeLook=false;observationCamera?.release();observationCamera?.stopLens();
@@ -204,6 +208,7 @@ function startChapter(index,task=0,studyId=null){
 function beginTransit(progress=0,target=nextStop(game),resume=null){
  if(game.stage==='transit')return;
  if(!target){openFuture();return;}
+ school?.reset();
  photoReceipt.clear();clearToast();
  mapTab='solar';chartSelected='voyager';chartManualScale=false;
  game.precision=false;game.destination=null;game.observation=null;
@@ -240,7 +245,9 @@ function openStory(kind){
 function openFuture(){
  // The panel already pauses the simulation. Keep the pilot’s camera and flight clock.
  game.completed=true;save();
- openCoda(openPanel,$);
+ audio.updateFlight({coda:true});
+ openCoda(openPanel,$,game.experience.seen,game.flyby?.pair,maneuverEcho(game.pilot));
+ mountPair($('coda-print'),game.flyby?.pair,archive);
 }
 
 function openRecording(kind){
@@ -259,7 +266,7 @@ function openPanel(type,title,content){
  if(game.mode==='play')save();
  clearToast();
  if(game.mode!=='panel'){wasMode=game.mode;previousFocus=document.activeElement;panelParents.length=0;}
- audio.stopRecordings();$('panel').querySelectorAll('audio,video').forEach(m=>m.pause());game.mode='panel';input.inMenu=true;panelRevision++;$('panel').dataset.view=type;game.angular.set(0,0,0);panelType=type;document.exitPointerLock?.();input?.clear();audio.setPaused(true);
+ audio.stopRecordings();$('panel').querySelectorAll('audio,video').forEach(m=>m.pause());game.mode='panel';input.inMenu=true;panelRevision++;$('panel').dataset.view=type;game.angular.set(0,0,0);panelType=type;document.exitPointerLock?.();input?.clear();audio.setPaused(type!=='ending');
  $('panel-title').textContent=title;$('panel-content').innerHTML=content;$('panel').hidden=false;
  $('panel').scrollTop=0;$('panel-close').focus();
  bindPanelActions();if(type==='pause')$('panel-content').querySelector('[data-action=resume]')?.focus();
@@ -280,7 +287,7 @@ function closePanel(){
  flightReview?.clear();
  audio.stopRecordings();$('panel').querySelectorAll('audio,video').forEach(m=>m.pause());audio.setDucked(false);
  $('panel').hidden=true;panelRevision++;game.mode=wasMode==='landing'?'landing':'play';input.inMenu=game.mode!=='play';input.rearm();audio.setPaused(false);if(game.mode==='play')$('universe').focus({preventScroll:true});else if(previousFocus?.isConnected&&previousFocus.getClientRects().length)previousFocus.focus();else document.activeElement?.blur?.();
- if(game.mode==='play'){journey?.setPaused(false);if(input.device!=='gamepad')input.capturePointer();}
+ if(game.mode==='play'){journey?.setPaused(false);journey?.glance();if(input.device!=='gamepad')input.capturePointer();}
 }
 function panelAction(name,value){
  if(panelType==='pause'&&['review','map','camera','journal','guide','settings'].includes(name))panelParents.push({open:openPause,action:name});
@@ -289,6 +296,8 @@ function panelAction(name,value){
  else if(name==='previous-photo')photoViewer.move(-1);
  else if(name==='next-photo')photoViewer.move(1);
  else if(name==='back-to-journal')photoViewer.back();
+ else if(name==='maneuver'){closePanel();school.toggle();}
+ else if(name==='flyby'){closePanel();flyby.act();}
  else if(name==='resume')closePanel();
  else if(name==='back')backFromPanel();
  else if(name==='review')flightReview.open();
@@ -303,7 +312,7 @@ function panelAction(name,value){
  else if(name==='chart-scale'){chartExtent=Number(value);chartManualScale=true;openMap();$('panel-content').querySelector(`[data-action=chart-scale][data-value="${value}"]`)?.focus();}
  else if(name==='chart-object'){chartSelected=value;chartManualScale=false;openMap();$('panel-content').querySelector(`.chart-object-list [data-value="${value}"]`)?.focus();}
  else if(name==='depart'){closePanel();beginTransit();}
- else if(name==='guidance'){game.guidance=!game.guidance;closePanel();save();}
+ else if(name==='guidance'){school.reset();game.guidance=!game.guidance;closePanel();save();}
  else if(name==='fullscreen'){
   const promise=document.fullscreenElement?document.exitFullscreen?.():document.documentElement.requestFullscreen?.();
   promise?.catch(()=>toast('Use your browser’s full-screen control.'));
@@ -322,11 +331,11 @@ function panelAction(name,value){
 }
 function openPause(){
  const recovering=world.renderer.getContext().isContextLost();
- openPanel('pause',recovering?'Restoring view · flight paused':'Paused',`<div class="pause-menu"><button data-action="resume" ${recovering?'disabled':''}>${recovering?'Waiting for picture…':'Resume flight'}</button>${game.stage==='encounter'?'<button data-action="review">Flight review</button>':''}<button data-action="map">Voyage</button><button data-action="camera">Camera</button><button data-action="journal">Journal</button>${game.stage==='encounter'?'<button data-action="photo">Take photograph</button>':''}<button data-action="guide">Controls</button><button data-action="settings">Settings</button><button data-action="home">Title screen</button></div>`);
+ openPanel('pause',recovering?'Restoring view · flight paused':'Paused',`<div class="pause-menu"><button data-action="resume" ${recovering?'disabled':''}>${recovering?'Waiting for picture…':'Resume flight'}</button>${game.stage==='encounter'?'<button data-action="review">Flight review</button>':''}${game.stage==='encounter'&&!game.study&&game.chapter<3?'<button data-action="maneuver">Flight maneuvers</button>':''}${game.stage==='encounter'&&game.chapter<3?'<button data-action="flyby">Flyby contact sheet</button>':''}<button data-action="map">Voyage</button><button data-action="camera">Camera</button><button data-action="journal">Journal</button>${game.stage==='encounter'?'<button data-action="photo">Take photograph</button>':''}<button data-action="guide">Controls</button><button data-action="settings">Settings</button><button data-action="home">Title screen</button></div>`);
 }
 function openSettings(initialTab=settingsTab){
  openSettingsView({settings,flight:game,fromPause:panelParents.at(-1)?.open===openPause,initialTab,ui:$,openPanel,onTabChange:tab=>{settingsTab=tab;},onFlightChange:(id,value)=>{
-  game[id]=value;if(id==='showHud')setHudVisibility(value);updateHud();experienceGuide.render();save();
+  game[id]=value;if(id==='precision')noteControl(game,id);if(id==='showHud')setHudVisibility(value);updateHud();experienceGuide.render();save();
  },onChange:id=>{
   if(id==='language')changeLanguage(settings.language);
   if(id==='muted'){audio.muted=settings.muted;audio.applyVolume();syncSoundButtons();}
@@ -337,8 +346,9 @@ function openSettings(initialTab=settingsTab){
   if(id==='sensitivity')input.sensitivity=.002*settings.sensitivity;
   persistSettings();
  }});
+ bindScore($,audio,mode=>{settings.scoreMode=mode;persistSettings();});
 }
-function openCamera(){openCameraView({game,world,camera:observationCamera,ui:$,openPanel,closePanel,save});}
+function openCamera(){openCameraView({game,world,camera:observationCamera,ui:$,openPanel,closePanel,save,practised:id=>noteControl(game,id)});}
 function openInstruments(fromSettings=false){
  instrumentsFromSettings=fromSettings;
  openInstrumentsView({fromSettings,openPanel,readings:{
@@ -378,7 +388,7 @@ function openMap(){
 // One shutter/storage path for free photographs and optional observations.
 // Capture and observation bookkeeping are synchronous; storage and its receipt
 // finish later without changing whichever encounter the player has since opened.
-async function savePhotograph(makeFrame,onCaptured=()=>{}){
+async function savePhotograph(makeFrame,onCaptured=()=>{},{receipt=true}={}){
  if(photoPending)return;
  photoPending=true;
  photoReceipt.clear();
@@ -403,7 +413,7 @@ async function savePhotograph(makeFrame,onCaptured=()=>{}){
    toast('Photograph downloaded. Browser storage is unavailable; journal copy lasts this session.');
   }
   if(game.mode==='play'&&chapter===game.chapter&&study===game.study&&stage===game.stage){
-   photoReceipt.show(frame,persisted);
+   if(receipt)photoReceipt.show(frame,persisted);
    audio.cue('observe');
   }
   return frame;
@@ -458,6 +468,8 @@ async function removePhotograph(id){
  try{
   const frame=photoViewer.frame(id);if(!frame||!['field','exploration'].includes(frame.kind))return;
   if(!await archive.remove(id)){await archive.put(frame);toast('The photograph could not be removed. It remains in your journal.');return;}
+  if(game.flyby?.first?.id===id)delete game.flyby.first;
+  if(game.flyby?.pair?.ids.includes(id))delete game.flyby.pair;save();
   journalRemoved=frame;
   if(game.mode==='panel'&&panelRevision===revision){journalTab='photos';await openJournal(true);$('panel-content').querySelector('[data-action=undo-photo]')?.focus();}
  }finally{journalBusy=false;}
@@ -470,7 +482,7 @@ async function restorePhotograph(){
   if(!persisted)toast('Photograph restored for this session. Save a copy to keep it outside the browser.');
  }finally{journalBusy=false;}
 }
-function openGuide(){openControlsView({device:input.device,ui:$,openPanel});}
+function openGuide(){openControlsView({device:input.device,ui:$,openPanel,skills:game.pilot.skills,onPractice:game.stage==='encounter'&&$('landing').hidden?id=>{closePanel();school.reset();game.practice=id;}:null});}
 
 function openNotes(){
  openPanel('notes','About the voyage',`<p class="lead">Deep Space Odyssey: Piloting a Probe Across the Cosmos</p><p>Information Technology Club × Astronomy Club</p><h3>The route</h3><p>The film shows the launch on 5 September 1977. The orbital departure is a reconstruction. Between encounters, the chart follows Voyager’s path in compressed time. The one-light-day endpoint uses NASA’s prediction for 18 November 2026.</p><h3>The view from the probe</h3><p>Planet sizes, separations and sunlight keep their physical scale. Local thrust and braking are exploration aids. You can leave any encounter when you choose.</p><p>Surface maps combine imagery from several missions; clouds and haze are reconstructed. External views and camera views after 1990 are simulated. The lightning and plasma recordings come from Voyager’s instruments.</p><p>The Milky Way is a star-catalogue reconstruction, not a Voyager photograph. The external view lifts the shadowed spacecraft for visibility.</p><h3>Sources and credits</h3><ul class="source-list">${SOURCES.map(([name,credit,url])=>`<li>${url?`<a href="${url}" target="_blank" rel="noopener">${name}</a>`:name}<br>${credit}</li>`).join('')}</ul><p class="small-note">All game assets are local. Source links are optional online reading.</p>`);
@@ -514,8 +526,13 @@ function handleAction(name){
  }
  if(game.mode!=='play')return;
  if(game.stage==='launch'||game.stage==='transit'){if(name==='next'){if(game.stage==='launch')journey.advance();else transitController.skip();}
+  if(name==='view'&&game.stage==='launch')journey.filmFrame();
   if(name==='holdPressed'&&game.stage==='transit')resumeHeldTime();return;}
- if(name==='interact')journey.interact();
+ if(['look','view','precision','track'].includes(name)||name==='interact'&&game.chapter>=3)noteControl(game,name);
+ if(name==='zoomIn'||name==='zoomOut')noteControl(game,'zoom');
+ if(name==='maneuver')school.toggle();
+ else if(name==='flyby')flyby.act();
+ else if(name==='interact')journey.interact();
  else if(name==='instruments')openInstruments();
  else if(name==='camera')openCamera();
  else if(name==='review')flightReview.open();
@@ -532,7 +549,7 @@ function handleAction(name){
  }
  else if(name==='exposureUp'||name==='exposureDown'){settings.exposure=clamp(settings.exposure+(name==='exposureUp'?.15:-.15),.35,2.5);persistSettings();toast(`Exposure ${settings.exposure.toFixed(2)}`);}
  else if(name==='precision'){game.precision=!game.precision;save();audio.cue('mode');toast(game.precision?'Fine exploration control':'Standard exploration control');}
- else if(name==='guidance'){game.guidance=!game.guidance;save();toast(game.guidance?'Route suggestions visible':'Free exploration · G to show suggestions');}
+ else if(name==='guidance'){school.reset();game.guidance=!game.guidance;save();toast(game.guidance?'Route suggestions visible':'Free exploration · G to show suggestions');}
  else if(name==='hud'){setHudVisibility(!game.showHud);save();}
  else if(name==='guide')openGuide();else if(name==='map')openMap();else if(name==='journal')openJournal();else if(name==='next')journey.advance();
  else if(name==='photo')saveFieldPhotograph();
@@ -552,7 +569,7 @@ function updateFlight(dt,sample,clockDt=dt){
   }
  }
 
- journey.update(dt,sample.thrust);experienceGuide.update(dt);
+ journey.update(dt,sample.thrust);school?.tick(dt,sample);experienceGuide.update(dt);
 }
 function frame(now){
  requestAnimationFrame(frame);const rawDt=(now-lastFrame)/1000;const dt=Math.max(0,Math.min(rawDt,.1));lastFrame=now;
@@ -577,7 +594,7 @@ function frame(now){
  const renderDt=game.mode==='play'?dt:0;
  // The steady transfer chart is opaque. Keep simulating the passage, but
  // leave the last 3D frame alone until a world is visible again.
- const covered=(steadyPassages&&game.stage==='transit')||(game.stage==='launch'&&game.launchProgress*18<10.8);
+ const covered=(steadyPassages&&game.stage==='transit')||journey.filmCoversWorld;
  const viewChanged=!covered&&(framePolicy.viewChanged(rendered,look,view,transit,time)||world.viewSettling(rendered,renderDt,view,time));
  // Full-resolution clouds do not depend on a stopped simulation clock.
  const settled=!viewChanged&&!world.needsRender;
@@ -593,8 +610,8 @@ function frame(now){
  }
  const passage=$('passage'),hidePassage=game.mode==='landing'||(game.stage!=='launch'&&game.stage!=='transit');
  if(passage.hidden!==hidePassage)passage.hidden=hidePassage;
- if(game.mode==='play'){updateHud();experienceGuide.render();journey.render();outerStation(game,world);}
- if(game.mode==='play'){audio.updateFlight({altitudeRatio:game.flightReadout?game.flightReadout.range/BODY_DATA[game.flightReadout.id].radius:100,observing:game.observing>0,progress:game.observing/(game.observation?.duration||2.8),transit:game.stage==='transit',risk:game.flightReadout?.risk,sunlight:world.sunlightFraction},dt);}
+ if(game.mode==='play'){updateHud();experienceGuide.render();journey.render();school.draw();flyby.update();outerStation(game,world);}
+ if(game.mode==='play'){audio.updateFlight({passage:game.stage==='launch'?'opening':game.chapter>=3?'outer':'encounter',altitudeRatio:game.flightReadout?game.flightReadout.range/BODY_DATA[game.flightReadout.id].radius:100,observing:game.observing>0,progress:game.observing/(game.observation?.duration||2.8),transit:game.stage==='transit',risk:game.flightReadout?.risk,sunlight:world.sunlightFraction},dt);}
  fpsFrames++;fpsTimer+=rawDt;if(fpsTimer>1){game.fps=fpsFrames/fpsTimer;fpsFrames=0;fpsTimer=0;}
  game.frameCount++;
 }
@@ -606,6 +623,9 @@ function wire(){
  };
  $('universe').addEventListener('webglcontextlost',pauseForGraphicsRecovery);
  $('universe').addEventListener('webglcontextrestored',pauseForGraphicsRecovery);
+ $('pilot-offer').onclick=$('pilot-close').onclick=()=>school.toggle();
+ $('flyby-button').onclick=()=>flyby.act();
+ $('landing-score').onclick=()=>openSettings('sound');
  $('landing-language').onclick=()=>changeLanguage(settings.language==='en'?'zh-CN':'en');
  $('begin').onclick=()=>requestVoyage();$('continue').onclick=()=>startJourney(true);
  $('chapter-select').onclick=()=>{mapTab='voyage';openMap();};$('landing-notes').onclick=openNotes;$('landing-sound').onclick=()=>handleAction('music');
@@ -652,6 +672,8 @@ async function init(){
   world=new CosmosWorld($('universe'),p=>{$('load-percent').textContent=`${Math.round(p*100)}%`;$('loading-bar').firstElementChild.style.width=`${p*100}%`;});
   exploration=new ExplorationController(game,world);
   input=new FlightInput($('universe'),handleAction);input.inMenu=true;input.sensitivity=settings.sensitivity*.002;
+  school=createPilotSchool({game,world,ui:$,input,follow:id=>observationCamera.follow(id),release:()=>observationCamera.release(),save,cue:type=>audio.cue(type)});
+  flyby=createFlyby({game,world,ui:$,archive,capture:savePhotograph,save,toast,follow:id=>observationCamera.follow(id),openPanel});
   ({updateHud}=createFlightHud({game,world,input,exploration,ui:$}));
   flightReview=createFlightReview({game,world,history:flightHistory,ui:$,openPanel,closePanel,save});
   transitController=createTransitController({game,world,ui:$,isSteady:()=>steadyPassages,arrive:(index,study)=>{startChapter(index,0,study);}});
