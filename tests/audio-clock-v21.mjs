@@ -6,7 +6,7 @@ for(const [name,engine,options] of [['Chrome',chromium,{channel:'chrome',headles
  const browser=await engine.launch(options),page=await browser.newPage({viewport:{width:800,height:500}}),errors=[];
  page.on('pageerror',e=>errors.push(e.message));
  try{
-  console.log({name,stage:'load'});await page.goto(BASE_URL+'/?test=1');await page.waitForFunction(()=>window.__cosmos,null,{timeout:90000});await page.click('#begin');
+  console.log({name,stage:'load'});await page.addInitScript(()=>localStorage.setItem('cosmos-settings-v1',JSON.stringify({scoreMode:'suites'})));await page.goto(BASE_URL+'/?test=1');await page.waitForFunction(()=>window.__cosmos,null,{timeout:90000});await page.click('#begin');
   const result=await page.evaluate(async()=>{
    const a=window.__cosmos.audio;window.__cosmos.game.mode='panel';
    const wait=ms=>new Promise(r=>setTimeout(r,ms));

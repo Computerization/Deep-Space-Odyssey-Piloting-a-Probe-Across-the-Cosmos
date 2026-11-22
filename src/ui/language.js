@@ -15,6 +15,7 @@ function phrase(s){
  return s;
 }
 const patterns=[
+ [/^([\d.]+) Earth widths$/,x=>x+' 个地球直径'],
  [/^(\d+) days? (\d+) h$/,(d,h)=>`${d} 天 ${h} 小时`],[/^(\d+) h (\d+) min$/,(h,m)=>`${h} 小时 ${m} 分钟`],[/^(\d+) min (\d+) s$/,(m,s)=>`${m} 分 ${s} 秒`],[/^FIG\. (\d+) \/ (\d+)$/,(a,b)=>`图 ${a} / ${b}`],
  [/^Continue to (.+)$/,x=>'继续前往'+phrase(x)],[/^Return to (Earth|Jupiter|Saturn)$/,x=>'返回'+phrase(x)],[/^(\d+) years?, (\d+) days?$/,(y,d)=>`${y} 年 ${d} 天`],[/^(.+) from Sun$/,x=>'距太阳 '+phrase(x)],[/^(.+) from centre to edge\.$/,x=>'从中心到边缘 '+phrase(x)],
  [/^Towards (.+)$/,x=>'飞向'+phrase(x)],[/^Arriving at (.+)$/,x=>'即将抵达'+phrase(x)],[/^En route to (.+)$/,x=>'正在前往'+phrase(x)],[/^Start at (.+)$/,x=>'从'+phrase(x)+'开始'],

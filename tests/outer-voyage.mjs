@@ -46,7 +46,7 @@ try{
  await page.keyboard.press('n');await at('#outer-station h3','去程一天');await shot('lightday');
  await page.keyboard.press('x');await page.click('#radio-step');await page.click('#radio-step');assert.ok(!(await seen()).includes('5:0'));
  await page.click('#radio-step');await at('#radio-state','地球收到了');await back();
- await page.keyboard.press('n');await at('#panel-title','航行仍在继续');await page.locator('.record-sleeve summary').focus();await page.keyboard.press('Enter');
+ await page.keyboard.press('n');await at('#panel-title','航行仍在继续');await at('#coda-echo','你让一句话走了一天');await page.locator('#turn-record').focus();await page.keyboard.press('Enter');await at('#coda-echo','雨停了');await page.locator('.record-sleeve summary').focus();await page.keyboard.press('Enter');
  await wait(()=>document.querySelector('.record-sleeve').open);await shot('ending');await back();
  const discoveries=await seen();for(const id of ['3:0','4:0','5:0'])assert.equal(discoveries.filter(x=>x===id).length,1,id);
  await page.keyboard.press('Escape');await page.click('[data-action=settings]');

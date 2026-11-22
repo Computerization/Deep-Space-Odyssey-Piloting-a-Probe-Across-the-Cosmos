@@ -32,6 +32,7 @@ export class ObservationCamera {
  }
  follow(id) {
   if (!this.subjects().includes(id)) return false;
+  this.pendingX=this.pendingY=this.pendingPitch=this.pendingYaw=0;
   this.game.tracking = id;
   this.game.freeLook = true;
   this.game.angular.set(0, 0, 0);
@@ -90,7 +91,14 @@ export class ObservationCamera {
   lens.last = lens.value;
  }
  beforeInput(sample) {
-  if (this.game.tracking && (sample.pitch || sample.yaw || sample.roll)) this.release();
+  if(!this.game.tracking)return;
+  if(sample.mouseOnly){
+   this.pendingX=(this.pendingX||0)+sample.mouseX;this.pendingY=(this.pendingY||0)+sample.mouseY;
+   this.pendingPitch=(this.pendingPitch||0)+sample.pitch;this.pendingYaw=(this.pendingYaw||0)+sample.yaw;
+   if(Math.hypot(this.pendingX,this.pendingY)<4){sample.pitch=sample.yaw=0;return;}
+   sample.pitch=this.pendingPitch;sample.yaw=this.pendingYaw;
+  }
+  if(sample.pitch||sample.yaw||sample.roll)this.release();
  }
  updateTracking(dt) {
   const game = this.game, world = this.world, id = game.tracking;

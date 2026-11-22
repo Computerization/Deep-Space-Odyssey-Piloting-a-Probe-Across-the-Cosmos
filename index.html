@@ -19,14 +19,16 @@
    <nav id="craft-views" aria-label="Model views"><button>Overview</button><button>Antenna</button><button>Cameras</button><button>Power</button><button>Boom</button></nav>
    <p id="craft-gesture">Drag or use arrows to rotate · Scroll or + / − to zoom · Home to reset</p>
   </section>
-  <nav class="landing-footer"><button id="landing-language" type="button" aria-label="Switch language">简体中文 / English</button><button id="landing-sound" aria-label="Enable or mute sound">Sound on</button></nav><div id="loading-bar"><i></i></div>
+  <nav class="landing-footer"><button id="landing-language" type="button" aria-label="Switch language">简体中文 / English</button><button id="landing-score" type="button">Music selection</button><button id="landing-sound" aria-label="Enable or mute sound">Sound on</button></nav><div id="loading-bar"><i></i></div>
  </main>
  <section id="hud" hidden aria-label="Flight instruments">
   <header class="hud-top"><div class="chapter-heading"><h2 id="chapter-title"></h2><p id="chapter-date"></p><p id="world-scale"></p><button id="depart" aria-keyshortcuts="n" class="primary" hidden>Continue voyage</button></div>
    <nav class="flight-nav" aria-label="Flight menu"><button id="view-button" aria-keyshortcuts="k" title="Camera · K">Camera</button><button id="map-button" aria-keyshortcuts="m" title="Voyage · M">Voyage</button><button id="controls-button" aria-keyshortcuts="/" title="Flight controls · ?" aria-label="Flight controls">?</button><button id="pause-button" aria-keyshortcuts="Escape" aria-label="Pause flight" title="Pause · Escape">Esc</button></nav>
   </header>
+  <section id="pilot-window" aria-label="Flight maneuvers" hidden><p class="call-tag">ASSISTED FLIGHT · PRACTICE</p><h3 id="pilot-call-title"></h3><div class="call-scale" aria-hidden="true"><i id="pilot-band"></i><b id="pilot-needle"></b></div><div class="call-data"><span id="pilot-target"></span><output id="pilot-value"></output></div><p><kbd id="pilot-command"></kbd> <span id="pilot-instruction"></span></p><button id="pilot-close" aria-keyshortcuts="y"><kbd id="pilot-close-key">Y</kbd> · <span id="pilot-close-label"></span></button></section>
+  <button id="flyby-button" aria-keyshortcuts="Shift+p" hidden><img id="flyby-proof" alt="First exposure" hidden><kbd>Shift + P</kbd> <span id="flyby-label">Make a flyby pair</span><small id="flyby-progress"></small></button>
   <aside id="outer-station" aria-label="Science station" hidden></aside>
-  <aside id="journey-direction"><p id="journey-reading" hidden></p><h3 id="journey-marker"></h3><p id="journey-caption"></p><div id="field-feedback" hidden><span id="field-status" role="status"></span><span class="field-meter" id="field-feedback-meter" aria-hidden="true"><i></i></span></div><button id="journey-action" aria-keyshortcuts="x" hidden></button></aside>
+  <aside id="journey-direction"><p id="journey-reading" hidden></p><h3 id="journey-marker"></h3><p id="journey-caption"></p><div id="field-feedback" hidden><span id="field-status" role="status"></span><span class="field-meter" id="field-feedback-meter" aria-hidden="true"><i></i></span></div><button id="journey-action" aria-keyshortcuts="x" hidden></button><button id="pilot-offer" aria-keyshortcuts="y" hidden><kbd id="pilot-offer-key">Y</kbd> <span id="pilot-offer-label"></span></button></aside>
   <div id="flight-keys" aria-label="Flight shortcuts">Mouse · steer <span>WASD · move</span><span>Q / E · roll</span><span>R / F · up / down</span><span>Shift · faster</span><span>Esc · pause</span></div>
   <div id="crosshair" aria-hidden="true"><i></i><i></i></div>
   <div id="bearing-leader" hidden aria-hidden="true"><svg><path id="bearing-stem"/></svg></div>
@@ -37,7 +39,7 @@
    
    <nav class="log-shortcut" aria-label="Encounter tools"><button id="photo-button" aria-keyshortcuts="p" aria-label="Take photograph"><span id="photo-label">Photograph</span><kbd id="photo-key">P</kbd></button><button id="review-button" aria-keyshortcuts="u" title="Flight review · U">U · Review</button><button id="log-button" aria-keyshortcuts="j" title="Journal · J">J · Journal</button></nav>
   </div>
-  <div id="thrust-feedback" hidden><span id="thrust-state"></span><span id="thrust-impulse"></span></div><div id="flight-hint"></div><div id="safety" role="status"></div>
+  <div id="surface-ruler" hidden><i></i><span id="surface-length"></span><small id="span-context"></small></div><div id="thrust-feedback" hidden><span id="thrust-state"></span><span id="thrust-impulse"></span></div><div id="flight-hint"></div><div id="safety" role="status"></div>
   <div id="capture-frame" hidden aria-hidden="true"><span></span><div id="capture-status"></div></div>
   <button id="photo-receipt" aria-keyshortcuts="o" hidden aria-label="Open the photograph you just took"><img id="photo-receipt-image" alt=""><span><span id="photo-receipt-status" role="status">Saved to journal</span><span class="photo-receipt-open">O · View <span aria-hidden="true">→</span></span></span></button>
   <div id="cruise-scale" hidden><span id="cruise-from"></span><div><i id="cruise-progress"></i><b id="cruise-craft"></b></div><span id="cruise-to"></span><p id="cruise-distance"></p></div>

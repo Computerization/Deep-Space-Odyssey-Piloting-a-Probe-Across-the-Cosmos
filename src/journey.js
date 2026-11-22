@@ -1,4 +1,6 @@
+import {flightTip} from './pilot-school.js';
 import * as THREE from 'three';
+import {cornerBeyondLimb} from './view-framing.js';
 import {BODY_DATA,CHAPTERS,MILESTONES,milestoneTime} from './mission.js';
 import {opportunityPoint} from './opportunities.js';
 import {encounterContext,STUDIES} from './encounter-context.js';
@@ -20,7 +22,7 @@ export function arrivalPosition(world,index,study){
 export function arrivalTarget(world,body){
  const center=world.bodyPositions[body];
  if(!['earth','jupiter','saturn','titan'].includes(body))return center.clone();
- return center.clone().addScaledVector(world.getFrame(body).y,BODY_DATA[body].radius*.4);
+ return center.clone().addScaledVector(world.getFrame(body).y,BODY_DATA[body].radius*.51);
 }
 // A close waypoint behind a globe needs a safe arc, not a line through it.
 // The bearing suggests that arc. It never changes the pilot's position.
@@ -32,9 +34,13 @@ export function approachLeg(position,goal,center,radius){
 }
 export function createJourney({game,world,ui,input,depart,transfer,finishLaunch,openStory,recordView,save,onDiscovery=()=>{}}){
  let step=0,visit='',launch=null,goal=null,ready=false,completed=false,recording=false,completedAge=0,storyHeard=false,heading=0,remaining=0,orbitKey=null,orbitAngle=0,rangeKey='W';
- const hold=new ObservationHold(),holdSeconds=2.4,driveForward=new V();let reading='',departure=null,freshDeparture=false;
+ const hold=new ObservationHold(),holdSeconds=2.4,driveForward=new V(),cameraInverse=new THREE.Quaternion();let reading='',departure=null,freshDeparture=false;
  const dom=createDomWriter(ui),film=ui('launch-film');
- let lastKeys;
+ let lastKeys,lastCue=null,readUntil=0;
+ // A unchanging view belongs to the sky. Give new instructions and results
+ // a reading window; ordinary steering never summons all the instruments.
+ function glance(){readUntil=game.chapterTime+8;}
+
  dom.node('journey-action').onclick=interact;
  const lookAt=(p,target,up=new V(0,1,0))=>new THREE.Quaternion().setFromRotationMatrix(new THREE.Matrix4().lookAt(p,target,up));
  const trail=()=>ENCOUNTER_TRAILS[encounterContext(game).body]||[];
@@ -80,10 +86,11 @@ export function createJourney({game,world,ui,input,depart,transfer,finishLaunch,
  }
  function select(index,keepHold=false){if(!keepHold)hold.reset();departure=null;reading='';step=Math.min(trail().length,Math.max(0,index));game.journeyStep=step;goal=makeGoal(hint());completed=!!hint()&&game.experience.seen.includes('trail-'+hint().id);ready=false;completedAge=0;storyHeard=false;heading=0;remaining=0;orbitKey=null;game.journeyNear=false;game.journeyReady=false;game.routeTarget=null;}
  function reset(savedStep=0){
+  lastCue=null;glance();game.quietHud=false;
   if(launch){launch=null;film.pause();film.hidden=true;ui('passage').classList.remove('launching');}
   freshDeparture=false;visit=`${game.chapter}:${game.study||''}`;select(savedStep);}
  function beginLaunch(progress=0){
-  reset();ui('passage').classList.add('launching');game.stage='launch';game.timePaused=false;game.view='chase';game.look.identity();game.freeLook=false;game.tracking=null;
+  reset();dom.toggle('passage','archive-original',false);ui('passage').classList.add('launching');game.stage='launch';game.timePaused=false;game.view='chase';game.look.identity();game.freeLook=false;game.tracking=null;
   const center=world.bodyPositions.earth,radial=world.fromFrame(world.getFrame('earth'),[.35,.2,2.35],1).sub(center).normalize();
   const position=center.clone().addScaledVector(radial,BODY_DATA.earth.radius*1.8);
   launch={elapsed:Math.max(0,Math.min(1,progress))*18,radial,preview:{position,quaternion:lookAt(position,arrivalTarget(world,'earth'),world.getFrame('earth').y)}};game.launchProgress=progress;
@@ -98,16 +105,18 @@ export function createJourney({game,world,ui,input,depart,transfer,finishLaunch,
   const earth=world.bodyPositions.earth,r=BODY_DATA.earth.radius,a=smooth((seconds-11)/7);
   game.player.position.copy(earth).addScaledVector(launch.radial,r*(1.15+.65*a));
   game.player.quaternion.copy(lookAt(game.player.position,earth.clone().lerp(arrivalTarget(world,'earth'),a),world.getFrame('earth').y));
-  const opacity=String(1-smooth((seconds-11)/1.5));
+  const opacity=String(smooth(seconds/.6)*(1-smooth((seconds-11)/1.5)));
+  dom.toggle('passage','film-matte',seconds<1);
   const style=dom.node('passage').style;if(style.getPropertyValue('--film-opacity')!==opacity)style.setProperty('--film-opacity',opacity);
   dom.hidden('launch-film',seconds>=12.5);if(film.hidden&&!film.paused)film.pause();
-  ui('passage-veil').style.opacity='0';ui('passage-progress').style.width=`${t*100}%`;
+  dom.style('passage-veil','opacity','0');
   dom.text('passage-title',seconds<11?'Cape Canaveral':'Earth departure');
-  dom.text('passage-caption',seconds<11?'Voyager 1 · 5 September 1977':'5 September 1977');
+  dom.text('passage-caption','Voyager 1 · 5 September 1977');
   const pad=input.device==='gamepad';
-  const keys=`${pad?'D-pad ↑':'N'} · ${seconds<11?'Skip film':'Take control'} <span>${pad?'Menu':'Esc'} · Pause</span>`;
+  const aspect=launch.original?'Fill screen':'Original frame';
+  const keys=`${pad?'D-pad ↑':'N'} · ${seconds<11?'Skip film':'Take control'} ${seconds<11?`<span>${pad?'Y':'C'} · ${aspect}</span>`:''}<span>${pad?'Menu':'Esc'} · Pause</span>`;
   if(launch.keys!==keys){dom.node('passage-keys').innerHTML=keys;launch.keys=keys;}
-  dom.text('passage-detail',seconds<11?'NASA / JPL launch film':'Simulated departure · time compressed');
+  dom.text('passage-detail',seconds<11?'NASA / JPL launch film':'Cape Canaveral · Simulated departure · time compressed');
   if(t===1){ui('passage').classList.remove('launching');launch=null;film.pause();film.hidden=true;game.stage='encounter';game.player.velocity.set(0,0,0);game.localSeconds=0;game.chapterTime=0;game.view='chase';world.followReady=false;game.look.identity();game.freeLook=false;game.tracking=null;ui('passage').hidden=true;reset();freshDeparture=true;departure='thrust';finishLaunch();}
  }
  function update(dt,thrust=0){
@@ -138,7 +147,8 @@ export function createJourney({game,world,ui,input,depart,transfer,finishLaunch,
   }
   const tan=Math.tan(world.camera.fov*Math.PI/360),towards=from.clone().negate().normalize();
   const limb=Math.asin(Math.min(1,world.observationRadius(body)/from.length()));
-  const limbVisible=[[-1,-1],[-1,1],[1,-1],[1,1]].some(([x,y])=>new V(x*tan*world.camera.aspect,y*tan,-1).normalize().applyQuaternion(world.camera.quaternion).angleTo(towards)>limb+.003);
+  towards.applyQuaternion(cameraInverse.copy(world.camera.quaternion).invert());
+  const limbVisible=cornerBeyondLimb(towards.x,towards.y,towards.z,tan*world.camera.aspect,tan,limb);
   // A freely chosen view can reveal any unseen phenomenon at this world.
   // Specific later views (the polar jet, for example) take precedence over
   // the broad introductory view when both are visible.
@@ -198,16 +208,23 @@ export function createJourney({game,world,ui,input,depart,transfer,finishLaunch,
  function render(){
   const active=game.stage==='encounter';dom.hidden('journey-direction',!active||!game.guidance);
   dom.toggle('hud','cinematic-flight',!active);dom.toggle('hud','story-flight',true);
-  if(!active)return;
+  if(!active){game.quietHud=false;dom.toggle('hud','quiet-flight',false);return;}
   const stop=hint(),next=nextStop(game),pad=input.device==='gamepad';
   const opening=(!freshDeparture||departure==='thrust')&&!game.tracking&&!game.destination&&game.chapter===0&&!game.study&&step===0&&!completed&&game.chapterTime<7&&!game.experience.seen.some(id=>id.startsWith('trail-earth-'));
   dom.toggle('hud','arrival-flight',opening);
+  const cue=`${step}:${completed}:${departure}:${game.guidance}:${game.tracking}:${game.experience.seen.length}`;
+  if(cue!==lastCue){lastCue=cue;glance();}
+  const quiet=game.chapterTime>=readUntil&&!game.practice&&!game.proximityLimited&&!game.observing;
+  game.quietHud=quiet;dom.toggle('hud','quiet-flight',quiet);dom.toggle('hud','first-approach',!!departure&&!completed);
+  dom.toggle('hud','quiet-novice',!game.pilot?.skills.roll&&game.chapter===0&&!game.study);
+
   let title=stop?.title||['','','','Look back at Earth','Interstellar space','One light-day'][game.chapter];
   const framing=!!stop&&!completed&&hold.subject===step&&(hold.seconds>0||game.journeyNear);
   let copy=stop?(completed?stop.finding:framing?'':game.journeyNear?'L · Face the world.':stop.instruction):game.chapter===3?'Earth filled less than a pixel. Open Voyager’s original photograph.':game.chapter===4?'Listen to the pitch of the plasma waves.':game.chapter===5?'Send a command from Earth. How long until its reply arrives?':'';
+  if(!stop&&game.chapter>=3&&game.experience.seen.includes(`${game.chapter}:0`))copy=['You found Earth in the beam of sunlight.','You heard the pitch rise in denser plasma.','Two days passed on Earth before the reply came home.'][game.chapter-3];
   if(stop&&!stop.study&&!completed&&!framing&&!game.journeyNear){
    const following=game.tracking===stop.body;
-   const move=following?(orbitAngle>.25?`${orbitKey} · Circle towards the marker.`:`${rangeKey} · ${rangeKey==='W'?'Approach':'Move away'}.`):heading>.4?'Aim at the diamond.':'W · Approach the marker.';
+   const move=following?(orbitAngle>.25?(orbitAngle>.75&&!pad?`Shift + ${orbitKey} · Cruise around the limb.`:`${orbitKey} · Circle towards the marker.`):`${rangeKey} · ${rangeKey==='W'?'Approach':'Move away'}.`):heading>.4?(pad?'Turn towards the diamond.':'L · Follow the world, then circle.'):'W · Approach the marker.';
    copy=game.destination&&!following?stop.instruction:move+' '+stop.instruction;
   }
   if(opening){title='The blue horizon';copy='Hold W to approach Earth.';}
@@ -233,11 +250,13 @@ export function createJourney({game,world,ui,input,depart,transfer,finishLaunch,
   dom.hidden('depart',false);dom.text('depart',`${pad?'D-pad ↑':'N'} · ${next?next.name:'Future outlook'}`);
   dom.text('chapter-date',game.study==='titan'?'12 November 1980 · 05:41 UTC':`${CHAPTERS[game.chapter].date}${MILESTONES[game.chapter].precision==='day'?'':` · ${milestoneTime(game.chapter)}`}${CHAPTERS[game.chapter].predicted?' · predicted':''}`);
   dom.hidden('chapter-date',game.chapterTime>15);
-  const flightKeys=game.tracking?'W / S · Range <span>A / D · Circle</span><span>R / F · Rise / descend</span><span>Space · Brake</span><span>L · Release</span><span>P · Photo</span><span>C · View</span>':`Mouse · Steer <span>WASD · Fly</span><span>Space · Brake</span><span>L · Follow</span><span>P · Photo</span><span>G · ${game.guidance?'Hide':'Show'} guide</span><span>C · View</span>`;
-  const keys=opening?(pad?'Right stick · Steer <span>RT / LT · Fly</span><span>B · Brake</span><span>Y · View</span>':'Mouse · Steer <span>W / S · Fly</span><span>Space · Brake</span><span>C · View</span>'):pad?'Right stick · Steer <span>RT / LT · Fly</span><span>Left stick · Move</span><span>LB / RB · Roll</span><span>B · Brake</span><span>Y · View</span>':flightKeys;
+  const tip=flightTip(game,pad),core=pad?'RT / LT · Fly':game.tracking?'A / D · Circle':opening?'W / S · Fly':'Mouse · Steer';
+  const help=pad?'Menu · Flight controls':'? · Flight controls';
+  const keys=`<span class="pilot-core">${core}</span><span class="pilot-tip">${tip}</span>${tip===help?'':`<span>${help}</span>`}`;
   // This strip has one writer. Keep the same controls and text nodes in flight.
   if(keys!==lastKeys){dom.node('flight-keys').innerHTML=keys;lastKeys=keys;}
  }
  function advance(){if(game.stage==='launch'){launch.elapsed=18;updateLaunch(0);return;}if(game.stage==='encounter')depart();}
- return {reset,beginLaunch,update,render,advance,interact,setPaused,get departureView(){return launch?.preview;}};
+ function filmFrame(){if(launch&&launch.elapsed<11){launch.original=!launch.original;dom.toggle('passage','archive-original',launch.original);updateLaunch(0);}}
+ return {glance,filmFrame,reset,beginLaunch,update,render,advance,interact,setPaused,get filmCoversWorld(){return !!launch&&launch.elapsed<10.8;},get departureView(){return launch?.preview;}};
 }

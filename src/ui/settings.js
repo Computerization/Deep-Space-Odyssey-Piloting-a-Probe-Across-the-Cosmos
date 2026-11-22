@@ -1,3 +1,4 @@
+import {scoreControls} from './score.js';
 const QUALITY_NOTES = {
  ultra: 'Full detail throughout flight, up to 2×. Highest rendering load.',
  high: 'Full-resolution worlds and clouds, including while turning.',
@@ -29,7 +30,7 @@ export function openSettingsView({settings,flight,fromPause=false,initialTab='so
  };
  const toggle=(id,r)=>`<div class="setting-toggle"><div><span id="${id}-label">${r.label}</span><p id="${id}-note">${r.note}</p></div><button id="flight-${id}" type="button" data-flight-option="${id}" aria-labelledby="${id}-label" aria-describedby="${id}-note" aria-pressed="${!!flight[id]}">${flight[id]?r.on:r.off}</button></div>`;
  openPanel('settings','Settings',`<label class="language-choice" for="language"><span>Language</span><select id="language"><option value="en">English</option><option value="zh-CN">简体中文</option></select></label><nav class="reference-tabs settings-tabs" aria-label="Settings pages">${[['sound','Sound'],['picture','Picture'],['flight','Flight']].map(([id,label])=>`<button id="settings-tab-${id}" type="button" data-settings-tab="${id}">${label}</button>`).join('')}</nav><div class="settings-content">
-  <fieldset data-settings-page="sound" aria-labelledby="settings-tab-sound"><div class="setting-toggle setting-playback"><span>Playback</span><button id="settings-sound" type="button" aria-label="Sound" aria-pressed="${!settings.muted}">${settings.muted?'Off':'On'}</button></div>${range('volume')}${range('feedback')}</fieldset>
+  <fieldset data-settings-page="sound" aria-labelledby="settings-tab-sound"><div class="setting-toggle setting-playback"><span>Playback</span><button id="settings-sound" type="button" aria-label="Sound" aria-pressed="${!settings.muted}">${settings.muted?'Off':'On'}</button></div>${scoreControls}${range('volume')}${range('feedback')}</fieldset>
   <fieldset data-settings-page="picture" aria-labelledby="settings-tab-picture">${range('exposure')}
    <label class="setting setting-quality" for="quality"><span>Quality</span><select id="quality" aria-describedby="quality-note"><option value="ultra">Ultra</option><option value="high">High</option><option value="balanced">Balanced</option><option value="performance">Performance</option></select></label>
    <p id="quality-note" class="small-note"></p>

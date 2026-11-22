@@ -208,3 +208,11 @@ Local spherical gravity uses [JPL planetary gravitational parameters](https://ss
 ### Outer-flight instrument plates
 
 `assets/archive/plasma-spectrum.jpg` is a reduced still from approximately 12.8 seconds into the bundled University of Iowa / NASA / JPL-Caltech Voyager PWS presentation credited above. Its highlighted 2012 and 2013 intervals are archival, not a live feed at the heliopause. The Pale Blue Dot flight inset crops the existing reprocessed photograph; its locator uses the full plate. The radio clock assumes a fixed one-light-day path and an immediate reply, not historical network traffic. The Golden Record groove graphic is schematic, not a replica: https://science.nasa.gov/mission/voyager/golden-record-cover/ .
+
+
+### Flight scale and the closing record (0.119)
+The surface bracket reports the straight chord between ray hits on the reference ellipsoid (on gas giants, a cloud-level approximation). On Saturn it measures the foreground ring plane when both endpoints hit the main annulus; this geometric reading does not model gaps or particle opacity. “Earth widths” uses the equatorial diameter in the mission data. Arrival positions are assisted exploration viewpoints. No body or distance is enlarged.
+
+*Still travelling* is original poetic fiction, not a message on the spacecraft or an archival quotation. Its footsteps and rain draw on the [NASA Golden Record sound listing](https://science.nasa.gov/mission/voyager/golden-record-contents/sounds/). The imagined listener is distinct from the sourced future projection.
+
+**Concert score** — Gustav Holst, *Venus, the Bringer of Peace* from *The Planets*. U.S. Air Force Heritage of America Band, *Frontiers* (1998), wind transcription by Merlin Patterson, edited by Capt. Lang and MSgt Aldo Forte. [Original recording and rights statement](https://commons.wikimedia.org/wiki/File:Holst-_venus.ogg): the source identifies the composition and official U.S. Air Force performance as public domain in the United States. Included unaltered; about 8 min 21 s. Used as accompaniment, not mission audio. Local exhibition music is selected by the operator; no personal music ships with the game.

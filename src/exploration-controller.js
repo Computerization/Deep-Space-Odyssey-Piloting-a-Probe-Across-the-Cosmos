@@ -17,28 +17,32 @@ export class ExplorationController {
     };
     const local=encounterContext(g).region.worlds.map(id=>({id,...measure(id),angle:sight.frame(id).diameter}));
     this.localSubjects=local;
-    this.subject=local.filter(m=>m.visible&&m.aligned&&m.angle>.0035).sort((a,b)=>b.angle-a.angle)[0]||null;
-    const candidates=[],event=opportunityCandidate(g,w,sight);
-    if(event)candidates.push(event);
+    this.subject=null;
+    for(const m of local)if(m.visible&&m.aligned&&m.angle>.0035&&(!this.subject||m.angle>this.subject.angle))this.subject=m;
+    // Keep a continuing exposure if it is still visible. Otherwise the first
+    // eligible event, selected task, other task, or field view wins, in order.
+    const held=g.observing>0?g.observation?.id:null;
+    let best=opportunityCandidate(g,w,sight);
+    if(best&&(!held||best.id===held))return this.candidate=best;
     // The selected suggestion gets priority, but it never blocks another view.
-    const indices=[g.task,...c.tasks.map((_,i)=>i).filter(i=>i!==g.task)];
-    for (const i of indices) {
+    for(let n=-1;n<c.tasks.length;n++){
+      if(n===g.task)continue;const i=n<0?g.task:n;
       const t=c.tasks[i]; if(!t || g.discovered.includes(`${c.id}-${i}`)) continue;
       const aim=t.aim?w.fromFrame(w.getFrame(t.target),t.aim,BODY_DATA[t.target].radius):w.bodyPositions[t.target];
       const m=measure(t.target,aim);
       if(m.aligned && (m.visible || t.mode==='signal' || t.archive) && observationAvailable(g.chapter,i,m.range,m.phase)) {
-        candidates.push({kind:'mission',body:t.target,aim,index:i,id:`${c.id}-${i}`,title:t.name,duration:t.mode==='signal'?4:2.8,...m});
+        const candidate={kind:'mission',body:t.target,aim,index:i,id:`${c.id}-${i}`,title:t.name,duration:t.mode==='signal'?4:2.8,...m};
+        if(!held||candidate.id===held)return this.candidate=candidate;best??=candidate;
       }
     }
     for (const m of local) {
       const id=m.id,view=perspective(m.phase), key=`explore-${id}-${view}`;
       if(!m.aligned || !m.visible || g.explored.includes(key) ||
         m.angle<.0035) continue;
-      candidates.push({kind:'field',id:key,body:id,view,title:`${BODY_DATA[id].name} · ${PERSPECTIVES[view]}`,duration:2.8,...m});
+      const candidate={kind:'field',id:key,body:id,view,title:`${BODY_DATA[id].name} · ${PERSPECTIVES[view]}`,duration:2.8,...m};
+      if(!held||key===held)return this.candidate=candidate;best??=candidate;
     }
-    // A valid exposure keeps its subject if a higher-priority view enters frame.
-    this.candidate=(g.observing>0&&candidates.find(c=>c.id===g.observation?.id))||candidates[0]||null;
-    return this.candidate;
+    return this.candidate=best||null;
   }
 
   region() {

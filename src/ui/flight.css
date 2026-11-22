@@ -322,19 +322,18 @@ button{text-shadow:inherit;font-weight:400;min-height:44px;min-width:44px;border
 
 #launch-film{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;background:#030405}
 /* The film and its caption band dissolve together onto the live Earth view. */
-#passage.launching{--caption-band:160px}
-#passage.launching #launch-film{opacity:var(--film-opacity,1)}
-#passage.launching:has(#launch-film:not([hidden]))::before{content:"";position:absolute;inset:auto 0 0;height:var(--caption-band);background:#000;opacity:var(--film-opacity,1)}
-#passage.launching::after{content:"";position:absolute;inset:auto 0 0;height:var(--caption-band);background:linear-gradient(0deg,#020508db,transparent);opacity:calc(1 - var(--film-opacity,1))}
-#passage.launching :is(.passage-copy,#passage-keys){z-index:1}
-#passage.launching #launch-film{height:calc(100% - var(--caption-band))}
-#passage.launching .passage-copy{left:var(--gutter);bottom:24px;max-width:calc(100% - 300px);padding:0;background:none}
-#passage.launching .passage-copy h2{font-size:30px;margin:0 0 10px}
-#passage.launching #passage-caption{font-size:19px;margin:0 0 8px}
-#passage.launching #passage-detail{font-size:14px;margin:0}
+#passage.launching.archive-original #launch-film{object-fit:contain;object-position:center}
+#span-context{display:block;white-space:nowrap;font:11px var(--mono);color:#efe4cd;text-align:center}
+@media(max-width:650px){#span-context{font-size:10px}}
+/* Project the archive edge to edge. Put the historical caption in the handover,
+   not across the photographed rocket. Keep the skip and pause keys available. */
+#passage.launching #launch-film{width:100%;height:100%;object-fit:cover;object-position:50% 5%;opacity:var(--film-opacity,1)}
+#passage.launching .passage-copy{bottom:12%;max-width:min(76vw,640px)}
+#passage.launching:has(#launch-film:not([hidden])) .passage-copy{visibility:hidden}
 #passage.launching :is(.eyebrow,.passage-track){display:none}
-#passage.launching #passage-keys{bottom:28px}
-@media(max-width:800px){#passage.launching{--caption-band:190px}#passage.launching .passage-copy{bottom:55px;max-width:90vw}#passage.launching .passage-copy h2{font-size:25px}#passage.launching #passage-caption{font-size:17px}#passage.launching #passage-keys{bottom:12px}}
+#passage.launching #passage-keys{padding:6px 12px;background:#05080ac9;color:#f6f4ec}
+#panel[data-view=ending] .coda-lines{font:400 clamp(23px,3vw,41px)/1.32 var(--serif);color:#ece2c9;max-width:24ch;margin:.8em 0 1em;text-wrap:balance}
+
 .landing-premise{max-width:480px;font:20px/1.5 var(--sans);color:#c1c9c9;margin:-16px 0 26px}
 
 #flight-keys{position:absolute;left:var(--gutter);right:var(--gutter);bottom:28px;display:flex;flex-wrap:wrap;gap:5px 22px;font:15px/1.4 var(--sans);color:#c0cbcc;text-shadow:0 1px 6px #000}
@@ -404,3 +403,34 @@ button{text-shadow:inherit;font-weight:400;min-height:44px;min-width:44px;border
 @media(max-width:700px){#outer-station{width:37vw;right:3vw;padding:7px;top:88px}#outer-station h3{font-size:17px}#outer-station img,#outer-station svg{height:69px}#outer-station header{display:block}.station-read{display:block}.station-read span{display:block;text-align:left}.language-choice{float:none;margin-bottom:8px}}
 #plasma-comparison .spectrum-figure video{display:block;width:100%;height:auto;max-height:none;margin:0}.spectrum-figure i{pointer-events:none}.archive-plate{cursor:crosshair}.record-sleeve{padding:9px 0;border-block:1px solid #dfc18840}.record-sleeve summary{cursor:pointer;color:#dfc188}.record-sleeve p{margin:.5em 0}.record-sleeve+.future-horizon{margin-top:18px}.band-buttons{flex-wrap:wrap}.language-choice select{max-width:9em}
 @media(max-width:700px){#plasma-comparison{grid-template-columns:1fr}#plasma-comparison .spectrum-figure{max-width:360px}}
+
+#passage.launching.film-matte{background:#000}
+#surface-ruler{position:absolute;top:60%;left:46%;width:8%;pointer-events:none;color:#fff7df;text-align:center;text-shadow:0 1px 3px #000,0 0 4px #000;font:12px var(--mono)}
+#surface-ruler i{display:block;height:5px;margin-top:-5px;border:1px solid currentColor;border-top:0;filter:drop-shadow(0 1px 1px black);margin-bottom:4px}
+#thrust-feedback{left:auto;right:var(--gutter);bottom:86px;font:13px var(--mono);letter-spacing:.04em;color:#fbecd0}
+#panel[data-view=ending] .panel-inner{width:min(1130px,100%);max-width:none;margin:0 auto;padding:clamp(28px,7vh,80px) 6vw 36px;background:none}
+#panel[data-view=ending] .coda-spread{display:grid;grid-template-columns:1.45fr 1fr;gap:7%;margin:5vh 0}
+#panel[data-view=ending] .coda-lines p{font:inherit;color:inherit;margin:0 0 .7em}
+#panel[data-view=ending] .coda-side{font:13px var(--mono);color:#c4ac81;letter-spacing:.08em}
+#panel[data-view=ending] .future-horizon{margin:22px 0 12px}
+#turn-record{border-bottom:1px solid #b4976b;padding:6px 0;color:#ebcc99}
+@media(max-width:740px){#panel[data-view=ending] .coda-spread{grid-template-columns:1fr;gap:32px;margin:25px 0}}
+
+#panel[data-view=ending] .coda-echo{font:italic clamp(17px,1.6vw,22px)/1.45 var(--serif);color:#d2c3a8;max-width:36ch;border-left:1px solid #8d7758;padding-left:14px;margin:0 0 20px}
+#panel[data-view=ending] .coda-lines{font-size:clamp(22px,2.45vw,35px);max-width:28ch}
+.score-desk{border-block:1px solid #52605c;padding:8px 0;margin:10px 0}.score-desk .small-note{margin:4px 0 8px}.score-file{display:inline-flex;align-items:center;min-height:34px;position:relative;cursor:pointer;text-decoration:underline;text-underline-offset:4px}.score-file input{position:absolute;inset:0;width:100%;opacity:0;cursor:pointer}.score-file:focus-within{outline:1px solid currentColor;outline-offset:3px}
+#flyby-button{position:absolute;bottom:clamp(138px,22vh,205px);right:var(--gutter);padding:8px 10px;border-bottom:1px solid #c3af87;background:#0a0e12ce;color:#eadfc7;font:17px var(--sans);pointer-events:auto}#flyby-button kbd,#flyby-progress{font:12px var(--mono)}#flyby-button kbd{margin-right:5px}#hud:has(#photo-receipt:not([hidden])) #flyby-button{bottom:clamp(192px,26vh,250px)}
+.flyby-sheet{margin:12px 0 18px}.flyby-print{position:relative;aspect-ratio:16/10;background:#030506;overflow:hidden;border:1px solid #736a57}.flyby-print img{position:absolute;inset:0;width:100%;height:100%;object-fit:contain}.flyby-print img:first-child{clip-path:inset(0 calc(100% - var(--split,50%)) 0 0)}.flyby-print img:nth-child(2){clip-path:inset(0 0 0 var(--split,50%))}.flyby-print i{position:absolute;top:0;bottom:0;left:var(--split,50%);border-left:1px solid #efdaab}.flyby-print span{position:absolute;top:8px;left:10px;color:#f6e2bd;font:13px var(--mono);background:#191713bd;padding:2px 5px}.flyby-print span:last-child{left:auto;right:10px}.flyby-sheet figcaption,.flyby-sheet label{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-top:8px}.flyby-sheet figcaption strong{font:22px var(--serif)}.flyby-sheet small,.flyby-sheet label{font:12px var(--mono);color:#c5c3ac}.flyby-sheet input{flex:1;min-width:60px;accent-color:#d8bd86}.panel[data-view=flyby] .panel-inner{max-width:840px;margin:auto}#coda-print~details summary{cursor:pointer}
+#flyby-proof{width:78px;height:48px;object-fit:contain;border:1px solid #aa9975;display:block;margin:0 0 7px auto}#flyby-proof[hidden]{display:none}#score-audition{font-size:16px;margin-right:1.4em}.score-desk select{min-width:0;max-width:100%}
+#pilot-offer{position:absolute;right:var(--gutter);bottom:80px;background:#071018b8;padding:7px 10px;border-bottom:1px solid #998b6f;font:16px var(--sans);color:#ebd6ab}#pilot-offer kbd,#pilot-close kbd{font:12px var(--mono);margin-right:5px}#pilot-window{position:absolute;left:var(--gutter);bottom:135px;width:min(355px,61vw);background:#080e13ed;border-left:2px solid #b8a17b;padding:14px 17px;color:#eae8db;pointer-events:auto}#pilot-window .call-tag{margin:0 0 6px;font:10px var(--mono);letter-spacing:.12em;color:#c4b391}#pilot-window h3{margin:0 0 16px;font:normal 26px var(--serif)}.call-scale{position:relative;height:8px;background:#566064}.call-scale i{position:absolute;inset-block:0;background:#a1aa85}.call-scale b{position:absolute;top:-4px;width:2px;height:16px;background:#fff2cc}.call-data{display:flex;justify-content:space-between;font:12px var(--mono);margin:8px 0;color:#cdd6c4}#pilot-window p:not(.call-tag){font:17px/1.35 var(--sans);margin:11px 0}#pilot-command{color:#f9ce87;font:14px var(--mono)}#pilot-close{min-height:36px;color:#b8c3c6;font:14px var(--sans)}#pilot-offer[hidden],#pilot-window[hidden],#flyby-button[hidden]{display:none}.flying-call :is(#journey-direction,#waypoint,#bearing-leader,#surface-ruler,#flyby-button,#flight-keys){visibility:hidden;pointer-events:none}.story-flight .pilot-tip{color:#f1dfba}.arrival-flight #controls-button{visibility:visible;pointer-events:auto}#hud:has(#photo-receipt:not([hidden])) #pilot-offer{visibility:hidden}
+#pilot-offer{bottom:134px}.story-flight:has(#flyby-button:not([hidden])) #pilot-offer{visibility:hidden}.story-flight.flying-call :is(#field-feedback,#journey-direction){display:none}
+.try-control{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin:10px 0 18px;padding-bottom:12px;border-bottom:1px solid #465452}.try-control label{font:16px var(--sans);color:#c6d0c5}.try-control select,.try-control button{min-height:40px}.try-control button{color:#ead6a6}
+.story-flight #flight-keys{right:auto;max-width:calc(100% - 2 * var(--gutter));padding:7px 11px;background:#071018e6;color:#e1e7e3;gap:6px 18px}.story-flight #flight-keys .pilot-tip{font-weight:500;color:#ffe0a2}.story-flight #thrust-feedback{left:var(--gutter);right:auto;bottom:83px}.story-flight #pilot-offer{bottom:136px}.story-flight.flying-call #thrust-feedback{bottom:75px}.story-flight:has(#pilot-window:not([hidden])) #depart{visibility:visible}
+/* One reading surface on arrival; the ordinary sky needs no tool palette. */
+#journey-direction #pilot-offer{position:static;display:block;margin-top:7px;padding:2px 0;background:none;border:none;color:#c6bdab;font:14px/1.45 var(--sans);text-align:left}#journey-direction #pilot-offer[hidden]{display:none}
+#hud.quiet-flight:not(.flying-call) :is(#view-button,#map-button,#chapter-date,#world-scale,#journey-reading,#journey-marker,#journey-caption,#pilot-offer,#field-feedback,#thrust-feedback,#crosshair){display:none}
+#hud.quiet-flight:not(.flying-call) #journey-direction{top:auto;bottom:28px;padding:0;border:0;background:none;max-width:min(55vw,440px)}#hud.quiet-flight:not(.flying-call) #journey-action{margin:0;padding:4px 0;text-shadow:0 1px 4px #000;font:16px var(--sans);color:#c4ccc8}
+#hud.quiet-flight #flight-keys{display:none}#hud.quiet-flight.quiet-novice:not(.flying-call) #flight-keys{display:block;bottom:26px;padding:3px 7px;background:#0a1018b3}#hud.quiet-flight.quiet-novice #flight-keys span:not(.pilot-tip){display:none}#hud.quiet-flight.quiet-novice #journey-direction{bottom:65px}
+#hud.quiet-flight.first-approach:not(.flying-call) #journey-caption{display:block;margin:0;padding:3px 7px;background:#0a1018b3;font:16px var(--sans)}#hud.quiet-flight.first-approach #journey-direction{bottom:66px}
+#hud.quiet-flight:not(.flying-call) #depart{bottom:26px;color:#d6dcda;font:16px var(--sans)}#hud.quiet-flight:not(.flying-call) .chapter-heading h2{font-size:21px;color:#d1d8d3}.quiet-flight .flight-nav{opacity:.8}.quiet-flight .flight-nav:focus-within{opacity:1}
+@media(max-width:680px){#hud.quiet-flight:not(.flying-call) #depart{bottom:65px}#hud.quiet-flight.first-approach #journey-direction{bottom:104px}}

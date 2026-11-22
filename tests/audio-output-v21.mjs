@@ -4,7 +4,7 @@ import fs from 'node:fs/promises';
 const browser=await chromium.launch({channel:'chrome',headless:true,args:['--use-angle=metal','--ignore-gpu-blocklist']}),page=await browser.newPage({viewport:{width:800,height:500}}),errors=[];
 page.on('pageerror',e=>errors.push(e.message));
 try{
- await page.goto(BASE_URL+'/?test=1');await page.waitForFunction(()=>window.__cosmos,null,{timeout:90000});await page.click('#begin');
+ await page.addInitScript(()=>localStorage.setItem('cosmos-settings-v1',JSON.stringify({scoreMode:'suites'})));await page.goto(BASE_URL+'/?test=1');await page.waitForFunction(()=>window.__cosmos,null,{timeout:90000});await page.click('#begin');
  const result=await page.evaluate(async()=>{
   const a=window.__cosmos.audio;window.__cosmos.game.mode='panel';while(!a.channels.get('departure'))await new Promise(r=>setTimeout(r,20));await new Promise(r=>setTimeout(r,8000));
   const code=`class Capture extends AudioWorkletProcessor{constructor(){super();this.at=0;this.data=new Float32Array(8192);}process(inputs){const x=inputs[0];if(!x?.length)return true;for(let i=0;i<x[0].length;i++){this.data[this.at++]=x[0][i];this.data[this.at++]=(x[1]||x[0])[i];if(this.at===this.data.length){this.port.postMessage(this.data,[this.data.buffer]);this.at=0;this.data=new Float32Array(8192);}}return true;}}registerProcessor('capture',Capture);`;

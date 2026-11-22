@@ -12,8 +12,8 @@ try{
   await page.click('#begin');await page.waitForFunction(()=>!!document.pointerLockElement);
   for(const [width,height] of [[1440,900],[1024,640],[800,600]]){
    await page.setViewportSize({width,height});
-   const layout=await page.evaluate(()=>({film:document.querySelector('#launch-film').getBoundingClientRect().bottom,copy:document.querySelector('.passage-copy').getBoundingClientRect().top}));
-   assert.ok(layout.copy>=layout.film,JSON.stringify({width,height,...layout}));
+   const layout=await page.evaluate(()=>({fills:document.querySelector('#launch-film').getBoundingClientRect().height===innerHeight,clear:getComputedStyle(document.querySelector('.passage-copy')).visibility==='hidden'}));
+   assert.ok(layout.fills&&layout.clear,JSON.stringify({width,height,...layout}));
   }
   await page.setViewportSize({width:1440,height:900});await page.screenshot({path:`tests/screenshots/interface-${name}-launch.png`});
   await page.keyboard.press('n');await page.waitForFunction(()=>__cosmos.game.stage==='encounter');
@@ -101,7 +101,7 @@ try{
  await page.click('#begin');
  assert.equal(await page.evaluate(()=>__cosmos.game.stage),'launch');
  await page.waitForTimeout(2500);assert.ok(await page.evaluate(()=>document.querySelector('#launch-film').currentTime>1));assert.ok(await page.evaluate(()=>!!document.pointerLockElement));
- const launchLayout=await page.evaluate(()=>({film:document.querySelector('#launch-film').getBoundingClientRect().bottom,copy:document.querySelector('.passage-copy').getBoundingClientRect().top}));assert.ok(launchLayout.copy>=launchLayout.film,'launch captions sit outside the film');
+ const launchLayout=await page.evaluate(()=>({fills:document.querySelector('#launch-film').getBoundingClientRect().height===innerHeight,clear:getComputedStyle(document.querySelector('.passage-copy')).visibility==='hidden'}));assert.ok(launchLayout.fills&&launchLayout.clear,'full-bleed launch and a separate caption beat');
  await page.screenshot({path:`tests/screenshots/journey-${name}-launch.png`});
  await page.keyboard.press('Escape');await page.waitForTimeout(300);assert.equal(await page.evaluate(()=>__cosmos.game.mode),'panel');assert.ok(await page.evaluate(()=>document.querySelector('#launch-film').paused));
  await page.click('[data-action=resume]');await page.keyboard.press('n');await page.waitForFunction(()=>__cosmos.game.stage==='encounter');

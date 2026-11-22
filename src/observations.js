@@ -27,6 +27,11 @@ export class ObservationArchive {
    });
   }catch{return false;}
  }
+ async get(id){
+  if(this.memory.has(id))return this.memory.get(id);
+  await this.ready;if(!this.db)return null;
+  try{return await new Promise(resolve=>{const req=this.db.transaction('frames').objectStore('frames').get(id);req.onsuccess=()=>resolve(req.result);req.onerror=()=>resolve(null);});}catch{return null;}
+ }
  async all(){
   await this.ready;
   if(!this.db)return [...this.memory.values()];

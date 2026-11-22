@@ -6,7 +6,7 @@ export const CHAPTERS = [
     {name:'Follow the blue horizon',target:'earth',point:[1.15,.2,1.15],aim:[0,.8,.6],zone:.3,fact:'A gradual boundary',text:'Earth’s atmosphere fades gradually into space. From nearby, this narrow layer stretches across the horizon.',detail:'The visible limb is produced by light scattering through a long path in the atmosphere. Its apparent thickness depends on wavelength, illumination and exposure.'},
     {name:'Open the distance',target:'earth',point:[1.05,.35,6.1],zone:1.2,fact:'Size is a matter of distance',text:'Earth stays the same size. Its angle in your field of view shrinks as the distance grows.',detail:'All planetary angular sizes are calculated from physical radius and your simulated position. Navigation markers are interface symbols, not visible objects in space.'}
    ]},
-  {id:'jupiter',title:'A world of weather',eyebrow:'JUPITER ENCOUNTER',date:'5 March 1979',epoch:1,body:'jupiter',start:[.4,.17,1.9],music:'encounter',au:5.2,
+  {id:'jupiter',title:'A world of weather',eyebrow:'JUPITER ENCOUNTER',date:'5 March 1979',epoch:1,body:'jupiter',start:[.34,.18,1.62],music:'encounter',au:5.2,
    intro:'The largest planet, seen from a small machine.',
    tasks:[
     {name:'Approach the cloud world',target:'jupiter',point:[.75,.25,2.75],zone:.55,fact:'A deep atmosphere',text:'These bands are cloud systems moving through a deep atmosphere. Jupiter has no solid surface on which a spacecraft could land.',detail:'Jupiter’s equatorial radius is 71,492 km. Its polar radius is smaller, so the globe is visibly oblate. This map uses Voyager 1 images from 27 February 1979. Clouds moved before the 5 March encounter; colour is reconstructed and polar coverage is limited.'},
@@ -14,7 +14,7 @@ export const CHAPTERS = [
     {name:'Listen to Jupiter',target:'jupiter',point:null,zone:Infinity,mode:'signal',recording:'jupiter',fact:'Lightning beyond Earth',text:'Voyager detected radio bursts associated with lightning in Jupiter’s atmosphere. This recording is radio data played as sound.',detail:'This is an archived Voyager radio recording published by NASA. It is an electrical measurement played as audio, rather than pressure waves travelling through empty space.'},
     {name:'An encounter with Io',target:'io',frameBody:'io',point:[.3,.2,7],zone:2,fact:'Active volcanoes',text:'Voyager images revealed active volcanism on Io.',detail:'Io’s position comes from the same historical JPL snapshot as Jupiter. Its globe combines Galileo colour ratios with higher-resolution Voyager/Galileo imagery from USGS. The mosaic spans multiple dates and does not reconstruct Io’s exact 1979 surface. The close observation position is an exploratory reconstruction, rather than Voyager’s exact flyby trajectory.'}
    ]},
-  {id:'saturn',title:'Light through the rings',eyebrow:'SATURN ENCOUNTER',date:'12 November 1980',epoch:2,body:'saturn',start:[.59,1.05,3.0],music:'rings',au:9.5,
+  {id:'saturn',title:'Light through the rings',eyebrow:'SATURN ENCOUNTER',date:'12 November 1980',epoch:2,body:'saturn',start:[.49,1.02,2.36],music:'rings',au:9.5,
    intro:'A planet. A plane of ice. A different kind of scale.',
    tasks:[
     {name:'Approach Saturn',target:'saturn',point:[.6,1.05,3.55],zone:.65,fact:'A system of countless orbits',text:'Saturn’s rings are made of orbiting particles, mostly water ice. From a distance, they appear to form a continuous surface.',detail:'Ring radii are tied to Saturn’s physical radius. The radial opacity map preserves the main bands and Cassini Division. Fine particle-scale structure is unresolved in this route.'},
@@ -89,6 +89,7 @@ export const SOURCES=[
  ['Bright-star catalogue','D3 Celestial / XHIP catalogue','https://github.com/ofrohn/d3-celestial'],
  ['Io surface mosaic','NASA / JPL / USGS · merged Galileo and Voyager imagery','https://astrogeology.usgs.gov/search/map/io_galileo_ssi_global_color_merge_mosaic_1km'],
  ['Voyager instrument recordings','NASA / University of Iowa · historical radio and plasma measurements','https://space.physics.uiowa.edu/space-audio/'],
+ ['Concert score','Gustav Holst · Venus, the Bringer of Peace · U.S. Air Force Heritage of America Band, 1998','https://commons.wikimedia.org/wiki/File:Holst-_venus.ogg'],
  ['Music','Original Cosmos chamber score · acoustic samples from VSCO 2 Community Edition, Versilian Studios / Sam Gossner and Ivy Audio / Simon Dalzell · CC0','https://versilian-studios.com/vsco-community/'],
  ['Voyager propulsion','NASA Voyager Backgrounder, 1980; single-jet thrust','https://ntrs.nasa.gov/citations/19810001583'],
  ['Voyager mass','NASA Voyager FAQ; approximate launch configuration','https://science.nasa.gov/mission/voyager/frequently-asked-questions/'],

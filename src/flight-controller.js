@@ -9,6 +9,7 @@ export const CLOSE_PASS={earth:1.15,moon:1.22,io:1.22,jupiter:1.45,saturn:1.6,ti
 
 // Synchronous integration scratch; no temporary vector escapes a substep.
 const inputVector=new THREE.Vector3(),turnVector=new THREE.Vector3(),relativeVector=new THREE.Vector3(),oldRadial=new THREE.Vector3();
+const tangentRight=new THREE.Vector3(),tangentUp=new THREE.Vector3();
 const rotation=new THREE.Quaternion(),gravityVector=new THREE.Vector3();
 // Acceleration in the fixed encounter frame. Other bodies contribute their
 // differential pull at the frame origin, avoiding a fictitious bulk fall of
@@ -33,7 +34,7 @@ export function stepAttitude(game,sample,dt){
  const demand=inputVector.set(sample.pitch/Math.max(dt,.001),sample.yaw/Math.max(dt,.001),sample.roll).multiplyScalar(game.precision?.35:1);
  // Integrate the response over the whole interval, rather than applying its
  // final angular speed for the whole frame. Mouse travel then retains its angle.
- const response=26,blend=1-Math.exp(-dt*response);
+ const response=38,blend=1-Math.exp(-dt*response);
  const turn=turnVector.copy(demand).multiplyScalar(dt).addScaledVector(relativeVector.copy(game.angular).sub(demand),blend/response);
  game.angular.lerp(demand,blend);
  if(demand.lengthSq()===0&&game.angular.lengthSq()<1e-24)game.angular.set(0,0,0);
@@ -83,11 +84,21 @@ function advanceManualFlight(game,world,sample,dt,region){
  if(demand.lengthSq()>1)demand.normalize();
  // Ease thrust changes in the control frame. Release stops propulsion at once;
  // the existing velocity remains, with no invisible damping of a coast.
- if(game.thrust&&!sample.brake)game.drive.lerp(demand,1-Math.exp(-dt*14));else game.drive.set(0,0,0);
- demand.copy(game.drive).applyQuaternion(camera);
+ if(game.thrust&&!sample.brake)game.drive.lerp(demand,1-Math.exp(-dt*22));else game.drive.set(0,0,0);
+ const anchor=game.tracking&&world.bodyPositions[game.tracking];
+ if(anchor){
+  // Orbit assist owns a radial W/S axis. A/D and R/F must remain tangent
+  // even while the displayed chase frame catches up with the probe attitude.
+  const normal=oldRadial.copy(p.position).sub(anchor).normalize();
+  const attitude=world.camera?.quaternion||camera;
+  tangentRight.set(1,0,0).applyQuaternion(attitude).projectOnPlane(normal);
+  if(tangentRight.lengthSq()<1e-8)tangentRight.set(0,1,0).applyQuaternion(attitude).cross(normal);
+  tangentRight.normalize();tangentUp.crossVectors(normal,tangentRight);
+  demand.copy(tangentRight).multiplyScalar(game.drive.x).addScaledVector(tangentUp,game.drive.y).addScaledVector(normal,game.drive.z);
+ }else demand.copy(game.drive).applyQuaternion(camera);
  // Thrust changes momentum; letting go leaves a coast. The local exploration
  // speed envelope is assisted, while Space supplies an explicit braking force.
- const acceleration=speed*.55;game.braking=!!sample.brake;
+ const acceleration=speed*.64;game.braking=!!sample.brake;
  // Real gravitational acceleration per presentation second, independent of
  // the deliberately assisted engine. Braking actively counters the drift.
  p.velocity.addScaledVector(localGravity(p.position,world.bodyPositions,region,gravityVector),dt);
@@ -97,7 +108,11 @@ function advanceManualFlight(game,world,sample,dt,region){
   const remaining=current<.05?0:Math.max(0,current-deceleration*dt);
   if(current)p.velocity.multiplyScalar(remaining/current);
  }else if(game.thrust){
-  p.velocity.addScaledVector(demand,acceleration*dt);
+  const impulse=acceleration*dt;
+  // Spend extra counter-thrust only against the opposing velocity component.
+  // A sideways correction leaves perpendicular momentum alone.
+  const opposition=Math.max(0,-p.velocity.dot(demand)/Math.max(demand.lengthSq(),1e-8));
+  p.velocity.addScaledVector(demand,impulse+Math.min(impulse,opposition));
   const magnitude=p.velocity.length();
   if(magnitude>speed)p.velocity.multiplyScalar((speed+(magnitude-speed)*Math.exp(-dt*1.8))/magnitude);
  }
@@ -108,7 +123,6 @@ function advanceManualFlight(game,world,sample,dt,region){
   relative.normalize();const inward=-p.velocity.dot(relative),gap=Math.max(0,range-minimum);
   if(inward>0&&gap<BODY_DATA[id].radius*.25){const safe=Math.sqrt(2*acceleration*gap);if(inward>safe){p.velocity.addScaledVector(relative,(inward-safe)*(1-Math.exp(-dt*12)));game.proximityLimited=true;}}
  }
- const anchor=game.tracking&&world.bodyPositions[game.tracking];
  const oldRelative=anchor?oldRadial.copy(p.position).sub(anchor):null;
  p.position.addScaledVector(p.velocity,dt);
  if(oldRelative){
@@ -134,8 +148,8 @@ function advanceManualFlight(game,world,sample,dt,region){
  if(region){
   const center=world.bodyPositions[region.body],relative=relativeVector.copy(p.position).sub(center),range=relative.length();
   if(range>region.radius){relative.normalize();p.position.copy(center).addScaledVector(relative,region.radius);const outward=p.velocity.dot(relative);if(outward>0)p.velocity.addScaledVector(relative,-outward);}
-  game.explorationBoundary={fraction:Math.min(1,range/region.radius),limited:range>=region.radius};
+  const boundary=game.explorationBoundary??={};boundary.fraction=Math.min(1,range/region.radius);boundary.limited=range>=region.radius;
  }
  game.localSeconds+=dt;game.thrustFeedback=null;
- game.flightReadout=nearest?{id:nearest,range:p.position.distanceTo(world.bodyPositions[nearest]),risk:game.proximityLimited?1:0}:null;
+ if(nearest){const reading=game.flightReadout??={};reading.id=nearest;reading.range=p.position.distanceTo(world.bodyPositions[nearest]);reading.risk=game.proximityLimited?1:0;}else game.flightReadout=null;
 }

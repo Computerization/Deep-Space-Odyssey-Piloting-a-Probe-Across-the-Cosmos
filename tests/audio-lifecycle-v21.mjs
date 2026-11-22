@@ -5,7 +5,7 @@ const browser=await chromium.launch({channel:'chrome',headless:true,args:['--use
 const page=await browser.newPage({viewport:{width:1024,height:640}}),errors=[];
 page.on('pageerror',e=>errors.push(e.message));
 try{
- await page.addInitScript(()=>localStorage.setItem('cosmos-settings-v1',JSON.stringify({muted:true,volume:.6})));
+ await page.addInitScript(()=>localStorage.setItem('cosmos-settings-v1',JSON.stringify({muted:true,volume:.6,scoreMode:'suites'})));
  await page.goto(BASE_URL+'/?test=1');await page.waitForFunction(()=>window.__cosmos,{timeout:90000});await page.click('#begin');
  const muted=await page.evaluate(()=>{const a=window.__cosmos.audio;return {muted:a.muted,master:a.master.gain.value,recordings:a.recordingBus.gain.value};});
  assert.deepEqual(muted,{muted:true,master:0,recordings:0});

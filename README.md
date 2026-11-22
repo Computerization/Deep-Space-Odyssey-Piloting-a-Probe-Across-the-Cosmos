@@ -19,7 +19,7 @@ Use **简体中文 / English** on the title screen or **Pause → Settings → L
 
 The opening screen is a hands-on spacecraft study. You can inspect the model while the flight data loads. Drag the NASA Voyager model to rotate it, or focus it and use the arrow keys. Scroll or use + / − to zoom; Home resets the view. Select the antenna, cameras, power generators or magnetometer boom for a closer look. **Continue voyage** restores your flight directly.
 
-**Begin voyage** opens with NASA’s archival launch film, followed by a short reconstructed departure from Earth. Flight starts in third person; C switches to first person and back without changing the probe’s motion. Captions sit below the film. The controls then pass to you. On the first approach to Earth, build momentum, release thrust to coast, and brake while you frame the thin blue rim. The guide reads your inward motion; you can steer away or fly onward at any time.
+**Begin voyage** opens with NASA’s archival launch film, followed by a short reconstructed departure from Earth. Flight starts in third person; C switches to first person and back without changing the probe’s motion. The film fills the window; press **C / Y** during playback for the original 4:3 frame, or **N / D-pad ↑** to take control. Historical captions follow the archive instead of covering it. The controls then pass to you. On the first approach to Earth, build momentum, release thrust to coast, and brake while you frame the thin blue rim. The guide reads your inward motion; you can steer away or fly onward at any time.
 
 The main route is **Earth → Jupiter → Titan → Saturn → Pale Blue Dot → interstellar space → one light-day → future outlook**. Each stop opens with a nearby horizon and a concrete phenomenon to explore. Discoveries respond to what you see, in any order: hold a revealing view briefly to receive its explanation and a journal note. After reading time, the next suggestion prioritizes something you have not yet seen; X can advance sooner. P photographs any view. The bearing points towards a suggested viewpoint or selected world, including when it is outside the view. These are optional directions; departure is always available.
 
@@ -34,6 +34,22 @@ During fieldwork the meter counts time spent on the feature. A brief correction 
 In the Pale Blue Dot archive, try finding Earth before choosing **Mark Earth**. At one light-day, **X** opens a radio experiment: transmit, then scrub the 48-hour clock or jump to each reception. The experiment models an immediate reply at fixed separation, independently of the flight clock. **N** goes directly to the future outlook.
 
 Beyond Saturn the instrument beside the sky changes at each stop. Find Earth in the archived plate, compare the two recorded plasma-wave bands, and run a 48-hour radio round trip. Use **X** to investigate and **N** to leave without completing a task; **G** hides the instrument for a clear view. The outer sky uses a dark-adapted display of the same star catalogue, not a visible heliopause.
+
+At a giant-world arrival, or while following a world or using precision flight, a small bracket measures the distance between two points in your actual view. A giant’s span is also expressed in Earth widths; a ring-plane reading measures the plane rather than an individual particle. Aim into empty sky and the ruler disappears.
+
+At one light-day, **N** opens *Still travelling*. Turn the record to read the other side, return to the spacecraft, or open your journal. The verse can recall something you actually discovered; you can read it without collecting anything.
+
+### Exhibition music
+
+From the title choose **Music selection → Preview score**. The default is a real, uninterrupted 8:21 performance of Holst’s *Venus, the Bringer of Peace*. It continues across chapters, recedes under historical recordings and opens back up for the reading at one light-day. The four original suites remain available. For an exhibition, choose **Choose a local MP3**, then **Done → Begin voyage**. The file plays from this device; nothing is uploaded, and reloading closes the local selection. Select a file cleared for your venue and use. **Pause → Settings → Sound** changes music during flight.
+
+### Learn by flying
+
+At handover the footer shows **Q / E**: bank the horizon and see how roll differs from steering. It offers one new control at a time, based on what you have flown and what you are looking at. After a few seconds the instrumentation recedes and the sky fills the frame. A new discovery briefly brings its note back. **H** hides even the remaining labels. **?** opens the full reference; returning from it or Pause briefly recalls the encounter cues. Choose **Try a control in flight** to pin one instruction until you perform it. **Y** starts the local maneuver: bank and level at Earth; cut thrust and catch a braking window at Jupiter; approach Saturn’s ring plane from outside the rings. The instrument reads your actual orientation or position. Overshoot and you can recover without resetting. These are optional simulated exercises, not historical Voyager commands. **Y** leaves the exercise; **N** continues the voyage.
+
+### Optional photography
+
+At Earth, Jupiter, Saturn or a nearby-world study, frame the encounter world and press **Shift + P**. The camera follows it; hold **Shift + A** or **Shift + D** until the angle between your two viewpoints reaches **12°**. Press **Shift + P** for the second exposure. Drag the divider (or focus it and use the arrow keys) to compare your own photographs. The caption gives the straight-line distance between the camera positions and the angle at the world’s centre. Both images enter the Journal; the last finished pair travels with this voyage into the final reading. **N** always lets you leave.
 
 ## Controls
 
@@ -52,6 +68,8 @@ Esc or controller B returns one menu level. If you opened a tool directly from f
 | First / third person; camera menu | C / K | Y / pause menu |
 | Follow / release a world | L or its bearing | Pause → Camera |
 | Photograph | P | Left-stick click |
+| Fly / leave a local maneuver | Y | Pause → Flight maneuvers |
+| Take / compare a flyby pair | Shift + P | Pause → Flyby contact sheet |
 | Magnification | Scroll | D-pad left / right |
 | Continue the main voyage | N or Continue button | D-pad up |
 | Explore / journal | M / J | View / pause menu |
