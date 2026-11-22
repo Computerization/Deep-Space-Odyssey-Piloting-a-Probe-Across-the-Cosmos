@@ -72,3 +72,9 @@ export function annulusFraming(center,u,v,inner,outer,verticalFov,aspect){
  const depth=Math.min(outer-minimum,maximum-inner,outer-inner);
  return {visible:area>1e-12&&depth>1e-8,depth:Math.max(0,depth),tilt};
 }
+
+// All four corner rays have the same length. The least-aligned one has
+// horizontal/vertical signs opposite the centre ray: no per-corner rotations.
+export function cornerBeyondLimb(x,y,z,tanX,tanY,limb){
+ return -z-Math.abs(x)*tanX-Math.abs(y)*tanY < Math.cos(limb+.003)*Math.sqrt(1+tanX*tanX+tanY*tanY);
+}

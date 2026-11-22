@@ -400,3 +400,15 @@ button{text-shadow:inherit;font-weight:400;min-height:44px;min-width:44px;border
 @media(max-width:700px){#outer-station{width:37vw;right:3vw;padding:7px;top:88px}#outer-station h3{font-size:17px}#outer-station img,#outer-station svg{height:69px}#outer-station header{display:block}.station-read{display:block}.station-read span{display:block;text-align:left}.language-choice{float:none;margin-bottom:8px}}
 #plasma-comparison .spectrum-figure video{display:block;width:100%;height:auto;max-height:none;margin:0}.spectrum-figure i{pointer-events:none}.archive-plate{cursor:crosshair}.record-sleeve{padding:9px 0;border-block:1px solid #dfc18840}.record-sleeve summary{cursor:pointer;color:#dfc188}.record-sleeve p{margin:.5em 0}.record-sleeve+.future-horizon{margin-top:18px}.band-buttons{flex-wrap:wrap}.language-choice select{max-width:9em}
 @media(max-width:700px){#plasma-comparison{grid-template-columns:1fr}#plasma-comparison .spectrum-figure{max-width:360px}}
+
+#passage.launching.film-matte{background:#000}
+#surface-ruler{position:absolute;top:60%;left:46%;width:8%;pointer-events:none;color:#fff7df;text-align:center;text-shadow:0 1px 3px #000,0 0 4px #000;font:12px var(--mono)}
+#surface-ruler i{display:block;height:5px;margin-top:-5px;border:1px solid currentColor;border-top:0;filter:drop-shadow(0 1px 1px black);margin-bottom:4px}
+#thrust-feedback{left:auto;right:var(--gutter);bottom:86px;font:13px var(--mono);letter-spacing:.04em;color:#fbecd0}
+#panel[data-view=ending] .panel-inner{width:min(1130px,100%);max-width:none;margin:0 auto;padding:clamp(28px,7vh,80px) 6vw 36px;background:none}
+#panel[data-view=ending] .coda-spread{display:grid;grid-template-columns:1.45fr 1fr;gap:7%;margin:5vh 0}
+#panel[data-view=ending] .coda-lines p{font:inherit;color:inherit;margin:0 0 .7em}
+#panel[data-view=ending] .coda-side{font:13px var(--mono);color:#c4ac81;letter-spacing:.08em}
+#panel[data-view=ending] .future-horizon{margin:22px 0 12px}
+#turn-record{border-bottom:1px solid #b4976b;padding:6px 0;color:#ebcc99}
+@media(max-width:740px){#panel[data-view=ending] .coda-spread{grid-template-columns:1fr;gap:32px;margin:25px 0}}

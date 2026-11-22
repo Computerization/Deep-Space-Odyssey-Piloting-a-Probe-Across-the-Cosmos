@@ -3,6 +3,7 @@ import {formatDistance,navigationAnchor} from '../flight.js';
 import {encounterContext} from '../encounter-context.js';
 import {createDomWriter} from './dom.js';
 import {bearingLayout} from './bearing-layout.js';
+import {surfaceSpan} from '../surface-span.js';
 import {discFraming} from '../view-framing.js';
 
 // Presentation reads flight state. Bearings never steer the spacecraft.
@@ -59,7 +60,7 @@ export function createFlightHud({game,world,input,exploration,ui}) {
  function updateHud(){
   const p=game.player,pad=input.device==='gamepad';
   dom.text('pause-button',pad?'Menu':'Esc');
-  if(game.stage!=='encounter'||!game.showHud)return;
+  if(game.stage!=='encounter'||!game.showHud){dom.hidden('surface-ruler',true);dom.hidden('thrust-feedback',true);return;}
   dom.text('view-button',pad?'Camera':'K · Camera');
   const context=encounterContext(game);
   dom.text('map-button',pad?'Explore':'M · Explore');
@@ -81,7 +82,12 @@ export function createFlightHud({game,world,input,exploration,ui}) {
     if(next!==upper){upper=next;dom.toggle('hud','upper-field-guide',upper);requestAnimationFrame(measure);}
    }
   }else if(upper){upper=false;dom.toggle('hud','upper-field-guide',false);requestAnimationFrame(measure);}
-  dom.hidden('thrust-feedback',true);
+  // The bracket measures its two actual screen rays. It disappears on sky.
+  const measuring=body&&context.body!=='voyager'&&(game.precision||game.tracking===context.body);
+  const span=measuring?surfaceSpan(p,world.bodyPositions[context.body],body,world.camera,.08,-.20):null;
+  dom.hidden('surface-ruler',span===null);if(span!==null)dom.text('surface-length',kilometres.format(Math.round(span))+' km');
+  const drive=game.timePaused?'':game.braking?'Braking':game.thrust>.01?(game.boosting?'Fast thrust':'Thrust'):p.velocity.length()>2?'Coasting':'';
+  dom.hidden('thrust-feedback',!drive);if(drive)dom.text('thrust-state',drive);
   // The journey owns X; its action is the only discovery control on screen.
   dom.hidden('observe-action',true);
   dom.text('photo-key',pad?'LS':'P');

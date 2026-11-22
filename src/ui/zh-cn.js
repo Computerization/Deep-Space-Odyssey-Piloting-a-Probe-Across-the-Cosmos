@@ -5,6 +5,19 @@ On Earth, a needle lifts. In the dark, its twin keeps travelling.|地球上，�
 Somewhere in those grooves a foot is falling, and has yet to touch the ground.|唱片的某一道刻纹里，有人迈出了一步，那只脚还没落地。
 Follow the world, then circle.|跟随天体，再沿着它环绕飞行。
 Turn towards the diamond.|转向菱形标记。
+Side A · The needle|A 面 · 唱针
+Side B · The listener|B 面 · 听者
+Suppose a hand, unlike your hand, should turn this circle over.|设想有一只手，与人类的手截然不同，将这张唱片翻了个面。
+First a scrape. Then rain. For a moment, on a world with other weather, it is raining here.|先是一声轻擦。接着是雨声。有那么一瞬间，在一个天气全然不同的世界，下起了地球上的雨。
+Read Side A again|重读 A 面
+Turn the record over|翻转唱片
+Fast thrust|加速推进
+Thrust|推进
+Braking|制动中
+Coasting|惯性滑行
+You found Earth in the beam of sunlight.|你在一束阳光中找到了地球。
+You heard the pitch rise in denser plasma.|你听到了更浓密的等离子体中升高的音调。
+Two days passed on Earth before the reply came home.|直到地球上过了两天，应答信号才回到家。
 Pilot Voyager 1 from Earth to interstellar space.|驾驶旅行者 1 号，从地球飞向星际空间。
 Voyager 1|旅行者 1 号
 Begin voyage|开始航行

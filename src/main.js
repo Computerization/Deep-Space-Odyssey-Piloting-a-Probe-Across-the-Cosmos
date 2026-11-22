@@ -1,3 +1,4 @@
+import {openCoda} from './ui/coda.js';
 import {createSpacecraftPlate} from './rendering/spacecraft-plate.js';
 import * as THREE from 'three';
 import {CosmosWorld,icrf} from './world.js';
@@ -21,7 +22,7 @@ import {solarChartState,extentForSelection,distanceToEarth} from './solar-chart-
 import {fitAtlasLabels} from './ui/atlas-layout.js';
 import {createOuterStation} from './ui/outer-station.js';
 import {installLanguage,chooseLanguage} from './ui/language.js';
-import {openArchivePlate,openSignalDesk,bindPlasmaComparison,futurePlate} from './ui/deep-space.js';
+import {openArchivePlate,openSignalDesk,bindPlasmaComparison} from './ui/deep-space.js';
 import {createPhotoViewer} from './ui/photo-viewer.js';
 import {createPhotoReceipt} from './ui/photo-receipt.js';
 import {createFlightHud} from './ui/flight-hud.js';
@@ -239,7 +240,7 @@ function openStory(kind){
 function openFuture(){
  // The panel already pauses the simulation. Keep the pilot’s camera and flight clock.
  game.completed=true;save();
- openPanel('ending','Still travelling',`<p class="eyebrow">BEYOND ONE LIGHT-DAY</p><div class="coda-lines"><p>On Earth, a needle lifts. In the dark, its twin keeps travelling.</p><p>Somewhere in those grooves a foot is falling, and has yet to touch the ground.</p></div><p>Long after the radio falls silent, Voyager will still carry the sounds and images recorded on Earth in 1977.</p>${futurePlate}<div class="future-horizon"><strong>About 40,000 years from now</strong><p>Voyager 1’s projected path takes it within about 1.7 light-years of another star.</p></div><p class="small-note"><a href="https://science.nasa.gov/mission/voyager/voyager-1/voyager-1-what-is-a-light-day/" target="_blank" rel="noopener">NASA · Voyager’s distant future</a></p><div class="panel-actions"><button class="primary" data-action="resume">Stay with Voyager →</button><button class="text-button" data-action="journal">Your discoveries and photographs</button><button class="text-button" data-action="home">Return to title</button></div>`);
+ openCoda(openPanel,$);
 }
 
 function openRecording(kind){

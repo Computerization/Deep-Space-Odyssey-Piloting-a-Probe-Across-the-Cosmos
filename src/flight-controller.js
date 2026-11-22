@@ -97,7 +97,11 @@ function advanceManualFlight(game,world,sample,dt,region){
   const remaining=current<.05?0:Math.max(0,current-deceleration*dt);
   if(current)p.velocity.multiplyScalar(remaining/current);
  }else if(game.thrust){
-  p.velocity.addScaledVector(demand,acceleration*dt);
+  const impulse=acceleration*dt;
+  // Spend extra counter-thrust only against the opposing velocity component.
+  // A sideways correction leaves perpendicular momentum alone.
+  const opposition=Math.max(0,-p.velocity.dot(demand)/Math.max(demand.lengthSq(),1e-8));
+  p.velocity.addScaledVector(demand,impulse+Math.min(impulse,opposition));
   const magnitude=p.velocity.length();
   if(magnitude>speed)p.velocity.multiplyScalar((speed+(magnitude-speed)*Math.exp(-dt*1.8))/magnitude);
  }
@@ -134,8 +138,8 @@ function advanceManualFlight(game,world,sample,dt,region){
  if(region){
   const center=world.bodyPositions[region.body],relative=relativeVector.copy(p.position).sub(center),range=relative.length();
   if(range>region.radius){relative.normalize();p.position.copy(center).addScaledVector(relative,region.radius);const outward=p.velocity.dot(relative);if(outward>0)p.velocity.addScaledVector(relative,-outward);}
-  game.explorationBoundary={fraction:Math.min(1,range/region.radius),limited:range>=region.radius};
+  const boundary=game.explorationBoundary??={};boundary.fraction=Math.min(1,range/region.radius);boundary.limited=range>=region.radius;
  }
  game.localSeconds+=dt;game.thrustFeedback=null;
- game.flightReadout=nearest?{id:nearest,range:p.position.distanceTo(world.bodyPositions[nearest]),risk:game.proximityLimited?1:0}:null;
+ if(nearest){const reading=game.flightReadout??={};reading.id=nearest;reading.range=p.position.distanceTo(world.bodyPositions[nearest]);reading.risk=game.proximityLimited?1:0;}else game.flightReadout=null;
 }

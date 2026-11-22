@@ -1,4 +1,5 @@
 import * as THREE from 'three';
+import {cornerBeyondLimb} from './view-framing.js';
 import {BODY_DATA,CHAPTERS,MILESTONES,milestoneTime} from './mission.js';
 import {opportunityPoint} from './opportunities.js';
 import {encounterContext,STUDIES} from './encounter-context.js';
@@ -32,7 +33,7 @@ export function approachLeg(position,goal,center,radius){
 }
 export function createJourney({game,world,ui,input,depart,transfer,finishLaunch,openStory,recordView,save,onDiscovery=()=>{}}){
  let step=0,visit='',launch=null,goal=null,ready=false,completed=false,recording=false,completedAge=0,storyHeard=false,heading=0,remaining=0,orbitKey=null,orbitAngle=0,rangeKey='W';
- const hold=new ObservationHold(),holdSeconds=2.4,driveForward=new V();let reading='',departure=null,freshDeparture=false;
+ const hold=new ObservationHold(),holdSeconds=2.4,driveForward=new V(),cameraInverse=new THREE.Quaternion();let reading='',departure=null,freshDeparture=false;
  const dom=createDomWriter(ui),film=ui('launch-film');
  let lastKeys;
  dom.node('journey-action').onclick=interact;
@@ -98,10 +99,11 @@ export function createJourney({game,world,ui,input,depart,transfer,finishLaunch,
   const earth=world.bodyPositions.earth,r=BODY_DATA.earth.radius,a=smooth((seconds-11)/7);
   game.player.position.copy(earth).addScaledVector(launch.radial,r*(1.15+.65*a));
   game.player.quaternion.copy(lookAt(game.player.position,earth.clone().lerp(arrivalTarget(world,'earth'),a),world.getFrame('earth').y));
-  const opacity=String(1-smooth((seconds-11)/1.5));
+  const opacity=String(smooth(seconds/.6)*(1-smooth((seconds-11)/1.5)));
+  dom.toggle('passage','film-matte',seconds<1);
   const style=dom.node('passage').style;if(style.getPropertyValue('--film-opacity')!==opacity)style.setProperty('--film-opacity',opacity);
   dom.hidden('launch-film',seconds>=12.5);if(film.hidden&&!film.paused)film.pause();
-  ui('passage-veil').style.opacity='0';ui('passage-progress').style.width=`${t*100}%`;
+  dom.style('passage-veil','opacity','0');
   dom.text('passage-title',seconds<11?'Cape Canaveral':'Earth departure');
   dom.text('passage-caption','Voyager 1 · 5 September 1977');
   const pad=input.device==='gamepad';
@@ -138,7 +140,8 @@ export function createJourney({game,world,ui,input,depart,transfer,finishLaunch,
   }
   const tan=Math.tan(world.camera.fov*Math.PI/360),towards=from.clone().negate().normalize();
   const limb=Math.asin(Math.min(1,world.observationRadius(body)/from.length()));
-  const limbVisible=[[-1,-1],[-1,1],[1,-1],[1,1]].some(([x,y])=>new V(x*tan*world.camera.aspect,y*tan,-1).normalize().applyQuaternion(world.camera.quaternion).angleTo(towards)>limb+.003);
+  towards.applyQuaternion(cameraInverse.copy(world.camera.quaternion).invert());
+  const limbVisible=cornerBeyondLimb(towards.x,towards.y,towards.z,tan*world.camera.aspect,tan,limb);
   // A freely chosen view can reveal any unseen phenomenon at this world.
   // Specific later views (the polar jet, for example) take precedence over
   // the broad introductory view when both are visible.
@@ -205,6 +208,7 @@ export function createJourney({game,world,ui,input,depart,transfer,finishLaunch,
   let title=stop?.title||['','','','Look back at Earth','Interstellar space','One light-day'][game.chapter];
   const framing=!!stop&&!completed&&hold.subject===step&&(hold.seconds>0||game.journeyNear);
   let copy=stop?(completed?stop.finding:framing?'':game.journeyNear?'L · Face the world.':stop.instruction):game.chapter===3?'Earth filled less than a pixel. Open Voyager’s original photograph.':game.chapter===4?'Listen to the pitch of the plasma waves.':game.chapter===5?'Send a command from Earth. How long until its reply arrives?':'';
+  if(!stop&&game.chapter>=3&&game.experience.seen.includes(`${game.chapter}:0`))copy=['You found Earth in the beam of sunlight.','You heard the pitch rise in denser plasma.','Two days passed on Earth before the reply came home.'][game.chapter-3];
   if(stop&&!stop.study&&!completed&&!framing&&!game.journeyNear){
    const following=game.tracking===stop.body;
    const move=following?(orbitAngle>.25?`${orbitKey} · Circle towards the marker.`:`${rangeKey} · ${rangeKey==='W'?'Approach':'Move away'}.`):heading>.4?(pad?'Turn towards the diamond.':'L · Follow the world, then circle.'):'W · Approach the marker.';
