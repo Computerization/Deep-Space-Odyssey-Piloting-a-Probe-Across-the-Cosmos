@@ -14,6 +14,7 @@ import {GeometryDetail} from './rendering/geometry-detail.js';
 import {resolveFragment} from './rendering/shaders.js';
 import {createBodies,createStars,createSunGlare,spacecraftMaterials} from './rendering/scene-factory.js';
 const V=THREE.Vector3;
+const followBlend=dt=>1-Math.exp(-dt*13);
 export const icrf = a => new V(a[0],a[2],-a[1]);
 export class CosmosWorld {
  constructor(canvas,onProgress){
@@ -235,7 +236,7 @@ export class CosmosWorld {
   if(this.environmentNeedsUpdate(player.position,time))return true;
   // Predict exactly the next interpolation, without advancing the camera.
   // Keep drawing until that step no longer changes its stored components.
-  return !this.scratch.nextFollow.copy(this.follow).slerp(player.quaternion,1-Math.exp(-dt*7)).equals(this.follow);
+  return !this.scratch.nextFollow.copy(this.follow).slerp(player.quaternion,followBlend(dt)).equals(this.follow);
  }
  cameraState(view){
   return {fov:this.camera.fov,...(view==='chase'&&this.followReady?{follow:this.follow.toArray()}:{})};
@@ -249,7 +250,7 @@ export class CosmosWorld {
   if(this.restoreSettledView){settled=true;this.restoreSettledView=false;}
   this.renderCount++;this.needsRender=false;
   this.lastRender={player,options:{view,exposure,time,menu,look,transit,settled}};
-  this.camera.position.set(0,0,0);if(!this.followReady){this.follow.copy(player.quaternion);this.followReady=true;}this.follow.slerp(player.quaternion,1-Math.exp(-dt*7));this.camera.quaternion.copy(view==='chase'?this.follow:player.quaternion);
+  this.camera.position.set(0,0,0);if(!this.followReady){this.follow.copy(player.quaternion);this.followReady=true;}this.follow.slerp(player.quaternion,followBlend(dt));this.camera.quaternion.copy(view==='chase'?this.follow:player.quaternion);
   if(look)this.camera.quaternion.multiply(look);
   this.camera.updateMatrixWorld();
   let visibleBright=0;

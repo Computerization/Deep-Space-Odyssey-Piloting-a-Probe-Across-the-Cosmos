@@ -239,7 +239,7 @@ function openStory(kind){
 function openFuture(){
  // The panel already pauses the simulation. Keep the pilot’s camera and flight clock.
  game.completed=true;save();
- openPanel('ending','Still travelling',`<p class="eyebrow">BEYOND ONE LIGHT-DAY</p><p class="lead">The Golden Record stays aboard.</p><p>Long after the radio falls silent, Voyager will still carry the sounds and images recorded on Earth in 1977.</p>${futurePlate}<div class="future-horizon"><strong>About 40,000 years from now</strong><p>Voyager 1’s projected path takes it within about 1.7 light-years of another star.</p></div><p class="small-note"><a href="https://science.nasa.gov/mission/voyager/voyager-1/voyager-1-what-is-a-light-day/" target="_blank" rel="noopener">NASA · Voyager’s distant future</a></p><div class="panel-actions"><button class="primary" data-action="resume">Stay with Voyager →</button><button class="text-button" data-action="journal">Your discoveries and photographs</button><button class="text-button" data-action="home">Return to title</button></div>`);
+ openPanel('ending','Still travelling',`<p class="eyebrow">BEYOND ONE LIGHT-DAY</p><div class="coda-lines"><p>On Earth, a needle lifts. In the dark, its twin keeps travelling.</p><p>Somewhere in those grooves a foot is falling, and has yet to touch the ground.</p></div><p>Long after the radio falls silent, Voyager will still carry the sounds and images recorded on Earth in 1977.</p>${futurePlate}<div class="future-horizon"><strong>About 40,000 years from now</strong><p>Voyager 1’s projected path takes it within about 1.7 light-years of another star.</p></div><p class="small-note"><a href="https://science.nasa.gov/mission/voyager/voyager-1/voyager-1-what-is-a-light-day/" target="_blank" rel="noopener">NASA · Voyager’s distant future</a></p><div class="panel-actions"><button class="primary" data-action="resume">Stay with Voyager →</button><button class="text-button" data-action="journal">Your discoveries and photographs</button><button class="text-button" data-action="home">Return to title</button></div>`);
 }
 
 function openRecording(kind){
@@ -576,7 +576,7 @@ function frame(now){
  const renderDt=game.mode==='play'?dt:0;
  // The steady transfer chart is opaque. Keep simulating the passage, but
  // leave the last 3D frame alone until a world is visible again.
- const covered=steadyPassages&&game.stage==='transit';
+ const covered=(steadyPassages&&game.stage==='transit')||(game.stage==='launch'&&game.launchProgress*18<10.8);
  const viewChanged=!covered&&(framePolicy.viewChanged(rendered,look,view,transit,time)||world.viewSettling(rendered,renderDt,view,time));
  // Full-resolution clouds do not depend on a stopped simulation clock.
  const settled=!viewChanged&&!world.needsRender;

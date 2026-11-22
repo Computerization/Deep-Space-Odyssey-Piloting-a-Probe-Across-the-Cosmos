@@ -1,6 +1,10 @@
 // UI copy only: localize presentation, never mission IDs, coordinates, save keys or photo records.
 import {scienceChinese} from './zh-science.js';
 export const chinese=new Map([...scienceChinese,...`
+On Earth, a needle lifts. In the dark, its twin keeps travelling.|地球上，一根唱针抬起。黑暗里，另一根仍在远行。
+Somewhere in those grooves a foot is falling, and has yet to touch the ground.|唱片的某一道刻纹里，有人迈出了一步，那只脚还没落地。
+Follow the world, then circle.|跟随天体，再沿着它环绕飞行。
+Turn towards the diamond.|转向菱形标记。
 Pilot Voyager 1 from Earth to interstellar space.|驾驶旅行者 1 号，从地球飞向星际空间。
 Voyager 1|旅行者 1 号
 Begin voyage|开始航行

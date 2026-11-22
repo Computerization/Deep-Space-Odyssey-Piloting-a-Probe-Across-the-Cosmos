@@ -20,7 +20,7 @@ export function arrivalPosition(world,index,study){
 export function arrivalTarget(world,body){
  const center=world.bodyPositions[body];
  if(!['earth','jupiter','saturn','titan'].includes(body))return center.clone();
- return center.clone().addScaledVector(world.getFrame(body).y,BODY_DATA[body].radius*.4);
+ return center.clone().addScaledVector(world.getFrame(body).y,BODY_DATA[body].radius*.51);
 }
 // A close waypoint behind a globe needs a safe arc, not a line through it.
 // The bearing suggests that arc. It never changes the pilot's position.
@@ -103,11 +103,11 @@ export function createJourney({game,world,ui,input,depart,transfer,finishLaunch,
   dom.hidden('launch-film',seconds>=12.5);if(film.hidden&&!film.paused)film.pause();
   ui('passage-veil').style.opacity='0';ui('passage-progress').style.width=`${t*100}%`;
   dom.text('passage-title',seconds<11?'Cape Canaveral':'Earth departure');
-  dom.text('passage-caption',seconds<11?'Voyager 1 · 5 September 1977':'5 September 1977');
+  dom.text('passage-caption','Voyager 1 · 5 September 1977');
   const pad=input.device==='gamepad';
   const keys=`${pad?'D-pad ↑':'N'} · ${seconds<11?'Skip film':'Take control'} <span>${pad?'Menu':'Esc'} · Pause</span>`;
   if(launch.keys!==keys){dom.node('passage-keys').innerHTML=keys;launch.keys=keys;}
-  dom.text('passage-detail',seconds<11?'NASA / JPL launch film':'Simulated departure · time compressed');
+  dom.text('passage-detail',seconds<11?'NASA / JPL launch film':'NASA / JPL launch film · Simulated departure · time compressed');
   if(t===1){ui('passage').classList.remove('launching');launch=null;film.pause();film.hidden=true;game.stage='encounter';game.player.velocity.set(0,0,0);game.localSeconds=0;game.chapterTime=0;game.view='chase';world.followReady=false;game.look.identity();game.freeLook=false;game.tracking=null;ui('passage').hidden=true;reset();freshDeparture=true;departure='thrust';finishLaunch();}
  }
  function update(dt,thrust=0){
@@ -207,7 +207,7 @@ export function createJourney({game,world,ui,input,depart,transfer,finishLaunch,
   let copy=stop?(completed?stop.finding:framing?'':game.journeyNear?'L · Face the world.':stop.instruction):game.chapter===3?'Earth filled less than a pixel. Open Voyager’s original photograph.':game.chapter===4?'Listen to the pitch of the plasma waves.':game.chapter===5?'Send a command from Earth. How long until its reply arrives?':'';
   if(stop&&!stop.study&&!completed&&!framing&&!game.journeyNear){
    const following=game.tracking===stop.body;
-   const move=following?(orbitAngle>.25?`${orbitKey} · Circle towards the marker.`:`${rangeKey} · ${rangeKey==='W'?'Approach':'Move away'}.`):heading>.4?'Aim at the diamond.':'W · Approach the marker.';
+   const move=following?(orbitAngle>.25?`${orbitKey} · Circle towards the marker.`:`${rangeKey} · ${rangeKey==='W'?'Approach':'Move away'}.`):heading>.4?(pad?'Turn towards the diamond.':'L · Follow the world, then circle.'):'W · Approach the marker.';
    copy=game.destination&&!following?stop.instruction:move+' '+stop.instruction;
   }
   if(opening){title='The blue horizon';copy='Hold W to approach Earth.';}

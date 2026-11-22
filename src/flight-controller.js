@@ -33,7 +33,7 @@ export function stepAttitude(game,sample,dt){
  const demand=inputVector.set(sample.pitch/Math.max(dt,.001),sample.yaw/Math.max(dt,.001),sample.roll).multiplyScalar(game.precision?.35:1);
  // Integrate the response over the whole interval, rather than applying its
  // final angular speed for the whole frame. Mouse travel then retains its angle.
- const response=26,blend=1-Math.exp(-dt*response);
+ const response=38,blend=1-Math.exp(-dt*response);
  const turn=turnVector.copy(demand).multiplyScalar(dt).addScaledVector(relativeVector.copy(game.angular).sub(demand),blend/response);
  game.angular.lerp(demand,blend);
  if(demand.lengthSq()===0&&game.angular.lengthSq()<1e-24)game.angular.set(0,0,0);
@@ -83,11 +83,11 @@ function advanceManualFlight(game,world,sample,dt,region){
  if(demand.lengthSq()>1)demand.normalize();
  // Ease thrust changes in the control frame. Release stops propulsion at once;
  // the existing velocity remains, with no invisible damping of a coast.
- if(game.thrust&&!sample.brake)game.drive.lerp(demand,1-Math.exp(-dt*14));else game.drive.set(0,0,0);
+ if(game.thrust&&!sample.brake)game.drive.lerp(demand,1-Math.exp(-dt*22));else game.drive.set(0,0,0);
  demand.copy(game.drive).applyQuaternion(camera);
  // Thrust changes momentum; letting go leaves a coast. The local exploration
  // speed envelope is assisted, while Space supplies an explicit braking force.
- const acceleration=speed*.55;game.braking=!!sample.brake;
+ const acceleration=speed*.64;game.braking=!!sample.brake;
  // Real gravitational acceleration per presentation second, independent of
  // the deliberately assisted engine. Braking actively counters the drift.
  p.velocity.addScaledVector(localGravity(p.position,world.bodyPositions,region,gravityVector),dt);
